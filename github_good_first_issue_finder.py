@@ -260,7 +260,8 @@ def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | 
     return grouped, repo_star, total_seen
 
 def render_markdown(grouped, repo_star, title: str):
-    lines = [f"# {title}", "", f"_Generated at: {dt.datetime.utcnow().isoformat()}Z_  ", ""]
+    ts = dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z")
+    lines = [f"# {title}", "", f"_Generated at: {ts}_  ", ""]
     # order repos by stars desc
     repos_sorted = sorted(grouped.items(), key=lambda kv: (repo_star.get(kv[0], 0), kv[0]), reverse=True)
     for full, issues in repos_sorted:

@@ -2,7 +2,7 @@
 
 This repository publishes a **daily-updated list of `good first issue`-style issues** across GitHub (covering the labels `good first issue`, `good-first-issue`, and `first-timers-only`), limited to repositories with **≥1000⭐ by default** and issues **opened within the last 90 days**.
 
-> Auto-updated by GitHub Actions once a day. Configure thresholds in the workflow or script args.
+> Auto-updated by GitHub Actions every 3 days. Configure thresholds in the workflow or script args.
 
 ---
 

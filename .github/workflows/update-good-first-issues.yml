@@ -1,9 +1,9 @@
-name: Update Good First Issues Daily
+name: Update Good First Issues (Every 3 Days)
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4 * * *'  # 04:07 UTC daily
+    - cron: '7 4 */3 * *'  # 04:07 UTC every 3 days
 
 permissions:
   contents: write
