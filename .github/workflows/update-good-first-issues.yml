@@ -31,7 +31,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python github_good_first_issue_finder.py             --days 90 --min-stars 300 --state open --chunk-days 7             --out good_first_issues.md
+          python github_good_first_issue_finder.py             --days 90 --min-stars 1000 --state open --chunk-days 5             --out good_first_issues.md
 
       - name: Update README section
         run: |

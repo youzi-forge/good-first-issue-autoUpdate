@@ -187,7 +187,7 @@ def daterange_chunks(days_back: int, chunk_days: int):
         yield current, end
         current = end + dt.timedelta(days=1)
 
-def collect_issues(token: str, days_back: int, min_stars: int, state: str, chunk_days: int):
+def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | None, state: str, chunk_days: int):
     grouped = defaultdict(list)  # repo_full_name -> list of issues
     repo_star = {}  # repo_full_name -> star count
     total_seen = 0
@@ -227,7 +227,7 @@ def collect_issues(token: str, days_back: int, min_stars: int, state: str, chunk
                     full = repo.get("nameWithOwner", "")
                     stars = int((repo.get("stargazerCount") or 0))
                     repo_star[full] = stars
-                    if stars >= min_stars:
+                    if stars >= min_stars and (max_stars is None or stars <= max_stars):
                         grouped[full].append({
                             "title": node.get("title", ""),
                             "number": node.get("number", 0),
@@ -283,8 +283,9 @@ def main():
     ap = argparse.ArgumentParser(description="Find 'good first issue' in repos with >= N stars (GraphQL).")
     ap.add_argument("--days", type=int, default=90, help="How many past days to search (default: 90).")
     ap.add_argument("--min-stars", type=int, default=300, help="Minimum repo stars (default: 300).")
+    ap.add_argument("--max-stars", type=int, default=None, help="Optional maximum repo stars (default: no upper bound).")
     ap.add_argument("--state", type=str, default="open", choices=["open","all"], help="Open only or all issues.")
-    ap.add_argument("--chunk-days", type=int, default=7, help="Days per search window to bypass 1000-cap (default: 7).")
+    ap.add_argument("--chunk-days", type=int, default=5, help="Days per search window to bypass 1000-cap (default: 5).")
     ap.add_argument("--out", type=str, default="good_first_issues.md", help="Output Markdown file.")
     args = ap.parse_args()
 
@@ -295,6 +296,8 @@ def main():
         errors.append("--chunk-days must be > 0")
     if args.min_stars < 0:
         errors.append("--min-stars must be >= 0")
+    if args.max_stars is not None and args.max_stars < args.min_stars:
+        errors.append("--max-stars must be >= --min-stars")
     if errors:
         for msg in errors:
             print(f"ERROR: {msg}", file=sys.stderr)
@@ -306,8 +309,8 @@ def main():
         sys.exit(2)
 
     print(
-        "[info] Starting fetch: days={} min-stars={} state={} chunk={}".format(
-            args.days, args.min_stars, args.state, args.chunk_days
+        "[info] Starting fetch: days={} min-stars={} max-stars={} state={} chunk={}".format(
+            args.days, args.min_stars, (args.max_stars if args.max_stars is not None else '∞'), args.state, args.chunk_days
         ),
         file=sys.stderr,
         flush=True,
@@ -317,10 +320,14 @@ def main():
         token=token,
         days_back=args.days,
         min_stars=args.min_stars,
+        max_stars=args.max_stars,
         state=args.state,
         chunk_days=args.chunk_days
     )
-    title = f"Good First Issues (last {args.days} days, repos >= {args.min_stars}★, state={args.state})"
+    if args.max_stars is None:
+        title = f"Good First Issues (last {args.days} days, repos ≥ {args.min_stars}★, state={args.state})"
+    else:
+        title = f"Good First Issues (last {args.days} days, {args.min_stars}★–{args.max_stars}★, state={args.state})"
     md = render_markdown(grouped, repo_star, title)
     print(
         f"[info] Writing results to {args.out} (repos matched: {len(grouped)}, issues scanned: ~{total_seen})",

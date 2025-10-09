@@ -1,6 +1,6 @@
 # Good First Issues — Daily Auto-Updated
 
-This repository publishes a **daily-updated list of `good first issue`-style issues** across GitHub (covering the labels `good first issue`, `good-first-issue`, and `first-timers-only`), limited to repositories with **≥300⭐** and issues **opened within the last 90 days**.
+This repository publishes a **daily-updated list of `good first issue`-style issues** across GitHub (covering the labels `good first issue`, `good-first-issue`, and `first-timers-only`), limited to repositories with **≥1000⭐ by default** and issues **opened within the last 90 days**.
 
 > Auto-updated by GitHub Actions once a day. Configure thresholds in the workflow or script args.
 
@@ -13,7 +13,7 @@ This repository publishes a **daily-updated list of `good first issue`-style iss
 ---
 
 ## How it works
-- Uses GitHub GraphQL Search to fetch issues whose labels include `good first issue`, `good-first-issue`, or `first-timers-only`, within rolling time windows to avoid the 1000-result cap.
+- Uses GitHub GraphQL Search to fetch issues whose labels include `good first issue`, `good-first-issue`, or `first-timers-only`, within rolling time windows to avoid the 1000-result cap. Default window is 5 days per request.
 - Filters to repositories with at least 300 stars.
 - Renders grouped Markdown here in README.
 
@@ -23,7 +23,7 @@ Linux/macOS
 ```bash
 python -m pip install -r requirements.txt
 export GITHUB_TOKEN=ghp_xxx
-python github_good_first_issue_finder.py --days 90 --min-stars 300 --state open --chunk-days 7 --out good_first_issues.md
+python github_good_first_issue_finder.py --days 90 --min-stars 300 --max-stars 2000 --state open --chunk-days 5 --out good_first_issues.md
 python scripts/insert_section.py --readme README.md --input good_first_issues.md
 ```
 
@@ -31,6 +31,10 @@ Windows (PowerShell)
 ```powershell
 py -3 -m pip install -r requirements.txt
 $env:GITHUB_TOKEN = 'ghp_xxx'
-py -3 github_good_first_issue_finder.py --days 90 --min-stars 300 --state open --chunk-days 7 --out good_first_issues.md
+py -3 github_good_first_issue_finder.py --days 90 --min-stars 300 --max-stars 2000 --state open --chunk-days 5 --out good_first_issues.md
 py -3 scripts/insert_section.py --readme README.md --input good_first_issues.md
 ```
+
+- Notes
+  - `--max-stars` is optional; omit it for “no upper bound”.
+  - CI defaults use `--min-stars 1000` and `--chunk-days 5` to reduce output size and avoid the 1000-result cap per query.
