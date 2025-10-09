@@ -169,12 +169,13 @@ query SearchIssues($q:String!, $after:String) {
 }
 """
 
-def build_query_for_window(start_date: dt.date, end_date: dt.date, state: str, label: str) -> str:
+def build_query_for_window(start_date: dt.date, end_date: dt.date, state: str, label: str, org: str | None = None) -> str:
     # Inclusive day range like 2025-07-01..2025-07-07
     date_range = f"{start_date.isoformat()}..{end_date.isoformat()}"
     state_qual = " is:open" if state.lower() == "open" else ""
     # Use a single label per query (avoid OR grouping quirks) and restrict to issues only
-    q = f'label:"{label}" is:issue{state_qual} created:{date_range} archived:false'
+    org_qual = f" org:{org}" if org else ""
+    q = f'label:"{label}" is:issue{state_qual}{org_qual} created:{date_range} archived:false'
     return q
 
 def daterange_chunks(days_back: int, chunk_days: int):
@@ -187,7 +188,7 @@ def daterange_chunks(days_back: int, chunk_days: int):
         yield current, end
         current = end + dt.timedelta(days=1)
 
-def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | None, state: str, chunk_days: int):
+def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | None, state: str, chunk_days: int, org: str | None = None):
     grouped = defaultdict(list)  # repo_full_name -> list of issues
     repo_star = {}  # repo_full_name -> star count
     total_seen = 0
@@ -196,7 +197,7 @@ def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | 
         print(f"[info] Window {idx}: {s} → {e}", file=sys.stderr, flush=True)
         window_seen = 0
         for label in LABEL_VARIANTS:
-            q = build_query_for_window(s, e, state, label)
+            q = build_query_for_window(s, e, state, label, org)
             after = None
             label_seen = 0
             first_page = True
@@ -286,6 +287,7 @@ def main():
     ap.add_argument("--max-stars", type=int, default=None, help="Optional maximum repo stars (default: no upper bound).")
     ap.add_argument("--state", type=str, default="open", choices=["open","all"], help="Open only or all issues.")
     ap.add_argument("--chunk-days", type=int, default=5, help="Days per search window to bypass 1000-cap (default: 5).")
+    ap.add_argument("--org", type=str, default=None, help="Optional organization to scope the search (e.g., 'stdlib-js').")
     ap.add_argument("--out", type=str, default="good_first_issues.md", help="Output Markdown file.")
     args = ap.parse_args()
 
@@ -309,8 +311,13 @@ def main():
         sys.exit(2)
 
     print(
-        "[info] Starting fetch: days={} min-stars={} max-stars={} state={} chunk={}".format(
-            args.days, args.min_stars, (args.max_stars if args.max_stars is not None else '∞'), args.state, args.chunk_days
+        "[info] Starting fetch: days={} min-stars={} max-stars={} state={} chunk={} org={}".format(
+            args.days,
+            args.min_stars,
+            (args.max_stars if args.max_stars is not None else '∞'),
+            args.state,
+            args.chunk_days,
+            (args.org or '-')
         ),
         file=sys.stderr,
         flush=True,
@@ -322,7 +329,8 @@ def main():
         min_stars=args.min_stars,
         max_stars=args.max_stars,
         state=args.state,
-        chunk_days=args.chunk_days
+        chunk_days=args.chunk_days,
+        org=args.org
     )
     if args.max_stars is None:
         title = f"Good First Issues (last {args.days} days, repos ≥ {args.min_stars}★, state={args.state})"

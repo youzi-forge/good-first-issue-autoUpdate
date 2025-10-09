@@ -14,7 +14,8 @@ This repository publishes a **daily-updated list of `good first issue`-style iss
 
 ## How it works
 - Uses GitHub GraphQL Search to fetch issues whose labels include `good first issue`, `good-first-issue`, or `first-timers-only`, within rolling time windows to avoid the 1000-result cap. Default window is 5 days per request.
-- Filters to repositories with at least 300 stars.
+- Optionally scope to one organization via `--org ORGNAME` to narrow results.
+- Filters by repo stars via `--min-stars/--max-stars` (CI defaults to ≥1000★).
 - Renders grouped Markdown here in README.
 
 ## Local run
@@ -24,6 +25,8 @@ Linux/macOS
 python -m pip install -r requirements.txt
 export GITHUB_TOKEN=ghp_xxx
 python github_good_first_issue_finder.py --days 90 --min-stars 300 --max-stars 2000 --state open --chunk-days 5 --out good_first_issues.md
+# Scope to one org (optional):
+python github_good_first_issue_finder.py --days 30 --min-stars 300 --state open --chunk-days 5 --org stdlib-js --out good_first_issues.md
 python scripts/insert_section.py --readme README.md --input good_first_issues.md
 ```
 
@@ -32,6 +35,8 @@ Windows (PowerShell)
 py -3 -m pip install -r requirements.txt
 $env:GITHUB_TOKEN = 'ghp_xxx'
 py -3 github_good_first_issue_finder.py --days 90 --min-stars 300 --max-stars 2000 --state open --chunk-days 5 --out good_first_issues.md
+# Scope to one org (optional):
+py -3 github_good_first_issue_finder.py --days 30 --min-stars 300 --state open --chunk-days 5 --org stdlib-js --out good_first_issues.md
 py -3 scripts/insert_section.py --readme README.md --input good_first_issues.md
 ```
 
