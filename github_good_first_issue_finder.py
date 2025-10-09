@@ -26,6 +26,14 @@ import requests
 from collections import defaultdict
 
 GQL_ENDPOINT = "https://api.github.com/graphql"
+"""
+Network settings: conservative timeouts and bounded retries to avoid
+indefinite hangs while being polite to the GitHub API.
+"""
+REQUEST_TIMEOUT = (10, 30)  # (connect, read) seconds
+MAX_RETRIES = 5
+BACKOFF_INITIAL = 1.0  # seconds
+BACKOFF_MAX = 60.0     # cap backoff growth
 
 def gh_post(token: str, query: str, variables: dict):
     headers = {
@@ -36,10 +44,55 @@ def gh_post(token: str, query: str, variables: dict):
         "User-Agent": "good-first-issue-finder/1.0"
     }
     payload = {"query": query, "variables": variables}
+    attempt = 0
+    backoff = BACKOFF_INITIAL
     while True:
-        resp = requests.post(GQL_ENDPOINT, headers=headers, json=payload)
+        # Network call with timeout and basic retry for transient failures
+        try:
+            resp = requests.post(
+                GQL_ENDPOINT, headers=headers, json=payload, timeout=REQUEST_TIMEOUT
+            )
+        except requests.exceptions.Timeout:
+            if attempt < MAX_RETRIES:
+                wait = backoff
+                print(
+                    f"[net] Timeout; retrying in {wait:.1f}s (attempt {attempt+1}/{MAX_RETRIES})",
+                    file=sys.stderr,
+                    flush=True,
+                )
+                time.sleep(wait)
+                attempt += 1
+                backoff = min(backoff * 2, BACKOFF_MAX)
+                continue
+            raise
+        except requests.exceptions.RequestException as e:
+            if attempt < MAX_RETRIES:
+                wait = backoff
+                print(
+                    f"[net] Request error: {e}; retrying in {wait:.1f}s (attempt {attempt+1}/{MAX_RETRIES})",
+                    file=sys.stderr,
+                    flush=True,
+                )
+                time.sleep(wait)
+                attempt += 1
+                backoff = min(backoff * 2, BACKOFF_MAX)
+                continue
+            raise
         # Handle primary/secondary rate limits
-        if resp.status_code == 403 and ("rate limit" in resp.text.lower() or "secondary rate" in resp.text.lower()):
+        if resp.status_code == 429:
+            ra = resp.headers.get("Retry-After")
+            try:
+                wait = int(ra) if ra is not None else 30
+            except ValueError:
+                wait = 30
+            print(f"[rate-limit] 429 Too Many Requests; waiting {wait}s...", file=sys.stderr, flush=True)
+            time.sleep(wait)
+            continue
+        if resp.status_code == 403 and (
+            "rate limit" in resp.text.lower()
+            or "secondary rate" in resp.text.lower()
+            or resp.headers.get("X-RateLimit-Remaining") == "0"
+        ):
             reset = resp.headers.get("X-RateLimit-Reset")
             if reset and reset.isdigit():
                 wait = max(0, int(reset) - int(time.time()) + 1)
@@ -48,14 +101,37 @@ def gh_post(token: str, query: str, variables: dict):
             print(f"[rate-limit] Waiting {wait}s...", file=sys.stderr, flush=True)
             time.sleep(wait)
             continue
+        # Retry on transient 5xx responses with backoff
+        if 500 <= resp.status_code < 600:
+            if attempt < MAX_RETRIES:
+                wait = backoff
+                print(
+                    f"[server] {resp.status_code} from GitHub; retrying in {wait:.1f}s...",
+                    file=sys.stderr,
+                    flush=True,
+                )
+                time.sleep(wait)
+                attempt += 1
+                backoff = min(backoff * 2, BACKOFF_MAX)
+                continue
         resp.raise_for_status()
         data = resp.json()
         if "errors" in data:
             # Some transient errors can be retried
             msg = str(data["errors"])
             if "Something went wrong while executing your query" in msg or "timed out" in msg:
-                time.sleep(5)
-                continue
+                if attempt < MAX_RETRIES:
+                    wait = backoff
+                    print(
+                        f"[gql] Transient GraphQL error; retrying in {wait:.1f}s...",
+                        file=sys.stderr,
+                        flush=True,
+                    )
+                    time.sleep(wait)
+                    attempt += 1
+                    backoff = min(backoff * 2, BACKOFF_MAX)
+                    continue
+                raise RuntimeError(f"GraphQL errors after retries: {msg}")
             raise RuntimeError(f"GraphQL errors: {msg}")
         return data, resp.headers
 
