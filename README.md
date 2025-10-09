@@ -18,9 +18,19 @@ This repository publishes a **daily-updated list of `good first issue`-style iss
 - Renders grouped Markdown here in README.
 
 ## Local run
+
+Linux/macOS
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 export GITHUB_TOKEN=ghp_xxx
 python github_good_first_issue_finder.py --days 90 --min-stars 300 --state open --chunk-days 7 --out good_first_issues.md
 python scripts/insert_section.py --readme README.md --input good_first_issues.md
+```
+
+Windows (PowerShell)
+```powershell
+py -3 -m pip install -r requirements.txt
+$env:GITHUB_TOKEN = 'ghp_xxx'
+py -3 github_good_first_issue_finder.py --days 90 --min-stars 300 --state open --chunk-days 7 --out good_first_issues.md
+py -3 scripts/insert_section.py --readme README.md --input good_first_issues.md
 ```

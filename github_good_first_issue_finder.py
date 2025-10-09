@@ -193,9 +193,11 @@ def collect_issues(token: str, days_back: int, min_stars: int, state: str, chunk
     grouped = defaultdict(list)  # repo_full_name -> list of issues
     repo_star = {}  # repo_full_name -> star count
     total_seen = 0
-    for s, e in daterange_chunks(days_back, chunk_days):
+    for idx, (s, e) in enumerate(daterange_chunks(days_back, chunk_days), start=1):
+        print(f"[info] Window {idx}: {s} → {e}", file=sys.stderr, flush=True)
         q = build_query_for_window(s, e, state)
         after = None
+        window_seen = 0
         while True:
             data, headers = gh_post(token, GQL_SEARCH, {"q": q, "after": after})
             search = data["data"]["search"]
@@ -219,11 +221,17 @@ def collect_issues(token: str, days_back: int, min_stars: int, state: str, chunk
                         "stars": stars
                     })
             total_seen += len(nodes)
+            window_seen += len(nodes)
             if not search["pageInfo"]["hasNextPage"]:
                 break
             after = search["pageInfo"]["endCursor"]
         # Simple polite pacing between windows
         time.sleep(0.3)
+        print(
+            f"[info]   Completed window {idx}: scanned {window_seen} issues; repos matched so far {len(grouped)}",
+            file=sys.stderr,
+            flush=True,
+        )
     return grouped, repo_star, total_seen
 
 def render_markdown(grouped, repo_star, title: str):
@@ -273,6 +281,14 @@ def main():
         print("ERROR: Please set GITHUB_TOKEN environment variable.", file=sys.stderr)
         sys.exit(2)
 
+    print(
+        "[info] Starting fetch: days={} min-stars={} state={} chunk={}".format(
+            args.days, args.min_stars, args.state, args.chunk_days
+        ),
+        file=sys.stderr,
+        flush=True,
+    )
+
     grouped, repo_star, total_seen = collect_issues(
         token=token,
         days_back=args.days,
@@ -282,6 +298,11 @@ def main():
     )
     title = f"Good First Issues (last {args.days} days, repos >= {args.min_stars}★, state={args.state})"
     md = render_markdown(grouped, repo_star, title)
+    print(
+        f"[info] Writing results to {args.out} (repos matched: {len(grouped)}, issues scanned: ~{total_seen})",
+        file=sys.stderr,
+        flush=True,
+    )
     with open(args.out, "w", encoding="utf-8") as f:
         f.write(md)
     print(f"Wrote {args.out}. Scanned issues: ~{total_seen}. Repositories matched: {len(grouped)}")
