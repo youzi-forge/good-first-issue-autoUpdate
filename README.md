@@ -17,7 +17,7 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 ---
 
 ## How It Works
-- Fetches issues via GitHub GraphQL Search within rolling time windows to avoid the 1000‑result cap (default window: 5 days per request).
+- Fetches issues via GitHub GraphQL Search within rolling time windows to avoid the 1000‑result cap (default window: 5 days per request, with automatic splitting near high‑volume periods).
 - Filters by time window: uses creation date (`created:`) by default; switch to `--date-field updated` if needed.
 - Sorts per‑repo issues by last updated time (updatedAt desc; fallback createdAt).
 - Supports scoping to one organization via `--org ORGNAME`.
@@ -66,7 +66,9 @@ py -3 scripts/build_site.py --input good_first_issues.md --outdir _site --title 
 - `--min-stars` (int, default `300`): Minimum repository stars to include.
 - `--max-stars` (int, optional): Maximum repository stars; must be `>= --min-stars` if provided.
 - `--state` (`open`|`all`, default `open`): Whether to include closed issues.
-- `--chunk-days` (int, default `5`): Days per search window to help avoid the 1000-result cap per query.
+- `--chunk-days` (int, default `5`): Initial days per search window; autosplitting may refine windows near high‑volume periods.
+- `--no-auto-chunk` (flag): Disable autosplitting.
+- `--cap-per-query` (int, default `950`): Target maximum matches per label per window before splitting.
 - `--org` (string, optional): Scope search to a single organization (e.g., `stdlib-js`).
 - `--out` (path, default `good_first_issues.md`): Output Markdown file.
 - `GITHUB_TOKEN` (env): Required GitHub token. A Personal access token (classic) is recommended for broad public search.
