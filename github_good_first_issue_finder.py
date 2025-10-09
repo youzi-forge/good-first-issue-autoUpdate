@@ -280,10 +280,16 @@ def render_markdown(grouped, repo_star, title: str):
         issues_sorted = sorted(
             issues, key=lambda it: (it.get("updatedAt") or it.get("createdAt") or ""), reverse=True
         )
+        def _fmt_date(s: str) -> str:
+            if not s:
+                return "-"
+            if "T" in s:
+                return s.split("T", 1)[0]
+            return (s[:10] if len(s) >= 10 else s)
         for it in issues_sorted:
             labels = ", ".join(it["labels"]) if it["labels"] else "-"
-            updated = it.get("updatedAt") or it.get("createdAt")
-            created = it.get("createdAt")
+            updated = _fmt_date(it.get("updatedAt") or it.get("createdAt"))
+            created = _fmt_date(it.get("createdAt"))
             lines.append(
                 f"- [{it['title']}]({it['url']})  `#{it['number']}` · updated: {updated} · created: {created} · labels: {labels}"
             )
