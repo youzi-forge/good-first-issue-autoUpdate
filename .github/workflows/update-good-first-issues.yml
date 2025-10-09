@@ -48,3 +48,7 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
+      - name: Build static site (for Pages)
+        run: |
+          python scripts/build_site.py --input good_first_issues.md --outdir _site --title "Good First Issues"
