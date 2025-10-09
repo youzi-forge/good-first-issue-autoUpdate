@@ -6,9 +6,10 @@ This repository publishes a **regularly auto‑updated list of `good first issue
 
 ---
 
-<!--START_GOOD_FIRST_ISSUES-->
-*(first run has no data yet; this section will be filled by the workflow)*
-<!--END_GOOD_FIRST_ISSUES-->
+## Live site
+- The full, regularly updated list is published to GitHub Pages.
+- After the first deployment, a "GitHub Pages" environment badge appears in the repository header; click it to open the site URL.
+- Typical site URL format: `https://<your-user-or-org>.github.io/<this-repo>/`
 
 ---
 
