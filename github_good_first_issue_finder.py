@@ -1,0 +1,195 @@
+#!/usr/bin/env python3
+"""
+Find site-wide "good first issue" issues filed within the last N days,
+but only from repositories with >= MIN_STARS.
+
+Uses GitHub GraphQL API so we can fetch repository stargazerCount together
+with issues (fewer requests than REST) and paginates across date buckets
+to avoid the 1000-result cap of GitHub search.
+
+Usage:
+  export GITHUB_TOKEN=ghp_xxx_or_fine_grained_token
+  python github_good_first_issue_finder.py --days 90 --min-stars 300 --state open --chunk-days 7 --out good_first_issues.md
+
+Notes:
+- Qualifiers used: label:"good first issue" is:issue is:open created:YYYY-MM-DD..YYYY-MM-DD archived:false
+- Replace --state with "all" to include closed issues as well.
+- GraphQL rate limit is respected via headers (X-RateLimit-Remaining/Reset) and simple backoff.
+"""
+
+import os
+import sys
+import time
+import argparse
+import datetime as dt
+import requests
+from collections import defaultdict
+
+GQL_ENDPOINT = "https://api.github.com/graphql"
+
+def gh_post(token: str, query: str, variables: dict):
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json",
+        "User-Agent": "good-first-issue-finder/1.0"
+    }
+    payload = {"query": query, "variables": variables}
+    while True:
+        resp = requests.post(GQL_ENDPOINT, headers=headers, json=payload)
+        # Handle primary/secondary rate limits
+        if resp.status_code == 403 and ("rate limit" in resp.text.lower() or "secondary rate" in resp.text.lower()):
+            reset = resp.headers.get("X-RateLimit-Reset")
+            if reset and reset.isdigit():
+                wait = max(0, int(reset) - int(time.time()) + 1)
+            else:
+                wait = 30
+            print(f"[rate-limit] Waiting {wait}s...", file=sys.stderr, flush=True)
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        data = resp.json()
+        if "errors" in data:
+            # Some transient errors can be retried
+            msg = str(data["errors"])
+            if "Something went wrong while executing your query" in msg or "timed out" in msg:
+                time.sleep(5)
+                continue
+            raise RuntimeError(f"GraphQL errors: {msg}")
+        return data, resp.headers
+
+GQL_SEARCH = """
+query SearchIssues($q:String!, $after:String) {
+  search(query:$q, type:ISSUE, first:100, after:$after) {
+    issueCount
+    pageInfo { hasNextPage endCursor }
+    nodes {
+      ... on Issue {
+        title
+        number
+        url
+        createdAt
+        state
+        repository {
+          nameWithOwner
+          url
+          stargazerCount
+          isArchived
+        }
+        labels(first: 10) {
+          nodes { name }
+        }
+      }
+    }
+  }
+}
+"""
+
+def build_query_for_window(start_date: dt.date, end_date: dt.date, state: str) -> str:
+    # Inclusive day range like 2025-07-01..2025-07-07
+    date_range = f"{start_date.isoformat()}..{end_date.isoformat()}"
+    state_qual = " is:open" if state.lower() == "open" else ""
+    q = f'label:"good first issue" is:issue{state_qual} created:{date_range} archived:false'
+    return q
+
+def daterange_chunks(days_back: int, chunk_days: int):
+    today = dt.date.today()
+    start = today - dt.timedelta(days=days_back)
+    # build [start..start+chunk-1], [next..], ... until today
+    current = start
+    while current <= today:
+        end = min(current + dt.timedelta(days=chunk_days-1), today)
+        yield current, end
+        current = end + dt.timedelta(days=1)
+
+def collect_issues(token: str, days_back: int, min_stars: int, state: str, chunk_days: int):
+    grouped = defaultdict(list)  # repo_full_name -> list of issues
+    repo_star = {}  # repo_full_name -> star count
+    total_seen = 0
+    for s, e in daterange_chunks(days_back, chunk_days):
+        q = build_query_for_window(s, e, state)
+        after = None
+        while True:
+            data, headers = gh_post(token, GQL_SEARCH, {"q": q, "after": after})
+            search = data["data"]["search"]
+            nodes = search["nodes"]
+            for node in nodes:
+                repo = node["repository"]
+                if repo["isArchived"]:
+                    continue
+                full = repo["nameWithOwner"]
+                stars = int(repo["stargazerCount"] or 0)
+                repo_star[full] = stars
+                if stars >= min_stars:
+                    grouped[full].append({
+                        "title": node["title"],
+                        "number": node["number"],
+                        "url": node["url"],
+                        "createdAt": node["createdAt"],
+                        "state": node["state"],
+                        "labels": [lab["name"] for lab in (node.get("labels", {}) or {}).get("nodes", [])],
+                        "repo_url": repo["url"],
+                        "stars": stars
+                    })
+            total_seen += len(nodes)
+            if not search["pageInfo"]["hasNextPage"]:
+                break
+            after = search["pageInfo"]["endCursor"]
+        # Simple polite pacing between windows
+        time.sleep(0.3)
+    return grouped, repo_star, total_seen
+
+def render_markdown(grouped, repo_star, title: str):
+    lines = [f"# {title}", "", f"_Generated at: {dt.datetime.utcnow().isoformat()}Z_  ", ""]
+    # order repos by stars desc
+    repos_sorted = sorted(grouped.items(), key=lambda kv: (repo_star.get(kv[0], 0), kv[0]), reverse=True)
+    for full, issues in repos_sorted:
+        stars = repo_star.get(full, 0)
+        repo_url = issues[0]["repo_url"] if issues else ""
+        lines.append(f"## {full}  ⭐ {stars}")
+        if repo_url:
+            lines.append(f"[Repository]({repo_url})")
+        lines.append("")
+        # sort issues by createdAt desc
+        issues_sorted = sorted(issues, key=lambda it: it["createdAt"], reverse=True)
+        for it in issues_sorted:
+            labels = ", ".join(it["labels"]) if it["labels"] else "-"
+            lines.append(f"- [{it['title']}]({it['url']})  `#{it['number']}` · {it['createdAt']} · labels: {labels}")
+        lines.append("")
+    if not repos_sorted:
+        lines.append("> No matching issues found.")
+    return "\n".join(lines)
+
+def main():
+    ap = argparse.ArgumentParser(description="Find 'good first issue' in repos with >= N stars (GraphQL).")
+    ap.add_argument("--days", type=int, default=90, help="How many past days to search (default: 90).")
+    ap.add_argument("--min-stars", type=int, default=300, help="Minimum repo stars (default: 300).")
+    ap.add_argument("--state", type=str, default="open", choices=["open","all"], help="Open only or all issues.")
+    ap.add_argument("--chunk-days", type=int, default=7, help="Days per search window to bypass 1000-cap (default: 7).")
+    ap.add_argument("--out", type=str, default="good_first_issues.md", help="Output Markdown file.")
+    args = ap.parse_args()
+
+    token = os.getenv("GITHUB_TOKEN")
+    if not token:
+        print("ERROR: Please set GITHUB_TOKEN environment variable.", file=sys.stderr)
+        sys.exit(2)
+
+    grouped, repo_star, total_seen = collect_issues(
+        token=token,
+        days_back=args.days,
+        min_stars=args.min_stars,
+        state=args.state,
+        chunk_days=args.chunk_days
+    )
+    title = f"Good First Issues (last {args.days} days, repos >= {args.min_stars}★, state={args.state})"
+    md = render_markdown(grouped, repo_star, title)
+    with open(args.out, "w", encoding="utf-8") as f:
+        f.write(md)
+    print(f"Wrote {args.out}. Scanned issues: ~{total_seen}. Repositories matched: {len(grouped)}")
+    # Also print a short preview to stdout
+    print("\n--- Preview ---\n")
+    print("\n".join(md.splitlines()[:40]))
+
+if __name__ == "__main__":
+    main()

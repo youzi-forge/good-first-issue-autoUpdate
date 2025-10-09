@@ -1,0 +1,50 @@
+name: Update Good First Issues Daily
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 4 * * *'  # 04:07 UTC daily
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-good-first-issues
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python github_good_first_issue_finder.py             --days 90 --min-stars 300 --state open --chunk-days 7             --out good_first_issues.md
+
+      - name: Update README section
+        run: |
+          python scripts/insert_section.py --readme README.md --input good_first_issues.md
+
+      - name: Commit and push if changed
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md good_first_issues.md
+            git commit -m "chore: daily update of good-first-issues [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
