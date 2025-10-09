@@ -1,6 +1,6 @@
 # Good First Issues — Daily Auto-Updated
 
-This repository publishes a **daily-updated list of `good first issue`** across GitHub, limited to repositories with **≥300⭐** and issues **opened within the last 90 days**.
+This repository publishes a **daily-updated list of `good first issue`-style issues** across GitHub (covering the labels `good first issue`, `good-first-issue`, and `first-timers-only`), limited to repositories with **≥300⭐** and issues **opened within the last 90 days**.
 
 > Auto-updated by GitHub Actions once a day. Configure thresholds in the workflow or script args.
 
@@ -13,7 +13,7 @@ This repository publishes a **daily-updated list of `good first issue`** across 
 ---
 
 ## How it works
-- Uses GitHub GraphQL Search to fetch issues with label `good first issue`, within rolling time windows to avoid the 1000-result cap.
+- Uses GitHub GraphQL Search to fetch issues whose labels include `good first issue`, `good-first-issue`, or `first-timers-only`, within rolling time windows to avoid the 1000-result cap.
 - Filters to repositories with at least 300 stars.
 - Renders grouped Markdown here in README.
 

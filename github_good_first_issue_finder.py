@@ -12,7 +12,7 @@ Usage:
   python github_good_first_issue_finder.py --days 90 --min-stars 300 --state open --chunk-days 7 --out good_first_issues.md
 
 Notes:
-- Qualifiers used: label:"good first issue" is:issue is:open created:YYYY-MM-DD..YYYY-MM-DD archived:false
+- Qualifiers used: (label:"good first issue" OR label:"good-first-issue" OR label:"first-timers-only") is:issue is:open created:YYYY-MM-DD..YYYY-MM-DD archived:false
 - Replace --state with "all" to include closed issues as well.
 - GraphQL rate limit is respected via headers (X-RateLimit-Remaining/Reset) and simple backoff.
 """
@@ -34,6 +34,16 @@ REQUEST_TIMEOUT = (10, 30)  # (connect, read) seconds
 MAX_RETRIES = 5
 BACKOFF_INITIAL = 1.0  # seconds
 BACKOFF_MAX = 60.0     # cap backoff growth
+
+LABEL_VARIANTS = (
+    "good first issue",
+    "good-first-issue",
+    "first-timers-only",
+)
+_label_terms = [f'label:"{name}"' for name in LABEL_VARIANTS]
+LABEL_QUERY = (
+    f"({' OR '.join(_label_terms)})" if len(_label_terms) > 1 else _label_terms[0]
+)
 
 def gh_post(token: str, query: str, variables: dict):
     headers = {
@@ -166,7 +176,7 @@ def build_query_for_window(start_date: dt.date, end_date: dt.date, state: str) -
     # Inclusive day range like 2025-07-01..2025-07-07
     date_range = f"{start_date.isoformat()}..{end_date.isoformat()}"
     state_qual = " is:open" if state.lower() == "open" else ""
-    q = f'label:"good first issue" is:issue{state_qual} created:{date_range} archived:false'
+    q = f'{LABEL_QUERY} is:issue{state_qual} created:{date_range} archived:false'
     return q
 
 def daterange_chunks(days_back: int, chunk_days: int):
