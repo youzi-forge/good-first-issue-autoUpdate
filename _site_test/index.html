@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo Title</title>
+    <style>
+      :root {
+        --fg: #111;
+        --bg: #ffffff;
+        --muted: #666;
+        --accent: #0969da;
+        --border: #e5e7eb;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fg: #e5e7eb;
+          --bg: #0b0d11;
+          --muted: #9ca3af;
+          --accent: #4ea1ff;
+          --border: #1f2937;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font: 16px/1.55 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+      }
+      .wrap {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 24px 16px 80px;
+      }
+      header {
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 12px;
+        margin-bottom: 24px;
+      }
+      h1 { font-size: 1.6rem; margin: 0 0 6px 0; }
+      .meta { color: var(--muted); font-size: 0.92rem; }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace; }
+      pre { background: rgba(127,127,127,.08); padding: 12px; border-radius: 8px; overflow: auto; }
+      .content h2 { margin-top: 1.5em; border-bottom: 1px dotted var(--border); padding-bottom: 4px; }
+      .content li { margin: 4px 0; }
+      .notice { background: rgba(9,105,218,0.08); border: 1px solid var(--border); padding: 10px 12px; border-radius: 8px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Demo Title</h1>
+        <div class="meta">Generated at: 2025-10-09T10:31:52Z</div>
+        <p class="meta">This page is built from the repository's generated Markdown.</p>
+      </header>
+
+      <div class="content">
+        <pre># Demo
+
+- A
+- B
+</pre>
+      </div>
+
+      <footer class="meta" style="margin-top:40px;">
+        <p>Made with ❤️ · <a href="https://github.com/">GitHub</a> Pages</p>
+      </footer>
+    </div>
+  </body>
+  </html>
