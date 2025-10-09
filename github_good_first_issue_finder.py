@@ -12,7 +12,7 @@ Usage:
   python github_good_first_issue_finder.py --days 90 --min-stars 300 --state open --chunk-days 7 --out good_first_issues.md
 
 Notes:
-- Qualifiers used: (label:"good first issue" OR label:"good-first-issue" OR label:"first-timers-only") is:issue is:open created:YYYY-MM-DD..YYYY-MM-DD archived:false
+- Qualifiers used per request: label:"good first issue" (and other variants) is:open created:YYYY-MM-DD..YYYY-MM-DD archived:false
 - Replace --state with "all" to include closed issues as well.
 - GraphQL rate limit is respected via headers (X-RateLimit-Remaining/Reset) and simple backoff.
 """
@@ -41,9 +41,6 @@ LABEL_VARIANTS = (
     "first-timers-only",
 )
 _label_terms = [f'label:"{name}"' for name in LABEL_VARIANTS]
-LABEL_QUERY = (
-    f"({' OR '.join(_label_terms)})" if len(_label_terms) > 1 else _label_terms[0]
-)
 
 def gh_post(token: str, query: str, variables: dict):
     headers = {
@@ -172,11 +169,12 @@ query SearchIssues($q:String!, $after:String) {
 }
 """
 
-def build_query_for_window(start_date: dt.date, end_date: dt.date, state: str) -> str:
+def build_query_for_window(start_date: dt.date, end_date: dt.date, state: str, label: str) -> str:
     # Inclusive day range like 2025-07-01..2025-07-07
     date_range = f"{start_date.isoformat()}..{end_date.isoformat()}"
     state_qual = " is:open" if state.lower() == "open" else ""
-    q = f'{LABEL_QUERY} is:issue{state_qual} created:{date_range} archived:false'
+    # Use a single label per query (avoid OR grouping quirks) and restrict to issues only
+    q = f'label:"{label}" is:issue{state_qual} created:{date_range} archived:false'
     return q
 
 def daterange_chunks(days_back: int, chunk_days: int):
@@ -193,38 +191,64 @@ def collect_issues(token: str, days_back: int, min_stars: int, state: str, chunk
     grouped = defaultdict(list)  # repo_full_name -> list of issues
     repo_star = {}  # repo_full_name -> star count
     total_seen = 0
+    seen_issue_urls = set()
     for idx, (s, e) in enumerate(daterange_chunks(days_back, chunk_days), start=1):
         print(f"[info] Window {idx}: {s} → {e}", file=sys.stderr, flush=True)
-        q = build_query_for_window(s, e, state)
-        after = None
         window_seen = 0
-        while True:
-            data, headers = gh_post(token, GQL_SEARCH, {"q": q, "after": after})
-            search = data["data"]["search"]
-            nodes = search["nodes"]
-            for node in nodes:
-                repo = node["repository"]
-                if repo["isArchived"]:
-                    continue
-                full = repo["nameWithOwner"]
-                stars = int(repo["stargazerCount"] or 0)
-                repo_star[full] = stars
-                if stars >= min_stars:
-                    grouped[full].append({
-                        "title": node["title"],
-                        "number": node["number"],
-                        "url": node["url"],
-                        "createdAt": node["createdAt"],
-                        "state": node["state"],
-                        "labels": [lab["name"] for lab in (node.get("labels", {}) or {}).get("nodes", [])],
-                        "repo_url": repo["url"],
-                        "stars": stars
-                    })
-            total_seen += len(nodes)
-            window_seen += len(nodes)
-            if not search["pageInfo"]["hasNextPage"]:
-                break
-            after = search["pageInfo"]["endCursor"]
+        for label in LABEL_VARIANTS:
+            q = build_query_for_window(s, e, state, label)
+            after = None
+            label_seen = 0
+            first_page = True
+            while True:
+                data, headers = gh_post(token, GQL_SEARCH, {"q": q, "after": after})
+                search = data["data"]["search"]
+                nodes = search["nodes"]
+                if first_page:
+                    print(
+                        f"[info]   Label '{label}': issueCount={search.get('issueCount', 'n/a')}",
+                        file=sys.stderr,
+                        flush=True,
+                    )
+                    first_page = False
+                for node in nodes:
+                    # Skip non-Issue nodes (GraphQL returns PRs in type:ISSUE unless restricted by is:issue)
+                    if not isinstance(node, dict) or "repository" not in node:
+                        continue
+                    repo = node["repository"]
+                    if repo.get("isArchived"):
+                        continue
+                    url = node.get("url")
+                    if not url:
+                        continue
+                    if url in seen_issue_urls:
+                        continue
+                    seen_issue_urls.add(url)
+                    full = repo.get("nameWithOwner", "")
+                    stars = int((repo.get("stargazerCount") or 0))
+                    repo_star[full] = stars
+                    if stars >= min_stars:
+                        grouped[full].append({
+                            "title": node.get("title", ""),
+                            "number": node.get("number", 0),
+                            "url": url,
+                            "createdAt": node.get("createdAt", ""),
+                            "state": node.get("state", ""),
+                            "labels": [lab["name"] for lab in (node.get("labels", {}) or {}).get("nodes", [])],
+                            "repo_url": repo.get("url", ""),
+                            "stars": stars
+                        })
+                total_seen += len(nodes)
+                window_seen += len(nodes)
+                label_seen += len(nodes)
+                if not search["pageInfo"]["hasNextPage"]:
+                    break
+                after = search["pageInfo"]["endCursor"]
+            print(
+                f"[info]     Finished label '{label}': scanned {label_seen} issues",
+                file=sys.stderr,
+                flush=True,
+            )
         # Simple polite pacing between windows
         time.sleep(0.3)
         print(
