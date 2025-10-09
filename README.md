@@ -1,27 +1,29 @@
 # Good First Issues — Auto-Updated
 
-This repository publishes a **regularly auto‑updated list of `good first issue`‑style issues** across GitHub (covering the labels `good first issue`, `good-first-issue`, and `first-timers-only`). The published list (via CI) uses a **≥1000⭐** threshold and issues **opened within the last 90 days**; you can adjust thresholds locally via script arguments.
+Find recently opened, beginner‑friendly issues in popular GitHub repositories.
 
-> Auto-updated by GitHub Actions every 3 days. Configure thresholds in the workflow or script args.
+This repo publishes a regularly auto‑updated list of issues labeled like `good first issue` (including `good-first-issue` and `first-timers-only`). CI builds the full list and serves it on GitHub Pages. Locally you can customize filters via script arguments.
+
+- View the live list (updates every 3 days):
+  https://youzi-forge.github.io/good-first-issues-daily/
+
+## At a Glance
+- Update cadence: every 3 days (via GitHub Actions)
+- Default filters (for the published list): last 90 days, repositories ≥1000★, open issues
+- Sorting: repositories by stars (desc, then name asc); issues by last updated (desc)
+- Label variants matched: `good first issue`, `good-first-issue`, `first-timers-only`
 
 ---
 
-## Live site
-- The full, regularly updated list is published to GitHub Pages.
-- After the first deployment, a "GitHub Pages" environment badge appears in the repository header; click it to open the site URL.
-- Typical site URL format: `https://youzi-forge.github.io/good-first-issues-daily/`
+## How It Works
+- Fetches issues via GitHub GraphQL Search within rolling time windows to avoid the 1000‑result cap (default window: 5 days per request).
+- Filters by time window: uses creation date (`created:`) by default; switch to `--date-field updated` if needed.
+- Sorts per‑repo issues by last updated time (updatedAt desc; fallback createdAt).
+- Supports scoping to one organization via `--org ORGNAME`.
+- Filters by stars via `--min-stars/--max-stars` (CI uses ≥1000★ by default).
+- Publishes the full list to GitHub Pages; README focuses on usage and links.
 
----
-
-## How it works
-- Uses GitHub GraphQL Search to fetch issues whose labels include `good first issue`, `good-first-issue`, or `first-timers-only`, within rolling time windows to avoid the 1000-result cap. Default window is 5 days per request.
-- Filters by time window: by default uses creation date (created:). You can switch to updated date using `--date-field updated`.
-- Display order: per-repo issues are sorted by last updated time (updatedAt desc), with createdAt as fallback.
-- Optionally scope to one organization via `--org ORGNAME` to narrow results.
-- Filters by repo stars via `--min-stars/--max-stars` (CI defaults to ≥1000★).
-- Renders grouped Markdown here in README.
-
-## Local run
+## Quick Start (Local)
 
 Linux/macOS
 ```bash
@@ -32,7 +34,9 @@ python github_good_first_issue_finder.py --days 90 --min-stars 300 --max-stars 2
 python github_good_first_issue_finder.py --days 30 --min-stars 300 --state open --chunk-days 5 --org stdlib-js --out good_first_issues.md
 # Use updated date field (optional):
 python github_good_first_issue_finder.py --days 30 --min-stars 300 --state open --chunk-days 5 --date-field updated --out good_first_issues.md
-python scripts/insert_section.py --readme README.md --input good_first_issues.md
+# Build local HTML for preview (optional):
+python scripts/build_site.py --input good_first_issues.md --outdir _site --title "Good First Issues"
+# Then open _site/index.html in your browser
 ```
 
 Windows (PowerShell)
@@ -44,13 +48,15 @@ py -3 github_good_first_issue_finder.py --days 90 --min-stars 300 --max-stars 20
 py -3 github_good_first_issue_finder.py --days 30 --min-stars 300 --state open --chunk-days 5 --org stdlib-js --out good_first_issues.md
 # Use updated date field (optional):
 py -3 github_good_first_issue_finder.py --days 30 --min-stars 300 --state open --chunk-days 5 --date-field updated --out good_first_issues.md
-py -3 scripts/insert_section.py --readme README.md --input good_first_issues.md
+# Build local HTML for preview (optional):
+py -3 scripts/build_site.py --input good_first_issues.md --outdir _site --title "Good First Issues"
+# Then open _site/index.html
 ```
 
-- Notes
-  - `--max-stars` is optional; omit it for “no upper bound”.
-  - CI defaults use `--min-stars 1000` and `--chunk-days 5` to reduce output size and avoid the 1000-result cap per query.
-  - Script defaults: `--min-stars 300`, `--chunk-days 5` (tune via flags).
+## Defaults
+- CI (published list): `--min-stars 1000`, `--chunk-days 5`, `--days 90`, `--state open`
+- Script defaults: `--min-stars 300`, `--chunk-days 5`, `--days 90`, `--state open`
+- `--max-stars` is optional; omit it for no upper bound
 
 ## CLI Options
 
