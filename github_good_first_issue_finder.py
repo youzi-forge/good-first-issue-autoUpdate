@@ -26,6 +26,7 @@ import time
 import argparse
 import datetime as dt
 import requests
+import html as _html
 from collections import defaultdict
 
 GQL_ENDPOINT = "https://api.github.com/graphql"
@@ -329,9 +330,13 @@ def render_markdown(grouped, repo_star, title: str):
             labels = ", ".join(it["labels"]) if it["labels"] else "-"
             updated = _fmt_date(it.get("updatedAt") or it.get("createdAt"))
             created = _fmt_date(it.get("createdAt"))
-            # First line: title + number + updated/created (end with two spaces for markdown line break)
+            # Use raw HTML anchor with escaped title/URL to avoid Markdown edge cases breaking <a> tags
+            title_html = _html.escape(it.get('title', ''))
+            url_html = _html.escape(it.get('url', ''), quote=True)
+            number = it.get('number', 0)
+            # First line: title link + number + updated/created (two spaces for markdown line break)
             lines.append(
-                f"- [{it['title']}]({it['url']})  `#{it['number']}` · updated: {updated} · created: {created}  "
+                f"- <a href=\"{url_html}\">{title_html}</a>  <code>#{number}</code> · updated: {updated} · created: {created}  "
             )
             # Second line: labels on their own line for readability (still part of the same list item)
             lines.append(f"  labels: {labels}")
