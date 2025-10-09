@@ -1,6 +1,6 @@
 # Good First Issues — Auto-Updated
 
-This repository publishes a **regularly auto‑updated list of `good first issue`‑style issues** across GitHub (covering the labels `good first issue`, `good-first-issue`, and `first-timers-only`), limited to repositories with **≥1000⭐ by default** and issues **opened within the last 90 days**.
+This repository publishes a **regularly auto‑updated list of `good first issue`‑style issues** across GitHub (covering the labels `good first issue`, `good-first-issue`, and `first-timers-only`). The published list (via CI) uses a **≥1000⭐** threshold and issues **opened within the last 90 days**; you can adjust thresholds locally via script arguments.
 
 > Auto-updated by GitHub Actions every 3 days. Configure thresholds in the workflow or script args.
 
@@ -49,3 +49,30 @@ py -3 scripts/insert_section.py --readme README.md --input good_first_issues.md
 - Notes
   - `--max-stars` is optional; omit it for “no upper bound”.
   - CI defaults use `--min-stars 1000` and `--chunk-days 5` to reduce output size and avoid the 1000-result cap per query.
+  - Script defaults: `--min-stars 300`, `--chunk-days 5` (tune via flags).
+
+## CLI Options
+
+- `--days` (int, default `90`): Number of past days to search.
+- `--date-field` (`created`|`updated`, default `created`): Which timestamp the search window applies to.
+- `--min-stars` (int, default `300`): Minimum repository stars to include.
+- `--max-stars` (int, optional): Maximum repository stars; must be `>= --min-stars` if provided.
+- `--state` (`open`|`all`, default `open`): Whether to include closed issues.
+- `--chunk-days` (int, default `5`): Days per search window to help avoid the 1000-result cap per query.
+- `--org` (string, optional): Scope search to a single organization (e.g., `stdlib-js`).
+- `--out` (path, default `good_first_issues.md`): Output Markdown file.
+- `GITHUB_TOKEN` (env): Required GitHub token. A Personal access token (classic) is recommended for broad public search.
+
+## Troubleshooting
+
+- No or too few results
+  - Verify `GITHUB_TOKEN` is set and is a classic PAT. Fine‑grained tokens can restrict search scope.
+  - Reduce `--chunk-days` (e.g., `5` → `2` or `1`) to lower per-query volume.
+  - Try `--date-field updated` if you care about recent activity rather than creation date.
+  - Use `--org ORGNAME` to limit scope and avoid hitting API caps.
+- Output too large
+  - Increase `--min-stars`, set `--max-stars`, reduce `--days`, or scope with `--org`.
+- Logs show `issueCount` near 1000 but `scanned` ~1000
+  - GitHub caps each search at ~1000 accessible results. Shrink `--chunk-days` and/or add `--org`.
+- Rate limiting
+  - The script backs off automatically. If it pauses, let it continue or rerun later.
