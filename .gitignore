@@ -1,0 +1,17 @@
+# Local preview artifacts
+_site/
+_site_test/
+
+# Scratch files used during development
+README.test.md
+sample.md
+
+# Python virtual envs (if created locally)
+.venv/
+venv/
+ENV/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db

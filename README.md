@@ -1,5 +1,9 @@
 # Good First Issues — Auto-Updated
 
+[![Update List](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/update-good-first-issues.yml/badge.svg)](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/update-good-first-issues.yml)
+[![Deploy Pages](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/deploy-pages.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 Find recently opened, beginner‑friendly issues in popular GitHub repositories.
 
 This repo publishes a regularly auto‑updated list of issues labeled like `good first issue` (including `good-first-issue` and `first-timers-only`). CI builds the full list and serves it on GitHub Pages. Locally you can customize filters via script arguments.
@@ -13,6 +17,14 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 - Default filters (for the published list): last 90 days, repositories ≥1000★, open issues
 - Sorting: repositories by stars (desc, then name asc); issues by last updated (desc)
 - Label variants matched: `good first issue`, `good-first-issue`, `first-timers-only`
+
+---
+
+## Project Info
+- Live site: https://youzi-forge.github.io/good-first-issue-autoUpdate/ · Last updated: <!--LAST_UPDATED-->2025-10-09 11:49 UTC<!--/LAST_UPDATED-->
+- Workflows: [Update list](.github/workflows/update-good-first-issues.yml), [Deploy Pages](.github/workflows/deploy-pages.yml)
+- License: [MIT](LICENSE)
+- Releases: https://github.com/youzi-forge/good-first-issue-autoUpdate/releases
 
 ---
 
