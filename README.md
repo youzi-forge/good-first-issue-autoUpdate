@@ -14,6 +14,8 @@ This repository publishes a **daily-updated list of `good first issue`-style iss
 
 ## How it works
 - Uses GitHub GraphQL Search to fetch issues whose labels include `good first issue`, `good-first-issue`, or `first-timers-only`, within rolling time windows to avoid the 1000-result cap. Default window is 5 days per request.
+- Filters by creation date: issues opened within the last N days (created: range).
+- Display order: per-repo issues are sorted by last updated time (updatedAt desc), with createdAt as fallback.
 - Optionally scope to one organization via `--org ORGNAME` to narrow results.
 - Filters by repo stars via `--min-stars/--max-stars` (CI defaults to ≥1000★).
 - Renders grouped Markdown here in README.

@@ -13,6 +13,7 @@ Usage:
 
 Notes:
 - Qualifiers used per request: label:"good first issue" (and other variants) is:open created:YYYY-MM-DD..YYYY-MM-DD archived:false
+- Rendering sorts issues by updatedAt (desc), falling back to createdAt when needed.
 - Replace --state with "all" to include closed issues as well.
 - GraphQL rate limit is respected via headers (X-RateLimit-Remaining/Reset) and simple backoff.
 """
@@ -153,6 +154,7 @@ query SearchIssues($q:String!, $after:String) {
         number
         url
         createdAt
+        updatedAt
         state
         repository {
           nameWithOwner
@@ -234,6 +236,7 @@ def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | 
                             "number": node.get("number", 0),
                             "url": url,
                             "createdAt": node.get("createdAt", ""),
+                            "updatedAt": node.get("updatedAt", ""),
                             "state": node.get("state", ""),
                             "labels": [lab["name"] for lab in (node.get("labels", {}) or {}).get("nodes", [])],
                             "repo_url": repo.get("url", ""),
@@ -262,8 +265,10 @@ def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | 
 def render_markdown(grouped, repo_star, title: str):
     ts = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds').replace("+00:00", "Z")
     lines = [f"# {title}", "", f"_Generated at: {ts}_  ", ""]
-    # order repos by stars desc
-    repos_sorted = sorted(grouped.items(), key=lambda kv: (repo_star.get(kv[0], 0), kv[0]), reverse=True)
+    # order repos by stars desc, then name asc for stable ordering
+    repos_sorted = sorted(
+        grouped.items(), key=lambda kv: (-repo_star.get(kv[0], 0), kv[0])
+    )
     for full, issues in repos_sorted:
         stars = repo_star.get(full, 0)
         repo_url = issues[0]["repo_url"] if issues else ""
@@ -271,11 +276,17 @@ def render_markdown(grouped, repo_star, title: str):
         if repo_url:
             lines.append(f"[Repository]({repo_url})")
         lines.append("")
-        # sort issues by createdAt desc
-        issues_sorted = sorted(issues, key=lambda it: it["createdAt"], reverse=True)
+        # sort issues by updatedAt desc (fallback to createdAt)
+        issues_sorted = sorted(
+            issues, key=lambda it: (it.get("updatedAt") or it.get("createdAt") or ""), reverse=True
+        )
         for it in issues_sorted:
             labels = ", ".join(it["labels"]) if it["labels"] else "-"
-            lines.append(f"- [{it['title']}]({it['url']})  `#{it['number']}` · {it['createdAt']} · labels: {labels}")
+            updated = it.get("updatedAt") or it.get("createdAt")
+            created = it.get("createdAt")
+            lines.append(
+                f"- [{it['title']}]({it['url']})  `#{it['number']}` · updated: {updated} · created: {created} · labels: {labels}"
+            )
         lines.append("")
     if not repos_sorted:
         lines.append("> No matching issues found.")
