@@ -5,7 +5,7 @@ Find recently opened, beginner‑friendly issues in popular GitHub repositories.
 This repo publishes a regularly auto‑updated list of issues labeled like `good first issue` (including `good-first-issue` and `first-timers-only`). CI builds the full list and serves it on GitHub Pages. Locally you can customize filters via script arguments.
 
 - View the live list (updates every 3 days):
-  https://youzi-forge.github.io/good-first-issues-daily/
+  https://youzi-forge.github.io/good-first-issue-autoUpdate/
 
 ## At a Glance
 - Update cadence: every 3 days (via GitHub Actions)
