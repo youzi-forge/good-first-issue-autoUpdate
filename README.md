@@ -9,7 +9,7 @@ This repository publishes a **regularly auto‑updated list of `good first issue
 ## Live site
 - The full, regularly updated list is published to GitHub Pages.
 - After the first deployment, a "GitHub Pages" environment badge appears in the repository header; click it to open the site URL.
-- Typical site URL format: `https://<your-user-or-org>.github.io/<this-repo>/`
+- Typical site URL format: `https://youzi-forge.github.io/good-first-issues-daily/`
 
 ---
 
