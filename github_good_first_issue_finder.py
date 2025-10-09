@@ -193,20 +193,56 @@ def daterange_chunks(days_back: int, chunk_days: int):
         yield current, end
         current = end + dt.timedelta(days=1)
 
-def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | None, state: str, chunk_days: int, org: str | None = None, date_field: str = "created"):
+def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | None, state: str, chunk_days: int, org: str | None = None, date_field: str = "created", auto_chunk: bool = True, cap_per_query: int = 950):
     grouped = defaultdict(list)  # repo_full_name -> list of issues
     repo_star = {}  # repo_full_name -> star count
     total_seen = 0
     seen_issue_urls = set()
-    for idx, (s, e) in enumerate(daterange_chunks(days_back, chunk_days), start=1):
+    # Prepare initial windows (older -> newer)
+    windows = list(daterange_chunks(days_back, chunk_days))
+    idx = 0
+    while windows:
+        s, e = windows.pop(0)
+        idx += 1
         print(f"[info] Window {idx}: {s} → {e}", file=sys.stderr, flush=True)
+        # Optionally probe and split window if result volume is too high (use primary label as proxy)
+        if auto_chunk:
+            probe_label = LABEL_VARIANTS[0]
+            q_probe = build_query_for_window(s, e, state, probe_label, org, date_field)
+            data_probe, _ = gh_post(token, GQL_SEARCH, {"q": q_probe, "after": None})
+            search_probe = data_probe["data"]["search"]
+            icount = int(search_probe.get("issueCount") or 0)
+            print(f"[info]   Probe '{probe_label}': issueCount={icount}", file=sys.stderr, flush=True)
+            days = (e - s).days + 1
+            if icount > cap_per_query and days > 1:
+                # Split window roughly in half
+                mid = s + dt.timedelta(days=days // 2 - 1)
+                left = (s, mid)
+                right = (mid + dt.timedelta(days=1), e)
+                print(
+                    f"[split]   High volume ({icount} > {cap_per_query}); splitting {s}..{e} into {left[0]}..{left[1]} and {right[0]}..{right[1]}",
+                    file=sys.stderr,
+                    flush=True,
+                )
+                # Process left first, then right (older -> newer)
+                windows.insert(0, right)
+                windows.insert(0, left)
+                # Try next (do not process this large window)
+                time.sleep(0.1)
+                continue
+
         window_seen = 0
         for label in LABEL_VARIANTS:
             q = build_query_for_window(s, e, state, label, org, date_field)
             after = None
             label_seen = 0
             first_page = True
+            first_page_cached = None
             while True:
+                if first_page and auto_chunk and label == LABEL_VARIANTS[0]:
+                    # Reuse probe page results for primary label if available
+                    # Note: data_probe/search_probe from above only for primary label; for simplicity we re-fetch here if not cached
+                    pass
                 data, headers = gh_post(token, GQL_SEARCH, {"q": q, "after": after})
                 search = data["data"]["search"]
                 nodes = search["nodes"]
@@ -310,7 +346,7 @@ def main():
     ap.add_argument("--min-stars", type=int, default=300, help="Minimum repo stars (default: 300).")
     ap.add_argument("--max-stars", type=int, default=None, help="Optional maximum repo stars (default: no upper bound).")
     ap.add_argument("--state", type=str, default="open", choices=["open","all"], help="Open only or all issues.")
-    ap.add_argument("--chunk-days", type=int, default=5, help="Days per search window to bypass 1000-cap (default: 5).")
+    ap.add_argument("--chunk-days", type=int, default=5, help="Initial days per search window (autosplit may refine; default: 5).")
     ap.add_argument("--org", type=str, default=None, help="Optional organization to scope the search (e.g., 'stdlib-js').")
     ap.add_argument(
         "--date-field",
@@ -318,6 +354,18 @@ def main():
         default="created",
         choices=["created", "updated"],
         help="Which timestamp field to search against (default: created).",
+    )
+    ap.add_argument(
+        "--no-auto-chunk",
+        dest="auto_chunk",
+        action="store_false",
+        help="Disable automatic window splitting to keep per-query results under cap.",
+    )
+    ap.add_argument(
+        "--cap-per-query",
+        type=int,
+        default=950,
+        help="Target maximum matches per label per window before splitting further (default: 950).",
     )
     ap.add_argument("--out", type=str, default="good_first_issues.md", help="Output Markdown file.")
     args = ap.parse_args()
@@ -331,6 +379,8 @@ def main():
         errors.append("--min-stars must be >= 0")
     if args.max_stars is not None and args.max_stars < args.min_stars:
         errors.append("--max-stars must be >= --min-stars")
+    if args.cap_per_query <= 0 or args.cap_per_query > 1000:
+        errors.append("--cap-per-query must be in (0, 1000]")
     if errors:
         for msg in errors:
             print(f"ERROR: {msg}", file=sys.stderr)
@@ -342,7 +392,7 @@ def main():
         sys.exit(2)
 
     print(
-        "[info] Starting fetch: days={} min-stars={} max-stars={} state={} chunk={} org={} date={}".format(
+        "[info] Starting fetch: days={} min-stars={} max-stars={} state={} chunk={} org={} date={} autosplit={} cap={}".format(
             args.days,
             args.min_stars,
             (args.max_stars if args.max_stars is not None else '∞'),
@@ -350,6 +400,8 @@ def main():
             args.chunk_days,
             (args.org or '-'),
             args.date_field,
+            bool(getattr(args, 'auto_chunk', True)),
+            args.cap_per_query,
         ),
         file=sys.stderr,
         flush=True,
@@ -364,6 +416,8 @@ def main():
         chunk_days=args.chunk_days,
         org=args.org,
         date_field=args.date_field,
+        auto_chunk=bool(getattr(args, 'auto_chunk', True)),
+        cap_per_query=args.cap_per_query,
     )
     if args.max_stars is None:
         title = f"Good First Issues (last {args.days} days, repos ≥ {args.min_stars}★, state={args.state})"
