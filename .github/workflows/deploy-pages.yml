@@ -2,8 +2,9 @@ name: Deploy GitHub Pages (Site)
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ main ]
+  workflow_run:
+    workflows: ["Update Good First Issues (Every 3 Days)"]
+    types: [completed]
 
 permissions:
   contents: read
@@ -16,13 +17,33 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    outputs:
+      changed: ${{ steps.diff.outputs.changed }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
+      - name: Check if dataset changed
+        id: diff
+        run: |
+          set -e
+          git fetch origin main --depth=2 || true
+          if ! git rev-parse HEAD^ >/dev/null 2>&1; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          if git diff --quiet HEAD^ HEAD -- good_first_issues.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -30,19 +51,23 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
+        if: steps.diff.outputs.changed == 'true'
         run: |
           pip install -r requirements.txt || true
 
       - name: Build static site
+        if: steps.diff.outputs.changed == 'true'
         run: |
           python scripts/build_site.py --input good_first_issues.md --outdir _site --title "Good First Issues"
 
       - name: Upload artifact
+        if: steps.diff.outputs.changed == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
   deploy:
+    if: ${{ needs.build.outputs.changed == 'true' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
