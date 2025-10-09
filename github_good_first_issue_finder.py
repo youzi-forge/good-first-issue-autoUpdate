@@ -246,6 +246,18 @@ def main():
     ap.add_argument("--out", type=str, default="good_first_issues.md", help="Output Markdown file.")
     args = ap.parse_args()
 
+    errors = []
+    if args.days <= 0:
+        errors.append("--days must be > 0")
+    if args.chunk_days <= 0:
+        errors.append("--chunk-days must be > 0")
+    if args.min_stars < 0:
+        errors.append("--min-stars must be >= 0")
+    if errors:
+        for msg in errors:
+            print(f"ERROR: {msg}", file=sys.stderr)
+        sys.exit(2)
+
     token = os.getenv("GITHUB_TOKEN")
     if not token:
         print("ERROR: Please set GITHUB_TOKEN environment variable.", file=sys.stderr)
