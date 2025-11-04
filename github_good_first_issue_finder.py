@@ -29,6 +29,10 @@ import requests
 import html as _html
 from collections import defaultdict
 
+if not os.getenv("GITHUB_TOKEN"):
+    print("ERROR: GITHUB_TOKEN not set. Please export your GitHub token as an environment variable.")
+    sys.exit(1)
+
 GQL_ENDPOINT = "https://api.github.com/graphql"
 """
 Network settings: conservative timeouts and bounded retries to avoid
