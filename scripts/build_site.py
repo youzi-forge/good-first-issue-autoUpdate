@@ -135,6 +135,7 @@ HTML_TEMPLATE = r"""<!doctype html>
         gap: 12px;
         flex-wrap: wrap;
         align-items: flex-end;
+        margin-top: 6px;
       }}
       .toolbar-actions button {{
         border: 1px solid var(--border);
@@ -288,8 +289,12 @@ HTML_TEMPLATE = r"""<!doctype html>
       <section class="toolbar" aria-label="Issue controls">
           <div class="toolbar-grid">
             <div class="toolbar-field">
-              <label for="search-input">Search</label>
-              <input id="search-input" type="search" placeholder="Search repositories or issues">
+              <label for="repo-search-input">Repositories</label>
+              <input id="repo-search-input" type="search" placeholder="Search repositories">
+            </div>
+            <div class="toolbar-field">
+              <label for="issue-search-input">Issues</label>
+              <input id="issue-search-input" type="search" placeholder="Search issues">
             </div>
             <div class="toolbar-field">
               <label for="label-input">Labels</label>
@@ -400,10 +405,21 @@ HTML_TEMPLATE = r"""<!doctype html>
         // After grouping, render label badges inside each issue item
         renderLabelBadges(content);
 
-        var status = document.getElementById('toolbar-status');
-        if (status) {{
-          status.textContent = 'Loaded ' + repoCount + ' repositories · ' + issueTotal + ' issues';
-        }}
+        // Cache totals and stars on each repo card for faster updates
+        document.querySelectorAll('.repo-card').forEach(function (card) {{
+          var total = card.querySelectorAll('.repo-body li').length;
+          var meta = card.querySelector('.repo-meta');
+          var starsText = meta && meta.textContent ? meta.textContent.trim() : '';
+          var stars = '';
+          var mStar = starsText.match(/\u2B50\s*(\d+)/); // ⭐ <num>
+          if (mStar) stars = mStar[1];
+          card.dataset.total = String(total);
+          if (stars) card.dataset.stars = stars;
+        }});
+
+        // Wire toolbar controls and perform initial filter (no-op but updates counters)
+        wireControls();
+        filterAndUpdate();
       }});
       
       function renderLabelBadges(root) {{
@@ -449,6 +465,113 @@ HTML_TEMPLATE = r"""<!doctype html>
             row.appendChild(span);
           }});
           li.appendChild(row);
+        }});
+      }}
+
+      function debounce(fn, delay) {{
+        var t = null;
+        return function () {{
+          var ctx = this, args = arguments;
+          clearTimeout(t);
+          t = setTimeout(function () {{ fn.apply(ctx, args); }}, delay);
+        }};
+      }}
+
+      function parseLabelFilters(raw) {{
+        return (raw || '')
+          .toLowerCase()
+          .split(/[\s,]+/)
+          .map(function (s) {{ return s.trim(); }})
+          .filter(Boolean);
+      }}
+
+      function updateStatus() {{
+        var status = document.getElementById('toolbar-status');
+        if (!status) return;
+        var repos = 0, issues = 0;
+        document.querySelectorAll('.repo-card').forEach(function (card) {{
+          if (card.style.display === 'none') return;
+          repos += 1;
+          var visible = card.querySelectorAll('.repo-body li:not([data-hidden="1"])').length;
+          issues += visible;
+        }});
+        status.textContent = 'Showing ' + repos + ' repositories · ' + issues + ' issues';
+      }}
+
+      function filterAndUpdate() {{
+        var repoTerm = (document.getElementById('repo-search-input') || {{ value: '' }}).value.toLowerCase().trim();
+        var issueTerm = (document.getElementById('issue-search-input') || {{ value: '' }}).value.toLowerCase().trim();
+        var labelRaw = (document.getElementById('label-input') || {{ value: '' }}).value;
+        var labelFilters = parseLabelFilters(labelRaw);
+        var hasFilter = !!repoTerm || !!issueTerm || labelFilters.length > 0;
+
+        var cards = document.querySelectorAll('.repo-card');
+        cards.forEach(function (card) {{
+          var total = parseInt(card.dataset.total || '0', 10) || 0;
+          var stars = card.dataset.stars || '';
+          var visible = 0;
+          var nameEl = card.querySelector('.repo-summary h3');
+          var repoText = (nameEl ? nameEl.textContent : '').toLowerCase();
+          var repoMatches = !repoTerm || repoText.indexOf(repoTerm) !== -1;
+
+          if (!repoMatches) {{
+            // Repo name doesn't match repoTerm; hide entire card regardless of issues
+            card.style.display = 'none';
+            var meta = card.querySelector('.repo-meta');
+            if (meta) {{
+              var metaText = (stars ? ('⭐ ' + stars + ' · ') : '') + '0' + (hasFilter ? (' of ' + total) : '') + ' issues';
+              meta.textContent = metaText;
+            }}
+            return; // next card
+          }}
+          var issues = card.querySelectorAll('.repo-body li');
+          issues.forEach(function (li) {{
+            var text = (li.textContent || '').toLowerCase();
+            var issueMatches = !issueTerm || text.indexOf(issueTerm) !== -1;
+            var matchesText = issueMatches; // repoTerm handled at card level
+            var labelsStr = li.getAttribute('data-labels') || '';
+            var labels = labelsStr ? labelsStr.split('|') : [];
+            var matchesLabels = labelFilters.length === 0 || labelFilters.some(function (f) {{ return labels.indexOf(f) !== -1; }});
+            var show = matchesText && matchesLabels;
+            li.style.display = show ? '' : 'none';
+            li.setAttribute('data-hidden', show ? '0' : '1');
+            if (show) visible += 1;
+          }});
+
+        	// Show or hide the entire repo card
+          card.style.display = visible > 0 ? '' : 'none';
+          // Auto-expand matched repos when filtering
+          if (hasFilter && visible > 0) {{
+            card.open = true;
+          }}
+          // Update summary meta text
+          var meta = card.querySelector('.repo-meta');
+          if (meta) {{
+            var text = (stars ? ('⭐ ' + stars + ' · ') : '') + visible + (hasFilter ? (' of ' + total) : '') + ' ' + (visible === 1 ? 'issue' : 'issues');
+            meta.textContent = text;
+          }}
+        }});
+        updateStatus();
+      }}
+
+      function wireControls() {{
+        var repoSearch = document.getElementById('repo-search-input');
+        var issueSearch = document.getElementById('issue-search-input');
+        var labels = document.getElementById('label-input');
+        var onChange = debounce(filterAndUpdate, 150);
+        if (repoSearch) repoSearch.addEventListener('input', onChange);
+        if (issueSearch) issueSearch.addEventListener('input', onChange);
+        if (labels) labels.addEventListener('input', onChange);
+
+        var expandAll = document.getElementById('expand-all');
+        var collapseAll = document.getElementById('collapse-all');
+        if (expandAll) expandAll.addEventListener('click', function () {{
+          document.querySelectorAll('.repo-card').forEach(function (card) {{ card.open = true; card.style.display = ''; }});
+          updateStatus();
+        }});
+        if (collapseAll) collapseAll.addEventListener('click', function () {{
+          document.querySelectorAll('.repo-card').forEach(function (card) {{ card.open = false; card.style.display = ''; }});
+          updateStatus();
         }});
       }}
     }})();
