@@ -27,58 +27,295 @@ HTML_TEMPLATE = """<!doctype html>
     <style>
       :root {{
         --fg: #111;
-        --bg: #ffffff;
-        --muted: #666;
+        --bg: #f8fafc;
+        --muted: #5f6368;
         --accent: #0969da;
-        --border: #e5e7eb;
+        --border: #e2e8f0;
+        --card: #ffffff;
+        --shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
       }}
       @media (prefers-color-scheme: dark) {{
         :root {{
           --fg: #e5e7eb;
-          --bg: #0b0d11;
+          --bg: #05070c;
           --muted: #9ca3af;
           --accent: #4ea1ff;
           --border: #1f2937;
+          --card: #0f172a;
+          --shadow: 0 12px 28px rgba(0, 0, 0, 0.65);
         }}
+      }}
+      * {{
+        box-sizing: border-box;
       }}
       body {{
         margin: 0;
+        font: 16px/1.55 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
         background: var(--bg);
         color: var(--fg);
-        font: 16px/1.55 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+        min-height: 100vh;
+      }}
+      a {{
+        color: var(--accent);
+        text-decoration: none;
+      }}
+      a:hover {{
+        text-decoration: underline;
+      }}
+      code, pre {{
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace;
+      }}
+      pre {{
+        background: rgba(127, 127, 127, 0.08);
+        padding: 12px;
+        border-radius: 8px;
+        overflow: auto;
       }}
       .wrap {{
-        max-width: 980px;
+        max-width: 1100px;
         margin: 0 auto;
         padding: 24px 16px 80px;
       }}
-      header {{
-        border-bottom: 1px solid var(--border);
-        padding-bottom: 12px;
-        margin-bottom: 24px;
+      .page-header {{
+        margin-bottom: 32px;
       }}
-      h1 {{ font-size: 1.6rem; margin: 0 0 6px 0; }}
-      .meta {{ color: var(--muted); font-size: 0.92rem; }}
-      a {{ color: var(--accent); text-decoration: none; }}
-      a:hover {{ text-decoration: underline; }}
-      code, pre {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace; }}
-      pre {{ background: rgba(127,127,127,.08); padding: 12px; border-radius: 8px; overflow: auto; }}
-      .content h2 {{ margin-top: 1.5em; border-bottom: 1px dotted var(--border); padding-bottom: 4px; }}
-      .content li {{ margin: 4px 0; }}
-      .notice {{ background: rgba(9,105,218,0.08); border: 1px solid var(--border); padding: 10px 12px; border-radius: 8px; }}
+      .hero {{
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+      }}
+      .hero h1 {{
+        font-size: 1.9rem;
+        margin: 0 0 8px 0;
+      }}
+      .meta {{
+        color: var(--muted);
+        font-size: 0.95rem;
+      }}
+      .toolbar {{
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 16px;
+        box-shadow: var(--shadow);
+      }}
+      .toolbar-grid {{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }}
+      .toolbar-field label {{
+        display: block;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        margin-bottom: 6px;
+        color: var(--muted);
+      }}
+      .toolbar-field input,
+      .toolbar-field select {{
+        width: 100%;
+        border: 1px solid var(--border);
+        background: var(--card);
+        color: var(--fg);
+        border-radius: 10px;
+        padding: 10px 12px;
+        font-size: 0.95rem;
+      }}
+      .toolbar-field input:focus,
+      .toolbar-field select:focus {{
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }}
+      .toolbar-actions {{
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        align-items: flex-end;
+      }}
+      .toolbar-actions button {{
+        border: 1px solid var(--border);
+        background: var(--card);
+        color: var(--fg);
+        padding: 10px 16px;
+        border-radius: 999px;
+        font-size: 0.95rem;
+        cursor: pointer;
+        transition: background 0.2s ease, border-color 0.2s ease;
+      }}
+      .toolbar-actions button:hover {{
+        background: rgba(9, 105, 218, 0.08);
+        border-color: var(--accent);
+      }}
+      .toolbar-actions button:focus {{
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }}
+      .toolbar-status {{
+        margin-top: 14px;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }}
+      main {{
+        display: block;
+      }}
+      .content {{
+        margin-top: 24px;
+      }}
+      .content h1:first-of-type {{
+        margin-top: 0;
+      }}
+      .content h2 {{
+        margin-top: 2rem;
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--border);
+        font-size: 1.25rem;
+      }}
+      .content ul {{
+        list-style: none;
+        padding-left: 0;
+        margin: 0.6rem 0 1.6rem 0;
+      }}
+      .content li {{
+        margin: 0;
+        padding: 12px 14px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        background: var(--card);
+        box-shadow: var(--shadow);
+        margin-bottom: 10px;
+      }}
+      .content li a {{
+        font-weight: 600;
+      }}
+      .content li code {{
+        background: rgba(15, 23, 42, 0.08);
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 0.9rem;
+      }}
+      .muted {{
+        color: var(--muted);
+      }}
+      .notice {{
+        background: rgba(9, 105, 218, 0.08);
+        border: 1px solid var(--border);
+        padding: 12px 14px;
+        border-radius: 12px;
+        margin-top: 16px;
+      }}
+      .repo-card {{
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        margin-bottom: 18px;
+        background: var(--card);
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }}
+      .repo-summary {{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 20px;
+        cursor: pointer;
+      }}
+      .repo-summary h3 {{
+        margin: 0;
+        font-size: 1.2rem;
+      }}
+      .repo-meta {{
+        font-size: 0.95rem;
+        color: var(--muted);
+      }}
+      .repo-body {{
+        padding: 0 20px 20px 20px;
+      }}
+      .issue-item {{
+        padding: 14px 0;
+        border-bottom: 1px solid var(--border);
+      }}
+      .issue-item:last-child {{
+        border-bottom: 0;
+      }}
+      .label-badges {{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 6px;
+      }}
+      .label-badge {{
+        font-size: 0.78rem;
+        padding: 2px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: rgba(9, 105, 218, 0.08);
+      }}
+      .sr-only {{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }}
+      @media (max-width: 720px) {{
+        .toolbar {{
+          position: static;
+        }}
+        .toolbar-actions {{
+          flex-direction: column;
+          align-items: stretch;
+        }}
+        .content li {{
+          padding: 10px 12px;
+        }}
+      }}
     </style>
   </head>
   <body>
     <div class="wrap">
-      <header>
-        <h1>{title}</h1>
-        <div class="meta">Generated at: {ts}</div>
-        <p class="meta">This page is built from the repository's generated Markdown.</p>
+      <header class="page-header" aria-label="Project overview">
+        <div class="hero">
+          <h1>{title}</h1>
+          <div class="meta">Generated at: {ts}</div>
+          <p class="meta">This page is built from the repository's generated Markdown.</p>
+        </div>
+      <section class="toolbar" aria-label="Issue controls">
+          <div class="toolbar-grid">
+            <div class="toolbar-field">
+              <label for="search-input">Search</label>
+              <input id="search-input" type="search" placeholder="Search repositories or issues">
+            </div>
+            <div class="toolbar-field">
+              <label for="label-input">Labels</label>
+              <input id="label-input" type="text" placeholder="label-a, label-b">
+            </div>
+          </div>
+          <div class="toolbar-actions" aria-label="Visibility controls">
+            <button type="button" id="expand-all">Expand all</button>
+            <button type="button" id="collapse-all">Collapse all</button>
+          </div>
+          <div class="toolbar-status" id="toolbar-status" aria-live="polite">
+            Showing all repositories · interactive controls activate once JavaScript loads.
+          </div>
+        </section>
+        <noscript>
+          <p class="notice">
+            Interactive filtering requires JavaScript. The full issue list is still available below.
+          </p>
+        </noscript>
       </header>
 
-      <div class="content">
-        {body}
-      </div>
+      <main id="app">
+        <div class="content" id="issue-content">
+          {body}
+        </div>
+      </main>
 
       <footer class="meta" style="margin-top:40px;">
         <p>Made with ❤️ · <a href="https://github.com/">GitHub</a> Pages</p>
@@ -126,4 +363,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
