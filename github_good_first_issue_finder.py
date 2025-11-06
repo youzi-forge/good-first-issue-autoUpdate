@@ -29,9 +29,7 @@ import requests
 import html as _html
 from collections import defaultdict
 
-if not os.getenv("GITHUB_TOKEN"):
-    print("ERROR: GITHUB_TOKEN not set. Please export your GitHub token as an environment variable.")
-    sys.exit(1)
+
 
 GQL_ENDPOINT = "https://api.github.com/graphql"
 """
@@ -397,7 +395,7 @@ def main():
 
     token = os.getenv("GITHUB_TOKEN")
     if not token:
-        print("ERROR: Please set GITHUB_TOKEN environment variable.", file=sys.stderr)
+        print("ERROR: GITHUB_TOKEN environment variable is missing. Please set it before running this script.", file=sys.stderr)
         sys.exit(2)
 
     print(
