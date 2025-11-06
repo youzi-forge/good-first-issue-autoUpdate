@@ -55,11 +55,12 @@ HTML_TEMPLATE = r"""<!doctype html>
         color: var(--fg);
         min-height: 100vh;
       }}
-      a {{
+      /* Scoped link styles */
+      .content a {{
         color: var(--accent);
         text-decoration: none;
       }}
-      a:hover {{
+      .content a:hover {{
         text-decoration: underline;
       }}
       code, pre {{
@@ -222,17 +223,38 @@ HTML_TEMPLATE = r"""<!doctype html>
         align-items: center;
         padding: 16px 20px;
         cursor: pointer;
+        gap: 16px;
+      }}
+      .repo-right {{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        color: var(--muted);
       }}
       .repo-summary h3 {{
         margin: 0;
         font-size: 1.2rem;
+        flex: 1 1 auto;
+      }}
+      .repo-summary h3 a {{
+        color: var(--accent);
+        text-decoration: none;
+        display: inline-flex;
+        border-bottom: 1px solid transparent;
+        padding-bottom: 1px;
+      }}
+      .repo-summary h3 a:hover {{
+        border-bottom-color: var(--accent);
       }}
       .repo-meta {{
         font-size: 0.95rem;
-        color: var(--muted);
       }}
       .repo-body {{
         padding: 0 20px 20px 20px;
+      }}
+      .repo-card {{
+        scroll-margin-top: 96px; /* account for sticky toolbar */
       }}
       .issue-item {{
         padding: 14px 0;
@@ -275,6 +297,43 @@ HTML_TEMPLATE = r"""<!doctype html>
         .content li {{
           padding: 10px 12px;
         }}
+      }}
+
+      /* Copy link button */
+      .copy-link {{
+        border: 1px solid var(--border);
+        background: var(--card);
+        color: var(--muted);
+        border-radius: 8px;
+        padding: 4px 8px;
+        font-size: 0.85rem;
+        cursor: pointer;
+      }}
+      .copy-link:hover {{
+        color: var(--accent);
+        border-color: var(--accent);
+      }}
+
+      /* Back to top */
+      .back-to-top {{
+        position: fixed;
+        right: 20px;
+        bottom: 24px;
+        display: none;
+        border: 1px solid var(--border);
+        background: var(--card);
+        color: var(--fg);
+        border-radius: 999px;
+        padding: 10px 14px;
+        box-shadow: var(--shadow);
+        cursor: pointer;
+      }}
+      .back-to-top:focus {{ outline: 2px solid var(--accent); outline-offset: 2px; }}
+
+      /* Inline copied state for copy-link */
+      .copy-link.copied {{
+        color: var(--accent);
+        border-color: var(--accent);
       }}
     </style>
   </head>
@@ -322,6 +381,8 @@ HTML_TEMPLATE = r"""<!doctype html>
         </div>
       </main>
 
+      <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">↑ Top</button>
+
       <footer class="meta" style="margin-top:40px;">
         <p>Made with ❤️ · <a href="https://github.com/">GitHub</a> Pages</p>
       </footer>
@@ -348,7 +409,11 @@ HTML_TEMPLATE = r"""<!doctype html>
         if (!content) return;
         // Find top-level H2s (repositories)
         var h2s = Array.prototype.filter.call(content.children, function (el) {{ return el.tagName === 'H2'; }});
-        if (!h2s.length) return; // e.g., no markdown conversion or empty dataset
+        if (!h2s.length) {{
+          var status = document.getElementById('toolbar-status');
+          if (status) status.textContent = 'Enhanced features unavailable (Markdown not parsed). Showing plain content.';
+          return; // e.g., no markdown conversion or empty dataset
+        }}
 
         var desktop = window.matchMedia('(min-width: 900px)').matches;
         var repoCount = 0;
@@ -374,8 +439,20 @@ HTML_TEMPLATE = r"""<!doctype html>
           meta.className = 'repo-meta';
           meta.textContent = stars ? ('⭐ ' + stars) : '';
 
+          var right = document.createElement('div');
+          right.className = 'repo-right';
+          right.appendChild(meta);
+
+          var anchorBtn = document.createElement('button');
+          anchorBtn.type = 'button';
+          anchorBtn.className = 'copy-link';
+          anchorBtn.title = 'Copy link';
+          anchorBtn.setAttribute('aria-label', 'Copy link to ' + repoName);
+          anchorBtn.textContent = '🔗';
+          right.appendChild(anchorBtn);
+
           summary.appendChild(h3);
-          summary.appendChild(meta);
+          summary.appendChild(right);
 
           var body = document.createElement('div');
           body.className = 'repo-body';
@@ -393,6 +470,27 @@ HTML_TEMPLATE = r"""<!doctype html>
             ptr = next;
           }}
 
+          // Try to locate the repository link paragraph and convert title to a clickable link
+          try {{
+            var repoLinkEl = body.querySelector('p > a[href^="http"]');
+            var repoUrl = repoLinkEl ? String(repoLinkEl.getAttribute('href') || '') : '';
+            if (repoUrl) {{
+              // Remove the separate repository paragraph to keep the card compact
+              var repoP = repoLinkEl.closest('p');
+              if (repoP) repoP.remove();
+              // Turn the repo name in summary into a link
+              h3.textContent = '';
+              var h3a = document.createElement('a');
+              h3a.href = repoUrl;
+              h3a.textContent = repoName;
+              h3a.target = '_blank';
+              h3a.rel = 'noopener noreferrer';
+              // Prevent toggling the <details> when clicking the link
+              h3a.addEventListener('click', function (ev) {{ ev.stopPropagation(); }});
+              h3.appendChild(h3a);
+            }}
+          }} catch (e) {{ /* ignore */ }}
+
           var count = body.querySelectorAll('ul > li').length;
           issueTotal += count;
           repoCount += 1;
@@ -400,6 +498,37 @@ HTML_TEMPLATE = r"""<!doctype html>
           meta.textContent = (stars ? ('⭐ ' + stars) : '') + extra;
 
           details.id = 'repo-' + slugify(repoName);
+
+          // Copy anchor link handler with inline feedback
+          var copyTimer = null;
+          var originalText = anchorBtn.textContent;
+          anchorBtn.addEventListener('click', function (ev) {{
+            ev.stopPropagation();
+            try {{
+              var url = location.origin + location.pathname + '#' + details.id;
+              if (navigator.clipboard && navigator.clipboard.writeText) {{
+                navigator.clipboard.writeText(url);
+              }} else {{
+                var ta = document.createElement('textarea');
+                ta.value = url;
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                document.body.removeChild(ta);
+              }}
+              anchorBtn.textContent = 'Copied ✓';
+              anchorBtn.classList.add('copied');
+              anchorBtn.title = 'Copied';
+              anchorBtn.setAttribute('aria-label', 'Link copied for ' + repoName);
+              clearTimeout(copyTimer);
+              copyTimer = setTimeout(function () {{
+                anchorBtn.textContent = originalText;
+                anchorBtn.classList.remove('copied');
+                anchorBtn.title = 'Copy link';
+                anchorBtn.setAttribute('aria-label', 'Copy link to ' + repoName);
+              }}, 1200);
+            }} catch (e) {{ /* ignore */ }}
+          }});
         }});
 
         // After grouping, render label badges inside each issue item
@@ -563,6 +692,11 @@ HTML_TEMPLATE = r"""<!doctype html>
         if (issueSearch) issueSearch.addEventListener('input', onChange);
         if (labels) labels.addEventListener('input', onChange);
 
+        // Enter on repo search: jump to first visible repo
+        if (repoSearch) repoSearch.addEventListener('keydown', function (ev) {{
+          if (ev.key === 'Enter') {{ ev.preventDefault(); jumpToFirstVisible(); }}
+        }});
+
         var expandAll = document.getElementById('expand-all');
         var collapseAll = document.getElementById('collapse-all');
         if (expandAll) expandAll.addEventListener('click', function () {{
@@ -573,7 +707,42 @@ HTML_TEMPLATE = r"""<!doctype html>
           document.querySelectorAll('.repo-card').forEach(function (card) {{ card.open = false; card.style.display = ''; }});
           updateStatus();
         }});
+
+        // n / Shift+n navigation between visible repos
+        window.addEventListener('keydown', function (ev) {{
+          var tag = (ev.target && ev.target.tagName || '').toLowerCase();
+          if (tag === 'input' || tag === 'textarea' || tag === 'select' || (ev.target && ev.target.isContentEditable)) return;
+          if (ev.key === 'n' && !ev.shiftKey) {{ ev.preventDefault(); jumpToNextVisible(); }}
+          if ((ev.key === 'N' && !ev.shiftKey) || (ev.key.toLowerCase() === 'n' && ev.shiftKey)) {{ ev.preventDefault(); jumpToPrevVisible(); }}
+        }});
+
+        // Back-to-top button show/hide
+        var topBtn = document.getElementById('back-to-top');
+        if (topBtn) {{
+          topBtn.addEventListener('click', function () {{ window.scrollTo({{ top: 0, behavior: 'smooth' }}); }});
+          var onScroll = debounce(function () {{
+            if (window.scrollY > 200) topBtn.style.display = 'inline-flex'; else topBtn.style.display = 'none';
+          }}, 50);
+          window.addEventListener('scroll', onScroll);
+          onScroll();
+        }}
       }}
+
+      function visibleCards() {{
+        var cards = Array.prototype.slice.call(document.querySelectorAll('.repo-card'));
+        return cards.filter(function (c) {{ return c.style.display !== 'none'; }});
+      }}
+      function jumpToCard(card) {{
+        if (!card) return;
+        card.open = true;
+        card.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+        card.focus && card.focus();
+      }}
+      function jumpToFirstVisible() {{ jumpToCard(visibleCards()[0]); }}
+      function jumpToNextVisible() {{ var v = visibleCards(); if (!v.length) return; var cur = v.findIndex(function (c) {{ return c.getBoundingClientRect().top > 5; }}); jumpToCard(v[Math.max(0, cur)]); }}
+      function jumpToPrevVisible() {{ var v = visibleCards(); if (!v.length) return; for (var i = v.length - 1; i >= 0; i--) {{ if (v[i].getBoundingClientRect().top < -5) {{ jumpToCard(v[i]); return; }} }} jumpToCard(v[0]); }}
+
+      
     }})();
     </script>
   </body>
