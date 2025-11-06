@@ -23,18 +23,15 @@ def main() -> int:
     ts = dt.datetime.now(dt.timezone.utc).strftime(args.format)
     pattern = re.compile(re.escape(args.start) + r".*?" + re.escape(args.end), re.DOTALL)
     replacement = args.start + ts + args.end
-    if not pattern.search(text):
+    new_text, replaced = pattern.subn(replacement, text)
+    if replaced == 0:
         print("WARNING: markers not found; no changes made", file=sys.stderr)
         return 0
-    new_text = pattern.sub(replacement, text, count=1)
-    if new_text != text:
-        p.write_text(new_text, encoding="utf-8")
-        print(f"Updated timestamp in {p}")
-    else:
-        print("No changes.")
+
+    p.write_text(new_text, encoding="utf-8")
+    print(f"Updated timestamp in {p} (updated {replaced} occurrence{'s' if replaced != 1 else ''})")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

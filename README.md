@@ -10,7 +10,7 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 
 - View the live list (updates every 3 days):
   https://youzi-forge.github.io/good-first-issue-autoUpdate/
-  · Last updated: <!--LAST_UPDATED-->2025-11-04 04:31 UTC<!--/LAST_UPDATED-->
+  · Last updated: <!--LAST_UPDATED-->2025-11-06 13:52 UTC<!--/LAST_UPDATED-->
 
 ## At a Glance
 - Update cadence: every 3 days (via GitHub Actions)
@@ -21,7 +21,7 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 ---
 
 ## Project Info
-- Live site: https://youzi-forge.github.io/good-first-issue-autoUpdate/ · Last updated: <!--LAST_UPDATED-->2025-10-09 11:49 UTC<!--/LAST_UPDATED-->
+- Live site: https://youzi-forge.github.io/good-first-issue-autoUpdate/ · Last updated: <!--LAST_UPDATED-->2025-11-06 13:52 UTC<!--/LAST_UPDATED-->
 - Workflows: [Update list](.github/workflows/update-good-first-issues.yml), [Deploy Pages](.github/workflows/deploy-pages.yml)
 - License: [MIT](LICENSE)
 - Releases: https://github.com/youzi-forge/good-first-issue-autoUpdate/releases
@@ -40,15 +40,15 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 
 Linux/macOS
 ```bash
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 export GITHUB_TOKEN=ghp_xxx
-python github_good_first_issue_finder.py --days 90 --min-stars 300 --max-stars 2000 --state open --chunk-days 5 --out good_first_issues.md
+python3 github_good_first_issue_finder.py --days 90 --min-stars 300 --max-stars 2000 --state open --chunk-days 5 --out good_first_issues.md
 # Scope to one org (optional):
-python github_good_first_issue_finder.py --days 30 --min-stars 300 --state open --chunk-days 5 --org stdlib-js --out good_first_issues.md
+python3 github_good_first_issue_finder.py --days 30 --min-stars 300 --state open --chunk-days 5 --org stdlib-js --out good_first_issues.md
 # Use updated date field (optional):
-python github_good_first_issue_finder.py --days 30 --min-stars 300 --state open --chunk-days 5 --date-field updated --out good_first_issues.md
+python3 github_good_first_issue_finder.py --days 30 --min-stars 300 --state open --chunk-days 5 --date-field updated --out good_first_issues.md
 # Build local HTML for preview (optional):
-python scripts/build_site.py --input good_first_issues.md --outdir _site --title "Good First Issues"
+python3 scripts/build_site.py --input good_first_issues.md --outdir _site --title "Good First Issues"
 # Then open _site/index.html in your browser
 ```
 
