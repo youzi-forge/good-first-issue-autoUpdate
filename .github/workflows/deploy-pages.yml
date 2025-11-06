@@ -5,6 +5,12 @@ on:
   workflow_run:
     workflows: ["Update Good First Issues (Every 3 Days)"]
     types: [completed]
+  push:
+    branches: [ main ]
+    paths:
+      - "good_first_issues.md"
+      - "scripts/**"
+      - ".github/workflows/deploy-pages.yml"
 
 permissions:
   contents: read
@@ -30,16 +36,23 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Check if dataset changed
+      - name: Check if site content changed
         id: diff
         run: |
           set -e
           git fetch origin main --depth=2 || true
+          # Always deploy on manual dispatch
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          # If no previous commit is available (shallow history), assume changed
           if ! git rev-parse HEAD^ >/dev/null 2>&1; then
             echo "changed=true" >> $GITHUB_OUTPUT
             exit 0
           fi
-          if git diff --quiet HEAD^ HEAD -- good_first_issues.md; then
+          # Rebuild when dataset or site builder changed
+          if git diff --quiet HEAD^ HEAD -- good_first_issues.md scripts/; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
