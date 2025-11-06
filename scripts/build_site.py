@@ -225,30 +225,45 @@ HTML_TEMPLATE = r"""<!doctype html>
         cursor: pointer;
         gap: 16px;
       }}
+      .repo-title-row {{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex: 1 1 auto;
+        min-width: 0;
+      }}
       .repo-right {{
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 12px;
         flex-shrink: 0;
         color: var(--muted);
       }}
       .repo-summary h3 {{
         margin: 0;
         font-size: 1.2rem;
-        flex: 1 1 auto;
+        flex: 0 0 auto;
       }}
       .repo-summary h3 a {{
         color: var(--accent);
         text-decoration: none;
-        display: inline-flex;
-        border-bottom: 1px solid transparent;
-        padding-bottom: 1px;
       }}
       .repo-summary h3 a:hover {{
-        border-bottom-color: var(--accent);
+        text-decoration: underline;
+      }}
+      .repo-right, .repo-right * {{
+        color: var(--muted) !important;
       }}
       .repo-meta {{
         font-size: 0.95rem;
+        color: var(--muted) !important;
+        white-space: nowrap;
+      }}
+      .repo-stars {{
+        font-size: 1.05rem;
+        font-weight: 600;
+        color: var(--fg);
+        white-space: nowrap;
       }}
       .repo-body {{
         padding: 0 20px 20px 20px;
@@ -341,9 +356,8 @@ HTML_TEMPLATE = r"""<!doctype html>
     <div class="wrap">
       <header class="page-header" aria-label="Project overview">
         <div class="hero">
-          <h1>{title}</h1>
-          <div class="meta">Generated at: {ts}</div>
-          <p class="meta">This page is built from the repository's generated Markdown.</p>
+          <h1 id="hero-title">{title}</h1>
+          <div class="meta" id="hero-meta"></div>
         </div>
       <section class="toolbar" aria-label="Issue controls">
           <div class="toolbar-grid">
@@ -404,9 +418,39 @@ HTML_TEMPLATE = r"""<!doctype html>
           .replace(/(^-|-$)/g, '');
       }}
 
+      function formatTimestampDisplay(raw) {{
+        if (!raw) return '';
+        var cleaned = raw.trim();
+        var match = cleaned.match(/^(\d{{4}}-\d{{2}}-\d{{2}})[T ](\d{{2}}:\d{{2}})(?::\d{{2}})?Z$/i);
+        if (match) {{
+          return match[1] + ' ' + match[2] + ' UTC';
+        }}
+        return cleaned.replace('T', ' ');
+      }}
+
       onReady(function initRepoCards() {{
         var content = document.getElementById('issue-content');
         if (!content) return;
+
+        // Move first heading and generated timestamp paragraph into hero
+        (function () {{
+          var heroTitle = document.getElementById('hero-title');
+          var heroMeta = document.getElementById('hero-meta');
+          var firstH1 = content.querySelector('h1');
+          if (firstH1 && heroTitle) {{
+            heroTitle.innerHTML = firstH1.innerHTML;
+            firstH1.remove();
+          }}
+          var firstPara = content.querySelector('p');
+          if (firstPara && heroMeta) {{
+            var metaText = firstPara.textContent || '';
+            metaText = metaText.replace(/^Generated at:\s*/i, '').trim();
+            var formatted = formatTimestampDisplay(metaText);
+            heroMeta.textContent = formatted ? ('Generated at: ' + formatted) : '';
+            firstPara.remove();
+          }}
+        }})();
+
         // Find top-level H2s (repositories)
         var h2s = Array.prototype.filter.call(content.children, function (el) {{ return el.tagName === 'H2'; }});
         if (!h2s.length) {{
@@ -421,9 +465,15 @@ HTML_TEMPLATE = r"""<!doctype html>
 
         h2s.forEach(function (h2) {{
           var raw = (h2.textContent || '').trim();
-          var m = raw.match(/^(.+?)\\s*⭐\\s*(\\d+)/);
-          var repoName = m ? m[1].trim() : raw;
-          var stars = m ? parseInt(m[2], 10) : null;
+          var starIdx = raw.indexOf('⭐');
+          var repoName = raw;
+          var stars = null;
+          if (starIdx !== -1) {{
+            repoName = raw.slice(0, starIdx).trim();
+            var starPart = raw.slice(starIdx + 1).replace(/[^0-9]/g, ' ').trim();
+            var parsed = parseInt(starPart.split(/\s+/)[0] || '', 10);
+            if (!Number.isNaN(parsed)) stars = parsed;
+          }}
 
           var details = document.createElement('details');
           details.className = 'repo-card';
@@ -432,16 +482,18 @@ HTML_TEMPLATE = r"""<!doctype html>
           var summary = document.createElement('summary');
           summary.className = 'repo-summary';
 
+          var titleRow = document.createElement('div');
+          titleRow.className = 'repo-title-row';
+
           var h3 = document.createElement('h3');
           h3.textContent = repoName;
 
           var meta = document.createElement('div');
           meta.className = 'repo-meta';
-          meta.textContent = stars ? ('⭐ ' + stars) : '';
+          meta.textContent = '';
 
           var right = document.createElement('div');
           right.className = 'repo-right';
-          right.appendChild(meta);
 
           var anchorBtn = document.createElement('button');
           anchorBtn.type = 'button';
@@ -451,7 +503,18 @@ HTML_TEMPLATE = r"""<!doctype html>
           anchorBtn.textContent = '🔗';
           right.appendChild(anchorBtn);
 
-          summary.appendChild(h3);
+          right.appendChild(meta);
+          right.appendChild(anchorBtn);
+
+          titleRow.appendChild(h3);
+          if (stars) {{
+            var starSpan = document.createElement('span');
+            starSpan.className = 'repo-stars';
+            starSpan.textContent = '⭐ ' + stars.toLocaleString();
+            titleRow.appendChild(starSpan);
+          }}
+
+          summary.appendChild(titleRow);
           summary.appendChild(right);
 
           var body = document.createElement('div');
@@ -494,10 +557,12 @@ HTML_TEMPLATE = r"""<!doctype html>
           var count = body.querySelectorAll('ul > li').length;
           issueTotal += count;
           repoCount += 1;
-          var extra = count ? (' · ' + count + ' issue' + (count === 1 ? '' : 's')) : '';
-          meta.textContent = (stars ? ('⭐ ' + stars) : '') + extra;
+          meta.textContent = count + ' ' + (count === 1 ? 'issue' : 'issues');
 
           details.id = 'repo-' + slugify(repoName);
+          if (stars !== null && !Number.isNaN(stars)) {{
+            details.dataset.stars = String(stars);
+          }}
 
           // Copy anchor link handler with inline feedback
           var copyTimer = null;
@@ -534,16 +599,13 @@ HTML_TEMPLATE = r"""<!doctype html>
         // After grouping, render label badges inside each issue item
         renderLabelBadges(content);
 
-        // Cache totals and stars on each repo card for faster updates
+        // Cache totals on each repo card for faster updates
         document.querySelectorAll('.repo-card').forEach(function (card) {{
           var total = card.querySelectorAll('.repo-body li').length;
-          var meta = card.querySelector('.repo-meta');
-          var starsText = meta && meta.textContent ? meta.textContent.trim() : '';
-          var stars = '';
-          var mStar = starsText.match(/\u2B50\s*(\d+)/); // ⭐ <num>
-          if (mStar) stars = mStar[1];
           card.dataset.total = String(total);
-          if (stars) card.dataset.stars = stars;
+          if (!card.dataset.stars) {{
+            card.dataset.stars = '';
+          }}
         }});
 
         // Wire toolbar controls and perform initial filter (no-op but updates counters)
@@ -637,7 +699,6 @@ HTML_TEMPLATE = r"""<!doctype html>
         var cards = document.querySelectorAll('.repo-card');
         cards.forEach(function (card) {{
           var total = parseInt(card.dataset.total || '0', 10) || 0;
-          var stars = card.dataset.stars || '';
           var visible = 0;
           var nameEl = card.querySelector('.repo-summary h3');
           var repoText = (nameEl ? nameEl.textContent : '').toLowerCase();
@@ -648,7 +709,7 @@ HTML_TEMPLATE = r"""<!doctype html>
             card.style.display = 'none';
             var meta = card.querySelector('.repo-meta');
             if (meta) {{
-              var metaText = (stars ? ('⭐ ' + stars + ' · ') : '') + '0' + (hasFilter ? (' of ' + total) : '') + ' issues';
+              var metaText = '0' + (hasFilter ? (' of ' + total) : '') + ' issues';
               meta.textContent = metaText;
             }}
             return; // next card
@@ -676,7 +737,7 @@ HTML_TEMPLATE = r"""<!doctype html>
           // Update summary meta text
           var meta = card.querySelector('.repo-meta');
           if (meta) {{
-            var text = (stars ? ('⭐ ' + stars + ' · ') : '') + visible + (hasFilter ? (' of ' + total) : '') + ' ' + (visible === 1 ? 'issue' : 'issues');
+            var text = visible + (hasFilter ? (' of ' + total) : '') + ' ' + (visible === 1 ? 'issue' : 'issues');
             meta.textContent = text;
           }}
         }});
