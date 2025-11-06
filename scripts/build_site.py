@@ -156,6 +156,81 @@ HTML_TEMPLATE = r"""<!doctype html>
         outline: 2px solid var(--accent);
         outline-offset: 2px;
       }}
+      .pagination-bar {{
+        margin-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: center;
+        justify-content: space-between;
+      }}
+      .pagination-left,
+      .pagination-right,
+      .pagination-center {{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }}
+      .pagination-button {{
+        border: 1px solid var(--border);
+        background: var(--card);
+        color: var(--fg);
+        border-radius: 10px;
+        padding: 8px 14px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background 0.2s ease, border-color 0.2s ease;
+      }}
+      .pagination-button:hover:not(:disabled) {{
+        background: rgba(9, 105, 218, 0.08);
+        border-color: var(--accent);
+      }}
+      .pagination-button:disabled {{
+        opacity: 0.4;
+        cursor: not-allowed;
+      }}
+      .pagination-input {{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.9rem;
+      }}
+      .pagination-input input {{
+        width: 70px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 6px 8px;
+        background: var(--card);
+        color: var(--fg);
+      }}
+      .pagination-input input:focus {{
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }}
+      .pagination-size label {{
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--muted);
+      }}
+      .pagination-size select {{
+        border: 1px solid var(--border);
+        background: var(--card);
+        color: var(--fg);
+        border-radius: 10px;
+        padding: 8px 10px;
+        font-size: 0.95rem;
+      }}
+      .pagination-size select:focus {{
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }}
+      .page-counts {{
+        margin-top: 6px;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }}
       .toolbar-status {{
         margin-top: 14px;
         font-size: 0.9rem;
@@ -309,6 +384,16 @@ HTML_TEMPLATE = r"""<!doctype html>
           flex-direction: column;
           align-items: stretch;
         }}
+        .pagination-bar {{
+          flex-direction: column;
+          align-items: stretch;
+        }}
+        .pagination-left,
+        .pagination-right,
+        .pagination-center {{
+          width: 100%;
+          justify-content: space-between;
+        }}
         .content li {{
           padding: 10px 12px;
         }}
@@ -381,6 +466,30 @@ HTML_TEMPLATE = r"""<!doctype html>
           <div class="toolbar-status" id="toolbar-status" aria-live="polite">
             Showing all repositories · interactive controls activate once JavaScript loads.
           </div>
+          <div class="pagination-bar" data-pagination="controls" data-location="top" aria-label="Pagination controls">
+            <div class="pagination-left">
+              <button type="button" class="pagination-button" data-action="prev" aria-label="Previous page">← Prev</button>
+              <button type="button" class="pagination-button" data-action="next" aria-label="Next page">Next →</button>
+            </div>
+            <div class="pagination-center">
+              <div class="pagination-input">
+                <label class="sr-only" for="page-input-top">Go to page</label>
+                <input id="page-input-top" class="pagination-page-input" type="number" min="1" value="1" aria-label="Current page">
+                <span class="pagination-display">/ 1</span>
+              </div>
+            </div>
+            <div class="pagination-right pagination-size">
+              <label class="pagination-size-label" for="page-size-top">Per page</label>
+              <select id="page-size-top" class="pagination-size-select" aria-label="Repositories per page">
+                <option value="50" selected>50</option>
+                <option value="80">80</option>
+                <option value="100">100</option>
+                <option value="150">150</option>
+                <option value="200">200</option>
+              </select>
+            </div>
+          </div>
+          <div class="page-counts" data-pagination="counts"></div>
         </section>
         <noscript>
           <p class="notice">
@@ -393,6 +502,30 @@ HTML_TEMPLATE = r"""<!doctype html>
         <div class="content" id="issue-content">
           {body}
         </div>
+        <div class="pagination-bar" data-pagination="controls" data-location="bottom" aria-label="Pagination controls">
+          <div class="pagination-left">
+            <button type="button" class="pagination-button" data-action="prev" aria-label="Previous page">← Prev</button>
+            <button type="button" class="pagination-button" data-action="next" aria-label="Next page">Next →</button>
+          </div>
+          <div class="pagination-center">
+            <div class="pagination-input">
+              <label class="sr-only" for="page-input-bottom">Go to page</label>
+              <input id="page-input-bottom" class="pagination-page-input" type="number" min="1" value="1" aria-label="Current page">
+              <span class="pagination-display">/ 1</span>
+            </div>
+          </div>
+          <div class="pagination-right pagination-size">
+            <label class="pagination-size-label" for="page-size-bottom">Per page</label>
+            <select id="page-size-bottom" class="pagination-size-select" aria-label="Repositories per page">
+              <option value="50" selected>50</option>
+              <option value="80">80</option>
+              <option value="100">100</option>
+              <option value="150">150</option>
+              <option value="200">200</option>
+            </select>
+          </div>
+        </div>
+        <div class="page-counts" data-pagination="counts"></div>
       </main>
 
       <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">↑ Top</button>
@@ -416,6 +549,47 @@ HTML_TEMPLATE = r"""<!doctype html>
           .toLowerCase()
           .replace(/[^a-z0-9]+/g, '-')
           .replace(/(^-|-$)/g, '');
+      }}
+
+      function formatTimestampDisplay(raw) {{
+        if (!raw) return '';
+        var cleaned = raw.trim();
+        var match = cleaned.match(/^(\d{{4}}-\d{{2}}-\d{{2}})[T ](\d{{2}}:\d{{2}})(?::\d{{2}})?Z$/i);
+        if (match) {{
+          return match[1] + ' ' + match[2] + ' UTC';
+        }}
+        return cleaned.replace('T', ' ');
+      }}
+
+      var paginationState = {{
+        cards: [],
+        filteredCards: [],
+        currentPage: 1,
+        pageSize: 50,
+        totalPages: 1,
+        totalIssuesVisible: 0,
+        totalIssuesAll: 0,
+        currentPageRepoCount: 0,
+        currentPageIssueCount: 0,
+        currentPageCards: []
+      }};
+
+      var paginationControls = {{
+        prevButtons: [],
+        nextButtons: [],
+        pageInputs: [],
+        pageDisplays: [],
+        pageSizeSelects: [],
+        countLabels: []
+      }};
+
+      function cachePaginationControls() {{
+        paginationControls.prevButtons = Array.prototype.slice.call(document.querySelectorAll('.pagination-button[data-action="prev"]'));
+        paginationControls.nextButtons = Array.prototype.slice.call(document.querySelectorAll('.pagination-button[data-action="next"]'));
+        paginationControls.pageInputs = Array.prototype.slice.call(document.querySelectorAll('.pagination-page-input'));
+        paginationControls.pageDisplays = Array.prototype.slice.call(document.querySelectorAll('.pagination-display'));
+        paginationControls.pageSizeSelects = Array.prototype.slice.call(document.querySelectorAll('.pagination-size-select'));
+        paginationControls.countLabels = Array.prototype.slice.call(document.querySelectorAll('.page-counts[data-pagination="counts"]'));
       }}
 
       function formatTimestampDisplay(raw) {{
@@ -563,6 +737,9 @@ HTML_TEMPLATE = r"""<!doctype html>
           if (stars !== null && !Number.isNaN(stars)) {{
             details.dataset.stars = String(stars);
           }}
+          details.dataset.filteredOut = '0';
+          details.dataset.totalIssues = String(count);
+          details.dataset.visibleIssues = String(count);
 
           // Copy anchor link handler with inline feedback
           var copyTimer = null;
@@ -599,6 +776,8 @@ HTML_TEMPLATE = r"""<!doctype html>
         // After grouping, render label badges inside each issue item
         renderLabelBadges(content);
 
+        paginationState.cards = Array.prototype.slice.call(document.querySelectorAll('.repo-card'));
+
         // Cache totals on each repo card for faster updates
         document.querySelectorAll('.repo-card').forEach(function (card) {{
           var total = card.querySelectorAll('.repo-body li').length;
@@ -610,7 +789,7 @@ HTML_TEMPLATE = r"""<!doctype html>
 
         // Wire toolbar controls and perform initial filter (no-op but updates counters)
         wireControls();
-        filterAndUpdate();
+        filterAndUpdate({{ resetPage: true, scroll: false }});
       }});
       
       function renderLabelBadges(root) {{
@@ -679,76 +858,187 @@ HTML_TEMPLATE = r"""<!doctype html>
       function updateStatus() {{
         var status = document.getElementById('toolbar-status');
         if (!status) return;
-        var repos = 0, issues = 0;
-        document.querySelectorAll('.repo-card').forEach(function (card) {{
-          if (card.style.display === 'none') return;
-          repos += 1;
-          var visible = card.querySelectorAll('.repo-body li:not([data-hidden="1"])').length;
-          issues += visible;
-        }});
-        status.textContent = 'Showing ' + repos + ' repositories · ' + issues + ' issues';
+        if (!paginationState.filteredCards.length) {{
+          status.textContent = 'No repositories match the current filters.';
+          return;
+        }}
+        var totalRepos = paginationState.filteredCards.length;
+        var totalIssues = paginationState.totalIssuesVisible;
+        status.textContent = 'Total: ' + totalRepos + ' repos · ' + totalIssues + ' issues (page ' + paginationState.currentPage + '/' + paginationState.totalPages + ')';
       }}
 
-      function filterAndUpdate() {{
+      function filterAndUpdate(opts) {{
+        opts = opts || {{}};
         var repoTerm = (document.getElementById('repo-search-input') || {{ value: '' }}).value.toLowerCase().trim();
         var issueTerm = (document.getElementById('issue-search-input') || {{ value: '' }}).value.toLowerCase().trim();
         var labelRaw = (document.getElementById('label-input') || {{ value: '' }}).value;
         var labelFilters = parseLabelFilters(labelRaw);
         var hasFilter = !!repoTerm || !!issueTerm || labelFilters.length > 0;
 
-        var cards = document.querySelectorAll('.repo-card');
-        cards.forEach(function (card) {{
-          var total = parseInt(card.dataset.total || '0', 10) || 0;
+        var matchedCards = [];
+        var totalVisibleIssues = 0;
+        var totalIssuesAll = 0;
+
+        paginationState.cards.forEach(function (card) {{
+          var issues = card.querySelectorAll('.repo-body li');
+          var total = issues.length;
           var visible = 0;
           var nameEl = card.querySelector('.repo-summary h3');
           var repoText = (nameEl ? nameEl.textContent : '').toLowerCase();
           var repoMatches = !repoTerm || repoText.indexOf(repoTerm) !== -1;
 
-          if (!repoMatches) {{
-            // Repo name doesn't match repoTerm; hide entire card regardless of issues
-            card.style.display = 'none';
-            var meta = card.querySelector('.repo-meta');
-            if (meta) {{
-              var metaText = '0' + (hasFilter ? (' of ' + total) : '') + ' issues';
-              meta.textContent = metaText;
-            }}
-            return; // next card
-          }}
-          var issues = card.querySelectorAll('.repo-body li');
           issues.forEach(function (li) {{
             var text = (li.textContent || '').toLowerCase();
             var issueMatches = !issueTerm || text.indexOf(issueTerm) !== -1;
-            var matchesText = issueMatches; // repoTerm handled at card level
             var labelsStr = li.getAttribute('data-labels') || '';
             var labels = labelsStr ? labelsStr.split('|') : [];
             var matchesLabels = labelFilters.length === 0 || labelFilters.some(function (f) {{ return labels.indexOf(f) !== -1; }});
-            var show = matchesText && matchesLabels;
+            var show = repoMatches && issueMatches && matchesLabels;
             li.style.display = show ? '' : 'none';
             li.setAttribute('data-hidden', show ? '0' : '1');
             if (show) visible += 1;
           }});
 
-        	// Show or hide the entire repo card
-          card.style.display = visible > 0 ? '' : 'none';
-          // Auto-expand matched repos when filtering
-          if (hasFilter && visible > 0) {{
-            card.open = true;
-          }}
-          // Update summary meta text
+          card.dataset.totalIssues = String(total);
+          card.dataset.visibleIssues = String(visible);
+
           var meta = card.querySelector('.repo-meta');
           if (meta) {{
             var text = visible + (hasFilter ? (' of ' + total) : '') + ' ' + (visible === 1 ? 'issue' : 'issues');
             meta.textContent = text;
           }}
+
+          if (repoMatches && visible > 0) {{
+            card.dataset.filteredOut = '0';
+            matchedCards.push(card);
+            totalVisibleIssues += visible;
+            totalIssuesAll += total;
+            if (hasFilter) {{
+              card.open = true;
+            }}
+          }} else {{
+            card.dataset.filteredOut = '1';
+            card.style.display = 'none';
+          }}
         }});
+
+        paginationState.filteredCards = matchedCards;
+        paginationState.totalIssuesVisible = totalVisibleIssues;
+        paginationState.totalIssuesAll = totalIssuesAll;
+
+        if (opts.resetPage !== false) {{
+          paginationState.currentPage = 1;
+        }}
+
+        paginationState.totalPages = Math.max(1, Math.ceil((paginationState.filteredCards.length || 1) / paginationState.pageSize));
+        paginationState.currentPage = Math.min(Math.max(paginationState.currentPage, 1), paginationState.totalPages);
+
+        gotoPage(paginationState.currentPage, {{ scroll: opts.scroll !== false }});
+      }}
+
+      function gotoPage(page, opts) {{
+        opts = opts || {{}};
+        var filtered = paginationState.filteredCards;
+        if (!filtered.length) {{
+          paginationState.totalPages = 1;
+          paginationState.currentPage = 1;
+          paginationState.currentPageCards = [];
+          paginationState.currentPageRepoCount = 0;
+          paginationState.currentPageIssueCount = 0;
+          paginationState.cards.forEach(function (card) {{ card.style.display = 'none'; }});
+          updatePaginator();
+          updateStatus();
+          return;
+        }}
+
+        paginationState.totalPages = Math.max(1, Math.ceil(filtered.length / paginationState.pageSize));
+        var target = Math.min(Math.max(page, 1), paginationState.totalPages);
+        paginationState.currentPage = target;
+
+        renderPage();
+        updatePaginator();
         updateStatus();
+
+        if (opts.scroll !== false) {{
+          window.scrollTo({{ top: 0, behavior: 'smooth' }});
+        }}
+      }}
+
+      function renderPage() {{
+        var filtered = paginationState.filteredCards;
+        var start = (paginationState.currentPage - 1) * paginationState.pageSize;
+        var end = Math.min(filtered.length, start + paginationState.pageSize);
+        var pageCards = [];
+        var filteredSet = new Set(filtered);
+
+        for (var i = 0; i < filtered.length; i++) {{
+          var card = filtered[i];
+          if (i >= start && i < end) {{
+            card.style.display = '';
+            pageCards.push(card);
+          }} else {{
+            card.style.display = 'none';
+          }}
+        }}
+
+        paginationState.cards.forEach(function (card) {{
+          if (!filteredSet.has(card)) {{
+            card.style.display = 'none';
+          }}
+        }});
+
+        var pageIssues = 0;
+        pageCards.forEach(function (card) {{
+          pageIssues += parseInt(card.dataset.visibleIssues || '0', 10);
+          if (card.dataset.filteredOut === '0') {{
+            card.open = true;
+          }}
+        }});
+
+        paginationState.currentPageCards = pageCards;
+        paginationState.currentPageRepoCount = pageCards.length;
+        paginationState.currentPageIssueCount = pageIssues;
+      }}
+
+      function updatePaginator() {{
+        var hasResults = paginationState.filteredCards.length > 0;
+        paginationControls.pageDisplays.forEach(function (span) {{
+          span.textContent = '/ ' + paginationState.totalPages;
+        }});
+        paginationControls.pageInputs.forEach(function (input) {{
+          input.max = paginationState.totalPages;
+          input.min = paginationState.totalPages ? 1 : 0;
+          input.disabled = paginationState.totalPages <= 1 || !hasResults;
+          input.value = hasResults ? paginationState.currentPage : '';
+        }});
+        paginationControls.prevButtons.forEach(function (btn) {{
+          btn.disabled = paginationState.currentPage <= 1 || !hasResults;
+        }});
+        paginationControls.nextButtons.forEach(function (btn) {{
+          btn.disabled = paginationState.currentPage >= paginationState.totalPages || !hasResults;
+        }});
+        paginationControls.countLabels.forEach(function (label) {{
+          if (!hasResults) {{
+            label.textContent = 'No repositories matched your filters.';
+          }} else {{
+            label.textContent = paginationState.currentPageRepoCount + ' repos · ' + paginationState.currentPageIssueCount + ' issues this page · total ' + paginationState.filteredCards.length + ' repos / ' + paginationState.totalIssuesVisible + ' issues';
+          }}
+        }});
+        paginationControls.pageSizeSelects.forEach(function (select) {{
+          var desired = String(paginationState.pageSize);
+          var hasOption = Array.prototype.some.call(select.options, function (opt) {{ return opt.value === desired; }});
+          if (hasOption) {{
+            select.value = desired;
+          }}
+        }});
       }}
 
       function wireControls() {{
+        cachePaginationControls();
         var repoSearch = document.getElementById('repo-search-input');
         var issueSearch = document.getElementById('issue-search-input');
         var labels = document.getElementById('label-input');
-        var onChange = debounce(filterAndUpdate, 150);
+        var onChange = debounce(function () {{ filterAndUpdate({{ resetPage: true }}); }}, 180);
         if (repoSearch) repoSearch.addEventListener('input', onChange);
         if (issueSearch) issueSearch.addEventListener('input', onChange);
         if (labels) labels.addEventListener('input', onChange);
@@ -761,12 +1051,10 @@ HTML_TEMPLATE = r"""<!doctype html>
         var expandAll = document.getElementById('expand-all');
         var collapseAll = document.getElementById('collapse-all');
         if (expandAll) expandAll.addEventListener('click', function () {{
-          document.querySelectorAll('.repo-card').forEach(function (card) {{ card.open = true; card.style.display = ''; }});
-          updateStatus();
+          visibleCards().forEach(function (card) {{ card.open = true; }});
         }});
         if (collapseAll) collapseAll.addEventListener('click', function () {{
-          document.querySelectorAll('.repo-card').forEach(function (card) {{ card.open = false; card.style.display = ''; }});
-          updateStatus();
+          visibleCards().forEach(function (card) {{ card.open = false; }});
         }});
 
         // n / Shift+n navigation between visible repos
@@ -775,6 +1063,8 @@ HTML_TEMPLATE = r"""<!doctype html>
           if (tag === 'input' || tag === 'textarea' || tag === 'select' || (ev.target && ev.target.isContentEditable)) return;
           if (ev.key === 'n' && !ev.shiftKey) {{ ev.preventDefault(); jumpToNextVisible(); }}
           if ((ev.key === 'N' && !ev.shiftKey) || (ev.key.toLowerCase() === 'n' && ev.shiftKey)) {{ ev.preventDefault(); jumpToPrevVisible(); }}
+          if (ev.key === ']') {{ ev.preventDefault(); gotoPage(paginationState.currentPage + 1); }}
+          if (ev.key === '[') {{ ev.preventDefault(); gotoPage(paginationState.currentPage - 1); }}
         }});
 
         // Back-to-top button show/hide
@@ -787,11 +1077,56 @@ HTML_TEMPLATE = r"""<!doctype html>
           window.addEventListener('scroll', onScroll);
           onScroll();
         }}
+
+        paginationControls.prevButtons.forEach(function (btn) {{
+          btn.addEventListener('click', function () {{ gotoPage(paginationState.currentPage - 1); }});
+        }});
+        paginationControls.nextButtons.forEach(function (btn) {{
+          btn.addEventListener('click', function () {{ gotoPage(paginationState.currentPage + 1); }});
+        }});
+        paginationControls.pageInputs.forEach(function (input) {{
+          input.addEventListener('change', function () {{
+            var val = parseInt(input.value, 10);
+            if (Number.isNaN(val)) {{
+              input.value = paginationState.filteredCards.length ? paginationState.currentPage : '';
+              return;
+            }}
+            gotoPage(val);
+          }});
+          input.addEventListener('keydown', function (ev) {{
+            if (ev.key === 'Enter') {{
+              ev.preventDefault();
+              var val = parseInt(input.value, 10);
+              if (!Number.isNaN(val)) {{
+                gotoPage(val);
+              }}
+            }}
+          }});
+        }});
+        if (paginationControls.pageSizeSelects.length) {{
+          var initial = parseInt(paginationControls.pageSizeSelects[0].value, 10);
+          if (!Number.isNaN(initial) && initial > 0) {{
+            paginationState.pageSize = initial;
+          }}
+          paginationControls.pageSizeSelects.forEach(function (select) {{
+            select.addEventListener('change', function (ev) {{
+              var val = parseInt(ev.target.value, 10);
+              if (Number.isNaN(val) || val <= 0) {{
+                val = paginationState.filteredCards.length || paginationState.pageSize || 50;
+              }}
+              paginationState.pageSize = val;
+              paginationControls.pageSizeSelects.forEach(function (other) {{
+                if (other !== ev.target) other.value = String(val);
+              }});
+              paginationState.currentPage = 1;
+              gotoPage(paginationState.currentPage);
+            }});
+          }});
+        }}
       }}
 
       function visibleCards() {{
-        var cards = Array.prototype.slice.call(document.querySelectorAll('.repo-card'));
-        return cards.filter(function (c) {{ return c.style.display !== 'none'; }});
+        return paginationState.currentPageCards.slice();
       }}
       function jumpToCard(card) {{
         if (!card) return;
@@ -799,9 +1134,47 @@ HTML_TEMPLATE = r"""<!doctype html>
         card.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
         card.focus && card.focus();
       }}
-      function jumpToFirstVisible() {{ jumpToCard(visibleCards()[0]); }}
-      function jumpToNextVisible() {{ var v = visibleCards(); if (!v.length) return; var cur = v.findIndex(function (c) {{ return c.getBoundingClientRect().top > 5; }}); jumpToCard(v[Math.max(0, cur)]); }}
-      function jumpToPrevVisible() {{ var v = visibleCards(); if (!v.length) return; for (var i = v.length - 1; i >= 0; i--) {{ if (v[i].getBoundingClientRect().top < -5) {{ jumpToCard(v[i]); return; }} }} jumpToCard(v[0]); }}
+      function jumpToFirstVisible() {{
+        var cards = visibleCards();
+        if (!cards.length) return;
+        jumpToCard(cards[0]);
+      }}
+      function jumpToNextVisible() {{
+        var cards = visibleCards();
+        if (!cards.length) return;
+        for (var i = 0; i < cards.length; i++) {{
+          if (cards[i].getBoundingClientRect().top > 5) {{
+            jumpToCard(cards[i]);
+            return;
+          }}
+        }}
+        if (paginationState.currentPage < paginationState.totalPages) {{
+          gotoPage(paginationState.currentPage + 1);
+          setTimeout(function () {{
+            var nextCards = visibleCards();
+            if (nextCards.length) jumpToCard(nextCards[0]);
+          }}, 160);
+        }}
+      }}
+      function jumpToPrevVisible() {{
+        var cards = visibleCards();
+        if (!cards.length) return;
+        for (var i = cards.length - 1; i >= 0; i--) {{
+          if (cards[i].getBoundingClientRect().top < -5) {{
+            jumpToCard(cards[i]);
+            return;
+          }}
+        }}
+        if (paginationState.currentPage > 1) {{
+          gotoPage(paginationState.currentPage - 1);
+          setTimeout(function () {{
+            var prevCards = visibleCards();
+            if (prevCards.length) jumpToCard(prevCards[prevCards.length - 1]);
+          }}, 160);
+        }} else {{
+          jumpToCard(cards[0]);
+        }}
+      }}
 
       
     }})();
