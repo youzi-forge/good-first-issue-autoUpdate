@@ -18,7 +18,7 @@ import html
 import datetime as dt
 
 
-HTML_TEMPLATE = """<!doctype html>
+HTML_TEMPLATE = r"""<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -321,6 +321,89 @@ HTML_TEMPLATE = """<!doctype html>
         <p>Made with ❤️ · <a href="https://github.com/">GitHub</a> Pages</p>
       </footer>
     </div>
+    <script>
+    (function () {{
+      function onReady(fn) {{
+        if (document.readyState === 'loading') {{
+          document.addEventListener('DOMContentLoaded', fn, {{ once: true }});
+        }} else {{
+          fn();
+        }}
+      }}
+
+      function slugify(s) {{
+        return (s || '')
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/(^-|-$)/g, '');
+      }}
+
+      onReady(function initRepoCards() {{
+        var content = document.getElementById('issue-content');
+        if (!content) return;
+        // Find top-level H2s (repositories)
+        var h2s = Array.prototype.filter.call(content.children, function (el) {{ return el.tagName === 'H2'; }});
+        if (!h2s.length) return; // e.g., no markdown conversion or empty dataset
+
+        var desktop = window.matchMedia('(min-width: 900px)').matches;
+        var repoCount = 0;
+        var issueTotal = 0;
+
+        h2s.forEach(function (h2) {{
+          var raw = (h2.textContent || '').trim();
+          var m = raw.match(/^(.+?)\\s*⭐\\s*(\\d+)/);
+          var repoName = m ? m[1].trim() : raw;
+          var stars = m ? parseInt(m[2], 10) : null;
+
+          var details = document.createElement('details');
+          details.className = 'repo-card';
+          if (desktop) details.setAttribute('open', '');
+
+          var summary = document.createElement('summary');
+          summary.className = 'repo-summary';
+
+          var h3 = document.createElement('h3');
+          h3.textContent = repoName;
+
+          var meta = document.createElement('div');
+          meta.className = 'repo-meta';
+          meta.textContent = stars ? ('⭐ ' + stars) : '';
+
+          summary.appendChild(h3);
+          summary.appendChild(meta);
+
+          var body = document.createElement('div');
+          body.className = 'repo-body';
+
+          // Insert card before the H2, then move subsequent nodes until the next H2
+          content.insertBefore(details, h2);
+          details.appendChild(summary);
+          details.appendChild(body);
+          h2.remove();
+
+          var ptr = details.nextElementSibling;
+          while (ptr && ptr.tagName !== 'H2') {{
+            var next = ptr.nextElementSibling;
+            body.appendChild(ptr);
+            ptr = next;
+          }}
+
+          var count = body.querySelectorAll('ul > li').length;
+          issueTotal += count;
+          repoCount += 1;
+          var extra = count ? (' · ' + count + ' issue' + (count === 1 ? '' : 's')) : '';
+          meta.textContent = (stars ? ('⭐ ' + stars) : '') + extra;
+
+          details.id = 'repo-' + slugify(repoName);
+        }});
+
+        var status = document.getElementById('toolbar-status');
+        if (status) {{
+          status.textContent = 'Loaded ' + repoCount + ' repositories · ' + issueTotal + ' issues';
+        }}
+      }});
+    }})();
+    </script>
   </body>
   </html>
 """
