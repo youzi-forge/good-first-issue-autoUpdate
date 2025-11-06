@@ -397,11 +397,60 @@ HTML_TEMPLATE = r"""<!doctype html>
           details.id = 'repo-' + slugify(repoName);
         }});
 
+        // After grouping, render label badges inside each issue item
+        renderLabelBadges(content);
+
         var status = document.getElementById('toolbar-status');
         if (status) {{
           status.textContent = 'Loaded ' + repoCount + ' repositories · ' + issueTotal + ' issues';
         }}
       }});
+      
+      function renderLabelBadges(root) {{
+        var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        function colorForLabel(name) {{
+          var h = 0;
+          for (var i = 0; i < name.length; i++) {{
+            h = (h * 31 + name.charCodeAt(i)) | 0;
+          }}
+          h = Math.abs(h) % 360;
+          var bgL = dark ? 22 : 94;
+          var borderL = dark ? 32 : 80;
+          var bg = 'hsl(' + h + ', 70%,' + bgL + '%)';
+          var bd = 'hsl(' + h + ', 55%,' + borderL + '%)';
+          return {{ bg: bg, bd: bd }};
+        }}
+
+        var items = root.querySelectorAll('ul > li');
+        items.forEach(function (li) {{
+          var html = li.innerHTML;
+          var m = html.match(/labels:\s*([^<\n\r]+)/i);
+          if (!m) return;
+          var labelsStr = m[1].trim();
+          // Remove the original labels text (optionally preceded by a <br>)
+          li.innerHTML = html.replace(/(?:<br\s*\/?>)?\s*labels:\s*([^<\n\r]+)/i, '').trim();
+
+          var labels = labelsStr.split(',').map(function (s) {{ return s.trim(); }}).filter(Boolean);
+          if (!labels.length) return;
+
+          // data attribute for future filtering
+          li.setAttribute('data-labels', labels.map(function (s) {{ return s.toLowerCase(); }}).join('|'));
+
+          var row = document.createElement('div');
+          row.className = 'label-badges';
+          labels.forEach(function (name) {{
+            var span = document.createElement('span');
+            span.className = 'label-badge';
+            span.setAttribute('data-label', name.toLowerCase());
+            var col = colorForLabel(name.toLowerCase());
+            span.style.backgroundColor = col.bg;
+            span.style.borderColor = col.bd;
+            span.textContent = name;
+            row.appendChild(span);
+          }});
+          li.appendChild(row);
+        }});
+      }}
     }})();
     </script>
   </body>
