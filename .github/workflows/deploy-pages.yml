@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   build:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' || (github.event_name == 'push' && github.ref == 'refs/heads/main') }}
     outputs:
       changed: ${{ steps.diff.outputs.changed }}
     runs-on: ubuntu-latest
