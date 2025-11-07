@@ -50,6 +50,9 @@ python3 github_good_first_issue_finder.py --days 30 --min-stars 300 --state open
 # Build local HTML for preview (optional):
 python3 scripts/build_site.py --input good_first_issues.md --outdir _site --title "Good First Issues"
 # Then open _site/index.html in your browser
+#run server dev: (optional)
+python3 -m pip install -r requirements-dev.txt
+python3 scripts/dev_server.py
 ```
 
 Windows (PowerShell)
@@ -64,6 +67,9 @@ py -3 github_good_first_issue_finder.py --days 30 --min-stars 300 --state open -
 # Build local HTML for preview (optional):
 py -3 scripts/build_site.py --input good_first_issues.md --outdir _site --title "Good First Issues"
 # Then open _site/index.html
+#run server dev: (optional)
+py -3 -m pip install -r requirements-dev.txt
+py -3 scripts/dev_server.py
 ```
 
 ## Defaults
