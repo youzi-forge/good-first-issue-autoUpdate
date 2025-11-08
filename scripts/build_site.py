@@ -592,15 +592,6 @@ HTML_TEMPLATE = r"""<!doctype html>
         paginationControls.countLabels = Array.prototype.slice.call(document.querySelectorAll('.page-counts[data-pagination="counts"]'));
       }}
 
-      function formatTimestampDisplay(raw) {{
-        if (!raw) return '';
-        var cleaned = raw.trim();
-        var match = cleaned.match(/^(\d{{4}}-\d{{2}}-\d{{2}})[T ](\d{{2}}:\d{{2}})(?::\d{{2}})?Z$/i);
-        if (match) {{
-          return match[1] + ' ' + match[2] + ' UTC';
-        }}
-        return cleaned.replace('T', ' ');
-      }}
 
       onReady(function initRepoCards() {{
         var content = document.getElementById('issue-content');
@@ -675,7 +666,6 @@ HTML_TEMPLATE = r"""<!doctype html>
           anchorBtn.title = 'Copy link';
           anchorBtn.setAttribute('aria-label', 'Copy link to ' + repoName);
           anchorBtn.textContent = '🔗';
-          right.appendChild(anchorBtn);
 
           right.appendChild(meta);
           right.appendChild(anchorBtn);

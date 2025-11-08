@@ -208,6 +208,8 @@ def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | 
         s, e = windows.pop(0)
         idx += 1
         print(f"[info] Window {idx}: {s} → {e}", file=sys.stderr, flush=True)
+        # Cache for the first page of the primary label when probing is enabled
+        probe_first_page = None
         # Optionally probe and split window if result volume is too high (use primary label as proxy)
         if auto_chunk:
             probe_label = LABEL_VARIANTS[0]
@@ -233,6 +235,8 @@ def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | 
                 # Try next (do not process this large window)
                 time.sleep(0.1)
                 continue
+            # Keep the probed first page for reuse with the primary label below
+            probe_first_page = search_probe
 
         window_seen = 0
         for label in LABEL_VARIANTS:
@@ -240,15 +244,15 @@ def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | 
             after = None
             label_seen = 0
             first_page = True
-            first_page_cached = None
             while True:
-                if first_page and auto_chunk and label == LABEL_VARIANTS[0]:
-                    # Reuse probe page results for primary label if available
-                    # Note: data_probe/search_probe from above only for primary label; for simplicity we re-fetch here if not cached
-                    pass
-                data, headers = gh_post(token, GQL_SEARCH, {"q": q, "after": after})
-                search = data["data"]["search"]
-                nodes = search["nodes"]
+                # Reuse the probed first page for the primary label to avoid a duplicate request
+                if first_page and label == LABEL_VARIANTS[0] and probe_first_page is not None:
+                    search = probe_first_page
+                    nodes = search["nodes"]
+                else:
+                    data, _headers = gh_post(token, GQL_SEARCH, {"q": q, "after": after})
+                    search = data["data"]["search"]
+                    nodes = search["nodes"]
                 if first_page:
                     print(
                         f"[info]   Label '{label}': issueCount={search.get('issueCount', 'n/a')}",
