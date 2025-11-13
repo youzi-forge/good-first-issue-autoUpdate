@@ -10,7 +10,7 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 
 - View the live list (updates every 3 days):
   https://youzi-forge.github.io/good-first-issue-autoUpdate/
-  · Last updated: <!--LAST_UPDATED-->2025-11-10 04:30 UTC<!--/LAST_UPDATED-->
+  · Last updated: <!--LAST_UPDATED-->2025-11-13 04:30 UTC<!--/LAST_UPDATED-->
 
 ## At a Glance
 - Update cadence: every 3 days (via GitHub Actions)
@@ -21,7 +21,7 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 ---
 
 ## Project Info
-- Live site: https://youzi-forge.github.io/good-first-issue-autoUpdate/ · Last updated: <!--LAST_UPDATED-->2025-11-10 04:30 UTC<!--/LAST_UPDATED-->
+- Live site: https://youzi-forge.github.io/good-first-issue-autoUpdate/ · Last updated: <!--LAST_UPDATED-->2025-11-13 04:30 UTC<!--/LAST_UPDATED-->
 - Workflows: [Update list](.github/workflows/update-good-first-issues.yml), [Deploy Pages](.github/workflows/deploy-pages.yml)
 - License: [MIT](LICENSE)
 - Releases: https://github.com/youzi-forge/good-first-issue-autoUpdate/releases
