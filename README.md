@@ -41,7 +41,7 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 Linux/macOS
 ```bash
 python3 -m pip install -r requirements.txt
-export GITHUB_TOKEN=ghp_xxx
+export GITHUB_TOKEN= GHP_XXXXX
 python3 github_good_first_issue_finder.py --days 90 --min-stars 300 --max-stars 2000 --state open --chunk-days 5 --out good_first_issues.md
 # Scope to one org (optional):
 python3 github_good_first_issue_finder.py --days 30 --min-stars 300 --state open --chunk-days 5 --org stdlib-js --out good_first_issues.md
@@ -50,6 +50,10 @@ python3 github_good_first_issue_finder.py --days 30 --min-stars 300 --state open
 # Build local HTML for preview (optional):
 python3 scripts/build_site.py --input good_first_issues.md --outdir _site --title "Good First Issues"
 # Then open _site/index.html in your browser
+#run server dev: (optional)
+python3 -m pip install -r requirements-dev.txt
+python3 scripts/dev_server.py
+# Server will be available at: http://localhost:8000
 ```
 
 Windows (PowerShell)
@@ -64,6 +68,10 @@ py -3 github_good_first_issue_finder.py --days 30 --min-stars 300 --state open -
 # Build local HTML for preview (optional):
 py -3 scripts/build_site.py --input good_first_issues.md --outdir _site --title "Good First Issues"
 # Then open _site/index.html
+#run server dev: (optional)
+py -3 -m pip install -r requirements-dev.txt
+py -3 scripts/dev_server.py
+# Server will be available at: http://localhost:8000
 ```
 
 ## Defaults
