@@ -33,7 +33,7 @@ export function RepoCard({ repo }: RepoCardProps) {
                         href={repo.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-lg font-semibold text-accent hover:underline"
+                        className="text-lg font-semibold text-foreground hover:text-accent hover:underline"
                     >
                         {repo.name}
                     </a>

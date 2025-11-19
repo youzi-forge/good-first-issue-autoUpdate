@@ -50,7 +50,7 @@ interface Data {
     issues: RawIssue[];
 }
 
-const ITEMS_PER_PAGE = 10;
+
 
 function App() {
     const [data, setData] = useState<Data | null>(null);
@@ -59,6 +59,7 @@ function App() {
     const [selectedLanguage, setSelectedLanguage] = useState<string | null>(null);
     const [minStars, setMinStars] = useState(0);
     const [currentPage, setCurrentPage] = useState(1);
+    const [itemsPerPage, setItemsPerPage] = useState(10);
 
     useEffect(() => {
         fetch("data.json")
@@ -76,7 +77,7 @@ function App() {
     // Reset page when filters change
     useEffect(() => {
         setCurrentPage(1);
-    }, [search, selectedLanguage, minStars]);
+    }, [search, selectedLanguage, minStars, itemsPerPage]);
 
     const languages = useMemo(() => {
         if (!data) return [];
@@ -135,10 +136,10 @@ function App() {
         return Array.from(repoMap.values()).sort((a, b) => b.stars - a.stars);
     }, [data, search, selectedLanguage, minStars]);
 
-    const totalPages = Math.ceil(groupedRepos.length / ITEMS_PER_PAGE);
+    const totalPages = Math.ceil(groupedRepos.length / itemsPerPage);
     const currentRepos = groupedRepos.slice(
-        (currentPage - 1) * ITEMS_PER_PAGE,
-        currentPage * ITEMS_PER_PAGE
+        (currentPage - 1) * itemsPerPage,
+        currentPage * itemsPerPage
     );
 
     if (loading) {
@@ -196,6 +197,8 @@ function App() {
                     languages={languages}
                     minStars={minStars}
                     setMinStars={setMinStars}
+                    itemsPerPage={itemsPerPage}
+                    setItemsPerPage={setItemsPerPage}
                 />
 
                 <div className="space-y-6">

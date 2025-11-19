@@ -8,6 +8,8 @@ interface FilterBarProps {
     languages: string[];
     minStars: number;
     setMinStars: (value: number) => void;
+    itemsPerPage: number;
+    setItemsPerPage: (value: number) => void;
 }
 
 export function FilterBar({
@@ -18,6 +20,8 @@ export function FilterBar({
     languages,
     minStars,
     setMinStars,
+    itemsPerPage,
+    setItemsPerPage,
 }: FilterBarProps) {
     return (
         <div className="sticky top-4 z-10 mb-8 space-y-4 rounded-2xl border border-border/50 bg-background/80 p-4 backdrop-blur-xl shadow-sm transition-all hover:shadow-md hover:border-border">
@@ -69,6 +73,17 @@ export function FilterBar({
                             className="w-16 bg-transparent text-sm outline-none"
                         />
                     </div>
+
+                    <select
+                        value={itemsPerPage}
+                        onChange={(e) => setItemsPerPage(Number(e.target.value))}
+                        className="h-10 rounded-xl border border-border bg-secondary/50 px-3 text-sm outline-none transition-all focus:border-accent focus:bg-background focus:ring-2 focus:ring-accent/20"
+                    >
+                        <option value={5}>5 per page</option>
+                        <option value={10}>10 per page</option>
+                        <option value={20}>20 per page</option>
+                        <option value={50}>50 per page</option>
+                    </select>
                 </div>
             </div>
         </div>
