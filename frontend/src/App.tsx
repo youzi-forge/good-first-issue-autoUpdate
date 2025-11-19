@@ -1,9 +1,29 @@
 import { useEffect, useState, useMemo } from "react";
-import { IssueCard } from "./components/IssueCard";
+import { RepoCard } from "./components/RepoCard";
 import { FilterBar } from "./components/FilterBar";
-import { Github, Loader2 } from "lucide-react";
+import { Github, Loader2, ChevronLeft, ChevronRight } from "lucide-react";
 
 interface Issue {
+    title: string;
+    number: number;
+    url: string;
+    createdAt: string;
+    updatedAt: string;
+    labels: string[];
+}
+
+interface Repository {
+    name: string;
+    url: string;
+    stars: number;
+    language?: {
+        name: string;
+        color: string;
+    };
+    issues: Issue[];
+}
+
+interface RawIssue {
     repo: string;
     repo_url: string;
     stars: number;
@@ -27,8 +47,10 @@ interface Data {
         total_issues: number;
         total_repos: number;
     };
-    issues: Issue[];
+    issues: RawIssue[];
 }
+
+const ITEMS_PER_PAGE = 10;
 
 function App() {
     const [data, setData] = useState<Data | null>(null);
@@ -36,6 +58,7 @@ function App() {
     const [search, setSearch] = useState("");
     const [selectedLanguage, setSelectedLanguage] = useState<string | null>(null);
     const [minStars, setMinStars] = useState(0);
+    const [currentPage, setCurrentPage] = useState(1);
 
     useEffect(() => {
         fetch("data.json")
@@ -50,6 +73,11 @@ function App() {
             });
     }, []);
 
+    // Reset page when filters change
+    useEffect(() => {
+        setCurrentPage(1);
+    }, [search, selectedLanguage, minStars]);
+
     const languages = useMemo(() => {
         if (!data) return [];
         const langs = new Set<string>();
@@ -61,9 +89,11 @@ function App() {
         return Array.from(langs).sort();
     }, [data]);
 
-    const filteredIssues = useMemo(() => {
+    const groupedRepos = useMemo(() => {
         if (!data) return [];
-        return data.issues.filter((issue) => {
+
+        // First filter the raw issues
+        const filteredRawIssues = data.issues.filter((issue) => {
             const matchesSearch =
                 search === "" ||
                 issue.title.toLowerCase().includes(search.toLowerCase()) ||
@@ -77,7 +107,39 @@ function App() {
 
             return matchesSearch && matchesLanguage && matchesStars;
         });
+
+        // Then group by repository
+        const repoMap = new Map<string, Repository>();
+
+        filteredRawIssues.forEach((issue) => {
+            if (!repoMap.has(issue.repo)) {
+                repoMap.set(issue.repo, {
+                    name: issue.repo,
+                    url: issue.repo_url,
+                    stars: issue.stars,
+                    language: issue.language,
+                    issues: [],
+                });
+            }
+            repoMap.get(issue.repo)!.issues.push({
+                title: issue.title,
+                number: issue.number,
+                url: issue.url,
+                createdAt: issue.createdAt,
+                updatedAt: issue.updatedAt,
+                labels: issue.labels,
+            });
+        });
+
+        // Convert to array and sort by stars (descending)
+        return Array.from(repoMap.values()).sort((a, b) => b.stars - a.stars);
     }, [data, search, selectedLanguage, minStars]);
+
+    const totalPages = Math.ceil(groupedRepos.length / ITEMS_PER_PAGE);
+    const currentRepos = groupedRepos.slice(
+        (currentPage - 1) * ITEMS_PER_PAGE,
+        currentPage * ITEMS_PER_PAGE
+    );
 
     if (loading) {
         return (
@@ -97,7 +159,7 @@ function App() {
 
     return (
         <div className="min-h-screen bg-background text-foreground selection:bg-accent/20">
-            <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
                 <header className="mb-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                     <div>
                         <h1 className="text-3xl font-bold tracking-tight sm:text-4xl bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
@@ -105,6 +167,10 @@ function App() {
                         </h1>
                         <p className="mt-2 text-muted-foreground">
                             Discover beginner-friendly issues in popular open-source projects.
+                            <br />
+                            <span className="text-sm opacity-80">
+                                Showing issues from repositories with &gt;1000 stars, updated in the last 90 days.
+                            </span>
                             <br className="hidden sm:block" />
                             Updated: {new Date(data.meta.generated_at).toLocaleString()}
                         </p>
@@ -132,15 +198,39 @@ function App() {
                     setMinStars={setMinStars}
                 />
 
-                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                    {filteredIssues.map((issue) => (
-                        <IssueCard key={issue.url} issue={issue} />
+                <div className="space-y-6">
+                    {currentRepos.map((repo) => (
+                        <RepoCard key={repo.name} repo={repo} />
                     ))}
                 </div>
 
-                {filteredIssues.length === 0 && (
+                {groupedRepos.length === 0 && (
                     <div className="mt-12 text-center text-muted-foreground">
                         No issues found matching your criteria.
+                    </div>
+                )}
+
+                {totalPages > 1 && (
+                    <div className="mt-10 flex items-center justify-center gap-4">
+                        <button
+                            onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                            disabled={currentPage === 1}
+                            className="flex items-center gap-1 rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent/10 hover:border-accent transition-colors"
+                        >
+                            <ChevronLeft className="h-4 w-4" />
+                            Previous
+                        </button>
+                        <span className="text-sm text-muted-foreground">
+                            Page {currentPage} of {totalPages}
+                        </span>
+                        <button
+                            onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                            disabled={currentPage === totalPages}
+                            className="flex items-center gap-1 rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent/10 hover:border-accent transition-colors"
+                        >
+                            Next
+                            <ChevronRight className="h-4 w-4" />
+                        </button>
                     </div>
                 )}
             </div>
