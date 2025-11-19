@@ -132,6 +132,13 @@ function App() {
             });
         });
 
+        // Sort issues within each repo by updatedAt (descending)
+        repoMap.forEach((repo) => {
+            repo.issues.sort((a, b) => {
+                return new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime();
+            });
+        });
+
         // Convert to array and sort by stars (descending)
         return Array.from(repoMap.values()).sort((a, b) => b.stars - a.stars);
     }, [data, search, selectedLanguage, minStars]);
@@ -171,6 +178,8 @@ function App() {
                             <br />
                             <span className="text-sm opacity-80">
                                 Showing issues from repositories with &gt;1000 stars, updated in the last 90 days.
+                                <br />
+                                Repositories sorted by stars. Issues within each repo sorted by last update (newest first).
                             </span>
                             <br className="hidden sm:block" />
                             Updated: {new Date(data.meta.generated_at).toLocaleString()}
