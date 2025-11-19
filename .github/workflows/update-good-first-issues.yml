@@ -33,9 +33,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Generate Markdown file
           python github_good_first_issue_finder.py \
             --days 90 --min-stars 1000 --state open --chunk-days 5 \
-            --out good_first_issues.md \
+            --out good_first_issues.md
+          
+          # Generate JSON file (and standalone HTML)
+          python github_good_first_issue_finder.py \
+            --days 90 --min-stars 1000 --state open --chunk-days 5 \
             --json --out frontend/public/data.json
 
       - name: Update README last-updated (only if dataset changed)

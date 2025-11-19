@@ -478,25 +478,47 @@ def main():
         title = f"Good First Issues (last {args.days} days, repos ≥ {args.min_stars}★, state={args.state})"
     else:
         title = f"Good First Issues (last {args.days} days, {args.min_stars}★–{args.max_stars}★, state={args.state})"
-    
+    # Render JSON
     if args.json:
-        content = render_json(grouped, repo_star, title)
-    else:
-        content = render_markdown(grouped, repo_star, title)
+        json_content = render_json(grouped, repo_star, title) # Assuming render_json signature remains (grouped, repo_star, title)
+        with open(args.out, "w", encoding="utf-8") as f:
+            f.write(json_content)
+        print(f"[info] Wrote JSON to {args.out}", file=sys.stderr)
         
-    print(
-        f"[info] Writing results to {args.out} (repos matched: {len(grouped)}, issues scanned: ~{total_seen})",
-        file=sys.stderr,
-        flush=True,
-    )
-    with open(args.out, "w", encoding="utf-8") as f:
-        f.write(content)
-    print(f"Wrote {args.out}. Scanned issues: ~{total_seen}. Repositories matched: {len(grouped)}")
+        # Auto-generate standalone HTML for local viewing
+        try:
+            import subprocess
+            from pathlib import Path # Added import for Path
+            script_dir = Path(__file__).parent
+            build_script = script_dir / "scripts" / "build_standalone.py"
+            
+            if build_script.exists():
+                print("[info] Generating standalone HTML for local viewing...", file=sys.stderr)
+                result = subprocess.run(
+                    ["python3", str(build_script), "--data", args.out],
+                    capture_output=True,
+                    text=True
+                )
+                if result.returncode == 0:
+                    print(f"[info] {result.stdout.strip()}", file=sys.stderr)
+                else:
+                    print(f"[warn] Failed to generate standalone HTML: {result.stderr}", file=sys.stderr)
+        except Exception as e:
+            print(f"[warn] Could not generate standalone HTML: {e}", file=sys.stderr)
+    else:
+        # Render Markdown
+        md_content = render_markdown(grouped, repo_star, title) # Assuming render_markdown signature remains (grouped, repo_star, title)
+        with open(args.out, "w", encoding="utf-8") as f:
+            f.write(md_content)
+        print(f"[info] Wrote Markdown to {args.out}", file=sys.stderr)
     
+    # Consolidated final print statement
+    print(f"Wrote {args.out}. Scanned issues: ~{total_seen}. Repositories matched: {len(grouped)}")
+
     if not args.json:
         # Also print a short preview to stdout for Markdown
         print("\n--- Preview ---\n")
-        print("\n".join(content.splitlines()[:40]))
+        print("\n".join(md_content.splitlines()[:40])) # Changed 'content' to 'md_content'
 
 if __name__ == "__main__":
     main()
