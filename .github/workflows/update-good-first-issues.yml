@@ -29,11 +29,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate Markdown
+      - name: Generate Markdown and JSON
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python github_good_first_issue_finder.py             --days 90 --min-stars 1000 --state open --chunk-days 5             --out good_first_issues.md
+          python github_good_first_issue_finder.py \
+            --days 90 --min-stars 1000 --state open --chunk-days 5 \
+            --out good_first_issues.md \
+            --json --out frontend/public/data.json
 
       - name: Update README last-updated (only if dataset changed)
         run: |
@@ -48,7 +51,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md good_first_issues.md
+            git add README.md good_first_issues.md frontend/public/data.json
             git commit -m "chore: update good-first-issues [skip ci]"
             git push
           else
