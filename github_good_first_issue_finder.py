@@ -27,6 +27,7 @@ import argparse
 import datetime as dt
 import requests
 import html as _html
+import json
 from collections import defaultdict
 
 
@@ -166,6 +167,10 @@ query SearchIssues($q:String!, $after:String) {
           url
           stargazerCount
           isArchived
+          primaryLanguage {
+            name
+            color
+          }
         }
         labels(first: 10) {
           nodes { name }
@@ -276,6 +281,9 @@ def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | 
                     full = repo.get("nameWithOwner", "")
                     stars = int((repo.get("stargazerCount") or 0))
                     repo_star[full] = stars
+                    
+                    primary_language = repo.get("primaryLanguage")
+                    
                     if stars >= min_stars and (max_stars is None or stars <= max_stars):
                         grouped[full].append({
                             "title": node.get("title", ""),
@@ -286,7 +294,8 @@ def collect_issues(token: str, days_back: int, min_stars: int, max_stars: int | 
                             "state": node.get("state", ""),
                             "labels": [lab["name"] for lab in (node.get("labels", {}) or {}).get("nodes", [])],
                             "repo_url": repo.get("url", ""),
-                            "stars": stars
+                            "stars": stars,
+                            "language": primary_language
                         })
                 total_seen += len(nodes)
                 window_seen += len(nodes)
@@ -351,6 +360,39 @@ def render_markdown(grouped, repo_star, title: str):
         lines.append("> No matching issues found.")
     return "\n".join(lines)
 
+def render_json(grouped, repo_star, title: str):
+    ts = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds').replace("+00:00", "Z")
+    
+    # Flatten the structure for easier consumption by frontend
+    all_issues = []
+    
+    for full_name, issues in grouped.items():
+        for issue in issues:
+            all_issues.append({
+                "repo": full_name,
+                "repo_url": issue["repo_url"],
+                "stars": issue["stars"],
+                "language": issue.get("language"),
+                "title": issue["title"],
+                "number": issue["number"],
+                "url": issue["url"],
+                "createdAt": issue["createdAt"],
+                "updatedAt": issue["updatedAt"],
+                "state": issue["state"],
+                "labels": issue["labels"]
+            })
+            
+    output = {
+        "meta": {
+            "title": title,
+            "generated_at": ts,
+            "total_issues": len(all_issues),
+            "total_repos": len(grouped)
+        },
+        "issues": all_issues
+    }
+    return json.dumps(output, indent=2)
+
 def main():
     ap = argparse.ArgumentParser(description="Find 'good first issue' in repos with >= N stars (GraphQL).")
     ap.add_argument("--days", type=int, default=90, help="How many past days to search (default: 90).")
@@ -378,7 +420,9 @@ def main():
         default=950,
         help="Target maximum matches per label per window before splitting further (default: 950).",
     )
-    ap.add_argument("--out", type=str, default="good_first_issues.md", help="Output Markdown file.")
+    ap.add_argument("--out", type=str, default="good_first_issues.md", help="Output file path.")
+    ap.add_argument("--json", action="store_true", help="Output JSON instead of Markdown.")
+    
     args = ap.parse_args()
 
     errors = []
@@ -434,18 +478,25 @@ def main():
         title = f"Good First Issues (last {args.days} days, repos ≥ {args.min_stars}★, state={args.state})"
     else:
         title = f"Good First Issues (last {args.days} days, {args.min_stars}★–{args.max_stars}★, state={args.state})"
-    md = render_markdown(grouped, repo_star, title)
+    
+    if args.json:
+        content = render_json(grouped, repo_star, title)
+    else:
+        content = render_markdown(grouped, repo_star, title)
+        
     print(
         f"[info] Writing results to {args.out} (repos matched: {len(grouped)}, issues scanned: ~{total_seen})",
         file=sys.stderr,
         flush=True,
     )
     with open(args.out, "w", encoding="utf-8") as f:
-        f.write(md)
+        f.write(content)
     print(f"Wrote {args.out}. Scanned issues: ~{total_seen}. Repositories matched: {len(grouped)}")
-    # Also print a short preview to stdout
-    print("\n--- Preview ---\n")
-    print("\n".join(md.splitlines()[:40]))
+    
+    if not args.json:
+        # Also print a short preview to stdout for Markdown
+        print("\n--- Preview ---\n")
+        print("\n".join(content.splitlines()[:40]))
 
 if __name__ == "__main__":
     main()
