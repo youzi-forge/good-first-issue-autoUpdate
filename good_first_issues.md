@@ -1,8 +1,8 @@
 # Good First Issues (last 90 days, repos ≥ 1000★, state=open)
 
-_Generated at: 2025-12-16T04:35:06Z_  
+_Generated at: 2025-12-19T04:33:07Z_  
 
-## Significant-Gravitas/AutoGPT  ⭐ 180310
+## Significant-Gravitas/AutoGPT  ⭐ 180359
 [Repository](https://github.com/Significant-Gravitas/AutoGPT)
 
 - <a href="https://github.com/Significant-Gravitas/AutoGPT/issues/11044">Collapse unconnected object sub-outputs on blocks</a>  <code>#11044</code> · updated: 2025-12-12 · created: 2025-10-02  
@@ -14,15 +14,11 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/Significant-Gravitas/AutoGPT/issues/11041">Show agent name + version on Agent Executor block</a>  <code>#11041</code> · updated: 2025-10-26 · created: 2025-10-02  
   labels: good first issue, platform/frontend, platform/blocks
 
-## microsoft/vscode  ⭐ 179669
-[Repository](https://github.com/microsoft/vscode)
-
-- <a href="https://github.com/microsoft/vscode/issues/279243">Many missing git log arguments in terminal suggest</a>  <code>#279243</code> · updated: 2025-12-10 · created: 2025-11-24  
-  labels: help wanted, feature-request, good first issue, terminal-suggest
-
-## flutter/flutter  ⭐ 174277
+## flutter/flutter  ⭐ 174323
 [Repository](https://github.com/flutter/flutter)
 
+- <a href="https://github.com/flutter/flutter/issues/179448">--no-hot flag on web-server is not working</a>  <code>#179448</code> · updated: 2025-12-18 · created: 2025-12-04  
+  labels: tool, t: hot reload, platform-web, good first issue, has reproducible steps, P2, fyi-tool, team-web, triaged-web, found in release: 3.38
 - <a href="https://github.com/flutter/flutter/issues/179668">Path.computeMetrics inconsistency</a>  <code>#179668</code> · updated: 2025-12-15 · created: 2025-12-10  
   labels: framework, engine, d: api docs, good first issue, has reproducible steps, P2, team-engine, triaged-engine, found in release: 3.38, found in release: 3.40
 - <a href="https://github.com/flutter/flutter/issues/179572">FittedBox breaks VideoPlayer if wrapped in SizedBox with size &lt; 1 (impeller only) and throws `Invalid texture descriptor.` using OpenGLES rendering</a>  <code>#179572</code> · updated: 2025-12-15 · created: 2025-12-08  
@@ -31,8 +27,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue, P3, team-design, triaged-design
 - <a href="https://github.com/flutter/flutter/issues/179014">Flutter 3.38 run command line arguments not working for web development config</a>  <code>#179014</code> · updated: 2025-12-12 · created: 2025-11-24  
   labels: tool, platform-web, good first issue, P2, fyi-tool, team-web, triaged-web
-- <a href="https://github.com/flutter/flutter/issues/179711">RefreshIndicator.noSpinner example scrollview does not pull down with mouse pointer on desktop</a>  <code>#179711</code> · updated: 2025-12-11 · created: 2025-12-10  
-  labels: framework, d: api docs, d: examples, f: gestures, good first issue, team-design
 - <a href="https://github.com/flutter/flutter/issues/178754">`web_dev_config.yaml` Proxy intercepts backend 404 responses and serves `index.html` fallback</a>  <code>#178754</code> · updated: 2025-12-03 · created: 2025-11-18  
   labels: platform-web, good first issue, P2, team-web, triaged-web
 - <a href="https://github.com/flutter/flutter/issues/178767">Improve doc comments RE ImageFilter.shader and . isShaderFilterSupported</a>  <code>#178767</code> · updated: 2025-12-03 · created: 2025-11-19  
@@ -42,19 +36,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/flutter/flutter/issues/178582">Web proxy incorrectly merges multiple Set-Cookie headers into a single header</a>  <code>#178582</code> · updated: 2025-11-19 · created: 2025-11-15  
   labels: platform-web, good first issue, P2, team-web, triaged-web
 
-## ollama/ollama  ⭐ 157683
+## ollama/ollama  ⭐ 157879
 [Repository](https://github.com/ollama/ollama)
 
 - <a href="https://github.com/ollama/ollama/issues/12954">app: sidebar animates opening on load instead of appearing open</a>  <code>#12954</code> · updated: 2025-12-03 · created: 2025-11-04  
   labels: bug, good first issue, app
 
-## yt-dlp/yt-dlp  ⭐ 138388
-[Repository](https://github.com/yt-dlp/yt-dlp)
-
-- <a href="https://github.com/yt-dlp/yt-dlp/issues/15176">[TubiTv] Unsupported URL error</a>  <code>#15176</code> · updated: 2025-12-15 · created: 2025-11-26  
-  labels: good first issue, site-bug
-
-## microsoft/PowerToys  ⭐ 126516
+## microsoft/PowerToys  ⭐ 126590
 [Repository](https://github.com/microsoft/PowerToys)
 
 - <a href="https://github.com/microsoft/PowerToys/issues/43460">Command Palette Calculator extension: Replace input if query ends with &#x27;=&#x27;</a>  <code>#43460</code> · updated: 2025-12-01 · created: 2025-11-11  
@@ -64,31 +52,27 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/microsoft/PowerToys/issues/41922">Subscript &amp; Superscript characters for Quick Accent</a>  <code>#41922</code> · updated: 2025-10-08 · created: 2025-09-21  
   labels: Idea-Enhancement, Help Wanted, Good first issue, Product-Quick Accent
 
-## langgenius/dify  ⭐ 121816
+## langgenius/dify  ⭐ 122144
 [Repository](https://github.com/langgenius/dify)
 
-- <a href="https://github.com/langgenius/dify/issues/29694">Action sizing</a>  <code>#29694</code> · updated: 2025-12-16 · created: 2025-12-15  
+- <a href="https://github.com/langgenius/dify/issues/29694">Action sizing</a>  <code>#29694</code> · updated: 2025-12-18 · created: 2025-12-15  
   labels: 💪 enhancement, good first issue
-- <a href="https://github.com/langgenius/dify/issues/29314">[Chore/Refactor] Remove `server_default` in model definitions</a>  <code>#29314</code> · updated: 2025-12-12 · created: 2025-12-09  
-  labels: good first issue, refactor
-- <a href="https://github.com/langgenius/dify/issues/29359">darkmode code editor</a>  <code>#29359</code> · updated: 2025-12-12 · created: 2025-12-09  
+- <a href="https://github.com/langgenius/dify/issues/28279">Error on  API Log Detail View in Browser Frontend Error</a>  <code>#28279</code> · updated: 2025-12-18 · created: 2025-11-17  
+  labels: 🐞 bug, good first issue
+- <a href="https://github.com/langgenius/dify/issues/29762">[Refactor/Chore] Garbage components</a>  <code>#29762</code> · updated: 2025-12-17 · created: 2025-12-16  
   labels: good first issue
+- <a href="https://github.com/langgenius/dify/issues/29314">[Chore/Refactor] Remove `server_default` in model definitions</a>  <code>#29314</code> · updated: 2025-12-17 · created: 2025-12-09  
+  labels: good first issue, refactor
 - <a href="https://github.com/langgenius/dify/issues/26665">After upgrading from version 1.8 to 1.9, the database encountered numerous errors, rendering the business operations non-functional.</a>  <code>#26665</code> · updated: 2025-12-03 · created: 2025-10-09  
   labels: 🐞 bug, good first issue
 - <a href="https://github.com/langgenius/dify/issues/28915">I can not remove the added model in Model Provider setting Page</a>  <code>#28915</code> · updated: 2025-12-02 · created: 2025-11-28  
-  labels: 🐞 bug, good first issue
-- <a href="https://github.com/langgenius/dify/issues/28279">Error on  API Log Detail View in Browser Frontend Error</a>  <code>#28279</code> · updated: 2025-11-27 · created: 2025-11-17  
   labels: 🐞 bug, good first issue
 - <a href="https://github.com/langgenius/dify/issues/28505">[Chore/Refactor] Remove PM2</a>  <code>#28505</code> · updated: 2025-11-22 · created: 2025-11-21  
   labels: good first issue, refactor
 - <a href="https://github.com/langgenius/dify/issues/26940">Frontend charactes limitation</a>  <code>#26940</code> · updated: 2025-11-21 · created: 2025-10-15  
   labels: 🐞 bug, good first issue
-- <a href="https://github.com/langgenius/dify/issues/26108">End node loses highlight</a>  <code>#26108</code> · updated: 2025-11-15 · created: 2025-09-23  
-  labels: 🐞 bug, good first issue
 - <a href="https://github.com/langgenius/dify/issues/27582">Batch import of Q&amp;A pairs failed.</a>  <code>#27582</code> · updated: 2025-11-10 · created: 2025-10-29  
   labels: 🐞 bug, good first issue
-- <a href="https://github.com/langgenius/dify/issues/26318">DataSource authorizations</a>  <code>#26318</code> · updated: 2025-11-07 · created: 2025-09-27  
-  labels: 🐞 bug, good first issue, Knowledge Pipeline
 - <a href="https://github.com/langgenius/dify/issues/27581">The content of the select dropdown box is being obscured when the dialog pop-up is modified in the already released APP.</a>  <code>#27581</code> · updated: 2025-10-29 · created: 2025-10-29  
   labels: 🐞 bug, good first issue
 - <a href="https://github.com/langgenius/dify/issues/27531">I deleted the OpenAI plugin, and after reinstalling it, the original API key was automatically restored. I want to clear it.</a>  <code>#27531</code> · updated: 2025-10-28 · created: 2025-10-28  
@@ -104,31 +88,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/langgenius/dify/issues/26107">Draft version uses wrong DSL</a>  <code>#26107</code> · updated: 2025-09-23 · created: 2025-09-23  
   labels: 🐞 bug, good first issue
 
-## kubernetes/kubernetes  ⭐ 119267
+## kubernetes/kubernetes  ⭐ 119331
 [Repository](https://github.com/kubernetes/kubernetes)
 
-- <a href="https://github.com/kubernetes/kubernetes/issues/135487">resource.MustParse fails to parse quantities near math.MaxInt64</a>  <code>#135487</code> · updated: 2025-12-11 · created: 2025-11-27  
+- <a href="https://github.com/kubernetes/kubernetes/issues/135487">resource.MustParse fails to parse quantities near math.MaxInt64</a>  <code>#135487</code> · updated: 2025-12-16 · created: 2025-11-27  
   labels: kind/bug, sig/api-machinery, sig/apps, help wanted, good first issue, needs-triage
 
-## open-webui/open-webui  ⭐ 117899
+## open-webui/open-webui  ⭐ 118175
 [Repository](https://github.com/open-webui/open-webui)
 
 - <a href="https://github.com/open-webui/open-webui/issues/19182">feat: SSO custom logout URI</a>  <code>#19182</code> · updated: 2025-12-12 · created: 2025-11-14  
   labels: good first issue
 
-## denoland/deno  ⭐ 105569
-[Repository](https://github.com/denoland/deno)
+## godotengine/godot  ⭐ 104219
+[Repository](https://github.com/godotengine/godot)
 
-- <a href="https://github.com/denoland/deno/issues/31356">Deno.HttpClient cannot use a SOCKS5 proxy</a>  <code>#31356</code> · updated: 2025-12-09 · created: 2025-11-20  
-  labels: good first issue, ext/http
+- <a href="https://github.com/godotengine/godot/issues/114170">Error spam from export dialog when file&#x27;s importing is disabled</a>  <code>#114170</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: bug, topic:editor, good first issue
 
-## angular/angular  ⭐ 99528
-[Repository](https://github.com/angular/angular)
-
-- <a href="https://github.com/angular/angular/issues/65987">Angular 21 docs page still has Jasmine example, which doesn&#x27;t work with Vitest</a>  <code>#65987</code> · updated: 2025-12-13 · created: 2025-12-10  
-  labels: help wanted, good first issue, area: docs
-
-## pytorch/pytorch  ⭐ 95928
+## pytorch/pytorch  ⭐ 96000
 [Repository](https://github.com/pytorch/pytorch)
 
 - <a href="https://github.com/pytorch/pytorch/issues/170398">torch.compile regression 2.9.1: Triton kernel name &#x27;_Runner__kernel_name_0&#x27; is not defined</a>  <code>#170398</code> · updated: 2025-12-15 · created: 2025-12-14  
@@ -138,9 +116,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pytorch/pytorch/issues/163759">[dynamo] [dynamic] `torch.combinations` throws RuntimeError when `(backend=aot_eager, dynamic=True)`</a>  <code>#163759</code> · updated: 2025-12-15 · created: 2025-09-24  
   labels: good first issue, triaged, oncall: pt2, module: dynamic shapes
 
-## ggml-org/llama.cpp  ⭐ 91374
+## ggml-org/llama.cpp  ⭐ 91543
 [Repository](https://github.com/ggml-org/llama.cpp)
 
+- <a href="https://github.com/ggml-org/llama.cpp/issues/18182">Feature Request: convert_hf_to_gguf.py to default to the original precision</a>  <code>#18182</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: enhancement, help wanted, good first issue, breaking change
+- <a href="https://github.com/ggml-org/llama.cpp/issues/18140">Eval bug: Qwen3-Next-80b crashes loading 126k tokens of context in CUDA (Vulkan is fine)</a>  <code>#18140</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: bug, good first issue
 - <a href="https://github.com/ggml-org/llama.cpp/issues/17634">Feature Request: support qwen omni audio generator and MiniCPM-o</a>  <code>#17634</code> · updated: 2025-12-15 · created: 2025-12-01  
   labels: enhancement, help wanted, good first issue, Review Complexity : High, tts, mtmd
 - <a href="https://github.com/ggml-org/llama.cpp/issues/17463">Misc. bug: Large tokens produce incorrect error messages due to integer overflow.</a>  <code>#17463</code> · updated: 2025-12-07 · created: 2025-11-24  
@@ -152,13 +134,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/ggml-org/llama.cpp/issues/17488">GGUF convert support for Vibevoice</a>  <code>#17488</code> · updated: 2025-11-25 · created: 2025-11-25  
   labels: enhancement, help wanted, good first issue, model, 3rd party, tts
 
-## immich-app/immich  ⭐ 86550
+## bitcoin/bitcoin  ⭐ 87280
+[Repository](https://github.com/bitcoin/bitcoin)
+
+- <a href="https://github.com/bitcoin/bitcoin/issues/34086">doc: Use multi-path descriptors in descriptors.md and linked tests.</a>  <code>#34086</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: good first issue
+
+## immich-app/immich  ⭐ 86804
 [Repository](https://github.com/immich-app/immich)
 
 - <a href="https://github.com/immich-app/immich/issues/22342">(Mobile) Immich incorrectly shows &quot;already in album&quot; when adding photos from shared album owned by another user</a>  <code>#22342</code> · updated: 2025-12-01 · created: 2025-09-23  
   labels: good first issue
 
-## oven-sh/bun  ⭐ 85114
+## oven-sh/bun  ⭐ 85283
 [Repository](https://github.com/oven-sh/bun)
 
 - <a href="https://github.com/oven-sh/bun/issues/23898">Error when importing ```findPackageJSON``` method from ```node:module```</a>  <code>#23898</code> · updated: 2025-12-07 · created: 2025-10-21  
@@ -168,13 +156,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/oven-sh/bun/issues/23891">node:process.initgroups is not yet implemented</a>  <code>#23891</code> · updated: 2025-10-21 · created: 2025-10-21  
   labels: bug, good first issue, node:process, confirmed bug
 
-## home-assistant/core  ⭐ 83190
+## home-assistant/core  ⭐ 83271
 [Repository](https://github.com/home-assistant/core)
 
 - <a href="https://github.com/home-assistant/core/issues/154226">Move translatable URLs out of strings.json</a>  <code>#154226</code> · updated: 2025-12-15 · created: 2025-10-11  
   labels: integration: mqtt, integration: knx, integration: vera, integration: zha, integration: telegram_bot, integration: pilight, integration: lametric, integration: isy994, integration: xiaomi_aqara, integration: thethingsnetwork
 
-## louislam/uptime-kuma  ⭐ 79828
+## louislam/uptime-kuma  ⭐ 79950
 [Repository](https://github.com/louislam/uptime-kuma)
 
 - <a href="https://github.com/louislam/uptime-kuma/issues/6299">How to write a compose.yaml for rootless setup?</a>  <code>#6299</code> · updated: 2025-11-02 · created: 2025-11-01  
@@ -182,7 +170,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/louislam/uptime-kuma/issues/6180">improve helptexts around formatting in the footer/header description boxes</a>  <code>#6180</code> · updated: 2025-10-24 · created: 2025-10-12  
   labels: feature-request, help wanted, good first issue, A:status-page
 
-## elastic/elasticsearch  ⭐ 75647
+## elastic/elasticsearch  ⭐ 75670
 [Repository](https://github.com/elastic/elasticsearch)
 
 - <a href="https://github.com/elastic/elasticsearch/issues/139233">[ML] Report actual memory usage for trained model deployments in TrainedModelSizeStats</a>  <code>#139233</code> · updated: 2025-12-14 · created: 2025-12-09  
@@ -196,12 +184,14 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/elastic/elasticsearch/issues/136895">Add columns CAT Shards for _tier_preference and node.roles</a>  <code>#136895</code> · updated: 2025-11-21 · created: 2025-10-21  
   labels: >enhancement, good first issue, :Data Management/CAT APIs, Team:Data Management
 
-## astral-sh/uv  ⭐ 74961
+## astral-sh/uv  ⭐ 75238
 [Repository](https://github.com/astral-sh/uv)
 
-- <a href="https://github.com/astral-sh/uv/issues/16712">SSL_CERT_FILE ignores empty value</a>  <code>#16712</code> · updated: 2025-12-15 · created: 2025-11-12  
+- <a href="https://github.com/astral-sh/uv/issues/17182">Make usage of `--config-file`/`UV_CONFIG_FILE` visible in verbose output</a>  <code>#17182</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: enhancement, good first issue, tracing
+- <a href="https://github.com/astral-sh/uv/issues/16712">SSL_CERT_FILE ignores empty value</a>  <code>#16712</code> · updated: 2025-12-16 · created: 2025-11-12  
   labels: good first issue
-- <a href="https://github.com/astral-sh/uv/issues/16783">`uv python upgrade` output message is ambiguous</a>  <code>#16783</code> · updated: 2025-12-15 · created: 2025-11-19  
+- <a href="https://github.com/astral-sh/uv/issues/16783">`uv python upgrade` output message is ambiguous</a>  <code>#16783</code> · updated: 2025-12-16 · created: 2025-11-19  
   labels: good first issue, error messages
 - <a href="https://github.com/astral-sh/uv/issues/16940">Clarify UV_HTTP_TIMEOUT format in error message</a>  <code>#16940</code> · updated: 2025-12-15 · created: 2025-12-02  
   labels: good first issue, error messages
@@ -209,12 +199,12 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: bug, good first issue, testing
 - <a href="https://github.com/astral-sh/uv/issues/15983">Add `--all-variants` option to show debug builds in `uv python list`</a>  <code>#15983</code> · updated: 2025-09-22 · created: 2025-09-22  
   labels: bug, good first issue
-- <a href="https://github.com/astral-sh/uv/issues/15919">Allow `--isolated` with script execution</a>  <code>#15919</code> · updated: 2025-09-18 · created: 2025-09-17  
-  labels: enhancement, good first issue
 
-## grafana/grafana  ⭐ 71282
+## grafana/grafana  ⭐ 71338
 [Repository](https://github.com/grafana/grafana)
 
+- <a href="https://github.com/grafana/grafana/issues/111664">Alerting: Options tooltip does not save interval value if I click outside tooltip</a>  <code>#111664</code> · updated: 2025-12-19 · created: 2025-09-26  
+  labels: type/bug, area/alerting, area/frontend, good first issue, automated-triage
 - <a href="https://github.com/grafana/grafana/issues/113075">Add grafana.ini parameter to disable &quot;Forgot your password?&quot; link</a>  <code>#113075</code> · updated: 2025-12-16 · created: 2025-10-28  
   labels: type/feature-request, area/auth, area/auth/ldap, good first issue, area/frontend/login, automated-triage
 - <a href="https://github.com/grafana/grafana/issues/114945">AWS Cloudwatch Bedrock Service include cache metrics</a>  <code>#114945</code> · updated: 2025-12-14 · created: 2025-12-07  
@@ -223,36 +213,30 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: area/alerting, area/frontend, good first issue, internal
 - <a href="https://github.com/grafana/grafana/issues/114227">PieChart: Keyboard focus indicator is not visible on the datalink present inside panel visualization</a>  <code>#114227</code> · updated: 2025-12-04 · created: 2025-11-20  
   labels: prio/low, type/accessibility, good first issue, area/panel/piechart, automated-triage
-- <a href="https://github.com/grafana/grafana/issues/111664">Alerting: Options tooltip does not save interval value if I click outside tooltip</a>  <code>#111664</code> · updated: 2025-12-03 · created: 2025-09-26  
-  labels: type/bug, area/alerting, area/frontend, good first issue, automated-triage
 - <a href="https://github.com/grafana/grafana/issues/114531">Dashboard panel query editor (Loki): Label selectors only show variables after first filter</a>  <code>#114531</code> · updated: 2025-12-03 · created: 2025-11-27  
   labels: type/bug, help wanted, datasource/Loki, good first issue, internal, needs refinement, origin/escalation
 - <a href="https://github.com/grafana/grafana/issues/111675">Explore: Keyboard shortcut to run queries in Explore</a>  <code>#111675</code> · updated: 2025-11-25 · created: 2025-09-26  
   labels: help wanted, area/explore, good first issue, internal
-- <a href="https://github.com/grafana/grafana/issues/111239">Prometheus: Changing auth type does not remove other auth properties</a>  <code>#111239</code> · updated: 2025-10-10 · created: 2025-09-17  
-  labels: effort/small, datasource/Prometheus, good first issue, internal
 
-## sherlock-project/sherlock  ⭐ 70941
+## sherlock-project/sherlock  ⭐ 71002
 [Repository](https://github.com/sherlock-project/sherlock)
 
 - <a href="https://github.com/sherlock-project/sherlock/issues/2652">LinkedIn detection no longer works due to blocked requests (Request Denied – HTTP 999)</a>  <code>#2652</code> · updated: 2025-12-08 · created: 2025-10-11  
   labels: good first issue, false negative
-- <a href="https://github.com/sherlock-project/sherlock/issues/2547">False Positive Remediation</a>  <code>#2547</code> · updated: 2025-10-02 · created: 2025-09-19  
-  labels: help wanted, good first issue, false positive
 
-## swiftlang/swift  ⭐ 69438
+## swiftlang/swift  ⭐ 69461
 [Repository](https://github.com/swiftlang/swift)
 
 - <a href="https://github.com/swiftlang/swift/issues/85882">Redundant effect warnings should have fixits</a>  <code>#85882</code> · updated: 2025-12-11 · created: 2025-12-06  
   labels: compiler, good first issue, diagnostics QoI, type checker, fix-its, error handling, swift 6.3
-- <a href="https://github.com/swiftlang/swift/issues/84407">☂️ Use llvm-lit&#x27;s internal shell by default</a>  <code>#84407</code> · updated: 2025-12-06 · created: 2025-09-19  
-  labels: test suite, good first issue, task
 - <a href="https://github.com/swiftlang/swift/issues/85157">Incorrect fix-it for static member access on instance</a>  <code>#85157</code> · updated: 2025-11-13 · created: 2025-10-27  
   labels: compiler, good first issue, diagnostics QoI, type checker, fix-its, generics, opaque parameter types, static declarations
 
-## apache/superset  ⭐ 69408
+## apache/superset  ⭐ 69459
 [Repository](https://github.com/apache/superset)
 
+- <a href="https://github.com/apache/superset/issues/35833">Dropdown menu shows 2 scroll bars.</a>  <code>#35833</code> · updated: 2025-12-16 · created: 2025-10-24  
+  labels: good first issue, #bug:cosmetic
 - <a href="https://github.com/apache/superset/issues/36530">(low priority) Histogram throws warning in logs in 6.0.0rc4</a>  <code>#36530</code> · updated: 2025-12-15 · created: 2025-12-11  
   labels: good first issue, viz:charts:histogram
 - <a href="https://github.com/apache/superset/issues/36305">Import CSV ; The &quot;schema&quot; field required or not --&gt; 2 datasets for 1 table</a>  <code>#36305</code> · updated: 2025-12-12 · created: 2025-11-27  
@@ -261,14 +245,12 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue
 - <a href="https://github.com/apache/superset/issues/36189">Percentage number formatting in table not working on very small numbers in 5.0.0</a>  <code>#36189</code> · updated: 2025-11-24 · created: 2025-11-19  
   labels: good first issue, viz:charts:table, 🦾 ai-candidate
-- <a href="https://github.com/apache/superset/issues/35833">Dropdown menu shows 2 scroll bars.</a>  <code>#35833</code> · updated: 2025-11-17 · created: 2025-10-24  
-  labels: good first issue, #bug:cosmetic
 - <a href="https://github.com/apache/superset/issues/35853">Line chart skips intermediate categories when x‑axis is string (but data exists)</a>  <code>#35853</code> · updated: 2025-11-16 · created: 2025-10-27  
   labels: good first issue
 - <a href="https://github.com/apache/superset/issues/35857">BigQuery errors when filters on text columns have apostrophes in them</a>  <code>#35857</code> · updated: 2025-11-05 · created: 2025-10-27  
   labels: good first issue, data:connect:googlebigquery
 
-## lobehub/lobe-chat  ⭐ 69119
+## lobehub/lobe-chat  ⭐ 69231
 [Repository](https://github.com/lobehub/lobe-chat)
 
 - <a href="https://github.com/lobehub/lobe-chat/issues/10580">Expired discord invitation link</a>  <code>#10580</code> · updated: 2025-12-03 · created: 2025-12-03  
@@ -276,11 +258,11 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/lobehub/lobe-chat/issues/9933">[Localization] Hindi</a>  <code>#9933</code> · updated: 2025-10-30 · created: 2025-10-30  
   labels: 🙋‍♂️ PR Welcome, i18n, priority:low, good-first-issue
 
-## OpenHands/OpenHands  ⭐ 65691
+## OpenHands/OpenHands  ⭐ 65770
 [Repository](https://github.com/OpenHands/OpenHands)
 
-- <a href="https://github.com/OpenHands/OpenHands/issues/12035">Action panel shows loading state when pausing agent</a>  <code>#12035</code> · updated: 2025-12-13 · created: 2025-12-13  
-  labels: bug, good first issue, frontend
+- <a href="https://github.com/OpenHands/OpenHands/issues/11938">Frontmatter field for multiple repos</a>  <code>#11938</code> · updated: 2025-12-16 · created: 2025-12-07  
+  labels: enhancement, good first issue, roadmap
 - <a href="https://github.com/OpenHands/OpenHands/issues/11931">Clean up console warnings in frontend test suite</a>  <code>#11931</code> · updated: 2025-12-08 · created: 2025-12-07  
   labels: good first issue, frontend, testing
 - <a href="https://github.com/OpenHands/OpenHands/issues/11936">Consolidate frontend theme colors</a>  <code>#11936</code> · updated: 2025-12-07 · created: 2025-12-07  
@@ -288,12 +270,12 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/OpenHands/OpenHands/issues/11686">[Bug]: CERTIFICATE_VERIFY_FAILED for self-hosted gitlab instances</a>  <code>#11686</code> · updated: 2025-12-01 · created: 2025-11-10  
   labels: bug, good first issue, integrations
 
-## vllm-project/vllm  ⭐ 65489
+## vllm-project/vllm  ⭐ 65736
 [Repository](https://github.com/vllm-project/vllm)
 
-- <a href="https://github.com/vllm-project/vllm/issues/30621">[Feature]: Remove MXFP4 Logic From `fused_experts`</a>  <code>#30621</code> · updated: 2025-12-15 · created: 2025-12-13  
+- <a href="https://github.com/vllm-project/vllm/issues/30621">[Feature]: Remove MXFP4 Logic From `fused_experts`</a>  <code>#30621</code> · updated: 2025-12-18 · created: 2025-12-13  
   labels: help wanted, good first issue, feature request
-- <a href="https://github.com/vllm-project/vllm/issues/30654">[Feature][Attention][UX]: Incorporate Features into Attention Selection</a>  <code>#30654</code> · updated: 2025-12-15 · created: 2025-12-14  
+- <a href="https://github.com/vllm-project/vllm/issues/30654">[Feature][Attention][UX]: Incorporate Features into Attention Selection</a>  <code>#30654</code> · updated: 2025-12-16 · created: 2025-12-14  
   labels: help wanted, good first issue, feature request
 - <a href="https://github.com/vllm-project/vllm/issues/30620">[Feature]: Remove Chunking From FusedMoE</a>  <code>#30620</code> · updated: 2025-12-13 · created: 2025-12-13  
   labels: help wanted, good first issue, feature request
@@ -324,25 +306,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/vllm-project/vllm/issues/26366">[Feature]: Improve config validation using Pydantic</a>  <code>#26366</code> · updated: 2025-10-21 · created: 2025-10-07  
   labels: good first issue
 
-## TheAlgorithms/Java  ⭐ 64504
+## TheAlgorithms/Java  ⭐ 64538
 [Repository](https://github.com/TheAlgorithms/Java)
 
-- <a href="https://github.com/TheAlgorithms/Java/issues/7164">[OTHER] Looking for Java / Spring Boot Developers to Help Build a Self-Hosted Home Server Platform</a>  <code>#7164</code> · updated: 2025-12-15 · created: 2025-12-14  
+- <a href="https://github.com/TheAlgorithms/Java/issues/7164">[OTHER] Looking for Java / Spring Boot Developers to Help Build a Self-Hosted Home Server Platform</a>  <code>#7164</code> · updated: 2025-12-17 · created: 2025-12-14  
   labels: help wanted, good first issue
 
-## toeverything/AFFiNE  ⭐ 60758
+## toeverything/AFFiNE  ⭐ 60851
 [Repository](https://github.com/toeverything/AFFiNE)
 
 - <a href="https://github.com/toeverything/AFFiNE/issues/13869">[Feature Request]: Add option to toggle image anti-aliasing (workspace, page, or per-image level)</a>  <code>#13869</code> · updated: 2025-12-08 · created: 2025-11-05  
   labels: good first issue, story
 
-## tldr-pages/tldr  ⭐ 60446
+## tldr-pages/tldr  ⭐ 60492
 [Repository](https://github.com/tldr-pages/tldr)
 
 - <a href="https://github.com/tldr-pages/tldr/issues/18405">Documentation request megaissue</a>  <code>#18405</code> · updated: 2025-12-14 · created: 2025-10-04  
   labels: help wanted, good first issue
 
-## nuxt/nuxt  ⭐ 59092
+## nuxt/nuxt  ⭐ 59120
 [Repository](https://github.com/nuxt/nuxt)
 
 - <a href="https://github.com/nuxt/nuxt/issues/33678">easier way to define global `tsconfig` options</a>  <code>#33678</code> · updated: 2025-12-01 · created: 2025-11-08  
@@ -352,7 +334,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/nuxt/nuxt/issues/33635">Feature Request: Add Documentation around Alternative Editor LSP Configurations</a>  <code>#33635</code> · updated: 2025-11-03 · created: 2025-11-02  
   labels: good first issue, 🍰 p2-nice-to-have
 
-## FuelLabs/fuel-core  ⭐ 57436
+## FuelLabs/fuel-core  ⭐ 57438
 [Repository](https://github.com/FuelLabs/fuel-core)
 
 - <a href="https://github.com/FuelLabs/fuel-core/issues/3160">Have parity between pre confirmation statuses and `Success` and `Failed` statuses</a>  <code>#3160</code> · updated: 2025-12-10 · created: 2025-12-05  
@@ -360,13 +342,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/FuelLabs/fuel-core/issues/3140">Adjust the playground to support the auth token</a>  <code>#3140</code> · updated: 2025-11-05 · created: 2025-11-04  
   labels: good first issue
 
-## LadybirdBrowser/ladybird  ⭐ 56547
+## LadybirdBrowser/ladybird  ⭐ 56762
 [Repository](https://github.com/LadybirdBrowser/ladybird)
 
-- <a href="https://github.com/LadybirdBrowser/ladybird/issues/7141">CSS `AccentColor` keyword should use the value of `accent-color`</a>  <code>#7141</code> · updated: 2025-12-15 · created: 2025-12-15  
+- <a href="https://github.com/LadybirdBrowser/ladybird/issues/7141">CSS `AccentColor` keyword should use the value of `accent-color`</a>  <code>#7141</code> · updated: 2025-12-18 · created: 2025-12-15  
   labels: enhancement, good first issue, css
 
-## sharkdp/bat  ⭐ 56206
+## sharkdp/bat  ⭐ 56258
 [Repository](https://github.com/sharkdp/bat)
 
 - <a href="https://github.com/sharkdp/bat/issues/3518">bat.exe is not working with less.exe on windows</a>  <code>#3518</code> · updated: 2025-12-11 · created: 2025-12-05  
@@ -374,7 +356,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/sharkdp/bat/issues/3490">Syntax request: GDScript (Godot)</a>  <code>#3490</code> · updated: 2025-12-01 · created: 2025-11-18  
   labels: good first issue, syntax-request
 
-## cline/cline  ⭐ 56203
+## cline/cline  ⭐ 56251
 [Repository](https://github.com/cline/cline)
 
 - <a href="https://github.com/cline/cline/issues/7810">docs: Update auto-approve menu documentation with new notification toggle</a>  <code>#7810</code> · updated: 2025-12-09 · created: 2025-12-02  
@@ -386,10 +368,10 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/cline/cline/issues/6767">[BUG] StreamableHTTP transport not properly supported for remote MCP servers</a>  <code>#6767</code> · updated: 2025-10-20 · created: 2025-10-11  
   labels: size:S, Good First Issue
 
-## meilisearch/meilisearch  ⭐ 54966
+## meilisearch/meilisearch  ⭐ 55015
 [Repository](https://github.com/meilisearch/meilisearch)
 
-- <a href="https://github.com/meilisearch/meilisearch/issues/6051">Cannot take snapshots on Windows due to map_size and page_size values</a>  <code>#6051</code> · updated: 2025-12-13 · created: 2025-12-12  
+- <a href="https://github.com/meilisearch/meilisearch/issues/6051">Cannot take snapshots on Windows due to map_size and page_size values</a>  <code>#6051</code> · updated: 2025-12-16 · created: 2025-12-12  
   labels: good first issue
 - <a href="https://github.com/meilisearch/meilisearch/issues/6049">Support target index names in the support route</a>  <code>#6049</code> · updated: 2025-12-12 · created: 2025-12-11  
   labels: good first issue, impacts docs, impacts integrations
@@ -397,8 +379,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue
 - <a href="https://github.com/meilisearch/meilisearch/issues/6048">Make sure payloads are effectively deleted on error</a>  <code>#6048</code> · updated: 2025-12-12 · created: 2025-12-11  
   labels: good first issue
-- <a href="https://github.com/meilisearch/meilisearch/issues/6025">windows 11 S3 snapshot options are not supported on Windows</a>  <code>#6025</code> · updated: 2025-12-09 · created: 2025-12-03  
-  labels: good first issue, windows, bug
 - <a href="https://github.com/meilisearch/meilisearch/issues/5957">Exposed `reindex` function in milli uses parameter with private type `SettingsDelta`</a>  <code>#5957</code> · updated: 2025-12-04 · created: 2025-10-24  
   labels: good first issue, milli
 - <a href="https://github.com/meilisearch/meilisearch/issues/6009">errors when using the `export` endpoint</a>  <code>#6009</code> · updated: 2025-11-27 · created: 2025-11-25  
@@ -408,31 +388,27 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/meilisearch/meilisearch/issues/5917">remove auth from metrics endpoint; use different port</a>  <code>#5917</code> · updated: 2025-10-13 · created: 2025-09-28  
   labels: good first issue, maintenance, Internal work, Analytics
 
-## withastro/astro  ⭐ 54943
+## withastro/astro  ⭐ 54989
 [Repository](https://github.com/withastro/astro)
 
-- <a href="https://github.com/withastro/astro/issues/14895">Don’t allow rendering Astro components in Vitest “client” environments</a>  <code>#14895</code> · updated: 2025-12-13 · created: 2025-11-25  
+- <a href="https://github.com/withastro/astro/issues/14895">Don’t allow rendering Astro components in Vitest “client” environments</a>  <code>#14895</code> · updated: 2025-12-18 · created: 2025-11-25  
   labels: feat: ssr, good first issue, requires breaking change
 
-## firstcontributions/first-contributions  ⭐ 51718
+## firstcontributions/first-contributions  ⭐ 51764
 [Repository](https://github.com/firstcontributions/first-contributions)
 
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105324">Translate English alt text to Malagasy in README</a>  <code>#105324</code> · updated: 2025-12-14 · created: 2025-10-11  
+- <a href="https://github.com/firstcontributions/first-contributions/issues/105382">Translate English alt text to Algerian Arabic in README</a>  <code>#105382</code> · updated: 2025-12-18 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105310">Translate English alt text to Assamese in README</a>  <code>#105310</code> · updated: 2025-12-12 · created: 2025-10-11  
+- <a href="https://github.com/firstcontributions/first-contributions/issues/105309">Translate English alt text to Ecuadorian Spanish in README</a>  <code>#105309</code> · updated: 2025-12-17 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
-- <a href="https://github.com/firstcontributions/first-contributions/issues/107870">Fix formatting problem in the Assamese translation</a>  <code>#107870</code> · updated: 2025-12-11 · created: 2025-11-25  
-  labels: :beetle: bug, help wanted, good first issue, documentation
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105369">Translate English alt text to Romanian in README</a>  <code>#105369</code> · updated: 2025-12-10 · created: 2025-10-11  
+- <a href="https://github.com/firstcontributions/first-contributions/issues/105321">Translate English alt text to Malay in README</a>  <code>#105321</code> · updated: 2025-12-16 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105309">Translate English alt text to Ecuadorian Spanish in README</a>  <code>#105309</code> · updated: 2025-12-09 · created: 2025-10-11  
+- <a href="https://github.com/firstcontributions/first-contributions/issues/105376">Translate English alt text to Moroccan Arabic in README</a>  <code>#105376</code> · updated: 2025-12-16 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/104243">Remove slack link in Belarusian translation</a>  <code>#104243</code> · updated: 2025-12-08 · created: 2025-09-27  
   labels: :beetle: bug, help wanted, good first issue, documentation
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105290">Translate English alt text to Tunisian in README</a>  <code>#105290</code> · updated: 2025-12-08 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
-- <a href="https://github.com/firstcontributions/first-contributions/issues/104803">Remove slack link in Tukmen translation</a>  <code>#104803</code> · updated: 2025-12-08 · created: 2025-10-04  
-  labels: :beetle: bug, help wanted, good first issue, documentation
 - <a href="https://github.com/firstcontributions/first-contributions/issues/104248">Remove slack link in Filipino translation</a>  <code>#104248</code> · updated: 2025-12-08 · created: 2025-09-27  
   labels: :beetle: bug, help wanted, good first issue, documentation
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105300">Translate English alt text to Sindhi in README</a>  <code>#105300</code> · updated: 2025-12-07 · created: 2025-10-11  
@@ -441,18 +417,12 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/104242">Remove slack link in Bosnian translation</a>  <code>#104242</code> · updated: 2025-12-03 · created: 2025-09-27  
   labels: :beetle: bug, help wanted, good first issue, documentation
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105382">Translate English alt text to Algerian Arabic in README</a>  <code>#105382</code> · updated: 2025-12-02 · created: 2025-10-11  
-  labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/104269">Remove slack link in Twi translation</a>  <code>#104269</code> · updated: 2025-12-02 · created: 2025-09-27  
   labels: :beetle: bug, help wanted, good first issue, documentation
 - <a href="https://github.com/firstcontributions/first-contributions/issues/104241">Remove slack link in Assamese translation</a>  <code>#104241</code> · updated: 2025-12-01 · created: 2025-09-27  
   labels: :beetle: bug, help wanted, good first issue, documentation
 - <a href="https://github.com/firstcontributions/first-contributions/issues/104821">Remove slack link in Turkmen translation</a>  <code>#104821</code> · updated: 2025-12-01 · created: 2025-10-04  
   labels: :beetle: bug, help wanted, good first issue, documentation
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105342">Translate English alt text to Afrikaans in README</a>  <code>#105342</code> · updated: 2025-11-28 · created: 2025-10-11  
-  labels: help wanted, good first issue, documentation, accessibility
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105378">Translate English alt text to Ghanaian in README</a>  <code>#105378</code> · updated: 2025-11-27 · created: 2025-10-11  
-  labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/104789">Remove slack link in Polish translation</a>  <code>#104789</code> · updated: 2025-11-27 · created: 2025-10-04  
   labels: :beetle: bug, help wanted, good first issue, documentation
 - <a href="https://github.com/firstcontributions/first-contributions/issues/104251">Remove slack link in Georgian translation</a>  <code>#104251</code> · updated: 2025-11-22 · created: 2025-09-27  
@@ -461,11 +431,7 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105308">Translate English alt text to Hausa in README</a>  <code>#105308</code> · updated: 2025-11-19 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105339">Translate English alt text to Filipino in README</a>  <code>#105339</code> · updated: 2025-11-15 · created: 2025-10-11  
-  labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105330">Translate English alt text to Kiswahili in README</a>  <code>#105330</code> · updated: 2025-11-11 · created: 2025-10-11  
-  labels: help wanted, good first issue, documentation, accessibility
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105376">Translate English alt text to Moroccan Arabic in README</a>  <code>#105376</code> · updated: 2025-11-09 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105350">Translate English alt text to Bulgarian in README</a>  <code>#105350</code> · updated: 2025-11-08 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
@@ -481,13 +447,9 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105347">Translate English alt text to Turkmen in README</a>  <code>#105347</code> · updated: 2025-10-17 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105345">Translate English alt text to Spanish in README</a>  <code>#105345</code> · updated: 2025-10-17 · created: 2025-10-11  
-  labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105333">Translate English alt text to Hungarian in README</a>  <code>#105333</code> · updated: 2025-10-11 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105334">Translate English alt text to Croatian in README</a>  <code>#105334</code> · updated: 2025-10-11 · created: 2025-10-11  
-  labels: help wanted, good first issue, documentation, accessibility
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105332">Translate English alt text to Igbo in README</a>  <code>#105332</code> · updated: 2025-10-11 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105329">Translate English alt text to Kazakh in README</a>  <code>#105329</code> · updated: 2025-10-11 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
@@ -498,8 +460,6 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105325">Translate English alt text to Montenegrin in README</a>  <code>#105325</code> · updated: 2025-10-11 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105323">Translate English alt text to Burmese in README</a>  <code>#105323</code> · updated: 2025-10-11 · created: 2025-10-11  
-  labels: help wanted, good first issue, documentation, accessibility
-- <a href="https://github.com/firstcontributions/first-contributions/issues/105321">Translate English alt text to Malay in README</a>  <code>#105321</code> · updated: 2025-10-11 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
 - <a href="https://github.com/firstcontributions/first-contributions/issues/105320">Translate English alt text to Galician in README</a>  <code>#105320</code> · updated: 2025-10-11 · created: 2025-10-11  
   labels: help wanted, good first issue, documentation, accessibility
@@ -550,13 +510,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/firstcontributions/first-contributions/issues/104244">Remove slack link in Esperanto translation</a>  <code>#104244</code> · updated: 2025-09-27 · created: 2025-09-27  
   labels: :beetle: bug, help wanted, good first issue, documentation
 
-## prettier/prettier  ⭐ 51295
+## prettier/prettier  ⭐ 51301
 [Repository](https://github.com/prettier/prettier)
 
 - <a href="https://github.com/prettier/prettier/issues/18406">Format inconsistent with `CallExpression` and `NewExpression` breaking</a>  <code>#18406</code> · updated: 2025-12-16 · created: 2025-12-02  
   labels: help wanted, lang:typescript, good first issue
 
-## cypress-io/cypress  ⭐ 49474
+## typst/typst  ⭐ 49695
+[Repository](https://github.com/typst/typst)
+
+- <a href="https://github.com/typst/typst/issues/7585">`--font-paths` instead of `--font-path` in `text.font` doc</a>  <code>#7585</code> · updated: 2025-12-18 · created: 2025-12-15  
+  labels: docs, good first issue
+
+## unslothai/unsloth  ⭐ 49600
+[Repository](https://github.com/unslothai/unsloth)
+
+- <a href="https://github.com/unslothai/unsloth/issues/3560">[Bug] Cannot load qwen3-vl series with lora adapter on vllm.</a>  <code>#3560</code> · updated: 2025-11-24 · created: 2025-11-06  
+  labels: good first issue
+
+## cypress-io/cypress  ⭐ 49479
 [Repository](https://github.com/cypress-io/cypress)
 
 - <a href="https://github.com/cypress-io/cypress/issues/33032">chore: Migrate off of using bluebird dependency</a>  <code>#33032</code> · updated: 2025-12-04 · created: 2025-12-01  
@@ -564,43 +536,35 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/cypress-io/cypress/issues/32779">Open in IDE button should have smaller icon.</a>  <code>#32779</code> · updated: 2025-12-01 · created: 2025-10-21  
   labels: good first issue, type: user experience
 
-## unslothai/unsloth  ⭐ 49471
-[Repository](https://github.com/unslothai/unsloth)
-
-- <a href="https://github.com/unslothai/unsloth/issues/3560">[Bug] Cannot load qwen3-vl series with lora adapter on vllm.</a>  <code>#3560</code> · updated: 2025-11-24 · created: 2025-11-06  
-  labels: good first issue
-
-## JuliaLang/julia  ⭐ 48102
+## JuliaLang/julia  ⭐ 48118
 [Repository](https://github.com/JuliaLang/julia)
 
 - <a href="https://github.com/JuliaLang/julia/issues/60063">`llvmcall` segfaults if an argument has size 0</a>  <code>#60063</code> · updated: 2025-11-25 · created: 2025-11-06  
   labels: compiler:codegen, good first issue, compiler:llvm
 
-## dbeaver/dbeaver  ⭐ 47802
+## dbeaver/dbeaver  ⭐ 47865
 [Repository](https://github.com/dbeaver/dbeaver)
 
-- <a href="https://github.com/dbeaver/dbeaver/issues/39432">In Hive 4, make it possible to edit binary values through the value panel</a>  <code>#39432</code> · updated: 2025-12-15 · created: 2025-10-17  
+- <a href="https://github.com/dbeaver/dbeaver/issues/39432">In Hive 4, make it possible to edit binary values through the value panel</a>  <code>#39432</code> · updated: 2025-12-17 · created: 2025-10-17  
   labels: good first issue, x:hive
 - <a href="https://github.com/dbeaver/dbeaver/issues/39264">No table/Column comments in ERD because of lazy comment loading</a>  <code>#39264</code> · updated: 2025-11-23 · created: 2025-09-24  
   labels: x:oracle, good first issue, xf:erd, xf:metadata
 - <a href="https://github.com/dbeaver/dbeaver/issues/39266">DDL display for PostgreSQL policies</a>  <code>#39266</code> · updated: 2025-10-28 · created: 2025-09-24  
   labels: x:postgresql, good first issue, xf:metadata, xp:normal
 
-## pandas-dev/pandas  ⭐ 47322
+## pandas-dev/pandas  ⭐ 47342
 [Repository](https://github.com/pandas-dev/pandas)
 
+- <a href="https://github.com/pandas-dev/pandas/issues/62437">DOC: Replace `@Appender`, `@Substitution`, `@doc` with inlined docstrings</a>  <code>#62437</code> · updated: 2025-12-18 · created: 2025-09-24  
+  labels: Docs, good first issue
+- <a href="https://github.com/pandas-dev/pandas/issues/62708">DOC: Explain how to load data in Google Colab</a>  <code>#62708</code> · updated: 2025-12-17 · created: 2025-10-16  
+  labels: Docs, good first issue
+- <a href="https://github.com/pandas-dev/pandas/issues/62434">STY: Enforce Ruff rule B905, zip-without-explicit-strict</a>  <code>#62434</code> · updated: 2025-12-16 · created: 2025-09-24  
+  labels: Code Style, good first issue
 - <a href="https://github.com/pandas-dev/pandas/issues/62435">TST: Replace `ensure_clean` utility function with the `temp_file` pytest fixture</a>  <code>#62435</code> · updated: 2025-12-15 · created: 2025-09-24  
   labels: Testing, good first issue
-- <a href="https://github.com/pandas-dev/pandas/issues/62708">DOC: Explain how to load data in Google Colab</a>  <code>#62708</code> · updated: 2025-12-14 · created: 2025-10-16  
-  labels: Docs, good first issue
-- <a href="https://github.com/pandas-dev/pandas/issues/62437">DOC: Replace `@Appender`, `@Substitution`, `@doc` with inlined docstrings</a>  <code>#62437</code> · updated: 2025-12-14 · created: 2025-09-24  
-  labels: Docs, good first issue
-- <a href="https://github.com/pandas-dev/pandas/issues/62434">STY: Enforce Ruff rule B905, zip-without-explicit-strict</a>  <code>#62434</code> · updated: 2025-12-09 · created: 2025-09-24  
-  labels: Code Style, good first issue
-- <a href="https://github.com/pandas-dev/pandas/issues/62357">DOC: Ensure guides are linked from relevant API docs</a>  <code>#62357</code> · updated: 2025-11-25 · created: 2025-09-17  
-  labels: Docs, good first issue
 
-## docling-project/docling  ⭐ 46858
+## docling-project/docling  ⭐ 47179
 [Repository](https://github.com/docling-project/docling)
 
 - <a href="https://github.com/docling-project/docling/issues/2758">Multi-level outline numbering incorrectly rendered as single-level in DOCX</a>  <code>#2758</code> · updated: 2025-12-10 · created: 2025-12-08  
@@ -628,31 +592,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/docling-project/docling/issues/2487">Option to set the default ContentLayer in the Body for html_backend</a>  <code>#2487</code> · updated: 2025-11-21 · created: 2025-10-17  
   labels: enhancement, good first issue
 
-## metabase/metabase  ⭐ 44969
+## metabase/metabase  ⭐ 45018
 [Repository](https://github.com/metabase/metabase)
 
-- <a href="https://github.com/metabase/metabase/issues/66154">Semantic type dropdown includes dividing lines separating empty categories</a>  <code>#66154</code> · updated: 2025-11-23 · created: 2025-11-21  
+- <a href="https://github.com/metabase/metabase/issues/66154">Semantic type dropdown includes dividing lines separating empty categories</a>  <code>#66154</code> · updated: 2025-12-17 · created: 2025-11-21  
   labels: Type:Bug, Priority:P3, Administration/Table Metadata, .Frontend, good first issue, .Team/UXWest, .Auto triaged
 
-## meteor/meteor  ⭐ 44755
-[Repository](https://github.com/meteor/meteor)
-
-- <a href="https://github.com/meteor/meteor/issues/13933">ReDoS Vulnerability Analysis and Fixes</a>  <code>#13933</code> · updated: 2025-10-21 · created: 2025-09-18  
-  labels: Project:Testing, good first issue
-
-## astral-sh/ruff  ⭐ 44399
+## astral-sh/ruff  ⭐ 44540
 [Repository](https://github.com/astral-sh/ruff)
 
 - <a href="https://github.com/astral-sh/ruff/issues/20809">Extend TD003 to allow &quot;Jira-style&quot; issue IDs on the same line</a>  <code>#20809</code> · updated: 2025-11-03 · created: 2025-10-11  
   labels: good first issue, rule
 
-## mem0ai/mem0  ⭐ 44300
+## mem0ai/mem0  ⭐ 44442
 [Repository](https://github.com/mem0ai/mem0)
 
+- <a href="https://github.com/mem0ai/mem0/issues/3559">Error 400 &#x27;messages&#x27; must contain the word &#x27;json&#x27; in some form, to use &#x27;response_format&#x27; of type &#x27;json_object&#x27;.</a>  <code>#3559</code> · updated: 2025-12-16 · created: 2025-10-09  
+  labels: bug, good first issue, hacktoberfest, hacktoberfest-accepted
 - <a href="https://github.com/mem0ai/mem0/issues/3651">Add support for reasoning_effort parameter for reasoning models in AzureOpenAIConfig</a>  <code>#3651</code> · updated: 2025-11-13 · created: 2025-10-23  
   labels: enhancement, good first issue, hacktoberfest
-- <a href="https://github.com/mem0ai/mem0/issues/3559">Error 400 &#x27;messages&#x27; must contain the word &#x27;json&#x27; in some form, to use &#x27;response_format&#x27; of type &#x27;json_object&#x27;.</a>  <code>#3559</code> · updated: 2025-11-13 · created: 2025-10-09  
-  labels: bug, good first issue, hacktoberfest, hacktoberfest-accepted
 - <a href="https://github.com/mem0ai/mem0/issues/3491">Issue with NodeJs OSS version</a>  <code>#3491</code> · updated: 2025-10-29 · created: 2025-09-22  
   labels: good first issue
 - <a href="https://github.com/mem0ai/mem0/issues/3564">Getting Error in new_retrieved_facts: Expecting value: line 1 column 1 (char 0)</a>  <code>#3564</code> · updated: 2025-10-22 · created: 2025-10-10  
@@ -660,31 +618,59 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/mem0ai/mem0/issues/3580">Bug: _safe_deepcopy_config removes http_auth from OpenSearch configs</a>  <code>#3580</code> · updated: 2025-10-15 · created: 2025-10-14  
   labels: bug, good first issue, hacktoberfest
 
-## tldraw/tldraw  ⭐ 44152
+## tldraw/tldraw  ⭐ 44195
 [Repository](https://github.com/tldraw/tldraw)
 
 - <a href="https://github.com/tldraw/tldraw/issues/7078">UserDataSyncer reboot loop after database reset in dev</a>  <code>#7078</code> · updated: 2025-11-24 · created: 2025-11-07  
   labels: bug, good first issue
 
-## apache/airflow  ⭐ 43558
+## apache/airflow  ⭐ 43591
 [Repository](https://github.com/apache/airflow)
 
+- <a href="https://github.com/apache/airflow/issues/59593">UI E2E test || DAG-012: Create backfill with all reprocess behaviour</a>  <code>#59593</code> · updated: 2025-12-19 · created: 2025-12-18  
+  labels: kind:feature, good first issue, area:UI, area:backfill
+- <a href="https://github.com/apache/airflow/issues/59306">UI E2E Test || HOME-001: Verify dashboard metrics display</a>  <code>#59306</code> · updated: 2025-12-19 · created: 2025-12-11  
+  labels: kind:feature, good first issue, area:UI, needs-triage
+- <a href="https://github.com/apache/airflow/issues/57174">DagBag Processing SIGSEGV causes runaway tasks with LocalExecutor</a>  <code>#57174</code> · updated: 2025-12-18 · created: 2025-10-23  
+  labels: kind:bug, good first issue, area:core, area:Executors-core
+- <a href="https://github.com/apache/airflow/issues/59594">UI E2E || DAG-013: Pause &amp; Stop backfill</a>  <code>#59594</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: kind:feature, good first issue, area:UI, area:backfill
+- <a href="https://github.com/apache/airflow/issues/57634">Make positional not null parameters as a dest paramater for airflowctl</a>  <code>#57634</code> · updated: 2025-12-18 · created: 2025-10-31  
+  labels: area:CLI, kind:feature, good first issue, area:airflow-ctl
+- <a href="https://github.com/apache/airflow/issues/59543">UI E2E Test || DAG-007: Verify Tasks tab functionality</a>  <code>#59543</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: kind:feature, good first issue, area:UI
+- <a href="https://github.com/apache/airflow/issues/59528">UI E2E Test || TASKS-003: Verify task logs display</a>  <code>#59528</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: kind:feature, good first issue, area:UI, needs-triage
+- <a href="https://github.com/apache/airflow/issues/59592">UI E2E Test || DAG-011: Verify backfills list displays</a>  <code>#59592</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: kind:feature, good first issue, area:UI, area:backfill
+- <a href="https://github.com/apache/airflow/issues/59576">Private Custom providers in Airflow3 are linked to non existing documentation page</a>  <code>#59576</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: kind:bug, good first issue, area:core, area:UI
+- <a href="https://github.com/apache/airflow/issues/59408">BigQuery DML jobs fail on streaming tables – missing native mechanism to wait for streaming buffer flush</a>  <code>#59408</code> · updated: 2025-12-17 · created: 2025-12-14  
+  labels: kind:bug, provider:google, area:providers, good first issue, area:core
+- <a href="https://github.com/apache/airflow/issues/59555">UI E2E Test || DAG-010: Verify DAG details tab</a>  <code>#59555</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: kind:feature, good first issue, area:UI
+- <a href="https://github.com/apache/airflow/issues/55920">Dag graphs constantly redrawing</a>  <code>#55920</code> · updated: 2025-12-17 · created: 2025-09-20  
+  labels: kind:bug, good first issue, area:UI, affected_version:3.0
+- <a href="https://github.com/apache/airflow/issues/59546">UI E2E Test || DAG-009: Verify DAG source codetab functionality</a>  <code>#59546</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: kind:feature, good first issue, area:UI
+- <a href="https://github.com/apache/airflow/issues/59544">UI E2E Test || DAG-008: Verify calendar tab functionality</a>  <code>#59544</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: kind:feature, good first issue, area:UI
+- <a href="https://github.com/apache/airflow/issues/59541">UI E2E Test || DAG-006: Verify runs for specific DAG</a>  <code>#59541</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: kind:feature, good first issue, area:UI, needs-triage
+- <a href="https://github.com/apache/airflow/issues/59539">UI E2E Test || DAG-003: Verify grid view displays</a>  <code>#59539</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: good first issue, area:UI
+- <a href="https://github.com/apache/airflow/issues/59475">Directions for configuring SSO with OAuth are unclear</a>  <code>#59475</code> · updated: 2025-12-16 · created: 2025-12-15  
+  labels: kind:bug, area:webserver, good first issue, kind:documentation, area:auth
+- <a href="https://github.com/apache/airflow/issues/59497">Delete dag run endpoint returns 204 even if run could not be deleted</a>  <code>#59497</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: kind:bug, area:API, good first issue, area:core
 - <a href="https://github.com/apache/airflow/issues/59348">`ApprovalOperator(assigned_users=...)` unusable with `SimpleAuthManager` when `simple_auth_manager_all_admins=True` (no one can approve/reject)</a>  <code>#59348</code> · updated: 2025-12-15 · created: 2025-12-12  
   labels: kind:bug, good first issue, area:auth, area:core
-- <a href="https://github.com/apache/airflow/issues/59377">`SQLValueCheckOperator` params incorrect &amp; missing docs</a>  <code>#59377</code> · updated: 2025-12-15 · created: 2025-12-12  
-  labels: kind:bug, area:providers, good first issue, kind:documentation
 - <a href="https://github.com/apache/airflow/issues/58928">TriggerDagRunOperator: button Triggered DAG not shown</a>  <code>#58928</code> · updated: 2025-12-15 · created: 2025-12-02  
   labels: kind:bug, good first issue, area:core, area:UI
-- <a href="https://github.com/apache/airflow/issues/55828">Clear Task Instances Model often comes up with TI in wrong state</a>  <code>#55828</code> · updated: 2025-12-14 · created: 2025-09-18  
-  labels: kind:bug, area:API, good first issue, priority:medium, area:core, area:UI
 - <a href="https://github.com/apache/airflow/issues/59307">UI E2E Test || DAGS-001: Verify DAGs list displays</a>  <code>#59307</code> · updated: 2025-12-12 · created: 2025-12-11  
   labels: kind:feature, good first issue, area:UI, needs-triage
 - <a href="https://github.com/apache/airflow/issues/59357">UI E2E Test || TASKS-001: Verify all task instances display</a>  <code>#59357</code> · updated: 2025-12-12 · created: 2025-12-12  
   labels: kind:feature, good first issue, area:UI
-- <a href="https://github.com/apache/airflow/issues/59306">UI E2E Test || HOME-001: Verify dashboard metrics display</a>  <code>#59306</code> · updated: 2025-12-12 · created: 2025-12-11  
-  labels: kind:feature, good first issue, area:UI, needs-triage
-- <a href="https://github.com/apache/airflow/issues/59308">UI E2E Test || DAGS-007: Verify pagination works</a>  <code>#59308</code> · updated: 2025-12-12 · created: 2025-12-11  
-  labels: kind:feature, good first issue, area:UI, needs-triage
 - <a href="https://github.com/apache/airflow/issues/59309">UI E2E Test || DAGRUNS-001: Verify all DAG runs display</a>  <code>#59309</code> · updated: 2025-12-12 · created: 2025-12-11  
   labels: kind:feature, good first issue, area:UI, needs-triage
 - <a href="https://github.com/apache/airflow/issues/59358">UI E2E Test || BROWSE-003: Verify XComs list displays</a>  <code>#59358</code> · updated: 2025-12-12 · created: 2025-12-12  
@@ -711,8 +697,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: kind:bug, good first issue, area:core, affected_version:3.1
 - <a href="https://github.com/apache/airflow/issues/56735">Sqlalchemy 2 migration - Fix MyPy type errors in core Airflow</a>  <code>#56735</code> · updated: 2025-11-24 · created: 2025-10-16  
   labels: good first issue, kind:meta, area:core
-- <a href="https://github.com/apache/airflow/issues/55920">Dag graphs constantly redrawing</a>  <code>#55920</code> · updated: 2025-11-22 · created: 2025-09-20  
-  labels: kind:bug, good first issue, area:UI, affected_version:3.0
 - <a href="https://github.com/apache/airflow/issues/58272">Google Cloud Provider: Divergency in GKEStartPodOperator Docstring - on_finish_action dafault value</a>  <code>#58272</code> · updated: 2025-11-22 · created: 2025-11-13  
   labels: kind:bug, provider:google, area:providers, good first issue, kind:documentation
 - <a href="https://github.com/apache/airflow/issues/57964">Add SesOperator to send emails via SES</a>  <code>#57964</code> · updated: 2025-11-15 · created: 2025-11-06  
@@ -723,16 +707,12 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: area:webserver, kind:feature, good first issue
 - <a href="https://github.com/apache/airflow/issues/57891">S3ToSFTPOperator, SFTPToS3Operator: Support sftp_remote_host Argument</a>  <code>#57891</code> · updated: 2025-11-10 · created: 2025-11-05  
   labels: provider:amazon, kind:feature, good first issue
-- <a href="https://github.com/apache/airflow/issues/55840">Reduce the number of required fields to file a bug report</a>  <code>#55840</code> · updated: 2025-11-06 · created: 2025-09-18  
-  labels: area:dev-tools, good first issue, area:core
 - <a href="https://github.com/apache/airflow/issues/57639">Display Result Counts for DAG Runs and Task Instances Filters</a>  <code>#57639</code> · updated: 2025-11-03 · created: 2025-10-31  
   labels: kind:feature, good first issue, area:UI
 - <a href="https://github.com/apache/airflow/issues/56730">Replace connexion with fast-api for FAB provider.</a>  <code>#56730</code> · updated: 2025-11-02 · created: 2025-10-16  
   labels: area:providers, good first issue, kind:meta
 - <a href="https://github.com/apache/airflow/issues/56060">Dag version: Graph view is not updated correctly when user switches versions from the drop-down</a>  <code>#56060</code> · updated: 2025-11-01 · created: 2025-09-24  
   labels: kind:bug, good first issue, area:UI, affected_version:3.0
-- <a href="https://github.com/apache/airflow/issues/57174">DagBag Processing SIGSEGV causes runaway tasks with LocalExecutor</a>  <code>#57174</code> · updated: 2025-10-27 · created: 2025-10-23  
-  labels: kind:bug, good first issue, area:core, area:Executors-core
 - <a href="https://github.com/apache/airflow/issues/56693">KubernetesJobOperator does not recover when pods are deleted on completion</a>  <code>#56693</code> · updated: 2025-10-22 · created: 2025-10-16  
   labels: kind:bug, area:providers, good first issue, provider:cncf-kubernetes
 - <a href="https://github.com/apache/airflow/issues/56095">Support different graph directions in the Asset graph view</a>  <code>#56095</code> · updated: 2025-10-21 · created: 2025-09-25  
@@ -741,8 +721,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: kind:feature, good first issue, area:UI
 - <a href="https://github.com/apache/airflow/issues/56543">Support passing Note to TriggerDagRunOperator</a>  <code>#56543</code> · updated: 2025-10-15 · created: 2025-10-10  
   labels: kind:feature, good first issue, area:core
-- <a href="https://github.com/apache/airflow/issues/55900">Airflow 3 task tooltips in grid</a>  <code>#55900</code> · updated: 2025-10-13 · created: 2025-09-19  
-  labels: kind:feature, good first issue, area:UI
 - <a href="https://github.com/apache/airflow/issues/56420">Astroid 4 breaks docs building</a>  <code>#56420</code> · updated: 2025-10-06 · created: 2025-10-06  
   labels: area:dev-env, good first issue, kind:documentation
 - <a href="https://github.com/apache/airflow/issues/56254">Trigger form missing &quot;Select Recent Configurations&quot; from airflow 2</a>  <code>#56254</code> · updated: 2025-10-02 · created: 2025-09-30  
@@ -750,9 +728,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/airflow/issues/56190">SFTPOperator DELETE operation should not error if the file/directory is already absent</a>  <code>#56190</code> · updated: 2025-09-29 · created: 2025-09-28  
   labels: kind:bug, area:providers, kind:feature, good first issue, provider:sftp
 
-## streamlit/streamlit  ⭐ 42682
+## streamlit/streamlit  ⭐ 42737
 [Repository](https://github.com/streamlit/streamlit)
 
+- <a href="https://github.com/streamlit/streamlit/issues/13385">Support icon in st.logo</a>  <code>#13385</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: type:enhancement, good first issue, feature:st.logo
+- <a href="https://github.com/streamlit/streamlit/issues/12694">Support built-in color names for the `color` parameter of charts</a>  <code>#12694</code> · updated: 2025-12-17 · created: 2025-10-04  
+  labels: type:enhancement, good first issue, feature:builtin-charts
 - <a href="https://github.com/streamlit/streamlit/issues/13005">Integer/pixel size for `gap` parameter in `st.container` and `st.columns`</a>  <code>#13005</code> · updated: 2025-12-10 · created: 2025-11-12  
   labels: type:enhancement, good first issue, feature:st.container, feature:st.columns
 - <a href="https://github.com/streamlit/streamlit/issues/12953">Turn `st.Page` into a proper class</a>  <code>#12953</code> · updated: 2025-12-08 · created: 2025-11-06  
@@ -767,22 +749,22 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: type:enhancement, good first issue, feature:st.pydeck_chart, feature:st.map, feature:theming
 - <a href="https://github.com/streamlit/streamlit/issues/12806">Add rounding to `st.video` and `st.map`</a>  <code>#12806</code> · updated: 2025-10-18 · created: 2025-10-18  
   labels: type:enhancement, good first issue, feature:st.pydeck_chart, feature:st.map, feature:theming, feature:st.video
-- <a href="https://github.com/streamlit/streamlit/issues/12694">Support built-in color names for the `color` parameter of charts</a>  <code>#12694</code> · updated: 2025-10-06 · created: 2025-10-04  
-  labels: type:enhancement, good first issue, feature:builtin-charts
 
-## milvus-io/milvus  ⭐ 41663
+## milvus-io/milvus  ⭐ 41747
 [Repository](https://github.com/milvus-io/milvus)
 
 - <a href="https://github.com/milvus-io/milvus/issues/44635">[Feature]: HNSW_SQ in Go Client</a>  <code>#44635</code> · updated: 2025-10-11 · created: 2025-09-29  
   labels: good first issue, kind/feature
 
-## gradio-app/gradio  ⭐ 40947
+## gradio-app/gradio  ⭐ 40997
 [Repository](https://github.com/gradio-app/gradio)
 
+- <a href="https://github.com/gradio-app/gradio/issues/12559">document outdated for 6.0+</a>  <code>#12559</code> · updated: 2025-12-16 · created: 2025-12-13  
+  labels: good first issue, docs/website
 - <a href="https://github.com/gradio-app/gradio/issues/12036">Support webp files for image components</a>  <code>#12036</code> · updated: 2025-11-01 · created: 2025-10-06  
   labels: bug, good first issue
 
-## sharkdp/fd  ⭐ 40825
+## sharkdp/fd  ⭐ 40857
 [Repository](https://github.com/sharkdp/fd)
 
 - <a href="https://github.com/sharkdp/fd/issues/1843">[BUG] Hyperlinks fail on Windows when file path contains spaces</a>  <code>#1843</code> · updated: 2025-11-23 · created: 2025-11-21  
@@ -790,9 +772,11 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/sharkdp/fd/issues/1815">[Docs] `README.md` completion instructions are outdated and incorrect for fish</a>  <code>#1815</code> · updated: 2025-10-27 · created: 2025-10-27  
   labels: documentation, good first issue
 
-## ray-project/ray  ⭐ 40342
+## ray-project/ray  ⭐ 40394
 [Repository](https://github.com/ray-project/ray)
 
+- <a href="https://github.com/ray-project/ray/issues/59482">[Data] Improve appearance of `repr(dataset)`</a>  <code>#59482</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: good-first-issue, data
 - <a href="https://github.com/ray-project/ray/issues/57840">[Data] Make arrow conversion warning logs less verbose</a>  <code>#57840</code> · updated: 2025-12-16 · created: 2025-10-17  
   labels: bug, good-first-issue, P1, data
 - <a href="https://github.com/ray-project/ray/issues/59418">[Data] Move type extensions from ray.air to ray.data</a>  <code>#59418</code> · updated: 2025-12-13 · created: 2025-12-13  
@@ -807,8 +791,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good-first-issue, enhancement, triage, data
 - <a href="https://github.com/ray-project/ray/issues/57729">[Data] map_batches fails with asyncio.run() in func and chaining with acync actor due to event loop conflict</a>  <code>#57729</code> · updated: 2025-11-21 · created: 2025-10-15  
   labels: bug, question, good-first-issue, data, stability, community-backlog
-- <a href="https://github.com/ray-project/ray/issues/58686">[core] Make RPC Chaos Configurations More Readable (JSON)</a>  <code>#58686</code> · updated: 2025-11-21 · created: 2025-11-17  
-  labels: good-first-issue, enhancement, P1, core, jira-core
 - <a href="https://github.com/ray-project/ray/issues/57704">[Data] - Ray 2.50.0 Regression in read_parquet when folder contains _SUCCESS cookies.</a>  <code>#57704</code> · updated: 2025-11-15 · created: 2025-10-14  
   labels: bug, good-first-issue, triage, data
 - <a href="https://github.com/ray-project/ray/issues/57825">[Data] DAG inconsistency in `Operator._apply_transform` when partial transformation occurs</a>  <code>#57825</code> · updated: 2025-10-17 · created: 2025-10-16  
@@ -816,48 +798,18 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/ray-project/ray/issues/57278">[data] Parquet sampling hangs without messages under access errors</a>  <code>#57278</code> · updated: 2025-10-15 · created: 2025-10-07  
   labels: bug, good-first-issue, data
 
-## pingcap/tidb  ⭐ 39473
-[Repository](https://github.com/pingcap/tidb)
-
-- <a href="https://github.com/pingcap/tidb/issues/63805">Prepare query with ORDER BY clause does not work with sql binding</a>  <code>#63805</code> · updated: 2025-12-03 · created: 2025-09-29  
-  labels: type/bug, help wanted, good first issue, sig/planner, severity/moderate, report/customer, affects-8.5
-
-## juspay/hyperswitch  ⭐ 39319
-[Repository](https://github.com/juspay/hyperswitch)
-
-- <a href="https://github.com/juspay/hyperswitch/issues/9483">[Smithy Framework] - Extend our Smithy Framework to Payment Methods Create API and its corresponding Request/Response Payloads</a>  <code>#9483</code> · updated: 2025-11-09 · created: 2025-09-22  
-  labels: good first issue, hacktoberfest
-- <a href="https://github.com/juspay/hyperswitch/issues/9485">[Smithy Framework] - Extend our Smithy Framework to Payment Methods Update API and its corresponding Request/Response Payloads</a>  <code>#9485</code> · updated: 2025-10-24 · created: 2025-09-22  
-  labels: good first issue, hacktoberfest
-- <a href="https://github.com/juspay/hyperswitch/issues/9484">[Smithy Framework] - Extend our Smithy Framework to Payment Methods Retrieve API and its corresponding Request/Response Payloads</a>  <code>#9484</code> · updated: 2025-10-24 · created: 2025-09-22  
-  labels: good first issue, hacktoberfest
-- <a href="https://github.com/juspay/hyperswitch/issues/9478">[Smithy Framework] - Extend our Smithy Framework to Customers Retrieve API and its corresponding Request/Response Payloads</a>  <code>#9478</code> · updated: 2025-10-23 · created: 2025-09-22  
-  labels: good first issue, hacktoberfest
-- <a href="https://github.com/juspay/hyperswitch/issues/9486">[Smithy Framework] - Extend our Smithy Framework to Payment Methods Delete API and its corresponding Request/Response Payloads</a>  <code>#9486</code> · updated: 2025-10-23 · created: 2025-09-22  
-  labels: good first issue, hacktoberfest
-- <a href="https://github.com/juspay/hyperswitch/issues/9482">[Smithy Framework] - Extend our Smithy Framework to Customers Delete API and its corresponding Request/Response Payloads</a>  <code>#9482</code> · updated: 2025-10-08 · created: 2025-09-22  
-  labels: good first issue, hacktoberfest
-- <a href="https://github.com/juspay/hyperswitch/issues/9481">[Smithy Framework] - Extend our Smithy Framework to Customers Update API and its corresponding Request/Response Payloads</a>  <code>#9481</code> · updated: 2025-10-02 · created: 2025-09-22  
-  labels: good first issue, hacktoberfest
-
-## usebruno/bruno  ⭐ 39278
-[Repository](https://github.com/usebruno/bruno)
-
-- <a href="https://github.com/usebruno/bruno/issues/6275">Make URLs clickable in console</a>  <code>#6275</code> · updated: 2025-12-15 · created: 2025-12-02  
-  labels: enhancement, good first issue, module-qol, P3
-
-## sst/opencode  ⭐ 39083
+## sst/opencode  ⭐ 40225
 [Repository](https://github.com/sst/opencode)
 
-- <a href="https://github.com/sst/opencode/issues/5592">Scroll bar will cover the content</a>  <code>#5592</code> · updated: 2025-12-16 · created: 2025-12-15  
-  labels: bug, good first issue, help-wanted
-- <a href="https://github.com/sst/opencode/issues/5569">[FEATURE]: support oxlint lsp</a>  <code>#5569</code> · updated: 2025-12-15 · created: 2025-12-15  
+- <a href="https://github.com/sst/opencode/issues/5062">[FEATURE]: Ctrl+R to search and navigate prompt history instead of just arrow keys</a>  <code>#5062</code> · updated: 2025-12-19 · created: 2025-12-04  
+  labels: good first issue, help-wanted, discussion
+- <a href="https://github.com/sst/opencode/issues/4885">[FEATURE]: Copy console text on click</a>  <code>#4885</code> · updated: 2025-12-16 · created: 2025-11-29  
+  labels: good first issue, help-wanted
+- <a href="https://github.com/sst/opencode/issues/5569">[FEATURE]: support oxlint lsp</a>  <code>#5569</code> · updated: 2025-12-16 · created: 2025-12-15  
   labels: good first issue, help-wanted
 - <a href="https://github.com/sst/opencode/issues/5535">[FEATURE]:FSharp LSP</a>  <code>#5535</code> · updated: 2025-12-15 · created: 2025-12-14  
   labels: good first issue, help-wanted, discussion
 - <a href="https://github.com/sst/opencode/issues/4930">Feature Request: Retain current model and agent selection when switching sessions</a>  <code>#4930</code> · updated: 2025-12-12 · created: 2025-12-01  
-  labels: good first issue, help-wanted
-- <a href="https://github.com/sst/opencode/issues/4885">[FEATURE]: Copy console text on click</a>  <code>#4885</code> · updated: 2025-12-09 · created: 2025-11-29  
   labels: good first issue, help-wanted
 - <a href="https://github.com/sst/opencode/issues/4422">Primary agent responds in subagent view; delegated subagent views become inaccessible</a>  <code>#4422</code> · updated: 2025-12-08 · created: 2025-11-17  
   labels: good first issue, opentui
@@ -880,7 +832,37 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/sst/opencode/issues/3322">web and tui reports token usage differently.</a>  <code>#3322</code> · updated: 2025-10-24 · created: 2025-10-21  
   labels: bug, good first issue, help-wanted
 
-## HeyPuter/puter  ⭐ 37942
+## pingcap/tidb  ⭐ 39479
+[Repository](https://github.com/pingcap/tidb)
+
+- <a href="https://github.com/pingcap/tidb/issues/63805">Prepare query with ORDER BY clause does not work with sql binding</a>  <code>#63805</code> · updated: 2025-12-03 · created: 2025-09-29  
+  labels: type/bug, help wanted, good first issue, sig/planner, severity/moderate, report/customer, affects-8.5
+
+## usebruno/bruno  ⭐ 39347
+[Repository](https://github.com/usebruno/bruno)
+
+- <a href="https://github.com/usebruno/bruno/issues/6275">Make URLs clickable in console</a>  <code>#6275</code> · updated: 2025-12-15 · created: 2025-12-02  
+  labels: enhancement, good first issue, module-qol, P3
+
+## juspay/hyperswitch  ⭐ 39336
+[Repository](https://github.com/juspay/hyperswitch)
+
+- <a href="https://github.com/juspay/hyperswitch/issues/9483">[Smithy Framework] - Extend our Smithy Framework to Payment Methods Create API and its corresponding Request/Response Payloads</a>  <code>#9483</code> · updated: 2025-11-09 · created: 2025-09-22  
+  labels: good first issue, hacktoberfest
+- <a href="https://github.com/juspay/hyperswitch/issues/9485">[Smithy Framework] - Extend our Smithy Framework to Payment Methods Update API and its corresponding Request/Response Payloads</a>  <code>#9485</code> · updated: 2025-10-24 · created: 2025-09-22  
+  labels: good first issue, hacktoberfest
+- <a href="https://github.com/juspay/hyperswitch/issues/9484">[Smithy Framework] - Extend our Smithy Framework to Payment Methods Retrieve API and its corresponding Request/Response Payloads</a>  <code>#9484</code> · updated: 2025-10-24 · created: 2025-09-22  
+  labels: good first issue, hacktoberfest
+- <a href="https://github.com/juspay/hyperswitch/issues/9478">[Smithy Framework] - Extend our Smithy Framework to Customers Retrieve API and its corresponding Request/Response Payloads</a>  <code>#9478</code> · updated: 2025-10-23 · created: 2025-09-22  
+  labels: good first issue, hacktoberfest
+- <a href="https://github.com/juspay/hyperswitch/issues/9486">[Smithy Framework] - Extend our Smithy Framework to Payment Methods Delete API and its corresponding Request/Response Payloads</a>  <code>#9486</code> · updated: 2025-10-23 · created: 2025-09-22  
+  labels: good first issue, hacktoberfest
+- <a href="https://github.com/juspay/hyperswitch/issues/9482">[Smithy Framework] - Extend our Smithy Framework to Customers Delete API and its corresponding Request/Response Payloads</a>  <code>#9482</code> · updated: 2025-10-08 · created: 2025-09-22  
+  labels: good first issue, hacktoberfest
+- <a href="https://github.com/juspay/hyperswitch/issues/9481">[Smithy Framework] - Extend our Smithy Framework to Customers Update API and its corresponding Request/Response Payloads</a>  <code>#9481</code> · updated: 2025-10-02 · created: 2025-09-22  
+  labels: good first issue, hacktoberfest
+
+## HeyPuter/puter  ⭐ 38006
 [Repository](https://github.com/HeyPuter/puter)
 
 - <a href="https://github.com/HeyPuter/puter/issues/2037">Feature Request: Add keyboard shortcuts guide in the UI</a>  <code>#2037</code> · updated: 2025-12-07 · created: 2025-11-26  
@@ -888,7 +870,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/HeyPuter/puter/issues/1666">[Feature Request] Dinamic Wallpaper</a>  <code>#1666</code> · updated: 2025-11-15 · created: 2025-10-03  
   labels: good first issue, help wanted, low priority
 
-## nushell/nushell  ⭐ 37537
+## nushell/nushell  ⭐ 37562
 [Repository](https://github.com/nushell/nushell)
 
 - <a href="https://github.com/nushell/nushell/issues/16926">bug: `verbose` flag acting weird</a>  <code>#16926</code> · updated: 2025-12-15 · created: 2025-10-25  
@@ -896,45 +878,35 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/nushell/nushell/issues/17145">`open` error message suggests `--allow-dtd`, which doesn&#x27;t exist</a>  <code>#17145</code> · updated: 2025-12-15 · created: 2025-12-11  
   labels: good first issue, status:needs-triage
 
-## twentyhq/twenty  ⭐ 37259
+## twentyhq/twenty  ⭐ 37305
 [Repository](https://github.com/twentyhq/twenty)
 
-- <a href="https://github.com/twentyhq/twenty/issues/15797">Introduce a setting in Phone + URL + Email field to define the behavior upon click</a>  <code>#15797</code> · updated: 2025-12-13 · created: 2025-11-13  
+- <a href="https://github.com/twentyhq/twenty/issues/16637">Remove section scrolling in filter menu</a>  <code>#16637</code> · updated: 2025-12-17 · created: 2025-12-17  
   labels: good first issue
 - <a href="https://github.com/twentyhq/twenty/issues/16412">Add tooltip on view switcher menu items</a>  <code>#16412</code> · updated: 2025-12-10 · created: 2025-12-09  
   labels: good first issue
 
-## pola-rs/polars  ⭐ 36563
+## pola-rs/polars  ⭐ 36607
 [Repository](https://github.com/pola-rs/polars)
 
 - <a href="https://github.com/pola-rs/polars/issues/25407">`pl.corr` fails to propagate nulls when using Spearman correlation with `propagate_nans=True` on pivoted columns</a>  <code>#25407</code> · updated: 2025-11-22 · created: 2025-11-19  
   labels: bug, good first issue, python, accepted, P-medium
 
-## TeamNewPipe/NewPipe  ⭐ 35920
-[Repository](https://github.com/TeamNewPipe/NewPipe)
-
-- <a href="https://github.com/TeamNewPipe/NewPipe/issues/12726">Add &quot;Stop after current song ends&quot; playback option</a>  <code>#12726</code> · updated: 2025-12-13 · created: 2025-10-20  
-  labels: feature request, good first issue, player
-- <a href="https://github.com/TeamNewPipe/NewPipe/issues/12644">Opt-in to Arm Memory Tagging Extensions (MTE)</a>  <code>#12644</code> · updated: 2025-10-20 · created: 2025-09-18  
-  labels: feature request, good first issue
-
-## llvm/llvm-project  ⭐ 35909
+## llvm/llvm-project  ⭐ 35993
 [Repository](https://github.com/llvm/llvm-project)
 
-- <a href="https://github.com/llvm/llvm-project/issues/167765">[CIR] Implement missing X86 builtins</a>  <code>#167765</code> · updated: 2025-12-15 · created: 2025-11-12  
+- <a href="https://github.com/llvm/llvm-project/issues/167765">[CIR] Implement missing X86 builtins</a>  <code>#167765</code> · updated: 2025-12-19 · created: 2025-11-12  
   labels: good first issue, ClangIR
-- <a href="https://github.com/llvm/llvm-project/issues/170015">[clang] Crash with spaceship operator and floating-point values</a>  <code>#170015</code> · updated: 2025-12-14 · created: 2025-11-30  
-  labels: good first issue, c++20, clang:frontend, crash-on-invalid, confirmed, spaceship
-- <a href="https://github.com/llvm/llvm-project/issues/163732">[Clang] VectorExprEvaluator::VisitCallExpr / InterpretBuiltin - allow AVX512 compress intrinsics to be used in constexpr</a>  <code>#163732</code> · updated: 2025-12-14 · created: 2025-10-16  
+- <a href="https://github.com/llvm/llvm-project/issues/170500">[VectorCombine] foldShuffleOfBinops - failure to track OperandValueInfo data in getArithmeticInstrCost calls</a>  <code>#170500</code> · updated: 2025-12-18 · created: 2025-12-03  
+  labels: good first issue, missed-optimization, llvm::vectorcombine
+- <a href="https://github.com/llvm/llvm-project/issues/160473">[X86][Clang] VectorExprEvaluator::VisitCallExpr / InterpretBuiltin - allow SSE/AVX COMI/UCOMI/CMPS/CMPP fp comparison intrinsics to be used in constexpr</a>  <code>#160473</code> · updated: 2025-12-17 · created: 2025-09-24  
   labels: good first issue, backend:X86, clang:headers, constexpr, clang:bytecode
-- <a href="https://github.com/llvm/llvm-project/issues/160473">[X86][Clang] VectorExprEvaluator::VisitCallExpr / InterpretBuiltin - allow SSE/AVX COMI/UCOMI/CMPS/CMPP fp comparison intrinsics to be used in constexpr</a>  <code>#160473</code> · updated: 2025-12-14 · created: 2025-09-24  
+- <a href="https://github.com/llvm/llvm-project/issues/163732">[Clang] VectorExprEvaluator::VisitCallExpr / InterpretBuiltin - allow AVX512 compress intrinsics to be used in constexpr</a>  <code>#163732</code> · updated: 2025-12-16 · created: 2025-10-16  
   labels: good first issue, backend:X86, clang:headers, constexpr, clang:bytecode
+- <a href="https://github.com/llvm/llvm-project/issues/166989">[AMDGPU] Intrinsic `AMDGPUWmmaIntrinsicModsAB` missing clamp attribute</a>  <code>#166989</code> · updated: 2025-12-16 · created: 2025-11-07  
+  labels: good first issue, backend:AMDGPU
 - <a href="https://github.com/llvm/llvm-project/issues/166155">[llvm] Document non-trivial `llvm::DenseMapBase` member functions</a>  <code>#166155</code> · updated: 2025-12-13 · created: 2025-11-03  
   labels: enhancement, documentation, good first issue, llvm:adt
-- <a href="https://github.com/llvm/llvm-project/issues/169312">[Clang] VectorExprEvaluator::VisitCallExpr / InterpretBuiltin - allow AVX subvector shuffles intrinsics to be used in constexpr</a>  <code>#169312</code> · updated: 2025-12-13 · created: 2025-11-24  
-  labels: good first issue, backend:X86, clang:headers, constexpr, clang:bytecode
-- <a href="https://github.com/llvm/llvm-project/issues/170500">[VectorCombine] foldShuffleOfBinops - failure to track OperandValueInfo data in getArithmeticInstrCost calls</a>  <code>#170500</code> · updated: 2025-12-11 · created: 2025-12-03  
-  labels: good first issue, missed-optimization, llvm::vectorcombine
 - <a href="https://github.com/llvm/llvm-project/issues/171877">[ConstantFolding] Move `LibCallSimplifier::optimizeFdim` into ConstantFolding</a>  <code>#171877</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: good first issue, code-cleanup, floating-point, constant-folding
 - <a href="https://github.com/llvm/llvm-project/issues/169374">[X86][Clang] VectorExprEvaluator::VisitCallExpr / InterpretBuiltin - allow SSE/AVX FP2INT conversion intrinsics to be used in constexpr</a>  <code>#169374</code> · updated: 2025-12-10 · created: 2025-11-24  
@@ -953,8 +925,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue, backend:X86, missed-optimization
 - <a href="https://github.com/llvm/llvm-project/issues/170979">[clang-tidy] Rename &#x27;google-build-namespaces&#x27; check to &#x27;misc-anonymous-namespace-in-header&#x27; and keep initial as alias.</a>  <code>#170979</code> · updated: 2025-12-06 · created: 2025-12-06  
   labels: enhancement, good first issue, clang-tidy
-- <a href="https://github.com/llvm/llvm-project/issues/166989">[AMDGPU] Intrinsic `AMDGPUWmmaIntrinsicModsAB` missing clamp attribute</a>  <code>#166989</code> · updated: 2025-12-05 · created: 2025-11-07  
-  labels: good first issue, backend:AMDGPU
 - <a href="https://github.com/llvm/llvm-project/issues/168920">[LLDB] Swig python extensions are missing test coverage</a>  <code>#168920</code> · updated: 2025-12-04 · created: 2025-11-20  
   labels: good first issue, lldb, test-suite
 - <a href="https://github.com/llvm/llvm-project/issues/162072">[X86][Clang] VectorExprEvaluator::VisitCallExpr / InterpretBuiltin - allow AVX512 mask predicate intrinsics to be used in constexpr</a>  <code>#162072</code> · updated: 2025-12-04 · created: 2025-10-06  
@@ -979,8 +949,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue, clang:frontend, diverges-from:gcc, diverges-from:msvc, diverges-from:edg
 - <a href="https://github.com/llvm/llvm-project/issues/167314">[DAG] MatchLoadCombine - match swapped loads</a>  <code>#167314</code> · updated: 2025-11-10 · created: 2025-11-10  
   labels: good first issue, missed-optimization, llvm:SelectionDAG
-- <a href="https://github.com/llvm/llvm-project/issues/159410">[X86] X86FixupInstTunings - attempt to convert VPERMQri to VINSERTI128rri</a>  <code>#159410</code> · updated: 2025-11-10 · created: 2025-09-17  
-  labels: good first issue, backend:X86, missed-optimization
 - <a href="https://github.com/llvm/llvm-project/issues/166750">[clang-tidy] llvm-header-guard suggest invalid ifdef macros name</a>  <code>#166750</code> · updated: 2025-11-10 · created: 2025-11-06  
   labels: good first issue, clang-tidy, false-positive
 - <a href="https://github.com/llvm/llvm-project/issues/159905">[clang] Bitcasts from vectors to integers not supported at compile time</a>  <code>#159905</code> · updated: 2025-11-07 · created: 2025-09-20  
@@ -1010,7 +978,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/llvm/llvm-project/issues/160556">[Headers][X86] Allow AVX512 masked bitlogic intrinsics to be used in constexpr</a>  <code>#160556</code> · updated: 2025-09-30 · created: 2025-09-24  
   labels: good first issue, backend:X86, clang:headers, constexpr
 
-## fastify/fastify  ⭐ 35206
+## TeamNewPipe/NewPipe  ⭐ 35947
+[Repository](https://github.com/TeamNewPipe/NewPipe)
+
+- <a href="https://github.com/TeamNewPipe/NewPipe/issues/12726">Add &quot;Stop after current song ends&quot; playback option</a>  <code>#12726</code> · updated: 2025-12-13 · created: 2025-10-20  
+  labels: feature request, good first issue, player
+
+## fastify/fastify  ⭐ 35216
 [Repository](https://github.com/fastify/fastify)
 
 - <a href="https://github.com/fastify/fastify/issues/6411">Validation of optional, nullable number where property value is `0` will default to `null`</a>  <code>#6411</code> · updated: 2025-12-14 · created: 2025-12-10  
@@ -1018,41 +992,45 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/fastify/fastify/issues/6385">Check invalid links</a>  <code>#6385</code> · updated: 2025-11-21 · created: 2025-11-10  
   labels: documentation, good first issue
 
-## servo/servo  ⭐ 34544
+## servo/servo  ⭐ 34653
 [Repository](https://github.com/servo/servo)
 
+- <a href="https://github.com/servo/servo/issues/40995">Windows Nightly installer ignores customized path</a>  <code>#40995</code> · updated: 2025-12-17 · created: 2025-12-02  
+  labels: E-less-complex, P-windows, C-assigned, A-build, good first issue
 - <a href="https://github.com/servo/servo/issues/40756">Provide actual messages in JS errors</a>  <code>#40756</code> · updated: 2025-12-05 · created: 2025-11-20  
   labels: good first issue
-- <a href="https://github.com/servo/servo/issues/40995">Windows Nightly installer ignores customized path</a>  <code>#40995</code> · updated: 2025-12-02 · created: 2025-12-02  
-  labels: E-less-complex, P-windows, A-build, good first issue
 
-## python-poetry/poetry  ⭐ 34120
+## python-poetry/poetry  ⭐ 34129
 [Repository](https://github.com/python-poetry/poetry)
 
 - <a href="https://github.com/python-poetry/poetry/issues/10635">Error message for incorrect configs is unclear</a>  <code>#10635</code> · updated: 2025-12-09 · created: 2025-11-29  
   labels: kind/feature, good first issue
 
-## directus/directus  ⭐ 33706
+## directus/directus  ⭐ 33736
 [Repository](https://github.com/directus/directus)
 
 - <a href="https://github.com/directus/directus/issues/26256">Deprecate custom `use-local-storage` composable in favor of `vueuse`</a>  <code>#26256</code> · updated: 2025-12-13 · created: 2025-11-25  
   labels: Good First Issue, Chore
 
-## nextcloud/server  ⭐ 33609
+## nextcloud/server  ⭐ 33627
 [Repository](https://github.com/nextcloud/server)
 
-- <a href="https://github.com/nextcloud/server/issues/57083">[Bug]: NcAppSettingsShortcutsSection name translation is missing</a>  <code>#57083</code> · updated: 2025-12-15 · created: 2025-12-15  
+- <a href="https://github.com/nextcloud/server/issues/57083">[Bug]: NcAppSettingsShortcutsSection name translation is missing</a>  <code>#57083</code> · updated: 2025-12-17 · created: 2025-12-15  
   labels: bug, good first issue, 0. Needs triage, 32-feedback
 - <a href="https://github.com/nextcloud/server/issues/56904">Allow user-level sender addresses for “Share by mail” (file sharing)</a>  <code>#56904</code> · updated: 2025-12-11 · created: 2025-12-08  
   labels: enhancement, good first issue, 0. Needs triage
 
-## juanfont/headscale  ⭐ 33542
+## juanfont/headscale  ⭐ 33602
 [Repository](https://github.com/juanfont/headscale)
 
-- <a href="https://github.com/juanfont/headscale/issues/2871">[Bug] `metrics_listen_addr` set to &quot;&quot; results in metrics listening on random port</a>  <code>#2871</code> · updated: 2025-11-10 · created: 2025-11-10  
-  labels: bug, help wanted, good first issue, no-stale-bot
+- <a href="https://github.com/juanfont/headscale/issues/2971">Tagged devices should have key expiry disabled</a>  <code>#2971</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: bug, help wanted, good first issue, no-stale-bot, tags
+- <a href="https://github.com/juanfont/headscale/issues/2970">Tagged devices are not shown with the &quot;tagged-devices&quot; user</a>  <code>#2970</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: bug, help wanted, good first issue, no-stale-bot, tags
+- <a href="https://github.com/juanfont/headscale/issues/2972">`headscale nodes list` does not always show user</a>  <code>#2972</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: bug, help wanted, good first issue, no-stale-bot, CLI
 
-## DioxusLabs/dioxus  ⭐ 32686
+## DioxusLabs/dioxus  ⭐ 32725
 [Repository](https://github.com/DioxusLabs/dioxus)
 
 - <a href="https://github.com/DioxusLabs/dioxus/issues/5063">chore(dioxus 0.7) | Project info during build</a>  <code>#5063</code> · updated: 2025-12-09 · created: 2025-12-06  
@@ -1060,25 +1038,21 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/DioxusLabs/dioxus/issues/4858">Panic in calculator example</a>  <code>#4858</code> · updated: 2025-10-29 · created: 2025-10-29  
   labels: bug, good first issue, example
 
-## google/comprehensive-rust  ⭐ 32397
+## google/comprehensive-rust  ⭐ 32403
 [Repository](https://github.com/google/comprehensive-rust)
 
 - <a href="https://github.com/google/comprehensive-rust/issues/2924">Formalize patching of `book.js`</a>  <code>#2924</code> · updated: 2025-11-02 · created: 2025-09-23  
   labels: bug, good first issue
 
-## backstage/backstage  ⭐ 32104
+## backstage/backstage  ⭐ 32116
 [Repository](https://github.com/backstage/backstage)
 
+- <a href="https://github.com/backstage/backstage/issues/32120">Table: `filters` and `title` | `subtitle` break layout</a>  <code>#32120</code> · updated: 2025-12-18 · created: 2025-12-13  
+  labels: type:bug, good first issue, area:design-system, needs:triage
 - <a href="https://github.com/backstage/backstage/issues/31229">Component list tags have no vertical spacing</a>  <code>#31229</code> · updated: 2025-12-14 · created: 2025-09-23  
   labels: type:suggestion, good first issue, area:design-system, needs:discussion
 
-## GyulyVGC/sniffnet  ⭐ 32092
-[Repository](https://github.com/GyulyVGC/sniffnet)
-
-- <a href="https://github.com/GyulyVGC/sniffnet/issues/975">Docs: add a Wikipedia page about Sniffnet</a>  <code>#975</code> · updated: 2025-09-19 · created: 2025-09-19  
-  labels: documentation, help wanted, good first issue
-
-## fish-shell/fish-shell  ⭐ 31837
+## fish-shell/fish-shell  ⭐ 31862
 [Repository](https://github.com/fish-shell/fish-shell)
 
 - <a href="https://github.com/fish-shell/fish-shell/issues/11984">fish_indent: support new `{...}` syntax alternative to `begin...end`</a>  <code>#11984</code> · updated: 2025-12-06 · created: 2025-10-21  
@@ -1086,7 +1060,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/fish-shell/fish-shell/issues/12006">No keyboard input when calling `fish_hybrid_key_bindings` from `fish -N`</a>  <code>#12006</code> · updated: 2025-11-04 · created: 2025-10-30  
   labels: good first issue
 
-## codex-team/editor.js  ⭐ 31284
+## codex-team/editor.js  ⭐ 31290
 [Repository](https://github.com/codex-team/editor.js)
 
 - <a href="https://github.com/codex-team/editor.js/issues/2959">Paste Config Improvement: add support for a filter function in pasteConfig to allow matching elements by attributes</a>  <code>#2959</code> · updated: 2025-11-17 · created: 2025-10-14  
@@ -1094,31 +1068,39 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/codex-team/editor.js/issues/2957">sanitize method for Block Tool seems to be typed wrong</a>  <code>#2957</code> · updated: 2025-10-13 · created: 2025-09-30  
   labels: good first issue
 
-## stanfordnlp/dspy  ⭐ 30786
+## kubernetes/minikube  ⭐ 31245
+[Repository](https://github.com/kubernetes/minikube)
+
+- <a href="https://github.com/kubernetes/minikube/issues/22152">minikube should allow 1 cpu --no-kubernetes</a>  <code>#22152</code> · updated: 2025-12-17 · created: 2025-12-14  
+  labels: help wanted, good first issue, kind/improvement
+
+## stanfordnlp/dspy  ⭐ 30863
 [Repository](https://github.com/stanfordnlp/dspy)
 
 - <a href="https://github.com/stanfordnlp/dspy/issues/8926">[Help wanted] Add docstring to public APIs</a>  <code>#8926</code> · updated: 2025-10-10 · created: 2025-10-10  
   labels: good first issue, help wanted
 
-## Lightning-AI/pytorch-lightning  ⭐ 30581
+## Lightning-AI/pytorch-lightning  ⭐ 30592
 [Repository](https://github.com/Lightning-AI/pytorch-lightning)
 
 - <a href="https://github.com/Lightning-AI/pytorch-lightning/issues/21371">Broken URLs on NeptuneLogger documentation page</a>  <code>#21371</code> · updated: 2025-11-21 · created: 2025-11-21  
   labels: good first issue, docs, logger: neptune
 
-## aquasecurity/trivy  ⭐ 30484
+## aquasecurity/trivy  ⭐ 30536
 [Repository](https://github.com/aquasecurity/trivy)
 
-- <a href="https://github.com/aquasecurity/trivy/issues/9898">bug(os): Trivy detects CentOS Stream as CentOS</a>  <code>#9898</code> · updated: 2025-12-11 · created: 2025-12-08  
+- <a href="https://github.com/aquasecurity/trivy/issues/9898">bug(os): Trivy detects CentOS Stream as CentOS</a>  <code>#9898</code> · updated: 2025-12-18 · created: 2025-12-08  
   labels: kind/bug, help wanted, good first issue
+- <a href="https://github.com/aquasecurity/trivy/issues/9920">docs: update binary signature verification instructions for sigstore bundles</a>  <code>#9920</code> · updated: 2025-12-18 · created: 2025-12-09  
+  labels: help wanted, good first issue, kind/documentation
 - <a href="https://github.com/aquasecurity/trivy/issues/9696">feat(misconf): adapt ARM k8s clusters</a>  <code>#9696</code> · updated: 2025-12-11 · created: 2025-10-22  
   labels: good first issue, kind/feature, scan/misconfiguration
-- <a href="https://github.com/aquasecurity/trivy/issues/9920">docs: update binary signature verification instructions for sigstore bundles</a>  <code>#9920</code> · updated: 2025-12-11 · created: 2025-12-09  
-  labels: help wanted, good first issue, kind/documentation
 
-## PostHog/posthog  ⭐ 30447
+## PostHog/posthog  ⭐ 30475
 [Repository](https://github.com/PostHog/posthog)
 
+- <a href="https://github.com/PostHog/posthog/issues/43729">bug(flags): Flags API allows creating invalid flag definitions</a>  <code>#43729</code> · updated: 2025-12-19 · created: 2025-12-19  
+  labels: bug, good first issue, feature/feature-flags, team/feature-flags
 - <a href="https://github.com/PostHog/posthog/issues/42255">Feature Request: Improve chart legend display to reduce redundancy and save space</a>  <code>#42255</code> · updated: 2025-12-08 · created: 2025-11-27  
   labels: enhancement, good first issue, feature/trends, team/product-analytics
 - <a href="https://github.com/PostHog/posthog/issues/40420">Split ID modal won&#x27;t close without refresh</a>  <code>#40420</code> · updated: 2025-12-04 · created: 2025-10-27  
@@ -1136,17 +1118,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/PostHog/posthog/issues/39135">group flags that target groups should have default insights that only show `$feature_flag_called` events with groups associated with them</a>  <code>#39135</code> · updated: 2025-11-09 · created: 2025-10-04  
   labels: good first issue, team/feature-flags
 
-## containers/podman  ⭐ 30028
+## containers/podman  ⭐ 30066
 [Repository](https://github.com/containers/podman)
 
 - <a href="https://github.com/containers/podman/issues/27747">Artifact volume validation fails at container start instead of creation, creating unstartable containers</a>  <code>#27747</code> · updated: 2025-12-13 · created: 2025-12-11  
   labels: Good First Issue, kind/bug, bugweek, triaged
 - <a href="https://github.com/containers/podman/issues/27576">podman machine: image override files need user-write access</a>  <code>#27576</code> · updated: 2025-12-11 · created: 2025-11-20  
   labels: Good First Issue, kind/bug, machine, triaged
-- <a href="https://github.com/containers/podman/issues/27681">[Docs] Deduplicate `--filter` Description</a>  <code>#27681</code> · updated: 2025-12-11 · created: 2025-12-04  
-  labels: Good First Issue, documentation, volunteers-wanted, triaged
-- <a href="https://github.com/containers/podman/issues/27691">container logs timestamp precision differs in web service vs local</a>  <code>#27691</code> · updated: 2025-12-11 · created: 2025-12-05  
-  labels: Good First Issue, kind/bug, volunteers-wanted, triaged
 - <a href="https://github.com/containers/podman/issues/27184">podman relabel issue</a>  <code>#27184</code> · updated: 2025-11-26 · created: 2025-09-28  
   labels: Good First Issue, kind/bug, volunteers-wanted, bugweek, triaged
 - <a href="https://github.com/containers/podman/issues/27559">Missing --group-add in &quot;podman pod create&quot;?</a>  <code>#27559</code> · updated: 2025-11-21 · created: 2025-11-18  
@@ -1156,7 +1134,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/containers/podman/issues/27183">Bootc disk build fails on a rootful Podman machine when the host&#x27;s root user container storage is mounted.</a>  <code>#27183</code> · updated: 2025-11-02 · created: 2025-09-28  
   labels: Good First Issue, kind/bug, stale-issue, triaged
 
-## pear-devs/pear-desktop  ⭐ 29982
+## pear-devs/pear-desktop  ⭐ 30043
 [Repository](https://github.com/pear-devs/pear-desktop)
 
 - <a href="https://github.com/pear-devs/pear-desktop/issues/4129">[Feature Request]: Add Support for Libre.FM Scrobbling</a>  <code>#4129</code> · updated: 2025-12-15 · created: 2025-12-03  
@@ -1168,27 +1146,23 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pear-devs/pear-desktop/issues/4037">[Bug]: When Last.fm says &quot;Invalid session key - Please re-authenticate&quot; there is no normal way to re-authenticate</a>  <code>#4037</code> · updated: 2025-11-05 · created: 2025-10-23  
   labels: bug, enhancement, good first issue
 
-## grafana/k6  ⭐ 29446
+## grafana/k6  ⭐ 29481
 [Repository](https://github.com/grafana/k6)
 
-- <a href="https://github.com/grafana/k6/issues/5191">Prometheus Remote Write TLS Handshake Error due to TLSv1.3</a>  <code>#5191</code> · updated: 2025-12-11 · created: 2025-09-18  
-  labels: enhancement, good first issue
 - <a href="https://github.com/grafana/k6/issues/5305">Move Sobek option parsing to the mapping layer</a>  <code>#5305</code> · updated: 2025-11-06 · created: 2025-10-14  
   labels: good first issue, refactor, area: browser
 
-## openssl/openssl  ⭐ 29217
+## openssl/openssl  ⭐ 29237
 [Repository](https://github.com/openssl/openssl)
 
-- <a href="https://github.com/openssl/openssl/issues/29060">-pass showing under the &quot;output&quot; section</a>  <code>#29060</code> · updated: 2025-11-07 · created: 2025-11-04  
+- <a href="https://github.com/openssl/openssl/issues/29060">-pass showing under the &quot;output&quot; section</a>  <code>#29060</code> · updated: 2025-12-17 · created: 2025-11-04  
   labels: branch: master, good first issue, triaged: refactor
 - <a href="https://github.com/openssl/openssl/issues/28665">Documentation examples in part heavily outdated</a>  <code>#28665</code> · updated: 2025-09-29 · created: 2025-09-25  
   labels: good first issue, help wanted, triaged: documentation
 
-## helm/helm  ⭐ 29188
+## helm/helm  ⭐ 29193
 [Repository](https://github.com/helm/helm)
 
-- <a href="https://github.com/helm/helm/issues/31652">Default wait strategy is hookOnly I think although the docs claim `watcher`</a>  <code>#31652</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: good first issue
 - <a href="https://github.com/helm/helm/issues/31585">New watcher wait strategy lacking SDK logging</a>  <code>#31585</code> · updated: 2025-12-15 · created: 2025-11-27  
   labels: good first issue
 - <a href="https://github.com/helm/helm/issues/31552">Helm 3.19 crashes with a nil pointer dereference</a>  <code>#31552</code> · updated: 2025-11-26 · created: 2025-11-21  
@@ -1196,7 +1170,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/helm/helm/issues/31430">Unalignment between toToml and toYaml/toJson</a>  <code>#31430</code> · updated: 2025-10-31 · created: 2025-10-28  
   labels: good first issue
 
-## alibaba/spring-cloud-alibaba  ⭐ 28938
+## alibaba/spring-cloud-alibaba  ⭐ 28941
 [Repository](https://github.com/alibaba/spring-cloud-alibaba)
 
 - <a href="https://github.com/alibaba/spring-cloud-alibaba/issues/4100">Regarding the GA version issue</a>  <code>#4100</code> · updated: 2025-12-05 · created: 2025-11-27  
@@ -1206,27 +1180,31 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/alibaba/spring-cloud-alibaba/issues/4081">Error occurred while performing Nacos client graceful shutdown</a>  <code>#4081</code> · updated: 2025-10-30 · created: 2025-10-20  
   labels: good first issue, area/nacos
 
-## nginx/nginx  ⭐ 28851
+## nginx/nginx  ⭐ 28876
 [Repository](https://github.com/nginx/nginx)
 
-- <a href="https://github.com/nginx/nginx/issues/988">multirange request returns 206 and more bytes than full file, instead of 200</a>  <code>#988</code> · updated: 2025-12-11 · created: 2025-11-19  
+- <a href="https://github.com/nginx/nginx/issues/988">multirange request returns 206 and more bytes than full file, instead of 200</a>  <code>#988</code> · updated: 2025-12-18 · created: 2025-11-19  
   labels: bug, good first issue
 
-## qdrant/qdrant  ⭐ 27658
+## qdrant/qdrant  ⭐ 27714
 [Repository](https://github.com/qdrant/qdrant)
 
 - <a href="https://github.com/qdrant/qdrant/issues/7718">Add f16 NEON support in ARM Windows</a>  <code>#7718</code> · updated: 2025-12-08 · created: 2025-12-08  
   labels: bug, good first issue
 
-## FreeCAD/FreeCAD  ⭐ 27496
+## FreeCAD/FreeCAD  ⭐ 27541
 [Repository](https://github.com/FreeCAD/FreeCAD)
 
-- <a href="https://github.com/FreeCAD/FreeCAD/issues/26182">Tools - Save Image not honoring path</a>  <code>#26182</code> · updated: 2025-12-16 · created: 2025-12-15  
-  labels: Mod: Core, Topic: User Interface, Type: Feature, Good first issue
-- <a href="https://github.com/FreeCAD/FreeCAD/issues/25072">Core: Some input fields in the Image editor Plane Settings task panel, evaluate inputs prematurely</a>  <code>#25072</code> · updated: 2025-12-15 · created: 2025-11-04  
+- <a href="https://github.com/FreeCAD/FreeCAD/issues/26272">CAM: Start Depth documentation and tooltip do not match actual first Z layer behavior</a>  <code>#26272</code> · updated: 2025-12-19 · created: 2025-12-18  
+  labels: Type: Bug, Mod: CAM, Status: Needs confirmation, Topic: User Interface, Good first issue
+- <a href="https://github.com/FreeCAD/FreeCAD/issues/25072">Core: Some input fields in the Image editor Plane Settings task panel, evaluate inputs prematurely</a>  <code>#25072</code> · updated: 2025-12-18 · created: 2025-11-04  
   labels: Type: Bug, Mod: Core, Topic: User Interface, Good first issue
-- <a href="https://github.com/FreeCAD/FreeCAD/issues/25951">VarSet: Rename Property Group not available</a>  <code>#25951</code> · updated: 2025-12-15 · created: 2025-12-04  
+- <a href="https://github.com/FreeCAD/FreeCAD/issues/25951">VarSet: Rename Property Group not available</a>  <code>#25951</code> · updated: 2025-12-18 · created: 2025-12-04  
   labels: Type: Bug, Good first issue, Status: Confirmed, Topic: VarSet
+- <a href="https://github.com/FreeCAD/FreeCAD/issues/26182">Tools - Save Image not honoring path</a>  <code>#26182</code> · updated: 2025-12-18 · created: 2025-12-15  
+  labels: Mod: Core, Topic: User Interface, Type: Feature, Good first issue
+- <a href="https://github.com/FreeCAD/FreeCAD/issues/26237">Preferences: tooltips missing in Selection tab</a>  <code>#26237</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Mod: Core, Topic: User Interface, Type: Feature, Good first issue, Topic: Preferences
 - <a href="https://github.com/FreeCAD/FreeCAD/issues/26160">Leftover references from migration from freecadweb.org</a>  <code>#26160</code> · updated: 2025-12-14 · created: 2025-12-14  
   labels: Type: Bug, Mod: BIM, Good first issue, Status: Confirmed
 - <a href="https://github.com/FreeCAD/FreeCAD/issues/26094">VarSet: dialog could have name and value as two first elements in the form</a>  <code>#26094</code> · updated: 2025-12-14 · created: 2025-12-11  
@@ -1279,8 +1257,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: Good first issue, Status: Confirmed, Topic: Color, Mod: Materials
 - <a href="https://github.com/FreeCAD/FreeCAD/issues/25128">UI: button in the status bar for selecting the system of units has a variable width</a>  <code>#25128</code> · updated: 2025-11-19 · created: 2025-11-06  
   labels: Mod: Core, Topic: User Interface, Type: Feature, Good first issue, Topic: Stylesheets
-- <a href="https://github.com/FreeCAD/FreeCAD/issues/24067">Core: Selected input field of a Property with an Expression hides its expression when selected</a>  <code>#24067</code> · updated: 2025-11-18 · created: 2025-09-19  
-  labels: Mod: Core, Topic: User Interface, Type: Feature, Topic: Expressions, Good first issue
 - <a href="https://github.com/FreeCAD/FreeCAD/issues/25096">TechDraw: Add Complementary and Supplementary Angle Support</a>  <code>#25096</code> · updated: 2025-11-15 · created: 2025-11-05  
   labels: Mod: TechDraw, Type: Feature, Good first issue, Status: Confirmed
 - <a href="https://github.com/FreeCAD/FreeCAD/issues/25185">PartDesign: Cannot set the Tip of a Body before the first Feature.</a>  <code>#25185</code> · updated: 2025-11-15 · created: 2025-11-09  
@@ -1308,7 +1284,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/FreeCAD/FreeCAD/issues/24075">Sketcher: Report view returns vague messages &quot;Autoconstraints cause redundancy, Removing them&quot; without linking to the specfic sketch name and label they are referring to</a>  <code>#24075</code> · updated: 2025-09-21 · created: 2025-09-20  
   labels: Topic: User Interface, Type: Feature, Mod: Sketcher, Good first issue
 
-## Budibase/budibase  ⭐ 27443
+## Budibase/budibase  ⭐ 27457
 [Repository](https://github.com/Budibase/budibase)
 
 - <a href="https://github.com/Budibase/budibase/issues/17116">Allow default preference for Grid/Flex layouts on screens, containers, etc</a>  <code>#17116</code> · updated: 2025-10-14 · created: 2025-10-10  
@@ -1316,58 +1292,56 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/Budibase/budibase/issues/17124">Add Shortcut to Trigger “Add Component” Flow via “+” Button and Focus Search</a>  <code>#17124</code> · updated: 2025-10-14 · created: 2025-10-10  
   labels: enhancement, good first issue, actions, bb-components, low-hanging-fruit
 
-## opentofu/opentofu  ⭐ 27352
+## opentofu/opentofu  ⭐ 27380
 [Repository](https://github.com/opentofu/opentofu)
 
 - <a href="https://github.com/opentofu/opentofu/issues/3501">Undocumented change in operator short-circuiting behaviour from OpenTofu v1.10.0 onwards</a>  <code>#3501</code> · updated: 2025-11-21 · created: 2025-11-17  
   labels: bug, good first issue, help wanted, accepted
 
-## discordjs/discord.js  ⭐ 26440
+## discordjs/discord.js  ⭐ 26441
 [Repository](https://github.com/discordjs/discord.js)
 
-- <a href="https://github.com/discordjs/discord.js/issues/11359">ModalSubmitInteraction field component.attachments may be undefined despite typings</a>  <code>#11359</code> · updated: 2025-12-14 · created: 2025-12-12  
+- <a href="https://github.com/discordjs/discord.js/issues/11359">ModalSubmitInteraction field component.attachments may be undefined despite typings</a>  <code>#11359</code> · updated: 2025-12-17 · created: 2025-12-12  
   labels: bug, good first issue, packages:discord.js
 - <a href="https://github.com/discordjs/discord.js/issues/11346">Implement Bun templates for create-discord-bot</a>  <code>#11346</code> · updated: 2025-12-09 · created: 2025-12-09  
   labels: good first issue, packages:create-discord-bot
 - <a href="https://github.com/discordjs/discord.js/issues/11331">UserManager.send() returns Promise&lt;Message&gt; instead of Promise&lt;Message&lt;false&gt;&gt;</a>  <code>#11331</code> · updated: 2025-12-07 · created: 2025-12-05  
   labels: bug, good first issue, typings, packages:discord.js
 
-## recharts/recharts  ⭐ 26347
+## recharts/recharts  ⭐ 26366
 [Repository](https://github.com/recharts/recharts)
 
 - <a href="https://github.com/recharts/recharts/issues/6643">[Feature request] [Tooltip] `offset` prop should accept an object with separate `{ x, y }` offsets</a>  <code>#6643</code> · updated: 2025-11-23 · created: 2025-11-16  
   labels: enhancement, feature request, good first issue
 
-## kestra-io/kestra  ⭐ 26156
+## kestra-io/kestra  ⭐ 26152
 [Repository](https://github.com/kestra-io/kestra)
 
-- <a href="https://github.com/kestra-io/kestra/issues/13649">Simplify `TaskVersion.vue` translations by using `$t` in `template` section</a>  <code>#13649</code> · updated: 2025-12-16 · created: 2025-12-12  
+- <a href="https://github.com/kestra-io/kestra/issues/13257">Simplify `Topology.vue` translations by using `$t` in `template` section</a>  <code>#13257</code> · updated: 2025-12-18 · created: 2025-12-01  
   labels: area/frontend, kind/quick-win, good first issue
+- <a href="https://github.com/kestra-io/kestra/issues/13756">Flow Variables are not set in Webhook-triggered Executions (NullPointerException)</a>  <code>#13756</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: area/backend, good first issue
+- <a href="https://github.com/kestra-io/kestra/issues/13638">Simplify `TaskEditor.vue` translations by using `$t` in `template` section</a>  <code>#13638</code> · updated: 2025-12-18 · created: 2025-12-12  
+  labels: area/frontend, kind/quick-win, good first issue
+- <a href="https://github.com/kestra-io/kestra/issues/13653">Simplify `Actions.vue` translations by using `$t` in `template` section</a>  <code>#13653</code> · updated: 2025-12-17 · created: 2025-12-12  
+  labels: area/frontend, kind/quick-win, good first issue
+- <a href="https://github.com/kestra-io/kestra/issues/12953">Replace usage of `getCurrentInstance` in `MonacoEditor.vue` component</a>  <code>#12953</code> · updated: 2025-12-17 · created: 2025-11-14  
+  labels: area/frontend, kind/quick-win, good first issue
+- <a href="https://github.com/kestra-io/kestra/issues/12612">[UI] Information Notice not shown anymore in the flow edit page</a>  <code>#12612</code> · updated: 2025-12-16 · created: 2025-11-03  
+  labels: bug, area/frontend, good first issue
 - <a href="https://github.com/kestra-io/kestra/issues/13647">[UI] Refactor Execution Replay Modal to avoid confusion</a>  <code>#13647</code> · updated: 2025-12-15 · created: 2025-12-12  
   labels: enhancement, area/frontend, kind/quick-win, kind/customer-request, good first issue
 - <a href="https://github.com/kestra-io/kestra/issues/13664">Center the search field placeholder</a>  <code>#13664</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: bug, area/frontend, kind/quick-win, good first issue
-- <a href="https://github.com/kestra-io/kestra/issues/13653">Simplify `Actions.vue` translations by using `$t` in `template` section</a>  <code>#13653</code> · updated: 2025-12-13 · created: 2025-12-12  
-  labels: area/frontend, kind/quick-win, good first issue
-- <a href="https://github.com/kestra-io/kestra/issues/13642">[Triggers UI] Icons are offset when there is a locked trigger – Administration section</a>  <code>#13642</code> · updated: 2025-12-13 · created: 2025-12-12  
-  labels: bug, area/frontend, kind/quick-win, good first issue
-- <a href="https://github.com/kestra-io/kestra/issues/13640">Simplify `TaskObject.vue` translations by using `$t` in `template` section</a>  <code>#13640</code> · updated: 2025-12-12 · created: 2025-12-12  
-  labels: area/frontend, kind/quick-win, good first issue
-- <a href="https://github.com/kestra-io/kestra/issues/13638">Simplify `TaskEditor.vue` translations by using `$t` in `template` section</a>  <code>#13638</code> · updated: 2025-12-12 · created: 2025-12-12  
-  labels: area/frontend, kind/quick-win, good first issue
 - <a href="https://github.com/kestra-io/kestra/issues/12968">Simplify `AITriggerButton.vue` translations by using `$t` in `template` section</a>  <code>#12968</code> · updated: 2025-12-11 · created: 2025-11-14  
   labels: area/frontend, kind/quick-win, good first issue
 - <a href="https://github.com/kestra-io/kestra/issues/11562">Revise header to combine breadcrumb and title&quot;</a>  <code>#11562</code> · updated: 2025-12-08 · created: 2025-09-29  
   labels: enhancement, area/frontend, good first issue
-- <a href="https://github.com/kestra-io/kestra/issues/13257">Simplify `Topology.vue` translations by using `$t` in `template` section</a>  <code>#13257</code> · updated: 2025-12-04 · created: 2025-12-01  
-  labels: area/frontend, kind/quick-win, good first issue
 - <a href="https://github.com/kestra-io/kestra/issues/13225">Simplify `Curl.vue` translations by using `$t` in `template` section</a>  <code>#13225</code> · updated: 2025-12-03 · created: 2025-11-28  
   labels: area/frontend, kind/quick-win, good first issue
 - <a href="https://github.com/kestra-io/kestra/issues/13350">Simplify `KeyShortcuts.vue` translations by using `$t` in `template` section</a>  <code>#13350</code> · updated: 2025-12-03 · created: 2025-12-03  
   labels: area/frontend, kind/quick-win, good first issue
 - <a href="https://github.com/kestra-io/kestra/issues/13261">Simplify `FlowPlaygroundToggle.vue` translations by using `$t` in `template` section</a>  <code>#13261</code> · updated: 2025-12-03 · created: 2025-12-01  
-  labels: area/frontend, kind/quick-win, good first issue
-- <a href="https://github.com/kestra-io/kestra/issues/12953">Replace usage of `getCurrentInstance` in `MonacoEditor.vue` component</a>  <code>#12953</code> · updated: 2025-11-26 · created: 2025-11-14  
   labels: area/frontend, kind/quick-win, good first issue
 - <a href="https://github.com/kestra-io/kestra/issues/12837">Wrong editor warning on labels autocompletion</a>  <code>#12837</code> · updated: 2025-11-12 · created: 2025-11-11  
   labels: bug, area/backend, kind/quick-win, good first issue
@@ -1375,28 +1349,42 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: bug, area/backend, kind/cooldown, good first issue
 - <a href="https://github.com/kestra-io/kestra/issues/12571">Replace `At flow.id: Flow id already exists` error with an option to overwrite the revision for the existing flow</a>  <code>#12571</code> · updated: 2025-11-06 · created: 2025-10-31  
   labels: enhancement, area/frontend, good first issue
-- <a href="https://github.com/kestra-io/kestra/issues/12612">[UI] Information Notice not shown anymore in the flow edit page</a>  <code>#12612</code> · updated: 2025-11-04 · created: 2025-11-03  
-  labels: bug, area/frontend, good first issue
 - <a href="https://github.com/kestra-io/kestra/issues/11886">File output preview freezes UI for large ION files (with more than ~5000 rows)</a>  <code>#11886</code> · updated: 2025-10-31 · created: 2025-10-08  
   labels: bug, area/frontend, good first issue
-- <a href="https://github.com/kestra-io/kestra/issues/11362">in the v1.0 Apache Tika doesn&#x27;t parse properly</a>  <code>#11362</code> · updated: 2025-10-15 · created: 2025-09-17  
-  labels: bug, area/plugin, good first issue
 
-## authelia/authelia  ⭐ 26106
+## authelia/authelia  ⭐ 26127
 [Repository](https://github.com/authelia/authelia)
 
 - <a href="https://github.com/authelia/authelia/issues/10859">enrolling 2FA to unknown email recipient result in 403 and UI being stuck</a>  <code>#10859</code> · updated: 2025-12-03 · created: 2025-12-02  
   labels: type/bug/unconfirmed, Help Wanted, Good First Issue, status/needs-triage, priority/6/very-low
 
-## modular/modular  ⭐ 25351
+## modular/modular  ⭐ 25367
 [Repository](https://github.com/modular/modular)
 
+- <a href="https://github.com/modular/modular/issues/5665">[Feature Request] Remove `LegacyUnsafePointer` and `LegacyOpaquePointer` from kernels.</a>  <code>#5665</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: enhancement, good first issue, help wanted, mojo-stdlib, mojo, Team: Mojo Libraries
+- <a href="https://github.com/modular/modular/issues/5670">[Feature Request] Migrate `kernels/src/linagl/matmul/cpu` off of `LegacyUnsafePointer`.</a>  <code>#5670</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: enhancement, good first issue, help wanted, mojo-stdlib, mojo, Team: Mojo Libraries
+- <a href="https://github.com/modular/modular/issues/5671">[Feature Request] Migrate `kernels/src/quantization` off of `LegacyUnsafePointer`.</a>  <code>#5671</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: enhancement, good first issue, help wanted, mojo, Team: Mojo Libraries
+- <a href="https://github.com/modular/modular/issues/5673">[Feature Request] Migrate `kernels/src/&lt;comm/shmem&gt;` off of `LegacyUnsafePointer`</a>  <code>#5673</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: enhancement, good first issue, help wanted, mojo, Team: Mojo Libraries
+- <a href="https://github.com/modular/modular/issues/5674">[Feature Request] Migrate `kernels/src/nn/&lt;mha_/attention&gt;` off of `LegacyUnsafePointer`</a>  <code>#5674</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: enhancement, good first issue, help wanted, mojo, Team: Mojo Libraries
+- <a href="https://github.com/modular/modular/issues/5672">[Feature Request] Migrate `kernels/src/Mogg` off of `LegacyUnsafePointer`.</a>  <code>#5672</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: enhancement, good first issue, help wanted, mojo, Team: Mojo Libraries
+- <a href="https://github.com/modular/modular/issues/5668">[Feature Request] Migrate `kernels/src/linalg/matmul` off of `LegacyUnsafePointer`.</a>  <code>#5668</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: enhancement, good first issue, help wanted, mojo-stdlib, mojo, Team: Mojo Libraries
+- <a href="https://github.com/modular/modular/issues/5667">[Feature Request] Migrate `kernels/src/linalg` off of `LegacyUnsafePointer`</a>  <code>#5667</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: enhancement, good first issue, help wanted, mojo-stdlib, mojo, Team: Mojo Libraries
+- <a href="https://github.com/modular/modular/issues/5676">[Feature Request] Migrate miscellaneous `kernels/src` files off of `LegacyUnsafePointer`</a>  <code>#5676</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: enhancement, good first issue, help wanted, mojo, Team: Mojo Libraries
 - <a href="https://github.com/modular/modular/issues/5490">[Feature Request] Implicit ctor Codepoint(StringLiteral)</a>  <code>#5490</code> · updated: 2025-12-08 · created: 2025-10-21  
   labels: enhancement, good first issue, help wanted, mojo, Team: Mojo Libraries
 - <a href="https://github.com/modular/modular/issues/5366">[BUG] [stdlib] `llvm.masked.scatter` causes `CUDA_ERROR_ILLEGAL_ADDRESS` in shared memory</a>  <code>#5366</code> · updated: 2025-11-03 · created: 2025-09-26  
   labels: bug, good first issue, help wanted, mojo, Team: Mojo Libraries
 
-## keepassxreboot/keepassxc  ⭐ 25178
+## keepassxreboot/keepassxc  ⭐ 25205
 [Repository](https://github.com/keepassxreboot/keepassxc)
 
 - <a href="https://github.com/keepassxreboot/keepassxc/issues/12671">Referenced Passwords Show &quot;Strong&quot; When Editing</a>  <code>#12671</code> · updated: 2025-11-16 · created: 2025-11-12  
@@ -1404,13 +1392,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/keepassxreboot/keepassxc/issues/12550">In German language, &quot;New database&quot; window is not wide enough</a>  <code>#12550</code> · updated: 2025-11-14 · created: 2025-10-08  
   labels: user interface, good first issue, i18n
 
-## angular/components  ⭐ 24949
-[Repository](https://github.com/angular/components)
-
-- <a href="https://github.com/angular/components/issues/31937">bug(mat-selection-list): disabled selection list still shows cursor pointer on hover around radio</a>  <code>#31937</code> · updated: 2025-11-16 · created: 2025-09-28  
-  labels: help wanted, P4, good first issue, area: material/list, area: material/radio
-
-## SigNoz/signoz  ⭐ 24939
+## SigNoz/signoz  ⭐ 24969
 [Repository](https://github.com/SigNoz/signoz)
 
 - <a href="https://github.com/SigNoz/signoz/issues/9417">Janky User Experience - Sign In Screen -&gt; Loading -&gt; Sign In Screen -&gt; Dashboard</a>  <code>#9417</code> · updated: 2025-12-04 · created: 2025-10-27  
@@ -1423,8 +1405,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: enhancement, good first issue, help wanted
 - <a href="https://github.com/SigNoz/signoz/issues/9368">Quick filter and header should be fixed during scroll</a>  <code>#9368</code> · updated: 2025-11-20 · created: 2025-10-19  
   labels: enhancement, good first issue, ui
-- <a href="https://github.com/SigNoz/signoz/issues/9120">Metrics Explorer - Summary page breaking with sidebar open</a>  <code>#9120</code> · updated: 2025-11-13 · created: 2025-09-18  
-  labels: good first issue, team/pulse
 - <a href="https://github.com/SigNoz/signoz/issues/9399">External APIs -&gt; domain details right drawer -&gt; hover style of the left tab when the right tab is active</a>  <code>#9399</code> · updated: 2025-11-05 · created: 2025-10-23  
   labels: good first issue, frontend
 - <a href="https://github.com/SigNoz/signoz/issues/9401">External APIs -&gt; Quick filters -&gt; The loading skeleton is rendering outside the quick filters container</a>  <code>#9401</code> · updated: 2025-11-05 · created: 2025-10-23  
@@ -1436,19 +1416,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/SigNoz/signoz/issues/9370">Resize button does not work when sidebar is closed; expanding should open the sidebar</a>  <code>#9370</code> · updated: 2025-10-21 · created: 2025-10-19  
   labels: bug, good first issue, ui
 
-## shap/shap  ⭐ 24830
+## angular/components  ⭐ 24953
+[Repository](https://github.com/angular/components)
+
+- <a href="https://github.com/angular/components/issues/31937">bug(mat-selection-list): disabled selection list still shows cursor pointer on hover around radio</a>  <code>#31937</code> · updated: 2025-11-16 · created: 2025-09-28  
+  labels: help wanted, P4, good first issue, area: material/list, area: material/radio
+
+## shap/shap  ⭐ 24843
 [Repository](https://github.com/shap/shap)
 
 - <a href="https://github.com/shap/shap/issues/4237">Reenable CausalML tests</a>  <code>#4237</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: dependencies, ci, good first issue
 
-## apache/skywalking  ⭐ 24642
-[Repository](https://github.com/apache/skywalking)
-
-- <a href="https://github.com/apache/skywalking/issues/13517">[Bug]  Compatibility Issue with Node 24</a>  <code>#13517</code> · updated: 2025-11-12 · created: 2025-09-25  
-  labels: bug, good first issue
-
-## block/goose  ⭐ 24473
+## block/goose  ⭐ 24726
 [Repository](https://github.com/block/goose)
 
 - <a href="https://github.com/block/goose/issues/5836">Goose GUI does not support explicit HTTP proxy servers</a>  <code>#5836</code> · updated: 2025-12-11 · created: 2025-11-21  
@@ -1460,13 +1440,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/block/goose/issues/5130">Refreshing after extension installation deeplink shows installation dialog again</a>  <code>#5130</code> · updated: 2025-11-02 · created: 2025-10-10  
   labels: good first issue, p3
 
-## plotly/dash  ⭐ 24342
-[Repository](https://github.com/plotly/dash)
+## apache/skywalking  ⭐ 24651
+[Repository](https://github.com/apache/skywalking)
 
-- <a href="https://github.com/plotly/dash/issues/3463">[Feature Request] Make Dash pages callback `hidden=True`</a>  <code>#3463</code> · updated: 2025-11-20 · created: 2025-09-30  
-  labels: good first issue, feature, P3
+- <a href="https://github.com/apache/skywalking/issues/13517">[Bug]  Compatibility Issue with Node 24</a>  <code>#13517</code> · updated: 2025-11-12 · created: 2025-09-25  
+  labels: bug, good first issue
 
-## eyaltoledano/claude-task-master  ⭐ 24283
+## eyaltoledano/claude-task-master  ⭐ 24328
 [Repository](https://github.com/eyaltoledano/claude-task-master)
 
 - <a href="https://github.com/eyaltoledano/claude-task-master/issues/1453">feat: search/find in tasks - title, description, details, test-strategy, sub-tasks.</a>  <code>#1453</code> · updated: 2025-11-26 · created: 2025-11-26  
@@ -1474,17 +1454,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/eyaltoledano/claude-task-master/issues/1394">Bug: Warning emoji in boxen titles causes alignment issues</a>  <code>#1394</code> · updated: 2025-11-12 · created: 2025-11-10  
   labels: enhancement, good first issue, medium-priority, area:cli
 
-## zulip/zulip  ⭐ 24000
+## zulip/zulip  ⭐ 24015
 [Repository](https://github.com/zulip/zulip)
 
+- <a href="https://github.com/zulip/zulip/issues/37108">Write tests for topic_generator library.</a>  <code>#37108</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: help wanted, area: testing-coverage, good first issue, area: testing-infrastructure, area: channel folders
+- <a href="https://github.com/zulip/zulip/issues/36374">Don&#x27;t show special error message for invalid global times</a>  <code>#36374</code> · updated: 2025-12-17 · created: 2025-10-23  
+  labels: help wanted, good first issue, in progress, area: message feed (display)
 - <a href="https://github.com/zulip/zulip/issues/37031">buddy_list: Use `::before` for status circle</a>  <code>#37031</code> · updated: 2025-12-15 · created: 2025-12-12  
   labels: help wanted, good first issue, area: right sidebar, in progress
 - <a href="https://github.com/zulip/zulip/issues/36899">&quot;Direct message&quot; should match on &quot;DM&quot; in channel picker</a>  <code>#36899</code> · updated: 2025-12-07 · created: 2025-12-04  
   labels: help wanted, good first issue, in progress, area: compose (recipient pickers)
-- <a href="https://github.com/zulip/zulip/issues/36374">Don&#x27;t show special error message for invalid global times</a>  <code>#36374</code> · updated: 2025-12-03 · created: 2025-10-23  
-  labels: help wanted, good first issue, in progress, area: message feed (display)
 
-## simple-icons/simple-icons  ⭐ 23992
+## simple-icons/simple-icons  ⭐ 24007
 [Repository](https://github.com/simple-icons/simple-icons)
 
 - <a href="https://github.com/simple-icons/simple-icons/issues/13977">Request: Pomerium</a>  <code>#13977</code> · updated: 2025-12-01 · created: 2025-11-12  
@@ -1492,7 +1474,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/simple-icons/simple-icons/issues/14007">Update: daisyUI</a>  <code>#14007</code> · updated: 2025-11-21 · created: 2025-11-18  
   labels: good first issue, update icon/data, permission granted
 
-## hcengineering/platform  ⭐ 23914
+## hcengineering/platform  ⭐ 23932
 [Repository](https://github.com/hcengineering/platform)
 
 - <a href="https://github.com/hcengineering/platform/issues/9986">Add Polish language</a>  <code>#9986</code> · updated: 2025-11-13 · created: 2025-09-30  
@@ -1500,86 +1482,92 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/hcengineering/platform/issues/10113">Brazilian portuguese translation</a>  <code>#10113</code> · updated: 2025-11-13 · created: 2025-10-19  
   labels: good first issue, help wanted
 
-## actualbudget/actual  ⭐ 23702
+## actualbudget/actual  ⭐ 23742
 [Repository](https://github.com/actualbudget/actual)
 
+- <a href="https://github.com/actualbudget/actual/issues/6341">[Bug]: Date format interfering with filters</a>  <code>#6341</code> · updated: 2025-12-17 · created: 2025-12-08  
+  labels: bug, good first issue, help wanted
+- <a href="https://github.com/actualbudget/actual/issues/6410">[Bug]: Down arrow key no longer selects category</a>  <code>#6410</code> · updated: 2025-12-17 · created: 2025-12-14  
+  labels: bug, good first issue, help wanted, transactions, regression
+- <a href="https://github.com/actualbudget/actual/issues/6422">[Bug]: Trying to set date in a rule crashes the app</a>  <code>#6422</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: bug, good first issue, help wanted, rules, schedules
+- <a href="https://github.com/actualbudget/actual/issues/6291">[Bug]: Duplicate keyboard shortcut for date and new transaction</a>  <code>#6291</code> · updated: 2025-12-16 · created: 2025-12-03  
+  labels: bug, good first issue, help wanted, transactions
 - <a href="https://github.com/actualbudget/actual/issues/6401">[Bug]: Android tablet category select broken</a>  <code>#6401</code> · updated: 2025-12-15 · created: 2025-12-14  
   labels: bug, good first issue, help wanted, transactions, responsive, regression
-- <a href="https://github.com/actualbudget/actual/issues/6410">[Bug]: Down arrow key no longer selects category</a>  <code>#6410</code> · updated: 2025-12-15 · created: 2025-12-14  
-  labels: bug, good first issue, help wanted, transactions, regression
 - <a href="https://github.com/actualbudget/actual/issues/6406">[Bug]: Stacked Bar Graph Report crashes</a>  <code>#6406</code> · updated: 2025-12-15 · created: 2025-12-14  
   labels: bug, good first issue, help wanted, reports
 - <a href="https://github.com/actualbudget/actual/issues/6357">[Bug]: Mobile future transaction a schedule prompts when already scheduled</a>  <code>#6357</code> · updated: 2025-12-15 · created: 2025-12-10  
   labels: bug, good first issue, help wanted, transactions
-- <a href="https://github.com/actualbudget/actual/issues/6291">[Bug]: Duplicate keyboard shortcut for date and new transaction</a>  <code>#6291</code> · updated: 2025-12-15 · created: 2025-12-03  
-  labels: bug, good first issue, help wanted, transactions
 - <a href="https://github.com/actualbudget/actual/issues/6325">[Bug]: App Crash When Editing Note Filter to &quot;One of&quot; / &quot;Not One of&quot;</a>  <code>#6325</code> · updated: 2025-12-12 · created: 2025-12-07  
   labels: bug, good first issue, help wanted, transactions
-- <a href="https://github.com/actualbudget/actual/issues/6368">[Bug]: enabling mobile running balance requires going out of and back into the account</a>  <code>#6368</code> · updated: 2025-12-11 · created: 2025-12-11  
-  labels: bug, good first issue, help wanted, transactions, responsive
 - <a href="https://github.com/actualbudget/actual/issues/6288">[Bug]: Calendar widget continuous month flicker</a>  <code>#6288</code> · updated: 2025-12-08 · created: 2025-12-03  
   labels: bug, good first issue, help wanted, reports
 - <a href="https://github.com/actualbudget/actual/issues/6309">[Maintenance] TypeScript - add separate typecheck processes for packages</a>  <code>#6309</code> · updated: 2025-12-06 · created: 2025-12-05  
   labels: good first issue, help wanted, maintenance
-- <a href="https://github.com/actualbudget/actual/issues/5781">[Bug]: Merging split transaction with imported transaction removes split categories</a>  <code>#5781</code> · updated: 2025-10-06 · created: 2025-09-23  
-  labels: bug, good first issue, help wanted, transactions
 - <a href="https://github.com/actualbudget/actual/issues/5840">[Bug]: Transaction view - quick search with &quot;?&quot; finds everything</a>  <code>#5840</code> · updated: 2025-10-03 · created: 2025-10-02  
   labels: bug, good first issue, help wanted, transactions, user interface
 
-## PaddlePaddle/Paddle  ⭐ 23497
+## PaddlePaddle/Paddle  ⭐ 23507
 [Repository](https://github.com/PaddlePaddle/Paddle)
 
-- <a href="https://github.com/PaddlePaddle/Paddle/issues/76301">【启航计划】PaddlePaddle API兼容性增强</a>  <code>#76301</code> · updated: 2025-12-16 · created: 2025-11-07  
+- <a href="https://github.com/PaddlePaddle/Paddle/issues/76301">【启航计划】PaddlePaddle API兼容性增强</a>  <code>#76301</code> · updated: 2025-12-17 · created: 2025-11-07  
   labels: good first issue
 - <a href="https://github.com/PaddlePaddle/Paddle/issues/76545">📝 文档示例代码修复任务</a>  <code>#76545</code> · updated: 2025-12-14 · created: 2025-11-23  
   labels: PFCC, good first issue
 
-## mlflow/mlflow  ⭐ 23299
+## mlflow/mlflow  ⭐ 23364
 [Repository](https://github.com/mlflow/mlflow)
 
 - <a href="https://github.com/mlflow/mlflow/issues/18435">[DOC-FIX] Example documentation for mlflow.metrics.genai using Amazon Nova bedrock:/&lt;model-name&gt;</a>  <code>#18435</code> · updated: 2025-11-10 · created: 2025-10-21  
   labels: good first issue, area/docs, has-closing-pr
 
-## pyg-team/pytorch_geometric  ⭐ 23269
-[Repository](https://github.com/pyg-team/pytorch_geometric)
-
-- <a href="https://github.com/pyg-team/pytorch_geometric/issues/10463">Use `&#x27;PYTEST_CURRENT_TEST&#x27; not in os.environ` over `&#x27;pytest&#x27; not in sys.modules`</a>  <code>#10463</code> · updated: 2025-09-20 · created: 2025-09-20  
-  labels: good first issue, 2 - Priority P2, refactor
-
-## ente-io/ente  ⭐ 23263
+## ente-io/ente  ⭐ 23326
 [Repository](https://github.com/ente-io/ente)
 
 - <a href="https://github.com/ente-io/ente/issues/7459">Display of OTP in Hebrew</a>  <code>#7459</code> · updated: 2025-11-03 · created: 2025-10-13  
   labels: good first issue, help wanted
 
-## processing/p5.js  ⭐ 23254
+## pyg-team/pytorch_geometric  ⭐ 23280
+[Repository](https://github.com/pyg-team/pytorch_geometric)
+
+- <a href="https://github.com/pyg-team/pytorch_geometric/issues/10463">Use `&#x27;PYTEST_CURRENT_TEST&#x27; not in os.environ` over `&#x27;pytest&#x27; not in sys.modules`</a>  <code>#10463</code> · updated: 2025-09-20 · created: 2025-09-20  
+  labels: good first issue, 2 - Priority P2, refactor
+
+## processing/p5.js  ⭐ 23266
 [Repository](https://github.com/processing/p5.js)
 
+- <a href="https://github.com/processing/p5.js/issues/8157">[2.0] Add array, vector overloads to `createVector()` for consistency</a>  <code>#8157</code> · updated: 2025-12-17 · created: 2025-10-15  
+  labels: Enhancement, Area:Math, Help Wanted, Good First Issue, p5.js 2.0
 - <a href="https://github.com/processing/p5.js/issues/8215">[2.x] Fix dimensional quirk in the `setHeading()` method of `p5.Vector`</a>  <code>#8215</code> · updated: 2025-12-15 · created: 2025-10-28  
   labels: Bug, Area:Math, Help Wanted, Good First Issue, p5.js 2.0, Community Input Needed
 - <a href="https://github.com/processing/p5.js/issues/8214">[2.x] Fix dimensional quirk in the `heading()` method of `p5.Vector`</a>  <code>#8214</code> · updated: 2025-12-15 · created: 2025-10-28  
   labels: Bug, Area:Math, Help Wanted, Good First Issue, p5.js 2.0, Community Input Needed
 - <a href="https://github.com/processing/p5.js/issues/8104">[p5.js 2.0 Bug Report]: if use min() and max() with Infinity or -Infinity, it throws friendly error</a>  <code>#8104</code> · updated: 2025-12-13 · created: 2025-09-23  
   labels: Area:Math, Help Wanted, Friendly Errors, Good First Issue, p5.js 2.0
-- <a href="https://github.com/processing/p5.js/issues/8097">new getCamera function for V1 &amp; V2</a>  <code>#8097</code> · updated: 2025-11-28 · created: 2025-09-19  
-  labels: Feature Request, Help Wanted, Area:WebGL, Good First Issue
-- <a href="https://github.com/processing/p5.js/issues/8260">[p5.js 2.0 Bug Report]: Improve splineProperties() reference: missing examples and description</a>  <code>#8260</code> · updated: 2025-11-16 · created: 2025-11-15  
-  labels: Good First Issue, p5.js 2.0
-- <a href="https://github.com/processing/p5.js/issues/8157">[2.0] Add array, vector overloads to `createVector()` for consistency</a>  <code>#8157</code> · updated: 2025-11-14 · created: 2025-10-15  
-  labels: Enhancement, Area:Math, Help Wanted, Good First Issue, p5.js 2.0
 - <a href="https://github.com/processing/p5.js/issues/8151">[2.0] Deprecate `array()` method of `p5.Vector`</a>  <code>#8151</code> · updated: 2025-11-14 · created: 2025-10-15  
   labels: Documentation, Area:Math, Help Wanted, Good First Issue, p5.js 2.0
 
-## spotDL/spotify-downloader  ⭐ 23219
+## spotDL/spotify-downloader  ⭐ 23240
 [Repository](https://github.com/spotDL/spotify-downloader)
 
 - <a href="https://github.com/spotDL/spotify-downloader/issues/2501">Inform the user if YouTube Premium cookies are detected</a>  <code>#2501</code> · updated: 2025-10-16 · created: 2025-09-23  
   labels: Feature Request, Good First Issue
 
-## GraphiteEditor/Graphite  ⭐ 23151
+## jj-vcs/jj  ⭐ 23237
+[Repository](https://github.com/jj-vcs/jj)
+
+- <a href="https://github.com/jj-vcs/jj/issues/8153">`jj undo` restoring to root operation puts repo in unusable state</a>  <code>#8153</code> · updated: 2025-12-16 · created: 2025-11-27  
+  labels: good first issue
+- <a href="https://github.com/jj-vcs/jj/issues/7990">FR: Better defaults for `trunk()`</a>  <code>#7990</code> · updated: 2025-12-05 · created: 2025-11-10  
+  labels: good first issue
+
+## GraphiteEditor/Graphite  ⭐ 23179
 [Repository](https://github.com/GraphiteEditor/Graphite)
 
-- <a href="https://github.com/GraphiteEditor/Graphite/issues/3462">Pivot Gizmo misaligned</a>  <code>#3462</code> · updated: 2025-12-11 · created: 2025-12-11  
+- <a href="https://github.com/GraphiteEditor/Graphite/issues/3462">Pivot Gizmo misaligned</a>  <code>#3462</code> · updated: 2025-12-19 · created: 2025-12-11  
+  labels: Good First Issue
+- <a href="https://github.com/GraphiteEditor/Graphite/issues/3484">Polygon: Use inner instead of outer radius</a>  <code>#3484</code> · updated: 2025-12-17 · created: 2025-12-17  
   labels: Good First Issue
 - <a href="https://github.com/GraphiteEditor/Graphite/issues/3422">Export fails for documents with vector data direcly connected to canvas</a>  <code>#3422</code> · updated: 2025-11-26 · created: 2025-11-26  
   labels: Good First Issue
@@ -1591,8 +1579,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: Help Wanted, Good First Issue, Graphics
 - <a href="https://github.com/GraphiteEditor/Graphite/issues/3381">Hiding layer on new document can lead to incorrect saved state</a>  <code>#3381</code> · updated: 2025-11-15 · created: 2025-11-14  
   labels: Good First Issue, Paper Cut
-- <a href="https://github.com/GraphiteEditor/Graphite/issues/3195">Edge case where moving layers between groups changes the location, rotation or scale on the canvas</a>  <code>#3195</code> · updated: 2025-11-07 · created: 2025-09-19  
-  labels: Good First Issue
 - <a href="https://github.com/GraphiteEditor/Graphite/issues/3341">Local-axis grab (G key) visualization is misaligned</a>  <code>#3341</code> · updated: 2025-11-04 · created: 2025-11-04  
   labels: Good First Issue
 - <a href="https://github.com/GraphiteEditor/Graphite/issues/3261">Snapping for Gradient gizmo</a>  <code>#3261</code> · updated: 2025-10-24 · created: 2025-10-06  
@@ -1600,25 +1586,17 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/GraphiteEditor/Graphite/issues/3256">Lazy drag layer(s) to the bottom of the stack if there is only 1 Artboard</a>  <code>#3256</code> · updated: 2025-10-15 · created: 2025-10-04  
   labels: Good First Issue, Paper Cut
 
-## jj-vcs/jj  ⭐ 23097
-[Repository](https://github.com/jj-vcs/jj)
-
-- <a href="https://github.com/jj-vcs/jj/issues/7990">FR: Better defaults for `trunk()`</a>  <code>#7990</code> · updated: 2025-12-05 · created: 2025-11-10  
-  labels: good first issue
-- <a href="https://github.com/jj-vcs/jj/issues/8153">`jj undo` restoring to root operation puts repo in unusable state</a>  <code>#8153</code> · updated: 2025-11-28 · created: 2025-11-27  
-  labels: good first issue
-
-## dotnet/maui  ⭐ 23095
+## dotnet/maui  ⭐ 23098
 [Repository](https://github.com/dotnet/maui)
 
+- <a href="https://github.com/dotnet/maui/issues/32460">MAUI Fails To Convert Valid SVG Files Into PNG Files (Object reference not set to an instance of an object)</a>  <code>#32460</code> · updated: 2025-12-17 · created: 2025-11-09  
+  labels: t/bug, good first issue, area-single-project, platform/android, platform/ios, s/verified, s/triaged, partner/syncfusion
 - <a href="https://github.com/dotnet/maui/issues/33119">[iOS] MediaPicker ShouldUsePngFormat method has conflicting/redundant code</a>  <code>#33119</code> · updated: 2025-12-13 · created: 2025-12-11  
   labels: t/bug, good first issue, platform/ios, area-essentials, s/triaged
-- <a href="https://github.com/dotnet/maui/issues/32460">MAUI Fails To Convert Valid SVG Files Into PNG Files (Object reference not set to an instance of an object)</a>  <code>#32460</code> · updated: 2025-12-03 · created: 2025-11-09  
-  labels: t/bug, good first issue, area-single-project, platform/android, platform/ios, s/verified, s/triaged
 - <a href="https://github.com/dotnet/maui/issues/32465">GraphicsView line stroke rendering inconsistent on Android compared to other platforms</a>  <code>#32465</code> · updated: 2025-11-10 · created: 2025-11-10  
   labels: t/bug, good first issue, platform/android, area-drawing, s/verified, s/triaged
 
-## cilium/cilium  ⭐ 23060
+## cilium/cilium  ⭐ 23075
 [Repository](https://github.com/cilium/cilium)
 
 - <a href="https://github.com/cilium/cilium/issues/43009">Helm chart: JSON log format support for Hubble Relay and Hubble UI components</a>  <code>#43009</code> · updated: 2025-12-07 · created: 2025-11-27  
@@ -1628,19 +1606,37 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/cilium/cilium/issues/42182">CI: TestPrivilegedAll/IPv6/TestNodePodCIDRsChurnIPSec</a>  <code>#42182</code> · updated: 2025-10-17 · created: 2025-10-15  
   labels: area/CI, good-first-issue, ci/flake, feature/ipsec
 
-## tree-sitter/tree-sitter  ⭐ 23021
+## tree-sitter/tree-sitter  ⭐ 23047
 [Repository](https://github.com/tree-sitter/tree-sitter)
 
 - <a href="https://github.com/tree-sitter/tree-sitter/issues/4924">``tree-sitter-highlight`` with UTF-16 input.</a>  <code>#4924</code> · updated: 2025-10-04 · created: 2025-10-04  
   labels: highlight, good-first-issue
 
-## biomejs/biome  ⭐ 22708
+## kavishdevar/librepods  ⭐ 22903
+[Repository](https://github.com/kavishdevar/librepods)
+
+- <a href="https://github.com/kavishdevar/librepods/issues/211">L2CAP connection fails on A16 GrapheneOS</a>  <code>#211</code> · updated: 2025-11-20 · created: 2025-09-29  
+  labels: bug, good first issue, android
+- <a href="https://github.com/kavishdevar/librepods/issues/229">L2CAP Connection Fails on Pixel 7a with Both Xposed and Magisk Methods</a>  <code>#229</code> · updated: 2025-11-19 · created: 2025-10-14  
+  labels: good first issue, android
+
+## apple/container  ⭐ 22798
+[Repository](https://github.com/apple/container)
+
+- <a href="https://github.com/apple/container/issues/892">[Request]: Storage - Add `container prune` command to remove stopped containers</a>  <code>#892</code> · updated: 2025-11-22 · created: 2025-11-17  
+  labels: good first issue, next, storage
+- <a href="https://github.com/apple/container/issues/712">[Request]: `Image save` command: platform default to current</a>  <code>#712</code> · updated: 2025-11-13 · created: 2025-10-03  
+  labels: good first issue
+
+## biomejs/biome  ⭐ 22747
 [Repository](https://github.com/biomejs/biome)
 
-- <a href="https://github.com/biomejs/biome/issues/8478">💅 `useDestructuring` doesn&#x27;t work with type annotations</a>  <code>#8478</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: good first issue, S-Help-wanted, A-Linter, L-JavaScript, S-Enhancement
-- <a href="https://github.com/biomejs/biome/issues/8155">☂️ Port `a11y` rules to HTML</a>  <code>#8155</code> · updated: 2025-12-09 · created: 2025-11-18  
+- <a href="https://github.com/biomejs/biome/issues/8155">☂️ Port `a11y` rules to HTML</a>  <code>#8155</code> · updated: 2025-12-18 · created: 2025-11-18  
   labels: good first issue, S-Help-wanted, A-CLI, A-Linter, L-HTML
+- <a href="https://github.com/biomejs/biome/issues/8494">📎 Support other methods of accessing environment variables for `noUndeclaredEnvVars`</a>  <code>#8494</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: good first issue, S-Help-wanted, A-Linter, L-JavaScript
+- <a href="https://github.com/biomejs/biome/issues/8478">💅 `useDestructuring` doesn&#x27;t work with type annotations</a>  <code>#8478</code> · updated: 2025-12-17 · created: 2025-12-15  
+  labels: good first issue, S-Help-wanted, A-Linter, L-JavaScript, S-Enhancement
 - <a href="https://github.com/biomejs/biome/issues/8402">📎 Add mention of starlight &quot;alert&quot; blocks to analyzer CONTRIBUTING.md</a>  <code>#8402</code> · updated: 2025-12-09 · created: 2025-12-08  
   labels: good first issue, S-Help-wanted, A-Tooling
 - <a href="https://github.com/biomejs/biome/issues/7654">📎 Port `prefer-includes` from typescript-eslint</a>  <code>#7654</code> · updated: 2025-12-08 · created: 2025-10-02  
@@ -1656,43 +1652,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/biomejs/biome/issues/7706">📎 Expose `formatWithErrors` via CLI</a>  <code>#7706</code> · updated: 2025-10-09 · created: 2025-10-07  
   labels: good first issue, A-CLI, S-Feature
 
-## apple/container  ⭐ 22700
-[Repository](https://github.com/apple/container)
-
-- <a href="https://github.com/apple/container/issues/641">[Request]: UX: Replace `--disable-progress-updates` with `--progress mode`.</a>  <code>#641</code> · updated: 2025-11-23 · created: 2025-09-18  
-  labels: good first issue, next, ux
-- <a href="https://github.com/apple/container/issues/892">[Request]: Storage - Add `container prune` command to remove stopped containers</a>  <code>#892</code> · updated: 2025-11-22 · created: 2025-11-17  
-  labels: good first issue, next, storage
-- <a href="https://github.com/apple/container/issues/893">[Request]: Add `container network prune` command to remove unused networks</a>  <code>#893</code> · updated: 2025-11-19 · created: 2025-11-17  
-  labels: good first issue, next, network
-- <a href="https://github.com/apple/container/issues/712">[Request]: `Image save` command: platform default to current</a>  <code>#712</code> · updated: 2025-11-13 · created: 2025-10-03  
-  labels: good first issue
-- <a href="https://github.com/apple/container/issues/639">[Request]: Add pre-commit hook for format check.</a>  <code>#639</code> · updated: 2025-10-06 · created: 2025-09-18  
-  labels: good first issue
-
-## saleor/saleor  ⭐ 22398
+## saleor/saleor  ⭐ 22397
 [Repository](https://github.com/saleor/saleor)
 
 - <a href="https://github.com/saleor/saleor/issues/18341">Bug: GIN index created on unsupported fields?</a>  <code>#18341</code> · updated: 2025-10-31 · created: 2025-10-18  
   labels: bug, good first issue, triage
 
-## kavishdevar/librepods  ⭐ 22374
-[Repository](https://github.com/kavishdevar/librepods)
-
-- <a href="https://github.com/kavishdevar/librepods/issues/211">L2CAP connection fails on A16 GrapheneOS</a>  <code>#211</code> · updated: 2025-11-20 · created: 2025-09-29  
-  labels: bug, good first issue, android
-- <a href="https://github.com/kavishdevar/librepods/issues/229">L2CAP Connection Fails on Pixel 7a with Both Xposed and Magisk Methods</a>  <code>#229</code> · updated: 2025-11-19 · created: 2025-10-14  
-  labels: good first issue, android
-
-## uutils/coreutils  ⭐ 22349
+## uutils/coreutils  ⭐ 22383
 [Repository](https://github.com/uutils/coreutils)
 
+- <a href="https://github.com/uutils/coreutils/issues/9704">cp -p preserves extended attributes</a>  <code>#9704</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: U - cp, good first issue
+- <a href="https://github.com/uutils/coreutils/issues/9703">touch -r: dangling symlink reference is accepted</a>  <code>#9703</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: U - touch, good first issue
 - <a href="https://github.com/uutils/coreutils/issues/9061">stty.rs: coverage can be improved</a>  <code>#9061</code> · updated: 2025-12-16 · created: 2025-10-27  
   labels: good first issue, U - stty
 - <a href="https://github.com/uutils/coreutils/issues/9060">who/unix.rs: improve code coverage</a>  <code>#9060</code> · updated: 2025-11-22 · created: 2025-10-27  
   labels: U  - who, good first issue
 
-## jaegertracing/jaeger  ⭐ 22218
+## jaegertracing/jaeger  ⭐ 22246
 [Repository](https://github.com/jaegertracing/jaeger)
 
 - <a href="https://github.com/jaegertracing/jaeger/issues/7617">[ci]: Metrics comparison is flaky</a>  <code>#7617</code> · updated: 2025-11-27 · created: 2025-10-25  
@@ -1704,35 +1682,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/jaegertracing/jaeger/issues/7595">[Feature]: Add support to query for dependencies in api/v3 API</a>  <code>#7595</code> · updated: 2025-10-16 · created: 2025-10-15  
   labels: enhancement, help wanted, good first issue, area/storage
 
-## deskflow/deskflow  ⭐ 21904
+## deskflow/deskflow  ⭐ 21941
 [Repository](https://github.com/deskflow/deskflow)
 
 - <a href="https://github.com/deskflow/deskflow/issues/9135">Add Toggle Screen option</a>  <code>#9135</code> · updated: 2025-12-15 · created: 2025-11-10  
   labels: good first issue
 
-## argoproj/argo-cd  ⭐ 21488
-[Repository](https://github.com/argoproj/argo-cd)
-
-- <a href="https://github.com/argoproj/argo-cd/issues/25249">Add Cilium Gateway API Examples</a>  <code>#25249</code> · updated: 2025-11-24 · created: 2025-11-10  
-  labels: enhancement, good first issue, component:docs
-
-## sgl-project/sglang  ⭐ 21436
+## sgl-project/sglang  ⭐ 21692
 [Repository](https://github.com/sgl-project/sglang)
 
-- <a href="https://github.com/sgl-project/sglang/issues/13884">SGLang Cookbook Community Contribution Roadmap</a>  <code>#13884</code> · updated: 2025-12-09 · created: 2025-11-25  
+- <a href="https://github.com/sgl-project/sglang/issues/15240">[Feature] request for &quot;classify&quot; method for sglang router</a>  <code>#15240</code> · updated: 2025-12-18 · created: 2025-12-16  
   labels: good first issue
-- <a href="https://github.com/sgl-project/sglang/issues/14673">[Bug] Interns-1 reasoning/tool-call parser</a>  <code>#14673</code> · updated: 2025-12-08 · created: 2025-12-08  
+- <a href="https://github.com/sgl-project/sglang/issues/13884">SGLang Cookbook Community Contribution Roadmap</a>  <code>#13884</code> · updated: 2025-12-16 · created: 2025-11-25  
   labels: good first issue
 - <a href="https://github.com/sgl-project/sglang/issues/14672">[Bug] VLM: `--mm-process-config` is currently defined but not working</a>  <code>#14672</code> · updated: 2025-12-08 · created: 2025-12-08  
   labels: good first issue, Multi-modal
 - <a href="https://github.com/sgl-project/sglang/issues/14439">[Feature] Raise an error when the page size of the prefill and decode attention backend are different</a>  <code>#14439</code> · updated: 2025-12-06 · created: 2025-12-04  
   labels: enhancement, good first issue
-- <a href="https://github.com/sgl-project/sglang/issues/14443">[Feature] Default to lower page size when not set</a>  <code>#14443</code> · updated: 2025-12-06 · created: 2025-12-04  
-  labels: enhancement, good first issue
 - <a href="https://github.com/sgl-project/sglang/issues/13470">[Task] Add priority scheduling CIs for preemption path</a>  <code>#13470</code> · updated: 2025-12-06 · created: 2025-11-18  
   labels: good first issue
-- <a href="https://github.com/sgl-project/sglang/issues/14448">[Feature] Support AIME25 dataset for SGLang inbuilt simple_eval</a>  <code>#14448</code> · updated: 2025-12-05 · created: 2025-12-04  
-  labels: good first issue, benchmark
 - <a href="https://github.com/sgl-project/sglang/issues/13250">Optimize getting logic of `num_reasoning_tokens` in scheduler</a>  <code>#13250</code> · updated: 2025-12-04 · created: 2025-11-14  
   labels: good first issue
 - <a href="https://github.com/sgl-project/sglang/issues/12618">[Bug] Grafana dashboard example is outdated due to /metrics API prefix change (sglang: -&gt; sglang_)</a>  <code>#12618</code> · updated: 2025-12-01 · created: 2025-11-04  
@@ -1755,14 +1723,18 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue
 - <a href="https://github.com/sgl-project/sglang/issues/11864">[Feature] Add support for AutoWeightsLoader when loading model weights</a>  <code>#11864</code> · updated: 2025-11-03 · created: 2025-10-20  
   labels: good first issue
-- <a href="https://github.com/sgl-project/sglang/issues/10585">[Feature] Integrate KVPress in order to try more KV cache optimization heuristics easily</a>  <code>#10585</code> · updated: 2025-11-03 · created: 2025-09-17  
-  labels: good first issue
 - <a href="https://github.com/sgl-project/sglang/issues/12122">[Feature] Add LoRA support for Qwen3 VL</a>  <code>#12122</code> · updated: 2025-10-26 · created: 2025-10-25  
   labels: good first issue, lora
 - <a href="https://github.com/sgl-project/sglang/issues/11186">[Feature] Support piggyback server load report.</a>  <code>#11186</code> · updated: 2025-10-20 · created: 2025-10-03  
   labels: good first issue
 
-## deepseek-ai/DeepSeek-OCR  ⭐ 21394
+## argoproj/argo-cd  ⭐ 21524
+[Repository](https://github.com/argoproj/argo-cd)
+
+- <a href="https://github.com/argoproj/argo-cd/issues/25249">Add Cilium Gateway API Examples</a>  <code>#25249</code> · updated: 2025-11-24 · created: 2025-11-10  
+  labels: enhancement, good first issue, component:docs
+
+## deepseek-ai/DeepSeek-OCR  ⭐ 21481
 [Repository](https://github.com/deepseek-ai/DeepSeek-OCR)
 
 - <a href="https://github.com/deepseek-ai/DeepSeek-OCR/issues/270">Successful Practice of Using Docker+VLLM on 4090</a>  <code>#270</code> · updated: 2025-11-18 · created: 2025-11-16  
@@ -1772,7 +1744,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/deepseek-ai/DeepSeek-OCR/issues/38">Deepseek-OCR 微调支持</a>  <code>#38</code> · updated: 2025-11-06 · created: 2025-10-21  
   labels: good first issue
 
-## SBoudrias/Inquirer.js  ⭐ 21311
+## SBoudrias/Inquirer.js  ⭐ 21318
 [Repository](https://github.com/SBoudrias/Inquirer.js)
 
 - <a href="https://github.com/SBoudrias/Inquirer.js/issues/1914">rawList - default doesn&#x27;t work anymore</a>  <code>#1914</code> · updated: 2025-12-02 · created: 2025-11-29  
@@ -1782,7 +1754,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/SBoudrias/Inquirer.js/issues/1883">FR: prefilling search</a>  <code>#1883</code> · updated: 2025-11-10 · created: 2025-11-05  
   labels: feature, good first issue
 
-## vueComponent/ant-design-vue  ⭐ 21303
+## vueComponent/ant-design-vue  ⭐ 21308
 [Repository](https://github.com/vueComponent/ant-design-vue)
 
 - <a href="https://github.com/vueComponent/ant-design-vue/issues/8404">关于table的sortDirections文档说明补充</a>  <code>#8404</code> · updated: 2025-12-01 · created: 2025-11-05  
@@ -1790,19 +1762,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/vueComponent/ant-design-vue/issues/8401">官方文档书写严重错误</a>  <code>#8401</code> · updated: 2025-11-10 · created: 2025-11-05  
   labels: good first issue, docs
 
-## slint-ui/slint  ⭐ 21236
-[Repository](https://github.com/slint-ui/slint)
-
-- <a href="https://github.com/slint-ui/slint/issues/10009">ModalNavigationDrawer does not store current group and index</a>  <code>#10009</code> · updated: 2025-11-11 · created: 2025-11-09  
-  labels: good first issue, a:material-components
-
-## jlowin/fastmcp  ⭐ 21180
+## jlowin/fastmcp  ⭐ 21270
 [Repository](https://github.com/jlowin/fastmcp)
 
 - <a href="https://github.com/jlowin/fastmcp/issues/2110">Add per-tool custom serializer support</a>  <code>#2110</code> · updated: 2025-10-17 · created: 2025-10-16  
   labels: enhancement, server, good first issue
 
-## timescale/timescaledb  ⭐ 21088
+## slint-ui/slint  ⭐ 21254
+[Repository](https://github.com/slint-ui/slint)
+
+- <a href="https://github.com/slint-ui/slint/issues/10009">ModalNavigationDrawer does not store current group and index</a>  <code>#10009</code> · updated: 2025-11-11 · created: 2025-11-09  
+  labels: good first issue, a:material-components
+
+## timescale/timescaledb  ⭐ 21137
 [Repository](https://github.com/timescale/timescaledb)
 
 - <a href="https://github.com/timescale/timescaledb/issues/8960">Disabling columnstore does not pause columnstore policies</a>  <code>#8960</code> · updated: 2025-11-20 · created: 2025-11-20  
@@ -1810,7 +1782,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/timescale/timescaledb/issues/8841">Retain compression settings when disabling columnstore</a>  <code>#8841</code> · updated: 2025-10-27 · created: 2025-10-27  
   labels: low-hanging-fruit, Good first issue
 
-## gitui-org/gitui  ⭐ 21042
+## gitui-org/gitui  ⭐ 21066
 [Repository](https://github.com/gitui-org/gitui)
 
 - <a href="https://github.com/gitui-org/gitui/issues/2805">Open editor in diff view</a>  <code>#2805</code> · updated: 2025-12-15 · created: 2025-12-07  
@@ -1820,7 +1792,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/gitui-org/gitui/issues/2748">After staging, next unstaged change is janky</a>  <code>#2748</code> · updated: 2025-10-28 · created: 2025-10-26  
   labels: good first issue, feature-request
 
-## RustPython/RustPython  ⭐ 20914
+## vectordotdev/vector  ⭐ 20934
+[Repository](https://github.com/vectordotdev/vector)
+
+- <a href="https://github.com/vectordotdev/vector/issues/24054">bug(tracing_limit): `info!(message = &quot;foo&quot;)` and `info!(&quot;foo&quot;)` are not grouped under the same bucket</a>  <code>#24054</code> · updated: 2025-10-25 · created: 2025-10-22  
+  labels: type: bug, good first issue, hacktoberfest
+
+## RustPython/RustPython  ⭐ 20925
 [Repository](https://github.com/RustPython/RustPython)
 
 - <a href="https://github.com/RustPython/RustPython/issues/6380">Add clippy rules to better align with `#[no_std]`</a>  <code>#6380</code> · updated: 2025-12-09 · created: 2025-12-09  
@@ -1828,20 +1806,14 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/RustPython/RustPython/issues/6334">`os.access` raises where CPython would return `False`</a>  <code>#6334</code> · updated: 2025-12-07 · created: 2025-12-06  
   labels: good first issue, C-compat
 
-## vectordotdev/vector  ⭐ 20914
-[Repository](https://github.com/vectordotdev/vector)
-
-- <a href="https://github.com/vectordotdev/vector/issues/24054">bug(tracing_limit): `info!(message = &quot;foo&quot;)` and `info!(&quot;foo&quot;)` are not grouped under the same bucket</a>  <code>#24054</code> · updated: 2025-10-25 · created: 2025-10-22  
-  labels: type: bug, good first issue, hacktoberfest
-
-## brave/brave-browser  ⭐ 20877
+## brave/brave-browser  ⭐ 20910
 [Repository](https://github.com/brave/brave-browser)
 
+- <a href="https://github.com/brave/brave-browser/issues/51435">[iOS] VCards are downloaded to Files instead of displayed in contact modal</a>  <code>#51435</code> · updated: 2025-12-18 · created: 2025-12-12  
+  labels: good first issue, priority/P4, feature-request, OS/iOS
 - <a href="https://github.com/brave/brave-browser/issues/51052">Opening a new tab redirects to an internal url first at &quot;internal://local/about/home?uuidkey=...&quot; before going to the actual web page</a>  <code>#51052</code> · updated: 2025-12-11 · created: 2025-11-24  
   labels: good first issue, OS/iOS
 - <a href="https://github.com/brave/brave-browser/issues/51363">Tab tray doesn&#x27;t scroll back to selected tab after switching back from private mode</a>  <code>#51363</code> · updated: 2025-12-11 · created: 2025-12-10  
-  labels: good first issue, QA/Yes, release-notes/include, OS/iOS
-- <a href="https://github.com/brave/brave-browser/issues/51362">Shred button remains visible in tab tray when switching to private mode</a>  <code>#51362</code> · updated: 2025-12-11 · created: 2025-12-10  
   labels: good first issue, QA/Yes, release-notes/include, OS/iOS
 - <a href="https://github.com/brave/brave-browser/issues/51379">Improve `Brave Shields UP`/`DOWN` translation in `Russian` language</a>  <code>#51379</code> · updated: 2025-12-11 · created: 2025-12-10  
   labels: bug, good first issue, feature/shields, l10n, QA/Yes, OS/iOS
@@ -1856,11 +1828,11 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/brave/brave-browser/issues/51218">Underline/indicate keyboard shortcuts in right-click menu</a>  <code>#51218</code> · updated: 2025-12-08 · created: 2025-12-04  
   labels: good first issue, polish, priority/P5, feature-request, OS/Desktop
 
-## elastic/kibana  ⭐ 20867
+## elastic/kibana  ⭐ 20866
 [Repository](https://github.com/elastic/kibana)
 
-- <a href="https://github.com/elastic/kibana/issues/243356">[Entity Store] Force data view refresh upon plugin startup</a>  <code>#243356</code> · updated: 2025-12-15 · created: 2025-11-18  
-  labels: good first issue, Entity Store (Next), Team:Core Analysis
+- <a href="https://github.com/elastic/kibana/issues/246581">[Streams] processing, processor name overlaps with badges</a>  <code>#246581</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: bug, good first issue, Team:obs-onboarding, Feature:Streams
 - <a href="https://github.com/elastic/kibana/issues/238780">[Lens] Change default settings to avoid displaying X Axis label in timeseries</a>  <code>#238780</code> · updated: 2025-12-10 · created: 2025-10-14  
   labels: good first issue, Team:Visualizations, Make it pop!
 - <a href="https://github.com/elastic/kibana/issues/243494">[Security Solution][Bug] The shared exception list ID displayed on the toast notification on performing delete action.</a>  <code>#243494</code> · updated: 2025-12-10 · created: 2025-11-19  
@@ -1882,19 +1854,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/elastic/kibana/issues/237635">[Security Solution] Unclear confirmation message when bulk updating index patterns for detection rules</a>  <code>#237635</code> · updated: 2025-10-13 · created: 2025-10-06  
   labels: bug, good first issue, impact:low, Team:Detections and Resp, Team: SecuritySolution, Feature:Rule Management, Team:Detection Rule Management
 
-## modelcontextprotocol/python-sdk  ⭐ 20637
+## modelcontextprotocol/python-sdk  ⭐ 20711
 [Repository](https://github.com/modelcontextprotocol/python-sdk)
 
+- <a href="https://github.com/modelcontextprotocol/python-sdk/issues/1401">ClientSession Error Handling</a>  <code>#1401</code> · updated: 2025-12-16 · created: 2025-09-25  
+  labels: bug, good first issue, ready for work, P1
 - <a href="https://github.com/modelcontextprotocol/python-sdk/issues/1477">Test fails in a Windows system with a proxy enabled</a>  <code>#1477</code> · updated: 2025-12-10 · created: 2025-10-14  
   labels: bug, good first issue, ready for work, P3
 - <a href="https://github.com/modelcontextprotocol/python-sdk/issues/1650">DCR Handler Requires Both authorization_code and refresh_token Grant Types (RFC 7591 Non-Compliant)</a>  <code>#1650</code> · updated: 2025-12-02 · created: 2025-11-21  
   labels: bug, good first issue, auth, P2
-- <a href="https://github.com/modelcontextprotocol/python-sdk/issues/1401">ClientSession Error Handling</a>  <code>#1401</code> · updated: 2025-11-28 · created: 2025-09-25  
-  labels: bug, good first issue, ready for work, P1
 - <a href="https://github.com/modelcontextprotocol/python-sdk/issues/1564">stdio_client fails with BrokenResourceError during initialization</a>  <code>#1564</code> · updated: 2025-11-14 · created: 2025-11-02  
   labels: bug, good first issue, P3
 
-## huggingface/lerobot  ⭐ 20209
+## huggingface/lerobot  ⭐ 20283
 [Repository](https://github.com/huggingface/lerobot)
 
 - <a href="https://github.com/huggingface/lerobot/issues/1998">Distributed v2.1 -&gt; v3.0 conversion</a>  <code>#1998</code> · updated: 2025-11-21 · created: 2025-09-22  
@@ -1912,19 +1884,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/huggingface/lerobot/issues/2124">Question regarding downsampling and resizing dataset</a>  <code>#2124</code> · updated: 2025-10-07 · created: 2025-10-06  
   labels: question, dataset, good first issue
 
-## catchorg/Catch2  ⭐ 20036
+## catchorg/Catch2  ⭐ 20049
 [Repository](https://github.com/catchorg/Catch2)
 
 - <a href="https://github.com/catchorg/Catch2/issues/3040">SIGSEGV when `--benchmark-samples 0`</a>  <code>#3040</code> · updated: 2025-11-17 · created: 2025-10-13  
   labels: Bug, Good First Issue
 
-## activepieces/activepieces  ⭐ 19845
+## onnx/onnx  ⭐ 20036
+[Repository](https://github.com/onnx/onnx)
+
+- <a href="https://github.com/onnx/onnx/issues/7526">nanobind config can not be found for openSUSE builds</a>  <code>#7526</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: bug, good first issue, contributions welcome
+
+## activepieces/activepieces  ⭐ 19891
 [Repository](https://github.com/activepieces/activepieces)
 
 - <a href="https://github.com/activepieces/activepieces/issues/10451">[Design Debt] Project Change does not propagate</a>  <code>#10451</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: good first issue, 🎨 area/design-debt
 
-## lima-vm/lima  ⭐ 19758
+## lima-vm/lima  ⭐ 19781
 [Repository](https://github.com/lima-vm/lima)
 
 - <a href="https://github.com/lima-vm/lima/issues/4402">`limactl create` should ask whether to start the instance</a>  <code>#4402</code> · updated: 2025-12-07 · created: 2025-11-24  
@@ -1932,13 +1910,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/lima-vm/lima/issues/4180">docs: explain usage of `limactl network list`, `limactl disk list`, ...</a>  <code>#4180</code> · updated: 2025-11-08 · created: 2025-10-10  
   labels: documentation, good first issue
 
-## go-playground/validator  ⭐ 19473
+## go-playground/validator  ⭐ 19484
 [Repository](https://github.com/go-playground/validator)
 
 - <a href="https://github.com/go-playground/validator/issues/1481">[Bug]: Numeric arrays pass string validations</a>  <code>#1481</code> · updated: 2025-11-21 · created: 2025-10-30  
   labels: bug, good first issue
 
-## realm/SwiftLint  ⭐ 19332
+## realm/SwiftLint  ⭐ 19344
 [Repository](https://github.com/realm/SwiftLint)
 
 - <a href="https://github.com/realm/SwiftLint/issues/6359">`optional_data_string_conversion` does not trigger when `.init(decoding:as:)` is called instead of `String(decoding:as:)`</a>  <code>#6359</code> · updated: 2025-11-27 · created: 2025-11-27  
@@ -1946,7 +1924,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/realm/SwiftLint/issues/6340">Suppress `large_tuple` for Swift Regex</a>  <code>#6340</code> · updated: 2025-11-14 · created: 2025-11-14  
   labels: enhancement, good first issue
 
-## goauthentik/authentik  ⭐ 19249
+## goauthentik/authentik  ⭐ 19293
 [Repository](https://github.com/goauthentik/authentik)
 
 - <a href="https://github.com/goauthentik/authentik/issues/18466">Improve Twitter/X OAuth provider to support fetching user email in the X API v2</a>  <code>#18466</code> · updated: 2025-12-01 · created: 2025-12-01  
@@ -1954,37 +1932,37 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/goauthentik/authentik/issues/16954">Nested user attributes not exposed as valid LDAP attributes in LDAP Outpost</a>  <code>#16954</code> · updated: 2025-11-25 · created: 2025-09-23  
   labels: bug, good first issue, bug/confirmed
 
-## Avaiga/taipy  ⭐ 18958
+## Avaiga/taipy  ⭐ 18964
 [Repository](https://github.com/Avaiga/taipy)
 
 - <a href="https://github.com/Avaiga/taipy/issues/2747">[🐛 BUG] Default table &quot;editable&quot; behaviour broken when df has index</a>  <code>#2747</code> · updated: 2025-12-13 · created: 2025-10-22  
   labels: 🆘 Help wanted, good first issue, GUI: Front-End, 🥶Waiting for contributor
 
-## flutter/samples  ⭐ 18828
+## flutter/samples  ⭐ 18840
 [Repository](https://github.com/flutter/samples)
 
 - <a href="https://github.com/flutter/samples/issues/2743">Add flutter_v2ray_client sample: Flutter VPN &amp; V2Ray Client</a>  <code>#2743</code> · updated: 2025-11-12 · created: 2025-11-12  
   labels: bug, good first issue, p3
 
-## basecamp/omarchy  ⭐ 18354
+## basecamp/omarchy  ⭐ 18453
 [Repository](https://github.com/basecamp/omarchy)
 
 - <a href="https://github.com/basecamp/omarchy/issues/2858">Add a better display configuration tool</a>  <code>#2858</code> · updated: 2025-12-09 · created: 2025-10-26  
   labels: enhancement, good first issue, help wanted
 
-## gradle/gradle  ⭐ 18201
+## gradle/gradle  ⭐ 18212
 [Repository](https://github.com/gradle/gradle)
 
 - <a href="https://github.com/gradle/gradle/issues/35766">Use of `AvailableJavaHomes` causes NPEs when environment is not ready</a>  <code>#35766</code> · updated: 2025-12-04 · created: 2025-11-21  
   labels: a:chore, in:building-gradle, in:toolchains, 🌱 internal-onboarding, good first issue
 
-## kubernetes-sigs/kubespray  ⭐ 18022
-[Repository](https://github.com/kubernetes-sigs/kubespray)
+## plotly/plotly.py  ⭐ 18100
+[Repository](https://github.com/plotly/plotly.py)
 
-- <a href="https://github.com/kubernetes-sigs/kubespray/issues/12631">Refactor node-local control plane loadbalancer</a>  <code>#12631</code> · updated: 2025-10-16 · created: 2025-10-16  
-  labels: help wanted, good first issue, kind/cleanup
+- <a href="https://github.com/plotly/plotly.py/issues/5449">[FEATURE]: skip `type=&quot;text/javascript&quot;` attribute in `&lt;script&gt;` tag of HTML output</a>  <code>#5449</code> · updated: 2025-12-17 · created: 2025-12-11  
+  labels: good first issue, feature, P2
 
-## navidrome/navidrome  ⭐ 18002
+## navidrome/navidrome  ⭐ 18047
 [Repository](https://github.com/navidrome/navidrome)
 
 - <a href="https://github.com/navidrome/navidrome/issues/4640">[Bug]: Documentation recommends localhost for Spotify integration</a>  <code>#4640</code> · updated: 2025-11-18 · created: 2025-11-01  
@@ -1992,37 +1970,49 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/navidrome/navidrome/issues/4552">Multiple inconsistencies in SQL table definitions</a>  <code>#4552</code> · updated: 2025-10-26 · created: 2025-09-24  
   labels: go, good first issue
 
-## wasp-lang/wasp  ⭐ 17996
+## kubernetes-sigs/kubespray  ⭐ 18034
+[Repository](https://github.com/kubernetes-sigs/kubespray)
+
+- <a href="https://github.com/kubernetes-sigs/kubespray/issues/12798">Use `kubeam kubeconfig user` instead of generating a kubeconfig with Ansible.</a>  <code>#12798</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue, kind/cleanup
+- <a href="https://github.com/kubernetes-sigs/kubespray/issues/12631">Refactor node-local control plane loadbalancer</a>  <code>#12631</code> · updated: 2025-10-16 · created: 2025-10-16  
+  labels: help wanted, good first issue, kind/cleanup
+
+## wasp-lang/wasp  ⭐ 18005
 [Repository](https://github.com/wasp-lang/wasp)
 
-- <a href="https://github.com/wasp-lang/wasp/issues/3499">Fix the `Testing` docs</a>  <code>#3499</code> · updated: 2025-12-15 · created: 2025-12-15  
+- <a href="https://github.com/wasp-lang/wasp/issues/3499">Fix the `Testing` docs</a>  <code>#3499</code> · updated: 2025-12-18 · created: 2025-12-15  
   labels: documentation, good first issue
 - <a href="https://github.com/wasp-lang/wasp/issues/3431">Specify custom server URL via an explict option</a>  <code>#3431</code> · updated: 2025-11-27 · created: 2025-11-25  
   labels: good first issue, refactoring, f: deployment
 - <a href="https://github.com/wasp-lang/wasp/issues/3430">Filter projects by `workspace` if provided</a>  <code>#3430</code> · updated: 2025-11-25 · created: 2025-11-25  
   labels: bug, good first issue, f: deployment, f: deployment [railway]
-- <a href="https://github.com/wasp-lang/wasp/issues/3307">`wasp build start`: Show warning message when no environment variables were passed</a>  <code>#3307</code> · updated: 2025-11-13 · created: 2025-11-05  
-  labels: good first issue, dx
 - <a href="https://github.com/wasp-lang/wasp/issues/3279">Update Wasp docs to reflect changes to Sendgrid&#x27;s free plan</a>  <code>#3279</code> · updated: 2025-11-11 · created: 2025-10-27  
   labels: documentation, good first issue, f: email sender
 
-## marimo-team/marimo  ⭐ 17808
+## plotly/plotly.js  ⭐ 17996
+[Repository](https://github.com/plotly/plotly.js)
+
+- <a href="https://github.com/plotly/plotly.js/issues/7674">[BUG]: Default `zoom` and `center` for `scattermap` traces does not show all points</a>  <code>#7674</code> · updated: 2025-12-17 · created: 2025-12-15  
+  labels: bug, good first issue, P2
+
+## marimo-team/marimo  ⭐ 17911
 [Repository](https://github.com/marimo-team/marimo)
 
-- <a href="https://github.com/marimo-team/marimo/issues/7426">Option to disable command mode or change key binding</a>  <code>#7426</code> · updated: 2025-12-09 · created: 2025-12-07  
+- <a href="https://github.com/marimo-team/marimo/issues/7435">Allow the User to Choose How to Accept Autocompletion from Docs Pop-up</a>  <code>#7435</code> · updated: 2025-12-18 · created: 2025-12-08  
   labels: enhancement, good first issue, good first issue (typescript)
-- <a href="https://github.com/marimo-team/marimo/issues/7435">Allow the User to Choose How to Accept Autocompletion from Docs Pop-up</a>  <code>#7435</code> · updated: 2025-12-09 · created: 2025-12-08  
+- <a href="https://github.com/marimo-team/marimo/issues/7426">Option to disable command mode or change key binding</a>  <code>#7426</code> · updated: 2025-12-09 · created: 2025-12-07  
   labels: enhancement, good first issue, good first issue (typescript)
 - <a href="https://github.com/marimo-team/marimo/issues/7040">AI Inline Completion and chat error with Mistral</a>  <code>#7040</code> · updated: 2025-11-03 · created: 2025-11-03  
   labels: good first issue, help wanted
 
-## openai/openai-agents-python  ⭐ 17808
+## openai/openai-agents-python  ⭐ 17867
 [Repository](https://github.com/openai/openai-agents-python)
 
 - <a href="https://github.com/openai/openai-agents-python/issues/2155">LiteLLM DeepSeek thinking mode fails with missing `reasoning_conten` on tool calls</a>  <code>#2155</code> · updated: 2025-12-11 · created: 2025-12-05  
   labels: enhancement, good first issue, feature:lite-llm
 
-## oxc-project/oxc  ⭐ 17788
+## oxc-project/oxc  ⭐ 17836
 [Repository](https://github.com/oxc-project/oxc)
 
 - <a href="https://github.com/oxc-project/oxc/issues/15020">oxlint: oxlintrc config for turn all warnings into errors</a>  <code>#15020</code> · updated: 2025-12-08 · created: 2025-10-28  
@@ -2030,23 +2020,33 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/oxc-project/oxc/issues/15927">Improving the readability of automated plugin issues</a>  <code>#15927</code> · updated: 2025-12-04 · created: 2025-11-21  
   labels: good first issue
 
-## nikitabobko/AeroSpace  ⭐ 17550
+## zai-org/Open-AutoGLM  ⭐ 17748
+[Repository](https://github.com/zai-org/Open-AutoGLM)
+
+- <a href="https://github.com/zai-org/Open-AutoGLM/issues/106">OPPO手机adb权限管控导致adb keyboard检测不通过</a>  <code>#106</code> · updated: 2025-12-16 · created: 2025-12-11  
+  labels: good first issue
+
+## nikitabobko/AeroSpace  ⭐ 17606
 [Repository](https://github.com/nikitabobko/AeroSpace)
 
 - <a href="https://github.com/nikitabobko/AeroSpace/issues/1770">Add configuration option to control new window insertion direction</a>  <code>#1770</code> · updated: 2025-10-30 · created: 2025-10-25  
   labels: feature, good-first-issue
 - <a href="https://github.com/nikitabobko/AeroSpace/issues/1772">Add `%{window-parent-container-orientation}` and `%{workspace-root-container-orientation}` interpolation variables</a>  <code>#1772</code> · updated: 2025-10-29 · created: 2025-10-25  
   labels: feature, good-first-issue
-- <a href="https://github.com/nikitabobko/AeroSpace/issues/1701">Add `aerospace focus --wrap-around` alias</a>  <code>#1701</code> · updated: 2025-09-22 · created: 2025-09-17  
-  labels: feature, good-first-issue
 
-## openobserve/openobserve  ⭐ 17526
+## volcengine/verl  ⭐ 17599
+[Repository](https://github.com/volcengine/verl)
+
+- <a href="https://github.com/volcengine/verl/issues/4604">[RFC][rollout] Should `actor_rollout_ref.rollout.mode` be removed since it should always be `&quot;async&quot;` now?</a>  <code>#4604</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, call for contribution, code quality
+
+## openobserve/openobserve  ⭐ 17534
 [Repository](https://github.com/openobserve/openobserve)
 
 - <a href="https://github.com/openobserve/openobserve/issues/9445">Bind templates to alert instead of alert-destination</a>  <code>#9445</code> · updated: 2025-12-05 · created: 2025-12-02  
   labels: good first issue, ✏️ Feature
 
-## arc53/DocsGPT  ⭐ 17509
+## arc53/DocsGPT  ⭐ 17527
 [Repository](https://github.com/arc53/DocsGPT)
 
 - <a href="https://github.com/arc53/DocsGPT/issues/2178">🚀 Feature: Allow copy pasting images or documents into the text box</a>  <code>#2178</code> · updated: 2025-12-14 · created: 2025-12-03  
@@ -2056,21 +2056,17 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/arc53/DocsGPT/issues/2159">🐛 Bug Report: Improve DocsGPT Chat Widget</a>  <code>#2159</code> · updated: 2025-11-24 · created: 2025-11-11  
   labels: bug, good first issue, help wanted, javascript, extensions
 
-## lichess-org/lila  ⭐ 17462
+## lichess-org/lila  ⭐ 17478
 [Repository](https://github.com/lichess-org/lila)
 
+- <a href="https://github.com/lichess-org/lila/issues/18901">Remove comma on new graphs on personalized player pagers for the top fide players within broadcast</a>  <code>#18901</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: good first issue
 - <a href="https://github.com/lichess-org/lila/issues/18797">Puzzle : from my games - Move highlight not clipped</a>  <code>#18797</code> · updated: 2025-12-04 · created: 2025-12-03  
   labels: good first issue, no scala
 - <a href="https://github.com/lichess-org/lila/issues/18780">URL detection in forums is broken in certain cases</a>  <code>#18780</code> · updated: 2025-12-03 · created: 2025-12-01  
   labels: good first issue, no scala
 
-## bytecodealliance/wasmtime  ⭐ 17304
-[Repository](https://github.com/bytecodealliance/wasmtime)
-
-- <a href="https://github.com/bytecodealliance/wasmtime/issues/11971">ISLE: debugging feature to emit logging in the generated code</a>  <code>#11971</code> · updated: 2025-11-13 · created: 2025-11-03  
-  labels: good first issue, cranelift:E-compiler-easy, isle
-
-## oraios/serena  ⭐ 17225
+## oraios/serena  ⭐ 17342
 [Repository](https://github.com/oraios/serena)
 
 - <a href="https://github.com/oraios/serena/issues/771">Erlang LS has been archived on 2025-08-15, recommends switching to Erlang Language Platform</a>  <code>#771</code> · updated: 2025-12-04 · created: 2025-11-18  
@@ -2084,10 +2080,22 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/oraios/serena/issues/645">Support for Nim language</a>  <code>#645</code> · updated: 2025-09-30 · created: 2025-09-30  
   labels: enhancement, good first issue
 
-## elizaOS/eliza  ⭐ 17192
+## bytecodealliance/wasmtime  ⭐ 17319
+[Repository](https://github.com/bytecodealliance/wasmtime)
+
+- <a href="https://github.com/bytecodealliance/wasmtime/issues/11971">ISLE: debugging feature to emit logging in the generated code</a>  <code>#11971</code> · updated: 2025-11-13 · created: 2025-11-03  
+  labels: good first issue, cranelift:E-compiler-easy, isle
+
+## fosrl/pangolin  ⭐ 17252
+[Repository](https://github.com/fosrl/pangolin)
+
+- <a href="https://github.com/fosrl/pangolin/issues/1547">Bug: Web Dashboard forgets language settings after a day</a>  <code>#1547</code> · updated: 2025-10-29 · created: 2025-09-26  
+  labels: good first issue, help wanted
+
+## elizaOS/eliza  ⭐ 17197
 [Repository](https://github.com/elizaOS/eliza)
 
-- <a href="https://github.com/elizaOS/eliza/issues/6185">Optimize Agent Builder Model Selection</a>  <code>#6185</code> · updated: 2025-12-16 · created: 2025-11-26  
+- <a href="https://github.com/elizaOS/eliza/issues/6185">Optimize Agent Builder Model Selection</a>  <code>#6185</code> · updated: 2025-12-18 · created: 2025-11-26  
   labels: good first issue, performance
 - <a href="https://github.com/elizaOS/eliza/issues/6150">Follow up sample prompts specific to last user prompt/action</a>  <code>#6150</code> · updated: 2025-12-13 · created: 2025-11-14  
   labels: good first issue, ux
@@ -2096,29 +2104,23 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/elizaOS/eliza/issues/6162">Buttons (Yes + No)</a>  <code>#6162</code> · updated: 2025-12-13 · created: 2025-11-20  
   labels: good first issue, ui
 
-## fosrl/pangolin  ⭐ 17112
-[Repository](https://github.com/fosrl/pangolin)
-
-- <a href="https://github.com/fosrl/pangolin/issues/1547">Bug: Web Dashboard forgets language settings after a day</a>  <code>#1547</code> · updated: 2025-10-29 · created: 2025-09-26  
-  labels: good first issue, help wanted
-
-## microsoft/react-native-windows  ⭐ 17108
+## microsoft/react-native-windows  ⭐ 17119
 [Repository](https://github.com/microsoft/react-native-windows)
 
 - <a href="https://github.com/microsoft/react-native-windows/issues/15455">Dead links in README.md</a>  <code>#15455</code> · updated: 2025-12-16 · created: 2025-12-06  
   labels: bug, good first issue, good first issue: easy
 
-## pallets/click  ⭐ 17060
+## pallets/click  ⭐ 17070
 [Repository](https://github.com/pallets/click)
 
-- <a href="https://github.com/pallets/click/issues/3076">Introduction to the command line tutorial</a>  <code>#3076</code> · updated: 2025-12-01 · created: 2025-09-21  
+- <a href="https://github.com/pallets/click/issues/3076">Introduction to the command line tutorial</a>  <code>#3076</code> · updated: 2025-12-17 · created: 2025-09-21  
   labels: docs, good first issue
 - <a href="https://github.com/pallets/click/issues/3077">Add glossary of terms to click reference docs</a>  <code>#3077</code> · updated: 2025-11-25 · created: 2025-09-21  
   labels: docs, good first issue
 - <a href="https://github.com/pallets/click/issues/3081">Add Screenshot workflow</a>  <code>#3081</code> · updated: 2025-09-24 · created: 2025-09-22  
   labels: docs, good first issue
 
-## TibixDev/winboat  ⭐ 16880
+## TibixDev/winboat  ⭐ 17021
 [Repository](https://github.com/TibixDev/winboat)
 
 - <a href="https://github.com/TibixDev/winboat/issues/178">[Feature] Add a shared folder that is not only limited to /home/$USER</a>  <code>#178</code> · updated: 2025-12-14 · created: 2025-09-25  
@@ -2134,33 +2136,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/TibixDev/winboat/issues/204">[Feature] Edit/delete existing app buttons</a>  <code>#204</code> · updated: 2025-10-16 · created: 2025-10-01  
   labels: enhancement, good first issue
 
-## ipfs/kubo  ⭐ 16842
-[Repository](https://github.com/ipfs/kubo)
-
-- <a href="https://github.com/ipfs/kubo/issues/10976">`ipfs key ls` as an alias for `ipfs key list`</a>  <code>#10976</code> · updated: 2025-10-07 · created: 2025-09-19  
-  labels: kind/enhancement, help wanted, P2, good first issue
-
-## comet-ml/opik  ⭐ 16786
+## comet-ml/opik  ⭐ 16866
 [Repository](https://github.com/comet-ml/opik)
 
+- <a href="https://github.com/comet-ml/opik/issues/3412">[FR]: Replay Anthropic LLM Spans in the playground</a>  <code>#3412</code> · updated: 2025-12-16 · created: 2025-09-25  
+  labels: Feature_Request, good first issue, hacktoberfest
 - <a href="https://github.com/comet-ml/opik/issues/3435">[Bug]: Optimization UI Unable to Filter &amp; Sort</a>  <code>#3435</code> · updated: 2025-10-22 · created: 2025-09-26  
   labels: Bug, good first issue, Frontend
 - <a href="https://github.com/comet-ml/opik/issues/3416">[FR] Display all AI SDK LLM message in pretty mode</a>  <code>#3416</code> · updated: 2025-10-20 · created: 2025-09-25  
   labels: Feature_Request, good first issue, hacktoberfest
 - <a href="https://github.com/comet-ml/opik/issues/3411">[FR]: Replay OpenAI LLM Spans in the playground</a>  <code>#3411</code> · updated: 2025-10-20 · created: 2025-09-25  
   labels: Feature_Request, good first issue, hacktoberfest
-- <a href="https://github.com/comet-ml/opik/issues/3412">[FR]: Replay Anthropic LLM Spans in the playground</a>  <code>#3412</code> · updated: 2025-10-20 · created: 2025-09-25  
-  labels: Feature_Request, good first issue, hacktoberfest
 - <a href="https://github.com/comet-ml/opik/issues/3445">[FR]: Show experiments in dataset page</a>  <code>#3445</code> · updated: 2025-10-12 · created: 2025-09-28  
   labels: good first issue, hacktoberfest
 
-## prestodb/presto  ⭐ 16593
+## prestodb/presto  ⭐ 16594
 [Repository](https://github.com/prestodb/presto)
 
 - <a href="https://github.com/prestodb/presto/issues/26779">Add iceberg rewrite_table_path procedure to Presto</a>  <code>#26779</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: feature request, good first issue
-- <a href="https://github.com/prestodb/presto/issues/26101">[docs] Consolidate How to invalidate directory list cache? and Invalidate Directory List Cache topics</a>  <code>#26101</code> · updated: 2025-10-23 · created: 2025-09-19  
-  labels: docs, feature request, good first issue
 - <a href="https://github.com/prestodb/presto/issues/26303">[doc] scale-writers is missing in Presto configuration properties</a>  <code>#26303</code> · updated: 2025-10-21 · created: 2025-10-14  
   labels: bug, docs, good first issue
 - <a href="https://github.com/prestodb/presto/issues/26314">[docs] Add doc for Type Mapping to connector/oracle.rst</a>  <code>#26314</code> · updated: 2025-10-15 · created: 2025-10-15  
@@ -2168,7 +2162,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/prestodb/presto/issues/26215">[docs] Add documentation for reactor.netty-http-client-enabled property</a>  <code>#26215</code> · updated: 2025-10-03 · created: 2025-10-02  
   labels: docs, feature request, good first issue
 
-## questdb/questdb  ⭐ 16464
+## google/adk-python  ⭐ 16537
+[Repository](https://github.com/google/adk-python)
+
+- <a href="https://github.com/google/adk-python/issues/3111">Eval fails for non-English languages</a>  <code>#3111</code> · updated: 2025-12-05 · created: 2025-10-08  
+  labels: good first issue, help wanted, eval, needs-review
+
+## questdb/questdb  ⭐ 16477
 [Repository](https://github.com/questdb/questdb)
 
 - <a href="https://github.com/questdb/questdb/issues/6494">CONVERT PARTITION should accept plural PARTITIONS as well</a>  <code>#6494</code> · updated: 2025-12-04 · created: 2025-12-03  
@@ -2180,29 +2180,29 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/questdb/questdb/issues/6320">add `regr_r2` group by function, and funcs for RMSE and t-stats</a>  <code>#6320</code> · updated: 2025-10-28 · created: 2025-10-27  
   labels: New feature, SQL, Good first issue, hacktoberfest, external
 
-## google/adk-python  ⭐ 16462
-[Repository](https://github.com/google/adk-python)
-
-- <a href="https://github.com/google/adk-python/issues/3111">Eval fails for non-English languages</a>  <code>#3111</code> · updated: 2025-12-05 · created: 2025-10-08  
-  labels: good first issue, help wanted, eval, needs-review
-
-## johannesjo/super-productivity  ⭐ 16364
+## johannesjo/super-productivity  ⭐ 16413
 [Repository](https://github.com/johannesjo/super-productivity)
 
-- <a href="https://github.com/johannesjo/super-productivity/issues/5401">🚨 non utf8 icons not appearing properly</a>  <code>#5401</code> · updated: 2025-11-01 · created: 2025-10-31  
+- <a href="https://github.com/johannesjo/super-productivity/issues/5401">🚨 non utf8 icons not appearing properly</a>  <code>#5401</code> · updated: 2025-12-18 · created: 2025-10-31  
   labels: bug, help wanted, good first issue
 - <a href="https://github.com/johannesjo/super-productivity/issues/5325">🚨 The number of tasks do not appear on the menu</a>  <code>#5325</code> · updated: 2025-10-24 · created: 2025-10-20  
   labels: enhancement, help wanted, good first issue
 
-## argoproj/argo-workflows  ⭐ 16279
+## argoproj/argo-workflows  ⭐ 16294
 [Repository](https://github.com/argoproj/argo-workflows)
 
 - <a href="https://github.com/argoproj/argo-workflows/issues/15149">new-features.md should be lintable and spell checked</a>  <code>#15149</code> · updated: 2025-12-14 · created: 2025-12-11  
   labels: good first issue
 
-## apache/arrow  ⭐ 16263
+## apache/arrow  ⭐ 16275
 [Repository](https://github.com/apache/arrow)
 
+- <a href="https://github.com/apache/arrow/issues/48592">[C++] C++20: use starts_with/ends_with methods</a>  <code>#48592</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: Type: enhancement, Component: C++, good-first-issue
+- <a href="https://github.com/apache/arrow/issues/48591">[C++] C++20: use standard bit utils</a>  <code>#48591</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: Type: enhancement, Component: C++, good-first-issue
+- <a href="https://github.com/apache/arrow/issues/48588">[C++] C++20: use std::span</a>  <code>#48588</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: Type: enhancement, Component: C++, good-first-issue
 - <a href="https://github.com/apache/arrow/issues/48182">[Python] RecordBatch.from_struct_array(array_of_lists_of_structs[i].values) needs a test</a>  <code>#48182</code> · updated: 2025-11-20 · created: 2025-11-19  
   labels: Type: bug, Component: Python, good-first-issue
 - <a href="https://github.com/apache/arrow/issues/48102">[Python] Remove deprecated Array.format</a>  <code>#48102</code> · updated: 2025-11-12 · created: 2025-11-12  
@@ -2210,13 +2210,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/arrow/issues/47696">[Docs][Python] PyCapsule protocol implementation status</a>  <code>#47696</code> · updated: 2025-10-03 · created: 2025-10-03  
   labels: Type: enhancement, Component: Python, good-first-issue
 
-## kvcache-ai/ktransformers  ⭐ 16206
+## kvcache-ai/ktransformers  ⭐ 16222
 [Repository](https://github.com/kvcache-ai/ktransformers)
 
 - <a href="https://github.com/kvcache-ai/ktransformers/issues/1608">🚨FAQs | 常见问题🚨</a>  <code>#1608</code> · updated: 2025-11-18 · created: 2025-11-13  
   labels: good first issue
 
-## yorukot/superfile  ⭐ 16013
+## charmbracelet/crush  ⭐ 16095
+[Repository](https://github.com/charmbracelet/crush)
+
+- <a href="https://github.com/charmbracelet/crush/issues/1354">Idea: Add `--provider` and `--model` flags to `crush run` command</a>  <code>#1354</code> · updated: 2025-11-15 · created: 2025-10-31  
+  labels: good first issue, non-interactive
+
+## yorukot/superfile  ⭐ 16034
 [Repository](https://github.com/yorukot/superfile)
 
 - <a href="https://github.com/yorukot/superfile/issues/1130">Incomplete test coverage in zoxide navigation_test.go</a>  <code>#1130</code> · updated: 2025-12-07 · created: 2025-10-17  
@@ -2224,43 +2230,31 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/yorukot/superfile/issues/1082">Refactor: Extract common pinned directories file operations to reduce code duplication</a>  <code>#1082</code> · updated: 2025-09-21 · created: 2025-09-20  
   labels: good first issue, tech debt
 
-## apple/foundationdb  ⭐ 16005
+## apple/foundationdb  ⭐ 16020
 [Repository](https://github.com/apple/foundationdb)
 
 - <a href="https://github.com/apple/foundationdb/issues/12581">Possible failure in automatic idempotency cleaner test AutomaticIdempotency.toml</a>  <code>#12581</code> · updated: 2025-12-03 · created: 2025-12-03  
   labels: good first issue, testing
 
-## charmbracelet/crush  ⭐ 15996
-[Repository](https://github.com/charmbracelet/crush)
-
-- <a href="https://github.com/charmbracelet/crush/issues/1354">Idea: Add `--provider` and `--model` flags to `crush run` command</a>  <code>#1354</code> · updated: 2025-11-15 · created: 2025-10-31  
-  labels: good first issue, non-interactive
-
-## Snapchat/Valdi  ⭐ 15891
+## Snapchat/Valdi  ⭐ 15895
 [Repository](https://github.com/Snapchat/Valdi)
 
 - <a href="https://github.com/Snapchat/Valdi/issues/23">Project names with dashes don&#x27;t build</a>  <code>#23</code> · updated: 2025-11-17 · created: 2025-11-12  
   labels: bug, good first issue
 
-## zai-org/Open-AutoGLM  ⭐ 15814
-[Repository](https://github.com/zai-org/Open-AutoGLM)
-
-- <a href="https://github.com/zai-org/Open-AutoGLM/issues/106">OPPO手机adb权限管控导致adb keyboard检测不通过</a>  <code>#106</code> · updated: 2025-12-14 · created: 2025-12-11  
-  labels: good first issue
-
-## NixOS/nix  ⭐ 15645
-[Repository](https://github.com/NixOS/nix)
-
-- <a href="https://github.com/NixOS/nix/issues/14500">Migrate trace unit tests to functional tests</a>  <code>#14500</code> · updated: 2025-11-07 · created: 2025-11-06  
-  labels: feature, language, good first issue, contributor-experience, idea approved, tests
-
-## VictoriaMetrics/VictoriaMetrics  ⭐ 15629
+## VictoriaMetrics/VictoriaMetrics  ⭐ 15719
 [Repository](https://github.com/VictoriaMetrics/VictoriaMetrics)
 
 - <a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/10126">vmalert: add new type `vtraces` for VictoriaTraces</a>  <code>#10126</code> · updated: 2025-12-05 · created: 2025-12-04  
   labels: enhancement, help wanted, good first issue, vmalert
 
-## gofr-dev/gofr  ⭐ 15456
+## NixOS/nix  ⭐ 15681
+[Repository](https://github.com/NixOS/nix)
+
+- <a href="https://github.com/NixOS/nix/issues/14500">Migrate trace unit tests to functional tests</a>  <code>#14500</code> · updated: 2025-11-07 · created: 2025-11-06  
+  labels: feature, language, good first issue, contributor-experience, idea approved, tests
+
+## gofr-dev/gofr  ⭐ 15453
 [Repository](https://github.com/gofr-dev/gofr)
 
 - <a href="https://github.com/gofr-dev/gofr/issues/2557">Enhance documentation to add about the different log levels</a>  <code>#2557</code> · updated: 2025-12-07 · created: 2025-11-19  
@@ -2270,41 +2264,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/gofr-dev/gofr/issues/2408">Test Pipeline do not fail on failing tests in Examples folder</a>  <code>#2408</code> · updated: 2025-10-23 · created: 2025-10-10  
   labels: good first issue, devops, hacktoberfest
 
-## quarkusio/quarkus  ⭐ 15346
-[Repository](https://github.com/quarkusio/quarkus)
-
-- <a href="https://github.com/quarkusio/quarkus/issues/51225">Work around DB2 restriction and allow DB2 datasources to be longer than 8 characters in dev services</a>  <code>#51225</code> · updated: 2025-12-15 · created: 2025-11-25  
-  labels: good first issue, area/devservices, area/jdbc
-- <a href="https://github.com/quarkusio/quarkus/issues/51206">Use `overrideConfigKey` to test Hibernate tests instead of application.properties files</a>  <code>#51206</code> · updated: 2025-12-01 · created: 2025-11-24  
-  labels: kind/enhancement, good first issue, area/config, area/hibernate-orm, area/hibernate-reactive
-- <a href="https://github.com/quarkusio/quarkus/issues/51205">Fine grained `reactive/blocking` property for specific persistence Units</a>  <code>#51205</code> · updated: 2025-11-26 · created: 2025-11-24  
-  labels: kind/enhancement, good first issue, area/hibernate-reactive
-- <a href="https://github.com/quarkusio/quarkus/issues/51207">Use parametrised tests for Hibernate ORM/Reactive interoperability</a>  <code>#51207</code> · updated: 2025-11-24 · created: 2025-11-24  
-  labels: kind/enhancement, good first issue, area/hibernate-orm, area/hibernate-reactive
-- <a href="https://github.com/quarkusio/quarkus/issues/50572">HibernateOrmProcessor causes Warning that package cannot be indexed due to package-info.java</a>  <code>#50572</code> · updated: 2025-10-27 · created: 2025-10-15  
-  labels: kind/bug, good first issue, area/hibernate-orm
-
-## TecharoHQ/anubis  ⭐ 15278
-[Repository](https://github.com/TecharoHQ/anubis)
-
-- <a href="https://github.com/TecharoHQ/anubis/issues/1149">chore: Port the JS based proof of work frontend to Preact</a>  <code>#1149</code> · updated: 2025-11-15 · created: 2025-09-22  
-  labels: good first issue
-- <a href="https://github.com/TecharoHQ/anubis/issues/1208">[Feature request] PROXY protocol support</a>  <code>#1208</code> · updated: 2025-11-02 · created: 2025-10-23  
-  labels: good first issue
-
-## weaviate/weaviate  ⭐ 15229
-[Repository](https://github.com/weaviate/weaviate)
-
-- <a href="https://github.com/weaviate/weaviate/issues/9586">Weaviate backups with text2vec-google can&#x27;t be used between environments.</a>  <code>#9586</code> · updated: 2025-10-30 · created: 2025-10-29  
-  labels: bug, good-first-issue, community
-
-## apache/answer  ⭐ 15195
-[Repository](https://github.com/apache/answer)
-
-- <a href="https://github.com/apache/answer/issues/1457">Add user in the Admin, no result prompt after submission</a>  <code>#1457</code> · updated: 2025-12-15 · created: 2025-12-12  
-  labels: bug, good first issue
-
-## lfnovo/open-notebook  ⭐ 15030
+## lfnovo/open-notebook  ⭐ 15430
 [Repository](https://github.com/lfnovo/open-notebook)
 
 - <a href="https://github.com/lfnovo/open-notebook/issues/186">[Feature]: add a command monitor to the advanced page</a>  <code>#186</code> · updated: 2025-11-29 · created: 2025-10-21  
@@ -2318,7 +2278,43 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/lfnovo/open-notebook/issues/185">[Bug]: Podcast page shows unfinished episodes that failed</a>  <code>#185</code> · updated: 2025-10-21 · created: 2025-10-21  
   labels: bug, good first issue
 
-## josdejong/mathjs  ⭐ 14957
+## quarkusio/quarkus  ⭐ 15353
+[Repository](https://github.com/quarkusio/quarkus)
+
+- <a href="https://github.com/quarkusio/quarkus/issues/51225">Work around DB2 restriction and allow DB2 datasources to be longer than 8 characters in dev services</a>  <code>#51225</code> · updated: 2025-12-15 · created: 2025-11-25  
+  labels: good first issue, area/devservices, area/jdbc
+- <a href="https://github.com/quarkusio/quarkus/issues/51206">Use `overrideConfigKey` to test Hibernate tests instead of application.properties files</a>  <code>#51206</code> · updated: 2025-12-01 · created: 2025-11-24  
+  labels: kind/enhancement, good first issue, area/config, area/hibernate-orm, area/hibernate-reactive
+- <a href="https://github.com/quarkusio/quarkus/issues/51205">Fine grained `reactive/blocking` property for specific persistence Units</a>  <code>#51205</code> · updated: 2025-11-26 · created: 2025-11-24  
+  labels: kind/enhancement, good first issue, area/hibernate-reactive
+- <a href="https://github.com/quarkusio/quarkus/issues/51207">Use parametrised tests for Hibernate ORM/Reactive interoperability</a>  <code>#51207</code> · updated: 2025-11-24 · created: 2025-11-24  
+  labels: kind/enhancement, good first issue, area/hibernate-orm, area/hibernate-reactive
+- <a href="https://github.com/quarkusio/quarkus/issues/50572">HibernateOrmProcessor causes Warning that package cannot be indexed due to package-info.java</a>  <code>#50572</code> · updated: 2025-10-27 · created: 2025-10-15  
+  labels: kind/bug, good first issue, area/hibernate-orm
+
+## TecharoHQ/anubis  ⭐ 15351
+[Repository](https://github.com/TecharoHQ/anubis)
+
+- <a href="https://github.com/TecharoHQ/anubis/issues/1328">[Feature request] Update SSL Labs addresses</a>  <code>#1328</code> · updated: 2025-12-17 · created: 2025-12-07  
+  labels: good first issue, dependencies, Data
+- <a href="https://github.com/TecharoHQ/anubis/issues/1149">chore: Port the JS based proof of work frontend to Preact</a>  <code>#1149</code> · updated: 2025-11-15 · created: 2025-09-22  
+  labels: good first issue
+- <a href="https://github.com/TecharoHQ/anubis/issues/1208">[Feature request] PROXY protocol support</a>  <code>#1208</code> · updated: 2025-11-02 · created: 2025-10-23  
+  labels: good first issue
+
+## weaviate/weaviate  ⭐ 15257
+[Repository](https://github.com/weaviate/weaviate)
+
+- <a href="https://github.com/weaviate/weaviate/issues/9586">Weaviate backups with text2vec-google can&#x27;t be used between environments.</a>  <code>#9586</code> · updated: 2025-10-30 · created: 2025-10-29  
+  labels: bug, good-first-issue, community
+
+## apache/answer  ⭐ 15200
+[Repository](https://github.com/apache/answer)
+
+- <a href="https://github.com/apache/answer/issues/1457">Add user in the Admin, no result prompt after submission</a>  <code>#1457</code> · updated: 2025-12-15 · created: 2025-12-12  
+  labels: bug, good first issue
+
+## josdejong/mathjs  ⭐ 14961
 [Repository](https://github.com/josdejong/mathjs)
 
 - <a href="https://github.com/josdejong/mathjs/issues/3602">setDistinct changes order</a>  <code>#3602</code> · updated: 2025-11-26 · created: 2025-11-24  
@@ -2328,10 +2324,12 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/josdejong/mathjs/issues/3559">Document developer requirements/guidelines for the Number bundle</a>  <code>#3559</code> · updated: 2025-11-26 · created: 2025-10-17  
   labels: documentation, good first issue
 
-## cvat-ai/cvat  ⭐ 14937
+## cvat-ai/cvat  ⭐ 14956
 [Repository](https://github.com/cvat-ai/cvat)
 
-- <a href="https://github.com/cvat-ai/cvat/issues/10104">Task creation fails if a manifest is present but frame order does not match it</a>  <code>#10104</code> · updated: 2025-12-11 · created: 2025-12-11  
+- <a href="https://github.com/cvat-ai/cvat/issues/10132">Can we have a keyboard-shortcut for switching appearance mode?</a>  <code>#10132</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: enhancement, ui/ux, good first issue
+- <a href="https://github.com/cvat-ai/cvat/issues/10104">Task creation fails if a manifest is present but frame order does not match it</a>  <code>#10104</code> · updated: 2025-12-18 · created: 2025-12-11  
   labels: bug, good first issue
 - <a href="https://github.com/cvat-ai/cvat/issues/10089">Documentation: Change a user&#x27;s password on a local machine</a>  <code>#10089</code> · updated: 2025-12-09 · created: 2025-12-09  
   labels: enhancement, good first issue
@@ -2342,31 +2340,31 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/cvat-ai/cvat/issues/9957">Quality control: can&#x27;t match skeletons or point groups in corner cases</a>  <code>#9957</code> · updated: 2025-10-31 · created: 2025-10-29  
   labels: bug, good first issue
 
-## jupyterlab/jupyterlab  ⭐ 14933
+## jupyterlab/jupyterlab  ⭐ 14940
 [Repository](https://github.com/jupyterlab/jupyterlab)
 
 - <a href="https://github.com/jupyterlab/jupyterlab/issues/18106">Tooltip in workspaces manager shows `undefined` rather than a number of tabs</a>  <code>#18106</code> · updated: 2025-12-08 · created: 2025-11-13  
   labels: bug, good first issue
 
-## mikefarah/yq  ⭐ 14572
+## mikefarah/yq  ⭐ 14589
 [Repository](https://github.com/mikefarah/yq)
 
 - <a href="https://github.com/mikefarah/yq/issues/2504">Add &quot;env&quot; output format</a>  <code>#2504</code> · updated: 2025-11-21 · created: 2025-10-30  
   labels: enhancement, help wanted, v4, good first issue
 
-## adobe/react-spectrum  ⭐ 14567
+## adobe/react-spectrum  ⭐ 14588
 [Repository](https://github.com/adobe/react-spectrum)
 
 - <a href="https://github.com/adobe/react-spectrum/issues/9348">`id` prop missing from RAC Link component</a>  <code>#9348</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: good first issue, typescript
 
-## microsoft/data-formulator  ⭐ 14514
+## microsoft/data-formulator  ⭐ 14532
 [Repository](https://github.com/microsoft/data-formulator)
 
 - <a href="https://github.com/microsoft/data-formulator/issues/193">Expand chart type supports</a>  <code>#193</code> · updated: 2025-12-05 · created: 2025-11-07  
   labels: good first issue, help wanted
 
-## beetbox/beets  ⭐ 14419
+## beetbox/beets  ⭐ 14433
 [Repository](https://github.com/beetbox/beets)
 
 - <a href="https://github.com/beetbox/beets/issues/6212">musicbrainz metadata source is used when the musicbrainz plugin is not activated</a>  <code>#6212</code> · updated: 2025-12-10 · created: 2025-12-10  
@@ -2380,7 +2378,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/beetbox/beets/issues/6081">Document `match.distance_weights` in autotagger docs</a>  <code>#6081</code> · updated: 2025-11-12 · created: 2025-10-07  
   labels: good first issue, docs
 
-## go-task/task  ⭐ 14395
+## go-task/task  ⭐ 14420
 [Repository](https://github.com/go-task/task)
 
 - <a href="https://github.com/go-task/task/issues/2581">Taskfile not found error shows empty path and missing --init suggestion</a>  <code>#2581</code> · updated: 2025-12-15 · created: 2025-12-15  
@@ -2388,19 +2386,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/go-task/task/issues/2479">`CLI_ASSUME_YES` flag</a>  <code>#2479</code> · updated: 2025-12-14 · created: 2025-10-28  
   labels: good first issue, area: config
 
-## ArduPilot/ardupilot  ⭐ 14200
+## ArduPilot/ardupilot  ⭐ 14222
 [Repository](https://github.com/ArduPilot/ardupilot)
 
+- <a href="https://github.com/ArduPilot/ardupilot/issues/31748">TemperatureSensor: Add Rangefinder to the TEMPx_SRC sensor source options</a>  <code>#31748</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: Rover, Sub, good first issue, FeatureRequest
 - <a href="https://github.com/ArduPilot/ardupilot/issues/31614">Sub: add support for `WATER_DEPTH` MAVLink reporting</a>  <code>#31614</code> · updated: 2025-12-06 · created: 2025-11-28  
   labels: MAVLink, Sub, good first issue, FeatureRequest
 - <a href="https://github.com/ArduPilot/ardupilot/issues/31588">Add support for OPTICAL_FLOW_RAD</a>  <code>#31588</code> · updated: 2025-11-26 · created: 2025-11-25  
   labels: good first issue
 - <a href="https://github.com/ArduPilot/ardupilot/issues/31385">missuggested pip dependency step</a>  <code>#31385</code> · updated: 2025-11-03 · created: 2025-10-27  
   labels: DevEnv, good first issue
-- <a href="https://github.com/ArduPilot/ardupilot/issues/31107">AP_Gripper: support stop command option</a>  <code>#31107</code> · updated: 2025-10-29 · created: 2025-09-17  
-  labels: good first issue
 
-## cryptomator/cryptomator  ⭐ 14188
+## cryptomator/cryptomator  ⭐ 14202
 [Repository](https://github.com/cryptomator/cryptomator)
 
 - <a href="https://github.com/cryptomator/cryptomator/issues/4027">Support automatic light/dark theme on Linux</a>  <code>#4027</code> · updated: 2025-12-10 · created: 2025-10-27  
@@ -2408,13 +2406,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/cryptomator/cryptomator/issues/3993">Cryptomator is not completely removed during uninstall</a>  <code>#3993</code> · updated: 2025-09-24 · created: 2025-09-24  
   labels: os:windows, good first issue, misc:installer
 
-## astral-sh/ty  ⭐ 14055
-[Repository](https://github.com/astral-sh/ty)
-
-- <a href="https://github.com/astral-sh/ty/issues/1207">include type parameters in display of generic callables</a>  <code>#1207</code> · updated: 2025-12-08 · created: 2025-09-19  
-  labels: good first issue, diagnostics, generics
-
-## apache/dolphinscheduler  ⭐ 14024
+## apache/dolphinscheduler  ⭐ 14036
 [Repository](https://github.com/apache/dolphinscheduler)
 
 - <a href="https://github.com/apache/dolphinscheduler/issues/17775">[Feature] Add Kapa.ai docs assistant integration to DolphinScheduler</a>  <code>#17775</code> · updated: 2025-12-09 · created: 2025-12-08  
@@ -2430,39 +2422,33 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/dolphinscheduler/issues/17561">[Improvement][Helm] Update zookeeper helm chart version</a>  <code>#17561</code> · updated: 2025-10-01 · created: 2025-10-01  
   labels: good first issue, improvement
 
-## yoavbls/pretty-ts-errors  ⭐ 14006
+## yoavbls/pretty-ts-errors  ⭐ 14009
 [Repository](https://github.com/yoavbls/pretty-ts-errors)
 
 - <a href="https://github.com/yoavbls/pretty-ts-errors/issues/155">Feature request: Make errors copyable</a>  <code>#155</code> · updated: 2025-12-13 · created: 2025-12-06  
   labels: good first issue, feature request
 
-## zephyrproject-rtos/zephyr  ⭐ 13929
+## zephyrproject-rtos/zephyr  ⭐ 13949
 [Repository](https://github.com/zephyrproject-rtos/zephyr)
 
-- <a href="https://github.com/zephyrproject-rtos/zephyr/issues/101079">Stepper: Place en-gpios &amp; m0/m1-gpios in common data structure for all step/dir drivers</a>  <code>#101079</code> · updated: 2025-12-15 · created: 2025-12-15  
+- <a href="https://github.com/zephyrproject-rtos/zephyr/issues/101257">doc: Board catalog search should allow differentiating enabled and available components</a>  <code>#101257</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: Enhancement, area: Documentation, Good first issue
+- <a href="https://github.com/zephyrproject-rtos/zephyr/issues/101079">Stepper: Place en-gpios &amp; m0/m1-gpios in common data structure for all step/dir drivers</a>  <code>#101079</code> · updated: 2025-12-17 · created: 2025-12-15  
   labels: Enhancement, Good first issue, area: Stepper
+- <a href="https://github.com/zephyrproject-rtos/zephyr/issues/99981">[Coverity CID: 524461] Structurally dead code in lib/posix/options/mutex.c</a>  <code>#99981</code> · updated: 2025-12-17 · created: 2025-11-25  
+  labels: bug, priority: medium, Good first issue, Coverity, area: POSIX
 - <a href="https://github.com/zephyrproject-rtos/zephyr/issues/99979">[Coverity CID: 434615] Unsigned compared against 0 in subsys/bluetooth/host/shell/bt.c</a>  <code>#99979</code> · updated: 2025-12-11 · created: 2025-11-25  
   labels: bug, priority: medium, area: Bluetooth, Good first issue, Coverity, area: Bluetooth Host
-- <a href="https://github.com/zephyrproject-rtos/zephyr/issues/99981">[Coverity CID: 524461] Structurally dead code in lib/posix/options/mutex.c</a>  <code>#99981</code> · updated: 2025-12-05 · created: 2025-11-25  
-  labels: bug, priority: medium, Good first issue, Coverity, area: POSIX
 - <a href="https://github.com/zephyrproject-rtos/zephyr/issues/96494">doc: Documentation issue in &#x27;connectivity/bluetooth/api/l2cap&#x27;</a>  <code>#96494</code> · updated: 2025-09-29 · created: 2025-09-24  
   labels: Enhancement, area: Bluetooth, Good first issue, area: Bluetooth Host
 
-## thanos-io/thanos  ⭐ 13857
+## thanos-io/thanos  ⭐ 13864
 [Repository](https://github.com/thanos-io/thanos)
 
 - <a href="https://github.com/thanos-io/thanos/issues/8506">bucketweb labels for status row always visible</a>  <code>#8506</code> · updated: 2025-12-05 · created: 2025-10-01  
   labels: good first issue, component: bucket tools
 
-## diesel-rs/diesel  ⭐ 13834
-[Repository](https://github.com/diesel-rs/diesel)
-
-- <a href="https://github.com/diesel-rs/diesel/issues/4780">`fk_related_tables` not working correctly with two foreign keys to same table</a>  <code>#4780</code> · updated: 2025-12-06 · created: 2025-09-22  
-  labels: bug, help wanted, good first issue, cli, mentoring available
-- <a href="https://github.com/diesel-rs/diesel/issues/4840">Improve the documentation of our derives</a>  <code>#4840</code> · updated: 2025-12-02 · created: 2025-10-28  
-  labels: enhancement, help wanted, good first issue, documentation, mentoring available
-
-## pydantic/pydantic-ai  ⭐ 13793
+## pydantic/pydantic-ai  ⭐ 13861
 [Repository](https://github.com/pydantic/pydantic-ai)
 
 - <a href="https://github.com/pydantic/pydantic-ai/issues/3410">Support custom output validation failure handler as alternative to sending error to model</a>  <code>#3410</code> · updated: 2025-12-08 · created: 2025-11-13  
@@ -2472,7 +2458,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pydantic/pydantic-ai/issues/3430">Add OpenAI token counting</a>  <code>#3430</code> · updated: 2025-11-17 · created: 2025-11-14  
   labels: Feature request, good first issue
 
-## transmission/transmission  ⭐ 13793
+## diesel-rs/diesel  ⭐ 13836
+[Repository](https://github.com/diesel-rs/diesel)
+
+- <a href="https://github.com/diesel-rs/diesel/issues/4780">`fk_related_tables` not working correctly with two foreign keys to same table</a>  <code>#4780</code> · updated: 2025-12-06 · created: 2025-09-22  
+  labels: bug, help wanted, good first issue, cli, mentoring available
+- <a href="https://github.com/diesel-rs/diesel/issues/4840">Improve the documentation of our derives</a>  <code>#4840</code> · updated: 2025-12-02 · created: 2025-10-28  
+  labels: enhancement, help wanted, good first issue, documentation, mentoring available
+
+## transmission/transmission  ⭐ 13805
 [Repository](https://github.com/transmission/transmission)
 
 - <a href="https://github.com/transmission/transmission/issues/7926">transmission-remote output rows do not align with columns when speed &gt;= 10 MB</a>  <code>#7926</code> · updated: 2025-12-14 · created: 2025-12-13  
@@ -2480,7 +2474,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/transmission/transmission/issues/7791">Precede file listing heading with ID</a>  <code>#7791</code> · updated: 2025-12-11 · created: 2025-11-10  
   labels: scope:remote, pr welcome, good first issue, type:ui
 
-## stan-smith/FossFLOW  ⭐ 13717
+## stan-smith/FossFLOW  ⭐ 13751
 [Repository](https://github.com/stan-smith/FossFLOW)
 
 - <a href="https://github.com/stan-smith/FossFLOW/issues/175">Feature: Folders</a>  <code>#175</code> · updated: 2025-12-03 · created: 2025-12-02  
@@ -2488,33 +2482,35 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/stan-smith/FossFLOW/issues/174">Feature: password</a>  <code>#174</code> · updated: 2025-12-03 · created: 2025-12-02  
   labels: enhancement, good first issue
 
-## semgrep/semgrep  ⭐ 13612
+## semgrep/semgrep  ⭐ 13643
 [Repository](https://github.com/semgrep/semgrep)
 
+- <a href="https://github.com/semgrep/semgrep/issues/11373">Semgrep scan --test does not honor timeouts, jobs and memory limits</a>  <code>#11373</code> · updated: 2025-12-16 · created: 2025-12-14  
+  labels: bug, good first issue, priority:low, cli
 - <a href="https://github.com/semgrep/semgrep/issues/11342">Unhandled Exception (IndexError) on `semgrep ci` When Git Remote Not Set</a>  <code>#11342</code> · updated: 2025-12-11 · created: 2025-12-03  
   labels: bug, good first issue, cli
 
-## keploy/keploy  ⭐ 13610
+## keploy/keploy  ⭐ 13622
 [Repository](https://github.com/keploy/keploy)
 
+- <a href="https://github.com/keploy/keploy/issues/3351">[feature]: remove inclusion of delay time in the test run summary</a>  <code>#3351</code> · updated: 2025-12-18 · created: 2025-12-09  
+  labels: Good First Issue, Go, CLI
+- <a href="https://github.com/keploy/keploy/issues/3360">[bug]: ip not found error when run with docker compose up</a>  <code>#3360</code> · updated: 2025-12-17 · created: 2025-12-10  
+  labels: bug, Good First Issue, Help Wanted, keploy
+- <a href="https://github.com/keploy/keploy/issues/3293">[feature]: add skeleton loaders in the blog website for better user experience</a>  <code>#3293</code> · updated: 2025-12-16 · created: 2025-11-20  
+  labels: Enhancement, Good First Issue, blog-website, HACKTOBERFEST, HACKTOBERFEST2025
+- <a href="https://github.com/keploy/keploy/issues/3084">[blog-website] Add Modern UI Components to Landing Page</a>  <code>#3084</code> · updated: 2025-12-16 · created: 2025-10-01  
+  labels: Good First Issue, blog-website, nextjs, OSS, HACKTOBERFEST, HACKTOBERFEST2025
 - <a href="https://github.com/keploy/keploy/issues/3076">[writers-program] Add Resources Page for Writers</a>  <code>#3076</code> · updated: 2025-12-14 · created: 2025-10-01  
   labels: Good First Issue, nextjs, OSS, HACKTOBERFEST, HACKTOBERFEST2025
 - <a href="https://github.com/keploy/keploy/issues/3075">[writers-program] Add Dark/Light Mode Support with Toggle</a>  <code>#3075</code> · updated: 2025-12-14 · created: 2025-10-01  
   labels: Good First Issue, nextjs, OSS, HACKTOBERFEST, HACKTOBERFEST2025
-- <a href="https://github.com/keploy/keploy/issues/3360">[bug]: ip not found error when run with docker compose up</a>  <code>#3360</code> · updated: 2025-12-13 · created: 2025-12-10  
-  labels: bug, Good First Issue, Help Wanted, keploy
-- <a href="https://github.com/keploy/keploy/issues/3351">[feature]: remove inclusion of delay time in the test run summary</a>  <code>#3351</code> · updated: 2025-12-11 · created: 2025-12-09  
-  labels: Good First Issue, Go, CLI
 - <a href="https://github.com/keploy/keploy/issues/3219">[feature]: ignore mockery generated files from go coverage calculation</a>  <code>#3219</code> · updated: 2025-12-02 · created: 2025-11-05  
   labels: Enhancement, Good First Issue, Help Wanted, integration-testing
 - <a href="https://github.com/keploy/keploy/issues/3298">[feature]: add a sticky share to social media component in blog website</a>  <code>#3298</code> · updated: 2025-11-29 · created: 2025-11-21  
   labels: Good First Issue, blog-website, nextjs, OSS, api-fellowship
 - <a href="https://github.com/keploy/keploy/issues/3069">[writers-program] Migrate Writers site to Next.js 15 + TypeScript + Tailwind</a>  <code>#3069</code> · updated: 2025-11-28 · created: 2025-09-30  
   labels: Good First Issue, nextjs, OSS, HACKTOBERFEST, HACKTOBERFEST2025
-- <a href="https://github.com/keploy/keploy/issues/3293">[feature]: add skeleton loaders in the blog website for better user experience</a>  <code>#3293</code> · updated: 2025-11-27 · created: 2025-11-20  
-  labels: Enhancement, Good First Issue, blog-website, HACKTOBERFEST, HACKTOBERFEST2025
-- <a href="https://github.com/keploy/keploy/issues/3084">[blog-website] Add Modern UI Components to Landing Page</a>  <code>#3084</code> · updated: 2025-11-27 · created: 2025-10-01  
-  labels: Good First Issue, blog-website, nextjs, OSS, HACKTOBERFEST, HACKTOBERFEST2025
 - <a href="https://github.com/keploy/keploy/issues/3071">[writers-program] Modern UI Components for Key Sections(Offers, Flow, Evaluation, Guidelines)</a>  <code>#3071</code> · updated: 2025-11-25 · created: 2025-09-30  
   labels: Good First Issue, nextjs, OSS, HACKTOBERFEST, HACKTOBERFEST2025
 - <a href="https://github.com/keploy/keploy/issues/3070">[writers-program] Improve Typography, Fonts, and Information Hierarchy (Post-Migration)</a>  <code>#3070</code> · updated: 2025-11-25 · created: 2025-09-30  
@@ -2554,13 +2550,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/keploy/keploy/issues/3035">[feature]: fail lint if keploy/integrations is present in manifest files</a>  <code>#3035</code> · updated: 2025-09-25 · created: 2025-09-23  
   labels: Enhancement, Good First Issue, keploy, HACKTOBERFEST, HACKTOBERFEST2025
 
-## denoland/fresh  ⭐ 13586
+## denoland/fresh  ⭐ 13598
 [Repository](https://github.com/denoland/fresh)
 
 - <a href="https://github.com/denoland/fresh/issues/3591">Suggested v2 docs reorganization</a>  <code>#3591</code> · updated: 2025-11-03 · created: 2025-10-30  
   labels: good first issue, docs
 
-## winapps-org/winapps  ⭐ 13485
+## winapps-org/winapps  ⭐ 13523
 [Repository](https://github.com/winapps-org/winapps)
 
 - <a href="https://github.com/winapps-org/winapps/issues/825">HiDPI / fractional scaling support per-monitor</a>  <code>#825</code> · updated: 2025-12-01 · created: 2025-11-19  
@@ -2568,33 +2564,27 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/winapps-org/winapps/issues/786">Disable Windows Snapping feature</a>  <code>#786</code> · updated: 2025-11-18 · created: 2025-10-10  
   labels: good first issue, windows
 
-## coleam00/Archon  ⭐ 13431
-[Repository](https://github.com/coleam00/Archon)
-
-- <a href="https://github.com/coleam00/Archon/issues/694">Create reusable useAutoSave hook for inline editing components</a>  <code>#694</code> · updated: 2025-09-18 · created: 2025-09-18  
-  labels: enhancement, good first issue, refactor
-
-## cert-manager/cert-manager  ⭐ 13392
+## cert-manager/cert-manager  ⭐ 13401
 [Repository](https://github.com/cert-manager/cert-manager)
 
-- <a href="https://github.com/cert-manager/cert-manager/issues/8257">Update helm install NOTES</a>  <code>#8257</code> · updated: 2025-11-25 · created: 2025-11-16  
+- <a href="https://github.com/cert-manager/cert-manager/issues/8257">Update helm install NOTES</a>  <code>#8257</code> · updated: 2025-12-18 · created: 2025-11-16  
   labels: good first issue
 - <a href="https://github.com/cert-manager/cert-manager/issues/8241">PrivateKeyEncoding PKCS1 is misleading for EC keys</a>  <code>#8241</code> · updated: 2025-11-18 · created: 2025-11-10  
   labels: good first issue, priority/backlog
 
-## streetwriters/notesnook  ⭐ 13293
+## streetwriters/notesnook  ⭐ 13329
 [Repository](https://github.com/streetwriters/notesnook)
 
 - <a href="https://github.com/streetwriters/notesnook/issues/8761">Batch-export to PDF</a>  <code>#8761</code> · updated: 2025-11-20 · created: 2025-10-12  
   labels: Type: Feature Request, good first issue
 
-## optuna/optuna  ⭐ 13216
+## optuna/optuna  ⭐ 13243
 [Repository](https://github.com/optuna/optuna)
 
-- <a href="https://github.com/optuna/optuna/issues/6305">Use f-string and `{var_name=}` instead of `.format` and `var_name={var_name}`</a>  <code>#6305</code> · updated: 2025-12-15 · created: 2025-10-17  
+- <a href="https://github.com/optuna/optuna/issues/6305">Use f-string and `{var_name=}` instead of `.format` and `var_name={var_name}`</a>  <code>#6305</code> · updated: 2025-12-17 · created: 2025-10-17  
   labels: code-fix, good first issue
 
-## github-linguist/linguist  ⭐ 13191
+## github-linguist/linguist  ⭐ 13194
 [Repository](https://github.com/github-linguist/linguist)
 
 - <a href="https://github.com/github-linguist/linguist/issues/7630">Grammar is required for CSV syntax highlighting.</a>  <code>#7630</code> · updated: 2025-10-22 · created: 2025-10-10  
@@ -2602,7 +2592,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/github-linguist/linguist/issues/7639">Golang template support</a>  <code>#7639</code> · updated: 2025-10-21 · created: 2025-10-17  
   labels: Add Language, Good First Issue
 
-## kysely-org/kysely  ⭐ 13120
+## kysely-org/kysely  ⭐ 13143
 [Repository](https://github.com/kysely-org/kysely)
 
 - <a href="https://github.com/kysely-org/kysely/issues/1623">Support DROP COLUMN IF EXISTS</a>  <code>#1623</code> · updated: 2025-10-30 · created: 2025-10-29  
@@ -2614,28 +2604,22 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/kysely-org/kysely/issues/1593">document `isSafeImmediate` and `parseSafeImmediateValue` behavior in `eb.case()`.</a>  <code>#1593</code> · updated: 2025-09-21 · created: 2025-09-20  
   labels: documentation, good first issue, internal
 
-## wasp-lang/open-saas  ⭐ 13065
+## wasp-lang/open-saas  ⭐ 13081
 [Repository](https://github.com/wasp-lang/open-saas)
 
 - <a href="https://github.com/wasp-lang/open-saas/issues/583">Backticks on Roadmap on landing page are messed up</a>  <code>#583</code> · updated: 2025-11-28 · created: 2025-11-27  
   labels: good first issue
 
-## stenciljs/core  ⭐ 12980
+## stenciljs/core  ⭐ 12981
 [Repository](https://github.com/stenciljs/core)
 
-- <a href="https://github.com/stenciljs/core/issues/6475">bug: in the --dev environment, the globalStyle style in stencil.config is not loaded.</a>  <code>#6475</code> · updated: 2025-12-11 · created: 2025-12-10  
-  labels: Good First Issue, Bug: Validated, Help Wanted
-- <a href="https://github.com/stenciljs/core/issues/6470">bug: there is no way to mock shadow-root in toEqualHtml result when delegatesFocus is true</a>  <code>#6470</code> · updated: 2025-12-11 · created: 2025-12-08  
-  labels: Good First Issue, Bug: Validated, Help Wanted
-- <a href="https://github.com/stenciljs/core/issues/6471">bug: Stencil renders invalid CSS to DOM with pseudo-element selectors in nested media queries</a>  <code>#6471</code> · updated: 2025-12-10 · created: 2025-12-08  
-  labels: Good First Issue, Has Workaround, Bug: Validated, Help Wanted
 - <a href="https://github.com/stenciljs/core/issues/6407">chore: rename `cmp.test.tsx` files in `wdio` directory to have unique names for debugging purposes</a>  <code>#6407</code> · updated: 2025-10-10 · created: 2025-10-02  
   labels: Good First Issue, Help Wanted
 
-## thunderbird/thunderbird-android  ⭐ 12864
+## thunderbird/thunderbird-android  ⭐ 12881
 [Repository](https://github.com/thunderbird/thunderbird-android)
 
-- <a href="https://github.com/thunderbird/thunderbird-android/issues/10229">Line break fractures name</a>  <code>#10229</code> · updated: 2025-12-16 · created: 2025-12-09  
+- <a href="https://github.com/thunderbird/thunderbird-android/issues/10229">Line break fractures name</a>  <code>#10229</code> · updated: 2025-12-17 · created: 2025-12-09  
   labels: type: bug, good first issue, type: UI/UX
 - <a href="https://github.com/thunderbird/thunderbird-android/issues/10257">Edge-to-edge regression: ServerValidationToolbarScreen and CreateAccountScreen missing to account display cutout</a>  <code>#10257</code> · updated: 2025-12-12 · created: 2025-12-12  
   labels: type: bug, good first issue, type: regression
@@ -2646,7 +2630,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/thunderbird/thunderbird-android/issues/10033">Unable to transfer profiles from chromebook</a>  <code>#10033</code> · updated: 2025-11-03 · created: 2025-10-30  
   labels: type: bug, good first issue
 
-## mozilla-mobile/firefox-ios  ⭐ 12793
+## mozilla-mobile/firefox-ios  ⭐ 12796
 [Repository](https://github.com/mozilla-mobile/firefox-ios)
 
 - <a href="https://github.com/mozilla-mobile/firefox-ios/issues/29805">[Glean] Migrate TermsOfUseTelemetry to use the GleanWrapper instead</a>  <code>#29805</code> · updated: 2025-12-09 · created: 2025-10-03  
@@ -2668,7 +2652,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/mozilla-mobile/firefox-ios/issues/29695">[Edit Bookmark][Edit folder] &quot;Save In&quot; section heading is sticky and moves across the page along with scroll down</a>  <code>#29695</code> · updated: 2025-10-13 · created: 2025-09-29  
   labels: Contributor OK, Good first issue
 
-## rust-lang/rust-clippy  ⭐ 12735
+## rust-lang/rust-clippy  ⭐ 12743
 [Repository](https://github.com/rust-lang/rust-clippy)
 
 - <a href="https://github.com/rust-lang/rust-clippy/issues/16003">`needless_range_loop` suggestion removes panics</a>  <code>#16003</code> · updated: 2025-12-13 · created: 2025-11-01  
@@ -2686,7 +2670,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/rust-lang/rust-clippy/issues/15829">`unnecessary_lazy_evaluations`: lint `{Option,Result}::map_or_else`</a>  <code>#15829</code> · updated: 2025-10-25 · created: 2025-10-06  
   labels: good first issue, C-enhancement
 
-## aws/aws-cdk  ⭐ 12577
+## aws/aws-cdk  ⭐ 12584
 [Repository](https://github.com/aws/aws-cdk)
 
 - <a href="https://github.com/aws/aws-cdk/issues/36090">codebuild : macOS 15 base image support</a>  <code>#36090</code> · updated: 2025-12-02 · created: 2025-11-18  
@@ -2701,16 +2685,12 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue, p2, feature-request, @aws-cdk/aws-rds, effort/small
 - <a href="https://github.com/aws/aws-cdk/issues/35696">(apigatewayv2): Support cross-account Lambda Authorizers</a>  <code>#35696</code> · updated: 2025-10-11 · created: 2025-10-08  
   labels: good first issue, p2, feature-request, @aws-cdk/aws-apigatewayv2
-- <a href="https://github.com/aws/aws-cdk/issues/35516">awsapigatewayv2: Expose disableExecuteApiEndpoint option in WebSocketApi configuration</a>  <code>#35516</code> · updated: 2025-10-10 · created: 2025-09-17  
-  labels: good first issue, p2, feature-request, effort/medium, @aws-cdk/aws-apigatewayv2
 - <a href="https://github.com/aws/aws-cdk/issues/35654">(cdk pipelines): cdk pipeline support stacks should delete and not orphan s3 buckets</a>  <code>#35654</code> · updated: 2025-10-02 · created: 2025-10-01  
   labels: bug, good first issue, p2, effort/medium, @aws-cdk/pipelines
 - <a href="https://github.com/aws/aws-cdk/issues/35632">aws-s3-deployment: custom `logGroup` of `BucketDeployment` is prevented from deletion</a>  <code>#35632</code> · updated: 2025-10-01 · created: 2025-09-30  
   labels: bug, good first issue, p2, effort/small, @aws-cdk/aws-s3-deployment
 - <a href="https://github.com/aws/aws-cdk/issues/35566">aws-sagemaker-alpha: Add ContainerStartupHealthCheckTimeoutInSeconds to InstanceProductionVariantProps</a>  <code>#35566</code> · updated: 2025-09-25 · created: 2025-09-24  
   labels: good first issue, p2, feature-request, aws-cdk-lib
-- <a href="https://github.com/aws/aws-cdk/issues/35524">(aws-servicecatalogappregistry-alpha): Add retrieving of attributes from construct</a>  <code>#35524</code> · updated: 2025-09-23 · created: 2025-09-18  
-  labels: good first issue, p2, feature-request, effort/small, @aws-cdk/aws-servicecatalogappregistry
 
 ## elastic/beats  ⭐ 12560
 [Repository](https://github.com/elastic/beats)
@@ -2718,19 +2698,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/elastic/beats/issues/46980">Drop support for insecure PEM-level encryption for private keys in TLS</a>  <code>#46980</code> · updated: 2025-10-30 · created: 2025-10-08  
   labels: enhancement, libbeat, good first issue, Team:Elastic-Agent-Data-Plane
 
-## antvis/G2  ⭐ 12483
-[Repository](https://github.com/antvis/G2)
-
-- <a href="https://github.com/antvis/G2/issues/7139">[Feat]: 柱状图hover到空白区域怎么不显示tooltip</a>  <code>#7139</code> · updated: 2025-09-24 · created: 2025-09-24  
-  labels: OSCP, feature 💡, good first issue
-
-## zitadel/zitadel  ⭐ 12467
+## zitadel/zitadel  ⭐ 12487
 [Repository](https://github.com/zitadel/zitadel)
 
 - <a href="https://github.com/zitadel/zitadel/issues/10877">Clean up v2beta logic in `backend` sub-packages</a>  <code>#10877</code> · updated: 2025-10-27 · created: 2025-10-09  
   labels: good first issue, service-layer
 
-## prowler-cloud/prowler  ⭐ 12444
+## antvis/G2  ⭐ 12484
+[Repository](https://github.com/antvis/G2)
+
+- <a href="https://github.com/antvis/G2/issues/7139">[Feat]: 柱状图hover到空白区域怎么不显示tooltip</a>  <code>#7139</code> · updated: 2025-09-24 · created: 2025-09-24  
+  labels: OSCP, feature 💡, good first issue
+
+## prowler-cloud/prowler  ⭐ 12456
 [Repository](https://github.com/prowler-cloud/prowler)
 
 - <a href="https://github.com/prowler-cloud/prowler/issues/8832">Allow the connection scheme (redis or rediss) to be defined using an environment variable to support ElastiCache with Valkey and SSL.</a>  <code>#8832</code> · updated: 2025-11-06 · created: 2025-10-02  
@@ -2740,15 +2720,17 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/prowler-cloud/prowler/issues/8781">Add HIPAA compliance framework for Azure</a>  <code>#8781</code> · updated: 2025-09-30 · created: 2025-09-29  
   labels: feature-request, good first issue, compliance
 
-## plantuml/plantuml  ⭐ 12411
+## plantuml/plantuml  ⭐ 12424
 [Repository](https://github.com/plantuml/plantuml)
 
 - <a href="https://github.com/plantuml/plantuml/issues/2420">[Doc] Add how to update [alpha]doc on `Readme` or `Contribution` pages</a>  <code>#2420</code> · updated: 2025-11-07 · created: 2025-11-07  
   labels: documentation, good first issue
 
-## organicmaps/organicmaps  ⭐ 12312
+## organicmaps/organicmaps  ⭐ 12326
 [Repository](https://github.com/organicmaps/organicmaps)
 
+- <a href="https://github.com/organicmaps/organicmaps/issues/11896">Progress rollback when downloading maps</a>  <code>#11896</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Good first issue, Downloader, UI
 - <a href="https://github.com/organicmaps/organicmaps/issues/11823">Unpleasant logo shift when launching the application</a>  <code>#11823</code> · updated: 2025-12-08 · created: 2025-12-02  
   labels: Good first issue, Android, UI
 - <a href="https://github.com/organicmaps/organicmaps/issues/11795">GEO URL generation</a>  <code>#11795</code> · updated: 2025-11-29 · created: 2025-11-26  
@@ -2768,16 +2750,16 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/organicmaps/organicmaps/issues/11424">[android] Rewrite deprecated code for edge-to-edge</a>  <code>#11424</code> · updated: 2025-09-29 · created: 2025-09-25  
   labels: Good first issue, Android, UI
 
-## web-infra-dev/rspack  ⭐ 12304
+## web-infra-dev/rspack  ⭐ 12310
 [Repository](https://github.com/web-infra-dev/rspack)
 
 - <a href="https://github.com/web-infra-dev/rspack/issues/11761">[PR welcome]: Fix Rslint lint issues in the Rspack codebase</a>  <code>#11761</code> · updated: 2025-12-11 · created: 2025-09-25  
   labels: good first issue, PR welcome
 
-## trinodb/trino  ⭐ 12277
+## trinodb/trino  ⭐ 12300
 [Repository](https://github.com/trinodb/trino)
 
-- <a href="https://github.com/trinodb/trino/issues/27600">Migrate JDBC tests from testng to JUnit</a>  <code>#27600</code> · updated: 2025-12-14 · created: 2025-12-10  
+- <a href="https://github.com/trinodb/trino/issues/27600">Migrate JDBC tests from testng to JUnit</a>  <code>#27600</code> · updated: 2025-12-16 · created: 2025-12-10  
   labels: good first issue, test, jdbc
 - <a href="https://github.com/trinodb/trino/issues/27532">CLI: accept repeated `--file` option and run all the files sequentially</a>  <code>#27532</code> · updated: 2025-12-03 · created: 2025-12-02  
   labels: enhancement, good first issue
@@ -2786,45 +2768,49 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/trinodb/trino/issues/26914">Improve performance: eliminate non-precompiled Regex string patterns</a>  <code>#26914</code> · updated: 2025-11-09 · created: 2025-10-10  
   labels: good first issue
 
-## juice-shop/juice-shop  ⭐ 12147
+## juice-shop/juice-shop  ⭐ 12171
 [Repository](https://github.com/juice-shop/juice-shop)
 
-- <a href="https://github.com/juice-shop/juice-shop/issues/2940">[⭐] Wallet-releated challenges</a>  <code>#2940</code> · updated: 2025-12-15 · created: 2025-12-15  
+- <a href="https://github.com/juice-shop/juice-shop/issues/2940">[⭐] Wallet-releated challenges</a>  <code>#2940</code> · updated: 2025-12-18 · created: 2025-12-15  
   labels: challenge, good first issue
 - <a href="https://github.com/juice-shop/juice-shop/issues/2875">[🚀] Highlight Coding Challenges More by Including A Coding Challenge Button in Challenge Solved Notifications</a>  <code>#2875</code> · updated: 2025-12-07 · created: 2025-11-25  
   labels: good first issue, user interface, feature
 
-## luanti-org/luanti  ⭐ 12141
+## luanti-org/luanti  ⭐ 12144
 [Repository](https://github.com/luanti-org/luanti)
 
 - <a href="https://github.com/luanti-org/luanti/issues/16599">`/setpassword` can lock you out of your singleplayer world</a>  <code>#16599</code> · updated: 2025-11-13 · created: 2025-10-21  
   labels: Bug, Low priority, good first issue
 
-## opensearch-project/OpenSearch  ⭐ 12046
+## opensearch-project/OpenSearch  ⭐ 12061
 [Repository](https://github.com/opensearch-project/OpenSearch)
 
 - <a href="https://github.com/opensearch-project/OpenSearch/issues/19750">[Feature Request][GRPC] Add automated benchmark tests for GRPC APIs</a>  <code>#19750</code> · updated: 2025-11-19 · created: 2025-10-23  
   labels: enhancement, good first issue, Search:Performance
 - <a href="https://github.com/opensearch-project/OpenSearch/issues/19370">[Feature Request] Migrate gRPC transport executor to ForkJoinPool for improved performance</a>  <code>#19370</code> · updated: 2025-10-18 · created: 2025-09-22  
   labels: enhancement, good first issue, Search:Performance
-- <a href="https://github.com/opensearch-project/OpenSearch/issues/19342">[Feature Request] Make multi-node gradle test clusters work with IntelliJ debugger</a>  <code>#19342</code> · updated: 2025-10-06 · created: 2025-09-19  
-  labels: enhancement, good first issue, Build
 - <a href="https://github.com/opensearch-project/OpenSearch/issues/19364">[Feature Request] Automate detection of unused dependencies</a>  <code>#19364</code> · updated: 2025-09-24 · created: 2025-09-22  
   labels: enhancement, good first issue, Build
 
-## CleverRaven/Cataclysm-DDA  ⭐ 11846
+## CleverRaven/Cataclysm-DDA  ⭐ 11864
 [Repository](https://github.com/CleverRaven/Cataclysm-DDA)
 
 - <a href="https://github.com/CleverRaven/Cataclysm-DDA/issues/83731">Soapy water blocks washing machine use</a>  <code>#83731</code> · updated: 2025-11-14 · created: 2025-11-11  
   labels: Good First Issue, (S2 - Confirmed), [JSON]
 
-## coder/coder  ⭐ 11737
+## coder/coder  ⭐ 11772
 [Repository](https://github.com/coder/coder)
 
 - <a href="https://github.com/coder/coder/issues/20050">Light Theme setting not respected until Appearance page opened</a>  <code>#20050</code> · updated: 2025-10-15 · created: 2025-09-30  
   labels: site, s2, good first issue
 
-## bitwarden/clients  ⭐ 11707
+## modelscope/ms-swift  ⭐ 11733
+[Repository](https://github.com/modelscope/ms-swift)
+
+- <a href="https://github.com/modelscope/ms-swift/issues/6233">[讨论] 大家有遇到过sft开关deepspeed效果差异大的情况吗</a>  <code>#6233</code> · updated: 2025-10-21 · created: 2025-10-21  
+  labels: good first issue
+
+## bitwarden/clients  ⭐ 11727
 [Repository](https://github.com/bitwarden/clients)
 
 - <a href="https://github.com/bitwarden/clients/issues/17810">Vertical misalignment around the Compact mode &quot;Beta&quot; badge (with the corresponding text - and in combination with the &quot;Extension width&quot; component)</a>  <code>#17810</code> · updated: 2025-12-11 · created: 2025-12-03  
@@ -2836,19 +2822,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/bitwarden/clients/issues/16746">Remove obsolete LockScreen config from Microsoft store installation</a>  <code>#16746</code> · updated: 2025-10-06 · created: 2025-10-06  
   labels: bug, good first issue, desktop
 
-## modelscope/ms-swift  ⭐ 11661
-[Repository](https://github.com/modelscope/ms-swift)
-
-- <a href="https://github.com/modelscope/ms-swift/issues/6233">[讨论] 大家有遇到过sft开关deepspeed效果差异大的情况吗</a>  <code>#6233</code> · updated: 2025-10-21 · created: 2025-10-21  
-  labels: good first issue
-
-## OpenRefine/OpenRefine  ⭐ 11648
+## OpenRefine/OpenRefine  ⭐ 11657
 [Repository](https://github.com/OpenRefine/OpenRefine)
 
 - <a href="https://github.com/OpenRefine/OpenRefine/issues/7573">Apply Operations dialog columns not aligned</a>  <code>#7573</code> · updated: 2025-12-11 · created: 2025-12-10  
   labels: Type: Bug, Good First Issue, Theme: UI/Visual
 
-## RT-Thread/rt-thread  ⭐ 11612
+## RT-Thread/rt-thread  ⭐ 11619
 [Repository](https://github.com/RT-Thread/rt-thread)
 
 - <a href="https://github.com/RT-Thread/rt-thread/issues/10895">[Feature] 为测试用例添加功能性注释说明</a>  <code>#10895</code> · updated: 2025-12-11 · created: 2025-11-05  
@@ -2862,7 +2842,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/reactjs/react.dev/issues/8110">[Bug]: Images hosted on imgur now no longer work in the UK</a>  <code>#8110</code> · updated: 2025-11-08 · created: 2025-10-30  
   labels: good first issue, bug: confirmed
 
-## WordPress/gutenberg  ⭐ 11479
+## taskflow/taskflow  ⭐ 11482
+[Repository](https://github.com/taskflow/taskflow)
+
+- <a href="https://github.com/taskflow/taskflow/issues/746">Performance regression in Taskflow 3.10</a>  <code>#746</code> · updated: 2025-12-19 · created: 2025-12-17  
+  labels: good first issue
+- <a href="https://github.com/taskflow/taskflow/issues/732">tf::Semaphore with exception may cause deadlocks in some situations</a>  <code>#732</code> · updated: 2025-12-10 · created: 2025-10-28  
+  labels: bug, help wanted, good first issue
+
+## WordPress/gutenberg  ⭐ 11481
 [Repository](https://github.com/WordPress/gutenberg)
 
 - <a href="https://github.com/WordPress/gutenberg/issues/72265">Custom font upload not working</a>  <code>#72265</code> · updated: 2025-12-04 · created: 2025-10-11  
@@ -2872,19 +2860,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/WordPress/gutenberg/issues/72318">Global blockGap property is not overridable in style variations</a>  <code>#72318</code> · updated: 2025-11-27 · created: 2025-10-14  
   labels: [Type] Bug, Good First Issue, [Feature] Block Style Variations
 
-## taskflow/taskflow  ⭐ 11472
-[Repository](https://github.com/taskflow/taskflow)
-
-- <a href="https://github.com/taskflow/taskflow/issues/732">tf::Semaphore with exception may cause deadlocks in some situations</a>  <code>#732</code> · updated: 2025-12-10 · created: 2025-10-28  
-  labels: bug, help wanted, good first issue
-
-## dotnet/BenchmarkDotNet  ⭐ 11298
+## dotnet/BenchmarkDotNet  ⭐ 11303
 [Repository](https://github.com/dotnet/BenchmarkDotNet)
 
 - <a href="https://github.com/dotnet/BenchmarkDotNet/issues/2919">Job summary does not sort naturally by runtime version</a>  <code>#2919</code> · updated: 2025-12-14 · created: 2025-12-12  
   labels: up-for-grabs, good first issue
 
-## anchore/grype  ⭐ 11205
+## logto-io/logto  ⭐ 11264
+[Repository](https://github.com/logto-io/logto)
+
+- <a href="https://github.com/logto-io/logto/issues/8052">bug: file-storage-provider: When using Ali OSS, the publicUrl does not take effect.</a>  <code>#8052</code> · updated: 2025-12-17 · created: 2025-12-08  
+  labels: feature-request, good-first-issue
+
+## anchore/grype  ⭐ 11222
 [Repository](https://github.com/anchore/grype)
 
 - <a href="https://github.com/anchore/grype/issues/3037">Treat uppercase V prefixes the same as lowercase v prefixes in version comparison</a>  <code>#3037</code> · updated: 2025-11-19 · created: 2025-11-10  
@@ -2892,13 +2880,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/anchore/grype/issues/2967">Grype doesn&#x27;t recognize debian component when `&quot;group&quot; : &quot;debian&quot;` is specified</a>  <code>#2967</code> · updated: 2025-10-14 · created: 2025-10-01  
   labels: bug, good-first-issue
 
-## doocs/md  ⭐ 11185
+## doocs/md  ⭐ 11205
 [Repository](https://github.com/doocs/md)
 
 - <a href="https://github.com/doocs/md/issues/1108">TOC 目录结构增强</a>  <code>#1108</code> · updated: 2025-11-06 · created: 2025-10-25  
   labels: enhancement, good first issue
 
-## orhun/git-cliff  ⭐ 11095
+## orhun/git-cliff  ⭐ 11131
 [Repository](https://github.com/orhun/git-cliff)
 
 - <a href="https://github.com/orhun/git-cliff/issues/1313">Is it possible to overide skip_tags with CLI options?</a>  <code>#1313</code> · updated: 2025-12-05 · created: 2025-12-04  
@@ -2908,25 +2896,29 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/orhun/git-cliff/issues/1273">Error from missing default_branch from GitLab</a>  <code>#1273</code> · updated: 2025-10-29 · created: 2025-09-30  
   labels: bug, good first issue
 
-## StarRocks/starrocks  ⭐ 11084
+## StarRocks/starrocks  ⭐ 11109
 [Repository](https://github.com/StarRocks/starrocks)
 
 - <a href="https://github.com/StarRocks/starrocks/issues/66720">Support casting struct/array/map to JSON</a>  <code>#66720</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: type/enhancement, good first issue
 - <a href="https://github.com/StarRocks/starrocks/issues/66515">Optimize lock granularity at com.starrocks.service.FrontendServiceImpl#describeTable</a>  <code>#66515</code> · updated: 2025-12-09 · created: 2025-12-09  
   labels: type/enhancement, good first issue
-- <a href="https://github.com/StarRocks/starrocks/issues/63293">Fix incorrect `num_rows()` in `ZoneMapDetail` - currently returns segment rows instead of zone rows</a>  <code>#63293</code> · updated: 2025-10-12 · created: 2025-09-19  
-  labels: type/enhancement, good first issue
 - <a href="https://github.com/StarRocks/starrocks/issues/63599">Support analyze profile from last_query()</a>  <code>#63599</code> · updated: 2025-09-28 · created: 2025-09-26  
   labels: type/enhancement, good first issue
 
-## grafana/pyroscope  ⭐ 11084
+## grafana/pyroscope  ⭐ 11096
 [Repository](https://github.com/grafana/pyroscope)
 
 - <a href="https://github.com/grafana/pyroscope/issues/4557">Replace minio with alternatives</a>  <code>#4557</code> · updated: 2025-10-24 · created: 2025-10-23  
   labels: good first issue, helm
 
-## google/go-github  ⭐ 11049
+## modelcontextprotocol/typescript-sdk  ⭐ 11057
+[Repository](https://github.com/modelcontextprotocol/typescript-sdk)
+
+- <a href="https://github.com/modelcontextprotocol/typescript-sdk/issues/1132">Question: Tool list changed notification</a>  <code>#1132</code> · updated: 2025-12-16 · created: 2025-11-18  
+  labels: documentation, good first issue, question, P3
+
+## google/go-github  ⭐ 11052
 [Repository](https://github.com/google/go-github)
 
 - <a href="https://github.com/google/go-github/issues/3878">Add support for URL custom properties</a>  <code>#3878</code> · updated: 2025-12-12 · created: 2025-12-12  
@@ -2934,31 +2926,29 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/google/go-github/issues/3849">Release Asset Upload URL is generated statically</a>  <code>#3849</code> · updated: 2025-12-04 · created: 2025-12-03  
   labels: enhancement, good first issue
 
-## modelcontextprotocol/typescript-sdk  ⭐ 11027
-[Repository](https://github.com/modelcontextprotocol/typescript-sdk)
-
-- <a href="https://github.com/modelcontextprotocol/typescript-sdk/issues/1162">Allow customizable reconnection behavior for non-persistent clients</a>  <code>#1162</code> · updated: 2025-12-08 · created: 2025-11-24  
-  labels: enhancement, good first issue, ready for work, P1, v2
-- <a href="https://github.com/modelcontextprotocol/typescript-sdk/issues/951">Prefer token endpoint auth method obtained during OAuth client registration</a>  <code>#951</code> · updated: 2025-11-20 · created: 2025-09-18  
-  labels: bug, good first issue, ready for work, P2, auth
-
-## bootandy/dust  ⭐ 10961
+## bootandy/dust  ⭐ 10966
 [Repository](https://github.com/bootandy/dust)
 
 - <a href="https://github.com/bootandy/dust/issues/536">Config file does not support the `collapse` option</a>  <code>#536</code> · updated: 2025-11-20 · created: 2025-11-19  
   labels: good first issue
 
-## PipedreamHQ/pipedream  ⭐ 10891
+## PipedreamHQ/pipedream  ⭐ 10899
 [Repository](https://github.com/PipedreamHQ/pipedream)
 
+- <a href="https://github.com/PipedreamHQ/pipedream/issues/19180">[ACTION] Front - Articles</a>  <code>#19180</code> · updated: 2025-12-18 · created: 2025-11-21  
+  labels: enhancement, help wanted, good first issue, action, triaged
+- <a href="https://github.com/PipedreamHQ/pipedream/issues/19521">[ACTION] iCal Calendar Management (Create, Update, Delete Events)</a>  <code>#19521</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: enhancement, help wanted, good first issue, action
+- <a href="https://github.com/PipedreamHQ/pipedream/issues/19496">[ACTION] Cal.com - Create a booking</a>  <code>#19496</code> · updated: 2025-12-17 · created: 2025-12-15  
+  labels: enhancement, help wanted, good first issue, action
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/19500">[ACTION] CloudConvert - Create Job</a>  <code>#19500</code> · updated: 2025-12-16 · created: 2025-12-16  
   labels: enhancement, help wanted, good first issue, action, triaged
+- <a href="https://github.com/PipedreamHQ/pipedream/issues/19508">[ACTION] Aircall - Retrieve Transcription</a>  <code>#19508</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: enhancement, help wanted, good first issue, action
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/19495">[ACTION] Nuvemshop(TiendaNube)</a>  <code>#19495</code> · updated: 2025-12-16 · created: 2025-12-15  
   labels: enhancement, help wanted, good first issue, action
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/19497">[ACTION] Add New Actions and Replace Deprecated Search Company/Contact</a>  <code>#19497</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: enhancement, help wanted, good first issue, action, triaged, prioritized
-- <a href="https://github.com/PipedreamHQ/pipedream/issues/19496">[ACTION] Cal.com - Create a booking</a>  <code>#19496</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: enhancement, help wanted, good first issue, action
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/19487">[ACTION]</a>  <code>#19487</code> · updated: 2025-12-13 · created: 2025-12-13  
   labels: enhancement, help wanted, good first issue, action
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/19473">[ACTION] Samsung Smart Things MCP Tooling</a>  <code>#19473</code> · updated: 2025-12-12 · created: 2025-12-12  
@@ -2967,18 +2957,12 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: enhancement, help wanted, good first issue, question, action, triaged
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/19394">[ACTION] trengo - add ticket endpoint</a>  <code>#19394</code> · updated: 2025-12-11 · created: 2025-12-08  
   labels: enhancement, help wanted, good first issue, action, triaged
-- <a href="https://github.com/PipedreamHQ/pipedream/issues/19408">[ACTION] Google Maps (Places API) - Filter out information from MCP result</a>  <code>#19408</code> · updated: 2025-12-11 · created: 2025-12-10  
-  labels: enhancement, help wanted, good first issue, action, triaged
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/19381">[ACTION] Read records action - Bubble app</a>  <code>#19381</code> · updated: 2025-12-05 · created: 2025-12-05  
   labels: enhancement, help wanted, good first issue, action, triaged
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/19339">[ACTION] bol.com</a>  <code>#19339</code> · updated: 2025-12-04 · created: 2025-12-01  
   labels: enhancement, help wanted, good first issue, action, app, triaged, Outreach
-- <a href="https://github.com/PipedreamHQ/pipedream/issues/19359">[ACTION] WICS update order &amp; delete order line</a>  <code>#19359</code> · updated: 2025-12-04 · created: 2025-12-03  
-  labels: enhancement, help wanted, good first issue, action, triaged
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/19338">[APP] paqato - shipping</a>  <code>#19338</code> · updated: 2025-12-03 · created: 2025-12-01  
   labels: enhancement, help wanted, good first issue, action, triaged, Outreach
-- <a href="https://github.com/PipedreamHQ/pipedream/issues/19180">[ACTION] Front - Articles</a>  <code>#19180</code> · updated: 2025-12-01 · created: 2025-11-21  
-  labels: enhancement, help wanted, good first issue, action, triaged
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/19024">[ACTION] Sage CRM new actions</a>  <code>#19024</code> · updated: 2025-11-14 · created: 2025-11-11  
   labels: enhancement, help wanted, good first issue, action, app, triaged
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/18858">chat completion action not found</a>  <code>#18858</code> · updated: 2025-10-27 · created: 2025-10-24  
@@ -2991,42 +2975,36 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: enhancement, help wanted, good first issue, action, triaged
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/18460">[ACTION] MCP Tools for Larksuite</a>  <code>#18460</code> · updated: 2025-09-26 · created: 2025-09-25  
   labels: enhancement, help wanted, good first issue, action, triaged
-- <a href="https://github.com/PipedreamHQ/pipedream/issues/18403">Enhance Infobip SMS component new methods with OpenAPI-based auto-generation</a>  <code>#18403</code> · updated: 2025-09-22 · created: 2025-09-18  
-  labels: enhancement, help wanted, good first issue, question, action, triaged
-- <a href="https://github.com/PipedreamHQ/pipedream/issues/18420">Determine if a specific folder is an ancestor of a file or folder in Google Drive</a>  <code>#18420</code> · updated: 2025-09-22 · created: 2025-09-19  
-  labels: enhancement, help wanted, good first issue, action, triaged
 - <a href="https://github.com/PipedreamHQ/pipedream/issues/18422">[ACTION]</a>  <code>#18422</code> · updated: 2025-09-22 · created: 2025-09-20  
   labels: enhancement, help wanted, good first issue, question, action, triaged
 
-## mealie-recipes/mealie  ⭐ 10815
-[Repository](https://github.com/mealie-recipes/mealie)
-
-- <a href="https://github.com/mealie-recipes/mealie/issues/6652">[BUG] - Unable to save recipes with sub-recipes as ingredients in multi-group setup</a>  <code>#6652</code> · updated: 2025-12-03 · created: 2025-12-03  
-  labels: bug, good first issue, bug: confirmed
-
-## czlonkowski/n8n-mcp  ⭐ 10811
+## czlonkowski/n8n-mcp  ⭐ 10872
 [Repository](https://github.com/czlonkowski/n8n-mcp)
 
 - <a href="https://github.com/czlonkowski/n8n-mcp/issues/433">Improve integration test coverage for n8n API workflow updates</a>  <code>#433</code> · updated: 2025-11-22 · created: 2025-11-20  
   labels: enhancement, good first issue
 
-## tangly1024/NotionNext  ⭐ 10795
+## mealie-recipes/mealie  ⭐ 10829
+[Repository](https://github.com/mealie-recipes/mealie)
+
+- <a href="https://github.com/mealie-recipes/mealie/issues/6652">[BUG] - Unable to save recipes with sub-recipes as ingredients in multi-group setup</a>  <code>#6652</code> · updated: 2025-12-03 · created: 2025-12-03  
+  labels: bug, good first issue, bug: confirmed
+
+## tangly1024/NotionNext  ⭐ 10802
 [Repository](https://github.com/tangly1024/NotionNext)
 
 - <a href="https://github.com/tangly1024/NotionNext/issues/3626">【20251008站点无数据、部署异常】日志显示 notion queryCollection 请求返回 530</a>  <code>#3626</code> · updated: 2025-11-02 · created: 2025-10-08  
   labels: bug, help wanted, good first issue, question, dependencies
 
-## owncast/owncast  ⭐ 10714
+## owncast/owncast  ⭐ 10719
 [Repository](https://github.com/owncast/owncast)
 
 - <a href="https://github.com/owncast/owncast/issues/4590">Change the commentor text color to white</a>  <code>#4590</code> · updated: 2025-11-01 · created: 2025-10-04  
   labels: good first issue, hacktoberfest
 - <a href="https://github.com/owncast/owncast/issues/4655">Ensure browser notification text have one space after a word and a full stop</a>  <code>#4655</code> · updated: 2025-11-01 · created: 2025-10-29  
   labels: good first issue, Web frontend, hacktoberfest
-- <a href="https://github.com/owncast/owncast/issues/4621">Fix formatting issues surfaced with Prettier v3.6.2</a>  <code>#4621</code> · updated: 2025-10-19 · created: 2025-10-08  
-  labels: good first issue, Web frontend, hacktoberfest, javascript
 
-## tensorzero/tensorzero  ⭐ 10694
+## tensorzero/tensorzero  ⭐ 10714
 [Repository](https://github.com/tensorzero/tensorzero)
 
 - <a href="https://github.com/tensorzero/tensorzero/issues/5178">Deprecate `AZURE_OPENAI_API_KEY` → `AZURE_API_KEY`</a>  <code>#5178</code> · updated: 2025-12-14 · created: 2025-12-13  
@@ -3040,7 +3018,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/tensorzero/tensorzero/issues/4024">Migrate `parallel_tool_calls` from functions to variants</a>  <code>#4024</code> · updated: 2025-10-23 · created: 2025-10-17  
   labels: good-first-issue, rust
 
-## hashicorp/terraform-provider-aws  ⭐ 10647
+## hashicorp/terraform-provider-aws  ⭐ 10652
 [Repository](https://github.com/hashicorp/terraform-provider-aws)
 
 - <a href="https://github.com/hashicorp/terraform-provider-aws/issues/45034">aws_placement_group enforces an incorrect partition_count limit</a>  <code>#45034</code> · updated: 2025-11-15 · created: 2025-11-12  
@@ -3048,65 +3026,59 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/hashicorp/terraform-provider-aws/issues/44488">Error: Unsupported argument: blue_green_update</a>  <code>#44488</code> · updated: 2025-10-07 · created: 2025-09-29  
   labels: documentation, good first issue, service/rds
 
-## cython/cython  ⭐ 10518
+## cython/cython  ⭐ 10519
 [Repository](https://github.com/cython/cython)
 
 - <a href="https://github.com/cython/cython/issues/7365">[ENH] `--embed-modules` doesn&#x27;t support packages</a>  <code>#7365</code> · updated: 2025-11-27 · created: 2025-11-26  
   labels: good first issue, Code Generation
 
-## PlayCover/PlayCover  ⭐ 10318
+## mdn/content  ⭐ 10386
+[Repository](https://github.com/mdn/content)
+
+- <a href="https://github.com/mdn/content/issues/42155">Poor choice of canvas id</a>  <code>#42155</code> · updated: 2025-12-17 · created: 2025-11-27  
+  labels: good first issue, Content:WebAPI, accepting PR
+
+## topoteretes/cognee  ⭐ 10380
+[Repository](https://github.com/topoteretes/cognee)
+
+- <a href="https://github.com/topoteretes/cognee/issues/1769">[Feature]: Custom label names</a>  <code>#1769</code> · updated: 2025-12-18 · created: 2025-11-09  
+  labels: enhancement, good first issue, help wanted
+- <a href="https://github.com/topoteretes/cognee/issues/1458">[Feature]: Frequency Weights Task</a>  <code>#1458</code> · updated: 2025-12-16 · created: 2025-09-24  
+  labels: enhancement, good first issue, 20 points
+- <a href="https://github.com/topoteretes/cognee/issues/1762">[Feature]: Add lightweight TUI for cognee</a>  <code>#1762</code> · updated: 2025-12-03 · created: 2025-11-08  
+  labels: enhancement, good first issue
+
+## PlayCover/PlayCover  ⭐ 10328
 [Repository](https://github.com/PlayCover/PlayCover)
 
-- <a href="https://github.com/PlayCover/PlayCover/issues/2004">[Bug]: Update function in dev branch version creates endless loop and crashes the program</a>  <code>#2004</code> · updated: 2025-10-30 · created: 2025-10-18  
+- <a href="https://github.com/PlayCover/PlayCover/issues/2004">[Bug]: Update function in dev branch version creates endless loop and crashes the program</a>  <code>#2004</code> · updated: 2025-12-18 · created: 2025-10-18  
   labels: bug, good first issue
 
-## WasmEdge/WasmEdge  ⭐ 10277
+## WasmEdge/WasmEdge  ⭐ 10286
 [Repository](https://github.com/WasmEdge/WasmEdge)
 
 - <a href="https://github.com/WasmEdge/WasmEdge/issues/4436">feat: update the WASI-NN Piper plugin due to upstream changes</a>  <code>#4436</code> · updated: 2025-12-12 · created: 2025-12-09  
   labels: enhancement, good first issue, WASI-NN
 
-## topoteretes/cognee  ⭐ 10263
-[Repository](https://github.com/topoteretes/cognee)
-
-- <a href="https://github.com/topoteretes/cognee/issues/1770">[Task]: Remove check_permissions_on_dataset task</a>  <code>#1770</code> · updated: 2025-12-12 · created: 2025-11-09  
-  labels: enhancement, good first issue
-- <a href="https://github.com/topoteretes/cognee/issues/1769">[Feature]: Custom label names</a>  <code>#1769</code> · updated: 2025-12-11 · created: 2025-11-09  
-  labels: enhancement, good first issue, help wanted
-- <a href="https://github.com/topoteretes/cognee/issues/1762">[Feature]: Add lightweight TUI for cognee</a>  <code>#1762</code> · updated: 2025-12-03 · created: 2025-11-08  
-  labels: enhancement, good first issue
-- <a href="https://github.com/topoteretes/cognee/issues/1458">[Feature]: Frequency Weights Task</a>  <code>#1458</code> · updated: 2025-12-02 · created: 2025-09-24  
-  labels: enhancement, good first issue, 20 points
-
-## gristlabs/grist-core  ⭐ 10247
+## gristlabs/grist-core  ⭐ 10269
 [Repository](https://github.com/gristlabs/grist-core)
 
 - <a href="https://github.com/gristlabs/grist-core/issues/1905">Prevent auto-creation of user or personal Team</a>  <code>#1905</code> · updated: 2025-10-28 · created: 2025-10-28  
   labels: good first issue
 
-## vega/altair  ⭐ 10162
+## vega/altair  ⭐ 10173
 [Repository](https://github.com/vega/altair)
 
 - <a href="https://github.com/vega/altair/issues/3923">improve docs on installation for wasm environment</a>  <code>#3923</code> · updated: 2025-11-21 · created: 2025-11-21  
   labels: enhancement, help wanted, documentation, maintenance, good first issue
 
-## mdn/content  ⭐ 10136
-[Repository](https://github.com/mdn/content)
-
-- <a href="https://github.com/mdn/content/issues/42155">Poor choice of canvas id</a>  <code>#42155</code> · updated: 2025-12-09 · created: 2025-11-27  
-  labels: good first issue, Content:WebAPI, accepting PR
-- <a href="https://github.com/mdn/content/issues/42283">atan2() calculation always returns an &lt;angle&gt; in degrees, not radians</a>  <code>#42283</code> · updated: 2025-12-09 · created: 2025-12-08  
-  labels: good first issue, Content:CSS
-
-## voxel51/fiftyone  ⭐ 10136
+## voxel51/fiftyone  ⭐ 10155
 [Repository](https://github.com/voxel51/fiftyone)
 
 - <a href="https://github.com/voxel51/fiftyone/issues/6408">[BUG] Launching the app through pants fails after 1.7.1</a>  <code>#6408</code> · updated: 2025-12-09 · created: 2025-10-13  
   labels: bug, good first issue
-- <a href="https://github.com/voxel51/fiftyone/issues/6347">[BUG] Frame Labels (detections) not visisble on GUI on what seems to be a buffer limitation</a>  <code>#6347</code> · updated: 2025-09-26 · created: 2025-09-19  
-  labels: bug, good first issue
 
-## woocommerce/woocommerce  ⭐ 10095
+## woocommerce/woocommerce  ⭐ 10097
 [Repository](https://github.com/woocommerce/woocommerce)
 
 - <a href="https://github.com/woocommerce/woocommerce/issues/62120">Update new instances of the Product Details block so they use the Accordion block from WordPress</a>  <code>#62120</code> · updated: 2025-11-25 · created: 2025-11-25  
@@ -3114,25 +3086,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/woocommerce/woocommerce/issues/62119">Hide the WooCommerce Accordion blocks from the inserter in WP 6.9 and later</a>  <code>#62119</code> · updated: 2025-11-25 · created: 2025-11-25  
   labels: Bug, Good First Issue, Kirigami, Blocks/Patterns/Templates
 
-## swiftlang/swift-package-manager  ⭐ 10058
-[Repository](https://github.com/swiftlang/swift-package-manager)
-
-- <a href="https://github.com/swiftlang/swift-package-manager/issues/9149">Tests in `swift package init --type executable --enable-swift-testing` have no test target</a>  <code>#9149</code> · updated: 2025-09-17 · created: 2025-09-17  
-  labels: bug, good first issue, swift test, swift package init, command-line interface
-
-## langchain4j/langchain4j  ⭐ 9962
-[Repository](https://github.com/langchain4j/langchain4j)
-
-- <a href="https://github.com/langchain4j/langchain4j/issues/4174">[FEATURE] Anthropic: support structured outputs</a>  <code>#4174</code> · updated: 2025-12-04 · created: 2025-12-03  
-  labels: enhancement, good first issue, P2, Structured Outputs
-
-## yugabyte/yugabyte-db  ⭐ 9961
+## yugabyte/yugabyte-db  ⭐ 9970
 [Repository](https://github.com/yugabyte/yugabyte-db)
 
+- <a href="https://github.com/yugabyte/yugabyte-db/issues/28707">[DocDB] Add log line when servicing RestoreSnapshotSchedule</a>  <code>#28707</code> · updated: 2025-12-17 · created: 2025-09-25  
+  labels: kind/bug, good first issue, area/docdb, priority/medium
 - <a href="https://github.com/yugabyte/yugabyte-db/issues/29665">Include tablet size in yb_tablet_metadata</a>  <code>#29665</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: good first issue, kind/new-feature, priority/low, jira-originated
-- <a href="https://github.com/yugabyte/yugabyte-db/issues/28707">[DocDB] Add log line when servicing RestoreSnapshotSchedule</a>  <code>#28707</code> · updated: 2025-12-05 · created: 2025-09-25  
-  labels: kind/bug, good first issue, area/docdb, priority/medium
 - <a href="https://github.com/yugabyte/yugabyte-db/issues/28841">Snapshot too old error should print tablet and table name </a>  <code>#28841</code> · updated: 2025-12-02 · created: 2025-10-08  
   labels: good first issue, kind/new-feature, area/docdb, priority/low, jira-originated
 - <a href="https://github.com/yugabyte/yugabyte-db/issues/28908">Noisy logging from docdb transaction cache lookup loops</a>  <code>#28908</code> · updated: 2025-11-08 · created: 2025-10-10  
@@ -3145,12 +3105,20 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: kind/enhancement, good first issue, kind/improve-ux, area/docdb, priority/medium
 - <a href="https://github.com/yugabyte/yugabyte-db/issues/28753">Use a uniform disk size unit with either base 1000 or base 1024</a>  <code>#28753</code> · updated: 2025-10-03 · created: 2025-09-30  
   labels: kind/enhancement, good first issue, area/docdb, priority/medium, jira-originated
-- <a href="https://github.com/yugabyte/yugabyte-db/issues/28643">[YSQL] pgsql_proxy_bind_address=127.0.0.1:5434,127.0.0.2:5436 results in PG crash</a>  <code>#28643</code> · updated: 2025-09-30 · created: 2025-09-19  
-  labels: kind/bug, good first issue, area/ysql, priority/medium, status/awaiting-triage
 
-## MudBlazor/MudBlazor  ⭐ 9928
+## MudBlazor/MudBlazor  ⭐ 9939
 [Repository](https://github.com/MudBlazor/MudBlazor)
 
+- <a href="https://github.com/MudBlazor/MudBlazor/issues/12219">New Component: Semi-Donut Chart</a>  <code>#12219</code> · updated: 2025-12-16 · created: 2025-12-09  
+  labels: enhancement, good first issue, new component
+- <a href="https://github.com/MudBlazor/MudBlazor/issues/12245">Static MudDatePicker with Disabled=&quot;true&quot; can be modified</a>  <code>#12245</code> · updated: 2025-12-16 · created: 2025-12-11  
+  labels: bug, good first issue
+- <a href="https://github.com/MudBlazor/MudBlazor/issues/12253">MudSelect and MudAutocomplete sets pointer: cursor when readonly</a>  <code>#12253</code> · updated: 2025-12-16 · created: 2025-12-12  
+  labels: bug, good first issue
+- <a href="https://github.com/MudBlazor/MudBlazor/issues/12254">CenterLabels in horizontal MudStepper breaks title layout on overflow</a>  <code>#12254</code> · updated: 2025-12-16 · created: 2025-12-12  
+  labels: bug, good first issue
+- <a href="https://github.com/MudBlazor/MudBlazor/issues/12255">MudBreadcrumb should set the aria-label in the nav element</a>  <code>#12255</code> · updated: 2025-12-16 · created: 2025-12-12  
+  labels: enhancement, good first issue, accessibility
 - <a href="https://github.com/MudBlazor/MudBlazor/issues/12171">MudSelect: Does not show validation error on focus loss</a>  <code>#12171</code> · updated: 2025-11-28 · created: 2025-11-26  
   labels: bug, good first issue
 - <a href="https://github.com/MudBlazor/MudBlazor/issues/12174">MudStepper: Nested steppers with different orientation</a>  <code>#12174</code> · updated: 2025-11-28 · created: 2025-11-27  
@@ -3182,13 +3150,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/MudBlazor/MudBlazor/issues/11927">MudNavGroup API documentation - Add accessibility precisions</a>  <code>#11927</code> · updated: 2025-10-02 · created: 2025-10-02  
   labels: docs, good first issue, accessibility
 
-## bpftrace/bpftrace  ⭐ 9816
+## google/benchmark  ⭐ 9894
+[Repository](https://github.com/google/benchmark)
+
+- <a href="https://github.com/google/benchmark/issues/2057">[BUG] Passing -pedantic -Werror but relying on extensions</a>  <code>#2057</code> · updated: 2025-12-16 · created: 2025-10-15  
+  labels: good first issue, help wanted
+
+## bpftrace/bpftrace  ⭐ 9821
 [Repository](https://github.com/bpftrace/bpftrace)
 
 - <a href="https://github.com/bpftrace/bpftrace/issues/4832">Add printf specifier to print GFP flags in human readable format</a>  <code>#4832</code> · updated: 2025-12-13 · created: 2025-11-09  
   labels: good first issue, difficulty: easy
 
-## falconry/falcon  ⭐ 9769
+## rerun-io/rerun  ⭐ 9785
+[Repository](https://github.com/rerun-io/rerun)
+
+- <a href="https://github.com/rerun-io/rerun/issues/11467">Update our Rust dependencies</a>  <code>#11467</code> · updated: 2025-10-14 · created: 2025-10-08  
+  labels: good first issue, sdk-rust, 🧑‍💻 dev experience, other, dependencies
+
+## falconry/falcon  ⭐ 9770
 [Repository](https://github.com/falconry/falcon)
 
 - <a href="https://github.com/falconry/falcon/issues/2580">Add new request header property `req.last_event_id`</a>  <code>#2580</code> · updated: 2025-12-14 · created: 2025-11-14  
@@ -3200,33 +3180,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/falconry/falcon/issues/2542">Add new method `req.get_param_as_dict()`</a>  <code>#2542</code> · updated: 2025-11-11 · created: 2025-10-05  
   labels: good first issue, enhancement
 
-## rerun-io/rerun  ⭐ 9754
-[Repository](https://github.com/rerun-io/rerun)
-
-- <a href="https://github.com/rerun-io/rerun/issues/11467">Update our Rust dependencies</a>  <code>#11467</code> · updated: 2025-10-14 · created: 2025-10-08  
-  labels: good first issue, sdk-rust, 🧑‍💻 dev experience, other, dependencies
-- <a href="https://github.com/rerun-io/rerun/issues/11269">[cpp] Document vcpkg port</a>  <code>#11269</code> · updated: 2025-09-18 · created: 2025-09-18  
-  labels: 📖 documentation, good first issue, sdk-cpp
-
-## pwndbg/pwndbg  ⭐ 9749
+## pwndbg/pwndbg  ⭐ 9756
 [Repository](https://github.com/pwndbg/pwndbg)
 
 - <a href="https://github.com/pwndbg/pwndbg/issues/3495">Enable skipped tests on aarch64 by making them architecture-agnostic (x86-64 &amp; aarch64)</a>  <code>#3495</code> · updated: 2025-12-13 · created: 2025-12-13  
   labels: help wanted, good first issue
 
-## kedacore/keda  ⭐ 9747
+## kedacore/keda  ⭐ 9755
 [Repository](https://github.com/kedacore/keda)
 
 - <a href="https://github.com/kedacore/keda/issues/7107">Flaky e2e test</a>  <code>#7107</code> · updated: 2025-10-26 · created: 2025-09-28  
   labels: bug, help wanted, good first issue
 
-## vmware-tanzu/velero  ⭐ 9684
+## vmware-tanzu/velero  ⭐ 9694
 [Repository](https://github.com/vmware-tanzu/velero)
 
 - <a href="https://github.com/vmware-tanzu/velero/issues/9318">Behavior of skip volume policy is strange/problematic</a>  <code>#9318</code> · updated: 2025-12-05 · created: 2025-10-10  
   labels: Good first issue, Needs info, Restore
 
-## 47ng/nuqs  ⭐ 9652
+## 47ng/nuqs  ⭐ 9672
 [Repository](https://github.com/47ng/nuqs)
 
 - <a href="https://github.com/47ng/nuqs/issues/1251">Changelog page in the docs</a>  <code>#1251</code> · updated: 2025-12-06 · created: 2025-12-05  
@@ -3236,19 +3208,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/47ng/nuqs/issues/1149">Remove warning with debounce + shallow:true</a>  <code>#1149</code> · updated: 2025-10-18 · created: 2025-09-30  
   labels: documentation, good first issue, help wanted, hacktoberfest
 
-## containerd/nerdctl  ⭐ 9642
+## containerd/nerdctl  ⭐ 9655
 [Repository](https://github.com/containerd/nerdctl)
 
 - <a href="https://github.com/containerd/nerdctl/issues/4613">Rewrite tests using `testutil.NewBase` to use `nerdtest.Setup` (Tigron)</a>  <code>#4613</code> · updated: 2025-12-15 · created: 2025-11-24  
   labels: help wanted, good first issue, area/ci
 
-## promptfoo/promptfoo  ⭐ 9435
+## iamgio/quarkdown  ⭐ 9609
+[Repository](https://github.com/iamgio/quarkdown)
+
+- <a href="https://github.com/iamgio/quarkdown/issues/285">Bug: default browser not detected</a>  <code>#285</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: bug, good first issue
+
+## promptfoo/promptfoo  ⭐ 9478
 [Repository](https://github.com/promptfoo/promptfoo)
 
 - <a href="https://github.com/promptfoo/promptfoo/issues/6192">How to integrate n8n agent prompt&#x27;s</a>  <code>#6192</code> · updated: 2025-11-19 · created: 2025-11-12  
   labels: Feature Request, help-wanted, good-first-issue
 
-## sktime/sktime  ⭐ 9402
+## sktime/sktime  ⭐ 9405
 [Repository](https://github.com/sktime/sktime)
 
 - <a href="https://github.com/sktime/sktime/issues/8988">[ENH] interfacing Chronos 2</a>  <code>#8988</code> · updated: 2025-11-25 · created: 2025-10-23  
@@ -3260,29 +3238,27 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/sktime/sktime/issues/8906">[DOC] Update references to `pytorch_forecasting`&#x27;s documentation</a>  <code>#8906</code> · updated: 2025-10-07 · created: 2025-10-04  
   labels: good first issue, documentation, module:forecasting
 
-## huggingface/accelerate  ⭐ 9381
+## huggingface/accelerate  ⭐ 9389
 [Repository](https://github.com/huggingface/accelerate)
 
-- <a href="https://github.com/huggingface/accelerate/issues/3818">Duplicate W&amp;B initialization in offline mode</a>  <code>#3818</code> · updated: 2025-12-14 · created: 2025-10-23  
-  labels: good first issue
 - <a href="https://github.com/huggingface/accelerate/issues/3814">Deadlock when running multi tasks</a>  <code>#3814</code> · updated: 2025-10-20 · created: 2025-10-14  
   labels: bug, good first issue
 
-## openvinotoolkit/openvino  ⭐ 9352
+## rapidsai/cudf  ⭐ 9389
+[Repository](https://github.com/rapidsai/cudf)
+
+- <a href="https://github.com/rapidsai/cudf/issues/20808">[DOC] Clarify deprecation message for cudf::round</a>  <code>#20808</code> · updated: 2025-12-17 · created: 2025-12-08  
+  labels: doc, good first issue
+
+## openvinotoolkit/openvino  ⭐ 9372
 [Repository](https://github.com/openvinotoolkit/openvino)
 
-- <a href="https://github.com/openvinotoolkit/openvino/issues/33116">[Good First Issue]: Improve logging for OpenVINO torch.compile feature</a>  <code>#33116</code> · updated: 2025-12-11 · created: 2025-12-03  
+- <a href="https://github.com/openvinotoolkit/openvino/issues/33116">[Good First Issue]: Improve logging for OpenVINO torch.compile feature</a>  <code>#33116</code> · updated: 2025-12-16 · created: 2025-12-03  
   labels: good first issue, no_stale
 - <a href="https://github.com/openvinotoolkit/openvino/issues/32725">[Good First Issue]: Add import_model(tensor) to JS API</a>  <code>#32725</code> · updated: 2025-12-01 · created: 2025-11-06  
   labels: good first issue, category: JS API, no_stale, javascript
 
-## ArthurSonzogni/FTXUI  ⭐ 9224
-[Repository](https://github.com/ArthurSonzogni/FTXUI)
-
-- <a href="https://github.com/ArthurSonzogni/FTXUI/issues/1162">WithRestoredIO stopped working 5.1.-&gt;latest</a>  <code>#1162</code> · updated: 2025-12-14 · created: 2025-12-08  
-  labels: bug, good first issue
-
-## yikart/AiToEarn  ⭐ 9192
+## yikart/AiToEarn  ⭐ 9368
 [Repository](https://github.com/yikart/AiToEarn)
 
 - <a href="https://github.com/yikart/AiToEarn/issues/367">【good frist】Deleted published content</a>  <code>#367</code> · updated: 2025-12-09 · created: 2025-12-08  
@@ -3294,29 +3270,33 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/yikart/AiToEarn/issues/370">【good first】AI automatic draft generation optimization</a>  <code>#370</code> · updated: 2025-12-09 · created: 2025-12-08  
   labels: good first issue
 
-## moesnow/March7thAssistant  ⭐ 9182
-[Repository](https://github.com/moesnow/March7thAssistant)
-
-- <a href="https://github.com/moesnow/March7thAssistant/issues/785">[Feat]: 成就领取</a>  <code>#785</code> · updated: 2025-12-15 · created: 2025-12-08  
-  labels: enhancement / 功能请求, good first issue, PR welcome / 欢迎 PR
-
-## hyperdxio/hyperdx  ⭐ 9156
+## hyperdxio/hyperdx  ⭐ 9169
 [Repository](https://github.com/hyperdxio/hyperdx)
 
 - <a href="https://github.com/hyperdxio/hyperdx/issues/1425">Text tiles at smallest height clip the text line</a>  <code>#1425</code> · updated: 2025-12-08 · created: 2025-12-02  
   labels: good first issue
 
-## SeaQL/sea-orm  ⭐ 9129
+## SeaQL/sea-orm  ⭐ 9147
 [Repository](https://github.com/SeaQL/sea-orm)
 
+- <a href="https://github.com/SeaQL/sea-orm/issues/2834">`AttrNotSet` error when using `.try_into_model()` even though the attribute listed is optional</a>  <code>#2834</code> · updated: 2025-12-18 · created: 2025-12-02  
+  labels: good first issue
 - <a href="https://github.com/SeaQL/sea-orm/issues/2827">Add ``ConnectionOrTransaction`` as a Unified Executor Type</a>  <code>#2827</code> · updated: 2025-12-04 · created: 2025-11-28  
   labels: good first issue
-- <a href="https://github.com/SeaQL/sea-orm/issues/2834">`AttrNotSet` error when using `.try_into_model()` even though the attribute listed is optional</a>  <code>#2834</code> · updated: 2025-12-02 · created: 2025-12-02  
-  labels: good first issue
 
-## skypilot-org/skypilot  ⭐ 9104
+## skypilot-org/skypilot  ⭐ 9118
 [Repository](https://github.com/skypilot-org/skypilot)
 
+- <a href="https://github.com/skypilot-org/skypilot/issues/8351">[UX] Support `--secret-file` and automatically populate the secret in `--env-file` to secrets defined in the task</a>  <code>#8351</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, good starter issues
+- <a href="https://github.com/skypilot-org/skypilot/issues/8336">[Jobs] Show jobs names in the confirmation message for `sky jobs cancel`</a>  <code>#8336</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, good starter issues
+- <a href="https://github.com/skypilot-org/skypilot/issues/8348">[UX] Time in `sky jobs queue` CLI is incorrect</a>  <code>#8348</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, good starter issues
+- <a href="https://github.com/skypilot-org/skypilot/issues/8338">[Dashboard] Log download from the cluster/managed jobs should be compressed</a>  <code>#8338</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, good starter issues
+- <a href="https://github.com/skypilot-org/skypilot/issues/8305">[Docker] silently not failing to pass SSH command</a>  <code>#8305</code> · updated: 2025-12-16 · created: 2025-12-13  
+  labels: good first issue, good starter issues
 - <a href="https://github.com/skypilot-org/skypilot/issues/8274">[Core] SkyPilot base image is missing infiniband dependencies</a>  <code>#8274</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: good first issue, good starter issues
 - <a href="https://github.com/skypilot-org/skypilot/issues/8251">[Dashboard] Do not round down &lt; 1 CPU in resources column</a>  <code>#8251</code> · updated: 2025-12-10 · created: 2025-12-10  
@@ -3338,29 +3318,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/skypilot-org/skypilot/issues/7318">not auto-recovering from terminated runpod pod</a>  <code>#7318</code> · updated: 2025-09-26 · created: 2025-09-23  
   labels: good first issue, good starter issues
 
-## xonsh/xonsh  ⭐ 9097
-[Repository](https://github.com/xonsh/xonsh)
-
-- <a href="https://github.com/xonsh/xonsh/issues/5950">Add author name to the release description</a>  <code>#5950</code> · updated: 2025-12-15 · created: 2025-11-25  
-  labels: build, good first issue, development, priority-high, regress
-- <a href="https://github.com/xonsh/xonsh/issues/5987">Add xonsh pacakge to WinGet</a>  <code>#5987</code> · updated: 2025-12-12 · created: 2025-12-12  
-  labels: windows, good first issue, integration-with-other-tools, packaging
-- <a href="https://github.com/xonsh/xonsh/issues/5964">docs(events): Add an example to every event handler we have</a>  <code>#5964</code> · updated: 2025-12-10 · created: 2025-11-30  
-  labels: docs, good first issue, events, v1
-- <a href="https://github.com/xonsh/xonsh/issues/5970">env: unexpected expanding string to path</a>  <code>#5970</code> · updated: 2025-12-01 · created: 2025-12-01  
-  labels: good first issue, environ, priority-high, v1
-- <a href="https://github.com/xonsh/xonsh/issues/5967">fix(completer): Do not show part of the name in completer list</a>  <code>#5967</code> · updated: 2025-11-30 · created: 2025-11-30  
-  labels: good first issue, completion
-- <a href="https://github.com/xonsh/xonsh/issues/5965">feat(events): Show the list of registered event handlers</a>  <code>#5965</code> · updated: 2025-11-30 · created: 2025-11-30  
-  labels: good first issue, events, v1
-- <a href="https://github.com/xonsh/xonsh/issues/5918">Argparse issues on Python 3.14</a>  <code>#5918</code> · updated: 2025-11-25 · created: 2025-10-19  
-  labels: good first issue, argparse, priority-high, py3.14
-- <a href="https://github.com/xonsh/xonsh/issues/5919">`history clear` deletes entries from global history</a>  <code>#5919</code> · updated: 2025-10-23 · created: 2025-10-21  
-  labels: good first issue, history, history-sqlite
-- <a href="https://github.com/xonsh/xonsh/issues/5920">on_precommand hook strips leading whitespace from command</a>  <code>#5920</code> · updated: 2025-10-23 · created: 2025-10-21  
-  labels: good first issue, events, integration-with-other-tools
-
-## unit8co/darts  ⭐ 9095
+## unit8co/darts  ⭐ 9102
 [Repository](https://github.com/unit8co/darts)
 
 - <a href="https://github.com/unit8co/darts/issues/2966">[FEATURE] Handle static covariates, metadata and hierarchy in `TimeSeries.to_json()` and `from_json()`</a>  <code>#2966</code> · updated: 2025-12-10 · created: 2025-12-10  
@@ -3372,45 +3330,77 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/unit8co/darts/issues/2926">[BUG] Restrictive typing for TimeSeries.add_datetime_attribute</a>  <code>#2926</code> · updated: 2025-10-15 · created: 2025-10-13  
   labels: bug, good first issue
 
-## cadence-workflow/cadence  ⭐ 9043
+## xonsh/xonsh  ⭐ 9098
+[Repository](https://github.com/xonsh/xonsh)
+
+- <a href="https://github.com/xonsh/xonsh/issues/5970">env: unexpected expanding string to path</a>  <code>#5970</code> · updated: 2025-12-18 · created: 2025-12-01  
+  labels: good first issue, environ, priority-high, v1
+- <a href="https://github.com/xonsh/xonsh/issues/6003">completer: show the exact match on first position</a>  <code>#6003</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: good first issue, completion, priority-high, v1
+- <a href="https://github.com/xonsh/xonsh/issues/5950">Add author name to the release description</a>  <code>#5950</code> · updated: 2025-12-15 · created: 2025-11-25  
+  labels: build, good first issue, development, priority-high, regress
+- <a href="https://github.com/xonsh/xonsh/issues/5987">Add xonsh pacakge to WinGet</a>  <code>#5987</code> · updated: 2025-12-12 · created: 2025-12-12  
+  labels: windows, good first issue, integration-with-other-tools, packaging
+- <a href="https://github.com/xonsh/xonsh/issues/5964">docs(events): Add an example to every event handler we have</a>  <code>#5964</code> · updated: 2025-12-10 · created: 2025-11-30  
+  labels: docs, good first issue, events, v1
+- <a href="https://github.com/xonsh/xonsh/issues/5967">fix(completer): Do not show part of the name in completer list</a>  <code>#5967</code> · updated: 2025-11-30 · created: 2025-11-30  
+  labels: good first issue, completion
+- <a href="https://github.com/xonsh/xonsh/issues/5918">Argparse issues on Python 3.14</a>  <code>#5918</code> · updated: 2025-11-25 · created: 2025-10-19  
+  labels: good first issue, argparse, priority-high, py3.14
+- <a href="https://github.com/xonsh/xonsh/issues/5919">`history clear` deletes entries from global history</a>  <code>#5919</code> · updated: 2025-10-23 · created: 2025-10-21  
+  labels: good first issue, history, history-sqlite
+- <a href="https://github.com/xonsh/xonsh/issues/5920">on_precommand hook strips leading whitespace from command</a>  <code>#5920</code> · updated: 2025-10-23 · created: 2025-10-21  
+  labels: good first issue, events, integration-with-other-tools
+
+## cadence-workflow/cadence  ⭐ 9046
 [Repository](https://github.com/cadence-workflow/cadence)
 
-- <a href="https://github.com/cadence-workflow/cadence/issues/7296">Provide an Option to Override TaskList ActivitiesPerSecond</a>  <code>#7296</code> · updated: 2025-12-10 · created: 2025-10-02  
+- <a href="https://github.com/cadence-workflow/cadence/issues/7294">Automatically Fail Workflows on Repeated Decision Task Failures</a>  <code>#7294</code> · updated: 2025-12-18 · created: 2025-10-02  
   labels: good first issue
-- <a href="https://github.com/cadence-workflow/cadence/issues/7294">Automatically Fail Workflows on Repeated Decision Task Failures</a>  <code>#7294</code> · updated: 2025-10-02 · created: 2025-10-02  
+- <a href="https://github.com/cadence-workflow/cadence/issues/7296">Provide an Option to Override TaskList ActivitiesPerSecond</a>  <code>#7296</code> · updated: 2025-12-16 · created: 2025-10-02  
   labels: good first issue
 
-## databendlabs/databend  ⭐ 9043
-[Repository](https://github.com/databendlabs/databend)
+## OutlineFoundation/outline-apps  ⭐ 9015
+[Repository](https://github.com/OutlineFoundation/outline-apps)
 
-- <a href="https://github.com/databendlabs/databend/issues/18735">Feature: Support PARTITION BY With Unloads</a>  <code>#18735</code> · updated: 2025-10-21 · created: 2025-09-17  
-  labels: C-feature, good first issue
-
-## Jigsaw-Code/outline-apps  ⭐ 9011
-[Repository](https://github.com/Jigsaw-Code/outline-apps)
-
-- <a href="https://github.com/Jigsaw-Code/outline-apps/issues/2670">iOS outline app is not accessible for the blind!</a>  <code>#2670</code> · updated: 2025-11-20 · created: 2025-11-20  
+- <a href="https://github.com/OutlineFoundation/outline-apps/issues/2645">MacOS 26 Tahoe icon borders</a>  <code>#2645</code> · updated: 2025-12-18 · created: 2025-09-30  
+  labels: good first issue
+- <a href="https://github.com/OutlineFoundation/outline-apps/issues/2659">Dark icon</a>  <code>#2659</code> · updated: 2025-12-18 · created: 2025-10-21  
+  labels: good first issue
+- <a href="https://github.com/OutlineFoundation/outline-apps/issues/2670">iOS outline app is not accessible for the blind!</a>  <code>#2670</code> · updated: 2025-12-18 · created: 2025-11-20  
   labels: bug, good first issue, os/windows, os/android, os/linux, os/ios, javascript, has workaround, os/maccatalyst, client
-- <a href="https://github.com/Jigsaw-Code/outline-apps/issues/2659">Dark icon</a>  <code>#2659</code> · updated: 2025-10-23 · created: 2025-10-21  
-  labels: good first issue
-- <a href="https://github.com/Jigsaw-Code/outline-apps/issues/2645">MacOS 26 Tahoe icon borders</a>  <code>#2645</code> · updated: 2025-10-08 · created: 2025-09-30  
-  labels: good first issue
 
-## AutoDarkMode/Windows-Auto-Night-Mode  ⭐ 8986
+## AutoDarkMode/Windows-Auto-Night-Mode  ⭐ 8988
 [Repository](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode)
 
 - <a href="https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/1120">[Feature] Add conflict warning if PowerToys Light Switch is turned on</a>  <code>#1120</code> · updated: 2025-10-22 · created: 2025-10-19  
   labels: good first issue, compatibility
 
-## apache/seatunnel  ⭐ 8967
+## apache/seatunnel  ⭐ 8981
 [Repository](https://github.com/apache/seatunnel)
 
+- <a href="https://github.com/apache/seatunnel/issues/10210">[Feature][connector-jdbc] Optimize unit testing of jdbc connector code</a>  <code>#10210</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue
+- <a href="https://github.com/apache/seatunnel/issues/10213">[Feature][connector-jdbc][PostgreSQL] Optimize unit testing for PostgreSQL in JDBC connector</a>  <code>#10213</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue
+- <a href="https://github.com/apache/seatunnel/issues/10214">[Feature][connector-jdbc][sqlserver] Optimize unit testing for Sqlserver in JDBC connector</a>  <code>#10214</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue
+- <a href="https://github.com/apache/seatunnel/issues/10216">[Feature][connector-jdbc][DB2] Optimize unit testing for DB2 in JDBC connector</a>  <code>#10216</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue
+- <a href="https://github.com/apache/seatunnel/issues/10215">[Feature][connector-jdbc][dameng] Optimize unit testing for DaMeng in JDBC connector</a>  <code>#10215</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue
+- <a href="https://github.com/apache/seatunnel/issues/10212">[Feature][connector-jdbc][oracle] Optimize unit testing for Oracle in JDBC connector</a>  <code>#10212</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue
+- <a href="https://github.com/apache/seatunnel/issues/10211">[Feature][connector-jdbc][mysql] Optimize unit testing for MySQL in JDBC connector</a>  <code>#10211</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue
+- <a href="https://github.com/apache/seatunnel/issues/10203">[Feature][Connector-v2][MySQL] Support dynamic discovery of new tables for regex-based multi-table sync</a>  <code>#10203</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: help wanted, good first issue
 - <a href="https://github.com/apache/seatunnel/issues/10182">[Feature] [Connector] Support Python-based Custom Data Sources As source for SeaTunnel</a>  <code>#10182</code> · updated: 2025-12-15 · created: 2025-12-11  
   labels: help wanted, good first issue
 - <a href="https://github.com/apache/seatunnel/issues/10125">[Feature][Client] Python SDK Client for SeaTunnel REST API</a>  <code>#10125</code> · updated: 2025-12-11 · created: 2025-11-27  
   labels: help wanted, good first issue
 
-## mautic/mautic  ⭐ 8966
+## mautic/mautic  ⭐ 8977
 [Repository](https://github.com/mautic/mautic)
 
 - <a href="https://github.com/mautic/mautic/issues/15669">Missing asset: ibm--automation-platform.svg</a>  <code>#15669</code> · updated: 2025-11-28 · created: 2025-11-26  
@@ -3418,25 +3408,43 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/mautic/mautic/issues/15671">The Form Actions are not removed when clicked on delete button</a>  <code>#15671</code> · updated: 2025-11-28 · created: 2025-11-28  
   labels: T1, bug, forms, good first issue
 
-## PrestaShop/PrestaShop  ⭐ 8891
+## PrestaShop/PrestaShop  ⭐ 8894
 [Repository](https://github.com/PrestaShop/PrestaShop)
 
 - <a href="https://github.com/PrestaShop/PrestaShop/issues/39761">An unexpected error occurred. [PrestaShop\PrestaShop\Core\Domain\State\Exception\DeleteStateException code 1]</a>  <code>#39761</code> · updated: 2025-10-22 · created: 2025-10-15  
   labels: Bug, Trivial, BO, International, Locations, States, Ready, Good first issue, Verified
 
-## canonical/multipass  ⭐ 8821
+## canonical/multipass  ⭐ 8826
 [Repository](https://github.com/canonical/multipass)
 
-- <a href="https://github.com/canonical/multipass/issues/4506">[GUI] Default behavior on close not reflected in settings</a>  <code>#4506</code> · updated: 2025-12-15 · created: 2025-11-13  
+- <a href="https://github.com/canonical/multipass/issues/4506">[GUI] Default behavior on close not reflected in settings</a>  <code>#4506</code> · updated: 2025-12-16 · created: 2025-11-13  
   labels: bug, help wanted, good first issue, low
 - <a href="https://github.com/canonical/multipass/issues/4392">Google mock deprecated warnings during compilation: Invoke()</a>  <code>#4392</code> · updated: 2025-09-26 · created: 2025-09-26  
   labels: good first issue, low
 
-## checkstyle/checkstyle  ⭐ 8765
+## checkstyle/checkstyle  ⭐ 8769
 [Repository](https://github.com/checkstyle/checkstyle)
 
 - <a href="https://github.com/checkstyle/checkstyle/issues/17882">Update `JavadocCommentsTokenTypes.java` to new format of AST print</a>  <code>#17882</code> · updated: 2025-12-14 · created: 2025-10-07  
   labels: approved, miscellaneous, good first issue
+
+## wxt-dev/wxt  ⭐ 8767
+[Repository](https://github.com/wxt-dev/wxt)
+
+- <a href="https://github.com/wxt-dev/wxt/issues/1931">WSL runner should check DISPLAY env var before refusing to open browser (WSLg support)</a>  <code>#1931</code> · updated: 2025-12-17 · created: 2025-10-09  
+  labels: contribution welcome, good first issue
+- <a href="https://github.com/wxt-dev/wxt/issues/2004">Config to specify IIFE name or disable it altogether</a>  <code>#2004</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: contribution welcome, good first issue
+- <a href="https://github.com/wxt-dev/wxt/issues/1942">add log level option to wxt --debug mode</a>  <code>#1942</code> · updated: 2025-12-16 · created: 2025-10-18  
+  labels: contribution welcome, good first issue
+- <a href="https://github.com/wxt-dev/wxt/issues/1955">CSS @property conflicts when extension uses Tailwind v4 and host page uses Tailwind v3</a>  <code>#1955</code> · updated: 2025-12-09 · created: 2025-10-27  
+  labels: contribution welcome, good first issue
+
+## maplibre/maplibre-gl-js  ⭐ 8763
+[Repository](https://github.com/maplibre/maplibre-gl-js)
+
+- <a href="https://github.com/maplibre/maplibre-gl-js/issues/6606">Cannot add/remove light in multidirectional hillshade</a>  <code>#6606</code> · updated: 2025-11-06 · created: 2025-10-22  
+  labels: bug, good first issue, PR is more than welcomed
 
 ## apache/shenyu  ⭐ 8739
 [Repository](https://github.com/apache/shenyu)
@@ -3444,21 +3452,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/shenyu/issues/6221">[Task] refactor shenyu offical website</a>  <code>#6221</code> · updated: 2025-11-30 · created: 2025-11-04  
   labels: status: volunteer wanted, good first issue
 
-## wxt-dev/wxt  ⭐ 8738
-[Repository](https://github.com/wxt-dev/wxt)
-
-- <a href="https://github.com/wxt-dev/wxt/issues/1955">CSS @property conflicts when extension uses Tailwind v4 and host page uses Tailwind v3</a>  <code>#1955</code> · updated: 2025-12-09 · created: 2025-10-27  
-  labels: contribution welcome, good first issue
-- <a href="https://github.com/wxt-dev/wxt/issues/1942">add log level option to wxt --debug mode</a>  <code>#1942</code> · updated: 2025-10-29 · created: 2025-10-18  
-  labels: contribution welcome, good first issue
-
-## maplibre/maplibre-gl-js  ⭐ 8735
-[Repository](https://github.com/maplibre/maplibre-gl-js)
-
-- <a href="https://github.com/maplibre/maplibre-gl-js/issues/6606">Cannot add/remove light in multidirectional hillshade</a>  <code>#6606</code> · updated: 2025-11-06 · created: 2025-10-22  
-  labels: bug, good first issue, PR is more than welcomed
-
-## kubernetes/autoscaler  ⭐ 8706
+## kubernetes/autoscaler  ⭐ 8711
 [Repository](https://github.com/kubernetes/autoscaler)
 
 - <a href="https://github.com/kubernetes/autoscaler/issues/8839">Add Comprehensive VPA Documentation to Kubernetes Website</a>  <code>#8839</code> · updated: 2025-11-28 · created: 2025-11-20  
@@ -3466,19 +3460,39 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/kubernetes/autoscaler/issues/8587">[Tracking] VPA Helm Chart Implementation</a>  <code>#8587</code> · updated: 2025-11-13 · created: 2025-09-29  
   labels: help wanted, area/vertical-pod-autoscaler, good first issue, triage/accepted
 
-## tsparticles/tsparticles  ⭐ 8608
-[Repository](https://github.com/tsparticles/tsparticles)
+## mcp-use/mcp-use  ⭐ 8708
+[Repository](https://github.com/mcp-use/mcp-use)
 
-- <a href="https://github.com/tsparticles/tsparticles/issues/5539">[Bug]: Stroke parameter doesn&#x27;t work for text shape.</a>  <code>#5539</code> · updated: 2025-12-04 · created: 2025-12-04  
-  labels: bug, help wanted, good first issue, up-for-grabs, plugin
+- <a href="https://github.com/mcp-use/mcp-use/issues/562">Bug: Infinite Wait in ConnectionManager.stop()</a>  <code>#562</code> · updated: 2025-12-12 · created: 2025-11-29  
+  labels: bug, documentation, good first issue, Python, client
 
-## nextcloud/all-in-one  ⭐ 8607
+## cjpais/Handy  ⭐ 8685
+[Repository](https://github.com/cjpais/Handy)
+
+- <a href="https://github.com/cjpais/Handy/issues/234">[BUG] Unable to play audio from saved history items, even though files exist locally</a>  <code>#234</code> · updated: 2025-12-18 · created: 2025-10-24  
+  labels: bug, help wanted, good first issue, platform: linux
+
+## imputnet/helium  ⭐ 8640
+[Repository](https://github.com/imputnet/helium)
+
+- <a href="https://github.com/imputnet/helium/issues/92">[FR]: Add Brave Search as an out-of-the-box search engine</a>  <code>#92</code> · updated: 2025-10-01 · created: 2025-09-25  
+  labels: feat, approved, good first issue
+
+## nextcloud/all-in-one  ⭐ 8632
 [Repository](https://github.com/nextcloud/all-in-one)
 
 - <a href="https://github.com/nextcloud/all-in-one/issues/7239">make `WriteConfig` and `GetConfig` private</a>  <code>#7239</code> · updated: 2025-12-01 · created: 2025-12-01  
   labels: 1. to develop, good first issue, help wanted, technical debt
 
-## risingwavelabs/risingwave  ⭐ 8607
+## jnsahaj/tweakcn  ⭐ 8628
+[Repository](https://github.com/jnsahaj/tweakcn)
+
+- <a href="https://github.com/jnsahaj/tweakcn/issues/229">Perpetuity font is different between light and dark mode</a>  <code>#229</code> · updated: 2025-11-04 · created: 2025-10-08  
+  labels: bug, good first issue
+- <a href="https://github.com/jnsahaj/tweakcn/issues/231">Tweakcn preview panel components are not up to date with the latest shadcn components for dark mode</a>  <code>#231</code> · updated: 2025-10-27 · created: 2025-10-22  
+  labels: enhancement, good first issue
+
+## risingwavelabs/risingwave  ⭐ 8613
 [Repository](https://github.com/risingwavelabs/risingwave)
 
 - <a href="https://github.com/risingwavelabs/risingwave/issues/23353">Support alter sink set backfill_rate_limit</a>  <code>#23353</code> · updated: 2025-12-10 · created: 2025-09-30  
@@ -3494,31 +3508,21 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/risingwavelabs/risingwave/issues/23746">sqlsmith: provide explain (trace) plan for failing query</a>  <code>#23746</code> · updated: 2025-11-12 · created: 2025-11-12  
   labels: good first issue, type/feature
 
-## mcp-use/mcp-use  ⭐ 8585
-[Repository](https://github.com/mcp-use/mcp-use)
+## tsparticles/tsparticles  ⭐ 8612
+[Repository](https://github.com/tsparticles/tsparticles)
 
-- <a href="https://github.com/mcp-use/mcp-use/issues/562">Bug: Infinite Wait in ConnectionManager.stop()</a>  <code>#562</code> · updated: 2025-12-12 · created: 2025-11-29  
-  labels: bug, documentation, good first issue, Python, client
+- <a href="https://github.com/tsparticles/tsparticles/issues/5539">[Bug]: Stroke parameter doesn&#x27;t work for text shape.</a>  <code>#5539</code> · updated: 2025-12-04 · created: 2025-12-04  
+  labels: bug, help wanted, good first issue, up-for-grabs, plugin
 
-## jnsahaj/tweakcn  ⭐ 8557
-[Repository](https://github.com/jnsahaj/tweakcn)
-
-- <a href="https://github.com/jnsahaj/tweakcn/issues/229">Perpetuity font is different between light and dark mode</a>  <code>#229</code> · updated: 2025-11-04 · created: 2025-10-08  
-  labels: bug, good first issue
-- <a href="https://github.com/jnsahaj/tweakcn/issues/231">Tweakcn preview panel components are not up to date with the latest shadcn components for dark mode</a>  <code>#231</code> · updated: 2025-10-27 · created: 2025-10-22  
-  labels: enhancement, good first issue
-
-## delta-io/delta  ⭐ 8465
+## delta-io/delta  ⭐ 8472
 [Repository](https://github.com/delta-io/delta)
 
 - <a href="https://github.com/delta-io/delta/issues/5420">[Feature Request][Kernel] Make kernel benchmark configurable using command line arguments</a>  <code>#5420</code> · updated: 2025-11-05 · created: 2025-10-30  
   labels: enhancement, good first issue
-- <a href="https://github.com/delta-io/delta/issues/5227">[Feature Request]Fix potential float -&gt; double casting issue and align in expression with comparator &quot;=&quot; implementation</a>  <code>#5227</code> · updated: 2025-10-21 · created: 2025-09-17  
-  labels: enhancement, good first issue
 - <a href="https://github.com/delta-io/delta/issues/5245">[Kernel] Add TableFeature::getTablePropertyEnablementKey</a>  <code>#5245</code> · updated: 2025-09-24 · created: 2025-09-23  
   labels: good first issue
 
-## apache/beam  ⭐ 8407
+## apache/beam  ⭐ 8411
 [Repository](https://github.com/apache/beam)
 
 - <a href="https://github.com/apache/beam/issues/37083">[Feature Request]: Update python CoGroupByKey catalog page to include interactive example</a>  <code>#37083</code> · updated: 2025-12-15 · created: 2025-12-11  
@@ -3532,7 +3536,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/Sylius/Sylius/issues/18633">[Admin] Product taxon grid `enabled` is always `true` due grid&#x27;s path misconfiguration</a>  <code>#18633</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: Good First Issue, Admin, Bug
 
-## apple/swift-nio  ⭐ 8346
+## apple/swift-nio  ⭐ 8351
 [Repository](https://github.com/apple/swift-nio)
 
 - <a href="https://github.com/apple/swift-nio/issues/3449">docs: `String(buffer:)` needs to mention that it will always succeed</a>  <code>#3449</code> · updated: 2025-11-18 · created: 2025-11-17  
@@ -3542,19 +3546,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apple/swift-nio/issues/3381">Provide a current user home directory API in FileSystem</a>  <code>#3381</code> · updated: 2025-09-30 · created: 2025-09-24  
   labels: good first issue, kind/feature
 
-## apache/iceberg  ⭐ 8332
+## apache/iceberg  ⭐ 8340
 [Repository](https://github.com/apache/iceberg)
 
+- <a href="https://github.com/apache/iceberg/issues/14874">[Docs] Schema Doc is Missing V3 Types</a>  <code>#14874</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: bug, good first issue, docs, beginner
 - <a href="https://github.com/apache/iceberg/issues/14227">INFO logs are getting flooded in iceberg-rest-fixture image</a>  <code>#14227</code> · updated: 2025-12-03 · created: 2025-10-01  
   labels: bug, good first issue
 
-## imputnet/helium  ⭐ 8331
-[Repository](https://github.com/imputnet/helium)
-
-- <a href="https://github.com/imputnet/helium/issues/92">[FR]: Add Brave Search as an out-of-the-box search engine</a>  <code>#92</code> · updated: 2025-10-01 · created: 2025-09-25  
-  labels: feat, approved, good first issue
-
-## TypeStrong/typedoc  ⭐ 8296
+## TypeStrong/typedoc  ⭐ 8303
 [Repository](https://github.com/TypeStrong/typedoc)
 
 - <a href="https://github.com/TypeStrong/typedoc/issues/3049">Anchor links inside mobile hamburger menu do not scroll to target (URL updates, scroll does not)</a>  <code>#3049</code> · updated: 2025-12-15 · created: 2025-12-09  
@@ -3562,7 +3562,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/TypeStrong/typedoc/issues/3029">Group headings in HTML output don&#x27;t have id attributes for linking</a>  <code>#3029</code> · updated: 2025-11-01 · created: 2025-10-18  
   labels: help wanted, good first issue
 
-## lancedb/lancedb  ⭐ 8222
+## lancedb/lancedb  ⭐ 8246
 [Repository](https://github.com/lancedb/lancedb)
 
 - <a href="https://github.com/lancedb/lancedb/issues/2759">Rust: Docs discrepancy for creating empy tables between Rust and Python.</a>  <code>#2759</code> · updated: 2025-11-18 · created: 2025-10-31  
@@ -3572,7 +3572,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/lancedb/lancedb/issues/2722">bug(node): takeRowIds expect number instead of bigint</a>  <code>#2722</code> · updated: 2025-10-22 · created: 2025-10-17  
   labels: bug, good first issue, typescript
 
-## llamastack/llama-stack  ⭐ 8195
+## llamastack/llama-stack  ⭐ 8199
 [Repository](https://github.com/llamastack/llama-stack)
 
 - <a href="https://github.com/llamastack/llama-stack/issues/3552">Responses max_logprobs</a>  <code>#3552</code> · updated: 2025-12-13 · created: 2025-09-25  
@@ -3580,11 +3580,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/llamastack/llama-stack/issues/3562">Responses max_output_tokens</a>  <code>#3562</code> · updated: 2025-11-19 · created: 2025-09-26  
   labels: enhancement, good first issue
 
-## apache/datafusion  ⭐ 8155
+## apache/datafusion  ⭐ 8167
 [Repository](https://github.com/apache/datafusion)
 
-- <a href="https://github.com/apache/datafusion/issues/17964">Deduplicate Spark function code with native/default datafusion function code</a>  <code>#17964</code> · updated: 2025-12-15 · created: 2025-10-08  
+- <a href="https://github.com/apache/datafusion/issues/17964">Deduplicate Spark function code with native/default datafusion function code</a>  <code>#17964</code> · updated: 2025-12-17 · created: 2025-10-08  
   labels: enhancement, good first issue
+- <a href="https://github.com/apache/datafusion/issues/18881">New lint `clippy::allow_attributes`</a>  <code>#18881</code> · updated: 2025-12-17 · created: 2025-11-22  
+  labels: enhancement, good first issue, help wanted
 - <a href="https://github.com/apache/datafusion/issues/19045">Include `NestedLoopJoinExec` in the metrics user-guide</a>  <code>#19045</code> · updated: 2025-12-15 · created: 2025-12-02  
   labels: enhancement, good first issue
 - <a href="https://github.com/apache/datafusion/issues/19176">spark `like` need to have custom nullability</a>  <code>#19176</code> · updated: 2025-12-15 · created: 2025-12-07  
@@ -3595,8 +3597,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: bug, good first issue
 - <a href="https://github.com/apache/datafusion/issues/19164">spark `factorial` need to have custom nullability</a>  <code>#19164</code> · updated: 2025-12-14 · created: 2025-12-07  
   labels: bug, good first issue
-- <a href="https://github.com/apache/datafusion/issues/18881">New lint `clippy::allow_attributes`</a>  <code>#18881</code> · updated: 2025-12-14 · created: 2025-11-22  
-  labels: enhancement, good first issue, help wanted
 - <a href="https://github.com/apache/datafusion/issues/19157">spark `crc32` need to have custom nullability</a>  <code>#19157</code> · updated: 2025-12-10 · created: 2025-12-07  
   labels: bug, good first issue
 - <a href="https://github.com/apache/datafusion/issues/19162">spark `abs` need to have custom nullability</a>  <code>#19162</code> · updated: 2025-12-10 · created: 2025-12-07  
@@ -3605,21 +3605,13 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: bug, good first issue
 - <a href="https://github.com/apache/datafusion/issues/19165">spark `modulus` need to have custom nullability</a>  <code>#19165</code> · updated: 2025-12-10 · created: 2025-12-07  
   labels: bug, good first issue
-- <a href="https://github.com/apache/datafusion/issues/19158">spark `sha1` need to have custom nullability</a>  <code>#19158</code> · updated: 2025-12-09 · created: 2025-12-07  
-  labels: bug, good first issue
-- <a href="https://github.com/apache/datafusion/issues/19151">spark `date_add` need to have custom nullability</a>  <code>#19151</code> · updated: 2025-12-09 · created: 2025-12-07  
-  labels: bug, good first issue
 - <a href="https://github.com/apache/datafusion/issues/19169">spark `ascii` need to have custom nullability</a>  <code>#19169</code> · updated: 2025-12-08 · created: 2025-12-07  
-  labels: bug, good first issue
-- <a href="https://github.com/apache/datafusion/issues/19171">spark `concat` need to have custom nullability</a>  <code>#19171</code> · updated: 2025-12-07 · created: 2025-12-07  
   labels: bug, good first issue
 - <a href="https://github.com/apache/datafusion/issues/19173">spark `format_string` need to have custom nullability</a>  <code>#19173</code> · updated: 2025-12-07 · created: 2025-12-07  
   labels: bug, good first issue
 - <a href="https://github.com/apache/datafusion/issues/19167">spark `csc` need to have custom nullability</a>  <code>#19167</code> · updated: 2025-12-07 · created: 2025-12-07  
   labels: bug, good first issue
 - <a href="https://github.com/apache/datafusion/issues/19166">spark `rint` need to have custom nullability</a>  <code>#19166</code> · updated: 2025-12-07 · created: 2025-12-07  
-  labels: bug, good first issue
-- <a href="https://github.com/apache/datafusion/issues/19156">spark `next_day` need to have custom nullability</a>  <code>#19156</code> · updated: 2025-12-07 · created: 2025-12-07  
   labels: bug, good first issue
 - <a href="https://github.com/apache/datafusion/issues/19155">spark `make_interval` need to have custom nullability</a>  <code>#19155</code> · updated: 2025-12-07 · created: 2025-12-07  
   labels: bug, good first issue
@@ -3630,33 +3622,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/datafusion/issues/17811">Add a page to describe the bench code we have.</a>  <code>#17811</code> · updated: 2025-10-28 · created: 2025-09-28  
   labels: good first issue, discussion
 
-## getmoto/moto  ⭐ 8131
-[Repository](https://github.com/getmoto/moto)
-
-- <a href="https://github.com/getmoto/moto/issues/9528">Route53: exception when trying to delete non-existent tag</a>  <code>#9528</code> · updated: 2025-12-08 · created: 2025-12-04  
-  labels: bug, good first issue
-
-## openstatusHQ/openstatus  ⭐ 8131
+## openstatusHQ/openstatus  ⭐ 8140
 [Repository](https://github.com/openstatusHQ/openstatus)
 
 - <a href="https://github.com/openstatusHQ/openstatus/issues/1548">Upgrade to Zod 4</a>  <code>#1548</code> · updated: 2025-12-02 · created: 2025-11-12  
   labels: 🙋 help wanted, good first issue
 
-## anchore/syft  ⭐ 8113
+## anchore/syft  ⭐ 8128
 [Repository](https://github.com/anchore/syft)
 
+- <a href="https://github.com/anchore/syft/issues/4430">Exclude development or test dependencies for PNPM Package type</a>  <code>#4430</code> · updated: 2025-12-19 · created: 2025-12-03  
+  labels: enhancement, good-first-issue
+- <a href="https://github.com/anchore/syft/issues/4414">cyclonedx.ComponentTypeOS skipped in package collection</a>  <code>#4414</code> · updated: 2025-12-18 · created: 2025-11-27  
+  labels: bug, good-first-issue
 - <a href="https://github.com/anchore/syft/issues/4242">Syft generates different CycloneDX SBOMs from conan.lock depending on operating system</a>  <code>#4242</code> · updated: 2025-09-29 · created: 2025-09-25  
   labels: bug, good-first-issue, windows
 - <a href="https://github.com/anchore/syft/issues/4233">Wrong format in license</a>  <code>#4233</code> · updated: 2025-09-26 · created: 2025-09-23  
   labels: bug, good-first-issue
 
-## lightningnetwork/lnd  ⭐ 8074
-[Repository](https://github.com/lightningnetwork/lnd)
-
-- <a href="https://github.com/lightningnetwork/lnd/issues/10271">[feature]: specific change address for `SendCoinsRequest`</a>  <code>#10271</code> · updated: 2025-10-20 · created: 2025-10-06  
-  labels: enhancement, good first issue
-
-## paradedb/paradedb  ⭐ 8058
+## paradedb/paradedb  ⭐ 8082
 [Repository](https://github.com/paradedb/paradedb)
 
 - <a href="https://github.com/paradedb/paradedb/issues/3613">Replace `rust_icu` by a pure Rust ICU implementation</a>  <code>#3613</code> · updated: 2025-12-14 · created: 2025-11-24  
@@ -3670,65 +3654,61 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/paradedb/paradedb/issues/3231">Fall back to `NormalScanExecState` if we request scores and order by more than 2 columns</a>  <code>#3231</code> · updated: 2025-11-09 · created: 2025-09-26  
   labels: bug, good first issue, priority-medium, user-request
 
-## brndnmtthws/conky  ⭐ 8048
+## lightningnetwork/lnd  ⭐ 8073
+[Repository](https://github.com/lightningnetwork/lnd)
+
+- <a href="https://github.com/lightningnetwork/lnd/issues/10271">[feature]: specific change address for `SendCoinsRequest`</a>  <code>#10271</code> · updated: 2025-10-20 · created: 2025-10-06  
+  labels: enhancement, good first issue
+
+## brndnmtthws/conky  ⭐ 8060
 [Repository](https://github.com/brndnmtthws/conky)
 
 - <a href="https://github.com/brndnmtthws/conky/issues/2271">[Bug]: cairo resolution not updated on Xdpi change</a>  <code>#2271</code> · updated: 2025-12-12 · created: 2025-10-30  
   labels: good first issue, display: x11, cairo, rendering, regression
 - <a href="https://github.com/brndnmtthws/conky/issues/2252">[Bug]: &quot;user_names&quot; show &quot;broken&quot;</a>  <code>#2252</code> · updated: 2025-10-30 · created: 2025-09-23  
   labels: good first issue, text, os: linux, regression
-- <a href="https://github.com/brndnmtthws/conky/issues/2247">[Bug]: Conky CPU graph misaligned at bottom edge in Wayland</a>  <code>#2247</code> · updated: 2025-10-27 · created: 2025-09-19  
-  labels: bug, good first issue, display: wayland, cairo, rendering
 
-## isomorphic-git/isomorphic-git  ⭐ 7999
+## isomorphic-git/isomorphic-git  ⭐ 8001
 [Repository](https://github.com/isomorphic-git/isomorphic-git)
 
 - <a href="https://github.com/isomorphic-git/isomorphic-git/issues/2216">Improve fatal error message</a>  <code>#2216</code> · updated: 2025-10-15 · created: 2025-10-10  
   labels: enhancement, good first issue
 
-## jazzband/pip-tools  ⭐ 7979
-[Repository](https://github.com/jazzband/pip-tools)
-
-- <a href="https://github.com/jazzband/pip-tools/issues/2271">Update GitHub Workflows to remove redundant &#x27;v&#x27; from release jobs</a>  <code>#2271</code> · updated: 2025-11-13 · created: 2025-11-12  
-  labels: maintenance, good first issue, ci
-
-## openedx/edx-platform  ⭐ 7946
-[Repository](https://github.com/openedx/edx-platform)
-
-- <a href="https://github.com/openedx/edx-platform/issues/37720">remove nonfunctional code from retirement</a>  <code>#37720</code> · updated: 2025-12-15 · created: 2025-12-03  
-  labels: help wanted, good first issue, code health
-- <a href="https://github.com/openedx/edx-platform/issues/37611">Test: Tests break when pycountries updates its list of countries</a>  <code>#37611</code> · updated: 2025-11-05 · created: 2025-11-05  
-  labels: testing, good first issue
-
-## modelcontextprotocol/inspector  ⭐ 7940
+## modelcontextprotocol/inspector  ⭐ 7985
 [Repository](https://github.com/modelcontextprotocol/inspector)
 
 - <a href="https://github.com/modelcontextprotocol/inspector/issues/832">Proposal: support `tools/list_changed` notifications handling</a>  <code>#832</code> · updated: 2025-11-21 · created: 2025-09-30  
   labels: enhancement, good first issue
 
-## Arize-ai/phoenix  ⭐ 7935
+## jazzband/pip-tools  ⭐ 7980
+[Repository](https://github.com/jazzband/pip-tools)
+
+- <a href="https://github.com/jazzband/pip-tools/issues/2271">Update GitHub Workflows to remove redundant &#x27;v&#x27; from release jobs</a>  <code>#2271</code> · updated: 2025-11-13 · created: 2025-11-12  
+  labels: maintenance, good first issue, ci
+
+## Arize-ai/phoenix  ⭐ 7967
 [Repository](https://github.com/Arize-ai/phoenix)
 
 - <a href="https://github.com/Arize-ai/phoenix/issues/10137">[js] re-export supress tracing from phoenix-otel</a>  <code>#10137</code> · updated: 2025-11-17 · created: 2025-11-05  
   labels: good first issue, backlog, javascript
 
-## yarnpkg/berry  ⭐ 7927
-[Repository](https://github.com/yarnpkg/berry)
+## openedx/edx-platform  ⭐ 7951
+[Repository](https://github.com/openedx/edx-platform)
 
-- <a href="https://github.com/yarnpkg/berry/issues/6909">[Docs] Manifest documentation mentions `export` without actually documenting it</a>  <code>#6909</code> · updated: 2025-11-30 · created: 2025-09-18  
-  labels: help wanted, good first issue, documentation
+- <a href="https://github.com/openedx/edx-platform/issues/37720">remove nonfunctional code from retirement</a>  <code>#37720</code> · updated: 2025-12-17 · created: 2025-12-03  
+  labels: help wanted, good first issue, code health
+- <a href="https://github.com/openedx/edx-platform/issues/37611">Test: Tests break when pycountries updates its list of countries</a>  <code>#37611</code> · updated: 2025-11-05 · created: 2025-11-05  
+  labels: testing, good first issue
 
-## PrivateBin/PrivateBin  ⭐ 7844
+## PrivateBin/PrivateBin  ⭐ 7848
 [Repository](https://github.com/PrivateBin/PrivateBin)
 
-- <a href="https://github.com/PrivateBin/PrivateBin/issues/1707">The content format is not reset when creating a new document</a>  <code>#1707</code> · updated: 2025-11-13 · created: 2025-11-08  
-  labels: bug, UI/UX, good first issue
 - <a href="https://github.com/PrivateBin/PrivateBin/issues/1703">Copy button is hidden if the document is made as markdown</a>  <code>#1703</code> · updated: 2025-11-07 · created: 2025-11-06  
   labels: bug, UI/UX, good first issue
 - <a href="https://github.com/PrivateBin/PrivateBin/issues/1682">Feature Request: Drag &amp; drop text files to populate paste content (like GitHub Gists)</a>  <code>#1682</code> · updated: 2025-10-15 · created: 2025-10-15  
   labels: enhancement, UI/UX, good first issue, javascript
 
-## mark3labs/mcp-go  ⭐ 7806
+## mark3labs/mcp-go  ⭐ 7826
 [Repository](https://github.com/mark3labs/mcp-go)
 
 - <a href="https://github.com/mark3labs/mcp-go/issues/651">bug: OnUnregisterSession hooks not called in the StreamableHttp session termination handler</a>  <code>#651</code> · updated: 2025-12-11 · created: 2025-12-08  
@@ -3752,7 +3732,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/mark3labs/mcp-go/issues/648">bug:</a>  <code>#648</code> · updated: 2025-12-10 · created: 2025-12-02  
   labels: good first issue, help wanted
 
-## litestar-org/litestar  ⭐ 7760
+## litestar-org/litestar  ⭐ 7769
 [Repository](https://github.com/litestar-org/litestar)
 
 - <a href="https://github.com/litestar-org/litestar/issues/4489">Enhancement(CI): Add Zizmor</a>  <code>#4489</code> · updated: 2025-11-26 · created: 2025-11-26  
@@ -3762,7 +3742,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/litestar-org/litestar/issues/4301">Remove `litestar.contrib` namespace</a>  <code>#4301</code> · updated: 2025-09-27 · created: 2025-09-22  
   labels: Good First Issue, Refactor, 3.x
 
-## phpmyadmin/phpmyadmin  ⭐ 7739
+## phpmyadmin/phpmyadmin  ⭐ 7743
 [Repository](https://github.com/phpmyadmin/phpmyadmin)
 
 - <a href="https://github.com/phpmyadmin/phpmyadmin/issues/19976">[Bug]: Bootstrap theme icons are not visible on bigger screens</a>  <code>#19976</code> · updated: 2025-12-14 · created: 2025-12-06  
@@ -3774,53 +3754,39 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/phpmyadmin/phpmyadmin/issues/19891">[Bug]: When `$cfg[&#x27;Export&#x27;][&#x27;format&#x27;]` is invalid, &#x27;sql&#x27; should be the default</a>  <code>#19891</code> · updated: 2025-10-18 · created: 2025-10-18  
   labels: Bug, good first issue
 
-## seerr-team/seerr  ⭐ 7625
+## seerr-team/seerr  ⭐ 7677
 [Repository](https://github.com/seerr-team/seerr)
 
 - <a href="https://github.com/seerr-team/seerr/issues/2144">Support for environment variables from files (Docker secrets)</a>  <code>#2144</code> · updated: 2025-11-22 · created: 2025-11-12  
   labels: enhancement, good first issue
 
-## google/adk-samples  ⭐ 7600
+## google/adk-samples  ⭐ 7654
 [Repository](https://github.com/google/adk-samples)
 
 - <a href="https://github.com/google/adk-samples/issues/388">[BUG]: Export functionality not working in blog-writer agent</a>  <code>#388</code> · updated: 2025-09-23 · created: 2025-09-23  
   labels: bug, enhancement, good first issue, help wanted
 
-## cloudnative-pg/cloudnative-pg  ⭐ 7582
+## kubevela/kubevela  ⭐ 7639
+[Repository](https://github.com/kubevela/kubevela)
+
+- <a href="https://github.com/kubevela/kubevela/issues/7010">[Bug] Vela dry-run command fails when applications contain component defs using builtin cuex packages</a>  <code>#7010</code> · updated: 2025-12-16 · created: 2025-12-15  
+  labels: good first issue, area/cue, priority/important-soon
+
+## cloudnative-pg/cloudnative-pg  ⭐ 7609
 [Repository](https://github.com/cloudnative-pg/cloudnative-pg)
 
-- <a href="https://github.com/cloudnative-pg/cloudnative-pg/issues/9439">[Bug]: workflow sync-docs not restricting permissions</a>  <code>#9439</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: good first issue, security :police_officer:
+- <a href="https://github.com/cloudnative-pg/cloudnative-pg/issues/9482">[Debt]: operator environment variables for e2e tests</a>  <code>#9482</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: good first issue, chore
 - <a href="https://github.com/cloudnative-pg/cloudnative-pg/issues/9395">[Bug]: Remove extra information for the metadata.yaml</a>  <code>#9395</code> · updated: 2025-12-13 · created: 2025-12-10  
   labels: good first issue, chore
 
-## withastro/starlight  ⭐ 7558
+## withastro/starlight  ⭐ 7574
 [Repository](https://github.com/withastro/starlight)
 
 - <a href="https://github.com/withastro/starlight/issues/3615">Font size increases when orientation switches to horizontal</a>  <code>#3615</code> · updated: 2025-12-09 · created: 2025-12-06  
   labels: 🐛 bug, good first issue
 
-## ElectronNET/Electron.NET  ⭐ 7542
-[Repository](https://github.com/ElectronNET/Electron.NET)
-
-- <a href="https://github.com/ElectronNET/Electron.NET/issues/967">Ideas for Sample Applications</a>  <code>#967</code> · updated: 2025-12-09 · created: 2025-12-07  
-  labels: help wanted, good first issue, examples
-
-## dotnet/wpf  ⭐ 7499
-[Repository](https://github.com/dotnet/wpf)
-
-- <a href="https://github.com/dotnet/wpf/issues/11301">WPF Gallery App update to .Net 10</a>  <code>#11301</code> · updated: 2025-12-08 · created: 2025-12-04  
-  labels: Good First Issue
-
-## alibaba/spring-ai-alibaba  ⭐ 7494
-[Repository](https://github.com/alibaba/spring-ai-alibaba)
-
-- <a href="https://github.com/alibaba/spring-ai-alibaba/issues/3410">[BUG]examples\spring-ai-alibaba-helloworld\src\main\resources\application.yml 中的端口写成了18080，但是.http中是8080</a>  <code>#3410</code> · updated: 2025-12-15 · created: 2025-12-12  
-  labels: kind/bug, good first issue, help wanted, area/example
-- <a href="https://github.com/alibaba/spring-ai-alibaba/issues/3119">[Feature] RedisSaver支持Jedis客户端</a>  <code>#3119</code> · updated: 2025-11-22 · created: 2025-11-21  
-  labels: kind/enhancement, good first issue, area/graph
-
-## ValueCell-ai/valuecell  ⭐ 7472
+## ValueCell-ai/valuecell  ⭐ 7551
 [Repository](https://github.com/ValueCell-ai/valuecell)
 
 - <a href="https://github.com/ValueCell-ai/valuecell/issues/523">Enhance display formatting for ResearchAgent tool_call outputs</a>  <code>#523</code> · updated: 2025-12-04 · created: 2025-12-04  
@@ -3832,7 +3798,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/ValueCell-ai/valuecell/issues/372">Synchronize &quot;Trading Symbol&quot; list with the selected Exchange in Strategy Agent</a>  <code>#372</code> · updated: 2025-11-19 · created: 2025-11-18  
   labels: enhancement, good first issue
 
-## mumble-voip/mumble  ⭐ 7465
+## alibaba/spring-ai-alibaba  ⭐ 7547
+[Repository](https://github.com/alibaba/spring-ai-alibaba)
+
+- <a href="https://github.com/alibaba/spring-ai-alibaba/issues/3119">[Feature] RedisSaver支持Jedis客户端</a>  <code>#3119</code> · updated: 2025-11-22 · created: 2025-11-21  
+  labels: kind/enhancement, good first issue, area/graph
+
+## ElectronNET/Electron.NET  ⭐ 7544
+[Repository](https://github.com/ElectronNET/Electron.NET)
+
+- <a href="https://github.com/ElectronNET/Electron.NET/issues/967">Ideas for Sample Applications</a>  <code>#967</code> · updated: 2025-12-09 · created: 2025-12-07  
+  labels: help wanted, good first issue, examples
+
+## dotnet/wpf  ⭐ 7500
+[Repository](https://github.com/dotnet/wpf)
+
+- <a href="https://github.com/dotnet/wpf/issues/11301">WPF Gallery App update to .Net 10</a>  <code>#11301</code> · updated: 2025-12-08 · created: 2025-12-04  
+  labels: Good First Issue
+
+## mumble-voip/mumble  ⭐ 7471
 [Repository](https://github.com/mumble-voip/mumble)
 
 - <a href="https://github.com/mumble-voip/mumble/issues/6970">Add separate notification setting for image messages</a>  <code>#6970</code> · updated: 2025-11-27 · created: 2025-10-25  
@@ -3844,25 +3828,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/mumble-voip/mumble/issues/6961">Indicate that ACLs can only be applied to registered users</a>  <code>#6961</code> · updated: 2025-10-21 · created: 2025-10-21  
   labels: client, ui, feature-request, good first issue
 
-## HIPS/autograd  ⭐ 7418
+## HIPS/autograd  ⭐ 7425
 [Repository](https://github.com/HIPS/autograd)
 
 - <a href="https://github.com/HIPS/autograd/issues/743">support numpy.take</a>  <code>#743</code> · updated: 2025-11-25 · created: 2025-11-24  
   labels: PR welcome, good first issue
 
-## stride3d/stride  ⭐ 7342
+## stride3d/stride  ⭐ 7343
 [Repository](https://github.com/stride3d/stride)
 
 - <a href="https://github.com/stride3d/stride/issues/2964">Task: Remove .vs workspace folder (samples/Templates/Packs/MaterialPackage/.vs)</a>  <code>#2964</code> · updated: 2025-12-10 · created: 2025-11-09  
   labels: bug, good first issue
 
-## OpenTTD/OpenTTD  ⭐ 7332
+## OpenTTD/OpenTTD  ⭐ 7333
 [Repository](https://github.com/OpenTTD/OpenTTD)
 
 - <a href="https://github.com/OpenTTD/OpenTTD/issues/14666">[Bug]: Train and road depots are maintenance free but ship depots are not</a>  <code>#14666</code> · updated: 2025-10-23 · created: 2025-09-26  
   labels: good first issue, enhancement
 
-## longhorn/longhorn  ⭐ 7316
+## longhorn/longhorn  ⭐ 7324
 [Repository](https://github.com/longhorn/longhorn)
 
 - <a href="https://github.com/longhorn/longhorn/issues/12153">[FEATURE] Guess Linux distro from the package manager</a>  <code>#12153</code> · updated: 2025-12-15 · created: 2025-11-12  
@@ -3874,29 +3858,23 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/longhorn/longhorn/issues/12155">[IMPROVEMENT] expose the hardcode parameters for users in backupstore</a>  <code>#12155</code> · updated: 2025-11-12 · created: 2025-11-12  
   labels: good first issue, require/doc, require/manual-test-plan, area/volume-backup-restore, kind/improvement, area/resilience, require/backport
 
-## nodejs/undici  ⭐ 7312
+## nodejs/undici  ⭐ 7316
 [Repository](https://github.com/nodejs/undici)
 
 - <a href="https://github.com/nodejs/undici/issues/4693">MockAgent delayed response with AbortSignal</a>  <code>#4693</code> · updated: 2025-12-14 · created: 2025-12-08  
   labels: bug, good first issue
 
-## btcpayserver/btcpayserver  ⭐ 7272
-[Repository](https://github.com/btcpayserver/btcpayserver)
-
-- <a href="https://github.com/btcpayserver/btcpayserver/issues/6933">Bug: Unable to copy fiat amount in Invoice Checkout</a>  <code>#6933</code> · updated: 2025-12-12 · created: 2025-10-02  
-  labels: Bug, good first issue
-
-## kyverno/kyverno  ⭐ 7187
+## kyverno/kyverno  ⭐ 7197
 [Repository](https://github.com/kyverno/kyverno)
 
+- <a href="https://github.com/kyverno/kyverno/issues/14334">[Feature] Add the paths filters to conformance CI tests</a>  <code>#14334</code> · updated: 2025-12-17 · created: 2025-11-13  
+  labels: enhancement, good first issue, github_actions
 - <a href="https://github.com/kyverno/kyverno/issues/14360">[Bug] Kyverno install.yaml deploys Linux-Only pods without OS nodeSelector</a>  <code>#14360</code> · updated: 2025-12-08 · created: 2025-11-17  
   labels: bug, good first issue
 - <a href="https://github.com/kyverno/kyverno/issues/14313">[Enhancement] API server warns “unrecognized format &#x27;int32&#x27;/&#x27;int64&#x27;” when installing Kyverno CRDs via Helm</a>  <code>#14313</code> · updated: 2025-11-27 · created: 2025-11-07  
   labels: enhancement, good first issue, helm
-- <a href="https://github.com/kyverno/kyverno/issues/14334">[Feature] Add the paths filters to conformance CI tests</a>  <code>#14334</code> · updated: 2025-11-13 · created: 2025-11-13  
-  labels: enhancement, good first issue, github_actions
 
-## youki-dev/youki  ⭐ 7134
+## youki-dev/youki  ⭐ 7135
 [Repository](https://github.com/youki-dev/youki)
 
 - <a href="https://github.com/youki-dev/youki/issues/3321">k8s test update</a>  <code>#3321</code> · updated: 2025-12-14 · created: 2025-12-14  
@@ -3904,29 +3882,53 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/youki-dev/youki/issues/3259">support time namespace</a>  <code>#3259</code> · updated: 2025-10-06 · created: 2025-09-28  
   labels: good first issue
 
-## ohmybash/oh-my-bash  ⭐ 7121
+## ohmybash/oh-my-bash  ⭐ 7129
 [Repository](https://github.com/ohmybash/oh-my-bash)
 
 - <a href="https://github.com/ohmybash/oh-my-bash/issues/719">Feature Request: integrate kube-ps1 as OMB plugin</a>  <code>#719</code> · updated: 2025-10-07 · created: 2025-10-07  
   labels: good first issue
 
-## podman-desktop/podman-desktop  ⭐ 7074
+## alibaba/higress  ⭐ 7089
+[Repository](https://github.com/alibaba/higress)
+
+- <a href="https://github.com/alibaba/higress/issues/3207">使用all in one 的方式部署服务，swagger的request Body不显示参数</a>  <code>#3207</code> · updated: 2025-12-12 · created: 2025-12-09  
+  labels: type/bug, good first issue, level/easy, sig/ops, good-issue, area/console
+
+## podman-desktop/podman-desktop  ⭐ 7087
 [Repository](https://github.com/podman-desktop/podman-desktop)
 
-- <a href="https://github.com/podman-desktop/podman-desktop/issues/15219">SearchBar should not react to keyboard inputs unless it is open</a>  <code>#15219</code> · updated: 2025-12-08 · created: 2025-12-04  
+- <a href="https://github.com/podman-desktop/podman-desktop/issues/15388">UX: Resources page has uneven separator&#x27;s in each section</a>  <code>#15388</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: kind/bug 🐞, good first issue, status/need-triage
+- <a href="https://github.com/podman-desktop/podman-desktop/issues/15056">bug(renderer/PreferencesManagedLabel.svelte): avoid using tooltip within a tooltip</a>  <code>#15056</code> · updated: 2025-12-18 · created: 2025-11-24  
+  labels: kind/bug 🐞, good first issue, area/ui, area/ui-components
+- <a href="https://github.com/podman-desktop/podman-desktop/issues/14443">PR labeler workflow is NOP because code is not checked out</a>  <code>#14443</code> · updated: 2025-12-17 · created: 2025-10-16  
+  labels: kind/bug 🐞, good first issue, area/ci
+- <a href="https://github.com/podman-desktop/podman-desktop/issues/15219">SearchBar should not react to keyboard inputs unless it is open</a>  <code>#15219</code> · updated: 2025-12-17 · created: 2025-12-04  
   labels: kind/bug 🐞, good first issue, area/ui
 - <a href="https://github.com/podman-desktop/podman-desktop/issues/15217">Manage Kubernetes feature button has an italic icon</a>  <code>#15217</code> · updated: 2025-12-08 · created: 2025-12-04  
   labels: kind/bug 🐞, good first issue, area/ui
-- <a href="https://github.com/podman-desktop/podman-desktop/issues/15056">bug(renderer/PreferencesManagedLabel.svelte): avoid using tooltip within a tooltip</a>  <code>#15056</code> · updated: 2025-12-01 · created: 2025-11-24  
-  labels: kind/bug 🐞, good first issue, area/ui, area/ui-components
 - <a href="https://github.com/podman-desktop/podman-desktop/issues/14747">Fix capitalization of Username and Password in Settings &gt; Registry.</a>  <code>#14747</code> · updated: 2025-11-21 · created: 2025-11-04  
   labels: kind/enhancement ✨, good first issue, area/ui
-- <a href="https://github.com/podman-desktop/podman-desktop/issues/14443">PR labeler workflow is NOP because code is not checked out</a>  <code>#14443</code> · updated: 2025-11-19 · created: 2025-10-16  
-  labels: kind/bug 🐞, good first issue, area/ci
 - <a href="https://github.com/podman-desktop/podman-desktop/issues/14437">Improved Delete Button Component</a>  <code>#14437</code> · updated: 2025-11-14 · created: 2025-10-16  
   labels: kind/enhancement ✨, good first issue, UX/UI Issue
 
-## go-git/go-git  ⭐ 7069
+## ghostfolio/ghostfolio  ⭐ 7074
+[Repository](https://github.com/ghostfolio/ghostfolio)
+
+- <a href="https://github.com/ghostfolio/ghostfolio/issues/6028">Missing currency in cash balance input of create or update account dialog</a>  <code>#6028</code> · updated: 2025-12-17 · created: 2025-12-02  
+  labels: bug, good first issue, help wanted, Angular
+- <a href="https://github.com/ghostfolio/ghostfolio/issues/6070">Localize month names in FIRE calculator</a>  <code>#6070</code> · updated: 2025-12-16 · created: 2025-12-15  
+  labels: bug, good first issue, help wanted, Angular
+- <a href="https://github.com/ghostfolio/ghostfolio/issues/5785">Integrate Bull Board for queue monitoring</a>  <code>#5785</code> · updated: 2025-11-19 · created: 2025-10-18  
+  labels: enhancement, good first issue, help wanted, hacktoberfest, NestJS
+- <a href="https://github.com/ghostfolio/ghostfolio/issues/5921">Warning in angular-sass plugin</a>  <code>#5921</code> · updated: 2025-11-09 · created: 2025-11-06  
+  labels: enhancement, good first issue, help wanted, Angular
+- <a href="https://github.com/ghostfolio/ghostfolio/issues/5833">Improve user detail dialog routing in Admin Control panel</a>  <code>#5833</code> · updated: 2025-11-06 · created: 2025-10-25  
+  labels: enhancement, good first issue, help wanted, hacktoberfest, Angular
+- <a href="https://github.com/ghostfolio/ghostfolio/issues/5776">Optimize performance of redact attributes helper function</a>  <code>#5776</code> · updated: 2025-11-01 · created: 2025-10-17  
+  labels: enhancement, good first issue, help wanted, hacktoberfest, NestJS
+
+## go-git/go-git  ⭐ 7074
 [Repository](https://github.com/go-git/go-git)
 
 - <a href="https://github.com/go-git/go-git/issues/1753">golangci-lint: Enable linters</a>  <code>#1753</code> · updated: 2025-12-12 · created: 2025-11-25  
@@ -3940,31 +3942,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/go-git/go-git/issues/1679">Add() should not add ignored files by default</a>  <code>#1679</code> · updated: 2025-10-07 · created: 2025-09-30  
   labels: enhancement, good first issue, help wanted
 
-## ghostfolio/ghostfolio  ⭐ 7060
-[Repository](https://github.com/ghostfolio/ghostfolio)
-
-- <a href="https://github.com/ghostfolio/ghostfolio/issues/6061">Remove deprecated Angular CLI decorator</a>  <code>#6061</code> · updated: 2025-12-15 · created: 2025-12-12  
-  labels: good first issue, help wanted, Angular
-- <a href="https://github.com/ghostfolio/ghostfolio/issues/6028">Missing currency in cash balance input of create or update account dialog</a>  <code>#6028</code> · updated: 2025-12-15 · created: 2025-12-02  
-  labels: bug, good first issue, help wanted, Angular
-- <a href="https://github.com/ghostfolio/ghostfolio/issues/6070">Localize month names in FIRE calculator</a>  <code>#6070</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: bug, good first issue, help wanted, Angular
-- <a href="https://github.com/ghostfolio/ghostfolio/issues/5785">Integrate Bull Board for queue monitoring</a>  <code>#5785</code> · updated: 2025-11-19 · created: 2025-10-18  
-  labels: enhancement, good first issue, help wanted, hacktoberfest, NestJS
-- <a href="https://github.com/ghostfolio/ghostfolio/issues/5921">Warning in angular-sass plugin</a>  <code>#5921</code> · updated: 2025-11-09 · created: 2025-11-06  
-  labels: enhancement, good first issue, help wanted, Angular
-- <a href="https://github.com/ghostfolio/ghostfolio/issues/5833">Improve user detail dialog routing in Admin Control panel</a>  <code>#5833</code> · updated: 2025-11-06 · created: 2025-10-25  
-  labels: enhancement, good first issue, help wanted, hacktoberfest, Angular
-- <a href="https://github.com/ghostfolio/ghostfolio/issues/5776">Optimize performance of redact attributes helper function</a>  <code>#5776</code> · updated: 2025-11-01 · created: 2025-10-17  
-  labels: enhancement, good first issue, help wanted, hacktoberfest, NestJS
-
-## alibaba/higress  ⭐ 7059
-[Repository](https://github.com/alibaba/higress)
-
-- <a href="https://github.com/alibaba/higress/issues/3207">使用all in one 的方式部署服务，swagger的request Body不显示参数</a>  <code>#3207</code> · updated: 2025-12-12 · created: 2025-12-09  
-  labels: type/bug, good first issue, level/easy, sig/ops, good-issue, area/console
-
-## uswds/uswds  ⭐ 7030
+## uswds/uswds  ⭐ 7031
 [Repository](https://github.com/uswds/uswds)
 
 - <a href="https://github.com/uswds/uswds/issues/6540">USWDS - Bug: broken link related to U.S. Patent and Trademark Office’s Design System in main README</a>  <code>#6540</code> · updated: 2025-11-21 · created: 2025-11-06  
@@ -3972,33 +3950,39 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/uswds/uswds/issues/6543">USWDS - Bug: 18F links appear to have changed to guides.18f.org</a>  <code>#6543</code> · updated: 2025-11-20 · created: 2025-11-11  
   labels: Affects: Documentation, Affects: Website, Comms/Content, Good First Issue
 
-## projectcalico/calico  ⭐ 6945
+## projectcalico/calico  ⭐ 6951
 [Repository](https://github.com/projectcalico/calico)
 
 - <a href="https://github.com/projectcalico/calico/issues/11384">Calico SIGSEV on null address in Kubernetes (3.30.1)</a>  <code>#11384</code> · updated: 2025-12-12 · created: 2025-11-13  
   labels: help wanted, kind/support, kind/bug, good first issue
 
-## PixiEditor/PixiEditor  ⭐ 6943
+## PixiEditor/PixiEditor  ⭐ 6949
 [Repository](https://github.com/PixiEditor/PixiEditor)
 
 - <a href="https://github.com/PixiEditor/PixiEditor/issues/1291">[BUG]: Clicking node categories doesn&#x27;t bring you to the right place in the list</a>  <code>#1291</code> · updated: 2025-12-15 · created: 2025-12-10  
   labels: bug, good first issue
 
-## raycast/extensions  ⭐ 6910
+## raycast/extensions  ⭐ 6927
 [Repository](https://github.com/raycast/extensions)
 
+- <a href="https://github.com/raycast/extensions/issues/23739">T3 Chat: Support for GPT‑5.1 and GPT‑5.2 models</a>  <code>#23739</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: feature request, extension, Good first issue, extension: t3-chat
 - <a href="https://github.com/raycast/extensions/issues/23538">[Notion] - Add a Date Divider for Quick Capture Command as well</a>  <code>#23538</code> · updated: 2025-12-11 · created: 2025-12-09  
   labels: feature request, extension, extension: notion, Good first issue
 
-## apache/hertzbeat  ⭐ 6896
+## apache/hertzbeat  ⭐ 6898
 [Repository](https://github.com/apache/hertzbeat)
 
-- <a href="https://github.com/apache/hertzbeat/issues/3877">[Feature] &lt;collector&gt; support  milvus collector</a>  <code>#3877</code> · updated: 2025-12-10 · created: 2025-12-01  
-  labels: good first issue, new feature
 - <a href="https://github.com/apache/hertzbeat/issues/3812">[BUG] It got stuck for a long time when modifying the monitoring save settings, and eventually timed out, but it was confirmed that the save was successful in the end.</a>  <code>#3812</code> · updated: 2025-10-17 · created: 2025-10-10  
   labels: bug, good first issue
 
-## Qiskit/qiskit  ⭐ 6835
+## jonasstrehle/supercookie  ⭐ 6864
+[Repository](https://github.com/jonasstrehle/supercookie)
+
+- <a href="https://github.com/jonasstrehle/supercookie/issues/51">Docker Environment for contribution </a>  <code>#51</code> · updated: 2025-11-22 · created: 2025-11-21  
+  labels: good first issue
+
+## Qiskit/qiskit  ⭐ 6843
 [Repository](https://github.com/Qiskit/qiskit)
 
 - <a href="https://github.com/Qiskit/qiskit/issues/15316">Replace `ShareableQubit`/`ShareableClbit` parameters with `Qubit`/`Clbit` in some functions</a>  <code>#15316</code> · updated: 2025-12-13 · created: 2025-11-09  
@@ -4016,43 +4000,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/Qiskit/qiskit/issues/15097">Use `fprintf` over `printf` in C tests</a>  <code>#15097</code> · updated: 2025-10-05 · created: 2025-10-01  
   labels: good first issue, C API
 
-## LuckyOne7777/ChatGPT-Micro-Cap-Experiment  ⭐ 6812
+## LuckyOne7777/ChatGPT-Micro-Cap-Experiment  ⭐ 6821
 [Repository](https://github.com/LuckyOne7777/ChatGPT-Micro-Cap-Experiment)
 
 - <a href="https://github.com/LuckyOne7777/ChatGPT-Micro-Cap-Experiment/issues/103">DeepSeek Support?</a>  <code>#103</code> · updated: 2025-12-01 · created: 2025-10-21  
   labels: enhancement, good first issue
 
-## dequelabs/axe-core  ⭐ 6759
+## dequelabs/axe-core  ⭐ 6762
 [Repository](https://github.com/dequelabs/axe-core)
 
 - <a href="https://github.com/dequelabs/axe-core/issues/4957">`aria-valid-attr-value` does not correctly handle multiple id tokens for `aria-errormessage` with `aria-describedby`</a>  <code>#4957</code> · updated: 2025-12-12 · created: 2025-12-01  
   labels: fix, rules, good first issue, standards
 
-## Dolibarr/dolibarr  ⭐ 6746
+## Dolibarr/dolibarr  ⭐ 6750
 [Repository](https://github.com/Dolibarr/dolibarr)
 
 - <a href="https://github.com/Dolibarr/dolibarr/issues/35608">Add spellcheck=&quot;false&quot; on form field that does not need spellchecking</a>  <code>#35608</code> · updated: 2025-10-06 · created: 2025-10-03  
   labels: Feature request, hacktoberfest, good-first-issue
 
-## jonasstrehle/supercookie  ⭐ 6726
-[Repository](https://github.com/jonasstrehle/supercookie)
-
-- <a href="https://github.com/jonasstrehle/supercookie/issues/51">Docker Environment for contribution </a>  <code>#51</code> · updated: 2025-11-22 · created: 2025-11-21  
-  labels: good first issue
-
-## boa-dev/boa  ⭐ 6707
-[Repository](https://github.com/boa-dev/boa)
-
-- <a href="https://github.com/boa-dev/boa/issues/4504">WebAssembly should be abbreviated as Wasm</a>  <code>#4504</code> · updated: 2025-10-29 · created: 2025-10-27  
-  labels: bug, good first issue, E-Easy
-
-## traceloop/openllmetry  ⭐ 6692
-[Repository](https://github.com/traceloop/openllmetry)
-
-- <a href="https://github.com/traceloop/openllmetry/issues/3492">🐛 Bug Report: `opentelemetry-instrumentation-qdrant` is incompatible with `qdrant-client` version `1.16.1`</a>  <code>#3492</code> · updated: 2025-12-07 · created: 2025-12-04  
-  labels: good first issue, help wanted
-
-## iyear/tdl  ⭐ 6683
+## iyear/tdl  ⭐ 6732
 [Repository](https://github.com/iyear/tdl)
 
 - <a href="https://github.com/iyear/tdl/issues/1107">[Bug] Stalls on empty file</a>  <code>#1107</code> · updated: 2025-11-29 · created: 2025-11-28  
@@ -4066,49 +4032,65 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/iyear/tdl/issues/1058">[Bug] When multiple users are downloading together, they share the same log file, which can cause conflicts.</a>  <code>#1058</code> · updated: 2025-10-16 · created: 2025-10-13  
   labels: bug, good first issue, accepted
 
-## googleforgames/agones  ⭐ 6609
-[Repository](https://github.com/googleforgames/agones)
+## boa-dev/boa  ⭐ 6717
+[Repository](https://github.com/boa-dev/boa)
 
-- <a href="https://github.com/googleforgames/agones/issues/4385">Error handling on client SDK feature &quot;setLabel&quot;</a>  <code>#4385</code> · updated: 2025-12-12 · created: 2025-12-11  
-  labels: kind/feature, help wanted, good first issue, area/user-experience
-- <a href="https://github.com/googleforgames/agones/issues/4321">Flaky: TestSuperTuxKartGameServerReady</a>  <code>#4321</code> · updated: 2025-12-09 · created: 2025-10-31  
-  labels: kind/bug, help wanted, good first issue, area/examples, area/tests
-- <a href="https://github.com/googleforgames/agones/issues/4361">Move `SidecarContainers` to Beta</a>  <code>#4361</code> · updated: 2025-11-30 · created: 2025-11-29  
-  labels: kind/feature, help wanted, good first issue, area/user-experience, kind/breaking
+- <a href="https://github.com/boa-dev/boa/issues/4504">WebAssembly should be abbreviated as Wasm</a>  <code>#4504</code> · updated: 2025-10-29 · created: 2025-10-27  
+  labels: bug, good first issue, E-Easy
 
-## uber/kraken  ⭐ 6607
-[Repository](https://github.com/uber/kraken)
+## traceloop/openllmetry  ⭐ 6701
+[Repository](https://github.com/traceloop/openllmetry)
 
-- <a href="https://github.com/uber/kraken/issues/510">fix(cmd): use `context.WithCancel` to handle graceful shudowns</a>  <code>#510</code> · updated: 2025-11-28 · created: 2025-11-28  
-  labels: good first issue, go
+- <a href="https://github.com/traceloop/openllmetry/issues/3492">🐛 Bug Report: `opentelemetry-instrumentation-qdrant` is incompatible with `qdrant-client` version `1.16.1`</a>  <code>#3492</code> · updated: 2025-12-18 · created: 2025-12-04  
+  labels: good first issue, help wanted
 
-## dbgate/dbgate  ⭐ 6596
-[Repository](https://github.com/dbgate/dbgate)
-
-- <a href="https://github.com/dbgate/dbgate/issues/1295">Add option to hide unused database formatts</a>  <code>#1295</code> · updated: 2025-12-15 · created: 2025-12-09  
-  labels: good first issue
-
-## NVIDIA/garak  ⭐ 6583
+## NVIDIA/garak  ⭐ 6630
 [Repository](https://github.com/NVIDIA/garak)
 
-- <a href="https://github.com/NVIDIA/garak/issues/1401">probe: add resumé examples</a>  <code>#1401</code> · updated: 2025-12-10 · created: 2025-10-08  
+- <a href="https://github.com/NVIDIA/garak/issues/1400">probe: system prompt recovery resilience</a>  <code>#1400</code> · updated: 2025-12-17 · created: 2025-10-07  
+  labels: good first issue, probes, new plugin
+- <a href="https://github.com/NVIDIA/garak/issues/1401">probe: add resumé examples</a>  <code>#1401</code> · updated: 2025-12-16 · created: 2025-10-08  
   labels: good first issue, probes
 - <a href="https://github.com/NVIDIA/garak/issues/1516">housekeeping: find lighter `base2048` dependency</a>  <code>#1516</code> · updated: 2025-12-06 · created: 2025-12-05  
   labels: good first issue, housekeeping
 - <a href="https://github.com/NVIDIA/garak/issues/1451">[BUG] NameError in tap.PAIR and tap.TAP probes - &#x27;target_name&#x27; is not defined</a>  <code>#1451</code> · updated: 2025-12-05 · created: 2025-10-29  
   labels: good first issue
-- <a href="https://github.com/NVIDIA/garak/issues/1400">probe: system prompt recovery resilience</a>  <code>#1400</code> · updated: 2025-11-27 · created: 2025-10-07  
-  labels: good first issue, probes, new plugin
 
-## Anxcye/anx-reader  ⭐ 6570
+## googleforgames/agones  ⭐ 6612
+[Repository](https://github.com/googleforgames/agones)
+
+- <a href="https://github.com/googleforgames/agones/issues/4391">Flaky Unit Test: TestControllerGameServersNodeState</a>  <code>#4391</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: kind/bug, help wanted, good first issue, area/tests
+- <a href="https://github.com/googleforgames/agones/issues/4390">Flaky Unit Test: TestPortRangeAllocatorSyncDeleteGameServer</a>  <code>#4390</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: kind/bug, help wanted, good first issue, area/tests
+- <a href="https://github.com/googleforgames/agones/issues/4385">Error handling on client SDK feature &quot;setLabel&quot;</a>  <code>#4385</code> · updated: 2025-12-12 · created: 2025-12-11  
+  labels: kind/feature, help wanted, good first issue, area/user-experience
+- <a href="https://github.com/googleforgames/agones/issues/4361">Move `SidecarContainers` to Beta</a>  <code>#4361</code> · updated: 2025-11-30 · created: 2025-11-29  
+  labels: kind/feature, help wanted, good first issue, area/user-experience, kind/breaking
+
+## uber/kraken  ⭐ 6609
+[Repository](https://github.com/uber/kraken)
+
+- <a href="https://github.com/uber/kraken/issues/510">fix(cmd): use `context.WithCancel` to handle graceful shudowns</a>  <code>#510</code> · updated: 2025-11-28 · created: 2025-11-28  
+  labels: good first issue, go
+
+## dbgate/dbgate  ⭐ 6605
+[Repository](https://github.com/dbgate/dbgate)
+
+- <a href="https://github.com/dbgate/dbgate/issues/1295">Add option to hide unused database formatts</a>  <code>#1295</code> · updated: 2025-12-15 · created: 2025-12-09  
+  labels: good first issue
+
+## Anxcye/anx-reader  ⭐ 6595
 [Repository](https://github.com/Anxcye/anx-reader)
 
 - <a href="https://github.com/Anxcye/anx-reader/issues/598">希望能设置默认封面</a>  <code>#598</code> · updated: 2025-11-17 · created: 2025-11-13  
   labels: enhancement, good first issue, P2
 
-## logisim-evolution/logisim-evolution  ⭐ 6565
+## logisim-evolution/logisim-evolution  ⭐ 6580
 [Repository](https://github.com/logisim-evolution/logisim-evolution)
 
+- <a href="https://github.com/logisim-evolution/logisim-evolution/issues/2432">Documentation for Counter component doesn&#x27;t match the &quot;logism-evolution&quot; appearance</a>  <code>#2432</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: help wanted, documentation, good first issue
 - <a href="https://github.com/logisim-evolution/logisim-evolution/issues/2406">ROM Guide not up to date</a>  <code>#2406</code> · updated: 2025-12-07 · created: 2025-11-21  
   labels: help wanted, pri std, documentation, good first issue
 - <a href="https://github.com/logisim-evolution/logisim-evolution/issues/2383">Add Probe to the list of Dynamic Components</a>  <code>#2383</code> · updated: 2025-11-04 · created: 2025-11-04  
@@ -4120,13 +4102,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/logisim-evolution/logisim-evolution/issues/2352">What is telnet?</a>  <code>#2352</code> · updated: 2025-09-29 · created: 2025-09-27  
   labels: enhancement, help wanted, pri -1, documentation, good first issue
 
-## feast-dev/feast  ⭐ 6539
+## feast-dev/feast  ⭐ 6548
 [Repository](https://github.com/feast-dev/feast)
 
 - <a href="https://github.com/feast-dev/feast/issues/5630">Could not import module &#x27;hybrid_online_store&#x27;</a>  <code>#5630</code> · updated: 2025-11-23 · created: 2025-09-24  
   labels: good first issue, kind/bug, priority/p2, starter-ticket
 
-## ravynsoft/ravynos  ⭐ 6536
+## ravynsoft/ravynos  ⭐ 6543
 [Repository](https://github.com/ravynsoft/ravynos)
 
 - <a href="https://github.com/ravynsoft/ravynos/issues/523">Using zst instead of xz for compression</a>  <code>#523</code> · updated: 2025-10-20 · created: 2025-10-16  
@@ -4134,11 +4116,23 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/ravynsoft/ravynos/issues/525">0.6.0: Update /etc/motd in build, not distribute phase</a>  <code>#525</code> · updated: 2025-10-20 · created: 2025-10-20  
   labels: good first issue, CLI, Hyperpop Hyena
 
-## unisonweb/unison  ⭐ 6437
+## unisonweb/unison  ⭐ 6443
 [Repository](https://github.com/unisonweb/unison)
 
 - <a href="https://github.com/unisonweb/unison/issues/6052">Type-based search shouldn&#x27;t search transitive dependencies</a>  <code>#6052</code> · updated: 2025-12-12 · created: 2025-12-12  
   labels: good first issue, dx
+
+## microsoft/presidio  ⭐ 6432
+[Repository](https://github.com/microsoft/presidio)
+
+- <a href="https://github.com/microsoft/presidio/issues/1760">Can multiple GLiNERRecognizer instances be configured via YAML?</a>  <code>#1760</code> · updated: 2025-10-28 · created: 2025-10-22  
+  labels: good first issue, analyzer
+
+## open-telemetry/opentelemetry-collector  ⭐ 6431
+[Repository](https://github.com/open-telemetry/opentelemetry-collector)
+
+- <a href="https://github.com/open-telemetry/opentelemetry-collector/issues/14114">Add optional display name to metadata.yaml</a>  <code>#14114</code> · updated: 2025-11-03 · created: 2025-11-03  
+  labels: help wanted, good first issue
 
 ## stagewise-io/stagewise  ⭐ 6419
 [Repository](https://github.com/stagewise-io/stagewise)
@@ -4146,25 +4140,21 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/stagewise-io/stagewise/issues/693">feat: 建议增加alibaba的Lingma IDE的支持</a>  <code>#693</code> · updated: 2025-12-06 · created: 2025-10-21  
   labels: enhancement, good first issue, help wanted
 
-## open-telemetry/opentelemetry-collector  ⭐ 6415
-[Repository](https://github.com/open-telemetry/opentelemetry-collector)
-
-- <a href="https://github.com/open-telemetry/opentelemetry-collector/issues/14114">Add optional display name to metadata.yaml</a>  <code>#14114</code> · updated: 2025-11-03 · created: 2025-11-03  
-  labels: help wanted, good first issue
-
-## tokio-rs/tracing  ⭐ 6402
+## tokio-rs/tracing  ⭐ 6408
 [Repository](https://github.com/tokio-rs/tracing)
 
 - <a href="https://github.com/tokio-rs/tracing/issues/3408">Recommend configuring `await-holding-invalid-types` in `Span::enter` documentation</a>  <code>#3408</code> · updated: 2025-11-27 · created: 2025-11-19  
   labels: good first issue, crate/attributes, kind/docs
 
-## microsoft/presidio  ⭐ 6401
-[Repository](https://github.com/microsoft/presidio)
+## google/adk-go  ⭐ 6386
+[Repository](https://github.com/google/adk-go)
 
-- <a href="https://github.com/microsoft/presidio/issues/1760">Can multiple GLiNERRecognizer instances be configured via YAML?</a>  <code>#1760</code> · updated: 2025-10-28 · created: 2025-10-22  
-  labels: good first issue, analyzer
+- <a href="https://github.com/google/adk-go/issues/283">Panic when Artifact tool is not properly setup</a>  <code>#283</code> · updated: 2025-12-02 · created: 2025-11-13  
+  labels: bug, good first issue
+- <a href="https://github.com/google/adk-go/issues/340">Database connections across services</a>  <code>#340</code> · updated: 2025-11-25 · created: 2025-11-22  
+  labels: good first issue
 
-## LMCache/LMCache  ⭐ 6355
+## LMCache/LMCache  ⭐ 6379
 [Repository](https://github.com/LMCache/LMCache)
 
 - <a href="https://github.com/LMCache/LMCache/issues/2064">[BUG] when async_loading is enabled, the lookup metric is 0.</a>  <code>#2064</code> · updated: 2025-12-07 · created: 2025-11-23  
@@ -4178,73 +4168,53 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/LMCache/LMCache/issues/1990">[Bug] PD disaggregated example failed due to memory issue</a>  <code>#1990</code> · updated: 2025-11-25 · created: 2025-11-12  
   labels: good first issue, help wanted
 
-## mesonbuild/meson  ⭐ 6353
+## mesonbuild/meson  ⭐ 6357
 [Repository](https://github.com/mesonbuild/meson)
 
 - <a href="https://github.com/mesonbuild/meson/issues/15191">do not hardcode Homebrew prefix</a>  <code>#15191</code> · updated: 2025-10-31 · created: 2025-10-31  
   labels: OS:macos, good first issue
 
-## wesnoth/wesnoth  ⭐ 6335
-[Repository](https://github.com/wesnoth/wesnoth)
-
-- <a href="https://github.com/wesnoth/wesnoth/issues/10648">Wesnoth requires icon to publish addon</a>  <code>#10648</code> · updated: 2025-11-01 · created: 2025-10-30  
-  labels: Bug, Add-ons, Good first issue
-
-## oppia/oppia  ⭐ 6333
-[Repository](https://github.com/oppia/oppia)
-
-- <a href="https://github.com/oppia/oppia/issues/23711">[BUG]: content overlapping while we are using mobile. test and org site both</a>  <code>#23711</code> · updated: 2025-12-15 · created: 2025-10-27  
-  labels: good first issue, bug, Impact: High, Work: Low, EUJ LO.4
-- <a href="https://github.com/oppia/oppia/issues/23864">[Feature Request]: Speed Up Backend Tests Python Package Installation</a>  <code>#23864</code> · updated: 2025-12-14 · created: 2025-11-16  
-  labels: good first issue, enhancement, Impact: Medium, Work: Low
-- <a href="https://github.com/oppia/oppia/issues/23669">[BUG]: Pagination shows “No more search result” after clearing tag filter and navigating to second page</a>  <code>#23669</code> · updated: 2025-12-11 · created: 2025-10-24  
-  labels: good first issue, bug, Impact: Medium, Work: Medium, EUJ IO.2
-- <a href="https://github.com/oppia/oppia/issues/23574">[BUG]: “Start by setting a goal” message displays unnecessarily on Skill Progress page when all goals are already set</a>  <code>#23574</code> · updated: 2025-12-08 · created: 2025-10-11  
-  labels: good first issue, bug, Impact: Low -- ONLY DO IF GOOD FIRST ISSUE, Work: Low, EUJ LI.2
-- <a href="https://github.com/oppia/oppia/issues/23830">[BUG]: Acceptance test re-run steps do not work due to server not being shut down</a>  <code>#23830</code> · updated: 2025-12-07 · created: 2025-11-10  
-  labels: good first issue, bug
-- <a href="https://github.com/oppia/oppia/issues/23496">[Feature Request]: Enforce the strict type checks</a>  <code>#23496</code> · updated: 2025-12-06 · created: 2025-09-30  
-  labels: frontend, good first issue, enhancement, Hacktoberfest
-- <a href="https://github.com/oppia/oppia/issues/23598">[BUG]: “Sign In” briefly appears before showing profile icon while navigating from chapter to quiz page</a>  <code>#23598</code> · updated: 2025-11-29 · created: 2025-10-15  
-  labels: good first issue, bug, Impact: Low -- ONLY DO IF GOOD FIRST ISSUE, Work: Low, EUJ LO.4
-
-## meshtastic/firmware  ⭐ 6326
+## meshtastic/firmware  ⭐ 6342
 [Repository](https://github.com/meshtastic/firmware)
 
 - <a href="https://github.com/meshtastic/firmware/issues/8311">[Bug]: USERPREFS_OEM_TEXT not displayed</a>  <code>#8311</code> · updated: 2025-12-03 · created: 2025-10-11  
   labels: bug, good first issue, low-priority, triaged
-- <a href="https://github.com/meshtastic/firmware/issues/8042">[Bug]: Unable to set security.is_managed to True as part of a serial transaction</a>  <code>#8042</code> · updated: 2025-10-17 · created: 2025-09-19  
-  labels: bug, help wanted, good first issue, triaged
 - <a href="https://github.com/meshtastic/firmware/issues/8174">[Bug]: Serial module in TEXTMSG Short Name prefix is garbled</a>  <code>#8174</code> · updated: 2025-10-16 · created: 2025-10-01  
   labels: bug, help wanted, good first issue, module, linux-native, triaged
 - <a href="https://github.com/meshtastic/firmware/issues/8156">Warning: Deprecated: Command &#x27;write_flash&#x27; is deprecated. Use &#x27;write-flash&#x27; instead.</a>  <code>#8156</code> · updated: 2025-10-16 · created: 2025-09-29  
   labels: help wanted, good first issue, triaged, backlog
 
-## google/adk-go  ⭐ 6316
-[Repository](https://github.com/google/adk-go)
+## oppia/oppia  ⭐ 6342
+[Repository](https://github.com/oppia/oppia)
 
-- <a href="https://github.com/google/adk-go/issues/283">Panic when Artifact tool is not properly setup</a>  <code>#283</code> · updated: 2025-12-02 · created: 2025-11-13  
-  labels: bug, good first issue
-- <a href="https://github.com/google/adk-go/issues/340">Database connections across services</a>  <code>#340</code> · updated: 2025-11-25 · created: 2025-11-22  
-  labels: good first issue
+- <a href="https://github.com/oppia/oppia/issues/23496">[Feature Request]: Enforce the strict type checks</a>  <code>#23496</code> · updated: 2025-12-18 · created: 2025-09-30  
+  labels: frontend, good first issue, enhancement, Hacktoberfest
+- <a href="https://github.com/oppia/oppia/issues/23864">[Feature Request]: Speed Up Backend Tests Python Package Installation</a>  <code>#23864</code> · updated: 2025-12-17 · created: 2025-11-16  
+  labels: good first issue, enhancement, Impact: Medium, Work: Low
+- <a href="https://github.com/oppia/oppia/issues/23598">[BUG]: “Sign In” briefly appears before showing profile icon while navigating from chapter to quiz page</a>  <code>#23598</code> · updated: 2025-12-16 · created: 2025-10-15  
+  labels: good first issue, bug, Impact: Low -- ONLY DO IF GOOD FIRST ISSUE, Work: Low, EUJ LO.4
+- <a href="https://github.com/oppia/oppia/issues/23711">[BUG]: content overlapping while we are using mobile. test and org site both</a>  <code>#23711</code> · updated: 2025-12-16 · created: 2025-10-27  
+  labels: good first issue, bug, Impact: High, Work: Low, EUJ LO.4
+- <a href="https://github.com/oppia/oppia/issues/23669">[BUG]: Pagination shows “No more search result” after clearing tag filter and navigating to second page</a>  <code>#23669</code> · updated: 2025-12-11 · created: 2025-10-24  
+  labels: good first issue, bug, Impact: Medium, Work: Medium, EUJ IO.2
+- <a href="https://github.com/oppia/oppia/issues/23830">[BUG]: Acceptance test re-run steps do not work due to server not being shut down</a>  <code>#23830</code> · updated: 2025-12-07 · created: 2025-11-10  
+  labels: good first issue, bug
 
-## supercollider/supercollider  ⭐ 6294
+## wesnoth/wesnoth  ⭐ 6334
+[Repository](https://github.com/wesnoth/wesnoth)
+
+- <a href="https://github.com/wesnoth/wesnoth/issues/10648">Wesnoth requires icon to publish addon</a>  <code>#10648</code> · updated: 2025-11-01 · created: 2025-10-30  
+  labels: Bug, Add-ons, Good first issue
+
+## supercollider/supercollider  ⭐ 6304
 [Repository](https://github.com/supercollider/supercollider)
 
-- <a href="https://github.com/supercollider/supercollider/issues/7279">compilation error on slackware-current (linux) with 3.14.1</a>  <code>#7279</code> · updated: 2025-12-09 · created: 2025-12-05  
-  labels: bug, comp: Qt GUI, env: SCIDE, good first issue
 - <a href="https://github.com/supercollider/supercollider/issues/7221">Replace `boost::optional` with `std::optional`</a>  <code>#7221</code> · updated: 2025-11-02 · created: 2025-11-02  
   labels: comp: scsynth, good first issue
 - <a href="https://github.com/supercollider/supercollider/issues/7202">Add initClassTree note to Writing Classes guide</a>  <code>#7202</code> · updated: 2025-10-24 · created: 2025-10-23  
   labels: enhancement, comp: help, good first issue
 
-## chaosblade-io/chaosblade  ⭐ 6267
-[Repository](https://github.com/chaosblade-io/chaosblade)
-
-- <a href="https://github.com/chaosblade-io/chaosblade/issues/1191">chaosblade-box上可否支持kubectl scale 调整 Kubernetes 中资源的副本数量需求</a>  <code>#1191</code> · updated: 2025-09-19 · created: 2025-09-19  
-  labels: good first issue
-
-## external-secrets/external-secrets  ⭐ 6208
+## external-secrets/external-secrets  ⭐ 6219
 [Repository](https://github.com/external-secrets/external-secrets)
 
 - <a href="https://github.com/external-secrets/external-secrets/issues/5571">webhook provider: support templating (URL, Body) based on the operation (create/read/update/delete)</a>  <code>#5571</code> · updated: 2025-12-15 · created: 2025-11-10  
@@ -4256,15 +4226,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/external-secrets/external-secrets/issues/5393">[provider/kubernetes] Option to use system trust store for certificate validation</a>  <code>#5393</code> · updated: 2025-10-06 · created: 2025-10-01  
   labels: good first issue, kind/feature, area/kubernetes
 
-## open-telemetry/opentelemetry-go  ⭐ 6200
-[Repository](https://github.com/open-telemetry/opentelemetry-go)
+## haproxy/haproxy  ⭐ 6185
+[Repository](https://github.com/haproxy/haproxy)
 
-- <a href="https://github.com/open-telemetry/opentelemetry-go/issues/7381">generate `x` package from `x` component template</a>  <code>#7381</code> · updated: 2025-10-11 · created: 2025-09-19  
-  labels: help wanted, good first issue
-- <a href="https://github.com/open-telemetry/opentelemetry-go/issues/7386">sdk/metric/internal/x: generate `x` package from `x` component template</a>  <code>#7386</code> · updated: 2025-09-30 · created: 2025-09-19  
-  labels: help wanted, good first issue
+- <a href="https://github.com/haproxy/haproxy/issues/3221">-dKall does not dump userlist and peers section keywords</a>  <code>#3221</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: type: bug, good first issue
 
-## scala/scala3  ⭐ 6164
+## scala/scala3  ⭐ 6169
 [Repository](https://github.com/scala/scala3)
 
 - <a href="https://github.com/scala/scala3/issues/24233">Clueless error message</a>  <code>#24233</code> · updated: 2025-11-12 · created: 2025-10-22  
@@ -4272,13 +4240,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/scala/scala3/issues/24142">Colon as operator part at beginning of line in REPL</a>  <code>#24142</code> · updated: 2025-10-07 · created: 2025-10-07  
   labels: itype:bug, area:repl, good first issue
 
-## sst/opentui  ⭐ 6065
+## sst/opentui  ⭐ 6143
 [Repository](https://github.com/sst/opentui)
 
 - <a href="https://github.com/sst/opentui/issues/229">Allow for &lt;select&gt; to have no currently selected option, or allow to hide that the option is selected when the &lt;select&gt; is not focused</a>  <code>#229</code> · updated: 2025-11-04 · created: 2025-10-23  
   labels: enhancement, good first issue, core
 
-## apache/hudi  ⭐ 6042
+## apache/hudi  ⭐ 6047
 [Repository](https://github.com/apache/hudi)
 
 - <a href="https://github.com/apache/hudi/issues/16646">Update all javadocs containing spark examples</a>  <code>#16646</code> · updated: 2025-12-14 · created: 2025-11-30  
@@ -4307,12 +4275,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: priority:medium, area:tests, from-jira, priority:low, good-first-issue, type:community-support
 - <a href="https://github.com/apache/hudi/issues/14455">HoodieRealtimeInputFormat does not apply application specific merge hooks #173</a>  <code>#14455</code> · updated: 2025-12-10 · created: 2025-11-30  
   labels: priority:high, area:ingest, engine:hive, type:bug, from-jira, priority:low, good-first-issue, type:community-support
-- <a href="https://github.com/apache/hudi/issues/14548">hoodie.*.consume.* should be set whitelist in hive-site.xml</a>  <code>#14548</code> · updated: 2025-12-10 · created: 2025-11-30  
-  labels: priority:high, priority:medium, area:query-engine, from-jira, good-first-issue, type:devtask, type:community-support, docs
-- <a href="https://github.com/apache/hudi/issues/14515">Make Hive Sync via Spark painless</a>  <code>#14515</code> · updated: 2025-12-10 · created: 2025-11-30  
-  labels: priority:high, priority:medium, engine:spark, engine:hive, area:query-engine, type:feature, area:usability, from-jira, priority:low, good-first-issue
-- <a href="https://github.com/apache/hudi/issues/17050">NPE when HoodieMetaSyncMetrics init</a>  <code>#17050</code> · updated: 2025-12-10 · created: 2025-11-30  
-  labels: priority:high, engine:flink, area:metrics, type:bug, from-jira, good-first-issue
 - <a href="https://github.com/apache/hudi/issues/14528">Replace variables/comments named &quot;data files&quot; to &quot;base file&quot;</a>  <code>#14528</code> · updated: 2025-12-09 · created: 2025-11-30  
   labels: priority:high, area:code-quality, area:dev-experience, from-jira, good-first-issue, status:pr-available, type:improvement
 - <a href="https://github.com/apache/hudi/issues/14477">Use Command line options instead of positional arguments when launching spark applications from various CLI commands</a>  <code>#14477</code> · updated: 2025-12-09 · created: 2025-11-30  
@@ -4350,49 +4312,41 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/hudi/issues/14404">Support for writing to EMRFS</a>  <code>#14404</code> · updated: 2025-11-30 · created: 2025-11-30  
   labels: priority:high, type:feature, area:usability, area:writer, from-jira, good-first-issue, release-0.6.0
 
+## woodpecker-ci/woodpecker  ⭐ 6015
+[Repository](https://github.com/woodpecker-ci/woodpecker)
+
+- <a href="https://github.com/woodpecker-ci/woodpecker/issues/5678">[UX] in admin panel Users show forge</a>  <code>#5678</code> · updated: 2025-10-23 · created: 2025-10-23  
+  labels: ui, good first issue, ux
+
 ## ponylang/ponyc  ⭐ 5986
 [Repository](https://github.com/ponylang/ponyc)
 
 - <a href="https://github.com/ponylang/ponyc/issues/4756">Drop X86 MacOS support</a>  <code>#4756</code> · updated: 2025-10-28 · created: 2025-10-20  
   labels: good first issue
 
-## XayahSuSuSu/Android-DataBackup  ⭐ 5956
+## XayahSuSuSu/Android-DataBackup  ⭐ 5966
 [Repository](https://github.com/XayahSuSuSu/Android-DataBackup)
 
 - <a href="https://github.com/XayahSuSuSu/Android-DataBackup/issues/437">[Feature] Backup Android-ID and GSF ID</a>  <code>#437</code> · updated: 2025-11-03 · created: 2025-10-24  
   labels: enhancement, good first issue
 
-## woodpecker-ci/woodpecker  ⭐ 5928
-[Repository](https://github.com/woodpecker-ci/woodpecker)
-
-- <a href="https://github.com/woodpecker-ci/woodpecker/issues/5678">[UX] in admin panel Users show forge</a>  <code>#5678</code> · updated: 2025-10-23 · created: 2025-10-23  
-  labels: ui, good first issue, ux
-
-## prefix-dev/pixi  ⭐ 5900
+## prefix-dev/pixi  ⭐ 5920
 [Repository](https://github.com/prefix-dev/pixi)
 
+- <a href="https://github.com/prefix-dev/pixi/issues/5140">Allow specifying a default environment for tasks</a>  <code>#5140</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: enhancement, good first issue
 - <a href="https://github.com/prefix-dev/pixi/issues/4919">Improve `pixi add --pypi` CLI API features for local source packages</a>  <code>#4919</code> · updated: 2025-11-28 · created: 2025-11-12  
   labels: enhancement, good first issue
 - <a href="https://github.com/prefix-dev/pixi/issues/4755">Improve Mirror URL Visibility</a>  <code>#4755</code> · updated: 2025-10-20 · created: 2025-10-14  
   labels: enhancement, good first issue
 
-## prometheus/client_golang  ⭐ 5860
-[Repository](https://github.com/prometheus/client_golang)
-
-- <a href="https://github.com/prometheus/client_golang/issues/1900">Registry.Gather should turn panics into errors</a>  <code>#1900</code> · updated: 2025-12-08 · created: 2025-10-25  
-  labels: good first issue
-
-## skeletonlabs/skeleton  ⭐ 5832
-[Repository](https://github.com/skeletonlabs/skeleton)
-
-- <a href="https://github.com/skeletonlabs/skeleton/issues/4202">Update Cookbook guides to use framework specific code.</a>  <code>#4202</code> · updated: 2025-12-08 · created: 2025-12-03  
-  labels: documentation, enhancement, good first issue, help wanted
-- <a href="https://github.com/skeletonlabs/skeleton/issues/4044">Create ComboBox Sample to mirror AutoComplete Input Chip Sample</a>  <code>#4044</code> · updated: 2025-11-10 · created: 2025-11-01  
-  labels: good first issue, feature request
-
-## requestly/requestly  ⭐ 5829
+## requestly/requestly  ⭐ 5874
 [Repository](https://github.com/requestly/requestly)
 
+- <a href="https://github.com/requestly/requestly/issues/3825">Feature Request: Copy rule(s) to Private Workspace</a>  <code>#3825</code> · updated: 2025-12-18 · created: 2025-11-11  
+  labels: issue, good-first-issue, up-for-grabs, bounty-$20
+- <a href="https://github.com/requestly/requestly/issues/3826">bug: Rule shows “1 applied filter” even when no filter is applied</a>  <code>#3826</code> · updated: 2025-12-17 · created: 2025-11-11  
+  labels: issue, good-first-issue, up-for-grabs, bounty-$20
 - <a href="https://github.com/requestly/requestly/issues/3859">bug: api response panel isnt persistent for all responses throughout workspace when toggled</a>  <code>#3859</code> · updated: 2025-12-08 · created: 2025-11-16  
   labels: issue, good-first-issue, up-for-grabs, bounty-$20, os-contribution
 - <a href="https://github.com/requestly/requestly/issues/3619">[Feature] Improve Variable Dropdown UI</a>  <code>#3619</code> · updated: 2025-12-08 · created: 2025-10-03  
@@ -4413,18 +4367,30 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: issue, good-first-issue, up-for-grabs, bounty-$20, os-contribution
 - <a href="https://github.com/requestly/requestly/issues/3704">feat: Support Request Body for GET API Calls</a>  <code>#3704</code> · updated: 2025-11-19 · created: 2025-10-15  
   labels: issue, feat:api_client, good-first-issue, up-for-grabs, bounty-$20, os-contribution
-- <a href="https://github.com/requestly/requestly/issues/3826">bug: Rule shows “1 applied filter” even when no filter is applied</a>  <code>#3826</code> · updated: 2025-11-19 · created: 2025-11-11  
-  labels: issue, good-first-issue, up-for-grabs, bounty-$20
 - <a href="https://github.com/requestly/requestly/issues/3620">[Feature] Improve UI for Plan Info &amp; Upgrade Nudges</a>  <code>#3620</code> · updated: 2025-11-11 · created: 2025-10-03  
   labels: issue, good-first-issue, up-for-grabs, bounty-$20, os-contribution
-- <a href="https://github.com/requestly/requestly/issues/3825">Feature Request: Copy rule(s) to Private Workspace</a>  <code>#3825</code> · updated: 2025-11-11 · created: 2025-11-11  
-  labels: issue, good-first-issue, up-for-grabs, bounty-$20
 - <a href="https://github.com/requestly/requestly/issues/3613">[Feature]: Import cURL by pasting in URL bar</a>  <code>#3613</code> · updated: 2025-11-11 · created: 2025-10-03  
   labels: issue, good-first-issue, up-for-grabs, bounty-$20, os-contribution
 - <a href="https://github.com/requestly/requestly/issues/3725">feat: Sensitive Fields should have a Hide/Show functionality</a>  <code>#3725</code> · updated: 2025-11-11 · created: 2025-10-18  
   labels: issue, good-first-issue, up-for-grabs, bounty-$20, os-contribution
 
-## lance-format/lance  ⭐ 5826
+## prometheus/client_golang  ⭐ 5859
+[Repository](https://github.com/prometheus/client_golang)
+
+- <a href="https://github.com/prometheus/client_golang/issues/1900">Registry.Gather should turn panics into errors</a>  <code>#1900</code> · updated: 2025-12-17 · created: 2025-10-25  
+  labels: good first issue
+
+## skeletonlabs/skeleton  ⭐ 5839
+[Repository](https://github.com/skeletonlabs/skeleton)
+
+- <a href="https://github.com/skeletonlabs/skeleton/issues/4236">[docs] Make toast.ts store arrangement more specific in first setup example</a>  <code>#4236</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: documentation, good first issue, help wanted
+- <a href="https://github.com/skeletonlabs/skeleton/issues/4202">Update Cookbook guides to use framework specific code.</a>  <code>#4202</code> · updated: 2025-12-08 · created: 2025-12-03  
+  labels: documentation, enhancement, good first issue, help wanted
+- <a href="https://github.com/skeletonlabs/skeleton/issues/4044">Create ComboBox Sample to mirror AutoComplete Input Chip Sample</a>  <code>#4044</code> · updated: 2025-11-10 · created: 2025-11-01  
+  labels: good first issue, feature request
+
+## lance-format/lance  ⭐ 5837
 [Repository](https://github.com/lance-format/lance)
 
 - <a href="https://github.com/lance-format/lance/issues/5155">The `InstrumentedRecordBatchStreamAdapter` is often misused and double counts CPU time</a>  <code>#5155</code> · updated: 2025-11-18 · created: 2025-11-06  
@@ -4452,29 +4418,31 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/lance-format/lance/issues/4897">Add RLE for block compression</a>  <code>#4897</code> · updated: 2025-10-03 · created: 2025-10-03  
   labels: good first issue
 
-## GreptimeTeam/greptimedb  ⭐ 5802
+## GreptimeTeam/greptimedb  ⭐ 5814
 [Repository](https://github.com/GreptimeTeam/greptimedb)
 
+- <a href="https://github.com/GreptimeTeam/greptimedb/issues/7435">Add an option to automatically create postgres schema when used as metadata backend</a>  <code>#7435</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, C-feature
+- <a href="https://github.com/GreptimeTeam/greptimedb/issues/7328">HTTP handler error log improvement</a>  <code>#7328</code> · updated: 2025-12-18 · created: 2025-12-02  
+  labels: C-enhancement, good first issue
 - <a href="https://github.com/GreptimeTeam/greptimedb/issues/7365">Inconsistency: Database compaction options don&#x27;t apply to existing tables, but TTL does</a>  <code>#7365</code> · updated: 2025-12-09 · created: 2025-12-09  
   labels: C-enhancement, good first issue
 - <a href="https://github.com/GreptimeTeam/greptimedb/issues/7314">Feature Request: Add built-in daemon mode to keep GreptimeDB running independently of shell sessions</a>  <code>#7314</code> · updated: 2025-11-30 · created: 2025-11-29  
   labels: C-enhancement, good first issue, help wanted
-- <a href="https://github.com/GreptimeTeam/greptimedb/issues/6989">Enhance copy from csv file command</a>  <code>#6989</code> · updated: 2025-09-18 · created: 2025-09-18  
-  labels: C-enhancement, good first issue, help wanted
 
-## automerge/automerge  ⭐ 5781
+## automerge/automerge  ⭐ 5793
 [Repository](https://github.com/automerge/automerge)
 
 - <a href="https://github.com/automerge/automerge/issues/1183">Inconsistent types in API docs</a>  <code>#1183</code> · updated: 2025-10-13 · created: 2025-10-13  
   labels: documentation, good first issue
 
-## cortexproject/cortex  ⭐ 5716
+## cortexproject/cortex  ⭐ 5722
 [Repository](https://github.com/cortexproject/cortex)
 
 - <a href="https://github.com/cortexproject/cortex/issues/7064">Support Go AutoMemLimit</a>  <code>#7064</code> · updated: 2025-10-31 · created: 2025-10-23  
   labels: type/feature, good first issue, difficulty/easy
 
-## mockk/mockk  ⭐ 5690
+## mockk/mockk  ⭐ 5692
 [Repository](https://github.com/mockk/mockk)
 
 - <a href="https://github.com/mockk/mockk/issues/1468">Unify settings files</a>  <code>#1468</code> · updated: 2025-12-12 · created: 2025-12-04  
@@ -4482,10 +4450,12 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/mockk/mockk/issues/1431">Support for context parameters - feature request</a>  <code>#1431</code> · updated: 2025-10-24 · created: 2025-10-02  
   labels: enhancement, good first issue
 
-## ai-dynamo/dynamo  ⭐ 5639
+## ai-dynamo/dynamo  ⭐ 5650
 [Repository](https://github.com/ai-dynamo/dynamo)
 
-- <a href="https://github.com/ai-dynamo/dynamo/issues/4749">[BUG]: dynamographdeployment operator didn&#x27;t handle multinode spec update operation</a>  <code>#4749</code> · updated: 2025-12-15 · created: 2025-12-04  
+- <a href="https://github.com/ai-dynamo/dynamo/issues/4945">[BUG]: Including &quot;stop&quot; field with request will cause non-blocking server error</a>  <code>#4945</code> · updated: 2025-12-18 · created: 2025-12-12  
+  labels: bug, good first issue, language::rust
+- <a href="https://github.com/ai-dynamo/dynamo/issues/4749">[BUG]: dynamographdeployment operator didn&#x27;t handle multinode spec update operation</a>  <code>#4749</code> · updated: 2025-12-17 · created: 2025-12-04  
   labels: bug, good first issue
 - <a href="https://github.com/ai-dynamo/dynamo/issues/4938">[BUG]: DGD service naming results in reconciliation error that should be caught in webhook</a>  <code>#4938</code> · updated: 2025-12-13 · created: 2025-12-12  
   labels: bug, good first issue, language::go, size/M, deployment::k8s
@@ -4504,24 +4474,34 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/ai-dynamo/dynamo/issues/3580">Sglang Cancellation Aggregated Test</a>  <code>#3580</code> · updated: 2025-10-26 · created: 2025-10-13  
   labels: good first issue
 
-## k0sproject/k0s  ⭐ 5622
-[Repository](https://github.com/k0sproject/k0s)
-
-- <a href="https://github.com/k0sproject/k0s/issues/6545">k0s crashes when ipv6 prefix is too large</a>  <code>#6545</code> · updated: 2025-12-02 · created: 2025-10-23  
-  labels: good first issue, area/configuration
-
-## defold/defold  ⭐ 5618
-[Repository](https://github.com/defold/defold)
-
-- <a href="https://github.com/defold/defold/issues/11267">Exclude files from Searches | Mark directories as excluded</a>  <code>#11267</code> · updated: 2025-10-15 · created: 2025-09-27  
-  labels: feature request, editor, good first issue, quick win?
-- <a href="https://github.com/defold/defold/issues/11265">Fix physics.set_event_listener parameter documentation</a>  <code>#11265</code> · updated: 2025-10-01 · created: 2025-09-26  
-  labels: task, documentation, good first issue, quick win?
-
-## stdlib-js/stdlib  ⭐ 5617
+## stdlib-js/stdlib  ⭐ 5632
 [Repository](https://github.com/stdlib-js/stdlib)
 
-- <a href="https://github.com/stdlib-js/stdlib/issues/9071">Fix JavaScript lint errors</a>  <code>#9071</code> · updated: 2025-12-16 · created: 2025-12-16  
+- <a href="https://github.com/stdlib-js/stdlib/issues/9235">Address commit comments (commit `8a20a3e`)</a>  <code>#9235</code> · updated: 2025-12-19 · created: 2025-12-19  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9236">Address commit comments (commit `540a83e`)</a>  <code>#9236</code> · updated: 2025-12-19 · created: 2025-12-19  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9149">Fix broken Markdown link: https://www.netlib.org/lapack/explore-html-3.6.1/d7/d43/group__aux_o_t_h_e_rauxiliary_ga89e332374c7cd87e5db54bfe21550bc3.html</a>  <code>#9149</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9147">Fix broken Markdown link: http://sideeffect.kr/popularconvention/#javascript</a>  <code>#9147</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9140">Fix broken Markdown link: https://netlib.org/lapack/explore-html-3.6.1/d2/df9/group__complex16__blas__level1_gaceea1208dcd46b6e5468fbfb53b9281b.html</a>  <code>#9140</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9139">Fix broken Markdown link: https://netlib.org/lapack/explore-html-3.6.1/dd/de0/idamax_8f_a285793254ff0adaf58c605682efb880c.html</a>  <code>#9139</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9138">Fix broken Markdown link: https://netlib.org/lapack/explore-html-3.6.1/d7/d15/group__double__blas__level2_gadd421a107a488d524859b4a64c1901a9.html</a>  <code>#9138</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9136">Fix broken Markdown link: https://www.netlib.org/lapack/explore-html-3.6.1/df/d28/group__single__blas__level1_gadd7d12f994e4868ca9998b054707d934.html</a>  <code>#9136</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9137">Fix broken Markdown link: https://www.netlib.org/lapack/explore-html-3.6.1/de/da4/group__double__blas__level1_ga793bdd0739bbd0e0ec8655a0df08981a.html</a>  <code>#9137</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9133">Fix broken Markdown link: https://www.netlib.org/lapack/explore-html-3.6.1/d7/d15/group__double__blas__level2_ga458222e01b4d348e9b52b9343d52f828.html</a>  <code>#9133</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9127">Fix broken Markdown link: https://www.netlib.org/lapack/explore-html-3.6.1/d7/d43/group__aux_o_t_h_e_rauxiliary_ga89e332374c7cd87e5db54bfe21550bc3.html</a>  <code>#9127</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9126">Fix broken Markdown link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol.isConcatSpreadable</a>  <code>#9126</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Good First Issue
+- <a href="https://github.com/stdlib-js/stdlib/issues/9124">Fix broken Markdown link: https://developer.github.com/guides/traversing-with-pagination/</a>  <code>#9124</code> · updated: 2025-12-17 · created: 2025-12-17  
   labels: Good First Issue
 - <a href="https://github.com/stdlib-js/stdlib/issues/8641">[RFC]: Improve doctests for complex number instances in documentation examples (tracking issue)</a>  <code>#8641</code> · updated: 2025-12-15 · created: 2025-11-30  
   labels: RFC, Documentation, difficulty: 1, Accepted, Good First Issue, Tracking Issue, JavaScript
@@ -4550,25 +4530,45 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/stdlib-js/stdlib/issues/8294">Fix JavaScript lint errors</a>  <code>#8294</code> · updated: 2025-10-26 · created: 2025-10-26  
   labels: Good First Issue
 
-## mdn/browser-compat-data  ⭐ 5522
+## defold/defold  ⭐ 5623
+[Repository](https://github.com/defold/defold)
+
+- <a href="https://github.com/defold/defold/issues/11267">Exclude files from Searches | Mark directories as excluded</a>  <code>#11267</code> · updated: 2025-10-15 · created: 2025-09-27  
+  labels: feature request, editor, good first issue, quick win?
+- <a href="https://github.com/defold/defold/issues/11265">Fix physics.set_event_listener parameter documentation</a>  <code>#11265</code> · updated: 2025-10-01 · created: 2025-09-26  
+  labels: task, documentation, good first issue, quick win?
+
+## k0sproject/k0s  ⭐ 5622
+[Repository](https://github.com/k0sproject/k0s)
+
+- <a href="https://github.com/k0sproject/k0s/issues/6545">k0s crashes when ipv6 prefix is too large</a>  <code>#6545</code> · updated: 2025-12-02 · created: 2025-10-23  
+  labels: good first issue, area/configuration
+
+## mdn/browser-compat-data  ⭐ 5524
 [Repository](https://github.com/mdn/browser-compat-data)
 
 - <a href="https://github.com/mdn/browser-compat-data/issues/28629">html.elements.input.accept - Safari does not support audio/*</a>  <code>#28629</code> · updated: 2025-12-12 · created: 2025-12-10  
   labels: data:html, good first issue
 
-## apache/fesod  ⭐ 5508
+## apache/fesod  ⭐ 5511
 [Repository](https://github.com/apache/fesod)
 
 - <a href="https://github.com/apache/fesod/issues/665">[Bug] An UnsupportedOperationException occurred when setting the dynamic header</a>  <code>#665</code> · updated: 2025-11-03 · created: 2025-10-30  
   labels: bug, good first issue
 
-## mhammond/pywin32  ⭐ 5492
+## microsoft/typespec  ⭐ 5497
+[Repository](https://github.com/microsoft/typespec)
+
+- <a href="https://github.com/microsoft/typespec/issues/8556">Keyboard focus is not at all visible on &quot;Install&quot;, &quot;search&quot; and &quot;Playground&quot; control: A11y_TypeSpec_Keyboard</a>  <code>#8556</code> · updated: 2025-12-16 · created: 2025-09-25  
+  labels: bug, good first issue, triaged:core, meta:website
+
+## mhammond/pywin32  ⭐ 5495
 [Repository](https://github.com/mhammond/pywin32)
 
 - <a href="https://github.com/mhammond/pywin32/issues/2665">`win32trace` global namespace handling may be simplified</a>  <code>#2665</code> · updated: 2025-10-18 · created: 2025-10-18  
   labels: enhancement, good first issue
 
-## pagefaultgames/pokerogue  ⭐ 5480
+## pagefaultgames/pokerogue  ⭐ 5483
 [Repository](https://github.com/pagefaultgames/pokerogue)
 
 - <a href="https://github.com/pagefaultgames/pokerogue/issues/6769">[Feature] Expose login/registration error messages to the end user</a>  <code>#6769</code> · updated: 2025-12-06 · created: 2025-11-09  
@@ -4576,7 +4576,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pagefaultgames/pokerogue/issues/6626">[Feature] Make Instruct and similar moves default to targeting allies instead of enemies</a>  <code>#6626</code> · updated: 2025-11-07 · created: 2025-10-04  
   labels: Enhancement, Move, Good First Issue
 
-## domaindrivendev/Swashbuckle.AspNetCore  ⭐ 5453
+## aiogram/aiogram  ⭐ 5479
+[Repository](https://github.com/aiogram/aiogram)
+
+- <a href="https://github.com/aiogram/aiogram/issues/1743">`KeyError: &#x27;state&#x27;` when using `channel_post` / `edited_channel_post` with Scenes</a>  <code>#1743</code> · updated: 2025-12-18 · created: 2025-12-15  
+  labels: bug, good first issue, confirmed
+
+## domaindrivendev/Swashbuckle.AspNetCore  ⭐ 5452
 [Repository](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
 
 - <a href="https://github.com/domaindrivendev/Swashbuckle.AspNetCore/issues/3659">Please annotate SchemaRepository.TryLookupByType</a>  <code>#3659</code> · updated: 2025-12-12 · created: 2025-11-15  
@@ -4588,9 +4594,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/samchon/typia/issues/1676">More integer types</a>  <code>#1676</code> · updated: 2025-11-07 · created: 2025-10-04  
   labels: enhancement, good first issue
 
-## glpi-project/glpi  ⭐ 5406
+## glpi-project/glpi  ⭐ 5415
 [Repository](https://github.com/glpi-project/glpi)
 
+- <a href="https://github.com/glpi-project/glpi/issues/22377">gettext locale overrides not applied</a>  <code>#22377</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: good first issue
+- <a href="https://github.com/glpi-project/glpi/issues/22398">Bug displaying notes in GLPI 11.0.2</a>  <code>#22398</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: good first issue
+- <a href="https://github.com/glpi-project/glpi/issues/22276">Image is processed after being deleted from followup (WYSIWYG)</a>  <code>#22276</code> · updated: 2025-12-16 · created: 2025-12-06  
+  labels: good first issue
 - <a href="https://github.com/glpi-project/glpi/issues/21893">Misaligned description field in change template</a>  <code>#21893</code> · updated: 2025-12-12 · created: 2025-11-12  
   labels: need feedback, good first issue, ui
 - <a href="https://github.com/glpi-project/glpi/issues/22310">Peripheral: changing Managment type shows &quot;($action_success) must be of type bool, null given&quot;</a>  <code>#22310</code> · updated: 2025-12-11 · created: 2025-12-09  
@@ -4607,8 +4619,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue
 - <a href="https://github.com/glpi-project/glpi/issues/22213">Improve navigation on GLPI Rules</a>  <code>#22213</code> · updated: 2025-12-09 · created: 2025-12-03  
   labels: good first issue, ui
-- <a href="https://github.com/glpi-project/glpi/issues/21901">No menu displayed as anonymous</a>  <code>#21901</code> · updated: 2025-12-09 · created: 2025-11-12  
-  labels: good first issue
 - <a href="https://github.com/glpi-project/glpi/issues/21773">[GLPI 11] Menu and Widget Display Problem with a Limited Profile</a>  <code>#21773</code> · updated: 2025-12-04 · created: 2025-11-03  
   labels: good first issue
 - <a href="https://github.com/glpi-project/glpi/issues/22157">GLPI crashes when opening the impact analysis</a>  <code>#22157</code> · updated: 2025-12-04 · created: 2025-12-01  
@@ -4620,13 +4630,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/glpi-project/glpi/issues/22134">GLPI 11 - Error with some Tickets Datetime Null?</a>  <code>#22134</code> · updated: 2025-12-03 · created: 2025-12-01  
   labels: good first issue
 
-## wger-project/wger  ⭐ 5404
+## wger-project/wger  ⭐ 5413
 [Repository](https://github.com/wger-project/wger)
 
 - <a href="https://github.com/wger-project/wger/issues/2124">Automatic Date reading from image metadata in gallery</a>  <code>#2124</code> · updated: 2025-12-05 · created: 2025-11-30  
   labels: good first issue
 
-## roc-lang/roc  ⭐ 5398
+## roc-lang/roc  ⭐ 5404
 [Repository](https://github.com/roc-lang/roc)
 
 - <a href="https://github.com/roc-lang/roc/issues/8605">Do not allow downloading package from HTTP URLs</a>  <code>#8605</code> · updated: 2025-12-11 · created: 2025-12-09  
@@ -4634,19 +4644,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/roc-lang/roc/issues/8554">`roc test file.roc` should print something if all tests passed</a>  <code>#8554</code> · updated: 2025-12-03 · created: 2025-12-03  
   labels: enhancement, good first issue
 
-## steveyegge/beads  ⭐ 5362
-[Repository](https://github.com/steveyegge/beads)
-
-- <a href="https://github.com/steveyegge/beads/issues/444">Inconsistent status naming: `in_progress` vs `in-progress`</a>  <code>#444</code> · updated: 2025-12-02 · created: 2025-12-02  
-  labels: bug, documentation, good first issue, triaged
-
-## serenity-rs/serenity  ⭐ 5323
+## serenity-rs/serenity  ⭐ 5326
 [Repository](https://github.com/serenity-rs/serenity)
 
 - <a href="https://github.com/serenity-rs/serenity/issues/3425">`CacheRef` does not document how it should not be carried over an await point</a>  <code>#3425</code> · updated: 2025-10-04 · created: 2025-09-30  
   labels: docs, good first issue
 
-## kando-menu/kando  ⭐ 5316
+## kando-menu/kando  ⭐ 5323
 [Repository](https://github.com/kando-menu/kando)
 
 - <a href="https://github.com/kando-menu/kando/issues/1157">When Turbo Mode is disabled because &quot;Keep active application focused&quot; is checked, add explanation to the user why Turbo Mode can&#x27;t be enabled</a>  <code>#1157</code> · updated: 2025-10-29 · created: 2025-10-28  
@@ -4656,13 +4660,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/kando-menu/kando/issues/1113">Radius Selection Limit</a>  <code>#1113</code> · updated: 2025-09-20 · created: 2025-09-20  
   labels: feature request, good first issue, contributions welcome
 
-## argosopentech/argos-translate  ⭐ 5306
+## argosopentech/argos-translate  ⭐ 5321
 [Repository](https://github.com/argosopentech/argos-translate)
 
 - <a href="https://github.com/argosopentech/argos-translate/issues/500">Help Wanted: Test Argos Translate 1.10</a>  <code>#500</code> · updated: 2025-11-20 · created: 2025-10-21  
   labels: help wanted, good first issue
 
-## beeware/toga  ⭐ 5259
+## slopus/happy  ⭐ 5315
+[Repository](https://github.com/slopus/happy)
+
+- <a href="https://github.com/slopus/happy/issues/165">Remove &quot;Co-authored by: Happy&quot; in git commit message</a>  <code>#165</code> · updated: 2025-10-17 · created: 2025-10-07  
+  labels: enhancement, good first issue
+
+## beeware/toga  ⭐ 5258
 [Repository](https://github.com/beeware/toga)
 
 - <a href="https://github.com/beeware/toga/issues/3975">Get Rid of toga/demo/AUTHORS</a>  <code>#3975</code> · updated: 2025-12-14 · created: 2025-12-14  
@@ -4676,15 +4686,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/beeware/toga/issues/3861">Python development package version mismatch during setup</a>  <code>#3861</code> · updated: 2025-11-03 · created: 2025-10-30  
   labels: bug, good first issue, documentation, linux
 
-## open-edge-platform/anomalib  ⭐ 5223
+## open-edge-platform/anomalib  ⭐ 5227
 [Repository](https://github.com/open-edge-platform/anomalib)
 
-- <a href="https://github.com/open-edge-platform/anomalib/issues/2959">🔼 Upgrade the minimum python requirement to 3.13</a>  <code>#2959</code> · updated: 2025-11-19 · created: 2025-09-17  
-  labels: Good First Issue
 - <a href="https://github.com/open-edge-platform/anomalib/issues/3125">📋 [TASK] Add cursor and copilot rules</a>  <code>#3125</code> · updated: 2025-11-18 · created: 2025-11-18  
   labels: Good First Issue
 
-## pest-parser/pest  ⭐ 5221
+## pest-parser/pest  ⭐ 5225
 [Repository](https://github.com/pest-parser/pest)
 
 - <a href="https://github.com/pest-parser/pest/issues/1139">unit test miette_error depends on running in terminal</a>  <code>#1139</code> · updated: 2025-12-01 · created: 2025-11-30  
@@ -4692,27 +4700,29 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pest-parser/pest/issues/1123">Use range in debugging span</a>  <code>#1123</code> · updated: 2025-10-11 · created: 2025-09-25  
   labels: enhancement, help-wanted, good-first-issue, hacktoberfest
 
-## valhalla/valhalla  ⭐ 5216
+## valhalla/valhalla  ⭐ 5223
 [Repository](https://github.com/valhalla/valhalla)
 
 - <a href="https://github.com/valhalla/valhalla/issues/5721">Include Valhalla version in Docker container startup logs</a>  <code>#5721</code> · updated: 2025-12-11 · created: 2025-11-18  
   labels: enhancement, good first issue
 
-## karmada-io/karmada  ⭐ 5193
+## karmada-io/karmada  ⭐ 5198
 [Repository](https://github.com/karmada-io/karmada)
 
-- <a href="https://github.com/karmada-io/karmada/issues/6952">[Umbrella] Enhance third-party resource interpreter tests with output verification</a>  <code>#6952</code> · updated: 2025-12-16 · created: 2025-11-25  
+- <a href="https://github.com/karmada-io/karmada/issues/6952">[Umbrella] Enhance third-party resource interpreter tests with output verification</a>  <code>#6952</code> · updated: 2025-12-18 · created: 2025-11-25  
   labels: good first issue, help wanted, kind/cleanup
 
-## slopus/happy  ⭐ 5163
-[Repository](https://github.com/slopus/happy)
+## yusufkaraaslan/Skill_Seekers  ⭐ 5192
+[Repository](https://github.com/yusufkaraaslan/Skill_Seekers)
 
-- <a href="https://github.com/slopus/happy/issues/165">Remove &quot;Co-authored by: Happy&quot; in git commit message</a>  <code>#165</code> · updated: 2025-10-17 · created: 2025-10-07  
+- <a href="https://github.com/yusufkaraaslan/Skill_Seekers/issues/165">feat: Add 15 missing languages to PDF scraper</a>  <code>#165</code> · updated: 2025-10-29 · created: 2025-10-29  
   labels: enhancement, good first issue
 
-## volcano-sh/volcano  ⭐ 5161
+## volcano-sh/volcano  ⭐ 5174
 [Repository](https://github.com/volcano-sh/volcano)
 
+- <a href="https://github.com/volcano-sh/volcano/issues/4824">scheduler cache shall have a ReadWriteMutex</a>  <code>#4824</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: help wanted, good first issue, kind/feature, kind/RFE
 - <a href="https://github.com/volcano-sh/volcano/issues/4631">[Colocation Enhancement]Support CPU Burst for other OS release.</a>  <code>#4631</code> · updated: 2025-12-15 · created: 2025-09-22  
   labels: help wanted, good first issue, kind/feature, area/colocation
 - <a href="https://github.com/volcano-sh/volcano/issues/4806">Add kubebuilder validation markers to Volcano CRDs</a>  <code>#4806</code> · updated: 2025-12-15 · created: 2025-12-11  
@@ -4726,10 +4736,20 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/volcano-sh/volcano/issues/4645">Support multi-volcano-scheduler without using selectors in the helm chart (at least) too</a>  <code>#4645</code> · updated: 2025-09-30 · created: 2025-09-26  
   labels: help wanted, good first issue, kind/feature, area/deploy
 
-## kgateway-dev/kgateway  ⭐ 5118
+## dreamhunter2333/cloudflare_temp_email  ⭐ 5159
+[Repository](https://github.com/dreamhunter2333/cloudflare_temp_email)
+
+- <a href="https://github.com/dreamhunter2333/cloudflare_temp_email/issues/790">[Feature]支持配置发送邮件的模板功能</a>  <code>#790</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: enhancement, good first issue
+- <a href="https://github.com/dreamhunter2333/cloudflare_temp_email/issues/769">[Feature]能不能添加每个邮箱 都可以设置单独的电报机器人？</a>  <code>#769</code> · updated: 2025-11-26 · created: 2025-11-20  
+  labels: enhancement, good first issue
+- <a href="https://github.com/dreamhunter2333/cloudflare_temp_email/issues/767">[Feature]</a>  <code>#767</code> · updated: 2025-11-20 · created: 2025-11-17  
+  labels: enhancement, good first issue
+
+## kgateway-dev/kgateway  ⭐ 5147
 [Repository](https://github.com/kgateway-dev/kgateway)
 
-- <a href="https://github.com/kgateway-dev/kgateway/issues/13053">e2e tests: Replace curl pod with native Go code</a>  <code>#13053</code> · updated: 2025-12-12 · created: 2025-12-04  
+- <a href="https://github.com/kgateway-dev/kgateway/issues/13053">e2e tests: Replace curl pod with native Go code</a>  <code>#13053</code> · updated: 2025-12-16 · created: 2025-12-04  
   labels: Good First Issue, Testing, help wanted
 - <a href="https://github.com/kgateway-dev/kgateway/issues/12904">Inference: Move e2e Test Suite to Agentgateway Package</a>  <code>#12904</code> · updated: 2025-12-09 · created: 2025-11-17  
   labels: Good First Issue, Priority: High, release-blocker, kind/cleanup, Area: Inference
@@ -4741,23 +4761,17 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: Good First Issue, Testing
 - <a href="https://github.com/kgateway-dev/kgateway/issues/12815">AgentgatewayPolicy: Add backend tests</a>  <code>#12815</code> · updated: 2025-11-19 · created: 2025-11-04  
   labels: Good First Issue, Area: agentgateway
-- <a href="https://github.com/kgateway-dev/kgateway/issues/12338">Replace runtime TLS validation with API-level CEL rules</a>  <code>#12338</code> · updated: 2025-11-19 · created: 2025-09-19  
-  labels: Good First Issue
 - <a href="https://github.com/kgateway-dev/kgateway/issues/12905">Inference: Remove Helm Values</a>  <code>#12905</code> · updated: 2025-11-18 · created: 2025-11-18  
   labels: Good First Issue, Priority: High, release-blocker, kind/cleanup, Area: Inference
 - <a href="https://github.com/kgateway-dev/kgateway/issues/12816">AgentgatewayPolicy: Add frontend policy tests</a>  <code>#12816</code> · updated: 2025-11-04 · created: 2025-11-04  
   labels: Good First Issue, Area: agentgateway, help wanted
 - <a href="https://github.com/kgateway-dev/kgateway/issues/12598">Add TestInstallation.AssertionsT to prevent panic</a>  <code>#12598</code> · updated: 2025-10-29 · created: 2025-10-13  
   labels: Type: Tech Debt, Good First Issue
-- <a href="https://github.com/kgateway-dev/kgateway/issues/12336">Improve BackendConfigPolicy TLS error messages when file paths don&#x27;t exist</a>  <code>#12336</code> · updated: 2025-10-29 · created: 2025-09-19  
-  labels: Good First Issue, Area: Statuses
 
-## kubernetes/website  ⭐ 5109
+## kubernetes/website  ⭐ 5113
 [Repository](https://github.com/kubernetes/website)
 
-- <a href="https://github.com/kubernetes/website/issues/53411">[ja] Unify the translation of the term &quot;Taint&quot;</a>  <code>#53411</code> · updated: 2025-12-15 · created: 2025-11-23  
-  labels: good first issue, help wanted, kind/feature, language/ja, triage/accepted, area/localization
-- <a href="https://github.com/kubernetes/website/issues/53355">Add Etcd Version Skew to Kubernetes Docs</a>  <code>#53355</code> · updated: 2025-12-13 · created: 2025-11-20  
+- <a href="https://github.com/kubernetes/website/issues/53355">Add Etcd Version Skew to Kubernetes Docs</a>  <code>#53355</code> · updated: 2025-12-17 · created: 2025-11-20  
   labels: good first issue, help wanted, kind/feature, sig/api-machinery, priority/important-longterm, triage/accepted, sig/etcd
 - <a href="https://github.com/kubernetes/website/issues/53085">Issue with k8s.io/docs/tutorials/stateful-application/basic-stateful-set/</a>  <code>#53085</code> · updated: 2025-12-07 · created: 2025-11-04  
   labels: good first issue, help wanted, sig/docs, triage/accepted
@@ -4768,17 +4782,17 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/kubernetes/website/issues/53264">[ko] Update content/ko/docs/contribute/advanced.md</a>  <code>#53264</code> · updated: 2025-11-25 · created: 2025-11-17  
   labels: good first issue, help wanted, kind/feature, language/ko, needs-triage, area/localization
 
-## dreamhunter2333/cloudflare_temp_email  ⭐ 5107
-[Repository](https://github.com/dreamhunter2333/cloudflare_temp_email)
-
-- <a href="https://github.com/dreamhunter2333/cloudflare_temp_email/issues/769">[Feature]能不能添加每个邮箱 都可以设置单独的电报机器人？</a>  <code>#769</code> · updated: 2025-11-26 · created: 2025-11-20  
-  labels: enhancement, good first issue
-- <a href="https://github.com/dreamhunter2333/cloudflare_temp_email/issues/767">[Feature]</a>  <code>#767</code> · updated: 2025-11-20 · created: 2025-11-17  
-  labels: enhancement, good first issue
-
-## unkeyed/unkey  ⭐ 5097
+## unkeyed/unkey  ⭐ 5101
 [Repository](https://github.com/unkeyed/unkey)
 
+- <a href="https://github.com/unkeyed/unkey/issues/4362">Quickstart Bun Rewrite to use API V2</a>  <code>#4362</code> · updated: 2025-12-18 · created: 2025-11-19  
+  labels: Documentation, Good first issue
+- <a href="https://github.com/unkeyed/unkey/issues/4363">Quickstart Express Rewrite for API V2</a>  <code>#4363</code> · updated: 2025-12-18 · created: 2025-11-19  
+  labels: Documentation, Good first issue
+- <a href="https://github.com/unkeyed/unkey/issues/4476">Improve Hono quickstart docs with full key flow</a>  <code>#4476</code> · updated: 2025-12-18 · created: 2025-12-04  
+  labels: Documentation, Good first issue
+- <a href="https://github.com/unkeyed/unkey/issues/4462">Update MCP server docs to reference v2 instead of v1</a>  <code>#4462</code> · updated: 2025-12-18 · created: 2025-12-03  
+  labels: Documentation, Good first issue
 - <a href="https://github.com/unkeyed/unkey/issues/4111">Fix broken links in docs</a>  <code>#4111</code> · updated: 2025-10-26 · created: 2025-10-17  
   labels: Good first issue, Papercut
 
@@ -4787,10 +4801,8 @@ _Generated at: 2025-12-16T04:35:06Z_
 
 - <a href="https://github.com/RaspAP/raspap-webgui/issues/2028">ProtonVPN support</a>  <code>#2028</code> · updated: 2025-12-13 · created: 2025-12-13  
   labels: good first issue, feature request
-- <a href="https://github.com/RaspAP/raspap-webgui/issues/1946">Feature Proposal for RaspAP: Support for 802.11ax and 802.11be</a>  <code>#1946</code> · updated: 2025-11-07 · created: 2025-09-19  
-  labels: in progress, good first issue, feature request
 
-## potpie-ai/potpie  ⭐ 5076
+## potpie-ai/potpie  ⭐ 5085
 [Repository](https://github.com/potpie-ai/potpie)
 
 - <a href="https://github.com/potpie-ai/potpie/issues/519">Update Pre-commit Hook Configuration for CI/CD Pipeline</a>  <code>#519</code> · updated: 2025-12-12 · created: 2025-12-11  
@@ -4798,17 +4810,27 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/potpie-ai/potpie/issues/517">Consolidate repo_name and repo_path into a Single Repository Identifier</a>  <code>#517</code> · updated: 2025-12-12 · created: 2025-12-10  
   labels: good first issue, help wanted
 
-## litmuschaos/litmus  ⭐ 5070
+## litmuschaos/litmus  ⭐ 5073
 [Repository](https://github.com/litmuschaos/litmus)
 
+- <a href="https://github.com/litmuschaos/litmus/issues/5257">Show exclamation icon in square box for partially completed experiments in ChaosCenter</a>  <code>#5257</code> · updated: 2025-12-18 · created: 2025-10-23  
+  labels: good first issue, Hacktoberfest, kind/enhancement, hacktoberfest-accepted
 - <a href="https://github.com/litmuschaos/litmus/issues/5293">Replace Litmus Logo with VMware Logo in Chaos Fault Cards inside ChaosCenter</a>  <code>#5293</code> · updated: 2025-11-30 · created: 2025-10-28  
   labels: good first issue, kind/enhancement
-- <a href="https://github.com/litmuschaos/litmus/issues/5257">Show exclamation icon in square box for partially completed experiments in ChaosCenter</a>  <code>#5257</code> · updated: 2025-11-27 · created: 2025-10-23  
-  labels: good first issue, Hacktoberfest, kind/enhancement, hacktoberfest-accepted
 - <a href="https://github.com/litmuschaos/litmus/issues/5284">Replace Litmus Logo with Kubernetes Logo in Chaos Fault Cards inside ChaosCenter</a>  <code>#5284</code> · updated: 2025-11-21 · created: 2025-10-27  
   labels: good first issue, Hacktoberfest, kind/enhancement, bug, hacktoberfest-accepted
 - <a href="https://github.com/litmuschaos/litmus/issues/5255">Update Litmus logo on login page and main dashboard in ChaosCenter</a>  <code>#5255</code> · updated: 2025-11-01 · created: 2025-10-23  
   labels: good first issue, Hacktoberfest, kind/enhancement, hacktoberfest-accepted
+
+## facebook/pyrefly  ⭐ 5064
+[Repository](https://github.com/facebook/pyrefly)
+
+- <a href="https://github.com/facebook/pyrefly/issues/1521">Strange signature handling</a>  <code>#1521</code> · updated: 2025-12-16 · created: 2025-11-07  
+  labels: good first issue, language-server
+- <a href="https://github.com/facebook/pyrefly/issues/1398">LSP (Zed): Auto-import completions incomplete for symbols with common prefix</a>  <code>#1398</code> · updated: 2025-12-15 · created: 2025-10-27  
+  labels: good first issue, language-server
+- <a href="https://github.com/facebook/pyrefly/issues/1805">[lsp] Seeing signatures that contain `-&gt; None` when constructing a class is confusing</a>  <code>#1805</code> · updated: 2025-12-11 · created: 2025-12-10  
+  labels: good first issue, language-server
 
 ## rapidsai/cuml  ⭐ 5062
 [Repository](https://github.com/rapidsai/cuml)
@@ -4816,19 +4838,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/rapidsai/cuml/issues/7294">[FEA] Implement `adjusted_mutual_info_score`</a>  <code>#7294</code> · updated: 2025-12-01 · created: 2025-10-02  
   labels: feature request, good first issue
 
-## XRPLF/rippled  ⭐ 5059
+## XRPLF/rippled  ⭐ 5060
 [Repository](https://github.com/XRPLF/rippled)
 
 - <a href="https://github.com/XRPLF/rippled/issues/5969">Add unit tests for `tecDIR_FULL`</a>  <code>#5969</code> · updated: 2025-11-21 · created: 2025-10-29  
   labels: Good First Issue, Tech Debt
 
-## umbraco/Umbraco-CMS  ⭐ 5055
-[Repository](https://github.com/umbraco/Umbraco-CMS)
-
-- <a href="https://github.com/umbraco/Umbraco-CMS/issues/20979">Poor mapping of &quot;badge&quot; icon</a>  <code>#20979</code> · updated: 2025-12-04 · created: 2025-11-27  
-  labels: community/up-for-grabs, good first issue, type/bug, area/frontend, affected/v17
-
-## cloud-hypervisor/cloud-hypervisor  ⭐ 5053
+## cloud-hypervisor/cloud-hypervisor  ⭐ 5060
 [Repository](https://github.com/cloud-hypervisor/cloud-hypervisor)
 
 - <a href="https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7551">ch-remote: switch from clap&#x27;s builder API to derive API</a>  <code>#7551</code> · updated: 2025-12-15 · created: 2025-12-09  
@@ -4836,41 +4852,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7563">Style/Error handling: Drop less underlying errors and report them instead</a>  <code>#7563</code> · updated: 2025-12-12 · created: 2025-12-12  
   labels: good first issue
 
-## yusufkaraaslan/Skill_Seekers  ⭐ 5051
-[Repository](https://github.com/yusufkaraaslan/Skill_Seekers)
+## umbraco/Umbraco-CMS  ⭐ 5059
+[Repository](https://github.com/umbraco/Umbraco-CMS)
 
-- <a href="https://github.com/yusufkaraaslan/Skill_Seekers/issues/165">feat: Add 15 missing languages to PDF scraper</a>  <code>#165</code> · updated: 2025-10-29 · created: 2025-10-29  
-  labels: enhancement, good first issue
+- <a href="https://github.com/umbraco/Umbraco-CMS/issues/20979">Poor mapping of &quot;badge&quot; icon</a>  <code>#20979</code> · updated: 2025-12-04 · created: 2025-11-27  
+  labels: community/up-for-grabs, good first issue, type/bug, area/frontend, affected/v17
 
-## facebook/pyrefly  ⭐ 5040
-[Repository](https://github.com/facebook/pyrefly)
-
-- <a href="https://github.com/facebook/pyrefly/issues/1521">Strange signature handling</a>  <code>#1521</code> · updated: 2025-12-16 · created: 2025-11-07  
-  labels: good first issue, language-server
-- <a href="https://github.com/facebook/pyrefly/issues/1398">LSP (Zed): Auto-import completions incomplete for symbols with common prefix</a>  <code>#1398</code> · updated: 2025-12-15 · created: 2025-10-27  
-  labels: good first issue, language-server
-- <a href="https://github.com/facebook/pyrefly/issues/1706">`unbound-name` does not consider `range()` with an integer correctly</a>  <code>#1706</code> · updated: 2025-12-15 · created: 2025-11-28  
-  labels: good first issue, typechecking
-- <a href="https://github.com/facebook/pyrefly/issues/1805">[lsp] Seeing signatures that contain `-&gt; None` when constructing a class is confusing</a>  <code>#1805</code> · updated: 2025-12-11 · created: 2025-12-10  
-  labels: good first issue, language-server
-
-## treeverse/lakeFS  ⭐ 5032
-[Repository](https://github.com/treeverse/lakeFS)
-
-- <a href="https://github.com/treeverse/lakeFS/issues/9793">gateway test works only with mem block adapter not local</a>  <code>#9793</code> · updated: 2025-12-15 · created: 2025-12-14  
-  labels: bug, good first issue, area/gateway, area/testing, area/system-tests, area/KV
-- <a href="https://github.com/treeverse/lakeFS/issues/9728">Enforce 2KB size limit on user-defined object metadata</a>  <code>#9728</code> · updated: 2025-12-03 · created: 2025-11-26  
-  labels: good first issue, area/API, area/gateway, P2
-- <a href="https://github.com/treeverse/lakeFS/issues/9729">UI: Validate and prevent duplicate metadata keys for commits</a>  <code>#9729</code> · updated: 2025-12-03 · created: 2025-11-26  
-  labels: good first issue, area/UI
-- <a href="https://github.com/treeverse/lakeFS/issues/9673">Add filename to presigned URL</a>  <code>#9673</code> · updated: 2025-12-02 · created: 2025-11-14  
-  labels: good first issue, area/API, contributor, P3, feature-request
-- <a href="https://github.com/treeverse/lakeFS/issues/9600">[Bug]: Missing permissions don&#x27;t return to the user upon unauthorized request.</a>  <code>#9600</code> · updated: 2025-11-05 · created: 2025-10-23  
-  labels: bug, good first issue, P2
-- <a href="https://github.com/treeverse/lakeFS/issues/9616">UI Overflow Issues with Long Branch, Tag, and Path Names Across Multiple Modals</a>  <code>#9616</code> · updated: 2025-11-04 · created: 2025-10-29  
-  labels: good first issue, area/UI
-
-## orval-labs/orval  ⭐ 5029
+## orval-labs/orval  ⭐ 5048
 [Repository](https://github.com/orval-labs/orval)
 
 - <a href="https://github.com/orval-labs/orval/issues/2630">OpenAPI enums with minLength create invalid zod schemas</a>  <code>#2630</code> · updated: 2025-12-09 · created: 2025-12-09  
@@ -4878,7 +4866,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/orval-labs/orval/issues/2459">Same Naming &amp; Eslint comment</a>  <code>#2459</code> · updated: 2025-11-28 · created: 2025-10-21  
   labels: enhancement, good first issue
 
-## openbao/openbao  ⭐ 5024
+## openbao/openbao  ⭐ 5043
 [Repository](https://github.com/openbao/openbao)
 
 - <a href="https://github.com/openbao/openbao/issues/2210">ACL modification - per-namespace locking</a>  <code>#2210</code> · updated: 2025-12-11 · created: 2025-12-09  
@@ -4898,7 +4886,21 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/openbao/openbao/issues/1864">Drop github.com/klauspost/compress</a>  <code>#1864</code> · updated: 2025-10-02 · created: 2025-09-29  
   labels: good first issue, help wanted, ui, tech-debt
 
-## lingodotdev/lingo.dev  ⭐ 5012
+## treeverse/lakeFS  ⭐ 5037
+[Repository](https://github.com/treeverse/lakeFS)
+
+- <a href="https://github.com/treeverse/lakeFS/issues/9729">UI: Validate and prevent duplicate metadata keys for commits</a>  <code>#9729</code> · updated: 2025-12-18 · created: 2025-11-26  
+  labels: good first issue, area/UI
+- <a href="https://github.com/treeverse/lakeFS/issues/9728">Enforce 2KB size limit on user-defined object metadata</a>  <code>#9728</code> · updated: 2025-12-03 · created: 2025-11-26  
+  labels: good first issue, area/API, area/gateway, P2
+- <a href="https://github.com/treeverse/lakeFS/issues/9673">Add filename to presigned URL</a>  <code>#9673</code> · updated: 2025-12-02 · created: 2025-11-14  
+  labels: good first issue, area/API, contributor, P3, feature-request
+- <a href="https://github.com/treeverse/lakeFS/issues/9600">[Bug]: Missing permissions don&#x27;t return to the user upon unauthorized request.</a>  <code>#9600</code> · updated: 2025-11-05 · created: 2025-10-23  
+  labels: bug, good first issue, P2
+- <a href="https://github.com/treeverse/lakeFS/issues/9616">UI Overflow Issues with Long Branch, Tag, and Path Names Across Multiple Modals</a>  <code>#9616</code> · updated: 2025-11-04 · created: 2025-10-29  
+  labels: good first issue, area/UI
+
+## lingodotdev/lingo.dev  ⭐ 5030
 [Repository](https://github.com/lingodotdev/lingo.dev)
 
 - <a href="https://github.com/lingodotdev/lingo.dev/issues/1521">🐞 [BUG REPORT] ~ Issue with `npx lingo.dev` command is not working on Windows 11</a>  <code>#1521</code> · updated: 2025-12-03 · created: 2025-11-03  
@@ -4952,15 +4954,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/lingodotdev/lingo.dev/issues/1337">docs: create a Lingo.dev CLI integration guide for Angular</a>  <code>#1337</code> · updated: 2025-11-03 · created: 2025-10-30  
   labels: Good first issue, Docs
 
-## armbian/build  ⭐ 5009
-[Repository](https://github.com/armbian/build)
+## Openpanel-dev/openpanel  ⭐ 5020
+[Repository](https://github.com/Openpanel-dev/openpanel)
 
-- <a href="https://github.com/armbian/build/issues/8871">[Bug]: peripheral port/gadget mode stopped working on orange pi zero lts after upgrading to 6.12</a>  <code>#8871</code> · updated: 2025-11-11 · created: 2025-11-04  
-  labels: Bug, Good first issue
-- <a href="https://github.com/armbian/build/issues/8738">[Bug]: armbian-install fails on systems with multiple disks (e.g., eMMC and NVMe) and empty partition table</a>  <code>#8738</code> · updated: 2025-10-10 · created: 2025-10-10  
-  labels: Bug, Good first issue
+- <a href="https://github.com/Openpanel-dev/openpanel/issues/224">[Feature Request] Adopt Plausible&#x27;s iframe height setting mechanism</a>  <code>#224</code> · updated: 2025-12-02 · created: 2025-11-02  
+  labels: enhancement, good first issue
 
-## yichuan-w/LEANN  ⭐ 5008
+## yichuan-w/LEANN  ⭐ 5019
 [Repository](https://github.com/yichuan-w/LEANN)
 
 - <a href="https://github.com/yichuan-w/LEANN/issues/158">[feat] OCR based application</a>  <code>#158</code> · updated: 2025-12-07 · created: 2025-11-10  
@@ -4973,22 +4973,8 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: bug, good first issue
 - <a href="https://github.com/yichuan-w/LEANN/issues/107">[Feature] Gemeni CLI</a>  <code>#107</code> · updated: 2025-09-20 · created: 2025-09-20  
   labels: enhancement, good first issue
-- <a href="https://github.com/yichuan-w/LEANN/issues/104">[Feature] Co-search with Deep-research</a>  <code>#104</code> · updated: 2025-09-19 · created: 2025-09-19  
-  labels: good first issue
 
-## Openpanel-dev/openpanel  ⭐ 5005
-[Repository](https://github.com/Openpanel-dev/openpanel)
-
-- <a href="https://github.com/Openpanel-dev/openpanel/issues/224">[Feature Request] Adopt Plausible&#x27;s iframe height setting mechanism</a>  <code>#224</code> · updated: 2025-12-02 · created: 2025-11-02  
-  labels: enhancement, good first issue
-
-## piscinajs/piscina  ⭐ 4981
-[Repository](https://github.com/piscinajs/piscina)
-
-- <a href="https://github.com/piscinajs/piscina/issues/899">Possibly unnecessary SkipQueue?</a>  <code>#899</code> · updated: 2025-10-15 · created: 2025-09-26  
-  labels: good-first-issue
-
-## Eventual-Inc/Daft  ⭐ 4977
+## Eventual-Inc/Daft  ⭐ 5017
 [Repository](https://github.com/Eventual-Inc/Daft)
 
 - <a href="https://github.com/Eventual-Inc/Daft/issues/5752">Explode returns null on empty or NULL lists</a>  <code>#5752</code> · updated: 2025-12-09 · created: 2025-12-04  
@@ -4998,25 +4984,33 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/Eventual-Inc/Daft/issues/5555">Support specifying embedding dimensions for all providers</a>  <code>#5555</code> · updated: 2025-12-03 · created: 2025-11-12  
   labels: enhancement, good first issue, p2 (backlog)
 
-## MapsterMapper/Mapster  ⭐ 4940
+## joomla/joomla-cms  ⭐ 5010
+[Repository](https://github.com/joomla/joomla-cms)
+
+- <a href="https://github.com/joomla/joomla-cms/issues/46577">Add sorting by date</a>  <code>#46577</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Feature, No Code Attached Yet, good first issue
+
+## armbian/build  ⭐ 5009
+[Repository](https://github.com/armbian/build)
+
+- <a href="https://github.com/armbian/build/issues/8871">[Bug]: peripheral port/gadget mode stopped working on orange pi zero lts after upgrading to 6.12</a>  <code>#8871</code> · updated: 2025-11-11 · created: 2025-11-04  
+  labels: Bug, Good first issue
+- <a href="https://github.com/armbian/build/issues/8738">[Bug]: armbian-install fails on systems with multiple disks (e.g., eMMC and NVMe) and empty partition table</a>  <code>#8738</code> · updated: 2025-10-10 · created: 2025-10-10  
+  labels: Bug, Good first issue
+
+## piscinajs/piscina  ⭐ 4984
+[Repository](https://github.com/piscinajs/piscina)
+
+- <a href="https://github.com/piscinajs/piscina/issues/899">Possibly unnecessary SkipQueue?</a>  <code>#899</code> · updated: 2025-10-15 · created: 2025-09-26  
+  labels: good-first-issue
+
+## MapsterMapper/Mapster  ⭐ 4944
 [Repository](https://github.com/MapsterMapper/Mapster)
 
 - <a href="https://github.com/MapsterMapper/Mapster/issues/820">Mapster.EFCore ProjectToType&lt;T&gt;().FirstOrDefaultAsync throwing exception</a>  <code>#820</code> · updated: 2025-10-14 · created: 2025-10-13  
   labels: bug, good first issue
 
-## grafana/tempo  ⭐ 4932
-[Repository](https://github.com/grafana/tempo)
-
-- <a href="https://github.com/grafana/tempo/issues/6035">Tempo pod start/restart time is slow</a>  <code>#6035</code> · updated: 2025-12-13 · created: 2025-12-05  
-  labels: good first issue, help wanted
-
-## cordx56/rustowl  ⭐ 4900
-[Repository](https://github.com/cordx56/rustowl)
-
-- <a href="https://github.com/cordx56/rustowl/issues/465">Does not build</a>  <code>#465</code> · updated: 2025-12-07 · created: 2025-11-22  
-  labels: documentation, enhancement, good first issue, tier-1, dont-close
-
-## algorithmicsuperintelligence/openevolve  ⭐ 4882
+## algorithmicsuperintelligence/openevolve  ⭐ 4909
 [Repository](https://github.com/algorithmicsuperintelligence/openevolve)
 
 - <a href="https://github.com/algorithmicsuperintelligence/openevolve/issues/323">Feature Request: Support for Gemini Embedding Models</a>  <code>#323</code> · updated: 2025-11-21 · created: 2025-11-19  
@@ -5026,7 +5020,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/algorithmicsuperintelligence/openevolve/issues/290">Feature Request: Logger prefix</a>  <code>#290</code> · updated: 2025-10-17 · created: 2025-10-12  
   labels: enhancement, help wanted, good first issue
 
-## apache/dubbo-go  ⭐ 4862
+## cordx56/rustowl  ⭐ 4905
+[Repository](https://github.com/cordx56/rustowl)
+
+- <a href="https://github.com/cordx56/rustowl/issues/465">Does not build</a>  <code>#465</code> · updated: 2025-12-07 · created: 2025-11-22  
+  labels: documentation, enhancement, good first issue, tier-1, dont-close
+
+## apache/dubbo-go  ⭐ 4863
 [Repository](https://github.com/apache/dubbo-go)
 
 - <a href="https://github.com/apache/dubbo-go/issues/3103">[BUG] Router has been added to new api, need to test the user case</a>  <code>#3103</code> · updated: 2025-12-14 · created: 2025-12-09  
@@ -5034,29 +5034,29 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/dubbo-go/issues/3081">[BUG] gost lint fail</a>  <code>#3081</code> · updated: 2025-11-19 · created: 2025-11-19  
   labels: good first issue, ☢️ Bug, 3.3.1
 
-## apple/swift-protobuf  ⭐ 4839
+## apple/swift-protobuf  ⭐ 4846
 [Repository](https://github.com/apple/swift-protobuf)
 
+- <a href="https://github.com/apple/swift-protobuf/issues/1925">Building the documentation with Xcode 26.0.1 (Swift 6.2) gets 50+ warnings</a>  <code>#1925</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: area/documentation, good first issue
 - <a href="https://github.com/apple/swift-protobuf/issues/1908">Plugins/SwiftProtobufPlugin/plugin.swift generating deprecation warnings with Xcode 26/Swift 6.2</a>  <code>#1908</code> · updated: 2025-12-11 · created: 2025-11-10  
   labels: kind/enhancement, size/S, good first issue
 
-## ag2ai/faststream  ⭐ 4830
+## ag2ai/faststream  ⭐ 4838
 [Repository](https://github.com/ag2ai/faststream)
 
 - <a href="https://github.com/ag2ai/faststream/issues/2693">feat: merge `Broker(context=...)` and `FastStream(context=...)` at broker-level</a>  <code>#2693</code> · updated: 2025-11-29 · created: 2025-11-27  
   labels: enhancement, good first issue, Core
 
-## grafana/mimir  ⭐ 4829
+## grafana/mimir  ⭐ 4835
 [Repository](https://github.com/grafana/mimir)
 
 - <a href="https://github.com/grafana/mimir/issues/12876">Bug: Query-frontend gossip connection failures with Istio</a>  <code>#12876</code> · updated: 2025-11-27 · created: 2025-10-01  
   labels: bug, good first issue, helm
 - <a href="https://github.com/grafana/mimir/issues/12782">Bug: recording rule &#x27;mimir_api_2 -  cluster_job_route:cortex_request_duration_seconds:sum_rate&#x27; has no data</a>  <code>#12782</code> · updated: 2025-10-14 · created: 2025-09-22  
   labels: bug, good first issue, helm
-- <a href="https://github.com/grafana/mimir/issues/12748">This empty selector is throwing errors in ArgoCD builds, because it should have a value mapped to it</a>  <code>#12748</code> · updated: 2025-10-05 · created: 2025-09-18  
-  labels: good first issue, helm
 
-## godotengine/godot-docs  ⭐ 4805
+## godotengine/godot-docs  ⭐ 4808
 [Repository](https://github.com/godotengine/godot-docs)
 
 - <a href="https://github.com/godotengine/godot-docs/issues/11497">Camera3D.set_frustum() description should say the size parameter is the size of the near plane</a>  <code>#11497</code> · updated: 2025-11-26 · created: 2025-11-26  
@@ -5064,141 +5064,73 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/godotengine/godot-docs/issues/11430">Control: small typo in enum MouseBehaviorRecursive</a>  <code>#11430</code> · updated: 2025-10-31 · created: 2025-10-30  
   labels: bug, good first issue, area:class reference
 
-## diggerhq/digger  ⭐ 4798
-[Repository](https://github.com/diggerhq/digger)
+## ayn2op/discordo  ⭐ 4807
+[Repository](https://github.com/ayn2op/discordo)
 
-- <a href="https://github.com/diggerhq/digger/issues/2303">Not compatible with modern terragrunt versions after CLI redesign</a>  <code>#2303</code> · updated: 2025-10-06 · created: 2025-10-06  
-  labels: good first issue, hacktoberfest
-- <a href="https://github.com/diggerhq/digger/issues/2276">Request to add MS teams url for drift notification</a>  <code>#2276</code> · updated: 2025-10-03 · created: 2025-10-01  
-  labels: good first issue, hacktoberfest
+- <a href="https://github.com/ayn2op/discordo/issues/667">Feature request: Toggleable auto focus in case of panes</a>  <code>#667</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: feat, good first issue
+- <a href="https://github.com/ayn2op/discordo/issues/646">feature request: visible pronouns</a>  <code>#646</code> · updated: 2025-12-12 · created: 2025-12-02  
+  labels: feat, good first issue
 
-## quantumlib/Cirq  ⭐ 4797
+## quantumlib/Cirq  ⭐ 4803
 [Repository](https://github.com/quantumlib/Cirq)
 
 - <a href="https://github.com/quantumlib/Cirq/issues/7787">Fix snippets_test.py::test_can_run_docs_code_snippets</a>  <code>#7787</code> · updated: 2025-12-13 · created: 2025-12-02  
   labels: good first issue, no QC knowledge needed, triage/discuss, kind/health, triage/accepted, skill-level/beginner
 
-## rivet-dev/rivet  ⭐ 4786
+## diggerhq/digger  ⭐ 4801
+[Repository](https://github.com/diggerhq/digger)
+
+- <a href="https://github.com/diggerhq/digger/issues/2276">Request to add MS teams url for drift notification</a>  <code>#2276</code> · updated: 2025-12-16 · created: 2025-10-01  
+  labels: good first issue, hacktoberfest
+- <a href="https://github.com/diggerhq/digger/issues/2303">Not compatible with modern terragrunt versions after CLI redesign</a>  <code>#2303</code> · updated: 2025-10-06 · created: 2025-10-06  
+  labels: good first issue, hacktoberfest
+
+## rivet-dev/rivet  ⭐ 4791
 [Repository](https://github.com/rivet-dev/rivet)
 
 - <a href="https://github.com/rivet-dev/rivet/issues/3555">Helm Chart</a>  <code>#3555</code> · updated: 2025-11-29 · created: 2025-11-29  
   labels: good first issue
 
-## ayn2op/discordo  ⭐ 4783
-[Repository](https://github.com/ayn2op/discordo)
-
-- <a href="https://github.com/ayn2op/discordo/issues/646">feature request: visible pronouns</a>  <code>#646</code> · updated: 2025-12-12 · created: 2025-12-02  
-  labels: feat, good first issue
-
-## quinn-rs/quinn  ⭐ 4745
+## quinn-rs/quinn  ⭐ 4751
 [Repository](https://github.com/quinn-rs/quinn)
 
-- <a href="https://github.com/quinn-rs/quinn/issues/2422">proto: Leverage `BTreeMap::extract_if` in `RangeSet` for better performance</a>  <code>#2422</code> · updated: 2025-12-13 · created: 2025-10-23  
+- <a href="https://github.com/quinn-rs/quinn/issues/2422">proto: Leverage `BTreeMap::extract_if` in `RangeSet` for better performance</a>  <code>#2422</code> · updated: 2025-12-18 · created: 2025-10-23  
   labels: enhancement, good first issue
 
-## apache/opendal  ⭐ 4701
+## apache/opendal  ⭐ 4729
 [Repository](https://github.com/apache/opendal)
 
-- <a href="https://github.com/apache/opendal/issues/6888">[core split] Service: dashmap</a>  <code>#6888</code> · updated: 2025-12-16 · created: 2025-12-08  
-  labels: good first issue, help wanted, services/dashmap, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6906">[core split] Service: memcached</a>  <code>#6906</code> · updated: 2025-12-16 · created: 2025-12-08  
-  labels: good first issue, help wanted, services/memcached, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6907">[core split] Service: mini-moka</a>  <code>#6907</code> · updated: 2025-12-16 · created: 2025-12-08  
-  labels: good first issue, help wanted, services/moka, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6829">Tracking issues for RFC-6828: Core</a>  <code>#6829</code> · updated: 2025-12-15 · created: 2025-11-27  
+- <a href="https://github.com/apache/opendal/issues/6829">Tracking issues for RFC-6828: Core</a>  <code>#6829</code> · updated: 2025-12-19 · created: 2025-11-27  
   labels: good first issue, core, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6886">[core split] Service: cos</a>  <code>#6886</code> · updated: 2025-12-13 · created: 2025-12-08  
-  labels: good first issue, help wanted, services/cos, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6883">[core split] Service: cacache</a>  <code>#6883</code> · updated: 2025-12-13 · created: 2025-12-08  
+- <a href="https://github.com/apache/opendal/issues/6930">[core split] Service: webdav</a>  <code>#6930</code> · updated: 2025-12-18 · created: 2025-12-08  
+  labels: good first issue, help wanted, services/webdav, core, good first vibe
+- <a href="https://github.com/apache/opendal/issues/6931">[core split] Service: webhdfs</a>  <code>#6931</code> · updated: 2025-12-17 · created: 2025-12-08  
+  labels: good first issue, help wanted, services/webhdfs, core, releases-note/refactor, good first vibe
+- <a href="https://github.com/apache/opendal/issues/6909">[core split] Service: monoiofs</a>  <code>#6909</code> · updated: 2025-12-17 · created: 2025-12-08  
+  labels: good first issue, help wanted, services/fs, core, releases-note/refactor, bin/ofs, good first vibe
+- <a href="https://github.com/apache/opendal/issues/6898">[core split] Service: gridfs</a>  <code>#6898</code> · updated: 2025-12-16 · created: 2025-12-08  
   labels: good first issue, help wanted, core, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6939">[core split] Layer: logging</a>  <code>#6939</code> · updated: 2025-12-12 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6882">[core split] Service: b2</a>  <code>#6882</code> · updated: 2025-12-11 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
+- <a href="https://github.com/apache/opendal/issues/6921">[core split] Service: sftp</a>  <code>#6921</code> · updated: 2025-12-16 · created: 2025-12-08  
+  labels: good first issue, help wanted, core, services/sftp, releases-note/refactor, good first vibe
 - <a href="https://github.com/apache/opendal/issues/6919">[core split] Service: rocksdb</a>  <code>#6919</code> · updated: 2025-12-11 · created: 2025-12-08  
   labels: good first issue, help wanted, services/rocksdb, core, releases-note/refactor, good first vibe
 - <a href="https://github.com/apache/opendal/issues/6934">[core split] Layer: concurrent_limit</a>  <code>#6934</code> · updated: 2025-12-11 · created: 2025-12-08  
   labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
 - <a href="https://github.com/apache/opendal/issues/6908">[core split] Service: mongodb</a>  <code>#6908</code> · updated: 2025-12-09 · created: 2025-12-08  
   labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6901">[core split] Service: huggingface</a>  <code>#6901</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
 - <a href="https://github.com/apache/opendal/issues/6899">[core split] Service: hdfs</a>  <code>#6899</code> · updated: 2025-12-08 · created: 2025-12-08  
   labels: good first issue, help wanted, services/hdfs, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6898">[core split] Service: gridfs</a>  <code>#6898</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6897">[core split] Service: github</a>  <code>#6897</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6896">[core split] Service: gdrive</a>  <code>#6896</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, services/gdrive, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6892">[core split] Service: foundationdb</a>  <code>#6892</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6891">[core split] Service: etcd</a>  <code>#6891</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, services/etcd, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6890">[core split] Service: dropbox</a>  <code>#6890</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, services/dropbox, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6889">[core split] Service: dbfs</a>  <code>#6889</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6887">[core split] Service: d1</a>  <code>#6887</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, services/d1, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6885">[core split] Service: compfs</a>  <code>#6885</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6925">[core split] Service: swift</a>  <code>#6925</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, services/swift, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6924">[core split] Service: surrealdb</a>  <code>#6924</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6921">[core split] Service: sftp</a>  <code>#6921</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, services/sftp, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6920">[core split] Service: seafile</a>  <code>#6920</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6918">[core split] Service: redb</a>  <code>#6918</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6916">[core split] Service: persy</a>  <code>#6916</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, services/persy, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6915">[core split] Service: pcloud</a>  <code>#6915</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6913">[core split] Service: opfs</a>  <code>#6913</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6912">[core split] Service: onedrive</a>  <code>#6912</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6909">[core split] Service: monoiofs</a>  <code>#6909</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, services/fs, core, releases-note/refactor, bin/ofs, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6905">[core split] Service: lakefs</a>  <code>#6905</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6904">[core split] Service: koofr</a>  <code>#6904</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
 - <a href="https://github.com/apache/opendal/issues/6903">[core split] Service: ipmfs</a>  <code>#6903</code> · updated: 2025-12-08 · created: 2025-12-08  
   labels: good first issue, help wanted, services/ipmfs, core, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6950">[core split] Layer: timeout</a>  <code>#6950</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6947">[core split] Layer: retry</a>  <code>#6947</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
 - <a href="https://github.com/apache/opendal/issues/6935">[core split] Layer: dtrace</a>  <code>#6935</code> · updated: 2025-12-08 · created: 2025-12-08  
   labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6932">[core split] Service: yandex-disk</a>  <code>#6932</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6931">[core split] Service: webhdfs</a>  <code>#6931</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, services/webhdfs, core, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6930">[core split] Service: webdav</a>  <code>#6930</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, services/webdav, core, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6928">[core split] Service: vercel-artifacts</a>  <code>#6928</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, services/vercel_artifacts, releases-note/refactor, good first vibe
-- <a href="https://github.com/apache/opendal/issues/6927">[core split] Service: upyun</a>  <code>#6927</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted, core, releases-note/refactor, integrations/object_store, good first vibe
 
-## sktime/pytorch-forecasting  ⭐ 4691
-[Repository](https://github.com/sktime/pytorch-forecasting)
-
-- <a href="https://github.com/sktime/pytorch-forecasting/issues/2003">[BUG] why does `TimeXer` have `endogenous_vars` and `exogenous_vars` in `__init__`?</a>  <code>#2003</code> · updated: 2025-12-14 · created: 2025-12-04  
-  labels: bug, good first issue, module:models
-- <a href="https://github.com/sktime/pytorch-forecasting/issues/2004">[ENH] Add Autoformer model</a>  <code>#2004</code> · updated: 2025-12-12 · created: 2025-12-04  
-  labels: enhancement, good first issue, feature request, module:models
-- <a href="https://github.com/sktime/pytorch-forecasting/issues/1992">[ENH] Wishlist of forecasters and integrations</a>  <code>#1992</code> · updated: 2025-11-27 · created: 2025-11-27  
-  labels: enhancement, good first issue, module:models
-
-## dlt-hub/dlt  ⭐ 4689
+## dlt-hub/dlt  ⭐ 4701
 [Repository](https://github.com/dlt-hub/dlt)
 
+- <a href="https://github.com/dlt-hub/dlt/issues/3490">schema_contract freeze on columns reports schema violation when column is not new</a>  <code>#3490</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: good first issue
 - <a href="https://github.com/dlt-hub/dlt/issues/3471">bigquery_adapter() silently drops partition hint when same column is used for both partition and cluster</a>  <code>#3471</code> · updated: 2025-12-15 · created: 2025-12-11  
   labels: bug, good first issue, destination
 - <a href="https://github.com/dlt-hub/dlt/issues/3427">State restoration fails silently when pipeline name contains double underscores (`__`)</a>  <code>#3427</code> · updated: 2025-12-10 · created: 2025-12-03  
@@ -5210,10 +5142,10 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/dlt-hub/dlt/issues/3328">dlt tries OAuth in GCP Instead of Service Account Credentials when given Service Account Credentials via credential file</a>  <code>#3328</code> · updated: 2025-11-24 · created: 2025-11-17  
   labels: good first issue
 
-## mathesar-foundation/mathesar  ⭐ 4683
+## mathesar-foundation/mathesar  ⭐ 4693
 [Repository](https://github.com/mathesar-foundation/mathesar)
 
-- <a href="https://github.com/mathesar-foundation/mathesar/issues/5115">Button to clear all filters</a>  <code>#5115</code> · updated: 2025-12-15 · created: 2025-12-15  
+- <a href="https://github.com/mathesar-foundation/mathesar/issues/5115">Button to clear all filters</a>  <code>#5115</code> · updated: 2025-12-17 · created: 2025-12-15  
   labels: good first issue, help wanted, affects: ux, work: frontend, ready, type: enhancement
 - <a href="https://github.com/mathesar-foundation/mathesar/issues/4906">Implement Shift+Arrow to select cell range</a>  <code>#4906</code> · updated: 2025-12-11 · created: 2025-10-22  
   labels: good first issue, help wanted, work: frontend, ready, type: enhancement
@@ -5221,16 +5153,24 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue, help wanted, work: frontend, ready, type: maintenance
 - <a href="https://github.com/mathesar-foundation/mathesar/issues/4901">Split &quot;default&quot; button appearance into &quot;control&quot; and &quot;input&quot; button appearances</a>  <code>#4901</code> · updated: 2025-11-22 · created: 2025-10-22  
   labels: good first issue, help wanted, work: frontend, type: bug
-- <a href="https://github.com/mathesar-foundation/mathesar/issues/4896">Confusing behavior when loading the record page for a non-existent record</a>  <code>#4896</code> · updated: 2025-11-22 · created: 2025-10-21  
-  labels: good first issue, help wanted, work: frontend, ready, type: bug
 
-## portapack-mayhem/mayhem-firmware  ⭐ 4678
+## sktime/pytorch-forecasting  ⭐ 4693
+[Repository](https://github.com/sktime/pytorch-forecasting)
+
+- <a href="https://github.com/sktime/pytorch-forecasting/issues/2003">[BUG] why does `TimeXer` have `endogenous_vars` and `exogenous_vars` in `__init__`?</a>  <code>#2003</code> · updated: 2025-12-14 · created: 2025-12-04  
+  labels: bug, good first issue, module:models
+- <a href="https://github.com/sktime/pytorch-forecasting/issues/2004">[ENH] Add Autoformer model</a>  <code>#2004</code> · updated: 2025-12-12 · created: 2025-12-04  
+  labels: enhancement, good first issue, feature request, module:models
+- <a href="https://github.com/sktime/pytorch-forecasting/issues/1992">[ENH] Wishlist of forecasters and integrations</a>  <code>#1992</code> · updated: 2025-11-27 · created: 2025-11-27  
+  labels: enhancement, good first issue, module:models
+
+## portapack-mayhem/mayhem-firmware  ⭐ 4685
 [Repository](https://github.com/portapack-mayhem/mayhem-firmware)
 
 - <a href="https://github.com/portapack-mayhem/mayhem-firmware/issues/2795">APRS TX - Save &amp; Load config/parameters</a>  <code>#2795</code> · updated: 2025-10-08 · created: 2025-09-22  
   labels: enhancement, good first issue
 
-## aws/s2n-tls  ⭐ 4658
+## aws/s2n-tls  ⭐ 4661
 [Repository](https://github.com/aws/s2n-tls)
 
 - <a href="https://github.com/aws/s2n-tls/issues/5650">Turn on -Werror flag for unit tests</a>  <code>#5650</code> · updated: 2025-12-12 · created: 2025-12-04  
@@ -5241,16 +5181,34 @@ _Generated at: 2025-12-16T04:35:06Z_
 ## canonical/lxd  ⭐ 4639
 [Repository](https://github.com/canonical/lxd)
 
-- <a href="https://github.com/canonical/lxd/issues/17220">Cluster join token operations should not be project specific</a>  <code>#17220</code> · updated: 2025-12-15 · created: 2025-12-10  
+- <a href="https://github.com/canonical/lxd/issues/17272">lxc image filters do not match displayed values</a>  <code>#17272</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: Good first issue, Documentation, Jira
+- <a href="https://github.com/canonical/lxd/issues/16698">`lxc list` could be optimized</a>  <code>#16698</code> · updated: 2025-12-18 · created: 2025-10-08  
+  labels: Good first issue
+- <a href="https://github.com/canonical/lxd/issues/16747">Use modern CSRF protection from stdlib</a>  <code>#16747</code> · updated: 2025-12-18 · created: 2025-10-16  
+  labels: Good first issue
+- <a href="https://github.com/canonical/lxd/issues/17055">Can&#x27;t select name column when filtering by IP</a>  <code>#17055</code> · updated: 2025-12-18 · created: 2025-11-24  
+  labels: Good first issue
+- <a href="https://github.com/canonical/lxd/issues/17062">Force delete instance from API</a>  <code>#17062</code> · updated: 2025-12-18 · created: 2025-11-25  
+  labels: Good first issue
+- <a href="https://github.com/canonical/lxd/issues/17133">doc: command references use syntax highlighting</a>  <code>#17133</code> · updated: 2025-12-18 · created: 2025-12-03  
+  labels: Good first issue, Documentation
+- <a href="https://github.com/canonical/lxd/issues/17265">Improve error message when `limits.memory` is set far too low</a>  <code>#17265</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: Good first issue
+- <a href="https://github.com/canonical/lxd/issues/17220">Cluster join token operations should not be project specific</a>  <code>#17220</code> · updated: 2025-12-18 · created: 2025-12-10  
   labels: Good first issue, Jira
 
-## lexiforest/curl_cffi  ⭐ 4632
-[Repository](https://github.com/lexiforest/curl_cffi)
+## dotnet/docs  ⭐ 4607
+[Repository](https://github.com/dotnet/docs)
 
-- <a href="https://github.com/lexiforest/curl_cffi/issues/639">orjson.loads does not take keyword args.</a>  <code>#639</code> · updated: 2025-09-28 · created: 2025-09-18  
-  labels: bug, good first issue
-- <a href="https://github.com/lexiforest/curl_cffi/issues/638">support upkeep for `AsyncSession()`</a>  <code>#638</code> · updated: 2025-09-20 · created: 2025-09-18  
-  labels: enhancement, good first issue
+- <a href="https://github.com/dotnet/docs/issues/49691">Typo in field&#x27;s CLS compliance example</a>  <code>#49691</code> · updated: 2025-11-26 · created: 2025-11-10  
+  labels: help wanted, good first issue, dotnet-fundamentals/svc, okr-quality, doc-bug
+
+## LuanRT/YouTube.js  ⭐ 4604
+[Repository](https://github.com/LuanRT/YouTube.js)
+
+- <a href="https://github.com/LuanRT/YouTube.js/issues/1072">Missing documentation for youtubei.js/cf-worker entrypoint</a>  <code>#1072</code> · updated: 2025-10-14 · created: 2025-10-14  
+  labels: documentation, enhancement, good first issue
 
 ## Azure/azure-powershell  ⭐ 4603
 [Repository](https://github.com/Azure/azure-powershell)
@@ -5258,19 +5216,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/Azure/azure-powershell/issues/28765">Invoke-AzSpotPlacementScore does not handle throttling situation</a>  <code>#28765</code> · updated: 2025-12-04 · created: 2025-10-28  
   labels: Azure PS Team, bug, good first issue, Tracking, Similar-Issue
 
-## dotnet/docs  ⭐ 4603
-[Repository](https://github.com/dotnet/docs)
-
-- <a href="https://github.com/dotnet/docs/issues/49691">Typo in field&#x27;s CLS compliance example</a>  <code>#49691</code> · updated: 2025-11-26 · created: 2025-11-10  
-  labels: help wanted, good first issue, dotnet-fundamentals/svc, okr-quality, doc-bug
-
-## LuanRT/YouTube.js  ⭐ 4595
-[Repository](https://github.com/LuanRT/YouTube.js)
-
-- <a href="https://github.com/LuanRT/YouTube.js/issues/1072">Missing documentation for youtubei.js/cf-worker entrypoint</a>  <code>#1072</code> · updated: 2025-10-14 · created: 2025-10-14  
-  labels: documentation, enhancement, good first issue
-
-## immunant/c2rust  ⭐ 4592
+## immunant/c2rust  ⭐ 4597
 [Repository](https://github.com/immunant/c2rust)
 
 - <a href="https://github.com/immunant/c2rust/issues/1489">Remove duplicate repos from `examples/`</a>  <code>#1489</code> · updated: 2025-12-08 · created: 2025-12-03  
@@ -5278,7 +5224,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/immunant/c2rust/issues/1398">Automatically compile c2rust before running tests</a>  <code>#1398</code> · updated: 2025-10-08 · created: 2025-10-07  
   labels: good first issue, papercut
 
-## transformerlab/transformerlab-app  ⭐ 4590
+## transformerlab/transformerlab-app  ⭐ 4592
 [Repository](https://github.com/transformerlab/transformerlab-app)
 
 - <a href="https://github.com/transformerlab/transformerlab-app/issues/1029">Weird UI: Top bar on Generated tab is vertically too big</a>  <code>#1029</code> · updated: 2025-12-13 · created: 2025-12-10  
@@ -5290,19 +5236,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/transformerlab/transformerlab-app/issues/800">Move the long list of diffusion architectures to instead use things from diffusers library instead</a>  <code>#800</code> · updated: 2025-10-17 · created: 2025-10-06  
   labels: good first issue, api, chore
 
-## antinomyhq/forge  ⭐ 4589
+## antinomyhq/forge  ⭐ 4588
 [Repository](https://github.com/antinomyhq/forge)
 
 - <a href="https://github.com/antinomyhq/forge/issues/1628">Add a nixos package</a>  <code>#1628</code> · updated: 2025-11-01 · created: 2025-10-01  
   labels: state: inactive, good first issue
 
-## ChrisTitusTech/linutil  ⭐ 4582
-[Repository](https://github.com/ChrisTitusTech/linutil)
-
-- <a href="https://github.com/ChrisTitusTech/linutil/issues/1129">[Feature Request]: Arch Server Install nouveau option</a>  <code>#1129</code> · updated: 2025-10-07 · created: 2025-09-19  
-  labels: type: enhancement, good first issue, scope: script, priority: 1: medium
-
-## microsoft/msquic  ⭐ 4558
+## microsoft/msquic  ⭐ 4564
 [Repository](https://github.com/microsoft/msquic)
 
 - <a href="https://github.com/microsoft/msquic/issues/5575">Static build is not compatible with CMAKE_DEBUG_POSTFIX</a>  <code>#5575</code> · updated: 2025-12-13 · created: 2025-11-07  
@@ -5310,7 +5250,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/microsoft/msquic/issues/5614">Allow to use custom OpenSSL version</a>  <code>#5614</code> · updated: 2025-11-25 · created: 2025-11-20  
   labels: good first issue, feature request, external
 
-## uptrace/bun  ⭐ 4524
+## uptrace/bun  ⭐ 4532
 [Repository](https://github.com/uptrace/bun)
 
 - <a href="https://github.com/uptrace/bun/issues/1290">Improve documentation on NewCreateIndex</a>  <code>#1290</code> · updated: 2025-11-27 · created: 2025-10-28  
@@ -5320,13 +5260,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/uptrace/bun/issues/1281">SQLite: WithRecursive generates invalid SQL with extra parentheses in UNION ALL</a>  <code>#1281</code> · updated: 2025-10-16 · created: 2025-10-03  
   labels: bug, good first issue, help wanted
 
-## freedomofpress/dangerzone  ⭐ 4505
+## freedomofpress/dangerzone  ⭐ 4514
 [Repository](https://github.com/freedomofpress/dangerzone)
 
 - <a href="https://github.com/freedomofpress/dangerzone/issues/1271">Remove test_large_set.py from the tests folder</a>  <code>#1271</code> · updated: 2025-11-26 · created: 2025-10-08  
   labels: good first issue, development
 
-## lobsters/lobsters  ⭐ 4490
+## lobsters/lobsters  ⭐ 4493
 [Repository](https://github.com/lobsters/lobsters)
 
 - <a href="https://github.com/lobsters/lobsters/issues/1781">add Anubis with a conservative config</a>  <code>#1781</code> · updated: 2025-12-09 · created: 2025-11-03  
@@ -5344,7 +5284,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/lobsters/lobsters/issues/1732">print css: show link targets</a>  <code>#1732</code> · updated: 2025-10-09 · created: 2025-10-06  
   labels: featurereq, good first issue
 
-## vllm-project/aibrix  ⭐ 4471
+## vllm-project/aibrix  ⭐ 4474
 [Repository](https://github.com/vllm-project/aibrix)
 
 - <a href="https://github.com/vllm-project/aibrix/issues/1779">Bug: Build fails with &quot;invalid array length -delta * delta&quot; due to golang.org/x/tools version incompatibility</a>  <code>#1779</code> · updated: 2025-11-28 · created: 2025-11-20  
@@ -5352,13 +5292,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/vllm-project/aibrix/issues/1613">[Feature/Integration] Add Integration Path with vLLM Semantic Router </a>  <code>#1613</code> · updated: 2025-10-13 · created: 2025-09-29  
   labels: good first issue, help wanted, area/gateway, kind/feature, area/community
 
-## style-dictionary/style-dictionary  ⭐ 4453
+## style-dictionary/style-dictionary  ⭐ 4456
 [Repository](https://github.com/style-dictionary/style-dictionary)
 
 - <a href="https://github.com/style-dictionary/style-dictionary/issues/1600">composite typography fontFamily token reference gets interpreted as string</a>  <code>#1600</code> · updated: 2025-12-03 · created: 2025-11-27  
   labels: bug, help wanted, good first issue, 5.0
 
-## kvcache-ai/Mooncake  ⭐ 4424
+## kvcache-ai/Mooncake  ⭐ 4445
 [Repository](https://github.com/kvcache-ai/Mooncake)
 
 - <a href="https://github.com/kvcache-ai/Mooncake/issues/1200">[RFC]: Hot Standby Mode for Master Service Metadata High Availability</a>  <code>#1200</code> · updated: 2025-12-16 · created: 2025-12-12  
@@ -5380,67 +5320,77 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/kvcache-ai/Mooncake/issues/954">[Feature Request]: Tiered Caching for Mooncake Store</a>  <code>#954</code> · updated: 2025-10-23 · created: 2025-10-23  
   labels: good first issue
 
-## amber-lang/amber  ⭐ 4421
+## amber-lang/amber  ⭐ 4433
 [Repository](https://github.com/amber-lang/amber)
 
-- <a href="https://github.com/amber-lang/amber/issues/935">Remove unsafe modifier</a>  <code>#935</code> · updated: 2025-12-16 · created: 2025-12-16  
-  labels: good first issue
+- <a href="https://github.com/amber-lang/amber/issues/954">[BUG] update all builtin examples in `stdlib`</a>  <code>#954</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: documentation, good first issue, stdlib
+- <a href="https://github.com/amber-lang/amber/issues/951">[Feature] New stdlib functions</a>  <code>#951</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: enhancement, good first issue, stdlib
+- <a href="https://github.com/amber-lang/amber/issues/950">[Feature] `nohup`, `bg`, `fg` block</a>  <code>#950</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: enhancement, good first issue, compiler
+- <a href="https://github.com/amber-lang/amber/issues/908">[Feature] New builtins proposals</a>  <code>#908</code> · updated: 2025-12-18 · created: 2025-12-12  
+  labels: enhancement, good first issue, compiler
+- <a href="https://github.com/amber-lang/amber/issues/944">[Feature] Finish Code coverage by tests</a>  <code>#944</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: enhancement, help wanted, good first issue, tests
 - <a href="https://github.com/amber-lang/amber/issues/895">[Feature] Update stdlib to use union types and array type inference where possible</a>  <code>#895</code> · updated: 2025-12-11 · created: 2025-12-08  
   labels: enhancement, good first issue, pr/stalled
 
-## adafruit/circuitpython  ⭐ 4413
-[Repository](https://github.com/adafruit/circuitpython)
-
-- <a href="https://github.com/adafruit/circuitpython/issues/10687">Detect major dirty rectangle overlap and refresh everything instead</a>  <code>#10687</code> · updated: 2025-10-22 · created: 2025-10-22  
-  labels: bug, good first issue, displayio, performance
-
-## clidey/whodb  ⭐ 4375
-[Repository](https://github.com/clidey/whodb)
-
-- <a href="https://github.com/clidey/whodb/issues/701">[BUG] - Page width size bigger than fold</a>  <code>#701</code> · updated: 2025-11-17 · created: 2025-11-16  
-  labels: bug, good first issue, javascript
-
-## tonyantony300/alt-sendme  ⭐ 4357
+## tonyantony300/alt-sendme  ⭐ 4427
 [Repository](https://github.com/tonyantony300/alt-sendme)
 
 - <a href="https://github.com/tonyantony300/alt-sendme/issues/51">Translation Fixes</a>  <code>#51</code> · updated: 2025-11-26 · created: 2025-11-26  
   labels: good first issue
 
-## zesterer/chumsky  ⭐ 4350
+## adafruit/circuitpython  ⭐ 4415
+[Repository](https://github.com/adafruit/circuitpython)
+
+- <a href="https://github.com/adafruit/circuitpython/issues/10687">Detect major dirty rectangle overlap and refresh everything instead</a>  <code>#10687</code> · updated: 2025-10-22 · created: 2025-10-22  
+  labels: bug, good first issue, displayio, performance
+
+## clidey/whodb  ⭐ 4403
+[Repository](https://github.com/clidey/whodb)
+
+- <a href="https://github.com/clidey/whodb/issues/701">[BUG] - Page width size bigger than fold</a>  <code>#701</code> · updated: 2025-11-17 · created: 2025-11-16  
+  labels: bug, good first issue, javascript
+
+## zesterer/chumsky  ⭐ 4363
 [Repository](https://github.com/zesterer/chumsky)
 
 - <a href="https://github.com/zesterer/chumsky/issues/896">Add `filter_map` I think</a>  <code>#896</code> · updated: 2025-12-06 · created: 2025-10-27  
   labels: enhancement, help wanted, good first issue
 
-## crate/crate  ⭐ 4338
+## crate/crate  ⭐ 4346
 [Repository](https://github.com/crate/crate)
 
 - <a href="https://github.com/crate/crate/issues/18660">Support `parse_ident` function</a>  <code>#18660</code> · updated: 2025-11-05 · created: 2025-11-04  
   labels: contributions welcome, feature: sql: scalars, good first issue, tool: Grafana
 
-## kanidm/kanidm  ⭐ 4335
+## kanidm/kanidm  ⭐ 4343
 [Repository](https://github.com/kanidm/kanidm)
 
-- <a href="https://github.com/kanidm/kanidm/issues/4010">Prevent custom OIDC Claim mappings from having the same name as built-in claims</a>  <code>#4010</code> · updated: 2025-12-11 · created: 2025-12-10  
+- <a href="https://github.com/kanidm/kanidm/issues/4010">Prevent custom OIDC Claim mappings from having the same name as built-in claims</a>  <code>#4010</code> · updated: 2025-12-19 · created: 2025-12-10  
   labels: enhancement, good first issue, oauth2
 - <a href="https://github.com/kanidm/kanidm/issues/3940">kanidm_ldap_sync - password_import was unable to convert hash format</a>  <code>#3940</code> · updated: 2025-11-19 · created: 2025-11-07  
   labels: enhancement, good first issue, ldap
 - <a href="https://github.com/kanidm/kanidm/issues/3937">Comparision with tinyauth and pocket-id</a>  <code>#3937</code> · updated: 2025-11-06 · created: 2025-11-06  
   labels: good first issue, documentation
 
-## cilium/tetragon  ⭐ 4313
+## cilium/tetragon  ⭐ 4321
 [Repository](https://github.com/cilium/tetragon)
 
 - <a href="https://github.com/cilium/tetragon/issues/4212">add tests for enforce/monitor mode</a>  <code>#4212</code> · updated: 2025-12-03 · created: 2025-10-21  
   labels: good first issue, area/testing
 
-## CoplayDev/unity-mcp  ⭐ 4283
+## CoplayDev/unity-mcp  ⭐ 4320
 [Repository](https://github.com/CoplayDev/unity-mcp)
 
-- <a href="https://github.com/CoplayDev/unity-mcp/issues/455">get_components consistently crashing unity 6.3 LTS</a>  <code>#455</code> · updated: 2025-12-14 · created: 2025-12-11  
-  labels: good first issue
+- <a href="https://github.com/CoplayDev/unity-mcp/issues/455">get_components consistently crashing unity 6.3 LTS</a>  <code>#455</code> · updated: 2025-12-18 · created: 2025-12-11  
+  labels: bug, good first issue
+- <a href="https://github.com/CoplayDev/unity-mcp/issues/465">Screenshot action putting image in wrong folder when in play mode</a>  <code>#465</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: bug, good first issue
 
-## Rust-for-Linux/linux  ⭐ 4282
+## Rust-for-Linux/linux  ⭐ 4283
 [Repository](https://github.com/Rust-for-Linux/linux)
 
 - <a href="https://github.com/Rust-for-Linux/linux/issues/1205">Fix incorrect description in one of the `peek_next` docs</a>  <code>#1205</code> · updated: 2025-12-12 · created: 2025-11-17  
@@ -5468,7 +5418,27 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/Rust-for-Linux/linux/issues/1192">Add `*.klint` to `.gitignore`</a>  <code>#1192</code> · updated: 2025-10-01 · created: 2025-09-30  
   labels: • misc, good first issue, easy
 
-## open-telemetry/opentelemetry-collector-contrib  ⭐ 4234
+## btjawa/BiliTools  ⭐ 4273
+[Repository](https://github.com/btjawa/BiliTools)
+
+- <a href="https://github.com/btjawa/BiliTools/issues/226">[Feature Request] Allow customizing the number of videos displayed per page</a>  <code>#226</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: type: feature request, good first issue, status: needs triage
+
+## VoltAgent/voltagent  ⭐ 4265
+[Repository](https://github.com/VoltAgent/voltagent)
+
+- <a href="https://github.com/VoltAgent/voltagent/issues/867">[FEAT] Add repository property to all package.json files</a>  <code>#867</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: enhancement, good first issue
+
+## tile-ai/tilelang  ⭐ 4256
+[Repository](https://github.com/tile-ai/tilelang)
+
+- <a href="https://github.com/tile-ai/tilelang/issues/1463">[Feature Request] PDL Support</a>  <code>#1463</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: enhancement, good first issue, help wanted
+- <a href="https://github.com/tile-ai/tilelang/issues/859">[Bug] Tilelang the Float32 data type looks like is not usable.</a>  <code>#859</code> · updated: 2025-09-27 · created: 2025-09-22  
+  labels: enhancement, good first issue
+
+## open-telemetry/opentelemetry-collector-contrib  ⭐ 4241
 [Repository](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
 - <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/44180">PrometheusReceiver Configuration - Deprecate and remove `UseStartTimeMetric` and `StartTimeMetricRegex`</a>  <code>#44180</code> · updated: 2025-12-15 · created: 2025-11-11  
@@ -5478,58 +5448,72 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/43918">[aws/k8s] TestGetShutdown is failing on Windows after upgrading k8s library to 1.34</a>  <code>#43918</code> · updated: 2025-11-01 · created: 2025-10-30  
   labels: bug, help wanted, good first issue, internal/aws
 
-## dynaconf/dynaconf  ⭐ 4213
+## dynaconf/dynaconf  ⭐ 4214
 [Repository](https://github.com/dynaconf/dynaconf)
 
 - <a href="https://github.com/dynaconf/dynaconf/issues/1343">[RFC] Use REdis URL scheme</a>  <code>#1343</code> · updated: 2025-11-14 · created: 2025-11-06  
   labels: Not a Bug, RFC, good first issue
 
-## tile-ai/tilelang  ⭐ 4202
-[Repository](https://github.com/tile-ai/tilelang)
-
-- <a href="https://github.com/tile-ai/tilelang/issues/859">[Bug] Tilelang the Float32 data type looks like is not usable.</a>  <code>#859</code> · updated: 2025-09-27 · created: 2025-09-22  
-  labels: enhancement, good first issue
-
-## permissionlesstech/bitchat-android  ⭐ 4184
+## permissionlesstech/bitchat-android  ⭐ 4200
 [Repository](https://github.com/permissionlesstech/bitchat-android)
 
 - <a href="https://github.com/permissionlesstech/bitchat-android/issues/507">Help: let&#x27;s compile Arti (Tor) ourselves </a>  <code>#507</code> · updated: 2025-11-11 · created: 2025-11-01  
   labels: help wanted, good first issue
 
-## apache/kvrocks  ⭐ 4175
+## apache/kvrocks  ⭐ 4184
 [Repository](https://github.com/apache/kvrocks)
 
 - <a href="https://github.com/apache/kvrocks/issues/3210">TimeSeries: Implement `TS.DELETERULE` command</a>  <code>#3210</code> · updated: 2025-11-18 · created: 2025-10-05  
   labels: help wanted, good first issue
 
-## JabRef/jabref  ⭐ 4144
+## JabRef/jabref  ⭐ 4151
 [Repository](https://github.com/JabRef/jabref)
 
-- <a href="https://github.com/JabRef/jabref/issues/14430">Offer selection of CitationProvider in &quot;Citations&quot; tab</a>  <code>#14430</code> · updated: 2025-12-16 · created: 2025-11-25  
-  labels: good first issue, 📍 Assigned, component: citation-relations
+- <a href="https://github.com/JabRef/jabref/issues/14660">Typing in identifier field should change type</a>  <code>#14660</code> · updated: 2025-12-19 · created: 2025-12-18  
+  labels: component: ui, good first issue, 📍 Assigned
+- <a href="https://github.com/JabRef/jabref/issues/14641">Scope &quot;Chat with groups&quot; to library</a>  <code>#14641</code> · updated: 2025-12-19 · created: 2025-12-17  
+  labels: good first issue, component: ai
+- <a href="https://github.com/JabRef/jabref/issues/14646">Add step-by-step-guide to add multiple PDF to Chocolate.bib</a>  <code>#14646</code> · updated: 2025-12-19 · created: 2025-12-17  
+  labels: good first issue, 📍 Assigned, 📌 Pinned
+- <a href="https://github.com/JabRef/jabref/issues/14654">Restart-required dialog message is mixed Chinese/English after switching to zh_CN</a>  <code>#14654</code> · updated: 2025-12-19 · created: 2025-12-18  
+  labels: good first issue
+- <a href="https://github.com/JabRef/jabref/issues/14658">Add &quot;Import from Citavi&quot; to Welcome Tab</a>  <code>#14658</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: component: import-load, good first issue, 📍 Assigned, component: welcome-tab
+- <a href="https://github.com/JabRef/jabref/issues/14657">Add &quot;Import...&quot; to Welcome Tab</a>  <code>#14657</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, 📍 Assigned, component: welcome-tab
+- <a href="https://github.com/JabRef/jabref/issues/14640">Disable Export button if no AI Chat is there</a>  <code>#14640</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: good first issue
+- <a href="https://github.com/JabRef/jabref/issues/14659">Addd `findInText` for ArXivIdentifier</a>  <code>#14659</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue
+- <a href="https://github.com/JabRef/jabref/issues/14656">Howto for emacs LSP use</a>  <code>#14656</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: platform: linux, good first issue
+- <a href="https://github.com/JabRef/jabref/issues/14084">Keep group focussed after clear search</a>  <code>#14084</code> · updated: 2025-12-18 · created: 2025-10-13  
+  labels: component: groups, good first issue
+- <a href="https://github.com/JabRef/jabref/issues/14281">CAYW popup style broken</a>  <code>#14281</code> · updated: 2025-12-18 · created: 2025-11-10  
+  labels: component: ui, good first issue, component: cite-as-you-write
+- <a href="https://github.com/JabRef/jabref/issues/14430">Offer selection of CitationProvider in &quot;Citations&quot; tab</a>  <code>#14430</code> · updated: 2025-12-18 · created: 2025-11-25  
+  labels: good first issue, 📌 Pinned, component: citation-relations
+- <a href="https://github.com/JabRef/jabref/issues/14647">Entries should not be empty when exporting group chat</a>  <code>#14647</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: good first issue, 📌 Pinned
+- <a href="https://github.com/JabRef/jabref/issues/14642">Rename &quot;Waiting ...&quot; to &quot;Summarizing ...&quot;</a>  <code>#14642</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: component: ui, good first issue, 📍 Assigned
+- <a href="https://github.com/JabRef/jabref/issues/14185">Refine &quot;Update with bibliographic information from the web&quot;</a>  <code>#14185</code> · updated: 2025-12-17 · created: 2025-10-26  
+  labels: component: ui, component: fetcher, good first issue, 📍 Assigned, 📌 Pinned
+- <a href="https://github.com/JabRef/jabref/issues/14594">Cleanup of `eprint`</a>  <code>#14594</code> · updated: 2025-12-17 · created: 2025-12-12  
+  labels: good first issue, 📍 Assigned
+- <a href="https://github.com/JabRef/jabref/issues/14352">Add right click option to delete custom bst style for entry preview</a>  <code>#14352</code> · updated: 2025-12-17 · created: 2025-11-18  
+  labels: component: entry-preview, good first issue, 📍 Assigned, 📌 Pinned
+- <a href="https://github.com/JabRef/jabref/issues/14457">Add MonthPlausibilityComparator</a>  <code>#14457</code> · updated: 2025-12-16 · created: 2025-11-28  
+  labels: good first issue, 📍 Assigned, 📌 Pinned
 - <a href="https://github.com/JabRef/jabref/issues/14555">Add eprinttype field to General Entry editor tab</a>  <code>#14555</code> · updated: 2025-12-15 · created: 2025-12-08  
   labels: good first issue, 📍 Assigned, 📌 Pinned
-- <a href="https://github.com/JabRef/jabref/issues/14352">Add right click option to delete custom bst style for entry preview</a>  <code>#14352</code> · updated: 2025-12-15 · created: 2025-11-18  
-  labels: component: entry-preview, good first issue, 📍 Assigned
 - <a href="https://github.com/JabRef/jabref/issues/14410">Enable resetting of PreviewPreferences</a>  <code>#14410</code> · updated: 2025-12-15 · created: 2025-11-23  
   labels: component: preferences, good first issue, 📍 Assigned, 📌 Pinned
-- <a href="https://github.com/JabRef/jabref/issues/14594">Cleanup of `eprint`</a>  <code>#14594</code> · updated: 2025-12-15 · created: 2025-12-12  
-  labels: good first issue, 📍 Assigned
 - <a href="https://github.com/JabRef/jabref/issues/14412">Enable resetting of NameDisplayPreferences</a>  <code>#14412</code> · updated: 2025-12-15 · created: 2025-11-23  
   labels: component: preferences, good first issue, 📍 Assigned
-- <a href="https://github.com/JabRef/jabref/issues/14185">Refine &quot;Update with bibliographic information from the web&quot;</a>  <code>#14185</code> · updated: 2025-12-15 · created: 2025-10-26  
-  labels: component: ui, component: fetcher, good first issue
-- <a href="https://github.com/JabRef/jabref/issues/14457">Add MonthPlausibilityComparator</a>  <code>#14457</code> · updated: 2025-12-15 · created: 2025-11-28  
-  labels: good first issue, 📍 Assigned
-- <a href="https://github.com/JabRef/jabref/issues/14084">Keep group focussed after clear search</a>  <code>#14084</code> · updated: 2025-12-15 · created: 2025-10-13  
-  labels: component: groups, good first issue
 - <a href="https://github.com/JabRef/jabref/issues/14361">Enable parameters for CLI: generate-citation-keys</a>  <code>#14361</code> · updated: 2025-12-15 · created: 2025-11-20  
   labels: component: JabKit [cli], good first issue, 📍 Assigned, 📌 Pinned, 🔔 reminder-sent
-- <a href="https://github.com/JabRef/jabref/issues/14406">Enable resetting of ExternalApplicationsPreferences</a>  <code>#14406</code> · updated: 2025-12-15 · created: 2025-11-23  
-  labels: component: preferences, good first issue, 📌 Pinned
 - <a href="https://github.com/JabRef/jabref/issues/14556">Fix UI for configuring custom URLs</a>  <code>#14556</code> · updated: 2025-12-14 · created: 2025-12-08  
-  labels: component: preferences, good first issue, 📍 Assigned, 📌 Pinned
-- <a href="https://github.com/JabRef/jabref/issues/14402">Enable resetting of MergeDialogPreferences</a>  <code>#14402</code> · updated: 2025-12-14 · created: 2025-11-23  
   labels: component: preferences, good first issue, 📍 Assigned, 📌 Pinned
 - <a href="https://github.com/JabRef/jabref/issues/14415">Enable resetting of CopyToPreferences</a>  <code>#14415</code> · updated: 2025-12-14 · created: 2025-11-23  
   labels: component: preferences, good first issue, 📍 Assigned, 📌 Pinned
@@ -5541,8 +5525,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: component: preferences, good first issue, 📍 Assigned, 📌 Pinned, 🔔 reminder-sent
 - <a href="https://github.com/JabRef/jabref/issues/14513">Shift+Tab on first field of entry editor should focus last field of previous tab</a>  <code>#14513</code> · updated: 2025-12-12 · created: 2025-12-04  
   labels: component: entry-editor, good first issue, 📍 Assigned
-- <a href="https://github.com/JabRef/jabref/issues/14281">CAYW popup style broken</a>  <code>#14281</code> · updated: 2025-12-11 · created: 2025-11-10  
-  labels: component: ui, good first issue, 📍 Assigned, 🔔 reminder-sent, component: cite-as-you-write
 - <a href="https://github.com/JabRef/jabref/issues/14016">Rewrite `org.jabref.logic.importer.fetcher.CustomizableKeyFetcher#getTestUrl` to be a pattern</a>  <code>#14016</code> · updated: 2025-12-08 · created: 2025-10-02  
   labels: good first issue, 📍 Assigned, 📌 Pinned, size: medium
 - <a href="https://github.com/JabRef/jabref/issues/14403">Enable resetting of AutoCompletePreferences</a>  <code>#14403</code> · updated: 2025-12-08 · created: 2025-11-23  
@@ -5552,19 +5534,27 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/JabRef/jabref/issues/14117">Pseudonymize groups</a>  <code>#14117</code> · updated: 2025-11-23 · created: 2025-10-19  
   labels: component: groups, component: JabKit [cli], good first issue, 📍 Assigned, 📌 Pinned
 
-## trifectatechfoundation/sudo-rs  ⭐ 4131
-[Repository](https://github.com/trifectatechfoundation/sudo-rs)
+## AyuGram/AyuGramDesktop  ⭐ 4140
+[Repository](https://github.com/AyuGram/AyuGramDesktop)
 
-- <a href="https://github.com/trifectatechfoundation/sudo-rs/issues/1375">Check that we never panic in the test framework</a>  <code>#1375</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: enhancement, good first issue, test-framework
-- <a href="https://github.com/trifectatechfoundation/sudo-rs/issues/1358">visudo: does not allow checking sudoers file from stdin</a>  <code>#1358</code> · updated: 2025-12-02 · created: 2025-11-26  
-  labels: bug, good first issue, C-visudo, ubuntu
-- <a href="https://github.com/trifectatechfoundation/sudo-rs/issues/1335">Login shell does not always preserve target user environment</a>  <code>#1335</code> · updated: 2025-12-01 · created: 2025-11-13  
-  labels: bug, good first issue, C-checker, non-compliant
+- <a href="https://github.com/AyuGram/AyuGramDesktop/issues/173">Ability to search through deleted messages</a>  <code>#173</code> · updated: 2025-10-08 · created: 2025-09-27  
+  labels: enhancement, good first issue
 
-## code-charity/youtube  ⭐ 4127
+## code-charity/youtube  ⭐ 4138
 [Repository](https://github.com/code-charity/youtube)
 
+- <a href="https://github.com/code-charity/youtube/issues/3477">🐞 Setting  &quot;Show video remaining duration&quot; TRUE causes the video timer to disappear completely.</a>  <code>#3477</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: Bug, help wanted, good first issue, up-for-grabs
+- <a href="https://github.com/code-charity/youtube/issues/3478">Hover-to-Switch YouTube Accounts for Faster Account Access</a>  <code>#3478</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: Feature request, help wanted, good first issue, up-for-grabs
+- <a href="https://github.com/code-charity/youtube/issues/3476">🐞channel options not working</a>  <code>#3476</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: Bug, help wanted, good first issue, up-for-grabs
+- <a href="https://github.com/code-charity/youtube/issues/3427">&quot;Hide Pause Overlay&quot; options</a>  <code>#3427</code> · updated: 2025-12-17 · created: 2025-12-03  
+  labels: help wanted, good first issue, Structures (UX & ORG & Teamwork), Revision / Completion, up-for-grabs
+- <a href="https://github.com/code-charity/youtube/issues/3472">🐞rotate bug</a>  <code>#3472</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: Bug, help wanted, good first issue, up-for-grabs
+- <a href="https://github.com/code-charity/youtube/issues/3469">🐞Fullscreen quality doesn&#x27;t take effect</a>  <code>#3469</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: Bug, Feature request, help wanted, good first issue, up-for-grabs
 - <a href="https://github.com/code-charity/youtube/issues/3467">🐞time is missing</a>  <code>#3467</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: Bug, help wanted, good first issue, up-for-grabs
 - <a href="https://github.com/code-charity/youtube/issues/3448">🐞The custom mini player appears below the recommended videos when you scroll down. FF 146.0 (64-bit)</a>  <code>#3448</code> · updated: 2025-12-15 · created: 2025-12-13  
@@ -5578,8 +5568,6 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/code-charity/youtube/issues/3463">The latest update broke the custom mini player</a>  <code>#3463</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: Bug, Feature request, help wanted, good first issue, up-for-grabs
 - <a href="https://github.com/code-charity/youtube/issues/3460">🐞Playback Speed indicator shows too many digits (&quot;1.1500000000000001x&quot;)</a>  <code>#3460</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: Bug, help wanted, good first issue, up-for-grabs
-- <a href="https://github.com/code-charity/youtube/issues/3427">🐞&quot;Hide Pause Overlay&quot; option does not work</a>  <code>#3427</code> · updated: 2025-12-15 · created: 2025-12-03  
   labels: Bug, help wanted, good first issue, up-for-grabs
 - <a href="https://github.com/code-charity/youtube/issues/3458">🐞Auto Cinema Mode broken</a>  <code>#3458</code> · updated: 2025-12-14 · created: 2025-12-14  
   labels: Bug, help wanted, good first issue, up-for-grabs
@@ -5603,8 +5591,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: Feature request, help wanted, good first issue
 - <a href="https://github.com/code-charity/youtube/issues/3444">🐞</a>  <code>#3444</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: Bug, help wanted, good first issue, up-for-grabs
-- <a href="https://github.com/code-charity/youtube/issues/3379">🐞YT SHorts fuillscreen button missing</a>  <code>#3379</code> · updated: 2025-12-11 · created: 2025-11-18  
-  labels: Feature request, help wanted, good first issue, up-for-grabs
 - <a href="https://github.com/code-charity/youtube/issues/3440">after opening a video thats playing on hover it starts from beginning</a>  <code>#3440</code> · updated: 2025-12-10 · created: 2025-12-10  
   labels: Bug, help wanted, good first issue, up-for-grabs
 - <a href="https://github.com/code-charity/youtube/issues/3301">💡Prevent the &quot;In this video&quot; panel from showing automatically in fullscreen</a>  <code>#3301</code> · updated: 2025-12-09 · created: 2025-10-25  
@@ -5791,53 +5777,57 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: Bug, help wanted, good first issue, up-for-grabs
 - <a href="https://github.com/code-charity/youtube/issues/3189">🐞Firefox Problem</a>  <code>#3189</code> · updated: 2025-09-26 · created: 2025-09-24  
   labels: Bug, help wanted, good first issue, up-for-grabs, Riddle
-- <a href="https://github.com/code-charity/youtube/issues/3175">🐞firefox extension mobile site bug</a>  <code>#3175</code> · updated: 2025-09-23 · created: 2025-09-17  
-  labels: Bug, help wanted, good first issue, Revision / Completion, up-for-grabs
 - <a href="https://github.com/code-charity/youtube/issues/3182">🐞Live chat does not show up as collapsed by default even when the option is selected</a>  <code>#3182</code> · updated: 2025-09-21 · created: 2025-09-21  
   labels: Bug, help wanted, good first issue, up-for-grabs
 - <a href="https://github.com/code-charity/youtube/issues/3179">🐞</a>  <code>#3179</code> · updated: 2025-09-20 · created: 2025-09-20  
   labels: Bug, Feature request, help wanted, good first issue, up-for-grabs
 
-## apache/fory  ⭐ 4121
+## trifectatechfoundation/sudo-rs  ⭐ 4133
+[Repository](https://github.com/trifectatechfoundation/sudo-rs)
+
+- <a href="https://github.com/trifectatechfoundation/sudo-rs/issues/1375">Check that we never panic in the test framework</a>  <code>#1375</code> · updated: 2025-12-08 · created: 2025-12-08  
+  labels: enhancement, good first issue, test-framework
+- <a href="https://github.com/trifectatechfoundation/sudo-rs/issues/1335">Login shell does not always preserve target user environment</a>  <code>#1335</code> · updated: 2025-12-01 · created: 2025-11-13  
+  labels: bug, good first issue, C-checker, non-compliant
+
+## apache/fory  ⭐ 4122
 [Repository](https://github.com/apache/fory)
 
+- <a href="https://github.com/apache/fory/issues/2695">[Java] Abstract class corner cases failing: arrays and enums</a>  <code>#2695</code> · updated: 2025-12-16 · created: 2025-10-03  
+  labels: bug, good first issue, java
 - <a href="https://github.com/apache/fory/issues/2941">[Java] support copy non-serializable objects such as java.lang.Package</a>  <code>#2941</code> · updated: 2025-12-15 · created: 2025-11-27  
   labels: bug, good first issue
 - <a href="https://github.com/apache/fory/issues/2911">[C++] C++ iterator support for object graph serialization</a>  <code>#2911</code> · updated: 2025-11-10 · created: 2025-11-10  
   labels: good first issue, c++
 - <a href="https://github.com/apache/fory/issues/2889">[Rust] Optimize Rust CI execution speed by cache cargo</a>  <code>#2889</code> · updated: 2025-11-04 · created: 2025-11-04  
   labels: good first issue
-- <a href="https://github.com/apache/fory/issues/2695">[Java] Abstract class corner cases failing: arrays and enums</a>  <code>#2695</code> · updated: 2025-10-26 · created: 2025-10-03  
-  labels: bug, good first issue, java
 
-## AyuGram/AyuGramDesktop  ⭐ 4109
-[Repository](https://github.com/AyuGram/AyuGramDesktop)
-
-- <a href="https://github.com/AyuGram/AyuGramDesktop/issues/173">Ability to search through deleted messages</a>  <code>#173</code> · updated: 2025-10-08 · created: 2025-09-27  
-  labels: enhancement, good first issue
-
-## mozilla/uniffi-rs  ⭐ 4096
+## mozilla/uniffi-rs  ⭐ 4104
 [Repository](https://github.com/mozilla/uniffi-rs)
 
 - <a href="https://github.com/mozilla/uniffi-rs/issues/2665">Automatically implement `Lift&lt;UniFfiTag&gt;` for `Box&lt;T&gt;` when deriving uniffi on T</a>  <code>#2665</code> · updated: 2025-09-29 · created: 2025-09-23  
   labels: good first issue
 
-## open-policy-agent/gatekeeper  ⭐ 4091
+## open-policy-agent/gatekeeper  ⭐ 4095
 [Repository](https://github.com/open-policy-agent/gatekeeper)
 
 - <a href="https://github.com/open-policy-agent/gatekeeper/issues/4219">ci: add kube-api-linter to linters</a>  <code>#4219</code> · updated: 2025-11-20 · created: 2025-11-05  
   labels: enhancement, good first issue
 
-## happycola233/tchMaterial-parser  ⭐ 4056
+## happycola233/tchMaterial-parser  ⭐ 4081
 [Repository](https://github.com/happycola233/tchMaterial-parser)
 
 - <a href="https://github.com/happycola233/tchMaterial-parser/issues/50">添加Linux aarch64版本</a>  <code>#50</code> · updated: 2025-11-22 · created: 2025-11-16  
   labels: 新增/enhancement, good first issue, 构建/build
 
-## hyperlight-dev/hyperlight  ⭐ 4050
+## hyperlight-dev/hyperlight  ⭐ 4054
 [Repository](https://github.com/hyperlight-dev/hyperlight)
 
-- <a href="https://github.com/hyperlight-dev/hyperlight/issues/1046">gdb: potential bug due to double address translation</a>  <code>#1046</code> · updated: 2025-12-15 · created: 2025-11-26  
+- <a href="https://github.com/hyperlight-dev/hyperlight/issues/1082">Fuzz on Windows</a>  <code>#1082</code> · updated: 2025-12-17 · created: 2025-12-08  
+  labels: good first issue, lifecycle/confirmed
+- <a href="https://github.com/hyperlight-dev/hyperlight/issues/1076">Make sure guest spans are setup as late as possible to avoid human error</a>  <code>#1076</code> · updated: 2025-12-17 · created: 2025-12-04  
+  labels: good first issue, lifecycle/confirmed
+- <a href="https://github.com/hyperlight-dev/hyperlight/issues/1046">gdb: potential bug due to double address translation</a>  <code>#1046</code> · updated: 2025-12-16 · created: 2025-11-26  
   labels: good first issue, lifecycle/confirmed
 - <a href="https://github.com/hyperlight-dev/hyperlight/issues/1028">Use `tracing` crate instead of `log` to create logs</a>  <code>#1028</code> · updated: 2025-12-08 · created: 2025-11-19  
   labels: good first issue, area/testing, area/infrastructure
@@ -5846,19 +5836,33 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/hyperlight-dev/hyperlight/issues/951">Restructure integration tests</a>  <code>#951</code> · updated: 2025-11-19 · created: 2025-10-10  
   labels: good first issue, lifecycle/confirmed
 
-## apache/dubbo-admin  ⭐ 4042
-[Repository](https://github.com/apache/dubbo-admin)
-
-- <a href="https://github.com/apache/dubbo-admin/issues/1335">[Feature] Support Mysql and Postgres as Store by GORM</a>  <code>#1335</code> · updated: 2025-10-19 · created: 2025-10-16  
-  labels: good first issue, feature
-
-## hpjansson/chafa  ⭐ 3984
+## hpjansson/chafa  ⭐ 4052
 [Repository](https://github.com/hpjansson/chafa)
 
 - <a href="https://github.com/hpjansson/chafa/issues/315">Bash completions</a>  <code>#315</code> · updated: 2025-11-28 · created: 2025-11-28  
   labels: feature, good first issue
 
-## facebookincubator/velox  ⭐ 3983
+## apache/dubbo-admin  ⭐ 4039
+[Repository](https://github.com/apache/dubbo-admin)
+
+- <a href="https://github.com/apache/dubbo-admin/issues/1335">[Feature] Support Mysql and Postgres as Store by GORM</a>  <code>#1335</code> · updated: 2025-10-19 · created: 2025-10-16  
+  labels: good first issue, feature
+
+## cocoindex-io/cocoindex  ⭐ 4004
+[Repository](https://github.com/cocoindex-io/cocoindex)
+
+- <a href="https://github.com/cocoindex-io/cocoindex/issues/1054">[FEATURE] support `VectorIndexMethod` in LanceDB</a>  <code>#1054</code> · updated: 2025-12-07 · created: 2025-09-26  
+  labels: good first issue, help wanted, integration, hacktoberfest
+- <a href="https://github.com/cocoindex-io/cocoindex/issues/1344">[Documentation] Clarify Query Support location and `transform_flow`</a>  <code>#1344</code> · updated: 2025-12-01 · created: 2025-11-30  
+  labels: documentation, enhancement, good first issue, help wanted
+- <a href="https://github.com/cocoindex-io/cocoindex/issues/1052">[FEATURE] support `VectorIndexMethod` in qdrant</a>  <code>#1052</code> · updated: 2025-11-06 · created: 2025-09-26  
+  labels: good first issue, help wanted, integration, hacktoberfest
+- <a href="https://github.com/cocoindex-io/cocoindex/issues/1083">[REFACTOR] type annotation -&gt; CocoIndex type encoding logic in Python SDK should return strong-typed schema class</a>  <code>#1083</code> · updated: 2025-11-03 · created: 2025-10-01  
+  labels: good first issue, help wanted, python-sdk, hacktoberfest
+- <a href="https://github.com/cocoindex-io/cocoindex/issues/1077">Missing hover, focus, and active states on button elements across documentation</a>  <code>#1077</code> · updated: 2025-11-03 · created: 2025-10-01  
+  labels: good first issue, help wanted
+
+## facebookincubator/velox  ⭐ 3989
 [Repository](https://github.com/facebookincubator/velox)
 
 - <a href="https://github.com/facebookincubator/velox/issues/14939">Add support for TIME and TIME WITH TIMEZONE types to Presto functions</a>  <code>#14939</code> · updated: 2025-12-09 · created: 2025-09-24  
@@ -5867,12 +5871,8 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: enhancement, good first issue
 - <a href="https://github.com/facebookincubator/velox/issues/15426">Expression to subfield filter code doesn&#x27;t work in many cases</a>  <code>#15426</code> · updated: 2025-11-06 · created: 2025-11-06  
   labels: bug, good first issue, triage
-- <a href="https://github.com/facebookincubator/velox/issues/14914">Add MemoryPool to SimpleFunction</a>  <code>#14914</code> · updated: 2025-10-06 · created: 2025-09-19  
-  labels: enhancement, good first issue
-- <a href="https://github.com/facebookincubator/velox/issues/14895">Aggregations over sorted unique values are not supported yet</a>  <code>#14895</code> · updated: 2025-09-18 · created: 2025-09-18  
-  labels: bug, good first issue, triage
 
-## f3d-app/f3d  ⭐ 3941
+## f3d-app/f3d  ⭐ 3946
 [Repository](https://github.com/f3d-app/f3d)
 
 - <a href="https://github.com/f3d-app/f3d/issues/2697">Add a bind to control backface culling</a>  <code>#2697</code> · updated: 2025-12-15 · created: 2025-12-06  
@@ -5880,19 +5880,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/f3d-app/f3d/issues/2635">Grid and Axis Colour Synchronisation</a>  <code>#2635</code> · updated: 2025-12-11 · created: 2025-11-16  
   labels: good first issue, source:libf3d, help wanted
 
-## camunda/camunda  ⭐ 3933
+## camunda/camunda  ⭐ 3940
 [Repository](https://github.com/camunda/camunda)
 
-- <a href="https://github.com/camunda/camunda/issues/41385">Convert Schema Guidelines to internal docs</a>  <code>#41385</code> · updated: 2025-12-15 · created: 2025-11-24  
+- <a href="https://github.com/camunda/camunda/issues/42733">Deployment crashes with NullPointerException if BPMN sequenceFlow targetRef is missing</a>  <code>#42733</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: kind/bug, good first issue, severity/low, component/engine, likelihood/mid, component/zeebe, affects/8.9
+- <a href="https://github.com/camunda/camunda/issues/42907">Deployment crashes with NullPointerException if BPMN BoundaryEvent attachedTo is missing or invalid</a>  <code>#42907</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: kind/bug, good first issue, severity/low, component/engine, likelihood/mid, component/zeebe, affects/8.8
+- <a href="https://github.com/camunda/camunda/issues/41385">Convert Schema Guidelines to internal docs</a>  <code>#41385</code> · updated: 2025-12-18 · created: 2025-11-24  
   labels: good first issue, kind/task, affects/8.8, component/data-layer
+- <a href="https://github.com/camunda/camunda/issues/42697">io.camunda.operate.ProbesTestIT.testIsNotReady is failing</a>  <code>#42697</code> · updated: 2025-12-16 · created: 2025-12-15  
+  labels: good first issue, affects/8.8, kind/failing-test, component/data-layer
 - <a href="https://github.com/camunda/camunda/issues/41732">Use instancio to create fake instances instead of mocking</a>  <code>#41732</code> · updated: 2025-12-15 · created: 2025-11-28  
   labels: good first issue, kind/tech-debt, component/zeebe
-- <a href="https://github.com/camunda/camunda/issues/39653">Operate importer sets wrong process instance treePath</a>  <code>#39653</code> · updated: 2025-12-05 · created: 2025-10-16  
-  labels: kind/bug, good first issue, severity/mid, likelihood/low, affects/8.6, affects/8.7, affects/8.8, component/data-layer, affects/8.9
-- <a href="https://github.com/camunda/camunda/issues/39202">Lower severity for incident update task</a>  <code>#39202</code> · updated: 2025-12-01 · created: 2025-10-06  
-  labels: good first issue, kind/task, component/data-layer
-- <a href="https://github.com/camunda/camunda/issues/41151">Add ES/OS and RDBMS exporter handlers for incident resolution operations</a>  <code>#41151</code> · updated: 2025-12-01 · created: 2025-11-18  
-  labels: good first issue, kind/task, component/data-layer
 - <a href="https://github.com/camunda/camunda/issues/41307">Introduction of a cache registry</a>  <code>#41307</code> · updated: 2025-11-20 · created: 2025-11-20  
   labels: good first issue, kind/tech-debt, component/data-layer
 - <a href="https://github.com/camunda/camunda/issues/40846">CI: Current version in development produces a versioned snapshot image as well</a>  <code>#40846</code> · updated: 2025-11-12 · created: 2025-11-12  
@@ -5912,29 +5912,43 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/camunda/camunda/issues/39685">[Java client] Deploy an arbitrary list of resources</a>  <code>#39685</code> · updated: 2025-10-17 · created: 2025-10-17  
   labels: scope/clients-java, good first issue, component/clients, kind/feature-request
 
-## electricitymaps/electricitymaps-contrib  ⭐ 3918
-[Repository](https://github.com/electricitymaps/electricitymaps-contrib)
-
-- <a href="https://github.com/electricitymaps/electricitymaps-contrib/issues/8415">Update OPENNEM parser to v4</a>  <code>#8415</code> · updated: 2025-12-10 · created: 2025-10-02  
-  labels: parser, good first issue
-
-## kumahq/kuma  ⭐ 3918
+## kumahq/kuma  ⭐ 3921
 [Repository](https://github.com/kumahq/kuma)
 
 - <a href="https://github.com/kumahq/kuma/issues/14788">Enable HTTP/2 between proxies even when the service protocol is HTTP/1.1</a>  <code>#14788</code> · updated: 2025-10-29 · created: 2025-10-28  
   labels: good first issue, triage/accepted, kind/improvement
 
-## pypi/warehouse  ⭐ 3904
+## electricitymaps/electricitymaps-contrib  ⭐ 3919
+[Repository](https://github.com/electricitymaps/electricitymaps-contrib)
+
+- <a href="https://github.com/electricitymaps/electricitymaps-contrib/issues/8415">Update OPENNEM parser to v4</a>  <code>#8415</code> · updated: 2025-12-16 · created: 2025-10-02  
+  labels: parser, good first issue
+
+## pypi/warehouse  ⭐ 3908
 [Repository](https://github.com/pypi/warehouse)
 
 - <a href="https://github.com/pypi/warehouse/issues/19032">[FR] Link inspector from the `File details` view</a>  <code>#19032</code> · updated: 2025-12-12 · created: 2025-11-11  
   labels: good first issue, UX/UI, usability, HTML, feature request, requires triaging, metadata
 
-## tonybaloney/vscode-pets  ⭐ 3866
+## p2r3/bareiron  ⭐ 3887
+[Repository](https://github.com/p2r3/bareiron)
+
+- <a href="https://github.com/p2r3/bareiron/issues/166">Feature request: Add critical hits</a>  <code>#166</code> · updated: 2025-12-18 · created: 2025-10-31  
+  labels: feature request, good first issue
+- <a href="https://github.com/p2r3/bareiron/issues/167">Feature request: Add entity identifier enums to constants</a>  <code>#167</code> · updated: 2025-12-18 · created: 2025-10-31  
+  labels: feature request, good first issue
+
+## tonybaloney/vscode-pets  ⭐ 3879
 [Repository](https://github.com/tonybaloney/vscode-pets)
 
 - <a href="https://github.com/tonybaloney/vscode-pets/issues/791">Add a pumpkin pet</a>  <code>#791</code> · updated: 2025-10-01 · created: 2025-10-01  
   labels: good first issue, hacktoberfest, feature
+
+## pydantic/logfire  ⭐ 3861
+[Repository](https://github.com/pydantic/logfire)
+
+- <a href="https://github.com/pydantic/logfire/issues/1515">Don&#x27;t record pydantic-ai CallDeferred exception or set level to error</a>  <code>#1515</code> · updated: 2025-11-05 · created: 2025-11-05  
+  labels: good first issue
 
 ## ethereum/consensus-specs  ⭐ 3857
 [Repository](https://github.com/ethereum/consensus-specs)
@@ -5944,47 +5958,57 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/ethereum/consensus-specs/issues/4639">Make reftest generation reproducible</a>  <code>#4639</code> · updated: 2025-10-07 · created: 2025-10-06  
   labels: good first issue
 
-## pydantic/logfire  ⭐ 3851
-[Repository](https://github.com/pydantic/logfire)
-
-- <a href="https://github.com/pydantic/logfire/issues/1515">Don&#x27;t record pydantic-ai CallDeferred exception or set level to error</a>  <code>#1515</code> · updated: 2025-11-05 · created: 2025-11-05  
-  labels: good first issue
-
-## wal-g/wal-g  ⭐ 3820
+## wal-g/wal-g  ⭐ 3823
 [Repository](https://github.com/wal-g/wal-g)
 
 - <a href="https://github.com/wal-g/wal-g/issues/2120">[FEATURE] Refactor prepare_config.sh</a>  <code>#2120</code> · updated: 2025-11-28 · created: 2025-11-27  
   labels: enhancement, good first issue
-- <a href="https://github.com/wal-g/wal-g/issues/2065">[BUG] mysql-bin/binlog created in tmp after running binlog-find</a>  <code>#2065</code> · updated: 2025-10-08 · created: 2025-09-17  
-  labels: bug, mysql, good first issue
 
-## release-drafter/release-drafter  ⭐ 3799
-[Repository](https://github.com/release-drafter/release-drafter)
-
-- <a href="https://github.com/release-drafter/release-drafter/issues/1469">Better error handling - action step does not fail despite error</a>  <code>#1469</code> · updated: 2025-12-09 · created: 2025-12-09  
-  labels: type: bug, good first issue
-
-## eunomia-bpf/bpf-developer-tutorial  ⭐ 3793
+## eunomia-bpf/bpf-developer-tutorial  ⭐ 3801
 [Repository](https://github.com/eunomia-bpf/bpf-developer-tutorial)
 
 - <a href="https://github.com/eunomia-bpf/bpf-developer-tutorial/issues/185">What is the &quot;current task&quot; in `sched_wakeup` and `sched_switch` context?</a>  <code>#185</code> · updated: 2025-11-13 · created: 2025-10-16  
   labels: good first issue, help wanted
 
-## cocoindex-io/cocoindex  ⭐ 3783
-[Repository](https://github.com/cocoindex-io/cocoindex)
+## release-drafter/release-drafter  ⭐ 3798
+[Repository](https://github.com/release-drafter/release-drafter)
 
-- <a href="https://github.com/cocoindex-io/cocoindex/issues/1054">[FEATURE] support `VectorIndexMethod` in LanceDB</a>  <code>#1054</code> · updated: 2025-12-07 · created: 2025-09-26  
-  labels: good first issue, help wanted, integration, hacktoberfest
-- <a href="https://github.com/cocoindex-io/cocoindex/issues/1344">[Documentation] Clarify Query Support location and `transform_flow`</a>  <code>#1344</code> · updated: 2025-12-01 · created: 2025-11-30  
-  labels: documentation, enhancement, good first issue, help wanted
-- <a href="https://github.com/cocoindex-io/cocoindex/issues/1052">[FEATURE] support `VectorIndexMethod` in qdrant</a>  <code>#1052</code> · updated: 2025-11-06 · created: 2025-09-26  
-  labels: good first issue, help wanted, integration, hacktoberfest
-- <a href="https://github.com/cocoindex-io/cocoindex/issues/1083">[REFACTOR] type annotation -&gt; CocoIndex type encoding logic in Python SDK should return strong-typed schema class</a>  <code>#1083</code> · updated: 2025-11-03 · created: 2025-10-01  
-  labels: good first issue, help wanted, python-sdk, hacktoberfest
-- <a href="https://github.com/cocoindex-io/cocoindex/issues/1077">Missing hover, focus, and active states on button elements across documentation</a>  <code>#1077</code> · updated: 2025-11-03 · created: 2025-10-01  
-  labels: good first issue, help wanted
+- <a href="https://github.com/release-drafter/release-drafter/issues/1469">Better error handling - action step does not fail despite error</a>  <code>#1469</code> · updated: 2025-12-09 · created: 2025-12-09  
+  labels: type: bug, good first issue
 
-## sorbet/sorbet  ⭐ 3744
+## KaijuEngine/kaiju  ⭐ 3752
+[Repository](https://github.com/KaijuEngine/kaiju)
+
+- <a href="https://github.com/KaijuEngine/kaiju/issues/537">Persist Editor/Project Settings</a>  <code>#537</code> · updated: 2025-12-17 · created: 2025-12-14  
+  labels: good first issue, editor
+- <a href="https://github.com/KaijuEngine/kaiju/issues/529">Add ability to disable entity data in editor</a>  <code>#529</code> · updated: 2025-12-16 · created: 2025-12-12  
+  labels: good first issue, editor, good first issue (experienced)
+- <a href="https://github.com/KaijuEngine/kaiju/issues/528">Add &quot;X&quot; (delete) button for entity data binding</a>  <code>#528</code> · updated: 2025-12-14 · created: 2025-12-12  
+  labels: good first issue, editor, good first issue (experienced)
+- <a href="https://github.com/KaijuEngine/kaiju/issues/535">Wayland port of the X11 code</a>  <code>#535</code> · updated: 2025-12-14 · created: 2025-12-13  
+  labels: good first issue, engine runtime, linux, good first issue (experienced)
+- <a href="https://github.com/KaijuEngine/kaiju/issues/527">Adding data bindings to entities should be part of the editor history</a>  <code>#527</code> · updated: 2025-12-14 · created: 2025-12-12  
+  labels: good first issue, editor, good first issue (experienced)
+- <a href="https://github.com/KaijuEngine/kaiju/issues/456">Add right-click on status bar &quot;open log in text editor&quot;</a>  <code>#456</code> · updated: 2025-12-12 · created: 2025-11-27  
+  labels: good first issue, editor
+- <a href="https://github.com/KaijuEngine/kaiju/issues/477">Clean up Lua warning</a>  <code>#477</code> · updated: 2025-12-11 · created: 2025-12-05  
+  labels: good first issue, engine runtime, linux
+- <a href="https://github.com/KaijuEngine/kaiju/issues/455">Add right-click copy of an entry in the log</a>  <code>#455</code> · updated: 2025-12-11 · created: 2025-11-27  
+  labels: good first issue, editor
+- <a href="https://github.com/KaijuEngine/kaiju/issues/492">Add press-and-hold down on delete key in input box to repeat delete characters</a>  <code>#492</code> · updated: 2025-12-11 · created: 2025-12-09  
+  labels: good first issue, engine runtime
+
+## ros-navigation/navigation2  ⭐ 3749
+[Repository](https://github.com/ros-navigation/navigation2)
+
+- <a href="https://github.com/ros-navigation/navigation2/issues/5790">MPPI: Reject re-configuring kinematic params parameters when a speed limit is active </a>  <code>#5790</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: enhancement, help wanted, good first issue
+- <a href="https://github.com/ros-navigation/navigation2/issues/5696">Inconsistent plugin naming</a>  <code>#5696</code> · updated: 2025-11-27 · created: 2025-11-20  
+  labels: good first issue
+- <a href="https://github.com/ros-navigation/navigation2/issues/5626">backward motion at begining of the path(maybe a bug)  generated by nav2_smac_planner (hybrid a star)</a>  <code>#5626</code> · updated: 2025-11-06 · created: 2025-10-20  
+  labels: bug, good first issue
+
+## sorbet/sorbet  ⭐ 3746
 [Repository](https://github.com/sorbet/sorbet)
 
 - <a href="https://github.com/sorbet/sorbet/issues/9663">&quot;Generic class without type arguments&quot; autocorrect fully-qualifies the reference</a>  <code>#9663</code> · updated: 2025-11-19 · created: 2025-11-19  
@@ -6002,31 +6026,23 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/sorbet/sorbet/issues/9415">Hover shows declared type, not inferred type, for instance variable</a>  <code>#9415</code> · updated: 2025-10-06 · created: 2025-10-01  
   labels: bug, good first issue, IDE
 
-## ros-navigation/navigation2  ⭐ 3732
-[Repository](https://github.com/ros-navigation/navigation2)
-
-- <a href="https://github.com/ros-navigation/navigation2/issues/5696">Inconsistent plugin naming</a>  <code>#5696</code> · updated: 2025-11-27 · created: 2025-11-20  
-  labels: good first issue
-- <a href="https://github.com/ros-navigation/navigation2/issues/5536">Integration of Depth Anything V2 with costmap layers</a>  <code>#5536</code> · updated: 2025-11-19 · created: 2025-09-18  
-  labels: enhancement, good first issue
-- <a href="https://github.com/ros-navigation/navigation2/issues/5626">backward motion at begining of the path(maybe a bug)  generated by nav2_smac_planner (hybrid a star)</a>  <code>#5626</code> · updated: 2025-11-06 · created: 2025-10-20  
-  labels: bug, good first issue
-
-## swiftlang/sourcekit-lsp  ⭐ 3690
-[Repository](https://github.com/swiftlang/sourcekit-lsp)
-
-- <a href="https://github.com/swiftlang/sourcekit-lsp/issues/2368">Do not offer jump-to-definition for literals</a>  <code>#2368</code> · updated: 2025-12-06 · created: 2025-11-24  
-  labels: enhancement, good first issue
-
-## pytorch/executorch  ⭐ 3687
+## pytorch/executorch  ⭐ 3736
 [Repository](https://github.com/pytorch/executorch)
 
 - <a href="https://github.com/pytorch/executorch/issues/15960">Add warning when users use to_edge instead of to_edge_transform_and_lower with CoreML</a>  <code>#15960</code> · updated: 2025-11-24 · created: 2025-11-24  
   labels: good first issue
 
-## cartography-cncf/cartography  ⭐ 3655
+## swiftlang/sourcekit-lsp  ⭐ 3692
+[Repository](https://github.com/swiftlang/sourcekit-lsp)
+
+- <a href="https://github.com/swiftlang/sourcekit-lsp/issues/2368">Do not offer jump-to-definition for literals</a>  <code>#2368</code> · updated: 2025-12-06 · created: 2025-11-24  
+  labels: enhancement, good first issue
+
+## cartography-cncf/cartography  ⭐ 3657
 [Repository](https://github.com/cartography-cncf/cartography)
 
+- <a href="https://github.com/cartography-cncf/cartography/issues/2153">GCP tests use inconsistent project identifiers across test data files</a>  <code>#2153</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: bug, good first issue, maintenance, module:GCP
 - <a href="https://github.com/cartography-cncf/cartography/issues/2121">[Feature] Ingest GitHub secrets and workflows</a>  <code>#2121</code> · updated: 2025-12-08 · created: 2025-12-08  
   labels: good first issue, data-addition, module:GitHub
 - <a href="https://github.com/cartography-cncf/cartography/issues/2086">[Feature] Ingest Okta Devices from the Management API</a>  <code>#2086</code> · updated: 2025-11-24 · created: 2025-11-24  
@@ -6038,37 +6054,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/cartography-cncf/cartography/issues/1978">Support configuring `max_connection_idle_time` in Neo4j driver</a>  <code>#1978</code> · updated: 2025-11-06 · created: 2025-10-07  
   labels: good first issue
 
-## KaijuEngine/kaiju  ⭐ 3636
-[Repository](https://github.com/KaijuEngine/kaiju)
+## EFForg/rayhunter  ⭐ 3643
+[Repository](https://github.com/EFForg/rayhunter)
 
-- <a href="https://github.com/KaijuEngine/kaiju/issues/537">Persist Editor/Project Settings</a>  <code>#537</code> · updated: 2025-12-16 · created: 2025-12-14  
-  labels: good first issue, editor
-- <a href="https://github.com/KaijuEngine/kaiju/issues/528">Add &quot;X&quot; (delete) button for entity data binding</a>  <code>#528</code> · updated: 2025-12-14 · created: 2025-12-12  
-  labels: good first issue, editor, good first issue (experienced)
-- <a href="https://github.com/KaijuEngine/kaiju/issues/535">Wayland port of the X11 code</a>  <code>#535</code> · updated: 2025-12-14 · created: 2025-12-13  
-  labels: good first issue, engine runtime, linux, good first issue (experienced)
-- <a href="https://github.com/KaijuEngine/kaiju/issues/527">Adding data bindings to entities should be part of the editor history</a>  <code>#527</code> · updated: 2025-12-14 · created: 2025-12-12  
-  labels: good first issue, editor, good first issue (experienced)
-- <a href="https://github.com/KaijuEngine/kaiju/issues/529">Add ability to disable entity data in editor</a>  <code>#529</code> · updated: 2025-12-12 · created: 2025-12-12  
-  labels: good first issue, editor, good first issue (experienced)
-- <a href="https://github.com/KaijuEngine/kaiju/issues/456">Add right-click on status bar &quot;open log in text editor&quot;</a>  <code>#456</code> · updated: 2025-12-12 · created: 2025-11-27  
-  labels: good first issue, editor
-- <a href="https://github.com/KaijuEngine/kaiju/issues/477">Clean up Lua warning</a>  <code>#477</code> · updated: 2025-12-11 · created: 2025-12-05  
-  labels: good first issue, engine runtime, linux
-- <a href="https://github.com/KaijuEngine/kaiju/issues/455">Add right-click copy of an entry in the log</a>  <code>#455</code> · updated: 2025-12-11 · created: 2025-11-27  
-  labels: good first issue, editor
-- <a href="https://github.com/KaijuEngine/kaiju/issues/488">Real strategy for pre-built binary deployment</a>  <code>#488</code> · updated: 2025-12-11 · created: 2025-12-08  
-  labels: good first issue
-- <a href="https://github.com/KaijuEngine/kaiju/issues/492">Add press-and-hold down on delete key in input box to repeat delete characters</a>  <code>#492</code> · updated: 2025-12-11 · created: 2025-12-09  
-  labels: good first issue, engine runtime
+- <a href="https://github.com/EFForg/rayhunter/issues/644">Lower log level for battery info errors</a>  <code>#644</code> · updated: 2025-10-16 · created: 2025-10-11  
+  labels: bug, good first issue, help wanted, ui
 
-## koxudaxi/datamodel-code-generator  ⭐ 3629
+## koxudaxi/datamodel-code-generator  ⭐ 3637
 [Repository](https://github.com/koxudaxi/datamodel-code-generator)
 
 - <a href="https://github.com/koxudaxi/datamodel-code-generator/issues/2543">Generate &quot;deprecated&quot; notations for JSON schemas and dataclass output</a>  <code>#2543</code> · updated: 2025-11-18 · created: 2025-11-18  
   labels: enhancement, good first issue
 
-## RunanywhereAI/runanywhere-sdks  ⭐ 3627
+## MoonshotAI/kimi-cli  ⭐ 3635
+[Repository](https://github.com/MoonshotAI/kimi-cli)
+
+- <a href="https://github.com/MoonshotAI/kimi-cli/issues/416">项目中部分文件无法被 @ 访问 || Some files in the project cannot be accessed by @</a>  <code>#416</code> · updated: 2025-12-13 · created: 2025-12-03  
+  labels: bug, good first issue
+
+## RunanywhereAI/runanywhere-sdks  ⭐ 3624
 [Repository](https://github.com/RunanywhereAI/runanywhere-sdks)
 
 - <a href="https://github.com/RunanywhereAI/runanywhere-sdks/issues/100">🧹 Remove unused parameters from iOS GenerationOptions (topP, enableRealTimeTracking)</a>  <code>#100</code> · updated: 2025-10-07 · created: 2025-10-07  
@@ -6082,59 +6086,71 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/RunanywhereAI/runanywhere-sdks/issues/75">Integrate FluidAudio Model Downloads into SDK Model Management</a>  <code>#75</code> · updated: 2025-10-06 · created: 2025-10-06  
   labels: enhancement, good first issue, ios-sdk, P2
 
-## EFForg/rayhunter  ⭐ 3626
-[Repository](https://github.com/EFForg/rayhunter)
+## apache/iggy  ⭐ 3609
+[Repository](https://github.com/apache/iggy)
 
-- <a href="https://github.com/EFForg/rayhunter/issues/644">Lower log level for battery info errors</a>  <code>#644</code> · updated: 2025-10-16 · created: 2025-10-11  
-  labels: bug, good first issue, help wanted, ui
+- <a href="https://github.com/apache/iggy/issues/2473">Implement BDD cucumber tests for Java SDK</a>  <code>#2473</code> · updated: 2025-12-11 · created: 2025-12-11  
+  labels: good first issue, test, java
+- <a href="https://github.com/apache/iggy/issues/2417">Connectors Runtime - restart connector with new configuration without restarting the whole runtime</a>  <code>#2417</code> · updated: 2025-12-05 · created: 2025-11-28  
+  labels: good first issue, new functionality, connectors
 
-## MoonshotAI/kimi-cli  ⭐ 3598
-[Repository](https://github.com/MoonshotAI/kimi-cli)
-
-- <a href="https://github.com/MoonshotAI/kimi-cli/issues/416">项目中部分文件无法被 @ 访问 || Some files in the project cannot be accessed by @</a>  <code>#416</code> · updated: 2025-12-13 · created: 2025-12-03  
-  labels: bug, good first issue
-
-## microsoft/kiota  ⭐ 3590
+## microsoft/kiota  ⭐ 3591
 [Repository](https://github.com/microsoft/kiota)
 
 - <a href="https://github.com/microsoft/kiota/issues/7014">Stacktrace on exceptions</a>  <code>#7014</code> · updated: 2025-10-23 · created: 2025-10-14  
   labels: good first issue, generator, type:task
 
-## linebender/vello  ⭐ 3580
-[Repository](https://github.com/linebender/vello)
-
-- <a href="https://github.com/linebender/vello/issues/1230">Improve Vello&#x27;s README</a>  <code>#1230</code> · updated: 2025-09-17 · created: 2025-09-17  
-  labels: good first issue, C-classic
-
-## xemu-project/xemu  ⭐ 3573
+## xemu-project/xemu  ⭐ 3576
 [Repository](https://github.com/xemu-project/xemu)
 
 - <a href="https://github.com/xemu-project/xemu/issues/2544">Recent files tab</a>  <code>#2544</code> · updated: 2025-11-19 · created: 2025-11-16  
   labels: enhancement, good first issue
-- <a href="https://github.com/xemu-project/xemu/issues/2441">[Cleanup] Inline trivial C++ methods in header files</a>  <code>#2441</code> · updated: 2025-09-19 · created: 2025-09-19  
-  labels: good first issue
 
-## GSConnect/gnome-shell-extension-gsconnect  ⭐ 3540
+## groupultra/telegram-search  ⭐ 3574
+[Repository](https://github.com/groupultra/telegram-search)
+
+- <a href="https://github.com/groupultra/telegram-search/issues/409">Feature request: monitor mode and better chat listing</a>  <code>#409</code> · updated: 2025-12-12 · created: 2025-10-24  
+  labels: enhancement, good first issue, PR welcome
+
+## anthropics/claude-agent-sdk-python  ⭐ 3567
+[Repository](https://github.com/anthropics/claude-agent-sdk-python)
+
+- <a href="https://github.com/anthropics/claude-agent-sdk-python/issues/360">Include found claude CLI path in unsupported version warning message?</a>  <code>#360</code> · updated: 2025-12-08 · created: 2025-11-23  
+  labels: enhancement, good first issue
+- <a href="https://github.com/anthropics/claude-agent-sdk-python/issues/359">Duplicate warning message for unsupported Claude Code version</a>  <code>#359</code> · updated: 2025-11-23 · created: 2025-11-23  
+  labels: bug, good first issue
+- <a href="https://github.com/anthropics/claude-agent-sdk-python/issues/258">Message models are missing &#x27;timestamp&#x27; field</a>  <code>#258</code> · updated: 2025-10-25 · created: 2025-10-15  
+  labels: enhancement, good first issue
+- <a href="https://github.com/anthropics/claude-agent-sdk-python/issues/203">HookJSONOutput type is not exported in __init__.py</a>  <code>#203</code> · updated: 2025-10-03 · created: 2025-10-03  
+  labels: bug, good first issue
+
+## apache/logging-log4j2  ⭐ 3567
+[Repository](https://github.com/apache/logging-log4j2)
+
+- <a href="https://github.com/apache/logging-log4j2/issues/4007">Gradle: unexpected compiler warning with Log4j `2.25.3`</a>  <code>#4007</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: bug, build, good first issue
+
+## GSConnect/gnome-shell-extension-gsconnect  ⭐ 3545
 [Repository](https://github.com/GSConnect/gnome-shell-extension-gsconnect)
 
 - <a href="https://github.com/GSConnect/gnome-shell-extension-gsconnect/issues/2106">GSConnect is sending requests the paired device can&#x27;t handle (ignoring incomingCapabilities)</a>  <code>#2106</code> · updated: 2025-12-08 · created: 2025-12-08  
   labels: bug, good first issue, protocol
 
-## nextcloud/desktop  ⭐ 3538
-[Repository](https://github.com/nextcloud/desktop)
+## JetBrains/koog  ⭐ 3545
+[Repository](https://github.com/JetBrains/koog)
 
-- <a href="https://github.com/nextcloud/desktop/issues/9198">Sync status overlay for account avatar listing</a>  <code>#9198</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: 1. to develop, good first issue, Prio: normal, feature: :cloud: GUI
-- <a href="https://github.com/nextcloud/desktop/issues/9127">Provide dark app icon for dark themes</a>  <code>#9127</code> · updated: 2025-11-24 · created: 2025-11-24  
-  labels: 1. to develop, good first issue, Prio: normal, os: :apple: macOS, os: :door: Windows, feature: :cloud: GUI
-- <a href="https://github.com/nextcloud/desktop/issues/8936">Request: right click menu in the systray window</a>  <code>#8936</code> · updated: 2025-11-11 · created: 2025-10-23  
-  labels: 1. to develop, good first issue, help wanted
-- <a href="https://github.com/nextcloud/desktop/issues/8970">Open location of synce document</a>  <code>#8970</code> · updated: 2025-10-29 · created: 2025-10-27  
-  labels: good first issue
-- <a href="https://github.com/nextcloud/desktop/issues/8888">[Bug]: Custom Win10 Start Tiles not displaying as expected?</a>  <code>#8888</code> · updated: 2025-10-16 · created: 2025-10-16  
-  labels: 1. to develop, bug, good first issue, Prio: normal, os: :door: Windows
+- <a href="https://github.com/JetBrains/koog/issues/1256">Avoid consuming response body twice in SSE error handling</a>  <code>#1256</code> · updated: 2025-12-11 · created: 2025-12-10  
+  labels: bug, good first issue
 
-## flexprice/flexprice  ⭐ 3537
+## canonical/cloud-init  ⭐ 3540
+[Repository](https://github.com/canonical/cloud-init)
+
+- <a href="https://github.com/canonical/cloud-init/issues/6595">[docs]: fix broken links</a>  <code>#6595</code> · updated: 2025-12-02 · created: 2025-12-01  
+  labels: documentation, good first issue, hacktoberfest
+- <a href="https://github.com/canonical/cloud-init/issues/6594">[enhancement]: adapt linkcheck workflow to automatically run if we are on a documentation-related branch</a>  <code>#6594</code> · updated: 2025-12-01 · created: 2025-12-01  
+  labels: enhancement, good first issue, hacktoberfest
+
+## flexprice/flexprice  ⭐ 3539
 [Repository](https://github.com/flexprice/flexprice)
 
 - <a href="https://github.com/flexprice/flexprice/issues/793">[BUG] Overage calculation for tiered based price is wrong</a>  <code>#793</code> · updated: 2025-12-09 · created: 2025-11-24  
@@ -6161,114 +6177,80 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: bug, good first issue, help wanted, priority:low, hacktoberfest
 - <a href="https://github.com/flexprice/flexprice/issues/584">Events Not Processing - Missing Kafka Topics</a>  <code>#584</code> · updated: 2025-10-05 · created: 2025-09-27  
   labels: bug, good first issue, help wanted, priority:medium, hacktoberfest
-- <a href="https://github.com/flexprice/flexprice/issues/542">Enhance Task &amp; File Processing with Temporal Improvements</a>  <code>#542</code> · updated: 2025-10-04 · created: 2025-09-19  
-  labels: enhancement, good first issue, Work In Progress, go, hacktoberfest
-- <a href="https://github.com/flexprice/flexprice/issues/541">Handle Zero-Charge Subscriptions in Invoicing Cron</a>  <code>#541</code> · updated: 2025-10-04 · created: 2025-09-19  
-  labels: bug, enhancement, good first issue, go, hacktoberfest
 
-## canonical/cloud-init  ⭐ 3536
-[Repository](https://github.com/canonical/cloud-init)
+## nextcloud/desktop  ⭐ 3539
+[Repository](https://github.com/nextcloud/desktop)
 
-- <a href="https://github.com/canonical/cloud-init/issues/6602">Scaleway datasource tries to access missing keys in metadata</a>  <code>#6602</code> · updated: 2025-12-08 · created: 2025-12-07  
-  labels: bug, good first issue, hacktoberfest
-- <a href="https://github.com/canonical/cloud-init/issues/6595">[docs]: fix broken links</a>  <code>#6595</code> · updated: 2025-12-02 · created: 2025-12-01  
-  labels: documentation, good first issue, hacktoberfest
-- <a href="https://github.com/canonical/cloud-init/issues/6594">[enhancement]: adapt linkcheck workflow to automatically run if we are on a documentation-related branch</a>  <code>#6594</code> · updated: 2025-12-01 · created: 2025-12-01  
-  labels: enhancement, good first issue, hacktoberfest
+- <a href="https://github.com/nextcloud/desktop/issues/9198">Sync status overlay for account avatar listing</a>  <code>#9198</code> · updated: 2025-12-08 · created: 2025-12-08  
+  labels: 1. to develop, good first issue, Prio: normal, feature: :cloud: GUI
+- <a href="https://github.com/nextcloud/desktop/issues/9127">Provide dark app icon for dark themes</a>  <code>#9127</code> · updated: 2025-11-24 · created: 2025-11-24  
+  labels: 1. to develop, good first issue, Prio: normal, os: :apple: macOS, os: :door: Windows, feature: :cloud: GUI
+- <a href="https://github.com/nextcloud/desktop/issues/8936">Request: right click menu in the systray window</a>  <code>#8936</code> · updated: 2025-11-11 · created: 2025-10-23  
+  labels: 1. to develop, good first issue, help wanted
+- <a href="https://github.com/nextcloud/desktop/issues/8970">Open location of synce document</a>  <code>#8970</code> · updated: 2025-10-29 · created: 2025-10-27  
+  labels: good first issue
+- <a href="https://github.com/nextcloud/desktop/issues/8888">[Bug]: Custom Win10 Start Tiles not displaying as expected?</a>  <code>#8888</code> · updated: 2025-10-16 · created: 2025-10-16  
+  labels: 1. to develop, bug, good first issue, Prio: normal, os: :door: Windows
 
-## nutsdb/nutsdb  ⭐ 3534
+## Agenta-AI/agenta  ⭐ 3537
+[Repository](https://github.com/Agenta-AI/agenta)
+
+- <a href="https://github.com/Agenta-AI/agenta/issues/3049">[UX] Deleting a trace should load the next trace</a>  <code>#3049</code> · updated: 2025-12-18 · created: 2025-11-26  
+  labels: good first issue, Frontend, UX
+- <a href="https://github.com/Agenta-AI/agenta/issues/3213">Variant state changes to draft with large prompts</a>  <code>#3213</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: bug, good first issue, Frontend, ux bug
+- <a href="https://github.com/Agenta-AI/agenta/issues/3212">[bug] Auto-scroll issue in variant drawer with large prompts</a>  <code>#3212</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: bug, good first issue, Frontend, UI, ux bug
+- <a href="https://github.com/Agenta-AI/agenta/issues/3170">[chore] Add warning when ag.init() is called and API key is not set</a>  <code>#3170</code> · updated: 2025-12-17 · created: 2025-12-14  
+  labels: good first issue, dev experience, SDK, Chore
+- <a href="https://github.com/Agenta-AI/agenta/issues/3171">[chore] Print warning messages when any instrumentation method is called before ag.init()</a>  <code>#3171</code> · updated: 2025-12-14 · created: 2025-12-14  
+  labels: good first issue, dev experience, SDK
+- <a href="https://github.com/Agenta-AI/agenta/issues/2883">[AGE-3376] Fix incorrect height of load application container in evaluator playground</a>  <code>#2883</code> · updated: 2025-12-09 · created: 2025-11-05  
+  labels: bug, good first issue, Frontend, UI
+- <a href="https://github.com/Agenta-AI/agenta/issues/3007">[docs] Create example and write docs for Google ADK integration</a>  <code>#3007</code> · updated: 2025-12-09 · created: 2025-11-19  
+  labels: documentation, good first issue, example, Observability, integration
+- <a href="https://github.com/Agenta-AI/agenta/issues/3113">[docs] Create an observability example with Anthropic/TS</a>  <code>#3113</code> · updated: 2025-12-05 · created: 2025-12-05  
+  labels: documentation, good first issue, example, Observability
+- <a href="https://github.com/Agenta-AI/agenta/issues/2871">[AGE-3362] [bug] Text overlap issue in Playground chat mode UI</a>  <code>#2871</code> · updated: 2025-10-30 · created: 2025-10-30  
+  labels: bug, good first issue, Frontend, UI, Playground
+
+## nutsdb/nutsdb  ⭐ 3536
 [Repository](https://github.com/nutsdb/nutsdb)
 
 - <a href="https://github.com/nutsdb/nutsdb/issues/646">quality: test coverage enrichment</a>  <code>#646</code> · updated: 2025-11-09 · created: 2025-11-09  
   labels: good first issue
 
-## JetBrains/koog  ⭐ 3529
-[Repository](https://github.com/JetBrains/koog)
-
-- <a href="https://github.com/JetBrains/koog/issues/1256">Avoid consuming response body twice in SSE error handling</a>  <code>#1256</code> · updated: 2025-12-11 · created: 2025-12-10  
-  labels: bug, good first issue
-
-## anthropics/claude-agent-sdk-python  ⭐ 3527
-[Repository](https://github.com/anthropics/claude-agent-sdk-python)
-
-- <a href="https://github.com/anthropics/claude-agent-sdk-python/issues/360">Include found claude CLI path in unsupported version warning message?</a>  <code>#360</code> · updated: 2025-12-08 · created: 2025-11-23  
-  labels: enhancement, good first issue
-- <a href="https://github.com/anthropics/claude-agent-sdk-python/issues/359">Duplicate warning message for unsupported Claude Code version</a>  <code>#359</code> · updated: 2025-11-23 · created: 2025-11-23  
-  labels: bug, good first issue
-- <a href="https://github.com/anthropics/claude-agent-sdk-python/issues/258">Message models are missing &#x27;timestamp&#x27; field</a>  <code>#258</code> · updated: 2025-10-25 · created: 2025-10-15  
-  labels: enhancement, good first issue
-- <a href="https://github.com/anthropics/claude-agent-sdk-python/issues/203">HookJSONOutput type is not exported in __init__.py</a>  <code>#203</code> · updated: 2025-10-03 · created: 2025-10-03  
-  labels: bug, good first issue
-
-## dariuszseweryn/RxAndroidBle  ⭐ 3524
+## dariuszseweryn/RxAndroidBle  ⭐ 3526
 [Repository](https://github.com/dariuszseweryn/RxAndroidBle)
 
 - <a href="https://github.com/dariuszseweryn/RxAndroidBle/issues/866">`ScanRecord`’s `List&lt;ParcelUuid&gt; getServiceUuids()` does not have `@Nullable` annotation but both implementations do</a>  <code>#866</code> · updated: 2025-12-06 · created: 2025-12-02  
   labels: enhancement, good first issue
 
-## Agenta-AI/agenta  ⭐ 3523
-[Repository](https://github.com/Agenta-AI/agenta)
-
-- <a href="https://github.com/Agenta-AI/agenta/issues/3171">[chore] Print warning messages when any instrumentation method is called before ag.init()</a>  <code>#3171</code> · updated: 2025-12-14 · created: 2025-12-14  
-  labels: good first issue, dev experience, SDK
-- <a href="https://github.com/Agenta-AI/agenta/issues/3170">[chore] Add warning when ag.init() is called and API key is not set</a>  <code>#3170</code> · updated: 2025-12-14 · created: 2025-12-14  
-  labels: good first issue, dev experience, SDK, Chore
-- <a href="https://github.com/Agenta-AI/agenta/issues/2883">[AGE-3376] Fix incorrect height of load application container in evaluator playground</a>  <code>#2883</code> · updated: 2025-12-09 · created: 2025-11-05  
-  labels: bug, good first issue, Frontend, UI
-- <a href="https://github.com/Agenta-AI/agenta/issues/3007">[docs] Create example and write docs for Google ADK integration</a>  <code>#3007</code> · updated: 2025-12-09 · created: 2025-11-19  
-  labels: documentation, good first issue, example, Observability, integration
-- <a href="https://github.com/Agenta-AI/agenta/issues/3031">Fix UI bug on survey page</a>  <code>#3031</code> · updated: 2025-12-09 · created: 2025-11-21  
-  labels: bug, good first issue, Frontend, UX
-- <a href="https://github.com/Agenta-AI/agenta/issues/3113">[docs] Create an observability example with Anthropic/TS</a>  <code>#3113</code> · updated: 2025-12-05 · created: 2025-12-05  
-  labels: documentation, good first issue, example, Observability
-- <a href="https://github.com/Agenta-AI/agenta/issues/3049">[UX] Deleting a trace should load the next trace</a>  <code>#3049</code> · updated: 2025-11-26 · created: 2025-11-26  
-  labels: good first issue, Frontend, UX
-- <a href="https://github.com/Agenta-AI/agenta/issues/2871">[AGE-3362] [bug] Text overlap issue in Playground chat mode UI</a>  <code>#2871</code> · updated: 2025-10-30 · created: 2025-10-30  
-  labels: bug, good first issue, Frontend, UI, Playground
-
-## jellyfin/Swiftfin  ⭐ 3521
+## jellyfin/Swiftfin  ⭐ 3525
 [Repository](https://github.com/jellyfin/Swiftfin)
 
+- <a href="https://github.com/jellyfin/Swiftfin/issues/1818">Fix the `ListRowMenu` Styling</a>  <code>#1818</code> · updated: 2025-12-17 · created: 2025-11-17  
+  labels: developer, tvOS, good first issue
+- <a href="https://github.com/jellyfin/Swiftfin/issues/1821">Display remaining episodes count for TV shows</a>  <code>#1821</code> · updated: 2025-12-17 · created: 2025-11-17  
+  labels: iOS, tvOS, good first issue
 - <a href="https://github.com/jellyfin/Swiftfin/issues/1856">Focusable &amp; Scrollable ‘LearnMoreModal‘</a>  <code>#1856</code> · updated: 2025-12-16 · created: 2025-12-16  
   labels: tvOS, good first issue
-- <a href="https://github.com/jellyfin/Swiftfin/issues/1846">Customizable Jump Forward/Backwards Durations</a>  <code>#1846</code> · updated: 2025-12-15 · created: 2025-12-10  
-  labels: iOS, tvOS, good first issue
 - <a href="https://github.com/jellyfin/Swiftfin/issues/1851">Toggle to disable recommendation sections</a>  <code>#1851</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: iOS, tvOS, good first issue
-- <a href="https://github.com/jellyfin/Swiftfin/issues/1821">Display remaining episodes count for TV shows</a>  <code>#1821</code> · updated: 2025-11-22 · created: 2025-11-17  
-  labels: iOS, tvOS, good first issue
-- <a href="https://github.com/jellyfin/Swiftfin/issues/1818">Fix the `ListRowMenu` Styling</a>  <code>#1818</code> · updated: 2025-11-17 · created: 2025-11-17  
-  labels: developer, tvOS, good first issue
-- <a href="https://github.com/jellyfin/Swiftfin/issues/1707">Remove MediaSources field from listings</a>  <code>#1707</code> · updated: 2025-11-05 · created: 2025-09-18  
-  labels: developer, iOS, tvOS, good first issue
 
-## Azure/bicep  ⭐ 3519
+## Azure/bicep  ⭐ 3524
 [Repository](https://github.com/Azure/bicep)
 
 - <a href="https://github.com/Azure/bicep/issues/18172">Support standalone authentication for `bicep deploy` without requiring Azure CLI or Azure PowerShell</a>  <code>#18172</code> · updated: 2025-11-05 · created: 2025-10-04  
   labels: enhancement, good first issue, story: bicep deploy, Quality Sprint: Yes
 
-## apache/iggy  ⭐ 3513
-[Repository](https://github.com/apache/iggy)
-
-- <a href="https://github.com/apache/iggy/issues/2473">Implement BDD cucumber tests for Java SDK</a>  <code>#2473</code> · updated: 2025-12-11 · created: 2025-12-11  
-  labels: good first issue, test, java
-- <a href="https://github.com/apache/iggy/issues/2417">Connectors Runtime - restart connector with new configuration without restarting the whole runtime</a>  <code>#2417</code> · updated: 2025-12-05 · created: 2025-11-28  
-  labels: good first issue, new functionality, connectors
-
-## abcz316/SKRoot-linuxKernelRoot  ⭐ 3510
+## abcz316/SKRoot-linuxKernelRoot  ⭐ 3517
 [Repository](https://github.com/abcz316/SKRoot-linuxKernelRoot)
 
 - <a href="https://github.com/abcz316/SKRoot-linuxKernelRoot/issues/156">Key Attestation</a>  <code>#156</code> · updated: 2025-11-28 · created: 2025-10-16  
   labels: documentation, good first issue
 
-## groupultra/telegram-search  ⭐ 3502
-[Repository](https://github.com/groupultra/telegram-search)
-
-- <a href="https://github.com/groupultra/telegram-search/issues/409">Feature request: monitor mode and better chat listing</a>  <code>#409</code> · updated: 2025-12-12 · created: 2025-10-24  
-  labels: enhancement, good first issue, PR welcome
-
-## TokisanGames/Terrain3D  ⭐ 3495
+## TokisanGames/Terrain3D  ⭐ 3501
 [Repository](https://github.com/TokisanGames/Terrain3D)
 
 - <a href="https://github.com/TokisanGames/Terrain3D/issues/821">Export bounds</a>  <code>#821</code> · updated: 2025-11-10 · created: 2025-10-16  
@@ -6276,33 +6258,27 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/TokisanGames/Terrain3D/issues/812">Limit mesh instance brush by texture</a>  <code>#812</code> · updated: 2025-10-17 · created: 2025-10-07  
   labels: enhancement, good first issue
 
-## go-jet/jet  ⭐ 3490
+## go-jet/jet  ⭐ 3492
 [Repository](https://github.com/go-jet/jet)
 
 - <a href="https://github.com/go-jet/jet/issues/528">Generation of cockroachdb models and tables adds random comments</a>  <code>#528</code> · updated: 2025-11-09 · created: 2025-11-04  
   labels: bug, good first issue
 
-## HelixDB/helix-db  ⭐ 3484
+## HelixDB/helix-db  ⭐ 3490
 [Repository](https://github.com/HelixDB/helix-db)
 
+- <a href="https://github.com/HelixDB/helix-db/issues/768">[Feature]: AzureOpenAI provider</a>  <code>#768</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: enhancement, good first issue
 - <a href="https://github.com/HelixDB/helix-db/issues/744">Support for per-instance query sets</a>  <code>#744</code> · updated: 2025-12-10 · created: 2025-12-10  
   labels: good first issue
 
-## DependencyTrack/dependency-track  ⭐ 3474
+## DependencyTrack/dependency-track  ⭐ 3483
 [Repository](https://github.com/DependencyTrack/dependency-track)
 
 - <a href="https://github.com/DependencyTrack/dependency-track/issues/5445">Rest-API Date-Time objects are epoch not strings</a>  <code>#5445</code> · updated: 2025-11-30 · created: 2025-10-23  
   labels: defect, p2, good first issue, api docs, size/S, api-inconsistency
 
-## OpenTabletDriver/OpenTabletDriver  ⭐ 3463
-[Repository](https://github.com/OpenTabletDriver/OpenTabletDriver)
-
-- <a href="https://github.com/OpenTabletDriver/OpenTabletDriver/issues/4343">0.6.x CI: `linux/gtk` label does not account for filenames with `Evdev` in them</a>  <code>#4343</code> · updated: 2025-12-06 · created: 2025-12-05  
-  labels: bug, good first issue, meta
-- <a href="https://github.com/OpenTabletDriver/OpenTabletDriver/issues/4178">[Avalonia] Build script has invalid regex for git dirty detection</a>  <code>#4178</code> · updated: 2025-10-01 · created: 2025-10-01  
-  labels: bug, good first issue, packaging
-
-## zizmorcore/zizmor  ⭐ 3459
+## zizmorcore/zizmor  ⭐ 3474
 [Repository](https://github.com/zizmorcore/zizmor)
 
 - <a href="https://github.com/zizmorcore/zizmor/issues/1359">[Docs]: Link to GitHub docs on token permissions in excessive-permissions audit no longer has the list of permissions</a>  <code>#1359</code> · updated: 2025-11-24 · created: 2025-11-24  
@@ -6314,13 +6290,41 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/zizmorcore/zizmor/issues/1174">CLI: support `-` for reading from stdin</a>  <code>#1174</code> · updated: 2025-10-19 · created: 2025-09-23  
   labels: enhancement, help wanted, good first issue, cli
 
-## grain-lang/grain  ⭐ 3398
+## OpenTabletDriver/OpenTabletDriver  ⭐ 3468
+[Repository](https://github.com/OpenTabletDriver/OpenTabletDriver)
+
+- <a href="https://github.com/OpenTabletDriver/OpenTabletDriver/issues/4343">0.6.x CI: `linux/gtk` label does not account for filenames with `Evdev` in them</a>  <code>#4343</code> · updated: 2025-12-06 · created: 2025-12-05  
+  labels: bug, good first issue, meta
+- <a href="https://github.com/OpenTabletDriver/OpenTabletDriver/issues/4178">[Avalonia] Build script has invalid regex for git dirty detection</a>  <code>#4178</code> · updated: 2025-10-01 · created: 2025-10-01  
+  labels: bug, good first issue, packaging
+
+## siddharthvaddem/openscreen  ⭐ 3465
+[Repository](https://github.com/siddharthvaddem/openscreen)
+
+- <a href="https://github.com/siddharthvaddem/openscreen/issues/54">The options for Image settings cannot be displayed, as the control is too small</a>  <code>#54</code> · updated: 2025-12-17 · created: 2025-12-11  
+  labels: bug, good first issue
+- <a href="https://github.com/siddharthvaddem/openscreen/issues/34">Improve clarity of Trim feature and provide in-app tutorial for new users</a>  <code>#34</code> · updated: 2025-12-17 · created: 2025-12-03  
+  labels: good first issue
+
+## grain-lang/grain  ⭐ 3399
 [Repository](https://github.com/grain-lang/grain)
 
 - <a href="https://github.com/grain-lang/grain/issues/2320">Enable `fs.test.gr` in stdlib test suite.</a>  <code>#2320</code> · updated: 2025-10-22 · created: 2025-10-21  
   labels: good first issue, tests, stdlib
 
-## sigp/lighthouse  ⭐ 3365
+## ArthurBrussee/brush  ⭐ 3374
+[Repository](https://github.com/ArthurBrussee/brush)
+
+- <a href="https://github.com/ArthurBrussee/brush/issues/278">Feature request: default config file and loading custom presets</a>  <code>#278</code> · updated: 2025-10-12 · created: 2025-10-06  
+  labels: enhancement, good first issue
+
+## chonkie-inc/chonkie  ⭐ 3371
+[Repository](https://github.com/chonkie-inc/chonkie)
+
+- <a href="https://github.com/chonkie-inc/chonkie/issues/377">Feat: Async Support</a>  <code>#377</code> · updated: 2025-12-16 · created: 2025-11-10  
+  labels: enhancement, good first issue
+
+## sigp/lighthouse  ⭐ 3368
 [Repository](https://github.com/sigp/lighthouse)
 
 - <a href="https://github.com/sigp/lighthouse/issues/8106">Ensure HTTPS links in Cargo.toml</a>  <code>#8106</code> · updated: 2025-11-18 · created: 2025-09-24  
@@ -6328,7 +6332,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/sigp/lighthouse/issues/8100">IPC support for the beacon API</a>  <code>#8100</code> · updated: 2025-09-25 · created: 2025-09-22  
   labels: enhancement, good first issue, optimization, HTTP-API
 
-## Revolutionary-Games/Thrive  ⭐ 3355
+## Revolutionary-Games/Thrive  ⭐ 3364
 [Repository](https://github.com/Revolutionary-Games/Thrive)
 
 - <a href="https://github.com/Revolutionary-Games/Thrive/issues/6570">Update the population format on the extinction continue screen</a>  <code>#6570</code> · updated: 2025-12-12 · created: 2025-12-12  
@@ -6336,33 +6340,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/Revolutionary-Games/Thrive/issues/6387">When loading a save with compressed compounds panel the compressed font sticks</a>  <code>#6387</code> · updated: 2025-10-24 · created: 2025-10-24  
   labels: easy, programming, gui, good first issue, bug, C#, stage:microbe
 
-## chonkie-inc/chonkie  ⭐ 3355
-[Repository](https://github.com/chonkie-inc/chonkie)
-
-- <a href="https://github.com/chonkie-inc/chonkie/issues/377">Feat: Async Support</a>  <code>#377</code> · updated: 2025-11-14 · created: 2025-11-10  
-  labels: enhancement, good first issue
-
-## ArthurBrussee/brush  ⭐ 3346
-[Repository](https://github.com/ArthurBrussee/brush)
-
-- <a href="https://github.com/ArthurBrussee/brush/issues/278">Feature request: default config file and loading custom presets</a>  <code>#278</code> · updated: 2025-10-12 · created: 2025-10-06  
-  labels: enhancement, good first issue
-
-## JohannesKlauss/react-hotkeys-hook  ⭐ 3346
+## JohannesKlauss/react-hotkeys-hook  ⭐ 3350
 [Repository](https://github.com/JohannesKlauss/react-hotkeys-hook)
 
 - <a href="https://github.com/JohannesKlauss/react-hotkeys-hook/issues/1292">[BUG] key with shift make event twice</a>  <code>#1292</code> · updated: 2025-10-13 · created: 2025-10-02  
   labels: bug, good first issue
 
-## gardener/gardener  ⭐ 3298
-[Repository](https://github.com/gardener/gardener)
-
-- <a href="https://github.com/gardener/gardener/issues/13373">Improve structure of logs written by extension healthcheck package</a>  <code>#13373</code> · updated: 2025-11-11 · created: 2025-11-06  
-  labels: kind/enhancement, area/quality, area/logging, help wanted, good first issue
-- <a href="https://github.com/gardener/gardener/issues/13289">gardener-operator registers unneeded gardener-resource-manager webhooks in virtual garden</a>  <code>#13289</code> · updated: 2025-10-29 · created: 2025-10-29  
-  labels: kind/cleanup, help wanted, good first issue
-
-## inokawa/virtua  ⭐ 3295
+## inokawa/virtua  ⭐ 3304
 [Repository](https://github.com/inokawa/virtua)
 
 - <a href="https://github.com/inokawa/virtua/issues/838">`ssrCount` for Svelte</a>  <code>#838</code> · updated: 2025-12-10 · created: 2025-12-10  
@@ -6372,31 +6356,39 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/inokawa/virtua/issues/742">Add unit tests for Svelte</a>  <code>#742</code> · updated: 2025-09-27 · created: 2025-09-21  
   labels: good first issue
 
-## mesa/mesa  ⭐ 3295
+## mesa/mesa  ⭐ 3304
 [Repository](https://github.com/mesa/mesa)
 
-- <a href="https://github.com/mesa/mesa/issues/2904">Tracking issue: Resolve test suite warnings</a>  <code>#2904</code> · updated: 2025-12-15 · created: 2025-12-01  
+- <a href="https://github.com/mesa/mesa/issues/2904">Tracking issue: Resolve test suite warnings</a>  <code>#2904</code> · updated: 2025-12-16 · created: 2025-12-01  
   labels: testing, example, good first issue
 
-## JusticeRage/Gepetto  ⭐ 3291
+## JusticeRage/Gepetto  ⭐ 3302
 [Repository](https://github.com/JusticeRage/Gepetto)
 
 - <a href="https://github.com/JusticeRage/Gepetto/issues/122">adding /clear command (clearing LLM context in current conversation)</a>  <code>#122</code> · updated: 2025-10-07 · created: 2025-10-07  
   labels: enhancement, good first issue
 
-## apache/lucene  ⭐ 3277
+## gardener/gardener  ⭐ 3298
+[Repository](https://github.com/gardener/gardener)
+
+- <a href="https://github.com/gardener/gardener/issues/13373">Improve structure of logs written by extension healthcheck package</a>  <code>#13373</code> · updated: 2025-11-11 · created: 2025-11-06  
+  labels: kind/enhancement, area/quality, area/logging, help wanted, good first issue
+- <a href="https://github.com/gardener/gardener/issues/13289">gardener-operator registers unneeded gardener-resource-manager webhooks in virtual garden</a>  <code>#13289</code> · updated: 2025-10-29 · created: 2025-10-29  
+  labels: kind/cleanup, help wanted, good first issue
+
+## apache/lucene  ⭐ 3282
 [Repository](https://github.com/apache/lucene)
 
 - <a href="https://github.com/apache/lucene/issues/15225">Improve user facing java docs using LLM (or otherwise)</a>  <code>#15225</code> · updated: 2025-11-20 · created: 2025-09-23  
   labels: good first issue, type:documentation
 
-## apache/arrow-rs  ⭐ 3273
+## apache/arrow-rs  ⭐ 3280
 [Repository](https://github.com/apache/arrow-rs)
 
 - <a href="https://github.com/apache/arrow-rs/issues/8859">Change default behavior for Parquet `PageEncodingStats`</a>  <code>#8859</code> · updated: 2025-11-18 · created: 2025-11-17  
   labels: good first issue, enhancement
 
-## element-hq/synapse  ⭐ 3255
+## element-hq/synapse  ⭐ 3264
 [Repository](https://github.com/element-hq/synapse)
 
 - <a href="https://github.com/element-hq/synapse/issues/18993">Synapse allows user creation via the Synapse Admin API when MAS is enabled</a>  <code>#18993</code> · updated: 2025-10-01 · created: 2025-09-30  
@@ -6404,27 +6396,17 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/element-hq/synapse/issues/18972">Synapse debian packages fail `lintian` linting tool checks</a>  <code>#18972</code> · updated: 2025-09-25 · created: 2025-09-25  
   labels: A-Packaging, good first issue, T-Task
 
-## rizinorg/rizin  ⭐ 3255
+## rizinorg/rizin  ⭐ 3263
 [Repository](https://github.com/rizinorg/rizin)
 
+- <a href="https://github.com/rizinorg/rizin/issues/5578">Support extended 6502 opcodes</a>  <code>#5578</code> · updated: 2025-12-17 · created: 2025-12-06  
+  labels: enhancement, good first issue, 6502
 - <a href="https://github.com/rizinorg/rizin/issues/5502">Add a binary loader for Apples C4000 firmware</a>  <code>#5502</code> · updated: 2025-12-15 · created: 2025-11-04  
   labels: good first issue, RzBin, ARC
-- <a href="https://github.com/rizinorg/rizin/issues/5578">Support extended 6502 opcodes</a>  <code>#5578</code> · updated: 2025-12-09 · created: 2025-12-06  
-  labels: enhancement, good first issue, 6502
 - <a href="https://github.com/rizinorg/rizin/issues/5411">Python 3.14 bytecode support</a>  <code>#5411</code> · updated: 2025-11-18 · created: 2025-09-25  
   labels: good first issue, RzBin, RzAnalysis, test-required, RzArch, disassembly, RzAsm-Disassembler, PYC
-- <a href="https://github.com/rizinorg/rizin/issues/5389">Improve `/Rg` output</a>  <code>#5389</code> · updated: 2025-11-18 · created: 2025-09-17  
-  labels: good first issue, test-required, shell, ROP
-- <a href="https://github.com/rizinorg/rizin/issues/5396">`/Rk` command is undocumented and untested</a>  <code>#5396</code> · updated: 2025-10-21 · created: 2025-09-18  
-  labels: documentation, good first issue, test-required, ROP
 
-## e-m-b-a/emba  ⭐ 3245
-[Repository](https://github.com/e-m-b-a/emba)
-
-- <a href="https://github.com/e-m-b-a/emba/issues/1822">Kali Linux 2025.04 available</a>  <code>#1822</code> · updated: 2025-12-15 · created: 2025-12-12  
-  labels: help wanted, good first issue, Installation, prio, EMBA
-
-## home-assistant/android  ⭐ 3236
+## home-assistant/android  ⭐ 3243
 [Repository](https://github.com/home-assistant/android)
 
 - <a href="https://github.com/home-assistant/android/issues/6025">Add support for Add to button widget</a>  <code>#6025</code> · updated: 2025-12-06 · created: 2025-11-10  
@@ -6432,61 +6414,77 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/home-assistant/android/issues/6006">Add a connection troubleshooting section</a>  <code>#6006</code> · updated: 2025-11-06 · created: 2025-11-06  
   labels: good first issue
 
-## nextflow-io/nextflow  ⭐ 3234
+## nextflow-io/nextflow  ⭐ 3242
 [Repository](https://github.com/nextflow-io/nextflow)
 
 - <a href="https://github.com/nextflow-io/nextflow/issues/6518">Adding a parameter for AnsiLogObserver delay</a>  <code>#6518</code> · updated: 2025-11-20 · created: 2025-10-28  
   labels: good first issue
 
-## algorithmicsuperintelligence/optillm  ⭐ 3227
+## algorithmicsuperintelligence/optillm  ⭐ 3231
 [Repository](https://github.com/algorithmicsuperintelligence/optillm)
 
 - <a href="https://github.com/algorithmicsuperintelligence/optillm/issues/249">Add a compact plugin that does auto compact on context like claude code</a>  <code>#249</code> · updated: 2025-09-26 · created: 2025-09-26  
   labels: enhancement, help wanted, good first issue
 
-## ClickHouse/clickhouse-go  ⭐ 3213
-[Repository](https://github.com/ClickHouse/clickhouse-go)
-
-- <a href="https://github.com/ClickHouse/clickhouse-go/issues/1698">Logging: Support logging levels</a>  <code>#1698</code> · updated: 2025-12-09 · created: 2025-11-04  
-  labels: good first issue, feature-completeness
-
-## WGDashboard/WGDashboard  ⭐ 3200
-[Repository](https://github.com/WGDashboard/WGDashboard)
-
-- <a href="https://github.com/WGDashboard/WGDashboard/issues/958">AmneziaVPN 1.5 version upgrade</a>  <code>#958</code> · updated: 2025-11-03 · created: 2025-10-16  
-  labels: enhancement, help wanted, good first issue, ongoing
-
-## inclusionAI/AReaL  ⭐ 3200
+## inclusionAI/AReaL  ⭐ 3227
 [Repository](https://github.com/inclusionAI/AReaL)
 
 - <a href="https://github.com/inclusionAI/AReaL/issues/627">[BUG] The number of tokens recorded when enabling context parallel with FSDP is not correct</a>  <code>#627</code> · updated: 2025-11-27 · created: 2025-11-25  
   labels: bug, good first issue, help wanted
 
-## haimgel/display-switch  ⭐ 3196
+## ruc-datalab/DeepAnalyze  ⭐ 3227
+[Repository](https://github.com/ruc-datalab/DeepAnalyze)
+
+- <a href="https://github.com/ruc-datalab/DeepAnalyze/issues/41">Matplotlib 中文字符集问题</a>  <code>#41</code> · updated: 2025-11-25 · created: 2025-11-25  
+  labels: enhancement, good first issue
+
+## ClickHouse/clickhouse-go  ⭐ 3215
+[Repository](https://github.com/ClickHouse/clickhouse-go)
+
+- <a href="https://github.com/ClickHouse/clickhouse-go/issues/1698">Logging: Support logging levels</a>  <code>#1698</code> · updated: 2025-12-18 · created: 2025-11-04  
+  labels: good first issue, feature-completeness
+
+## WGDashboard/WGDashboard  ⭐ 3214
+[Repository](https://github.com/WGDashboard/WGDashboard)
+
+- <a href="https://github.com/WGDashboard/WGDashboard/issues/958">AmneziaVPN 1.5 version upgrade</a>  <code>#958</code> · updated: 2025-11-03 · created: 2025-10-16  
+  labels: enhancement, help wanted, good first issue, ongoing
+
+## haimgel/display-switch  ⭐ 3200
 [Repository](https://github.com/haimgel/display-switch)
 
 - <a href="https://github.com/haimgel/display-switch/issues/163">Multiple USB switches - native possible, or 2nd service with second config</a>  <code>#163</code> · updated: 2025-12-06 · created: 2025-10-01  
   labels: good first issue
 
-## linq2db/linq2db  ⭐ 3195
+## linq2db/linq2db  ⭐ 3198
 [Repository](https://github.com/linq2db/linq2db)
 
 - <a href="https://github.com/linq2db/linq2db/issues/5159">[Task] Implement WASM runtime testing</a>  <code>#5159</code> · updated: 2025-10-16 · created: 2025-10-15  
   labels: good first issue, area:tests
 
-## martinothamar/Mediator  ⭐ 3189
+## martinothamar/Mediator  ⭐ 3192
 [Repository](https://github.com/martinothamar/Mediator)
 
 - <a href="https://github.com/martinothamar/Mediator/issues/230">Addition of a diagnostic that detects cases where Send is called on a notification instead of Publish</a>  <code>#230</code> · updated: 2025-10-05 · created: 2025-10-05  
   labels: enhancement, good first issue
 
-## maplibre/martin  ⭐ 3178
+## lycheeverse/lychee  ⭐ 3188
+[Repository](https://github.com/lycheeverse/lychee)
+
+- <a href="https://github.com/lycheeverse/lychee/issues/1958">302 Found redirects are not followed</a>  <code>#1958</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: bug, good first issue, help wanted
+- <a href="https://github.com/lycheeverse/lychee/issues/1892">Speed up slow tests</a>  <code>#1892</code> · updated: 2025-12-10 · created: 2025-10-30  
+  labels: good first issue, help wanted
+- <a href="https://github.com/lycheeverse/lychee/issues/1875">Streamline release for Windows &amp; macOS</a>  <code>#1875</code> · updated: 2025-11-11 · created: 2025-10-20  
+  labels: good first issue, help wanted
+- <a href="https://github.com/lycheeverse/lychee/issues/1886">User agent not set when fetching command-line URLs</a>  <code>#1886</code> · updated: 2025-11-11 · created: 2025-10-27  
+  labels: enhancement, good first issue, help wanted
+
+## maplibre/martin  ⭐ 3185
 [Repository](https://github.com/maplibre/martin)
 
 - <a href="https://github.com/maplibre/martin/issues/2212">martin-cp: better nullness/bbox handling for vastly increased performance</a>  <code>#2212</code> · updated: 2025-11-25 · created: 2025-09-20  
   labels: help wanted, good first issue, martin-cp, performance
-- <a href="https://github.com/maplibre/martin/issues/2204">Enable `clippy::unwrap_used` to better handle panics</a>  <code>#2204</code> · updated: 2025-11-08 · created: 2025-09-19  
-  labels: help wanted, good first issue
 - <a href="https://github.com/maplibre/martin/issues/2325">Restrict zooming and panning on the data inspector</a>  <code>#2325</code> · updated: 2025-11-01 · created: 2025-10-30  
   labels: help wanted, good first issue, javascript
 - <a href="https://github.com/maplibre/martin/issues/2286">add `AWS_PROFILE` support by allowing async configuration finalization</a>  <code>#2286</code> · updated: 2025-10-06 · created: 2025-10-06  
@@ -6494,7 +6492,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/maplibre/martin/issues/2267">Add explicit support for materialized views</a>  <code>#2267</code> · updated: 2025-10-02 · created: 2025-09-28  
   labels: help wanted, good first issue, pg
 
-## commitizen-tools/commitizen  ⭐ 3176
+## commitizen-tools/commitizen  ⭐ 3180
 [Repository](https://github.com/commitizen-tools/commitizen)
 
 - <a href="https://github.com/commitizen-tools/commitizen/issues/1709">Update cz template page</a>  <code>#1709</code> · updated: 2025-12-12 · created: 2025-12-10  
@@ -6514,17 +6512,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/commitizen-tools/commitizen/issues/1628">Add issue forms of performance improvement, test, refactoring, etc.</a>  <code>#1628</code> · updated: 2025-09-22 · created: 2025-09-22  
   labels: good first issue
 
-## lycheeverse/lychee  ⭐ 3170
-[Repository](https://github.com/lycheeverse/lychee)
-
-- <a href="https://github.com/lycheeverse/lychee/issues/1892">Speed up slow tests</a>  <code>#1892</code> · updated: 2025-12-10 · created: 2025-10-30  
-  labels: good first issue, help wanted
-- <a href="https://github.com/lycheeverse/lychee/issues/1875">Streamline release for Windows &amp; macOS</a>  <code>#1875</code> · updated: 2025-11-11 · created: 2025-10-20  
-  labels: good first issue, help wanted
-- <a href="https://github.com/lycheeverse/lychee/issues/1886">User agent not set when fetching command-line URLs</a>  <code>#1886</code> · updated: 2025-11-11 · created: 2025-10-27  
-  labels: enhancement, good first issue, help wanted
-
-## PintaProject/Pinta  ⭐ 3159
+## PintaProject/Pinta  ⭐ 3172
 [Repository](https://github.com/PintaProject/Pinta)
 
 - <a href="https://github.com/PintaProject/Pinta/issues/1849">ESC should Deselect</a>  <code>#1849</code> · updated: 2025-12-01 · created: 2025-11-13  
@@ -6542,7 +6530,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/PintaProject/Pinta/issues/1791">Color Picker dialog: slider handle not draggable</a>  <code>#1791</code> · updated: 2025-10-05 · created: 2025-10-04  
   labels: good first issue, ui
 
-## beeware/briefcase  ⭐ 3156
+## beeware/briefcase  ⭐ 3158
 [Repository](https://github.com/beeware/briefcase)
 
 - <a href="https://github.com/beeware/briefcase/issues/2545">Actual man pages</a>  <code>#2545</code> · updated: 2025-12-12 · created: 2025-10-31  
@@ -6550,13 +6538,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/beeware/briefcase/issues/2559">Add helper for formatting long warning messages</a>  <code>#2559</code> · updated: 2025-11-15 · created: 2025-11-11  
   labels: enhancement, good first issue
 
-## ruc-datalab/DeepAnalyze  ⭐ 3149
-[Repository](https://github.com/ruc-datalab/DeepAnalyze)
-
-- <a href="https://github.com/ruc-datalab/DeepAnalyze/issues/41">Matplotlib 中文字符集问题</a>  <code>#41</code> · updated: 2025-11-25 · created: 2025-11-25  
-  labels: enhancement, good first issue
-
-## topgrade-rs/topgrade  ⭐ 3149
+## topgrade-rs/topgrade  ⭐ 3158
 [Repository](https://github.com/topgrade-rs/topgrade)
 
 - <a href="https://github.com/topgrade-rs/topgrade/issues/1334">Add support for Adless</a>  <code>#1334</code> · updated: 2025-11-18 · created: 2025-09-22  
@@ -6566,29 +6548,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/topgrade-rs/topgrade/issues/1519">Self-update should show from and to versions</a>  <code>#1519</code> · updated: 2025-11-18 · created: 2025-11-17  
   labels: good first issue, needs PR
 
-## pgmpy/pgmpy  ⭐ 3117
-[Repository](https://github.com/pgmpy/pgmpy)
-
-- <a href="https://github.com/pgmpy/pgmpy/issues/2459">[ENH] Add datasets</a>  <code>#2459</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: Good First Issue
-- <a href="https://github.com/pgmpy/pgmpy/issues/2435">[ENH] Cache conditional independence (CI) test results</a>  <code>#2435</code> · updated: 2025-12-06 · created: 2025-11-27  
-  labels: Good First Issue
-- <a href="https://github.com/pgmpy/pgmpy/issues/2421">[ENH] Add generator for enumerating all DAGs represented by a PDAG/CPDAG</a>  <code>#2421</code> · updated: 2025-11-21 · created: 2025-11-18  
-  labels: Good First Issue
-- <a href="https://github.com/pgmpy/pgmpy/issues/2407">[ENH] Add option to specify `root_nodes` in `ExpertKnowledge`</a>  <code>#2407</code> · updated: 2025-11-17 · created: 2025-11-13  
-  labels: Good First Issue, module:causal_discovery
-
-## neomjs/neo  ⭐ 3104
-[Repository](https://github.com/neomjs/neo)
-
-- <a href="https://github.com/neomjs/neo/issues/7388">Define the &quot;Sighted&quot; Development Workflow</a>  <code>#7388</code> · updated: 2025-10-22 · created: 2025-10-06  
-  labels: enhancement, help wanted, good first issue, hacktoberfest, ai
-- <a href="https://github.com/neomjs/neo/issues/7390">Create a &quot;Sighted&quot; Development Demo</a>  <code>#7390</code> · updated: 2025-10-06 · created: 2025-10-06  
-  labels: enhancement, help wanted, good first issue, hacktoberfest
-- <a href="https://github.com/neomjs/neo/issues/7385">&#x27;Sighted&#x27; Agent - Chrome DevTools Integration</a>  <code>#7385</code> · updated: 2025-10-06 · created: 2025-10-06  
-  labels: help wanted, good first issue, epic, hacktoberfest, ai
-
-## mengxi-ream/read-frog  ⭐ 3101
+## mengxi-ream/read-frog  ⭐ 3128
 [Repository](https://github.com/mengxi-ream/read-frog)
 
 - <a href="https://github.com/mengxi-ream/read-frog/issues/671">[FEATURE] 不支持鼠标长按文本进行翻译吗？就一段一段翻译</a>  <code>#671</code> · updated: 2025-12-14 · created: 2025-10-30  
@@ -6608,16 +6568,38 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/mengxi-ream/read-frog/issues/641">[BUG] can&#x27;t play tts on Github</a>  <code>#641</code> · updated: 2025-10-23 · created: 2025-10-23  
   labels: bug, good first issue, app: browser extension, browser: Chrome
 
-## iOfficeAI/AionUi  ⭐ 3094
+## iOfficeAI/AionUi  ⭐ 3124
 [Repository](https://github.com/iOfficeAI/AionUi)
 
 - <a href="https://github.com/iOfficeAI/AionUi/issues/258">[Feature]: 让 AI 按时出现：会话内定时触发与提醒</a>  <code>#258</code> · updated: 2025-11-24 · created: 2025-10-28  
   labels: enhancement, good first issue, help wanted
 
-## dotnet/extensions  ⭐ 3086
+## pgmpy/pgmpy  ⭐ 3121
+[Repository](https://github.com/pgmpy/pgmpy)
+
+- <a href="https://github.com/pgmpy/pgmpy/issues/2459">[ENH] Add datasets</a>  <code>#2459</code> · updated: 2025-12-18 · created: 2025-12-15  
+  labels: Good First Issue
+- <a href="https://github.com/pgmpy/pgmpy/issues/2435">[ENH] Cache conditional independence (CI) test results</a>  <code>#2435</code> · updated: 2025-12-06 · created: 2025-11-27  
+  labels: Good First Issue
+- <a href="https://github.com/pgmpy/pgmpy/issues/2421">[ENH] Add generator for enumerating all DAGs represented by a PDAG/CPDAG</a>  <code>#2421</code> · updated: 2025-11-21 · created: 2025-11-18  
+  labels: Good First Issue
+- <a href="https://github.com/pgmpy/pgmpy/issues/2407">[ENH] Add option to specify `root_nodes` in `ExpertKnowledge`</a>  <code>#2407</code> · updated: 2025-11-17 · created: 2025-11-13  
+  labels: Good First Issue, module:causal_discovery
+
+## neomjs/neo  ⭐ 3107
+[Repository](https://github.com/neomjs/neo)
+
+- <a href="https://github.com/neomjs/neo/issues/7388">Define the &quot;Sighted&quot; Development Workflow</a>  <code>#7388</code> · updated: 2025-10-22 · created: 2025-10-06  
+  labels: enhancement, help wanted, good first issue, hacktoberfest, ai
+- <a href="https://github.com/neomjs/neo/issues/7390">Create a &quot;Sighted&quot; Development Demo</a>  <code>#7390</code> · updated: 2025-10-06 · created: 2025-10-06  
+  labels: enhancement, help wanted, good first issue, hacktoberfest
+- <a href="https://github.com/neomjs/neo/issues/7385">&#x27;Sighted&#x27; Agent - Chrome DevTools Integration</a>  <code>#7385</code> · updated: 2025-10-06 · created: 2025-10-06  
+  labels: help wanted, good first issue, epic, hacktoberfest, ai
+
+## dotnet/extensions  ⭐ 3088
 [Repository](https://github.com/dotnet/extensions)
 
-- <a href="https://github.com/dotnet/extensions/issues/6856">Remove warning suppression in GeneratorUtilities.cs</a>  <code>#6856</code> · updated: 2025-09-28 · created: 2025-09-26  
+- <a href="https://github.com/dotnet/extensions/issues/6856">Remove warning suppression in GeneratorUtilities.cs</a>  <code>#6856</code> · updated: 2025-12-17 · created: 2025-09-26  
   labels: good first issue, area-fundamentals, area-analyzers
 
 ## open-policy-agent/conftest  ⭐ 3082
@@ -6626,7 +6608,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/open-policy-agent/conftest/issues/1203">Multiple acceptance tests are broken on Windows</a>  <code>#1203</code> · updated: 2025-11-13 · created: 2025-11-09  
   labels: bug, help wanted, good first issue, testing
 
-## davidlattimore/wild  ⭐ 3077
+## davidlattimore/wild  ⭐ 3080
 [Repository](https://github.com/davidlattimore/wild)
 
 - <a href="https://github.com/davidlattimore/wild/issues/1102">Make linker-diff more tolerant of differences when a call is made to an undefined function</a>  <code>#1102</code> · updated: 2025-11-11 · created: 2025-09-23  
@@ -6636,19 +6618,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/davidlattimore/wild/issues/1098">linker-scripts: Support SEGMENT_START</a>  <code>#1098</code> · updated: 2025-09-25 · created: 2025-09-22  
   labels: good first issue
 
-## delta-io/delta-rs  ⭐ 3061
+## delta-io/delta-rs  ⭐ 3068
 [Repository](https://github.com/delta-io/delta-rs)
 
 - <a href="https://github.com/delta-io/delta-rs/issues/3811">Move `add_actions_table` onto stream</a>  <code>#3811</code> · updated: 2025-10-10 · created: 2025-10-05  
   labels: enhancement, good first issue
 
-## greshake/i3status-rust  ⭐ 3046
+## root-project/root  ⭐ 3048
+[Repository](https://github.com/root-project/root)
+
+- <a href="https://github.com/root-project/root/issues/20731">Investigate/Remove potentially unnecessary explicit linking</a>  <code>#20731</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: good first issue, in:Build System, JIRA
+
+## greshake/i3status-rust  ⭐ 3045
 [Repository](https://github.com/greshake/i3status-rust)
 
 - <a href="https://github.com/greshake/i3status-rust/issues/2212">`packages`: Add support for `apk`</a>  <code>#2212</code> · updated: 2025-12-15 · created: 2025-10-26  
   labels: good first issue
 
-## stacks-network/stacks-core  ⭐ 3046
+## stacks-network/stacks-core  ⭐ 3044
 [Repository](https://github.com/stacks-network/stacks-core)
 
 - <a href="https://github.com/stacks-network/stacks-core/issues/6658">Add the current Epoch to RPCPoxInfoData</a>  <code>#6658</code> · updated: 2025-11-06 · created: 2025-11-06  
@@ -6656,33 +6644,31 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/stacks-network/stacks-core/issues/6558">Signer should return exit code 0 when run with no args</a>  <code>#6558</code> · updated: 2025-10-06 · created: 2025-10-02  
   labels: chore, good first issue
 
-## dotnet/sdk  ⭐ 3026
+## dotnet/sdk  ⭐ 3028
 [Repository](https://github.com/dotnet/sdk)
 
 - <a href="https://github.com/dotnet/sdk/issues/51432">The SDK should issue a build warning when building a macOS app that likely won&#x27;t run</a>  <code>#51432</code> · updated: 2025-10-24 · created: 2025-10-23  
   labels: good first issue, untriaged, Area-NetSDK, Area-MacOS
 
-## embeddings-benchmark/mteb  ⭐ 3024
-[Repository](https://github.com/embeddings-benchmark/mteb)
-
-- <a href="https://github.com/embeddings-benchmark/mteb/issues/3388">Add citation to models</a>  <code>#3388</code> · updated: 2025-10-17 · created: 2025-10-16  
-  labels: enhancement, good first issue, help wanted
-
-## ElementsProject/lightning  ⭐ 3018
-[Repository](https://github.com/ElementsProject/lightning)
-
-- <a href="https://github.com/ElementsProject/lightning/issues/8738">Refactor bcli Plugin from Asynchronous Multi-threaded to Synchronous Single-threaded Architecture</a>  <code>#8738</code> · updated: 2025-12-03 · created: 2025-11-28  
-  labels: good first issue
-
-## i-am-bee/beeai-framework  ⭐ 3016
+## i-am-bee/beeai-framework  ⭐ 3022
 [Repository](https://github.com/i-am-bee/beeai-framework)
 
-- <a href="https://github.com/i-am-bee/beeai-framework/issues/1217">Write tests and enhancements for OpenAI API integration</a>  <code>#1217</code> · updated: 2025-12-10 · created: 2025-10-22  
-  labels: good first issue, help wanted, test, python
+- <a href="https://github.com/i-am-bee/beeai-framework/issues/1196">[Docs] Improve Documentation on RAG Framework Capability</a>  <code>#1196</code> · updated: 2025-12-18 · created: 2025-10-16  
+  labels: documentation, good first issue, stale
 - <a href="https://github.com/i-am-bee/beeai-framework/issues/1296">Docs - DeepEval tutorial</a>  <code>#1296</code> · updated: 2025-12-07 · created: 2025-11-17  
   labels: documentation, good first issue
-- <a href="https://github.com/i-am-bee/beeai-framework/issues/1196">[Docs] Improve Documentation on RAG Framework Capability</a>  <code>#1196</code> · updated: 2025-12-03 · created: 2025-10-16  
-  labels: documentation, good first issue
+
+## ElementsProject/lightning  ⭐ 3020
+[Repository](https://github.com/ElementsProject/lightning)
+
+- <a href="https://github.com/ElementsProject/lightning/issues/8738">Refactor bcli Plugin from Asynchronous Multi-threaded to Synchronous Single-threaded Architecture</a>  <code>#8738</code> · updated: 2025-12-17 · created: 2025-11-28  
+  labels: good first issue
+
+## serverpod/serverpod  ⭐ 3012
+[Repository](https://github.com/serverpod/serverpod)
+
+- <a href="https://github.com/serverpod/serverpod/issues/4055">Trigger health checks only via /healthz endpoint</a>  <code>#4055</code> · updated: 2025-10-16 · created: 2025-10-13  
+  labels: enhancement, good first issue, area: monitoring, stake: cloud
 
 ## apache/parquet-java  ⭐ 3003
 [Repository](https://github.com/apache/parquet-java)
@@ -6690,42 +6676,46 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/parquet-java/issues/3344">Make compression adaptive with V2 data pages</a>  <code>#3344</code> · updated: 2025-10-22 · created: 2025-10-08  
   labels: Type: enhancement, Good first issue
 
-## serverpod/serverpod  ⭐ 3001
-[Repository](https://github.com/serverpod/serverpod)
-
-- <a href="https://github.com/serverpod/serverpod/issues/3985">Create migration should not throw error when the latest migration folder is empty</a>  <code>#3985</code> · updated: 2025-10-24 · created: 2025-09-18  
-  labels: enhancement, good first issue, ux, area: cli
-- <a href="https://github.com/serverpod/serverpod/issues/4055">Trigger health checks only via /healthz endpoint</a>  <code>#4055</code> · updated: 2025-10-16 · created: 2025-10-13  
-  labels: enhancement, good first issue, area: monitoring, stake: cloud
-
-## run-llama/LlamaIndexTS  ⭐ 2977
-[Repository](https://github.com/run-llama/LlamaIndexTS)
-
-- <a href="https://github.com/run-llama/LlamaIndexTS/issues/2221">add detail to image_url for openai chat completions</a>  <code>#2221</code> · updated: 2025-10-22 · created: 2025-10-20  
-  labels: bug, good first issue, help wanted
-- <a href="https://github.com/run-llama/LlamaIndexTS/issues/2207">Usage Visibility for Anthropic and OpenAI when using agent-workflow</a>  <code>#2207</code> · updated: 2025-10-02 · created: 2025-09-18  
-  labels: bug, good first issue, help wanted
-
-## NaturalIntelligence/fast-xml-parser  ⭐ 2973
-[Repository](https://github.com/NaturalIntelligence/fast-xml-parser)
-
-- <a href="https://github.com/NaturalIntelligence/fast-xml-parser/issues/774">XML prolog is included as &quot;?xml&quot; property in json output</a>  <code>#774</code> · updated: 2025-12-12 · created: 2025-11-26  
-  labels: first-timers-only, good first issue
-
-## IBM/mcp-context-forge  ⭐ 2961
+## IBM/mcp-context-forge  ⭐ 2984
 [Repository](https://github.com/IBM/mcp-context-forge)
 
 - <a href="https://github.com/IBM/mcp-context-forge/issues/1588">refactor: Standardize root_path access pattern across codebase</a>  <code>#1588</code> · updated: 2025-12-13 · created: 2025-12-12  
   labels: good first issue, python, chore
 
-## dragonflyoss/dragonfly  ⭐ 2934
+## run-llama/LlamaIndexTS  ⭐ 2979
+[Repository](https://github.com/run-llama/LlamaIndexTS)
+
+- <a href="https://github.com/run-llama/LlamaIndexTS/issues/2221">add detail to image_url for openai chat completions</a>  <code>#2221</code> · updated: 2025-10-22 · created: 2025-10-20  
+  labels: bug, good first issue, help wanted
+
+## NaturalIntelligence/fast-xml-parser  ⭐ 2975
+[Repository](https://github.com/NaturalIntelligence/fast-xml-parser)
+
+- <a href="https://github.com/NaturalIntelligence/fast-xml-parser/issues/774">XML prolog is included as &quot;?xml&quot; property in json output</a>  <code>#774</code> · updated: 2025-12-18 · created: 2025-11-26  
+  labels: first-timers-only, good first issue
+
+## papra-hq/papra  ⭐ 2955
+[Repository](https://github.com/papra-hq/papra)
+
+- <a href="https://github.com/papra-hq/papra/issues/639">Request for Simplified Chinese UI Localization</a>  <code>#639</code> · updated: 2025-11-19 · created: 2025-11-19  
+  labels: enhancement, good first issue, help wanted
+
+## DetachHead/basedpyright  ⭐ 2942
+[Repository](https://github.com/DetachHead/basedpyright)
+
+- <a href="https://github.com/DetachHead/basedpyright/issues/1668">Can&#x27;t set diagnostic level to &quot;hint&quot; via comments</a>  <code>#1668</code> · updated: 2025-12-13 · created: 2025-12-07  
+  labels: good first issue, type checking / linting
+- <a href="https://github.com/DetachHead/basedpyright/issues/1651">Config contains unrecognized setting &quot;$schema&quot;</a>  <code>#1651</code> · updated: 2025-11-24 · created: 2025-11-21  
+  labels: good first issue, vscode, config
+
+## dragonflyoss/dragonfly  ⭐ 2938
 [Repository](https://github.com/dragonflyoss/dragonfly)
 
+- <a href="https://github.com/dragonflyoss/dragonfly/issues/4421">Implement dfget&#x27;s Python SDK</a>  <code>#4421</code> · updated: 2025-12-18 · created: 2025-10-30  
+  labels: enhancement, good first issue, help wanted, client, OSS-Hard, python
 - <a href="https://github.com/dragonflyoss/dragonfly/issues/4417">Token-Based Authentication for gRPC Requests</a>  <code>#4417</code> · updated: 2025-11-25 · created: 2025-10-30  
   labels: enhancement, good first issue, help wanted, go, security, OSS-Hard, rust
 - <a href="https://github.com/dragonflyoss/dragonfly/issues/4422">Implement dfcache&#x27;s Python SDK</a>  <code>#4422</code> · updated: 2025-11-10 · created: 2025-10-30  
-  labels: enhancement, good first issue, help wanted, client, OSS-Hard, python
-- <a href="https://github.com/dragonflyoss/dragonfly/issues/4421">Implement dfget&#x27;s Python SDK</a>  <code>#4421</code> · updated: 2025-10-30 · created: 2025-10-30  
   labels: enhancement, good first issue, help wanted, client, OSS-Hard, python
 - <a href="https://github.com/dragonflyoss/dragonfly/issues/4420">Supports directly pulling repositories from ModelScope</a>  <code>#4420</code> · updated: 2025-10-30 · created: 2025-10-30  
   labels: enhancement, good first issue, help wanted, client, OSS-Hard, rust
@@ -6736,27 +6726,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/dragonflyoss/dragonfly/issues/4416">Optimize and enhance Dragonfly dragonfly-injector (Webhook)</a>  <code>#4416</code> · updated: 2025-10-30 · created: 2025-10-30  
   labels: enhancement, good first issue, help wanted, go, OSS-Medium
 
-## DetachHead/basedpyright  ⭐ 2929
-[Repository](https://github.com/DetachHead/basedpyright)
-
-- <a href="https://github.com/DetachHead/basedpyright/issues/1668">Can&#x27;t set diagnostic level to &quot;hint&quot; via comments</a>  <code>#1668</code> · updated: 2025-12-13 · created: 2025-12-07  
-  labels: good first issue, type checking / linting
-- <a href="https://github.com/DetachHead/basedpyright/issues/1651">Config contains unrecognized setting &quot;$schema&quot;</a>  <code>#1651</code> · updated: 2025-11-24 · created: 2025-11-21  
-  labels: good first issue, vscode, config
-
-## dagu-org/dagu  ⭐ 2921
+## dagu-org/dagu  ⭐ 2923
 [Repository](https://github.com/dagu-org/dagu)
 
 - <a href="https://github.com/dagu-org/dagu/issues/1476">[BUG] Handler On  Abort</a>  <code>#1476</code> · updated: 2025-12-12 · created: 2025-12-12  
   labels: bug, good first issue
 
-## papra-hq/papra  ⭐ 2904
-[Repository](https://github.com/papra-hq/papra)
+## THUDM/slime  ⭐ 2903
+[Repository](https://github.com/THUDM/slime)
 
-- <a href="https://github.com/papra-hq/papra/issues/639">Request for Simplified Chinese UI Localization</a>  <code>#639</code> · updated: 2025-11-19 · created: 2025-11-19  
-  labels: enhancement, good first issue, help wanted
+- <a href="https://github.com/THUDM/slime/issues/1063">[FSDP] Add Masked importance sampling</a>  <code>#1063</code> · updated: 2025-12-18 · created: 2025-12-08  
+  labels: good first issue
+- <a href="https://github.com/THUDM/slime/issues/1060">[FSDP] Model supporting Qwen3 30BA3B</a>  <code>#1060</code> · updated: 2025-12-15 · created: 2025-12-08  
+  labels: good first issue
+- <a href="https://github.com/THUDM/slime/issues/1094">How to convert the model from FSDP backend to the Huggingface format?</a>  <code>#1094</code> · updated: 2025-12-15 · created: 2025-12-12  
+  labels: good first issue
+- <a href="https://github.com/THUDM/slime/issues/1062">[FSDP] Try to optimize context parallelism</a>  <code>#1062</code> · updated: 2025-12-12 · created: 2025-12-08  
+  labels: good first issue
 
-## pgdogdev/pgdog  ⭐ 2895
+## pgdogdev/pgdog  ⭐ 2903
 [Repository](https://github.com/pgdogdev/pgdog)
 
 - <a href="https://github.com/pgdogdev/pgdog/issues/594">[Tests] LB test is flaky</a>  <code>#594</code> · updated: 2025-11-03 · created: 2025-10-31  
@@ -6764,55 +6752,43 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pgdogdev/pgdog/issues/578">Support protocol version 3.2 and the NegotiateProtocolVersion message</a>  <code>#578</code> · updated: 2025-10-23 · created: 2025-10-23  
   labels: good first issue, plumbing
 
-## projen/projen  ⭐ 2875
-[Repository](https://github.com/projen/projen)
-
-- <a href="https://github.com/projen/projen/issues/4474">bug: missing prefix in bump-version for pre-release versions</a>  <code>#4474</code> · updated: 2025-12-15 · created: 2025-12-14  
-  labels: good first issue
-- <a href="https://github.com/projen/projen/issues/4398">projen generates tsconfig.dev.json even when using --projenrc-py</a>  <code>#4398</code> · updated: 2025-10-15 · created: 2025-10-14  
-  labels: documentation, good first issue, p2
-
-## msgbyte/tianji  ⭐ 2874
+## msgbyte/tianji  ⭐ 2878
 [Repository](https://github.com/msgbyte/tianji)
 
 - <a href="https://github.com/msgbyte/tianji/issues/225">Docker-monitoring not working</a>  <code>#225</code> · updated: 2025-10-13 · created: 2025-09-30  
   labels: good first issue
 
-## THUDM/slime  ⭐ 2863
-[Repository](https://github.com/THUDM/slime)
+## projen/projen  ⭐ 2877
+[Repository](https://github.com/projen/projen)
 
-- <a href="https://github.com/THUDM/slime/issues/1063">[FSDP] Add Masked importance sampling</a>  <code>#1063</code> · updated: 2025-12-16 · created: 2025-12-08  
-  labels: good first issue
-- <a href="https://github.com/THUDM/slime/issues/1060">[FSDP] Model supporting Qwen3 30BA3B</a>  <code>#1060</code> · updated: 2025-12-15 · created: 2025-12-08  
-  labels: good first issue
-- <a href="https://github.com/THUDM/slime/issues/1061">[FSDP] Model supporting, Qwen3-next</a>  <code>#1061</code> · updated: 2025-12-15 · created: 2025-12-08  
-  labels: good first issue
-- <a href="https://github.com/THUDM/slime/issues/1094">How to convert the model from FSDP backend to the Huggingface format?</a>  <code>#1094</code> · updated: 2025-12-15 · created: 2025-12-12  
-  labels: good first issue
-- <a href="https://github.com/THUDM/slime/issues/1062">[FSDP] Try to optimize context parallelism</a>  <code>#1062</code> · updated: 2025-12-12 · created: 2025-12-08  
-  labels: good first issue
-- <a href="https://github.com/THUDM/slime/issues/1047">[Doc][FSDP] Currently FSDP doc is missing in the repo</a>  <code>#1047</code> · updated: 2025-12-11 · created: 2025-12-07  
-  labels: good first issue
+- <a href="https://github.com/projen/projen/issues/4398">projen generates tsconfig.dev.json even when using --projenrc-py</a>  <code>#4398</code> · updated: 2025-10-15 · created: 2025-10-14  
+  labels: documentation, good first issue, p2
 
-## WayfireWM/wayfire  ⭐ 2862
+## WayfireWM/wayfire  ⭐ 2860
 [Repository](https://github.com/WayfireWM/wayfire)
 
 - <a href="https://github.com/WayfireWM/wayfire/issues/2911">Crashed lock screen has small sections of desktop visible.</a>  <code>#2911</code> · updated: 2025-11-25 · created: 2025-11-25  
   labels: bug, easy, good first issue
 
-## buildpacks/pack  ⭐ 2849
-[Repository](https://github.com/buildpacks/pack)
+## redis/rueidis  ⭐ 2854
+[Repository](https://github.com/redis/rueidis)
 
-- <a href="https://github.com/buildpacks/pack/issues/2461">pack buildpack yank command fails</a>  <code>#2461</code> · updated: 2025-12-09 · created: 2025-11-06  
-  labels: type/bug, good first issue, status/ready
+- <a href="https://github.com/redis/rueidis/issues/927">No messages from SUBSCRIBE __redis__:invalidate</a>  <code>#927</code> · updated: 2025-12-16 · created: 2025-12-11  
+  labels: help wanted, good first issue, feature
 
-## Open-Wine-Components/umu-launcher  ⭐ 2840
+## Open-Wine-Components/umu-launcher  ⭐ 2853
 [Repository](https://github.com/Open-Wine-Components/umu-launcher)
 
 - <a href="https://github.com/Open-Wine-Components/umu-launcher/issues/551">Configure bug: PREFIX needs to be absolute path</a>  <code>#551</code> · updated: 2025-10-09 · created: 2025-10-09  
   labels: bug, good first issue
 
-## lem-project/lem  ⭐ 2826
+## buildpacks/pack  ⭐ 2853
+[Repository](https://github.com/buildpacks/pack)
+
+- <a href="https://github.com/buildpacks/pack/issues/2461">pack buildpack yank command fails</a>  <code>#2461</code> · updated: 2025-12-09 · created: 2025-11-06  
+  labels: type/bug, good first issue, status/ready
+
+## lem-project/lem  ⭐ 2828
 [Repository](https://github.com/lem-project/lem)
 
 - <a href="https://github.com/lem-project/lem/issues/1969">Webview – Text large by default</a>  <code>#1969</code> · updated: 2025-11-26 · created: 2025-10-04  
@@ -6820,51 +6796,57 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/lem-project/lem/issues/1967">Write a built-in tutorial</a>  <code>#1967</code> · updated: 2025-10-10 · created: 2025-09-30  
   labels: good-first-issue
 
-## ispc/ispc  ⭐ 2807
+## ispc/ispc  ⭐ 2811
 [Repository](https://github.com/ispc/ispc)
 
 - <a href="https://github.com/ispc/ispc/issues/3615">Inefficient codegen for varying popcnt on AVX2 &amp; AVX-512</a>  <code>#3615</code> · updated: 2025-11-05 · created: 2025-10-31  
   labels: Performance, Good First Issue
 
-## dora-rs/dora  ⭐ 2758
+## wemake-services/wemake-python-styleguide  ⭐ 2804
+[Repository](https://github.com/wemake-services/wemake-python-styleguide)
+
+- <a href="https://github.com/wemake-services/wemake-python-styleguide/issues/3573">False positive for WPS457 when using asyncio to control loops</a>  <code>#3573</code> · updated: 2025-12-17 · created: 2025-12-12  
+  labels: bug, help wanted, level:starter, good first issue
+
+## CollaboraOnline/online  ⭐ 2778
+[Repository](https://github.com/CollaboraOnline/online)
+
+- <a href="https://github.com/CollaboraOnline/online/issues/13884">Who wants to join Collabora {Office|Online} Hackfest after FOSDEM?</a>  <code>#13884</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, First Contribution, core, Easy
+
+## dora-rs/dora  ⭐ 2773
 [Repository](https://github.com/dora-rs/dora)
 
-- <a href="https://github.com/dora-rs/dora/issues/1229">Provide progress bars for time-consuming operations</a>  <code>#1229</code> · updated: 2025-12-03 · created: 2025-11-18  
+- <a href="https://github.com/dora-rs/dora/issues/1229">Provide progress bars for time-consuming operations</a>  <code>#1229</code> · updated: 2025-12-18 · created: 2025-11-18  
   labels: good first issue, cli
 - <a href="https://github.com/dora-rs/dora/issues/1228">Shell Completion Script Generation</a>  <code>#1228</code> · updated: 2025-11-19 · created: 2025-11-18  
   labels: good first issue, cli
 
-## duckdb/pg_duckdb  ⭐ 2755
+## duckdb/pg_duckdb  ⭐ 2769
 [Repository](https://github.com/duckdb/pg_duckdb)
 
 - <a href="https://github.com/duckdb/pg_duckdb/issues/939">Pivot error</a>  <code>#939</code> · updated: 2025-10-08 · created: 2025-09-28  
   labels: enhancement, good first issue
 
-## bikeshaving/crank  ⭐ 2748
+## bikeshaving/crank  ⭐ 2749
 [Repository](https://github.com/bikeshaving/crank)
 
 - <a href="https://github.com/bikeshaving/crank/issues/317">Allow spaces in `class` prop object syntax</a>  <code>#317</code> · updated: 2025-10-25 · created: 2025-10-25  
   labels: enhancement, good first issue
 
-## siddharthvaddem/openscreen  ⭐ 2745
-[Repository](https://github.com/siddharthvaddem/openscreen)
-
-- <a href="https://github.com/siddharthvaddem/openscreen/issues/34">Improve clarity of Trim feature and provide in-app tutorial for new users</a>  <code>#34</code> · updated: 2025-12-03 · created: 2025-12-03  
-  labels: good first issue
-
-## MetaMask/metamask-mobile  ⭐ 2737
+## MetaMask/metamask-mobile  ⭐ 2745
 [Repository](https://github.com/MetaMask/metamask-mobile)
 
 - <a href="https://github.com/MetaMask/metamask-mobile/issues/23970">fix(analytics): fix user traits types violations</a>  <code>#23970</code> · updated: 2025-12-13 · created: 2025-12-12  
   labels: good first issue, team-mobile-platform
 
-## apache/cloudstack  ⭐ 2734
+## apache/cloudstack  ⭐ 2735
 [Repository](https://github.com/apache/cloudstack)
 
 - <a href="https://github.com/apache/cloudstack/issues/11821">remove string definitions and use string to enum constant conversion instead.</a>  <code>#11821</code> · updated: 2025-11-27 · created: 2025-10-10  
   labels: type:technical-debt, good-first-issue
 
-## SuperTux/supertux  ⭐ 2733
+## SuperTux/supertux  ⭐ 2734
 [Repository](https://github.com/SuperTux/supertux)
 
 - <a href="https://github.com/SuperTux/supertux/issues/3426">[Feature Request]: New Snow forest tiles for Icy Worldmap</a>  <code>#3426</code> · updated: 2025-11-30 · created: 2025-11-30  
@@ -6872,31 +6854,31 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/SuperTux/supertux/issues/3406">[Feature Request]: Revert Titlescreen level to include more jumps</a>  <code>#3406</code> · updated: 2025-11-21 · created: 2025-11-12  
   labels: type:idea, status:needs-discussion, difficulty:easy, good first issue
 
-## noahgorstein/jqp  ⭐ 2726
-[Repository](https://github.com/noahgorstein/jqp)
-
-- <a href="https://github.com/noahgorstein/jqp/issues/188">Feature request: support 2-space json indent</a>  <code>#188</code> · updated: 2025-11-23 · created: 2025-10-07  
-  labels: enhancement, good first issue
-
-## grafana/alloy  ⭐ 2717
+## grafana/alloy  ⭐ 2729
 [Repository](https://github.com/grafana/alloy)
 
 - <a href="https://github.com/grafana/alloy/issues/4778">Helm chart `1.4.0` fails templating when `rbac.rules` or `rbac.clusterRules` is empty array</a>  <code>#4778</code> · updated: 2025-11-18 · created: 2025-11-05  
   labels: bug, good first issue, area/helm
 
-## getnikola/nikola  ⭐ 2702
+## noahgorstein/jqp  ⭐ 2729
+[Repository](https://github.com/noahgorstein/jqp)
+
+- <a href="https://github.com/noahgorstein/jqp/issues/188">Feature request: support 2-space json indent</a>  <code>#188</code> · updated: 2025-11-23 · created: 2025-10-07  
+  labels: enhancement, good first issue
+
+## getnikola/nikola  ⭐ 2704
 [Repository](https://github.com/getnikola/nikola)
 
 - <a href="https://github.com/getnikola/nikola/issues/3877">Consider removing html5shiv</a>  <code>#3877</code> · updated: 2025-12-07 · created: 2025-12-06  
   labels: good first issue, feature request
 
-## kcp-dev/kcp  ⭐ 2691
+## kcp-dev/kcp  ⭐ 2695
 [Repository](https://github.com/kcp-dev/kcp)
 
 - <a href="https://github.com/kcp-dev/kcp/issues/3723">feature: quick start kind documentation</a>  <code>#3723</code> · updated: 2025-12-10 · created: 2025-11-17  
   labels: kind/feature, good first issue
 
-## silexlabs/Silex  ⭐ 2687
+## silexlabs/Silex  ⭐ 2689
 [Repository](https://github.com/silexlabs/Silex)
 
 - <a href="https://github.com/silexlabs/Silex/issues/1648">The HTML &quot;lang&quot; attribute of the pages should be dynamic</a>  <code>#1648</code> · updated: 2025-10-24 · created: 2025-10-24  
@@ -6908,13 +6890,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/silexlabs/Silex/issues/1644">Bug: Saving fails if `src/` folder does not exist on FTP</a>  <code>#1644</code> · updated: 2025-10-18 · created: 2025-10-17  
   labels: bug, good first issue
 
-## katelya77/KatelyaTV  ⭐ 2668
+## katelya77/KatelyaTV  ⭐ 2681
 [Repository](https://github.com/katelya77/KatelyaTV)
 
 - <a href="https://github.com/katelya77/KatelyaTV/issues/165">【项目重启】已初步完善基本的功能，DecoTV目前能够正常使用</a>  <code>#165</code> · updated: 2025-10-15 · created: 2025-10-02  
   labels: bug, documentation, duplicate, enhancement, help wanted, good first issue, invalid, question, wontfix
 
-## leanprover-community/mathlib4  ⭐ 2664
+## leanprover-community/mathlib4  ⭐ 2674
 [Repository](https://github.com/leanprover-community/mathlib4)
 
 - <a href="https://github.com/leanprover-community/mathlib4/issues/32658">Define `Asymptotics.IsSubpolynomial`</a>  <code>#32658</code> · updated: 2025-12-09 · created: 2025-12-09  
@@ -6924,12 +6906,10 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/leanprover-community/mathlib4/issues/31690">Change bridges not to require the edge to be present</a>  <code>#31690</code> · updated: 2025-11-19 · created: 2025-11-16  
   labels: good first issue, t-combinatorics
 
-## bghira/SimpleTuner  ⭐ 2652
+## bghira/SimpleTuner  ⭐ 2661
 [Repository](https://github.com/bghira/SimpleTuner)
 
-- <a href="https://github.com/bghira/SimpleTuner/issues/2074">[Feature request] remote config storage and bootstrapping</a>  <code>#2074</code> · updated: 2025-12-11 · created: 2025-12-04  
-  labels: enhancement, help wanted, good first issue
-- <a href="https://github.com/bghira/SimpleTuner/issues/2119">Got it working on Windows - need a tester</a>  <code>#2119</code> · updated: 2025-12-11 · created: 2025-12-09  
+- <a href="https://github.com/bghira/SimpleTuner/issues/2119">Got it working on Windows - need a tester</a>  <code>#2119</code> · updated: 2025-12-16 · created: 2025-12-09  
   labels: documentation, help wanted, good first issue, work-in-progress
 - <a href="https://github.com/bghira/SimpleTuner/issues/1907">[Doc] Would you consider hosting doc website?</a>  <code>#1907</code> · updated: 2025-11-17 · created: 2025-11-04  
   labels: documentation, help wanted, good first issue, question
@@ -6938,19 +6918,49 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/bghira/SimpleTuner/issues/1812">Validation for I2V model should allow use of image dataset for inputs</a>  <code>#1812</code> · updated: 2025-10-24 · created: 2025-10-23  
   labels: documentation, help wanted, good first issue, webui, api
 
-## com-lihaoyi/mill  ⭐ 2652
+## MemMachine/MemMachine  ⭐ 2658
+[Repository](https://github.com/MemMachine/MemMachine)
+
+- <a href="https://github.com/MemMachine/MemMachine/issues/787">[Feat]: Add MemMachine Integration Guide for Google Agent Developer Kit (ADK)</a>  <code>#787</code> · updated: 2025-12-17 · created: 2025-12-12  
+  labels: good first issue, Integration
+- <a href="https://github.com/MemMachine/MemMachine/issues/786">[Feat]: Add MemMachine Integration Guide for OpenAI Agent Developer Kit</a>  <code>#786</code> · updated: 2025-12-12 · created: 2025-12-12  
+  labels: good first issue, Integration
+- <a href="https://github.com/MemMachine/MemMachine/issues/785">[Feat]: Add MemMachine Integration Guide for CrewAI</a>  <code>#785</code> · updated: 2025-12-12 · created: 2025-12-12  
+  labels: good first issue, Integration
+- <a href="https://github.com/MemMachine/MemMachine/issues/784">[Feat]: Add MemMachine Integration Guide for LlamaIndex</a>  <code>#784</code> · updated: 2025-12-12 · created: 2025-12-12  
+  labels: good first issue, Integration
+- <a href="https://github.com/MemMachine/MemMachine/issues/783">[Feat]: Add MemMachine Integration Guide for LangChain</a>  <code>#783</code> · updated: 2025-12-12 · created: 2025-12-12  
+  labels: good first issue, Integration
+
+## webinstall/webi-installers  ⭐ 2656
+[Repository](https://github.com/webinstall/webi-installers)
+
+- <a href="https://github.com/webinstall/webi-installers/issues/1034">[Installer] Add CHANGE-ME</a>  <code>#1034</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: good first issue, first-timers-only, up-for-grabs
+
+## com-lihaoyi/mill  ⭐ 2650
 [Repository](https://github.com/com-lihaoyi/mill)
 
 - <a href="https://github.com/com-lihaoyi/mill/issues/5948">Consider making `Evaluator#rootModule` public again</a>  <code>#5948</code> · updated: 2025-10-03 · created: 2025-10-03  
   labels: good-first-issue
 
-## inspektor-gadget/inspektor-gadget  ⭐ 2642
+## inspektor-gadget/inspektor-gadget  ⭐ 2646
 [Repository](https://github.com/inspektor-gadget/inspektor-gadget)
 
 - <a href="https://github.com/inspektor-gadget/inspektor-gadget/issues/5044">[RFE] trace_fsslower: Duration of operations and duration threshold are in different units</a>  <code>#5044</code> · updated: 2025-11-10 · created: 2025-11-05  
   labels: good first issue, gadgets/trace/fsslower
 
-## sahibzada-allahyar/YC-Killer  ⭐ 2608
+## Tencent/AI-Infra-Guard  ⭐ 2622
+[Repository](https://github.com/Tencent/AI-Infra-Guard)
+
+- <a href="https://github.com/Tencent/AI-Infra-Guard/issues/146">建议在UI上加入用户能自定义添加想扫描的不同端口和目录的地方</a>  <code>#146</code> · updated: 2025-12-08 · created: 2025-12-08  
+  labels: enhancement, good first issue
+- <a href="https://github.com/Tencent/AI-Infra-Guard/issues/114">任务开启后无法暂停</a>  <code>#114</code> · updated: 2025-11-02 · created: 2025-11-02  
+  labels: enhancement, good first issue
+- <a href="https://github.com/Tencent/AI-Infra-Guard/issues/101">自定义添加PoC</a>  <code>#101</code> · updated: 2025-10-14 · created: 2025-10-13  
+  labels: enhancement, good first issue
+
+## sahibzada-allahyar/YC-Killer  ⭐ 2610
 [Repository](https://github.com/sahibzada-allahyar/YC-Killer)
 
 - <a href="https://github.com/sahibzada-allahyar/YC-Killer/issues/70">VR Office: Add CONTRIBUTING.md</a>  <code>#70</code> · updated: 2025-11-07 · created: 2025-11-02  
@@ -6990,37 +7000,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/sahibzada-allahyar/YC-Killer/issues/30">[Physics Copilot] E2-02 — Assumptions parser</a>  <code>#30</code> · updated: 2025-11-02 · created: 2025-11-02  
   labels: help wanted, good first issue, type:feature, area:agents, size:S
 
-## Myriad-Dreamin/tinymist  ⭐ 2599
+## Myriad-Dreamin/tinymist  ⭐ 2609
 [Repository](https://github.com/Myriad-Dreamin/tinymist)
 
 - <a href="https://github.com/Myriad-Dreamin/tinymist/issues/2260">`tinymist preview` ignores `TYPST_ROOT` environment variable</a>  <code>#2260</code> · updated: 2025-11-19 · created: 2025-11-19  
   labels: enhancement, good first issue
 
-## Tencent/AI-Infra-Guard  ⭐ 2593
-[Repository](https://github.com/Tencent/AI-Infra-Guard)
-
-- <a href="https://github.com/Tencent/AI-Infra-Guard/issues/146">建议在UI上加入用户能自定义添加想扫描的不同端口和目录的地方</a>  <code>#146</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: enhancement, good first issue
-- <a href="https://github.com/Tencent/AI-Infra-Guard/issues/114">任务开启后无法暂停</a>  <code>#114</code> · updated: 2025-11-02 · created: 2025-11-02  
-  labels: enhancement, good first issue
-- <a href="https://github.com/Tencent/AI-Infra-Guard/issues/101">自定义添加PoC</a>  <code>#101</code> · updated: 2025-10-14 · created: 2025-10-13  
-  labels: enhancement, good first issue
-
-## clj-commons/aleph  ⭐ 2575
-[Repository](https://github.com/clj-commons/aleph)
-
-- <a href="https://github.com/clj-commons/aleph/issues/770">HTTP client connection stat callbacks are only attached to default pool</a>  <code>#770</code> · updated: 2025-10-23 · created: 2025-10-23  
-  labels: bug, good first issue
-- <a href="https://github.com/clj-commons/aleph/issues/769">Add options for custom thread pool names</a>  <code>#769</code> · updated: 2025-10-21 · created: 2025-10-21  
-  labels: feature request, good first issue
-
-## nunchaku-tech/ComfyUI-nunchaku  ⭐ 2575
+## nunchaku-tech/ComfyUI-nunchaku  ⭐ 2586
 [Repository](https://github.com/nunchaku-tech/ComfyUI-nunchaku)
 
 - <a href="https://github.com/nunchaku-tech/ComfyUI-nunchaku/issues/608">[Bug] ControlNet Union Pro1 causes ComfyUI reboot</a>  <code>#608</code> · updated: 2025-10-06 · created: 2025-09-26  
   labels: good first issue
 
-## pytorch/ao  ⭐ 2573
+## pytorch/ao  ⭐ 2579
 [Repository](https://github.com/pytorch/ao)
 
 - <a href="https://github.com/pytorch/ao/issues/3324">Align `_choose_qparams_affine ` with `_choose_scale_float8`</a>  <code>#3324</code> · updated: 2025-12-09 · created: 2025-11-11  
@@ -7030,7 +7022,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pytorch/ao/issues/3290">FP8 Blockwise Training Tracker</a>  <code>#3290</code> · updated: 2025-12-05 · created: 2025-11-04  
   labels: good first issue, tracker, float8, training, moe
 
-## flix/flix  ⭐ 2559
+## clj-commons/aleph  ⭐ 2576
+[Repository](https://github.com/clj-commons/aleph)
+
+- <a href="https://github.com/clj-commons/aleph/issues/770">HTTP client connection stat callbacks are only attached to default pool</a>  <code>#770</code> · updated: 2025-10-23 · created: 2025-10-23  
+  labels: bug, good first issue
+- <a href="https://github.com/clj-commons/aleph/issues/769">Add options for custom thread pool names</a>  <code>#769</code> · updated: 2025-10-21 · created: 2025-10-21  
+  labels: feature request, good first issue
+
+## flix/flix  ⭐ 2562
 [Repository](https://github.com/flix/flix)
 
 - <a href="https://github.com/flix/flix/issues/11800">Improve `MagicDefCompleter`</a>  <code>#11800</code> · updated: 2025-10-18 · created: 2025-10-04  
@@ -7038,39 +7038,27 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/flix/flix/issues/11686">Avoid intrinsics in traits</a>  <code>#11686</code> · updated: 2025-09-23 · created: 2025-09-23  
   labels: good first issue, A: standard library
 
-## slatedb/slatedb  ⭐ 2542
+## slatedb/slatedb  ⭐ 2549
 [Repository](https://github.com/slatedb/slatedb)
 
-- <a href="https://github.com/slatedb/slatedb/issues/1099">Export what&#x27;s required to implement compaction scheduler suppliers</a>  <code>#1099</code> · updated: 2025-12-12 · created: 2025-12-12  
-  labels: bug, good first issue
+- <a href="https://github.com/slatedb/slatedb/issues/1123">consider smaller min_age for WAL file Garbage Collection</a>  <code>#1123</code> · updated: 2025-12-19 · created: 2025-12-19  
+  labels: enhancement, good first issue
 - <a href="https://github.com/slatedb/slatedb/issues/1066">Add bloom filter and object store read metrics</a>  <code>#1066</code> · updated: 2025-12-05 · created: 2025-12-04  
   labels: enhancement, good first issue
 - <a href="https://github.com/slatedb/slatedb/issues/1037">flush L0 after N WAL entries accumulate</a>  <code>#1037</code> · updated: 2025-12-05 · created: 2025-11-21  
   labels: enhancement, good first issue
 - <a href="https://github.com/slatedb/slatedb/issues/1049">Cleanup function for clones</a>  <code>#1049</code> · updated: 2025-11-26 · created: 2025-11-25  
   labels: enhancement, help wanted, good first issue
-- <a href="https://github.com/slatedb/slatedb/issues/1033">Add statistic for estimated size of immutable memtable</a>  <code>#1033</code> · updated: 2025-11-21 · created: 2025-11-20  
-  labels: enhancement, good first issue
 
 ## UniversalMediaServer/UniversalMediaServer  ⭐ 2538
 [Repository](https://github.com/UniversalMediaServer/UniversalMediaServer)
 
 - <a href="https://github.com/UniversalMediaServer/UniversalMediaServer/issues/5800">Unable to assign user to group on mobile.</a>  <code>#5800</code> · updated: 2025-12-06 · created: 2025-10-14  
   labels: good first issue, hacktoberfest
-- <a href="https://github.com/UniversalMediaServer/UniversalMediaServer/issues/5828">Bug: Files marked as fully played despite &quot;Monitor played status&quot; being disabled</a>  <code>#5828</code> · updated: 2025-10-29 · created: 2025-10-22  
-  labels: bug:confirmed, good first issue, hacktoberfest
 - <a href="https://github.com/UniversalMediaServer/UniversalMediaServer/issues/5829">Enhancement: Change directory enable/disable button to a switch</a>  <code>#5829</code> · updated: 2025-10-28 · created: 2025-10-22  
   labels: enhancement, good first issue, hacktoberfest
 
-## kubernetes-sigs/gateway-api  ⭐ 2500
-[Repository](https://github.com/kubernetes-sigs/gateway-api)
-
-- <a href="https://github.com/kubernetes-sigs/gateway-api/issues/4347">Guides should include links to the relevant parts of the API specification</a>  <code>#4347</code> · updated: 2025-12-15 · created: 2025-12-12  
-  labels: good first issue, help wanted, kind/documentation
-- <a href="https://github.com/kubernetes-sigs/gateway-api/issues/4306">Document when each type of route should be used</a>  <code>#4306</code> · updated: 2025-12-07 · created: 2025-12-03  
-  labels: good first issue, help wanted, kind/documentation
-
-## apache/gravitino  ⭐ 2497
+## apache/gravitino  ⭐ 2517
 [Repository](https://github.com/apache/gravitino)
 
 - <a href="https://github.com/apache/gravitino/issues/8729">[Improvement] Reset the TreeLock’s internal state after releasing all held locks</a>  <code>#8729</code> · updated: 2025-12-02 · created: 2025-09-30  
@@ -7082,36 +7070,42 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/gravitino/issues/8656">[Improvement] In TableUpdatesRequest.java validate updates</a>  <code>#8656</code> · updated: 2025-09-24 · created: 2025-09-23  
   labels: good first issue, improvement
 
-## bit-team/backintime  ⭐ 2487
+## kubernetes-sigs/gateway-api  ⭐ 2513
+[Repository](https://github.com/kubernetes-sigs/gateway-api)
+
+- <a href="https://github.com/kubernetes-sigs/gateway-api/issues/4347">Guides should include links to the relevant parts of the API specification</a>  <code>#4347</code> · updated: 2025-12-15 · created: 2025-12-12  
+  labels: good first issue, help wanted, kind/documentation
+- <a href="https://github.com/kubernetes-sigs/gateway-api/issues/4306">Document when each type of route should be used</a>  <code>#4306</code> · updated: 2025-12-07 · created: 2025-12-03  
+  labels: good first issue, help wanted, kind/documentation
+
+## bit-team/backintime  ⭐ 2486
 [Repository](https://github.com/bit-team/backintime)
 
 - <a href="https://github.com/bit-team/backintime/issues/2297">Translation screenshots: Check and update</a>  <code>#2297</code> · updated: 2025-11-13 · created: 2025-11-11  
   labels: Feedback, GOOD FIRST ISSUE, No Code
 
-## MemMachine/MemMachine  ⭐ 2461
-[Repository](https://github.com/MemMachine/MemMachine)
+## vllm-project/semantic-router  ⭐ 2486
+[Repository](https://github.com/vllm-project/semantic-router)
 
-- <a href="https://github.com/MemMachine/MemMachine/issues/787">[Feat]: Add MemMachine Integration Guide for Google Agent Developer Kit (ADK)</a>  <code>#787</code> · updated: 2025-12-13 · created: 2025-12-12  
-  labels: good first issue, Integration
-- <a href="https://github.com/MemMachine/MemMachine/issues/286">[Bug]: Internal Server Error when Neo4j host is set to &#x27;localhost&#x27; in Docker</a>  <code>#286</code> · updated: 2025-12-12 · created: 2025-10-14  
-  labels: good first issue
-- <a href="https://github.com/MemMachine/MemMachine/issues/786">[Feat]: Add MemMachine Integration Guide for OpenAI Agent Developer Kit</a>  <code>#786</code> · updated: 2025-12-12 · created: 2025-12-12  
-  labels: good first issue, Integration
-- <a href="https://github.com/MemMachine/MemMachine/issues/785">[Feat]: Add MemMachine Integration Guide for CrewAI</a>  <code>#785</code> · updated: 2025-12-12 · created: 2025-12-12  
-  labels: good first issue, Integration
-- <a href="https://github.com/MemMachine/MemMachine/issues/784">[Feat]: Add MemMachine Integration Guide for LlamaIndex</a>  <code>#784</code> · updated: 2025-12-12 · created: 2025-12-12  
-  labels: good first issue, Integration
-- <a href="https://github.com/MemMachine/MemMachine/issues/783">[Feat]: Add MemMachine Integration Guide for LangChain</a>  <code>#783</code> · updated: 2025-12-12 · created: 2025-12-12  
-  labels: good first issue, Integration
-- <a href="https://github.com/MemMachine/MemMachine/issues/97">[Examples] Organize the examples directory for Python SDK, REST API, and MCP server examples</a>  <code>#97</code> · updated: 2025-12-01 · created: 2025-09-19  
-  labels: good first issue, chore
+- <a href="https://github.com/vllm-project/semantic-router/issues/193">Improve Model Fine Tuning and Release Process on Cloud Native Environment</a>  <code>#193</code> · updated: 2025-12-18 · created: 2025-09-22  
+  labels: good first issue, help wanted, priority/P1, area/core, area/environment, area/user-experience
+- <a href="https://github.com/vllm-project/semantic-router/issues/667">[E2E Testing] Add comprehensive test coverage for routing strategies and filters</a>  <code>#667</code> · updated: 2025-12-14 · created: 2025-11-15  
+  labels: enhancement, good first issue, help wanted, priority/P0, testing, e2e
+- <a href="https://github.com/vllm-project/semantic-router/issues/232">Integrate vLLM Semantic Router with vLLM Production Stack</a>  <code>#232</code> · updated: 2025-12-03 · created: 2025-09-26  
+  labels: documentation, good first issue, help wanted, priority/P2, area/environment, area/user-experience
+- <a href="https://github.com/vllm-project/semantic-router/issues/713">[Test] Keyword Matching Unreliable - Only &#x27;ASAP&#x27; Works Consistently</a>  <code>#713</code> · updated: 2025-11-25 · created: 2025-11-21  
+  labels: good first issue, help wanted, critical, signal-decision-engine, keyword-matching
+- <a href="https://github.com/vllm-project/semantic-router/issues/200">Feature Request: support to add custom classification categories</a>  <code>#200</code> · updated: 2025-11-15 · created: 2025-09-23  
+  labels: good first issue, help wanted, roadmap, priority/P1, area/core, area/user-experience
+- <a href="https://github.com/vllm-project/semantic-router/issues/539">Router Replay (offline evaluation + data flywheel)</a>  <code>#539</code> · updated: 2025-11-15 · created: 2025-10-27  
+  labels: good first issue, help wanted, priority/P1, area/core, area/research, area/networking
 
-## NVIDIA/gpu-operator  ⭐ 2451
+## NVIDIA/gpu-operator  ⭐ 2453
 [Repository](https://github.com/NVIDIA/gpu-operator)
 
-- <a href="https://github.com/NVIDIA/gpu-operator/issues/1996">Dependabot does not update dependencies in nested tests/e2e module, causing make check failures</a>  <code>#1996</code> · updated: 2025-12-15 · created: 2025-12-15  
+- <a href="https://github.com/NVIDIA/gpu-operator/issues/1996">Dependabot does not update dependencies in nested tests/e2e module, causing make check failures</a>  <code>#1996</code> · updated: 2025-12-18 · created: 2025-12-15  
   labels: dependencies, good-first-issue
-- <a href="https://github.com/NVIDIA/gpu-operator/issues/1993">Helm render error with Agocd and devicePlugin when emtpy default profile</a>  <code>#1993</code> · updated: 2025-12-15 · created: 2025-12-15  
+- <a href="https://github.com/NVIDIA/gpu-operator/issues/1993">Helm render error with Agocd and devicePlugin when emtpy default profile</a>  <code>#1993</code> · updated: 2025-12-16 · created: 2025-12-15  
   labels: good-first-issue
 
 ## nvaccess/nvda  ⭐ 2449
@@ -7126,13 +7120,59 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/nvaccess/nvda/issues/18968">Allow quick reestablishment of NVDA Remote connection established at startup</a>  <code>#18968</code> · updated: 2025-10-03 · created: 2025-09-23  
   labels: p5, feature, good first issue, triaged, feature/remote
 
-## aboutcode-org/scancode-toolkit  ⭐ 2431
+## aboutcode-org/scancode-toolkit  ⭐ 2436
 [Repository](https://github.com/aboutcode-org/scancode-toolkit)
 
+- <a href="https://github.com/aboutcode-org/scancode-toolkit/issues/4640">Align the licensedb UI and UX with SCIO/VCIO (e.g., using Bulma)</a>  <code>#4640</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: easy, good first issue
 - <a href="https://github.com/aboutcode-org/scancode-toolkit/issues/4638">Support `pylock.toml`</a>  <code>#4638</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: package scan, good first issue, package-formats
 
-## kubereboot/kured  ⭐ 2421
+## vllm-project/llm-compressor  ⭐ 2426
+[Repository](https://github.com/vllm-project/llm-compressor)
+
+- <a href="https://github.com/vllm-project/llm-compressor/issues/2007">[Help Wanted] Tokenzier warning messages</a>  <code>#2007</code> · updated: 2025-12-17 · created: 2025-11-10  
+  labels: good first issue
+- <a href="https://github.com/vllm-project/llm-compressor/issues/2073">KV Cache Quantization support deepseek v3</a>  <code>#2073</code> · updated: 2025-12-16 · created: 2025-11-26  
+  labels: enhancement, good first issue, compressed-tensors
+- <a href="https://github.com/vllm-project/llm-compressor/issues/2088">[Bug]:  Qwen2-Audio-7B-support</a>  <code>#2088</code> · updated: 2025-12-12 · created: 2025-12-03  
+  labels: enhancement, good first issue
+- <a href="https://github.com/vllm-project/llm-compressor/issues/2087">[Feature Request][Help Wanted] Convert AutoAWQ checkpoints to compressed-tensors</a>  <code>#2087</code> · updated: 2025-12-09 · created: 2025-12-02  
+  labels: enhancement, good first issue, compressed-tensors, good follow-up issue, awq, wNa16
+- <a href="https://github.com/vllm-project/llm-compressor/issues/2079">deduplicate is_attention_module between compressed-tensors and llm-compressor</a>  <code>#2079</code> · updated: 2025-12-08 · created: 2025-12-01  
+  labels: good first issue, compressed-tensors
+- <a href="https://github.com/vllm-project/llm-compressor/issues/2094">[Bug/ Feature]: Improve the MSE observer, investigate regression</a>  <code>#2094</code> · updated: 2025-12-04 · created: 2025-12-04  
+  labels: bug, enhancement, good first issue, nvfp4, wNa16
+- <a href="https://github.com/vllm-project/llm-compressor/issues/1853">[Help Wanted] Update models used in tests</a>  <code>#1853</code> · updated: 2025-12-02 · created: 2025-09-22  
+  labels: good first issue
+- <a href="https://github.com/vllm-project/llm-compressor/issues/1927">[Python 3.10+] Modernize codebase with Python 3.10+ idioms and features</a>  <code>#1927</code> · updated: 2025-11-14 · created: 2025-10-14  
+  labels: enhancement, good first issue
+- <a href="https://github.com/vllm-project/llm-compressor/issues/1983">W4A16 quantization option to handle/ignore layers with columns%groupsize != 0</a>  <code>#1983</code> · updated: 2025-11-06 · created: 2025-10-30  
+  labels: enhancement, good first issue, compressed-tensors, gptq, wNa16
+- <a href="https://github.com/vllm-project/llm-compressor/issues/1850">[Help Wanted] Update `oneshot` args to match `*Arguments` config classes</a>  <code>#1850</code> · updated: 2025-10-21 · created: 2025-09-22  
+  labels: good first issue
+
+## homarr-labs/homarr  ⭐ 2425
+[Repository](https://github.com/homarr-labs/homarr)
+
+- <a href="https://github.com/homarr-labs/homarr/issues/4157">feat: Download Client Item - Job Name column should be wider than the rest.</a>  <code>#4157</code> · updated: 2025-12-15 · created: 2025-09-26  
+  labels: enhancement, good first issue, ux
+- <a href="https://github.com/homarr-labs/homarr/issues/4518">feat: Network Controller Summary - Wifi warning status, system stats</a>  <code>#4518</code> · updated: 2025-11-24 · created: 2025-11-21  
+  labels: enhancement, good first issue
+
+## google/osv.dev  ⭐ 2423
+[Repository](https://github.com/google/osv.dev)
+
+- <a href="https://github.com/google/osv.dev/issues/4237">Some NuGet records contain anchor tags</a>  <code>#4237</code> · updated: 2025-11-29 · created: 2025-10-27  
+  labels: good first issue
+
+## maplibre/maputnik  ⭐ 2423
+[Repository](https://github.com/maplibre/maputnik)
+
+- <a href="https://github.com/maplibre/maputnik/issues/1546">Opening a Style should set the correct map extend using the stylefiles center and zoom (if available)</a>  <code>#1546</code> · updated: 2025-12-02 · created: 2025-11-28  
+  labels: enhancement, help wanted, good first issue
+
+## kubereboot/kured  ⭐ 2422
 [Repository](https://github.com/kubereboot/kured)
 
 - <a href="https://github.com/kubereboot/kured/issues/1246">Release process should also work for v1 branch</a>  <code>#1246</code> · updated: 2025-11-06 · created: 2025-10-31  
@@ -7140,10 +7180,10 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/kubereboot/kured/issues/1245">Dependabot does not maintain v1 branch</a>  <code>#1245</code> · updated: 2025-10-31 · created: 2025-10-31  
   labels: enhancement, github_actions, good first issue, security
 
-## numaproj/numaflow  ⭐ 2419
+## numaproj/numaflow  ⭐ 2420
 [Repository](https://github.com/numaproj/numaflow)
 
-- <a href="https://github.com/numaproj/numaflow/issues/3037">Enable Opentelemetry protocol for metrics</a>  <code>#3037</code> · updated: 2025-11-20 · created: 2025-10-22  
+- <a href="https://github.com/numaproj/numaflow/issues/3037">Enable Opentelemetry protocol for metrics</a>  <code>#3037</code> · updated: 2025-12-19 · created: 2025-10-22  
   labels: good first issue, help wanted
 - <a href="https://github.com/numaproj/numaflow/issues/3031">Use MKDocs Content Tabs for Store</a>  <code>#3031</code> · updated: 2025-10-21 · created: 2025-10-21  
   labels: documentation, good first issue
@@ -7158,73 +7198,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/numaproj/numaflow/issues/3026">Use MKDocs Content Tabs for Map</a>  <code>#3026</code> · updated: 2025-10-21 · created: 2025-10-21  
   labels: documentation, good first issue
 
-## google/osv.dev  ⭐ 2418
-[Repository](https://github.com/google/osv.dev)
-
-- <a href="https://github.com/google/osv.dev/issues/4479">Update front page of website to use latest version of the schema</a>  <code>#4479</code> · updated: 2025-12-10 · created: 2025-12-09  
-  labels: good first issue, cleanup, frontend
-- <a href="https://github.com/google/osv.dev/issues/4237">Some NuGet records contain anchor tags</a>  <code>#4237</code> · updated: 2025-11-29 · created: 2025-10-27  
-  labels: good first issue
-
-## maplibre/maputnik  ⭐ 2418
-[Repository](https://github.com/maplibre/maputnik)
-
-- <a href="https://github.com/maplibre/maputnik/issues/1546">Opening a Style should set the correct map extend using the stylefiles center and zoom (if available)</a>  <code>#1546</code> · updated: 2025-12-02 · created: 2025-11-28  
-  labels: enhancement, help wanted, good first issue
-
-## vllm-project/semantic-router  ⭐ 2414
-[Repository](https://github.com/vllm-project/semantic-router)
-
-- <a href="https://github.com/vllm-project/semantic-router/issues/667">[E2E Testing] Add comprehensive test coverage for routing strategies and filters</a>  <code>#667</code> · updated: 2025-12-14 · created: 2025-11-15  
-  labels: enhancement, good first issue, help wanted, priority/P0, testing, e2e
-- <a href="https://github.com/vllm-project/semantic-router/issues/232">Integrate vLLM Semantic Router with vLLM Production Stack</a>  <code>#232</code> · updated: 2025-12-03 · created: 2025-09-26  
-  labels: documentation, good first issue, help wanted, priority/P2, area/environment, area/user-experience
-- <a href="https://github.com/vllm-project/semantic-router/issues/713">[Test] Keyword Matching Unreliable - Only &#x27;ASAP&#x27; Works Consistently</a>  <code>#713</code> · updated: 2025-11-25 · created: 2025-11-21  
-  labels: good first issue, help wanted, critical, signal-decision-engine, keyword-matching
-- <a href="https://github.com/vllm-project/semantic-router/issues/714">[Test] Domain Classifier Returns Empty or Wrong Classifications</a>  <code>#714</code> · updated: 2025-11-21 · created: 2025-11-21  
-  labels: good first issue, help wanted, signal-decision-engine, high-priority, domain-classification
-- <a href="https://github.com/vllm-project/semantic-router/issues/193">Improve Model Fine Tuning and Release Process on Cloud Native Environment</a>  <code>#193</code> · updated: 2025-11-15 · created: 2025-09-22  
-  labels: good first issue, help wanted, priority/P1, area/core, area/environment, area/user-experience
-- <a href="https://github.com/vllm-project/semantic-router/issues/200">Feature Request: support to add custom classification categories</a>  <code>#200</code> · updated: 2025-11-15 · created: 2025-09-23  
-  labels: good first issue, help wanted, roadmap, priority/P1, area/core, area/user-experience
-- <a href="https://github.com/vllm-project/semantic-router/issues/539">Router Replay (offline evaluation + data flywheel)</a>  <code>#539</code> · updated: 2025-11-15 · created: 2025-10-27  
-  labels: good first issue, help wanted, priority/P1, area/core, area/research, area/networking
-- <a href="https://github.com/vllm-project/semantic-router/issues/160">Lifetimes should be associated with individual cache entries</a>  <code>#160</code> · updated: 2025-09-24 · created: 2025-09-17  
-  labels: enhancement, good first issue, help wanted, area/core
-
-## TryQuiet/quiet  ⭐ 2402
+## TryQuiet/quiet  ⭐ 2403
 [Repository](https://github.com/TryQuiet/quiet)
 
 - <a href="https://github.com/TryQuiet/quiet/issues/3017">ESC causes unwanted closing of the join/create community view</a>  <code>#3017</code> · updated: 2025-11-03 · created: 2025-11-03  
   labels: bug, good first issue, desktop
 
-## vllm-project/llm-compressor  ⭐ 2397
-[Repository](https://github.com/vllm-project/llm-compressor)
+## containers/ramalama  ⭐ 2400
+[Repository](https://github.com/containers/ramalama)
 
-- <a href="https://github.com/vllm-project/llm-compressor/issues/2073">KV Cache Quantization support deepseek v3</a>  <code>#2073</code> · updated: 2025-12-16 · created: 2025-11-26  
-  labels: enhancement, good first issue, compressed-tensors
-- <a href="https://github.com/vllm-project/llm-compressor/issues/2111">[Bug]: suggest to create __init__.py  under src/llmcompressor/pipelines/sequential/ast_utils</a>  <code>#2111</code> · updated: 2025-12-15 · created: 2025-12-11  
-  labels: enhancement, good first issue
-- <a href="https://github.com/vllm-project/llm-compressor/issues/2088">[Bug]:  Qwen2-Audio-7B-support</a>  <code>#2088</code> · updated: 2025-12-12 · created: 2025-12-03  
-  labels: enhancement, good first issue
-- <a href="https://github.com/vllm-project/llm-compressor/issues/2087">[Feature Request][Help Wanted] Convert AutoAWQ checkpoints to compressed-tensors</a>  <code>#2087</code> · updated: 2025-12-09 · created: 2025-12-02  
-  labels: enhancement, good first issue, compressed-tensors, good follow-up issue, awq, wNa16
-- <a href="https://github.com/vllm-project/llm-compressor/issues/2079">deduplicate is_attention_module between compressed-tensors and llm-compressor</a>  <code>#2079</code> · updated: 2025-12-08 · created: 2025-12-01  
-  labels: good first issue, compressed-tensors
-- <a href="https://github.com/vllm-project/llm-compressor/issues/2094">[Bug/ Feature]: Improve the MSE observer, investigate regression</a>  <code>#2094</code> · updated: 2025-12-04 · created: 2025-12-04  
-  labels: bug, enhancement, good first issue, nvfp4, wNa16
-- <a href="https://github.com/vllm-project/llm-compressor/issues/1853">[Help Wanted] Update models used in tests</a>  <code>#1853</code> · updated: 2025-12-02 · created: 2025-09-22  
-  labels: good first issue
-- <a href="https://github.com/vllm-project/llm-compressor/issues/2007">[Help Wanted] Tokenzier warning messages</a>  <code>#2007</code> · updated: 2025-12-02 · created: 2025-11-10  
-  labels: good first issue
-- <a href="https://github.com/vllm-project/llm-compressor/issues/1927">[Python 3.10+] Modernize codebase with Python 3.10+ idioms and features</a>  <code>#1927</code> · updated: 2025-11-14 · created: 2025-10-14  
-  labels: enhancement, good first issue
-- <a href="https://github.com/vllm-project/llm-compressor/issues/1983">W4A16 quantization option to handle/ignore layers with columns%groupsize != 0</a>  <code>#1983</code> · updated: 2025-11-06 · created: 2025-10-30  
-  labels: enhancement, good first issue, compressed-tensors, gptq, wNa16
-- <a href="https://github.com/vllm-project/llm-compressor/issues/1850">[Help Wanted] Update `oneshot` args to match `*Arguments` config classes</a>  <code>#1850</code> · updated: 2025-10-21 · created: 2025-09-22  
-  labels: good first issue
+- <a href="https://github.com/containers/ramalama/issues/2041">Add healthcheck on serve</a>  <code>#2041</code> · updated: 2025-12-16 · created: 2025-10-17  
+  labels: enhancement, good first issue, hacktoberfest
 
-## open-telemetry/opentelemetry-rust  ⭐ 2391
+## open-telemetry/opentelemetry-rust  ⭐ 2397
 [Repository](https://github.com/open-telemetry/opentelemetry-rust)
 
 - <a href="https://github.com/open-telemetry/opentelemetry-rust/issues/3283">[Feature]: Document supported and unsupported OTEL variables</a>  <code>#3283</code> · updated: 2025-12-10 · created: 2025-12-10  
@@ -7232,71 +7218,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/open-telemetry/opentelemetry-rust/issues/3182">[Bug]: Without the `tls` feature, the Tonic exporter sends unencrypted data to a HTTPS endpoint</a>  <code>#3182</code> · updated: 2025-12-06 · created: 2025-09-26  
   labels: bug, good first issue, M-exporter-otlp, hackathon
 
-## containers/ramalama  ⭐ 2390
-[Repository](https://github.com/containers/ramalama)
-
-- <a href="https://github.com/containers/ramalama/issues/2041">Add healthcheck on serve</a>  <code>#2041</code> · updated: 2025-11-27 · created: 2025-10-17  
-  labels: enhancement, good first issue, stale-issue, hacktoberfest
-- <a href="https://github.com/containers/ramalama/issues/1995">Ramalama RAG handle different port properly</a>  <code>#1995</code> · updated: 2025-11-17 · created: 2025-10-02  
-  labels: good first issue, hacktoberfest
-
-## vortex-data/vortex  ⭐ 2383
+## vortex-data/vortex  ⭐ 2389
 [Repository](https://github.com/vortex-data/vortex)
 
 - <a href="https://github.com/vortex-data/vortex/issues/4924">Simple examples</a>  <code>#4924</code> · updated: 2025-10-17 · created: 2025-10-12  
   labels: documentation, good first issue, help wanted
 
-## homarr-labs/homarr  ⭐ 2382
-[Repository](https://github.com/homarr-labs/homarr)
-
-- <a href="https://github.com/homarr-labs/homarr/issues/4157">feat: Download Client Item - Job Name column should be wider than the rest.</a>  <code>#4157</code> · updated: 2025-12-15 · created: 2025-09-26  
-  labels: enhancement, good first issue, ux
-- <a href="https://github.com/homarr-labs/homarr/issues/4518">feat: Network Controller Summary - Wifi warning status, system stats</a>  <code>#4518</code> · updated: 2025-11-24 · created: 2025-11-21  
-  labels: enhancement, good first issue
-
-## graphistry/pygraphistry  ⭐ 2372
-[Repository](https://github.com/graphistry/pygraphistry)
-
-- <a href="https://github.com/graphistry/pygraphistry/issues/855">Docs: add Mermaid/DOT exports for small graphs (PyGraphistry -&gt; viz)</a>  <code>#855</code> · updated: 2025-11-30 · created: 2025-11-30  
-  labels: help wanted, good-first-issue
-
-## apache/lucenenet  ⭐ 2360
-[Repository](https://github.com/apache/lucenenet)
-
-- <a href="https://github.com/apache/lucenenet/issues/1201">Use concrete collection types for private fields and variables</a>  <code>#1201</code> · updated: 2025-10-11 · created: 2025-10-04  
-  labels: up-for-grabs, good-first-issue, is:task, hacktoberfest
-- <a href="https://github.com/apache/lucenenet/issues/1208">Website: Add Matomo Analytics Tracking Script</a>  <code>#1208</code> · updated: 2025-10-10 · created: 2025-10-10  
-  labels: up-for-grabs, docs, good-first-issue, is:enhancement, pri:normal, is:task, hacktoberfest
-
-## Chatterino/chatterino2  ⭐ 2359
-[Repository](https://github.com/Chatterino/chatterino2)
-
-- <a href="https://github.com/Chatterino/chatterino2/issues/6578">Automatic username highlight does not update on login name change</a>  <code>#6578</code> · updated: 2025-11-14 · created: 2025-11-14  
-  labels: bug, good first issue
-
-## envoyproxy/gateway  ⭐ 2333
-[Repository](https://github.com/envoyproxy/gateway)
-
-- <a href="https://github.com/envoyproxy/gateway/issues/7306">How to patch Cluster with EnvoyPatchPolicy</a>  <code>#7306</code> · updated: 2025-10-22 · created: 2025-10-22  
-  labels: documentation, good first issue, help wanted
-
-## OpenBMB/UltraRAG  ⭐ 2325
-[Repository](https://github.com/OpenBMB/UltraRAG)
-
-- <a href="https://github.com/OpenBMB/UltraRAG/issues/103">retriever初始化时间过长</a>  <code>#103</code> · updated: 2025-09-25 · created: 2025-09-25  
-  labels: good first issue
-
-## gridaco/grida  ⭐ 2316
-[Repository](https://github.com/gridaco/grida)
-
-- <a href="https://github.com/gridaco/grida/issues/472">Renderer: scaling authored geometry down (e.g. 0.01×) causes visible pixel-grid snapping, even though scaling back up restores original look</a>  <code>#472</code> · updated: 2025-12-14 · created: 2025-12-14  
-  labels: good first issue, cg, skia
-- <a href="https://github.com/gridaco/grida/issues/459">ttf parser - inspect with &#x27;Poppins&#x27; font</a>  <code>#459</code> · updated: 2025-12-04 · created: 2025-12-04  
-  labels: good first issue, ux, fonts
-- <a href="https://github.com/gridaco/grida/issues/458">Performance Issue - `blend_mode: normal`</a>  <code>#458</code> · updated: 2025-12-04 · created: 2025-12-04  
-  labels: good first issue, canvas, wasm32, performance, investigate
-
-## scanopy/scanopy  ⭐ 2306
+## scanopy/scanopy  ⭐ 2376
 [Repository](https://github.com/scanopy/scanopy)
 
 - <a href="https://github.com/scanopy/scanopy/issues/165">Support for _FILE environment variables for secrets</a>  <code>#165</code> · updated: 2025-11-21 · created: 2025-11-19  
@@ -7306,31 +7234,51 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/scanopy/scanopy/issues/129">Armv7 interest?</a>  <code>#129</code> · updated: 2025-11-14 · created: 2025-11-13  
   labels: enhancement, good first issue, deployment
 
-## UglyToad/PdfPig  ⭐ 2304
-[Repository](https://github.com/UglyToad/PdfPig)
+## graphistry/pygraphistry  ⭐ 2375
+[Repository](https://github.com/graphistry/pygraphistry)
 
-- <a href="https://github.com/UglyToad/PdfPig/issues/1176">Extraction issue - Letter horizontal positioning / compressed glyph widths (Aspose‑generated PDF)</a>  <code>#1176</code> · updated: 2025-12-04 · created: 2025-10-03  
-  labels: bug, good first issue, document-reading
+- <a href="https://github.com/graphistry/pygraphistry/issues/855">Docs: add Mermaid/DOT exports for small graphs (PyGraphistry -&gt; viz)</a>  <code>#855</code> · updated: 2025-11-30 · created: 2025-11-30  
+  labels: help wanted, good-first-issue
 
-## meltano/meltano  ⭐ 2290
-[Repository](https://github.com/meltano/meltano)
+## apache/lucenenet  ⭐ 2362
+[Repository](https://github.com/apache/lucenenet)
 
-- <a href="https://github.com/meltano/meltano/issues/9586">feature: Add plugin name or `meltano` as another column in the console-formatted output</a>  <code>#9586</code> · updated: 2025-11-12 · created: 2025-10-18  
-  labels: good first issue, Accepting Pull Requests, ux, kind/Feature, valuestream/Meltano, Logging
+- <a href="https://github.com/apache/lucenenet/issues/1201">Use concrete collection types for private fields and variables</a>  <code>#1201</code> · updated: 2025-10-11 · created: 2025-10-04  
+  labels: up-for-grabs, good-first-issue, is:task, hacktoberfest
+- <a href="https://github.com/apache/lucenenet/issues/1208">Website: Add Matomo Analytics Tracking Script</a>  <code>#1208</code> · updated: 2025-10-10 · created: 2025-10-10  
+  labels: up-for-grabs, docs, good-first-issue, is:enhancement, pri:normal, is:task, hacktoberfest
 
-## apache/kyuubi  ⭐ 2285
-[Repository](https://github.com/apache/kyuubi)
+## Chatterino/chatterino2  ⭐ 2360
+[Repository](https://github.com/Chatterino/chatterino2)
 
-- <a href="https://github.com/apache/kyuubi/issues/7234">[Improvement] Update Spark Ranger plugin to 2.7.0</a>  <code>#7234</code> · updated: 2025-10-29 · created: 2025-10-29  
-  labels: help wanted, good first issue, kind:documentation
+- <a href="https://github.com/Chatterino/chatterino2/issues/6635">Open in custom player doesn&#x27;t work</a>  <code>#6635</code> · updated: 2025-12-18 · created: 2025-12-08  
+  labels: bug, good first issue
+- <a href="https://github.com/Chatterino/chatterino2/issues/6578">Automatic username highlight does not update on login name change</a>  <code>#6578</code> · updated: 2025-11-14 · created: 2025-11-14  
+  labels: bug, good first issue
 
-## control-theory/gonzo  ⭐ 2279
-[Repository](https://github.com/control-theory/gonzo)
+## envoyproxy/gateway  ⭐ 2342
+[Repository](https://github.com/envoyproxy/gateway)
 
-- <a href="https://github.com/control-theory/gonzo/issues/58">Need to hit &quot;Ctrl-c&quot; after hitting &quot;q&quot; when exiting Gonzo back to K9s when using K9s plugin</a>  <code>#58</code> · updated: 2025-12-01 · created: 2025-09-18  
+- <a href="https://github.com/envoyproxy/gateway/issues/7306">How to patch Cluster with EnvoyPatchPolicy</a>  <code>#7306</code> · updated: 2025-10-22 · created: 2025-10-22  
+  labels: documentation, good first issue, help wanted
+
+## OpenBMB/UltraRAG  ⭐ 2340
+[Repository](https://github.com/OpenBMB/UltraRAG)
+
+- <a href="https://github.com/OpenBMB/UltraRAG/issues/103">retriever初始化时间过长</a>  <code>#103</code> · updated: 2025-09-25 · created: 2025-09-25  
   labels: good first issue
 
-## guaguastandup/zotero-pdf2zh  ⭐ 2265
+## gridaco/grida  ⭐ 2320
+[Repository](https://github.com/gridaco/grida)
+
+- <a href="https://github.com/gridaco/grida/issues/472">Renderer: scaling authored geometry down (e.g. 0.01×) causes visible pixel-grid snapping, even though scaling back up restores original look</a>  <code>#472</code> · updated: 2025-12-14 · created: 2025-12-14  
+  labels: good first issue, cg, skia
+- <a href="https://github.com/gridaco/grida/issues/459">ttf parser - inspect with &#x27;Poppins&#x27; font</a>  <code>#459</code> · updated: 2025-12-04 · created: 2025-12-04  
+  labels: good first issue, ux, fonts
+- <a href="https://github.com/gridaco/grida/issues/458">Performance Issue - `blend_mode: normal`</a>  <code>#458</code> · updated: 2025-12-04 · created: 2025-12-04  
+  labels: good first issue, canvas, wasm32, performance, investigate
+
+## guaguastandup/zotero-pdf2zh  ⭐ 2309
 [Repository](https://github.com/guaguastandup/zotero-pdf2zh)
 
 - <a href="https://github.com/guaguastandup/zotero-pdf2zh/issues/187">做了一个 homebrew 的 tap，便于 mac 用户直接使用</a>  <code>#187</code> · updated: 2025-11-23 · created: 2025-10-10  
@@ -7338,31 +7286,55 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/guaguastandup/zotero-pdf2zh/issues/201">将python脚本整合入Pdf2zh WinEXE中</a>  <code>#201</code> · updated: 2025-11-05 · created: 2025-11-05  
   labels: enhancement, good first issue
 
-## open-telemetry/opentelemetry-python  ⭐ 2252
+## UglyToad/PdfPig  ⭐ 2308
+[Repository](https://github.com/UglyToad/PdfPig)
+
+- <a href="https://github.com/UglyToad/PdfPig/issues/1176">Extraction issue - Letter horizontal positioning / compressed glyph widths (Aspose‑generated PDF)</a>  <code>#1176</code> · updated: 2025-12-04 · created: 2025-10-03  
+  labels: bug, good first issue, document-reading
+
+## meltano/meltano  ⭐ 2291
+[Repository](https://github.com/meltano/meltano)
+
+- <a href="https://github.com/meltano/meltano/issues/9586">feature: Add plugin name or `meltano` as another column in the console-formatted output</a>  <code>#9586</code> · updated: 2025-11-12 · created: 2025-10-18  
+  labels: good first issue, Accepting Pull Requests, ux, kind/Feature, valuestream/Meltano, Logging
+
+## apache/kyuubi  ⭐ 2283
+[Repository](https://github.com/apache/kyuubi)
+
+- <a href="https://github.com/apache/kyuubi/issues/7234">[Improvement] Update Spark Ranger plugin to 2.7.0</a>  <code>#7234</code> · updated: 2025-10-29 · created: 2025-10-29  
+  labels: help wanted, good first issue, kind:documentation
+
+## ravachol/kew  ⭐ 2281
+[Repository](https://github.com/ravachol/kew)
+
+- <a href="https://github.com/ravachol/kew/issues/514">Feature Request: Nix Flake</a>  <code>#514</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue
+
+## open-telemetry/opentelemetry-python  ⭐ 2256
 [Repository](https://github.com/open-telemetry/opentelemetry-python)
 
 - <a href="https://github.com/open-telemetry/opentelemetry-python/issues/4821">Incorrect error when passing wrong attribute type on Python 3.9</a>  <code>#4821</code> · updated: 2025-11-28 · created: 2025-11-27  
   labels: bug, good first issue
 
-## AcademySoftwareFoundation/OpenShadingLanguage  ⭐ 2243
-[Repository](https://github.com/AcademySoftwareFoundation/OpenShadingLanguage)
-
-- <a href="https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/issues/2021">osltoy: auto-detect output variable -- doesn&#x27;t need to be Cout if there&#x27;s only one</a>  <code>#2021</code> · updated: 2025-11-30 · created: 2025-09-25  
-  labels: feature request, enhancement, good first issue, help wanted, Dev Days, devdays25, osltoy
-
-## abenz1267/walker  ⭐ 2233
+## abenz1267/walker  ⭐ 2255
 [Repository](https://github.com/abenz1267/walker)
 
 - <a href="https://github.com/abenz1267/walker/issues/500">Feature Request: Event System for Walker Rust Version</a>  <code>#500</code> · updated: 2025-10-07 · created: 2025-09-30  
   labels: enhancement, good first issue
 
-## OpenLineage/OpenLineage  ⭐ 2226
+## AcademySoftwareFoundation/OpenShadingLanguage  ⭐ 2245
+[Repository](https://github.com/AcademySoftwareFoundation/OpenShadingLanguage)
+
+- <a href="https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/issues/2021">osltoy: auto-detect output variable -- doesn&#x27;t need to be Cout if there&#x27;s only one</a>  <code>#2021</code> · updated: 2025-11-30 · created: 2025-09-25  
+  labels: feature request, enhancement, good first issue, help wanted, Dev Days, devdays25, osltoy
+
+## OpenLineage/OpenLineage  ⭐ 2232
 [Repository](https://github.com/OpenLineage/OpenLineage)
 
 - <a href="https://github.com/OpenLineage/OpenLineage/issues/4141">[BUG] Command line flag `target-path` is ignored</a>  <code>#4141</code> · updated: 2025-11-17 · created: 2025-11-16  
   labels: kind:bug, good first issue, area:integration/dbt, area:integration/common, language:python
 
-## ash-project/ash  ⭐ 2225
+## ash-project/ash  ⭐ 2229
 [Repository](https://github.com/ash-project/ash)
 
 - <a href="https://github.com/ash-project/ash/issues/2420">More (user-) fault tolerant install script</a>  <code>#2420</code> · updated: 2025-11-04 · created: 2025-11-03  
@@ -7372,7 +7344,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/ash-project/ash/issues/2345">clear metadata from records passed to for_update/destroy</a>  <code>#2345</code> · updated: 2025-10-02 · created: 2025-10-01  
   labels: bug, good first issue
 
-## newton-physics/newton  ⭐ 2204
+## newton-physics/newton  ⭐ 2223
 [Repository](https://github.com/newton-physics/newton)
 
 - <a href="https://github.com/newton-physics/newton/issues/986">Rerun viewer with custom address is not implemented</a>  <code>#986</code> · updated: 2025-11-26 · created: 2025-10-24  
@@ -7380,23 +7352,21 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/newton-physics/newton/issues/987">Rerun viewer &#x27;hidden&#x27; property is not implemented</a>  <code>#987</code> · updated: 2025-11-17 · created: 2025-10-24  
   labels: good first issue
 
-## kubernetes-sigs/kueue  ⭐ 2202
+## ray-project/kuberay  ⭐ 2211
+[Repository](https://github.com/ray-project/kuberay)
+
+- <a href="https://github.com/ray-project/kuberay/issues/4289">[Docs] Add KubeRay ecosystem doc in Volcano</a>  <code>#4289</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: enhancement, good-first-issue, triage
+
+## kubernetes-sigs/kueue  ⭐ 2210
 [Repository](https://github.com/kubernetes-sigs/kueue)
 
 - <a href="https://github.com/kubernetes-sigs/kueue/issues/8164">website: setup dead links checker</a>  <code>#8164</code> · updated: 2025-12-14 · created: 2025-12-10  
   labels: good first issue, help wanted, kind/cleanup
-- <a href="https://github.com/kubernetes-sigs/kueue/issues/7864">Update Job-Integrated-Features with TrainJob functionality</a>  <code>#7864</code> · updated: 2025-11-25 · created: 2025-11-25  
-  labels: good first issue, help wanted, kind/documentation
 - <a href="https://github.com/kubernetes-sigs/kueue/issues/7809">Use ReserveQuotaAt/AdmittedAt instead of ReserveQuota/Admitted in unit tests.</a>  <code>#7809</code> · updated: 2025-11-21 · created: 2025-11-21  
   labels: good first issue, help wanted, kind/cleanup
 
-## lexiforest/curl-impersonate  ⭐ 2198
-[Repository](https://github.com/lexiforest/curl-impersonate)
-
-- <a href="https://github.com/lexiforest/curl-impersonate/issues/184">Multipart boundary not impersonated</a>  <code>#184</code> · updated: 2025-10-01 · created: 2025-10-01  
-  labels: good first issue
-
-## huggingface/lighteval  ⭐ 2195
+## huggingface/lighteval  ⭐ 2206
 [Repository](https://github.com/huggingface/lighteval)
 
 - <a href="https://github.com/huggingface/lighteval/issues/1056">[EVAL] Long Horizon Execution</a>  <code>#1056</code> · updated: 2025-11-20 · created: 2025-11-13  
@@ -7404,13 +7374,39 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/huggingface/lighteval/issues/1036">[EVAL] Add kyrgyzLLM benchmark</a>  <code>#1036</code> · updated: 2025-11-20 · created: 2025-11-04  
   labels: good first issue, new-task
 
-## typelevel/cats-effect  ⭐ 2195
+## lexiforest/curl-impersonate  ⭐ 2200
+[Repository](https://github.com/lexiforest/curl-impersonate)
+
+- <a href="https://github.com/lexiforest/curl-impersonate/issues/184">Multipart boundary not impersonated</a>  <code>#184</code> · updated: 2025-10-01 · created: 2025-10-01  
+  labels: good first issue
+
+## llm-d/llm-d  ⭐ 2198
+[Repository](https://github.com/llm-d/llm-d)
+
+- <a href="https://github.com/llm-d/llm-d/issues/458">Update LMCache version in llm-d image</a>  <code>#458</code> · updated: 2025-11-24 · created: 2025-11-19  
+  labels: good first issue, help wanted
+- <a href="https://github.com/llm-d/llm-d/issues/426">[Graduation]: `llm-d-infra` should be graduated from the `llm-d-incubation` to `llm-d` org</a>  <code>#426</code> · updated: 2025-10-31 · created: 2025-10-31  
+  labels: documentation, enhancement, good first issue, help wanted, hacktoberfest-accepted
+- <a href="https://github.com/llm-d/llm-d/issues/323">[Demo] Multiple model deployment</a>  <code>#323</code> · updated: 2025-10-25 · created: 2025-10-06  
+  labels: enhancement, good first issue, help wanted, hacktoberfest-accepted
+- <a href="https://github.com/llm-d/llm-d/issues/284">Configure best practice lifecyle hooks and  probes in vllm deployments</a>  <code>#284</code> · updated: 2025-10-21 · created: 2025-09-30  
+  labels: enhancement, good first issue, official-guides
+- <a href="https://github.com/llm-d/llm-d/issues/287">Create an issue template for new hardware and platform support</a>  <code>#287</code> · updated: 2025-10-14 · created: 2025-10-01  
+  labels: documentation, good first issue, CICD
+- <a href="https://github.com/llm-d/llm-d/issues/346">[Feat] Upgrade NIXL to v0.6.1</a>  <code>#346</code> · updated: 2025-10-09 · created: 2025-10-09  
+  labels: good first issue, Image builds, hacktoberfest-accepted
+- <a href="https://github.com/llm-d/llm-d/issues/301">[enhance] Optimizing Inference Image Size</a>  <code>#301</code> · updated: 2025-10-02 · created: 2025-10-02  
+  labels: good first issue, CICD, Image builds, hacktoberfest-accepted
+- <a href="https://github.com/llm-d/llm-d/issues/285">Add GKE internal LB gateway to user guides</a>  <code>#285</code> · updated: 2025-09-30 · created: 2025-09-30  
+  labels: good first issue, official-guides
+
+## typelevel/cats-effect  ⭐ 2196
 [Repository](https://github.com/typelevel/cats-effect)
 
 - <a href="https://github.com/typelevel/cats-effect/issues/4505">`OutOfMemoryError` not propagated when `IO` originates from `CompletableFuture`</a>  <code>#4505</code> · updated: 2025-11-06 · created: 2025-10-13  
   labels: :beetle: bug, good first issue
 
-## cocotb/cocotb  ⭐ 2185
+## cocotb/cocotb  ⭐ 2187
 [Repository](https://github.com/cocotb/cocotb)
 
 - <a href="https://github.com/cocotb/cocotb/issues/5085">Test `COCOTB_REDUCED_LOG_FMT=0` in regression</a>  <code>#5085</code> · updated: 2025-12-16 · created: 2025-10-16  
@@ -7436,27 +7432,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/fairlearn/fairlearn/issues/1586">MNT Remove a DeprecationWarning (Pillow) in pyproject.toml</a>  <code>#1586</code> · updated: 2025-10-20 · created: 2025-10-19  
   labels: good first issue
 
-## llm-d/llm-d  ⭐ 2176
-[Repository](https://github.com/llm-d/llm-d)
-
-- <a href="https://github.com/llm-d/llm-d/issues/458">Update LMCache version in llm-d image</a>  <code>#458</code> · updated: 2025-11-24 · created: 2025-11-19  
-  labels: good first issue, help wanted
-- <a href="https://github.com/llm-d/llm-d/issues/426">[Graduation]: `llm-d-infra` should be graduated from the `llm-d-incubation` to `llm-d` org</a>  <code>#426</code> · updated: 2025-10-31 · created: 2025-10-31  
-  labels: documentation, enhancement, good first issue, help wanted, hacktoberfest-accepted
-- <a href="https://github.com/llm-d/llm-d/issues/323">[Demo] Multiple model deployment</a>  <code>#323</code> · updated: 2025-10-25 · created: 2025-10-06  
-  labels: enhancement, good first issue, help wanted, hacktoberfest-accepted
-- <a href="https://github.com/llm-d/llm-d/issues/284">Configure best practice lifecyle hooks and  probes in vllm deployments</a>  <code>#284</code> · updated: 2025-10-21 · created: 2025-09-30  
-  labels: enhancement, good first issue, official-guides
-- <a href="https://github.com/llm-d/llm-d/issues/287">Create an issue template for new hardware and platform support</a>  <code>#287</code> · updated: 2025-10-14 · created: 2025-10-01  
-  labels: documentation, good first issue, CICD
-- <a href="https://github.com/llm-d/llm-d/issues/346">[Feat] Upgrade NIXL to v0.6.1</a>  <code>#346</code> · updated: 2025-10-09 · created: 2025-10-09  
-  labels: good first issue, Image builds, hacktoberfest-accepted
-- <a href="https://github.com/llm-d/llm-d/issues/301">[enhance] Optimizing Inference Image Size</a>  <code>#301</code> · updated: 2025-10-02 · created: 2025-10-02  
-  labels: good first issue, CICD, Image builds, hacktoberfest-accepted
-- <a href="https://github.com/llm-d/llm-d/issues/285">Add GKE internal LB gateway to user guides</a>  <code>#285</code> · updated: 2025-09-30 · created: 2025-09-30  
-  labels: good first issue, official-guides
-
-## ublue-os/bluefin  ⭐ 2170
+## ublue-os/bluefin  ⭐ 2175
 [Repository](https://github.com/ublue-os/bluefin)
 
 - <a href="https://github.com/ublue-os/bluefin/issues/3794">welcome screen says welcome to Fedora</a>  <code>#3794</code> · updated: 2025-12-08 · created: 2025-12-08  
@@ -7470,37 +7446,43 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/Icinga/icinga2/issues/10570">Simplify CA renewal condition</a>  <code>#10570</code> · updated: 2025-09-26 · created: 2025-09-26  
   labels: area/distributed, core/quality, good first issue
 
-## widelands/widelands  ⭐ 2143
+## widelands/widelands  ⭐ 2147
 [Repository](https://github.com/widelands/widelands)
 
 - <a href="https://github.com/widelands/widelands/issues/6933">Allow creating warships directly by lua</a>  <code>#6933</code> · updated: 2025-12-14 · created: 2025-12-14  
   labels: enhancement, good first issue, lua, campaigns & scenarios, seafaring
 
-## sagemath/sage  ⭐ 2139
-[Repository](https://github.com/sagemath/sage)
-
-- <a href="https://github.com/sagemath/sage/issues/41219">Add `print_mode=&#x27;digits-unicode&#x27;` to p-adic numbers</a>  <code>#41219</code> · updated: 2025-11-25 · created: 2025-11-22  
-  labels: t: enhancement, c: padics, good first issue
-
-## swiftlang/swift-build  ⭐ 2139
+## swiftlang/swift-build  ⭐ 2144
 [Repository](https://github.com/swiftlang/swift-build)
 
 - <a href="https://github.com/swiftlang/swift-build/issues/835">Make llbuild task environment overridable from tests</a>  <code>#835</code> · updated: 2025-10-02 · created: 2025-10-02  
   labels: good first issue
 
-## rstudio/gt  ⭐ 2130
+## sagemath/sage  ⭐ 2141
+[Repository](https://github.com/sagemath/sage)
+
+- <a href="https://github.com/sagemath/sage/issues/41219">Add `print_mode=&#x27;digits-unicode&#x27;` to p-adic numbers</a>  <code>#41219</code> · updated: 2025-12-16 · created: 2025-11-22  
+  labels: t: enhancement, c: padics, good first issue
+
+## rstudio/gt  ⭐ 2132
 [Repository](https://github.com/rstudio/gt)
 
-- <a href="https://github.com/rstudio/gt/issues/2033">text_transform and ampersands</a>  <code>#2033</code> · updated: 2025-11-14 · created: 2025-09-19  
-  labels: Type: ☹︎ Bug, Difficulty: [2] Intermediate, Effort: [2] Medium, Priority: [2] Medium, Focus: HTML Output, Good First Issue
 - <a href="https://github.com/rstudio/gt/issues/2053">`cols_nanoplot()` rendering bug, when setting `options(OutDec = &quot;,&quot;)`</a>  <code>#2053</code> · updated: 2025-11-14 · created: 2025-10-15  
   labels: Type: ☹︎ Bug, Difficulty: [2] Intermediate, Effort: [2] Medium, Priority: [3] High, Focus: HTML Output, Focus: i18n, Good First Issue
 - <a href="https://github.com/rstudio/gt/issues/2081">Cannot process empty grouped dataframes if process_md is TRUE</a>  <code>#2081</code> · updated: 2025-11-14 · created: 2025-11-14  
   labels: Type: ☹︎ Bug, Difficulty: [1] Novice, Effort: [2] Medium, Priority: [2] Medium, Good First Issue
 
-## the-turing-way/the-turing-way  ⭐ 2112
+## ramnes/notion-sdk-py  ⭐ 2122
+[Repository](https://github.com/ramnes/notion-sdk-py)
+
+- <a href="https://github.com/ramnes/notion-sdk-py/issues/306">Implement `Client.pages.move`</a>  <code>#306</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: good first issue, task
+
+## the-turing-way/the-turing-way  ⭐ 2117
 [Repository](https://github.com/the-turing-way/the-turing-way)
 
+- <a href="https://github.com/the-turing-way/the-turing-way/issues/4512">[BUG]: Broken video embeds in Online Collaboration Cafe</a>  <code>#4512</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: bug, good first issue, community-handbook
 - <a href="https://github.com/the-turing-way/the-turing-way/issues/4441">[TO EDIT]: Community Handbook/Onboarding and Offboarding</a>  <code>#4441</code> · updated: 2025-12-15 · created: 2025-11-11  
   labels: good first issue
 - <a href="https://github.com/the-turing-way/the-turing-way/issues/4495">Move glossary terms in testing chapter to the glossary</a>  <code>#4495</code> · updated: 2025-12-03 · created: 2025-11-25  
@@ -7518,31 +7500,31 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/the-turing-way/the-turing-way/issues/4398">Simplify glossary reference style</a>  <code>#4398</code> · updated: 2025-11-04 · created: 2025-10-29  
   labels: good first issue, community-handbook
 
-## samchon/nestia  ⭐ 2108
-[Repository](https://github.com/samchon/nestia)
-
-- <a href="https://github.com/samchon/nestia/issues/1403">ReadOnly flag missing in OpenApi Schema</a>  <code>#1403</code> · updated: 2025-11-26 · created: 2025-11-25  
-  labels: help wanted, good first issue, question
-
-## synfig/synfig  ⭐ 2108
-[Repository](https://github.com/synfig/synfig)
-
-- <a href="https://github.com/synfig/synfig/issues/3638">Feature request: Custom hotkeys for Locking/Unlocking Past/Future Keyframes</a>  <code>#3638</code> · updated: 2025-12-01 · created: 2025-11-22  
-  labels: Discussion, Easy, good first issue
-
-## RohanAdwankar/oxdraw  ⭐ 2106
+## RohanAdwankar/oxdraw  ⭐ 2116
 [Repository](https://github.com/RohanAdwankar/oxdraw)
 
 - <a href="https://github.com/RohanAdwankar/oxdraw/issues/5">Diagram Generation Smoothing</a>  <code>#5</code> · updated: 2025-11-28 · created: 2025-10-25  
   labels: good first issue
 
-## ungive/discord-music-presence  ⭐ 2097
+## ungive/discord-music-presence  ⭐ 2115
 [Repository](https://github.com/ungive/discord-music-presence)
 
 - <a href="https://github.com/ungive/discord-music-presence/issues/523">Request for MP to be able to &quot;grill me a cheese&quot;</a>  <code>#523</code> · updated: 2025-11-14 · created: 2025-11-11  
   labels: enhancement, good first issue
 
-## AcademySoftwareFoundation/MaterialX  ⭐ 2093
+## synfig/synfig  ⭐ 2111
+[Repository](https://github.com/synfig/synfig)
+
+- <a href="https://github.com/synfig/synfig/issues/3638">Feature request: Custom hotkeys for Locking/Unlocking Past/Future Keyframes</a>  <code>#3638</code> · updated: 2025-12-01 · created: 2025-11-22  
+  labels: Discussion, Easy, good first issue
+
+## samchon/nestia  ⭐ 2109
+[Repository](https://github.com/samchon/nestia)
+
+- <a href="https://github.com/samchon/nestia/issues/1403">ReadOnly flag missing in OpenApi Schema</a>  <code>#1403</code> · updated: 2025-11-26 · created: 2025-11-25  
+  labels: help wanted, good first issue, question
+
+## AcademySoftwareFoundation/MaterialX  ⭐ 2094
 [Repository](https://github.com/AcademySoftwareFoundation/MaterialX)
 
 - <a href="https://github.com/AcademySoftwareFoundation/MaterialX/issues/2606">Inconsistent background color in MaterialXViewer</a>  <code>#2606</code> · updated: 2025-12-07 · created: 2025-10-08  
@@ -7551,22 +7533,20 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: help wanted, good first issue
 - <a href="https://github.com/AcademySoftwareFoundation/MaterialX/issues/2576">Improve uniqueness of include guard</a>  <code>#2576</code> · updated: 2025-09-28 · created: 2025-09-23  
   labels: help wanted, good first issue
-- <a href="https://github.com/AcademySoftwareFoundation/MaterialX/issues/2573">Graph Editor: Single Input and Output Node</a>  <code>#2573</code> · updated: 2025-09-20 · created: 2025-09-19  
-  labels: help wanted, good first issue
 
-## damus-io/damus  ⭐ 2090
-[Repository](https://github.com/damus-io/damus)
-
-- <a href="https://github.com/damus-io/damus/issues/3240">unexpected behavior: tagging name with @</a>  <code>#3240</code> · updated: 2025-09-18 · created: 2025-09-18  
-  labels: bug, good-first-issue
-
-## openlit/openlit  ⭐ 2083
+## openlit/openlit  ⭐ 2088
 [Repository](https://github.com/openlit/openlit)
 
 - <a href="https://github.com/openlit/openlit/issues/930">Feature: Multiple Processors</a>  <code>#930</code> · updated: 2025-11-11 · created: 2025-11-10  
   labels: good first issue, help wanted, openlit-python, :raised_hand: Up for Grabs
 
-## NVIDIA/cccl  ⭐ 2080
+## bluealloy/revm  ⭐ 2086
+[Repository](https://github.com/bluealloy/revm)
+
+- <a href="https://github.com/bluealloy/revm/issues/3207">Update default `SpecId` to `OSAKA`, update `OpSpecId` to `JOVIAN`</a>  <code>#3207</code> · updated: 2025-12-04 · created: 2025-12-04  
+  labels: good first issue
+
+## NVIDIA/cccl  ⭐ 2085
 [Repository](https://github.com/NVIDIA/cccl)
 
 - <a href="https://github.com/NVIDIA/cccl/issues/6486">[FEA]: Improve NVHPC smoke tests</a>  <code>#6486</code> · updated: 2025-12-10 · created: 2025-11-04  
@@ -7576,43 +7556,47 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/NVIDIA/cccl/issues/6108">[FEA]: Implement a proper `__ffs` equivalent</a>  <code>#6108</code> · updated: 2025-10-03 · created: 2025-10-02  
   labels: feature request, good first issue, libcu++
 
-## bluealloy/revm  ⭐ 2080
-[Repository](https://github.com/bluealloy/revm)
-
-- <a href="https://github.com/bluealloy/revm/issues/3207">Update default `SpecId` to `OSAKA`, update `OpSpecId` to `JOVIAN`</a>  <code>#3207</code> · updated: 2025-12-04 · created: 2025-12-04  
-  labels: good first issue
-
-## medplum/medplum  ⭐ 2058
+## medplum/medplum  ⭐ 2060
 [Repository](https://github.com/medplum/medplum)
 
 - <a href="https://github.com/medplum/medplum/issues/7427">Add `process` to vmcontext sandbox</a>  <code>#7427</code> · updated: 2025-11-18 · created: 2025-09-20  
   labels: good first issue
 
-## oras-project/oras  ⭐ 2040
+## oras-project/oras  ⭐ 2047
 [Repository](https://github.com/oras-project/oras)
 
 - <a href="https://github.com/oras-project/oras/issues/1935">Expand golangci-lint configuration with additional linters</a>  <code>#1935</code> · updated: 2025-12-10 · created: 2025-12-10  
   labels: bug, good first issue
 - <a href="https://github.com/oras-project/oras/issues/1915">Enable linter revive to .golangci.yml</a>  <code>#1915</code> · updated: 2025-12-07 · created: 2025-11-26  
   labels: good first issue, keep open
-- <a href="https://github.com/oras-project/oras/issues/1920">Migrate from deprecated `gopkg.in/yaml.v3` to `go.yaml.in/yaml/v3` maintained package</a>  <code>#1920</code> · updated: 2025-12-06 · created: 2025-12-06  
-  labels: good first issue
 - <a href="https://github.com/oras-project/oras/issues/1916">Add test coverage for cmd/oras/internal/display</a>  <code>#1916</code> · updated: 2025-11-26 · created: 2025-11-26  
   labels: good first issue, keep open
 - <a href="https://github.com/oras-project/oras/issues/1905">Add static security check</a>  <code>#1905</code> · updated: 2025-11-26 · created: 2025-11-14  
   labels: good first issue, ci
 
-## nextcloud/spreed  ⭐ 2039
+## nextcloud/spreed  ⭐ 2040
 [Repository](https://github.com/nextcloud/spreed)
 
-- <a href="https://github.com/nextcloud/spreed/issues/16473">Remove redundant unread mention button when filtering for unread mentions</a>  <code>#16473</code> · updated: 2025-12-11 · created: 2025-12-03  
+- <a href="https://github.com/nextcloud/spreed/issues/16473">Remove redundant unread mention button when filtering for unread mentions</a>  <code>#16473</code> · updated: 2025-12-17 · created: 2025-12-03  
   labels: 1. to develop, bug, papercut, good first issue
 
-## kubearmor/KubeArmor  ⭐ 2026
+## openai/openai-agents-js  ⭐ 2039
+[Repository](https://github.com/openai/openai-agents-js)
+
+- <a href="https://github.com/openai/openai-agents-js/issues/791">DeepSeek thinking-mode tool calls fail with Missing reasoning_content when using aisdk()</a>  <code>#791</code> · updated: 2025-12-19 · created: 2025-12-19  
+  labels: enhancement, good first issue, package:agents-extensions
+
+## kubearmor/KubeArmor  ⭐ 2029
 [Repository](https://github.com/kubearmor/KubeArmor)
 
 - <a href="https://github.com/kubearmor/KubeArmor/issues/2315">bug: Make untrackedNs flag configurable via kubearmor-config</a>  <code>#2315</code> · updated: 2025-12-12 · created: 2025-12-12  
   labels: bug, good first issue
+
+## moazbuilds/CodeMachine-CLI  ⭐ 2023
+[Repository](https://github.com/moazbuilds/CodeMachine-CLI)
+
+- <a href="https://github.com/moazbuilds/CodeMachine-CLI/issues/57">Error at /start</a>  <code>#57</code> · updated: 2025-12-11 · created: 2025-12-11  
+  labels: bug, duplicate, good first issue
 
 ## flutter/flutter-intellij  ⭐ 2012
 [Repository](https://github.com/flutter/flutter-intellij)
@@ -7620,15 +7604,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/flutter/flutter-intellij/issues/8570">Update IntelliJ/Android Studio Setup Docs in README (Outdated Video &amp; Steps)</a>  <code>#8570</code> · updated: 2025-10-06 · created: 2025-10-04  
   labels: P1, good-first-issue
 
-## ScoopInstaller/Extras  ⭐ 2000
-[Repository](https://github.com/ScoopInstaller/Extras)
-
-- <a href="https://github.com/ScoopInstaller/Extras/issues/16379">[Bug] Various packages stopped updating due to checkver errors</a>  <code>#16379</code> · updated: 2025-12-13 · created: 2025-10-19  
-  labels: bug, good first issue
-- <a href="https://github.com/ScoopInstaller/Extras/issues/16288">[Enhance] qview: Add file association</a>  <code>#16288</code> · updated: 2025-10-10 · created: 2025-10-08  
-  labels: package improvement, good first issue
-
-## lichess-org/mobile  ⭐ 2000
+## lichess-org/mobile  ⭐ 2004
 [Repository](https://github.com/lichess-org/mobile)
 
 - <a href="https://github.com/lichess-org/mobile/issues/2303">Feature: add active filter to study list screen title</a>  <code>#2303</code> · updated: 2025-11-16 · created: 2025-10-26  
@@ -7640,29 +7616,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/lichess-org/mobile/issues/2228">Staunty knight piece not centered in mobile app</a>  <code>#2228</code> · updated: 2025-10-08 · created: 2025-09-27  
   labels: good first issue, cat: design
 
-## moazbuilds/CodeMachine-CLI  ⭐ 1998
-[Repository](https://github.com/moazbuilds/CodeMachine-CLI)
+## ScoopInstaller/Extras  ⭐ 2000
+[Repository](https://github.com/ScoopInstaller/Extras)
 
-- <a href="https://github.com/moazbuilds/CodeMachine-CLI/issues/57">Error at /start</a>  <code>#57</code> · updated: 2025-12-11 · created: 2025-12-11  
-  labels: bug, duplicate, good first issue
+- <a href="https://github.com/ScoopInstaller/Extras/issues/16379">[Bug] Various packages stopped updating due to checkver errors</a>  <code>#16379</code> · updated: 2025-12-13 · created: 2025-10-19  
+  labels: bug, good first issue
+- <a href="https://github.com/ScoopInstaller/Extras/issues/16288">[Enhance] qview: Add file association</a>  <code>#16288</code> · updated: 2025-10-10 · created: 2025-10-08  
+  labels: package improvement, good first issue
 
-## kubeflow/trainer  ⭐ 1985
-[Repository](https://github.com/kubeflow/trainer)
-
-- <a href="https://github.com/kubeflow/trainer/issues/2980">Volcano integration doesn&#x27;t account for resourcesPerNode override in the trainjob</a>  <code>#2980</code> · updated: 2025-11-18 · created: 2025-11-12  
-  labels: kind/bug, help wanted, good first issue, area/controller
-- <a href="https://github.com/kubeflow/trainer/issues/2885">Add unit tests for Trainer Config API</a>  <code>#2885</code> · updated: 2025-10-14 · created: 2025-10-09  
-  labels: help wanted, good first issue, area/testing
-
-## ferrumc-rs/ferrumc  ⭐ 1983
-[Repository](https://github.com/ferrumc-rs/ferrumc)
-
-- <a href="https://github.com/ferrumc-rs/ferrumc/issues/278">Implement mc_format! macro for MiniMessage-style component generation</a>  <code>#278</code> · updated: 2025-12-03 · created: 2025-11-30  
-  labels: enhancement, good first issue
-- <a href="https://github.com/ferrumc-rs/ferrumc/issues/264">native ngrok integration</a>  <code>#264</code> · updated: 2025-11-24 · created: 2025-11-23  
-  labels: enhancement, good first issue
-
-## grafana/mcp-grafana  ⭐ 1982
+## grafana/mcp-grafana  ⭐ 1999
 [Repository](https://github.com/grafana/mcp-grafana)
 
 - <a href="https://github.com/grafana/mcp-grafana/issues/334">update alert rule</a>  <code>#334</code> · updated: 2025-11-05 · created: 2025-10-16  
@@ -7670,13 +7632,29 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/grafana/mcp-grafana/issues/312">Add MCP tool to create Grafana annotations</a>  <code>#312</code> · updated: 2025-10-09 · created: 2025-10-08  
   labels: enhancement, good first issue
 
-## Kaliiiiiiiiii-Vinyzu/patchright  ⭐ 1975
+## ferrumc-rs/ferrumc  ⭐ 1994
+[Repository](https://github.com/ferrumc-rs/ferrumc)
+
+- <a href="https://github.com/ferrumc-rs/ferrumc/issues/278">Implement mc_format! macro for MiniMessage-style component generation</a>  <code>#278</code> · updated: 2025-12-03 · created: 2025-11-30  
+  labels: enhancement, good first issue
+- <a href="https://github.com/ferrumc-rs/ferrumc/issues/264">native ngrok integration</a>  <code>#264</code> · updated: 2025-11-24 · created: 2025-11-23  
+  labels: enhancement, good first issue
+
+## Kaliiiiiiiiii-Vinyzu/patchright  ⭐ 1989
 [Repository](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright)
 
 - <a href="https://github.com/Kaliiiiiiiiii-Vinyzu/patchright/issues/145">[BUG] innerHTML and getAttribute tests fail because they are no longer atomic when using Patchright</a>  <code>#145</code> · updated: 2025-12-03 · created: 2025-12-02  
   labels: bug, good first issue
 
-## PDFMathTranslate-next/PDFMathTranslate-next  ⭐ 1966
+## kubeflow/trainer  ⭐ 1986
+[Repository](https://github.com/kubeflow/trainer)
+
+- <a href="https://github.com/kubeflow/trainer/issues/2980">Volcano integration doesn&#x27;t account for resourcesPerNode override in the trainjob</a>  <code>#2980</code> · updated: 2025-11-18 · created: 2025-11-12  
+  labels: kind/bug, help wanted, good first issue, area/controller
+- <a href="https://github.com/kubeflow/trainer/issues/2885">Add unit tests for Trainer Config API</a>  <code>#2885</code> · updated: 2025-10-14 · created: 2025-10-09  
+  labels: help wanted, good first issue, area/testing
+
+## PDFMathTranslate-next/PDFMathTranslate-next  ⭐ 1985
 [Repository](https://github.com/PDFMathTranslate-next/PDFMathTranslate-next)
 
 - <a href="https://github.com/PDFMathTranslate-next/PDFMathTranslate-next/issues/261">Supports multiple APIs (OpenAI-compatible only). This is a temporary solution—simply combine multiple keys separated by a delimiter.</a>  <code>#261</code> · updated: 2025-11-06 · created: 2025-11-06  
@@ -7690,19 +7668,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/chapel-lang/chapel/issues/28120">Refactor mason error handling for better unit testing</a>  <code>#28120</code> · updated: 2025-12-03 · created: 2025-12-03  
   labels: good first issue, type: Refactor
 
-## opengrep/opengrep  ⭐ 1951
+## opengrep/opengrep  ⭐ 1962
 [Repository](https://github.com/opengrep/opengrep)
 
+- <a href="https://github.com/opengrep/opengrep/issues/495">CI: Allow to skip Windows and maybe OSX using workflow parameters in rolling-release.yaml</a>  <code>#495</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: enhancement, good first issue, low-priority
 - <a href="https://github.com/opengrep/opengrep/issues/454">nuitka caches not really used in windows build</a>  <code>#454</code> · updated: 2025-10-30 · created: 2025-10-28  
   labels: good first issue
 
-## philippemerle/KubeDiagrams  ⭐ 1949
-[Repository](https://github.com/philippemerle/KubeDiagrams)
-
-- <a href="https://github.com/philippemerle/KubeDiagrams/issues/62">Feature: introduce external-secrets.io/v1 ExternalSecret kd file</a>  <code>#62</code> · updated: 2025-11-18 · created: 2025-10-23  
-  labels: enhancement, good first issue
-
-## kagent-dev/kagent  ⭐ 1942
+## kagent-dev/kagent  ⭐ 1956
 [Repository](https://github.com/kagent-dev/kagent)
 
 - <a href="https://github.com/kagent-dev/kagent/issues/975">automatically update the list of agents and mcp servers</a>  <code>#975</code> · updated: 2025-10-01 · created: 2025-10-01  
@@ -7710,19 +7684,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/kagent-dev/kagent/issues/973">CLI config values are not used</a>  <code>#973</code> · updated: 2025-10-01 · created: 2025-09-30  
   labels: good first issue, help wanted, CLI
 
-## mikker/LeaderKey  ⭐ 1942
+## mikker/LeaderKey  ⭐ 1950
 [Repository](https://github.com/mikker/LeaderKey)
 
 - <a href="https://github.com/mikker/LeaderKey/issues/285">[Feature Request] Deeplink to reload the config</a>  <code>#285</code> · updated: 2025-11-16 · created: 2025-11-15  
   labels: help wanted, good first issue, feature request
 
-## Shopify/ruby-lsp  ⭐ 1929
-[Repository](https://github.com/Shopify/ruby-lsp)
+## philippemerle/KubeDiagrams  ⭐ 1949
+[Repository](https://github.com/philippemerle/KubeDiagrams)
 
-- <a href="https://github.com/Shopify/ruby-lsp/issues/3845">Log entries for auto-detected libraries could indicate how they were detected</a>  <code>#3845</code> · updated: 2025-12-08 · created: 2025-11-29  
-  labels: enhancement, good-first-issue, help-wanted
+- <a href="https://github.com/philippemerle/KubeDiagrams/issues/62">Feature: introduce external-secrets.io/v1 ExternalSecret kd file</a>  <code>#62</code> · updated: 2025-11-18 · created: 2025-10-23  
+  labels: enhancement, good first issue
 
-## mdn/translated-content  ⭐ 1929
+## mdn/translated-content  ⭐ 1931
 [Repository](https://github.com/mdn/translated-content)
 
 - <a href="https://github.com/mdn/translated-content/issues/29686">[ja] インクリメント演算子の解説を「減算」から「インクリメント」に修正する提案</a>  <code>#29686</code> · updated: 2025-11-11 · created: 2025-10-08  
@@ -7730,13 +7704,21 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/mdn/translated-content/issues/29137">[ja] CSSプロパティ `-webkit-mask-box-image` でエラーが表示される</a>  <code>#29137</code> · updated: 2025-11-11 · created: 2025-09-21  
   labels: good first issue, l10n-ja
 
-## scraly/developers-conferences-agenda  ⭐ 1905
-[Repository](https://github.com/scraly/developers-conferences-agenda)
+## Shopify/ruby-lsp  ⭐ 1929
+[Repository](https://github.com/Shopify/ruby-lsp)
 
-- <a href="https://github.com/scraly/developers-conferences-agenda/issues/1858">Adding cfp links in the events</a>  <code>#1858</code> · updated: 2025-12-13 · created: 2025-12-13  
-  labels: enhancement, good-first-issue
+- <a href="https://github.com/Shopify/ruby-lsp/issues/3861">Support `rv` as a version manager.</a>  <code>#3861</code> · updated: 2025-12-18 · created: 2025-12-10  
+  labels: enhancement, good-first-issue, help-wanted
+- <a href="https://github.com/Shopify/ruby-lsp/issues/3845">Log entries for auto-detected libraries could indicate how they were detected</a>  <code>#3845</code> · updated: 2025-12-08 · created: 2025-11-29  
+  labels: enhancement, good-first-issue, help-wanted
 
-## pentacent/keila  ⭐ 1904
+## nat-n/poethepoet  ⭐ 1914
+[Repository](https://github.com/nat-n/poethepoet)
+
+- <a href="https://github.com/nat-n/poethepoet/issues/325">Add support for &quot;choices&quot; option in task arguments</a>  <code>#325</code> · updated: 2025-11-04 · created: 2025-11-04  
+  labels: enhancement, good first issue
+
+## pentacent/keila  ⭐ 1910
 [Repository](https://github.com/pentacent/keila)
 
 - <a href="https://github.com/pentacent/keila/issues/468">[Feature request] Support WEBP as image format in newsletters</a>  <code>#468</code> · updated: 2025-10-31 · created: 2025-10-27  
@@ -7744,13 +7726,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pentacent/keila/issues/465">Full height editor?</a>  <code>#465</code> · updated: 2025-10-03 · created: 2025-09-30  
   labels: enhancement, good first issue, ready to implement
 
-## nat-n/poethepoet  ⭐ 1895
-[Repository](https://github.com/nat-n/poethepoet)
+## scraly/developers-conferences-agenda  ⭐ 1907
+[Repository](https://github.com/scraly/developers-conferences-agenda)
 
-- <a href="https://github.com/nat-n/poethepoet/issues/325">Add support for &quot;choices&quot; option in task arguments</a>  <code>#325</code> · updated: 2025-11-04 · created: 2025-11-04  
-  labels: enhancement, good first issue
+- <a href="https://github.com/scraly/developers-conferences-agenda/issues/1858">Adding cfp links in the events</a>  <code>#1858</code> · updated: 2025-12-13 · created: 2025-12-13  
+  labels: enhancement, good-first-issue
 
-## statping-ng/statping-ng  ⭐ 1888
+## statping-ng/statping-ng  ⭐ 1889
 [Repository](https://github.com/statping-ng/statping-ng)
 
 - <a href="https://github.com/statping-ng/statping-ng/issues/351">Add topics support to Telegram Chats</a>  <code>#351</code> · updated: 2025-10-06 · created: 2025-10-06  
@@ -7762,13 +7744,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/alandtse/alexa_media_player/issues/3184">Improve retry/attempt messaging clarity in notification refresh</a>  <code>#3184</code> · updated: 2025-11-30 · created: 2025-11-30  
   labels: help wanted, good first issue
 
-## apache/burr  ⭐ 1865
+## apache/burr  ⭐ 1869
 [Repository](https://github.com/apache/burr)
 
 - <a href="https://github.com/apache/burr/issues/607">Streaming Event type, type hint, should support union type</a>  <code>#607</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: bug, good first issue
 
-## typeddjango/django-stubs  ⭐ 1859
+## zarr-developers/zarr-python  ⭐ 1867
+[Repository](https://github.com/zarr-developers/zarr-python)
+
+- <a href="https://github.com/zarr-developers/zarr-python/issues/3624">pre-commit is under-determined</a>  <code>#3624</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: help wanted, good-first-issue
+
+## typeddjango/django-stubs  ⭐ 1860
 [Repository](https://github.com/typeddjango/django-stubs)
 
 - <a href="https://github.com/typeddjango/django-stubs/issues/2944">CALL TO ACTION: Adding Django 6.0 stubs</a>  <code>#2944</code> · updated: 2025-12-13 · created: 2025-12-11  
@@ -7784,13 +7772,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/tgstation/tgstation/issues/93596">Fireproofed modsuit still burns</a>  <code>#93596</code> · updated: 2025-10-26 · created: 2025-10-23  
   labels: Good First Issue
 
-## ezEngine/ezEngine  ⭐ 1852
+## ezEngine/ezEngine  ⭐ 1853
 [Repository](https://github.com/ezEngine/ezEngine)
 
 - <a href="https://github.com/ezEngine/ezEngine/issues/1706">[FEATURE] Animated sprite for sprite component</a>  <code>#1706</code> · updated: 2025-11-01 · created: 2025-11-01  
   labels: good first issue, help wanted, improvement, needs documentation
 
-## perses/perses  ⭐ 1839
+## perses/perses  ⭐ 1853
 [Repository](https://github.com/perses/perses)
 
 - <a href="https://github.com/perses/perses/issues/3665">While new data is loading, panels should keep displaying the data and not the loading skeleton</a>  <code>#3665</code> · updated: 2025-12-05 · created: 2025-12-05  
@@ -7808,13 +7796,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/perses/perses/issues/3430">Lack of proper exception handling in Search Bar</a>  <code>#3430</code> · updated: 2025-10-06 · created: 2025-10-06  
   labels: bug, good first issue, ui, priority/P1
 
-## tracel-ai/cubecl  ⭐ 1836
+## tracel-ai/cubecl  ⭐ 1840
 [Repository](https://github.com/tracel-ai/cubecl)
 
 - <a href="https://github.com/tracel-ai/cubecl/issues/936">Streamline the LLVM bundle size by removing unused bindings</a>  <code>#936</code> · updated: 2025-09-30 · created: 2025-09-30  
   labels: good first issue
 
-## data-engineering-community/data-engineering-wiki  ⭐ 1831
+## data-engineering-community/data-engineering-wiki  ⭐ 1833
 [Repository](https://github.com/data-engineering-community/data-engineering-wiki)
 
 - <a href="https://github.com/data-engineering-community/data-engineering-wiki/issues/127">Link Checker Report</a>  <code>#127</code> · updated: 2025-12-15 · created: 2025-12-15  
@@ -7834,13 +7822,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/data-engineering-community/data-engineering-wiki/issues/119">Link Checker Report</a>  <code>#119</code> · updated: 2025-09-22 · created: 2025-09-22  
   labels: good first issue, report, automated issue
 
-## ilai-deutel/kibi  ⭐ 1825
-[Repository](https://github.com/ilai-deutel/kibi)
+## gepa-ai/gepa  ⭐ 1833
+[Repository](https://github.com/gepa-ai/gepa)
 
-- <a href="https://github.com/ilai-deutel/kibi/issues/459">Start incremental search from current cursor position, not from the top of the file</a>  <code>#459</code> · updated: 2025-10-24 · created: 2025-10-21  
-  labels: enhancement, good first issue
+- <a href="https://github.com/gepa-ai/gepa/issues/116">Abstract GEPAEngine.run() to have discrete steps that can be run by an external controller</a>  <code>#116</code> · updated: 2025-11-10 · created: 2025-10-19  
+  labels: good first issue
+- <a href="https://github.com/gepa-ai/gepa/issues/97">Reflective dataset contains potentially redundant data for ReAct agent</a>  <code>#97</code> · updated: 2025-10-20 · created: 2025-10-07  
+  labels: good first issue
 
-## kafbat/kafka-ui  ⭐ 1822
+## kafbat/kafka-ui  ⭐ 1830
 [Repository](https://github.com/kafbat/kafka-ui)
 
 - <a href="https://github.com/kafbat/kafka-ui/issues/1437">Allow Kafka-UI container to use Kafka certificates directly (.key, .cert, .ca) without manual Java keystore conversion</a>  <code>#1437</code> · updated: 2025-11-14 · created: 2025-10-24  
@@ -7848,43 +7838,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/kafbat/kafka-ui/issues/1436">FE: Messages: JSON path errors crash the page</a>  <code>#1436</code> · updated: 2025-10-30 · created: 2025-10-23  
   labels: good first issue, scope/frontend, type/bug, hacktoberfest, area/messages, status/triage/completed
 
-## matrix-org/matrix-rust-sdk  ⭐ 1813
-[Repository](https://github.com/matrix-org/matrix-rust-sdk)
+## ilai-deutel/kibi  ⭐ 1828
+[Repository](https://github.com/ilai-deutel/kibi)
 
-- <a href="https://github.com/matrix-org/matrix-rust-sdk/issues/5902">examples/get_profiles should be updated to use account().fetch_user_profile</a>  <code>#5902</code> · updated: 2025-12-01 · created: 2025-11-26  
-  labels: enhancement, good first issue, help wanted
-- <a href="https://github.com/matrix-org/matrix-rust-sdk/issues/5774">Room member display names incorrectly marked as ambiguous</a>  <code>#5774</code> · updated: 2025-10-13 · created: 2025-10-12  
-  labels: good first issue, help wanted
-
-## ocaml/dune  ⭐ 1810
-[Repository](https://github.com/ocaml/dune)
-
-- <a href="https://github.com/ocaml/dune/issues/12611">[Merlin] Curious Unbound module issue</a>  <code>#12611</code> · updated: 2025-10-22 · created: 2025-10-21  
-  labels: bug, good first issue, merlin
-- <a href="https://github.com/ocaml/dune/issues/12567">Emacs syntax highlighting for new keywords introduced in parameterised libraries support</a>  <code>#12567</code> · updated: 2025-10-13 · created: 2025-10-13  
-  labels: good first issue
-
-## imfing/hextra  ⭐ 1809
-[Repository](https://github.com/imfing/hextra)
-
-- <a href="https://github.com/imfing/hextra/issues/888">Allow favicons in formats other than svg</a>  <code>#888</code> · updated: 2025-12-09 · created: 2025-12-09  
+- <a href="https://github.com/ilai-deutel/kibi/issues/459">Start incremental search from current cursor position, not from the top of the file</a>  <code>#459</code> · updated: 2025-10-24 · created: 2025-10-21  
   labels: enhancement, good first issue
 
-## gepa-ai/gepa  ⭐ 1807
-[Repository](https://github.com/gepa-ai/gepa)
-
-- <a href="https://github.com/gepa-ai/gepa/issues/116">Abstract GEPAEngine.run() to have discrete steps that can be run by an external controller</a>  <code>#116</code> · updated: 2025-11-10 · created: 2025-10-19  
-  labels: good first issue
-- <a href="https://github.com/gepa-ai/gepa/issues/97">Reflective dataset contains potentially redundant data for ReAct agent</a>  <code>#97</code> · updated: 2025-10-20 · created: 2025-10-07  
-  labels: good first issue
-- <a href="https://github.com/gepa-ai/gepa/issues/75">Allow modifying the program selection: Pareto select only from Top K</a>  <code>#75</code> · updated: 2025-10-20 · created: 2025-09-19  
-  labels: good first issue
-
-## oceanbase/seekdb  ⭐ 1787
+## oceanbase/seekdb  ⭐ 1826
 [Repository](https://github.com/oceanbase/seekdb)
 
-- <a href="https://github.com/oceanbase/seekdb/issues/95">[Enhancement]: delete network speed detect code</a>  <code>#95</code> · updated: 2025-12-13 · created: 2025-12-12  
-  labels: good first issue, help wanted, type: enhancement
 - <a href="https://github.com/oceanbase/seekdb/issues/91">[Enhancement]: Add one script to check dependency before building, &quot;src/sql/parser/_gen_parser.error&quot;</a>  <code>#91</code> · updated: 2025-12-12 · created: 2025-12-10  
   labels: good first issue, help wanted, type: bug
 - <a href="https://github.com/oceanbase/seekdb/issues/66">[Enhancement]: Delete unused code in deps/oblib/src/lib/statistic_event/ob_stat_event.h</a>  <code>#66</code> · updated: 2025-12-03 · created: 2025-12-03  
@@ -7904,7 +7866,37 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/oceanbase/seekdb/issues/10">[Enhancement]: Too many log &#x27;ls service is valid&#x27;</a>  <code>#10</code> · updated: 2025-11-11 · created: 2025-11-11  
   labels: good first issue, help wanted, type: enhancement
 
-## microsoft/windows-drivers-rs  ⭐ 1785
+## imfing/hextra  ⭐ 1815
+[Repository](https://github.com/imfing/hextra)
+
+- <a href="https://github.com/imfing/hextra/issues/888">Allow favicons in formats other than svg</a>  <code>#888</code> · updated: 2025-12-09 · created: 2025-12-09  
+  labels: enhancement, good first issue
+
+## matrix-org/matrix-rust-sdk  ⭐ 1815
+[Repository](https://github.com/matrix-org/matrix-rust-sdk)
+
+- <a href="https://github.com/matrix-org/matrix-rust-sdk/issues/5974">refactoring: Remove the `upsert_thread_subscription` method</a>  <code>#5974</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: good first issue
+- <a href="https://github.com/matrix-org/matrix-rust-sdk/issues/5902">examples/get_profiles should be updated to use account().fetch_user_profile</a>  <code>#5902</code> · updated: 2025-12-01 · created: 2025-11-26  
+  labels: enhancement, good first issue, help wanted
+- <a href="https://github.com/matrix-org/matrix-rust-sdk/issues/5774">Room member display names incorrectly marked as ambiguous</a>  <code>#5774</code> · updated: 2025-10-13 · created: 2025-10-12  
+  labels: good first issue, help wanted
+
+## ocaml/dune  ⭐ 1812
+[Repository](https://github.com/ocaml/dune)
+
+- <a href="https://github.com/ocaml/dune/issues/12611">[Merlin] Curious Unbound module issue</a>  <code>#12611</code> · updated: 2025-10-22 · created: 2025-10-21  
+  labels: bug, good first issue, merlin
+- <a href="https://github.com/ocaml/dune/issues/12567">Emacs syntax highlighting for new keywords introduced in parameterised libraries support</a>  <code>#12567</code> · updated: 2025-10-13 · created: 2025-10-13  
+  labels: good first issue
+
+## sst/models.dev  ⭐ 1795
+[Repository](https://github.com/sst/models.dev)
+
+- <a href="https://github.com/sst/models.dev/issues/479">bug: many models missing &quot;pdf&quot; modality</a>  <code>#479</code> · updated: 2025-12-08 · created: 2025-12-08  
+  labels: good first issue, help wanted
+
+## microsoft/windows-drivers-rs  ⭐ 1787
 [Repository](https://github.com/microsoft/windows-drivers-rs)
 
 - <a href="https://github.com/microsoft/windows-drivers-rs/issues/580">Warn on invalid values for WDK Env Vars</a>  <code>#580</code> · updated: 2025-11-13 · created: 2025-11-13  
@@ -7914,19 +7906,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/microsoft/windows-drivers-rs/issues/526">Move `cargo-wdk` output to stderr</a>  <code>#526</code> · updated: 2025-10-07 · created: 2025-10-04  
   labels: good first issue
 
-## openstatusHQ/data-table-filters  ⭐ 1781
-[Repository](https://github.com/openstatusHQ/data-table-filters)
-
-- <a href="https://github.com/openstatusHQ/data-table-filters/issues/43">missing `HydrationBoundary` for prefetched data</a>  <code>#43</code> · updated: 2025-09-19 · created: 2025-09-19  
-  labels: good first issue
-
-## evoluhq/evolu  ⭐ 1780
+## evoluhq/evolu  ⭐ 1781
 [Repository](https://github.com/evoluhq/evolu)
 
 - <a href="https://github.com/evoluhq/evolu/issues/632">Review LLM in the web</a>  <code>#632</code> · updated: 2025-11-17 · created: 2025-11-17  
   labels: good first issue
 
-## apache/polaris  ⭐ 1769
+## apache/polaris  ⭐ 1774
 [Repository](https://github.com/apache/polaris)
 
 - <a href="https://github.com/apache/polaris/issues/2774">Move blogs to a separate branch</a>  <code>#2774</code> · updated: 2025-11-15 · created: 2025-10-07  
@@ -7934,13 +7920,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/polaris/issues/2675">Run JDBCPersistence test against all schema version (not just the latest)</a>  <code>#2675</code> · updated: 2025-09-24 · created: 2025-09-24  
   labels: enhancement, good first issue
 
-## sst/models.dev  ⭐ 1768
-[Repository](https://github.com/sst/models.dev)
-
-- <a href="https://github.com/sst/models.dev/issues/479">bug: many models missing &quot;pdf&quot; modality</a>  <code>#479</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue, help wanted
-
-## clastix/kamaji  ⭐ 1767
+## clastix/kamaji  ⭐ 1771
 [Repository](https://github.com/clastix/kamaji)
 
 - <a href="https://github.com/clastix/kamaji/issues/1026">Missing workqueue metrics</a>  <code>#1026</code> · updated: 2025-12-02 · created: 2025-12-01  
@@ -7950,20 +7930,14 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/clastix/kamaji/issues/993">Version discovery fails when tenant API server is scaled down</a>  <code>#993</code> · updated: 2025-10-27 · created: 2025-10-21  
   labels: good first issue
 
-## microcks/microcks  ⭐ 1763
-[Repository](https://github.com/microcks/microcks)
-
-- <a href="https://github.com/microcks/microcks/issues/1873">Hour Invocations Chart data slicing is off-by-one, skipping the last minute</a>  <code>#1873</code> · updated: 2025-12-15 · created: 2025-12-11  
-  labels: kind/bug, component/ux, good first issue
-
-## GBALATRO/balatro-gba  ⭐ 1762
+## GBALATRO/balatro-gba  ⭐ 1769
 [Repository](https://github.com/GBALATRO/balatro-gba)
 
-- <a href="https://github.com/GBALATRO/balatro-gba/issues/302">Document selection_grid.h with Doxygen</a>  <code>#302</code> · updated: 2025-12-11 · created: 2025-12-11  
+- <a href="https://github.com/GBALATRO/balatro-gba/issues/330">Remove float in sprite logic</a>  <code>#330</code> · updated: 2025-12-19 · created: 2025-12-19  
+  labels: good first issue, Optimization
+- <a href="https://github.com/GBALATRO/balatro-gba/issues/303">Document splash_screen.h with Doxygen</a>  <code>#303</code> · updated: 2025-12-19 · created: 2025-12-11  
   labels: documentation, good first issue
 - <a href="https://github.com/GBALATRO/balatro-gba/issues/304">Document sprite.h with Doxygen</a>  <code>#304</code> · updated: 2025-12-11 · created: 2025-12-11  
-  labels: documentation, good first issue
-- <a href="https://github.com/GBALATRO/balatro-gba/issues/303">Document splash_screen.h with Doxygen</a>  <code>#303</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: documentation, good first issue
 - <a href="https://github.com/GBALATRO/balatro-gba/issues/301">Document joker.h with Doxygen</a>  <code>#301</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: documentation, good first issue
@@ -7980,19 +7954,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/GBALATRO/balatro-gba/issues/198">New Debug Screen</a>  <code>#198</code> · updated: 2025-11-01 · created: 2025-11-01  
   labels: enhancement, good first issue
 
-## utiasDSL/gym-pybullet-drones  ⭐ 1759
+## microcks/microcks  ⭐ 1766
+[Repository](https://github.com/microcks/microcks)
+
+- <a href="https://github.com/microcks/microcks/issues/1883">chore: Review and fix quality issues raised by Sonar on 1.13.x for 1.13.2</a>  <code>#1883</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: kind/task, good first issue, help wanted, java, keep-open
+
+## utiasDSL/gym-pybullet-drones  ⭐ 1765
 [Repository](https://github.com/utiasDSL/gym-pybullet-drones)
 
 - <a href="https://github.com/utiasDSL/gym-pybullet-drones/issues/287">Code style, Python type hinting</a>  <code>#287</code> · updated: 2025-11-03 · created: 2025-11-03  
   labels: good first issue
 
-## donmccurdy/glTF-Transform  ⭐ 1758
+## donmccurdy/glTF-Transform  ⭐ 1761
 [Repository](https://github.com/donmccurdy/glTF-Transform)
 
 - <a href="https://github.com/donmccurdy/glTF-Transform/issues/1748">Join throws error: Cannot read properties of null (reading &#x27;getCount&#x27;)</a>  <code>#1748</code> · updated: 2025-12-05 · created: 2025-10-31  
   labels: bug, good first issue, package:functions
 
-## antrea-io/antrea  ⭐ 1757
+## antrea-io/antrea  ⭐ 1759
 [Repository](https://github.com/antrea-io/antrea)
 
 - <a href="https://github.com/antrea-io/antrea/issues/7525">Migrate from core.Event to events.Event</a>  <code>#7525</code> · updated: 2025-11-24 · created: 2025-10-27  
@@ -8004,23 +7984,21 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/antrea-io/antrea/issues/7516">Include more &quot;ip&quot; information in Agent supportbundle</a>  <code>#7516</code> · updated: 2025-10-25 · created: 2025-10-24  
   labels: good first issue, area/ops
 
-## cpinitiative/usaco-guide  ⭐ 1754
+## cpinitiative/usaco-guide  ⭐ 1755
 [Repository](https://github.com/cpinitiative/usaco-guide)
 
-- <a href="https://github.com/cpinitiative/usaco-guide/issues/5764">Contact Form Submission - Mistake (Solution: JOI 2018 - Commuter Pass)</a>  <code>#5764</code> · updated: 2025-12-03 · created: 2025-11-26  
-  labels: good first issue, content
 - <a href="https://github.com/cpinitiative/usaco-guide/issues/5757">Contact Form Submission - Mistake (General - Olympiads)</a>  <code>#5757</code> · updated: 2025-11-22 · created: 2025-11-22  
   labels: good first issue, content
 - <a href="https://github.com/cpinitiative/usaco-guide/issues/5754">Contact Form Submission - Unclear Explanation (Platinum - Divide &amp; Conquer - SRQ)</a>  <code>#5754</code> · updated: 2025-11-12 · created: 2025-11-12  
   labels: good first issue, content
 
-## mariocandela/beelzebub  ⭐ 1746
+## mariocandela/beelzebub  ⭐ 1749
 [Repository](https://github.com/mariocandela/beelzebub)
 
 - <a href="https://github.com/mariocandela/beelzebub/issues/225">Feat: Add a rate limit on the LLM plugin</a>  <code>#225</code> · updated: 2025-11-11 · created: 2025-09-26  
   labels: enhancement, good first issue
 
-## LedFx/LedFx  ⭐ 1738
+## LedFx/LedFx  ⭐ 1743
 [Repository](https://github.com/LedFx/LedFx)
 
 - <a href="https://github.com/LedFx/LedFx/issues/1505">AudioDeviceChangeEvent is broken and never fires</a>  <code>#1505</code> · updated: 2025-10-24 · created: 2025-10-02  
@@ -8034,7 +8012,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/hyperledger/besu/issues/9230">eth_estimateGas fails with EIP-7702 (authorizationList) transactions</a>  <code>#9230</code> · updated: 2025-10-14 · created: 2025-09-28  
   labels: bug, good first issue, P2
 
-## Cockatrice/Cockatrice  ⭐ 1730
+## tale/headplane  ⭐ 1737
+[Repository](https://github.com/tale/headplane)
+
+- <a href="https://github.com/tale/headplane/issues/322">Bare metal integration agent</a>  <code>#322</code> · updated: 2025-11-11 · created: 2025-10-08  
+  labels: docs, good first issue
+
+## Cockatrice/Cockatrice  ⭐ 1732
 [Repository](https://github.com/Cockatrice/Cockatrice)
 
 - <a href="https://github.com/Cockatrice/Cockatrice/issues/6404">Improve first-run tutorial</a>  <code>#6404</code> · updated: 2025-12-07 · created: 2025-12-06  
@@ -8046,13 +8030,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/Cockatrice/Cockatrice/issues/6264">Default Tab customisation</a>  <code>#6264</code> · updated: 2025-11-03 · created: 2025-11-01  
   labels: App - Cockatrice, Good first issue, Low Priority
 
-## tale/headplane  ⭐ 1727
-[Repository](https://github.com/tale/headplane)
+## agent-infra/sandbox  ⭐ 1731
+[Repository](https://github.com/agent-infra/sandbox)
 
-- <a href="https://github.com/tale/headplane/issues/322">Bare metal integration agent</a>  <code>#322</code> · updated: 2025-11-11 · created: 2025-10-08  
-  labels: docs, good first issue
+- <a href="https://github.com/agent-infra/sandbox/issues/71">Could you add a built-in snapshot storage and release API, similar to e2b?</a>  <code>#71</code> · updated: 2025-11-11 · created: 2025-11-07  
+  labels: enhancement, good first issue
+- <a href="https://github.com/agent-infra/sandbox/issues/32">Question: how to support full desktop environment via novnc</a>  <code>#32</code> · updated: 2025-10-10 · created: 2025-10-10  
+  labels: enhancement, good first issue
 
-## feldera/feldera  ⭐ 1725
+## feldera/feldera  ⭐ 1727
 [Repository](https://github.com/feldera/feldera)
 
 - <a href="https://github.com/feldera/feldera/issues/5208">Connector for postgres snapshot-and-follow</a>  <code>#5208</code> · updated: 2025-12-02 · created: 2025-12-02  
@@ -8060,19 +8046,29 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/feldera/feldera/issues/5177">Better log message when output buffers remain full</a>  <code>#5177</code> · updated: 2025-11-25 · created: 2025-11-25  
   labels: connectors, Good First Issue, rust
 
-## dynamicslab/pysindy  ⭐ 1713
+## dynamicslab/pysindy  ⭐ 1720
 [Repository](https://github.com/dynamicslab/pysindy)
 
 - <a href="https://github.com/dynamicslab/pysindy/issues/661">[BUG] Trapping objective missing term</a>  <code>#661</code> · updated: 2025-11-09 · created: 2025-11-09  
   labels: good first issue
 
-## argotorg/fe  ⭐ 1710
+## elixir-lang/expert  ⭐ 1709
+[Repository](https://github.com/elixir-lang/expert)
+
+- <a href="https://github.com/elixir-lang/expert/issues/265">Audit Refactorex features</a>  <code>#265</code> · updated: 2025-12-18 · created: 2025-12-17  
+  labels: good first issue, help wanted
+- <a href="https://github.com/elixir-lang/expert/issues/209">Clean local engine build</a>  <code>#209</code> · updated: 2025-11-12 · created: 2025-11-12  
+  labels: enhancement, good first issue
+
+## argotorg/fe  ⭐ 1708
 [Repository](https://github.com/argotorg/fe)
 
+- <a href="https://github.com/argotorg/fe/issues/1181">don&#x27;t attempt parser recovery when compiling/checking via the CLI</a>  <code>#1181</code> · updated: 2025-12-18 · created: 2025-12-11  
+  labels: good first issue
 - <a href="https://github.com/argotorg/fe/issues/1153">add tracing subscriber to tests</a>  <code>#1153</code> · updated: 2025-11-13 · created: 2025-11-13  
   labels: good first issue
 
-## doyensec/inql  ⭐ 1705
+## doyensec/inql  ⭐ 1706
 [Repository](https://github.com/doyensec/inql)
 
 - <a href="https://github.com/doyensec/inql/issues/201">Perform extensive testing of introspection/schema parsing on a large set of endpoints</a>  <code>#201</code> · updated: 2025-12-10 · created: 2025-12-10  
@@ -8082,23 +8078,11 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/doyensec/inql/issues/191">Add ThrottledClient to Engine Fingerprinter</a>  <code>#191</code> · updated: 2025-10-22 · created: 2025-10-22  
   labels: Good First Issue
 
-## elixir-lang/expert  ⭐ 1702
-[Repository](https://github.com/elixir-lang/expert)
-
-- <a href="https://github.com/elixir-lang/expert/issues/209">Clean local engine build</a>  <code>#209</code> · updated: 2025-11-12 · created: 2025-11-12  
-  labels: enhancement, good first issue
-
-## agent-infra/sandbox  ⭐ 1695
-[Repository](https://github.com/agent-infra/sandbox)
-
-- <a href="https://github.com/agent-infra/sandbox/issues/71">Could you add a built-in snapshot storage and release API, similar to e2b?</a>  <code>#71</code> · updated: 2025-11-11 · created: 2025-11-07  
-  labels: enhancement, good first issue
-- <a href="https://github.com/agent-infra/sandbox/issues/32">Question: how to support full desktop environment via novnc</a>  <code>#32</code> · updated: 2025-10-10 · created: 2025-10-10  
-  labels: enhancement, good first issue
-
-## unicode-org/icu4x  ⭐ 1689
+## unicode-org/icu4x  ⭐ 1691
 [Repository](https://github.com/unicode-org/icu4x)
 
+- <a href="https://github.com/unicode-org/icu4x/issues/7063">Implement standard traits for `Yoke`</a>  <code>#7063</code> · updated: 2025-12-17 · created: 2025-10-10  
+  labels: good first issue, help wanted, C-zerovec
 - <a href="https://github.com/unicode-org/icu4x/issues/7030">Add ISO-8601 style Duration parsing</a>  <code>#7030</code> · updated: 2025-12-15 · created: 2025-10-03  
   labels: good first issue, C-calendar
 - <a href="https://github.com/unicode-org/icu4x/issues/7077">Improve efficiency of date add/until</a>  <code>#7077</code> · updated: 2025-12-11 · created: 2025-10-13  
@@ -8111,28 +8095,14 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: T-docs-tests, good first issue, C-calendar
 - <a href="https://github.com/unicode-org/icu4x/issues/7201">Reduce binary code size of Date::try_from_fields</a>  <code>#7201</code> · updated: 2025-11-26 · created: 2025-10-29  
   labels: good first issue, A-performance, C-calendar
-- <a href="https://github.com/unicode-org/icu4x/issues/7063">Implement standard traits for `Yoke`</a>  <code>#7063</code> · updated: 2025-10-27 · created: 2025-10-10  
-  labels: good first issue, help wanted, C-zerovec
 
-## apache/eventmesh  ⭐ 1684
+## apache/eventmesh  ⭐ 1685
 [Repository](https://github.com/apache/eventmesh)
 
 - <a href="https://github.com/apache/eventmesh/issues/5205">[Bug]  Subscription message serialization issue</a>  <code>#5205</code> · updated: 2025-10-09 · created: 2025-09-25  
   labels: bug, help wanted, good first issue
 
-## vdaas/vald  ⭐ 1675
-[Repository](https://github.com/vdaas/vald)
-
-- <a href="https://github.com/vdaas/vald/issues/3263">Add Stage&amp;Context Scan for SBOM</a>  <code>#3263</code> · updated: 2025-10-06 · created: 2025-10-06  
-  labels: team/core, team/sre, type/security, priority/high, priority/medium, type/refactoring, type/suggestion, good first issue
-
-## rgwood/systemctl-tui  ⭐ 1673
-[Repository](https://github.com/rgwood/systemctl-tui)
-
-- <a href="https://github.com/rgwood/systemctl-tui/issues/59">Support for light themes</a>  <code>#59</code> · updated: 2025-11-28 · created: 2025-11-28  
-  labels: bug, good first issue
-
-## apache/fluss  ⭐ 1671
+## apache/fluss  ⭐ 1677
 [Repository](https://github.com/apache/fluss)
 
 - <a href="https://github.com/apache/fluss/issues/1983">Lake Tiering Service is not compatible with Flink 2.1 (ClassNotFoundException MultipleParameterTool)</a>  <code>#1983</code> · updated: 2025-12-03 · created: 2025-11-14  
@@ -8146,25 +8116,37 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/fluss/issues/1939">[doc] Add Flink CDC integration content to Fluss documentation</a>  <code>#1939</code> · updated: 2025-11-06 · created: 2025-11-06  
   labels: good first issue
 
-## apache/auron  ⭐ 1663
+## vdaas/vald  ⭐ 1675
+[Repository](https://github.com/vdaas/vald)
+
+- <a href="https://github.com/vdaas/vald/issues/3263">Add Stage&amp;Context Scan for SBOM</a>  <code>#3263</code> · updated: 2025-10-06 · created: 2025-10-06  
+  labels: team/core, team/sre, type/security, priority/high, priority/medium, type/refactoring, type/suggestion, good first issue
+
+## rgwood/systemctl-tui  ⭐ 1674
+[Repository](https://github.com/rgwood/systemctl-tui)
+
+- <a href="https://github.com/rgwood/systemctl-tui/issues/59">Support for light themes</a>  <code>#59</code> · updated: 2025-11-28 · created: 2025-11-28  
+  labels: bug, good first issue
+
+## apache/auron  ⭐ 1666
 [Repository](https://github.com/apache/auron)
 
 - <a href="https://github.com/apache/auron/issues/1637">Introduce #![deny(clippy::unwrap_used)]</a>  <code>#1637</code> · updated: 2025-11-21 · created: 2025-11-19  
   labels: enhancement, good first issue
 
-## EverythingSuckz/TG-FileStreamBot  ⭐ 1660
+## EverythingSuckz/TG-FileStreamBot  ⭐ 1663
 [Repository](https://github.com/EverythingSuckz/TG-FileStreamBot)
 
 - <a href="https://github.com/EverythingSuckz/TG-FileStreamBot/issues/186">[SERVER]: `write: broken pipe errors` error</a>  <code>#186</code> · updated: 2025-10-30 · created: 2025-10-27  
   labels: bug, good first issue, question
 
-## dask/distributed  ⭐ 1660
+## dask/distributed  ⭐ 1661
 [Repository](https://github.com/dask/distributed)
 
 - <a href="https://github.com/dask/distributed/issues/9157">Documentation / type hinting for `Future.status`</a>  <code>#9157</code> · updated: 2025-12-02 · created: 2025-12-02  
   labels: good first issue, typing
 
-## polardb/polardbx-sql  ⭐ 1653
+## polardb/polardbx-sql  ⭐ 1654
 [Repository](https://github.com/polardb/polardbx-sql)
 
 - <a href="https://github.com/polardb/polardbx-sql/issues/244">the result unexpectedly become false,after changing  sin(x) to sin(x+2*PI() )</a>  <code>#244</code> · updated: 2025-11-15 · created: 2025-10-31  
@@ -8176,11 +8158,17 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/mlco2/codecarbon/issues/974">[Tests] Add coverage badge</a>  <code>#974</code> · updated: 2025-11-29 · created: 2025-11-19  
   labels: good first issue
 
-## kobaltedev/kobalte  ⭐ 1639
+## kobaltedev/kobalte  ⭐ 1644
 [Repository](https://github.com/kobaltedev/kobalte)
 
 - <a href="https://github.com/kobaltedev/kobalte/issues/635">Tooltip button missing type</a>  <code>#635</code> · updated: 2025-10-08 · created: 2025-10-03  
   labels: good first issue
+
+## commaai/panda  ⭐ 1637
+[Repository](https://github.com/commaai/panda)
+
+- <a href="https://github.com/commaai/panda/issues/2298">mcu_type is redundant after F4 deprecation</a>  <code>#2298</code> · updated: 2025-10-29 · created: 2025-10-29  
+  labels: cleanup, good first issue
 
 ## trezor/trezor-firmware  ⭐ 1637
 [Repository](https://github.com/trezor/trezor-firmware)
@@ -8190,17 +8178,17 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/trezor/trezor-firmware/issues/5855">Trezorctl - fix `get-session` for THP</a>  <code>#5855</code> · updated: 2025-10-21 · created: 2025-09-24  
   labels: trezorlib, bug, good first issue
 
-## commaai/panda  ⭐ 1636
-[Repository](https://github.com/commaai/panda)
-
-- <a href="https://github.com/commaai/panda/issues/2298">mcu_type is redundant after F4 deprecation</a>  <code>#2298</code> · updated: 2025-10-29 · created: 2025-10-29  
-  labels: cleanup, good first issue
-
 ## ipfs/ipfs-webui  ⭐ 1628
 [Repository](https://github.com/ipfs/ipfs-webui)
 
 - <a href="https://github.com/ipfs/ipfs-webui/issues/2453">Missing error when user tries to open missing file</a>  <code>#2453</code> · updated: 2025-10-21 · created: 2025-10-21  
   labels: kind/bug, help wanted, exp/novice, P2, good first issue, effort/hours
+
+## pencil2d/pencil  ⭐ 1628
+[Repository](https://github.com/pencil2d/pencil)
+
+- <a href="https://github.com/pencil2d/pencil/issues/1942">[BUG] Some modifying actions can still be performed on hidden layers</a>  <code>#1942</code> · updated: 2025-11-03 · created: 2025-10-28  
+  labels: Good First Issue
 
 ## IntersectMBO/plutus  ⭐ 1625
 [Repository](https://github.com/IntersectMBO/plutus)
@@ -8208,37 +8196,31 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/IntersectMBO/plutus/issues/7459">Make `Builtins.unsafeUncons` use builtin list casing</a>  <code>#7459</code> · updated: 2025-12-15 · created: 2025-11-26  
   labels: Good first issue, status: needs triage
 
-## pencil2d/pencil  ⭐ 1625
-[Repository](https://github.com/pencil2d/pencil)
-
-- <a href="https://github.com/pencil2d/pencil/issues/1942">[BUG] Some modifying actions can still be performed on hidden layers</a>  <code>#1942</code> · updated: 2025-11-03 · created: 2025-10-28  
-  labels: Good First Issue
-
-## radius-project/radius  ⭐ 1614
-[Repository](https://github.com/radius-project/radius)
-
-- <a href="https://github.com/radius-project/radius/issues/10774">`rad rollback kubernetes --list-revisions` shows incorrect timestamps</a>  <code>#10774</code> · updated: 2025-11-12 · created: 2025-11-05  
-  labels: good first issue, triaged, bug
-
-## processing/p5.js-web-editor  ⭐ 1608
-[Repository](https://github.com/processing/p5.js-web-editor)
-
-- <a href="https://github.com/processing/p5.js-web-editor/issues/3747">Bug: Hindi translation does not apply on the homepage (works for Bangla and others)</a>  <code>#3747</code> · updated: 2025-12-09 · created: 2025-12-03  
-  labels: Bug, Good First Issue, Area: Translation, Ready for Work
-
-## LinwoodDev/Butterfly  ⭐ 1607
+## LinwoodDev/Butterfly  ⭐ 1610
 [Repository](https://github.com/LinwoodDev/Butterfly)
 
 - <a href="https://github.com/LinwoodDev/Butterfly/issues/922">[Documentation request]: Documentation for cashing on Webdav</a>  <code>#922</code> · updated: 2025-10-05 · created: 2025-10-05  
   labels: documentation, good first issue
 
-## project-zot/zot  ⭐ 1603
+## processing/p5.js-web-editor  ⭐ 1609
+[Repository](https://github.com/processing/p5.js-web-editor)
+
+- <a href="https://github.com/processing/p5.js-web-editor/issues/3747">Bug: Hindi translation does not apply on the homepage (works for Bangla and others)</a>  <code>#3747</code> · updated: 2025-12-09 · created: 2025-12-03  
+  labels: Bug, Good First Issue, Area: Translation, Ready for Work
+
+## project-zot/zot  ⭐ 1608
 [Repository](https://github.com/project-zot/zot)
 
 - <a href="https://github.com/project-zot/zot/issues/3570">[Refactor]: cleanup constants in codebase so they are in one place</a>  <code>#3570</code> · updated: 2025-11-27 · created: 2025-11-20  
   labels: good first issue
 
-## simdutf/simdutf  ⭐ 1598
+## immichFrame/ImmichFrame  ⭐ 1605
+[Repository](https://github.com/immichFrame/ImmichFrame)
+
+- <a href="https://github.com/immichFrame/ImmichFrame/issues/523">Weather Icon Images Fail to Display when Multiple Icons are called (eg: &#x27;light Intensity drizzle, mist&#x27;)</a>  <code>#523</code> · updated: 2025-12-11 · created: 2025-12-11  
+  labels: bug, good first issue
+
+## simdutf/simdutf  ⭐ 1603
 [Repository](https://github.com/simdutf/simdutf)
 
 - <a href="https://github.com/simdutf/simdutf/issues/843">implement conversion of binary data to base64 with lines  for RISC-V processors</a>  <code>#843</code> · updated: 2025-10-15 · created: 2025-10-13  
@@ -8246,19 +8228,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/simdutf/simdutf/issues/844">implement conversion of binary data to base64 with lines  for Loonson processors</a>  <code>#844</code> · updated: 2025-10-13 · created: 2025-10-13  
   labels: help wanted, good first issue
 
-## immichFrame/ImmichFrame  ⭐ 1592
-[Repository](https://github.com/immichFrame/ImmichFrame)
-
-- <a href="https://github.com/immichFrame/ImmichFrame/issues/523">Weather Icon Images Fail to Display when Multiple Icons are called (eg: &#x27;light Intensity drizzle, mist&#x27;)</a>  <code>#523</code> · updated: 2025-12-11 · created: 2025-12-11  
-  labels: bug, good first issue
-
-## SeaQL/sea-query  ⭐ 1589
+## SeaQL/sea-query  ⭐ 1590
 [Repository](https://github.com/SeaQL/sea-query)
 
 - <a href="https://github.com/SeaQL/sea-query/issues/1017">Support for `FILTER` clause on aggregate functions</a>  <code>#1017</code> · updated: 2025-12-15 · created: 2025-12-04  
   labels: good first issue
 
-## manyfold3d/manyfold  ⭐ 1584
+## manyfold3d/manyfold  ⭐ 1590
 [Repository](https://github.com/manyfold3d/manyfold)
 
 - <a href="https://github.com/manyfold3d/manyfold/issues/5038">Add option to disable confirmation prompts</a>  <code>#5038</code> · updated: 2025-11-10 · created: 2025-11-10  
@@ -8286,37 +8262,37 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/manyfold3d/manyfold/issues/5025">The javascript is too damn big!</a>  <code>#5025</code> · updated: 2025-11-07 · created: 2025-11-07  
   labels: good first issue, performance
 
-## ossf/cve-bin-tool  ⭐ 1582
-[Repository](https://github.com/ossf/cve-bin-tool)
-
-- <a href="https://github.com/ossf/cve-bin-tool/issues/5437">Merge TRAIGE.json and triage.json</a>  <code>#5437</code> · updated: 2025-12-11 · created: 2025-12-09  
-  labels: good first issue
-
-## ashtf8/PocketMage_PDA  ⭐ 1578
-[Repository](https://github.com/ashtf8/PocketMage_PDA)
-
-- <a href="https://github.com/ashtf8/PocketMage_PDA/issues/70">(Feature Request) add ability to select Nth definition of a word in Lexicon</a>  <code>#70</code> · updated: 2025-12-10 · created: 2025-12-09  
-  labels: enhancement, good first issue
-
-## Mentra-Community/MentraOS  ⭐ 1577
+## Mentra-Community/MentraOS  ⭐ 1589
 [Repository](https://github.com/Mentra-Community/MentraOS)
 
 - <a href="https://github.com/Mentra-Community/MentraOS/issues/1391">Mentra CLI - Local Development Tool</a>  <code>#1391</code> · updated: 2025-11-02 · created: 2025-10-23  
   labels: good first issue, help wanted
 
-## enactic/openarm  ⭐ 1577
+## ashtf8/PocketMage_PDA  ⭐ 1585
+[Repository](https://github.com/ashtf8/PocketMage_PDA)
+
+- <a href="https://github.com/ashtf8/PocketMage_PDA/issues/70">(Feature Request) add ability to select Nth definition of a word in Lexicon</a>  <code>#70</code> · updated: 2025-12-10 · created: 2025-12-09  
+  labels: enhancement, good first issue
+
+## ossf/cve-bin-tool  ⭐ 1585
+[Repository](https://github.com/ossf/cve-bin-tool)
+
+- <a href="https://github.com/ossf/cve-bin-tool/issues/5437">Merge TRAIGE.json and triage.json</a>  <code>#5437</code> · updated: 2025-12-11 · created: 2025-12-09  
+  labels: good first issue
+
+## enactic/openarm  ⭐ 1582
 [Repository](https://github.com/enactic/openarm)
 
 - <a href="https://github.com/enactic/openarm/issues/255">Precision and Repeatability Documentation for OpenArm</a>  <code>#255</code> · updated: 2025-11-04 · created: 2025-09-20  
   labels: good first issue
 
-## stephenafamo/bob  ⭐ 1576
+## stephenafamo/bob  ⭐ 1577
 [Repository](https://github.com/stephenafamo/bob)
 
 - <a href="https://github.com/stephenafamo/bob/issues/579">.One() does not add a limit - resulting in unexpectedly large queries</a>  <code>#579</code> · updated: 2025-09-28 · created: 2025-09-25  
   labels: enhancement, good first issue
 
-## teamtype/teamtype  ⭐ 1572
+## teamtype/teamtype  ⭐ 1576
 [Repository](https://github.com/teamtype/teamtype)
 
 - <a href="https://github.com/teamtype/teamtype/issues/456">nvim: Remote cursors are not displayed if they are at the end of the line after a multi-byte character</a>  <code>#456</code> · updated: 2025-11-26 · created: 2025-11-26  
@@ -8328,13 +8304,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/teamtype/teamtype/issues/413">VS Code: Observe &quot;active&quot; side of selection correctly</a>  <code>#413</code> · updated: 2025-10-16 · created: 2025-10-16  
   labels: enhancement, good first issue, vscode
 
-## kairos-io/kairos  ⭐ 1570
+## kairos-io/kairos  ⭐ 1575
 [Repository](https://github.com/kairos-io/kairos)
 
 - <a href="https://github.com/kairos-io/kairos/issues/3764">Add a new flag to manual installer to ingest configs form default dirs</a>  <code>#3764</code> · updated: 2025-11-17 · created: 2025-11-13  
   labels: good first issue
 
-## tauri-apps/plugins-workspace  ⭐ 1570
+## tauri-apps/plugins-workspace  ⭐ 1574
 [Repository](https://github.com/tauri-apps/plugins-workspace)
 
 - <a href="https://github.com/tauri-apps/plugins-workspace/issues/3158">[Plugin-SQL] unsupported datatype: NUMERIC</a>  <code>#3158</code> · updated: 2025-12-10 · created: 2025-12-10  
@@ -8342,7 +8318,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/tauri-apps/plugins-workspace/issues/3076">Updater on Windows: close and install - don&#x27;t restart</a>  <code>#3076</code> · updated: 2025-11-12 · created: 2025-10-29  
   labels: type: feature request, good first issue, plugin: updater, platform: windows
 
-## anza-xyz/agave  ⭐ 1565
+## anza-xyz/agave  ⭐ 1566
 [Repository](https://github.com/anza-xyz/agave)
 
 - <a href="https://github.com/anza-xyz/agave/issues/9231">Bank::simulate_transaction should write the Rollback accounts into the TransactionSimulationResult</a>  <code>#9231</code> · updated: 2025-12-05 · created: 2025-11-22  
@@ -8350,15 +8326,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/anza-xyz/agave/issues/9238">Excessive multithreading in shreds?</a>  <code>#9238</code> · updated: 2025-12-01 · created: 2025-11-23  
   labels: good first issue
 
-## kubetail-org/kubetail  ⭐ 1562
-[Repository](https://github.com/kubetail-org/kubetail)
-
-- <a href="https://github.com/kubetail-org/kubetail/issues/705">Add CONTRIBUTING.md</a>  <code>#705</code> · updated: 2025-11-29 · created: 2025-10-05  
-  labels: docs, good first issue, easy
-- <a href="https://github.com/kubetail-org/kubetail/issues/706">Update AGENTS.md and CLAUDE.md</a>  <code>#706</code> · updated: 2025-11-29 · created: 2025-10-05  
-  labels: docs, good first issue, easy
-
-## open-telemetry/opentelemetry-go-contrib  ⭐ 1561
+## open-telemetry/opentelemetry-go-contrib  ⭐ 1564
 [Repository](https://github.com/open-telemetry/opentelemetry-go-contrib)
 
 - <a href="https://github.com/open-telemetry/opentelemetry-go-contrib/issues/8272">Switch versions from functions to strings</a>  <code>#8272</code> · updated: 2025-12-13 · created: 2025-12-09  
@@ -8370,19 +8338,43 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/open-telemetry/opentelemetry-go-contrib/issues/8006">Retiring samplers/probability/consistent as obsolete</a>  <code>#8006</code> · updated: 2025-10-11 · created: 2025-10-09  
   labels: good first issue
 
-## ranuts/document  ⭐ 1548
+## kubetail-org/kubetail  ⭐ 1562
+[Repository](https://github.com/kubetail-org/kubetail)
+
+- <a href="https://github.com/kubetail-org/kubetail/issues/705">Add CONTRIBUTING.md</a>  <code>#705</code> · updated: 2025-11-29 · created: 2025-10-05  
+  labels: docs, good first issue, easy
+- <a href="https://github.com/kubetail-org/kubetail/issues/706">Update AGENTS.md and CLAUDE.md</a>  <code>#706</code> · updated: 2025-11-29 · created: 2025-10-05  
+  labels: docs, good first issue, easy
+
+## yonahd/kor  ⭐ 1561
+[Repository](https://github.com/yonahd/kor)
+
+- <a href="https://github.com/yonahd/kor/issues/536">Feature: Separate Chart release from app release</a>  <code>#536</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: enhancement, good first issue
+
+## ranuts/document  ⭐ 1560
 [Repository](https://github.com/ranuts/document)
 
 - <a href="https://github.com/ranuts/document/issues/20">缺少SmartArts.bin文件</a>  <code>#20</code> · updated: 2025-11-15 · created: 2025-10-11  
   labels: bug, good first issue
 
-## lifting-bits/remill  ⭐ 1545
+## RezaSi/go-interview-practice  ⭐ 1554
+[Repository](https://github.com/RezaSi/go-interview-practice)
+
+- <a href="https://github.com/RezaSi/go-interview-practice/issues/474">Add Logrus Structured Logging Package Challenge Series</a>  <code>#474</code> · updated: 2025-12-05 · created: 2025-09-25  
+  labels: good first issue, hacktoberfest
+- <a href="https://github.com/RezaSi/go-interview-practice/issues/472">Add Redis Package Challenge Series</a>  <code>#472</code> · updated: 2025-10-24 · created: 2025-09-25  
+  labels: good first issue, hacktoberfest
+- <a href="https://github.com/RezaSi/go-interview-practice/issues/473">Add Gorilla Mux HTTP Router Package Challenge Series</a>  <code>#473</code> · updated: 2025-10-04 · created: 2025-09-25  
+  labels: good first issue, hacktoberfest
+
+## lifting-bits/remill  ⭐ 1548
 [Repository](https://github.com/lifting-bits/remill)
 
 - <a href="https://github.com/lifting-bits/remill/issues/737">Failing testcase on FSTP with 80bit float</a>  <code>#737</code> · updated: 2025-12-03 · created: 2025-12-03  
   labels: bug, good first issue, testing
 
-## scottslowe/learning-tools  ⭐ 1544
+## scottslowe/learning-tools  ⭐ 1545
 [Repository](https://github.com/scottslowe/learning-tools)
 
 - <a href="https://github.com/scottslowe/learning-tools/issues/169">Update AMI search filters for NAT instance example</a>  <code>#169</code> · updated: 2025-11-13 · created: 2025-11-13  
@@ -8390,7 +8382,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/scottslowe/learning-tools/issues/170">Upgrade AWS provider for all Pulumi examples</a>  <code>#170</code> · updated: 2025-11-13 · created: 2025-11-13  
   labels: good first issue, chore
 
-## wimpysworld/deb-get  ⭐ 1542
+## wimpysworld/deb-get  ⭐ 1543
 [Repository](https://github.com/wimpysworld/deb-get)
 
 - <a href="https://github.com/wimpysworld/deb-get/issues/1639">App Request: Fresh</a>  <code>#1639</code> · updated: 2025-12-06 · created: 2025-12-06  
@@ -8418,7 +8410,21 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/wimpysworld/deb-get/issues/1529">App Request: Epson Inkjet Printer Driver (ESC/P-R) for Linux</a>  <code>#1529</code> · updated: 2025-09-27 · created: 2025-09-27  
   labels: good first issue, new package
 
-## kanriapp/kanri  ⭐ 1537
+## grafana/docker-otel-lgtm  ⭐ 1541
+[Repository](https://github.com/grafana/docker-otel-lgtm)
+
+- <a href="https://github.com/grafana/docker-otel-lgtm/issues/842">pin super-linter when running locally</a>  <code>#842</code> · updated: 2025-12-08 · created: 2025-11-03  
+  labels: good first issue, help wanted
+
+## CoderLine/alphaTab  ⭐ 1540
+[Repository](https://github.com/CoderLine/alphaTab)
+
+- <a href="https://github.com/CoderLine/alphaTab/issues/2441">Display Lyrics in every track</a>  <code>#2441</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: area-rendering, platform-all, good first issue, state-idea
+- <a href="https://github.com/CoderLine/alphaTab/issues/2398">Customize display of bar numbers.</a>  <code>#2398</code> · updated: 2025-11-30 · created: 2025-11-28  
+  labels: area-file-formats, area-rendering, state-accepted, platform-all, good first issue
+
+## kanriapp/kanri  ⭐ 1540
 [Repository](https://github.com/kanriapp/kanri)
 
 - <a href="https://github.com/kanriapp/kanri/issues/912">Feature Request: Sorted Tag List in “Edit Card Tags” Dialog</a>  <code>#912</code> · updated: 2025-12-12 · created: 2025-11-28  
@@ -8428,19 +8434,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/kanriapp/kanri/issues/882">Reset tag color</a>  <code>#882</code> · updated: 2025-09-28 · created: 2025-09-26  
   labels: enhancement, good first issue, priority: low
 
-## CoderLine/alphaTab  ⭐ 1535
-[Repository](https://github.com/CoderLine/alphaTab)
+## Comfy-Org/ComfyUI_frontend  ⭐ 1537
+[Repository](https://github.com/Comfy-Org/ComfyUI_frontend)
 
-- <a href="https://github.com/CoderLine/alphaTab/issues/2398">Customize display of bar numbers.</a>  <code>#2398</code> · updated: 2025-11-30 · created: 2025-11-28  
-  labels: area-file-formats, area-rendering, state-accepted, platform-all, good first issue
+- <a href="https://github.com/Comfy-Org/ComfyUI_frontend/issues/6447">Identify the node causing errors directly in error traceback</a>  <code>#6447</code> · updated: 2025-10-30 · created: 2025-10-30  
+  labels: good first issue, area:ui, Feature
 
-## grafana/docker-otel-lgtm  ⭐ 1535
-[Repository](https://github.com/grafana/docker-otel-lgtm)
-
-- <a href="https://github.com/grafana/docker-otel-lgtm/issues/842">pin super-linter when running locally</a>  <code>#842</code> · updated: 2025-12-08 · created: 2025-11-03  
-  labels: good first issue, help wanted
-
-## skrub-data/skrub  ⭐ 1529
+## skrub-data/skrub  ⭐ 1534
 [Repository](https://github.com/skrub-data/skrub)
 
 - <a href="https://github.com/skrub-data/skrub/issues/1729">CHORE - Refactor SingleColumnTransformer so it&#x27;s in its own file</a>  <code>#1729</code> · updated: 2025-12-07 · created: 2025-11-03  
@@ -8454,38 +8454,24 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/skrub-data/skrub/issues/1756">DOC - improve the documentation of the Drop transformer</a>  <code>#1756</code> · updated: 2025-11-17 · created: 2025-11-17  
   labels: good first issue
 
-## Comfy-Org/ComfyUI_frontend  ⭐ 1524
-[Repository](https://github.com/Comfy-Org/ComfyUI_frontend)
-
-- <a href="https://github.com/Comfy-Org/ComfyUI_frontend/issues/6447">Identify the node causing errors directly in error traceback</a>  <code>#6447</code> · updated: 2025-10-30 · created: 2025-10-30  
-  labels: good first issue, area:ui, Feature
-
-## openfrontio/OpenFrontIO  ⭐ 1524
+## openfrontio/OpenFrontIO  ⭐ 1530
 [Repository](https://github.com/openfrontio/OpenFrontIO)
 
 - <a href="https://github.com/openfrontio/OpenFrontIO/issues/2427">Docs: add development docs for new people</a>  <code>#2427</code> · updated: 2025-11-10 · created: 2025-11-10  
   labels: good first issue, will not stale
 
-## spinel-coop/rv  ⭐ 1519
+## spinel-coop/rv  ⭐ 1526
 [Repository](https://github.com/spinel-coop/rv)
 
 - <a href="https://github.com/spinel-coop/rv/issues/167">[feature request] a setup-rv action</a>  <code>#167</code> · updated: 2025-11-03 · created: 2025-11-02  
   labels: good first issue
 
-## Hipo/university-domains-list  ⭐ 1514
-[Repository](https://github.com/Hipo/university-domains-list)
-
-- <a href="https://github.com/Hipo/university-domains-list/issues/777">Add Odesa Polytechnic National University (Ukraine)</a>  <code>#777</code> · updated: 2025-11-22 · created: 2025-11-19  
-  labels: good first issue
-
-## UZDoom/UZDoom  ⭐ 1513
+## UZDoom/UZDoom  ⭐ 1519
 [Repository](https://github.com/UZDoom/UZDoom)
 
-- <a href="https://github.com/UZDoom/UZDoom/issues/745">File load warnings can print twice</a>  <code>#745</code> · updated: 2025-12-14 · created: 2025-12-14  
-  labels: bug/bugfix, good first issue
+- <a href="https://github.com/UZDoom/UZDoom/issues/745">File load warnings can print twice</a>  <code>#745</code> · updated: 2025-12-19 · created: 2025-12-14  
+  labels: bug/bugfix, good first issue, linux, mac-os
 - <a href="https://github.com/UZDoom/UZDoom/issues/744">A number of minor visiual issues with optmenu sliders at low resolution</a>  <code>#744</code> · updated: 2025-12-14 · created: 2025-12-14  
-  labels: bug/bugfix, good first issue
-- <a href="https://github.com/UZDoom/UZDoom/issues/706">OOB with invalid -iwad input</a>  <code>#706</code> · updated: 2025-12-09 · created: 2025-12-08  
   labels: bug/bugfix, good first issue
 - <a href="https://github.com/UZDoom/UZDoom/issues/630">Add voodoo death zombie compat to 1x1 map13</a>  <code>#630</code> · updated: 2025-11-29 · created: 2025-11-29  
   labels: good first issue
@@ -8496,47 +8482,39 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/UZDoom/UZDoom/issues/94">[Feature] Change default MIDI device from TiMidity++ to other</a>  <code>#94</code> · updated: 2025-10-16 · created: 2025-10-16  
   labels: enhancement, good first issue
 
-## GTNewHorizons/GT-New-Horizons-Modpack  ⭐ 1508
+## Hipo/university-domains-list  ⭐ 1515
+[Repository](https://github.com/Hipo/university-domains-list)
+
+- <a href="https://github.com/Hipo/university-domains-list/issues/782">Change of university Name and Domain (ESC Clermont)</a>  <code>#782</code> · updated: 2025-12-17 · created: 2025-12-15  
+  labels: good first issue
+- <a href="https://github.com/Hipo/university-domains-list/issues/777">Add Odesa Polytechnic National University (Ukraine)</a>  <code>#777</code> · updated: 2025-11-22 · created: 2025-11-19  
+  labels: good first issue
+
+## GTNewHorizons/GT-New-Horizons-Modpack  ⭐ 1510
 [Repository](https://github.com/GTNewHorizons/GT-New-Horizons-Modpack)
 
 - <a href="https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/21455">Add crafting recipes for Red Sandstone</a>  <code>#21455</code> · updated: 2025-09-27 · created: 2025-09-25  
   labels: Suggestion, Type: Recipe, Mod: Et Futurum Requiem, Good First Issue
 
-## RezaSi/go-interview-practice  ⭐ 1506
-[Repository](https://github.com/RezaSi/go-interview-practice)
-
-- <a href="https://github.com/RezaSi/go-interview-practice/issues/474">Add Logrus Structured Logging Package Challenge Series</a>  <code>#474</code> · updated: 2025-12-05 · created: 2025-09-25  
-  labels: good first issue, hacktoberfest
-- <a href="https://github.com/RezaSi/go-interview-practice/issues/472">Add Redis Package Challenge Series</a>  <code>#472</code> · updated: 2025-10-24 · created: 2025-09-25  
-  labels: good first issue, hacktoberfest
-- <a href="https://github.com/RezaSi/go-interview-practice/issues/473">Add Gorilla Mux HTTP Router Package Challenge Series</a>  <code>#473</code> · updated: 2025-10-04 · created: 2025-09-25  
-  labels: good first issue, hacktoberfest
-
-## pmret/papermario  ⭐ 1505
-[Repository](https://github.com/pmret/papermario)
-
-- <a href="https://github.com/pmret/papermario/issues/1248">Name BATTLE_STATE_9</a>  <code>#1248</code> · updated: 2025-09-24 · created: 2025-09-24  
-  labels: documentation, good first issue
-
-## mozilla-ai/any-llm  ⭐ 1502
+## mozilla-ai/any-llm  ⭐ 1509
 [Repository](https://github.com/mozilla-ai/any-llm)
 
+- <a href="https://github.com/mozilla-ai/any-llm/issues/542">Support conversion of response_format from OpenAI format to XAI format for structured outputs</a>  <code>#542</code> · updated: 2025-12-19 · created: 2025-10-14  
+  labels: good first issue, completion
 - <a href="https://github.com/mozilla-ai/any-llm/issues/559">Use Llama API Python Client</a>  <code>#559</code> · updated: 2025-12-15 · created: 2025-10-17  
   labels: good first issue
 - <a href="https://github.com/mozilla-ai/any-llm/issues/524">`portkey`: Use native Python SDK</a>  <code>#524</code> · updated: 2025-11-17 · created: 2025-10-06  
   labels: good first issue
-- <a href="https://github.com/mozilla-ai/any-llm/issues/542">Support conversion of response_format from OpenAI format to XAI format for structured outputs</a>  <code>#542</code> · updated: 2025-11-14 · created: 2025-10-14  
-  labels: good first issue, completion
 - <a href="https://github.com/mozilla-ai/any-llm/issues/541">Support conversion of response_format from OpenAI format to Gemini format for structured outputs</a>  <code>#541</code> · updated: 2025-11-14 · created: 2025-10-14  
   labels: good first issue, completion
 
-## scikit-learn-contrib/MAPIE  ⭐ 1498
-[Repository](https://github.com/scikit-learn-contrib/MAPIE)
+## Mastermindzh/tidal-hifi  ⭐ 1507
+[Repository](https://github.com/Mastermindzh/tidal-hifi)
 
-- <a href="https://github.com/scikit-learn-contrib/MAPIE/issues/816">mypy misses return type errors due to `ignore_missing_imports`</a>  <code>#816</code> · updated: 2025-12-12 · created: 2025-12-02  
-  labels: Good first issue, Backlog, Contributors welcome 👋🏻
+- <a href="https://github.com/Mastermindzh/tidal-hifi/issues/772">Set the default TIDAL URL to https://tidal.com/ to avoid redirect failures</a>  <code>#772</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: enhancement, good first issue, Available in next release
 
-## MCPJam/inspector  ⭐ 1493
+## MCPJam/inspector  ⭐ 1506
 [Repository](https://github.com/MCPJam/inspector)
 
 - <a href="https://github.com/MCPJam/inspector/issues/1076">[FEATURE] Exporting MCP Servers list to JSON</a>  <code>#1076</code> · updated: 2025-12-14 · created: 2025-12-12  
@@ -8544,16 +8522,36 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/MCPJam/inspector/issues/1073">[FEATURE] pagination support</a>  <code>#1073</code> · updated: 2025-12-12 · created: 2025-12-12  
   labels: enhancement, good first issue
 
-## coalton-lang/coalton  ⭐ 1490
+## pmret/papermario  ⭐ 1506
+[Repository](https://github.com/pmret/papermario)
+
+- <a href="https://github.com/pmret/papermario/issues/1248">Name BATTLE_STATE_9</a>  <code>#1248</code> · updated: 2025-09-24 · created: 2025-09-24  
+  labels: documentation, good first issue
+
+## embox/embox  ⭐ 1505
+[Repository](https://github.com/embox/embox)
+
+- <a href="https://github.com/embox/embox/issues/3792">Add tests for hipot() from math.h</a>  <code>#3792</code> · updated: 2025-12-02 · created: 2025-11-20  
+  labels: Good First Issue
+
+## coalton-lang/coalton  ⭐ 1500
 [Repository](https://github.com/coalton-lang/coalton)
 
+- <a href="https://github.com/coalton-lang/coalton/issues/1726">make `(sign 0) == 0`, following `cl:signum` convention</a>  <code>#1726</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: good first issue, standard library
 - <a href="https://github.com/coalton-lang/coalton/issues/1713">Move Coalton files to have `.ct` extension</a>  <code>#1713</code> · updated: 2025-12-10 · created: 2025-12-10  
   labels: good first issue, standard library
+
+## scikit-learn-contrib/MAPIE  ⭐ 1499
+[Repository](https://github.com/scikit-learn-contrib/MAPIE)
+
+- <a href="https://github.com/scikit-learn-contrib/MAPIE/issues/816">mypy misses return type errors due to `ignore_missing_imports`</a>  <code>#816</code> · updated: 2025-12-12 · created: 2025-12-02  
+  labels: Good first issue, Backlog, Contributors welcome 👋🏻
 
 ## AzureAD/microsoft-authentication-library-for-dotnet  ⭐ 1489
 [Repository](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet)
 
-- <a href="https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/issues/5619">[Feature Request] Update unit test framework</a>  <code>#5619</code> · updated: 2025-12-15 · created: 2025-12-11  
+- <a href="https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/issues/5619">[Feature Request] Update unit test framework</a>  <code>#5619</code> · updated: 2025-12-17 · created: 2025-12-11  
   labels: good first issue
 
 ## NethermindEth/nethermind  ⭐ 1487
@@ -8562,19 +8560,29 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/NethermindEth/nethermind/issues/9685">Unify types with Geth</a>  <code>#9685</code> · updated: 2025-11-11 · created: 2025-11-11  
   labels: good first issue
 
-## embox/embox  ⭐ 1487
-[Repository](https://github.com/embox/embox)
-
-- <a href="https://github.com/embox/embox/issues/3792">Add tests for hipot() from math.h</a>  <code>#3792</code> · updated: 2025-12-02 · created: 2025-11-20  
-  labels: Good First Issue
-
-## forus-labs/forui  ⭐ 1479
+## forus-labs/forui  ⭐ 1485
 [Repository](https://github.com/forus-labs/forui)
 
 - <a href="https://github.com/forus-labs/forui/issues/748">Replace `AlignmentDirectional` constants with `Alignment` dot-shorthand equivalents</a>  <code>#748</code> · updated: 2025-12-10 · created: 2025-11-14  
   labels: difficulty: easy, duration: small, type: ehancement, Good First Issue
 
-## anonfaded/FadCam  ⭐ 1465
+## vllm-project/vllm-ascend  ⭐ 1483
+[Repository](https://github.com/vllm-project/vllm-ascend)
+
+- <a href="https://github.com/vllm-project/vllm-ascend/issues/5027">[Feature]: cannot get vllm outputs.metrics</a>  <code>#5027</code> · updated: 2025-12-16 · created: 2025-12-15  
+  labels: good first issue, help wanted, feature request
+- <a href="https://github.com/vllm-project/vllm-ascend/issues/3386">[Doc]: a3 image guide is missing</a>  <code>#3386</code> · updated: 2025-10-11 · created: 2025-10-11  
+  labels: documentation, good first issue
+- <a href="https://github.com/vllm-project/vllm-ascend/issues/3376">[Doc]: --task is deprecated</a>  <code>#3376</code> · updated: 2025-10-11 · created: 2025-10-11  
+  labels: documentation, good first issue
+
+## neurocyte/flow  ⭐ 1475
+[Repository](https://github.com/neurocyte/flow)
+
+- <a href="https://github.com/neurocyte/flow/issues/298">Feature request: reflow paragraph</a>  <code>#298</code> · updated: 2025-12-11 · created: 2025-09-24  
+  labels: enhancement, good first issue
+
+## anonfaded/FadCam  ⭐ 1469
 [Repository](https://github.com/anonfaded/FadCam)
 
 - <a href="https://github.com/anonfaded/FadCam/issues/214">Front Camera Mirror Option</a>  <code>#214</code> · updated: 2025-11-28 · created: 2025-11-28  
@@ -8590,35 +8598,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/anonfaded/FadCam/issues/196">[FEATURE] Add CRF bitrate control mode in video recording</a>  <code>#196</code> · updated: 2025-10-22 · created: 2025-10-22  
   labels: enhancement, good first issue
 
-## vllm-project/vllm-ascend  ⭐ 1465
-[Repository](https://github.com/vllm-project/vllm-ascend)
+## shuakami/qq-chat-exporter  ⭐ 1467
+[Repository](https://github.com/shuakami/qq-chat-exporter)
 
-- <a href="https://github.com/vllm-project/vllm-ascend/issues/3386">[Doc]: a3 image guide is missing</a>  <code>#3386</code> · updated: 2025-10-11 · created: 2025-10-11  
-  labels: documentation, good first issue
-- <a href="https://github.com/vllm-project/vllm-ascend/issues/3376">[Doc]: --task is deprecated</a>  <code>#3376</code> · updated: 2025-10-11 · created: 2025-10-11  
-  labels: documentation, good first issue
+- <a href="https://github.com/shuakami/qq-chat-exporter/issues/142">路径错误无法打开? 提供..解决方法cv&lt; [ERROR: The system was unable to find the specified registry key or value.]</a>  <code>#142</code> · updated: 2025-12-16 · created: 2025-12-13  
+  labels: good first issue
 
-## TraceMachina/nativelink  ⭐ 1457
+## TraceMachina/nativelink  ⭐ 1459
 [Repository](https://github.com/TraceMachina/nativelink)
 
 - <a href="https://github.com/TraceMachina/nativelink/issues/2011">Update Issue Template</a>  <code>#2011</code> · updated: 2025-12-13 · created: 2025-10-27  
   labels: good first issue
 
-## Sorcery/sorcery  ⭐ 1456
-[Repository](https://github.com/Sorcery/sorcery)
-
-- <a href="https://github.com/Sorcery/sorcery/issues/396">Resolve RuboCop TODOs</a>  <code>#396</code> · updated: 2025-10-25 · created: 2025-10-08  
-  labels: good first issue
-
-## OpenAEV-Platform/openaev  ⭐ 1449
-[Repository](https://github.com/OpenAEV-Platform/openaev)
-
-- <a href="https://github.com/OpenAEV-Platform/openaev/issues/4146">Uptade Loader Circle to Loader Filigran</a>  <code>#4146</code> · updated: 2025-12-02 · created: 2025-10-03  
-  labels: needs triage, UI improvement, good first issue
-- <a href="https://github.com/OpenAEV-Platform/openaev/issues/4328">The label &quot;source:crowdstrike&quot; is not added as others when using CS executor</a>  <code>#4328</code> · updated: 2025-12-02 · created: 2025-10-29  
-  labels: bug, good first issue
-
-## agentgateway/agentgateway  ⭐ 1444
+## agentgateway/agentgateway  ⭐ 1457
 [Repository](https://github.com/agentgateway/agentgateway)
 
 - <a href="https://github.com/agentgateway/agentgateway/issues/674">Append semantics missing in Prompt Enrichment feature</a>  <code>#674</code> · updated: 2025-12-01 · created: 2025-11-25  
@@ -8627,16 +8619,24 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue
 - <a href="https://github.com/agentgateway/agentgateway/issues/553">Add tests for JWT support</a>  <code>#553</code> · updated: 2025-10-16 · created: 2025-10-16  
   labels: good first issue
-- <a href="https://github.com/agentgateway/agentgateway/issues/555">Update read-only UI support for Policies</a>  <code>#555</code> · updated: 2025-10-16 · created: 2025-10-16  
+
+## Sorcery/sorcery  ⭐ 1455
+[Repository](https://github.com/Sorcery/sorcery)
+
+- <a href="https://github.com/Sorcery/sorcery/issues/396">Resolve RuboCop TODOs</a>  <code>#396</code> · updated: 2025-10-25 · created: 2025-10-08  
   labels: good first issue
 
-## kdl-org/kdl  ⭐ 1444
-[Repository](https://github.com/kdl-org/kdl)
+## OpenAEV-Platform/openaev  ⭐ 1454
+[Repository](https://github.com/OpenAEV-Platform/openaev)
 
-- <a href="https://github.com/kdl-org/kdl/issues/545">Spec doesn&#x27;t define that child order is significant</a>  <code>#545</code> · updated: 2025-10-14 · created: 2025-10-14  
-  labels: documentation, good first issue
+- <a href="https://github.com/OpenAEV-Platform/openaev/issues/4600">Scenario Assistant Ask Ariane fails with internal error when processing TTP inputs (text and file)</a>  <code>#4600</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: bug, needs triage, regression, good first issue
+- <a href="https://github.com/OpenAEV-Platform/openaev/issues/4146">Uptade Loader Circle to Loader Filigran</a>  <code>#4146</code> · updated: 2025-12-02 · created: 2025-10-03  
+  labels: needs triage, UI improvement, good first issue
+- <a href="https://github.com/OpenAEV-Platform/openaev/issues/4328">The label &quot;source:crowdstrike&quot; is not added as others when using CS executor</a>  <code>#4328</code> · updated: 2025-12-02 · created: 2025-10-29  
+  labels: bug, good first issue
 
-## robustmq/robustmq  ⭐ 1442
+## robustmq/robustmq  ⭐ 1449
 [Repository](https://github.com/robustmq/robustmq)
 
 - <a href="https://github.com/robustmq/robustmq/issues/1437">[Refactor] Reduce the use of.clone()</a>  <code>#1437</code> · updated: 2025-11-13 · created: 2025-09-28  
@@ -8644,48 +8644,38 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/robustmq/robustmq/issues/1438">[Refactor] Optimize the warnings during project initiation</a>  <code>#1438</code> · updated: 2025-10-15 · created: 2025-09-28  
   labels: enhancement, good first issue
 
-## neurocyte/flow  ⭐ 1437
-[Repository](https://github.com/neurocyte/flow)
+## kdl-org/kdl  ⭐ 1446
+[Repository](https://github.com/kdl-org/kdl)
 
-- <a href="https://github.com/neurocyte/flow/issues/298">Feature request: reflow paragraph</a>  <code>#298</code> · updated: 2025-12-11 · created: 2025-09-24  
-  labels: enhancement, good first issue
+- <a href="https://github.com/kdl-org/kdl/issues/545">Spec doesn&#x27;t define that child order is significant</a>  <code>#545</code> · updated: 2025-10-14 · created: 2025-10-14  
+  labels: documentation, good first issue
 
-## idursun/jjui  ⭐ 1432
-[Repository](https://github.com/idursun/jjui)
-
-- <a href="https://github.com/idursun/jjui/issues/385">FR: do not jump to the top of the revision tree on abandon (and other operations?)</a>  <code>#385</code> · updated: 2025-12-15 · created: 2025-11-26  
-  labels: enhancement, good first issue
-
-## salsita/node-pg-migrate  ⭐ 1428
-[Repository](https://github.com/salsita/node-pg-migrate)
-
-- <a href="https://github.com/salsita/node-pg-migrate/issues/1524">Allow columns to be an array type</a>  <code>#1524</code> · updated: 2025-10-23 · created: 2025-10-10  
-  labels: c: feature, good first issue, help wanted
-
-## stacklok/toolhive  ⭐ 1424
+## stacklok/toolhive  ⭐ 1432
 [Repository](https://github.com/stacklok/toolhive)
 
-- <a href="https://github.com/stacklok/toolhive/issues/3053">Implement `thv status` command for detailed workload status</a>  <code>#3053</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: enhancement, good first issue, go, cli
-- <a href="https://github.com/stacklok/toolhive/issues/3047">Enhance CLI help text with usage examples</a>  <code>#3047</code> · updated: 2025-12-15 · created: 2025-12-15  
+- <a href="https://github.com/stacklok/toolhive/issues/3108">Ensure Toolhive Errors are Wrapped According to Docs</a>  <code>#3108</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, go, tech-debt
+- <a href="https://github.com/stacklok/toolhive/issues/3040">Standardize on error wrapping in CLI</a>  <code>#3040</code> · updated: 2025-12-17 · created: 2025-12-15  
+  labels: good first issue, go, cli
+- <a href="https://github.com/stacklok/toolhive/issues/3045">Replace context.Background() with cmd.Context() in CLI</a>  <code>#3045</code> · updated: 2025-12-17 · created: 2025-12-15  
+  labels: good first issue, go, cli
+- <a href="https://github.com/stacklok/toolhive/issues/3047">Enhance CLI help text with usage examples</a>  <code>#3047</code> · updated: 2025-12-17 · created: 2025-12-15  
   labels: documentation, good first issue, go, cli
-- <a href="https://github.com/stacklok/toolhive/issues/3054">Implement request body size limits in API</a>  <code>#3054</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: enhancement, good first issue, go, api
-- <a href="https://github.com/stacklok/toolhive/issues/3049">Add default values to CLI flag help text</a>  <code>#3049</code> · updated: 2025-12-15 · created: 2025-12-15  
+- <a href="https://github.com/stacklok/toolhive/issues/3049">Add default values to CLI flag help text</a>  <code>#3049</code> · updated: 2025-12-17 · created: 2025-12-15  
   labels: documentation, enhancement, good first issue, go, cli
+- <a href="https://github.com/stacklok/toolhive/issues/3054">Implement request body size limits in API</a>  <code>#3054</code> · updated: 2025-12-17 · created: 2025-12-15  
+  labels: enhancement, good first issue, go, api
+- <a href="https://github.com/stacklok/toolhive/issues/3053">Implement `thv status` command for detailed workload status</a>  <code>#3053</code> · updated: 2025-12-17 · created: 2025-12-15  
+  labels: enhancement, good first issue, go, cli
+- <a href="https://github.com/stacklok/toolhive/issues/3046">Change `thv restart` to `thv start`</a>  <code>#3046</code> · updated: 2025-12-17 · created: 2025-12-15  
+  labels: good first issue, go, cli
 - <a href="https://github.com/stacklok/toolhive/issues/3048">Improve error messages with actionable recovery hints</a>  <code>#3048</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: enhancement, good first issue, go, cli
-- <a href="https://github.com/stacklok/toolhive/issues/3046">Change `thv restart` to `thv start`</a>  <code>#3046</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: good first issue, go, cli
-- <a href="https://github.com/stacklok/toolhive/issues/3045">Replace context.Background() with cmd.Context() in CLI</a>  <code>#3045</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: good first issue, go, cli
 - <a href="https://github.com/stacklok/toolhive/issues/3044">Standardize CLI output messages to use &quot;Workload&quot; terminology</a>  <code>#3044</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: enhancement, good first issue, go, cli
 - <a href="https://github.com/stacklok/toolhive/issues/3043">Convert secret.go subcommands from Run to RunE for proper error propagation</a>  <code>#3043</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: good first issue, go, cli
 - <a href="https://github.com/stacklok/toolhive/issues/3042">Add missing flag shorthands and use shared helpers</a>  <code>#3042</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: good first issue, go, cli
-- <a href="https://github.com/stacklok/toolhive/issues/3040">Standardize on error wrapping in CLI</a>  <code>#3040</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: good first issue, go, cli
 - <a href="https://github.com/stacklok/toolhive/issues/3039">Create shared helper function for CLI flags and validation</a>  <code>#3039</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: enhancement, good first issue, cli
@@ -8704,13 +8694,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/stacklok/toolhive/issues/2084">FR: Capture tool execution errors in OTel traces and metrics</a>  <code>#2084</code> · updated: 2025-10-03 · created: 2025-10-03  
   labels: good first issue
 
-## hylo-lang/hylo  ⭐ 1419
+## salsita/node-pg-migrate  ⭐ 1428
+[Repository](https://github.com/salsita/node-pg-migrate)
+
+- <a href="https://github.com/salsita/node-pg-migrate/issues/1524">Allow columns to be an array type</a>  <code>#1524</code> · updated: 2025-10-23 · created: 2025-10-10  
+  labels: c: feature, good first issue, help wanted
+
+## hylo-lang/hylo  ⭐ 1420
 [Repository](https://github.com/hylo-lang/hylo)
 
 - <a href="https://github.com/hylo-lang/hylo/issues/1742">Create code generator script for the standard library numeric types and conversions</a>  <code>#1742</code> · updated: 2025-11-01 · created: 2025-10-18  
   labels: good first issue, stdlib
 
-## libgeos/geos  ⭐ 1412
+## libgeos/geos  ⭐ 1415
 [Repository](https://github.com/libgeos/geos)
 
 - <a href="https://github.com/libgeos/geos/issues/1327">Surface the chosen points in the C API (and threadsafe C API) for `GEOSHausdorffDistance` and `GEOSHausdorffDistanceDensify`</a>  <code>#1327</code> · updated: 2025-11-19 · created: 2025-11-17  
@@ -8724,7 +8720,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pharo-project/pharo/issues/18641">Log cleanup:  ShiftClassBuilder&gt;&gt;#category: called from ScopesTest&gt;&gt;#testClassScopeExcludesClassCreatedAPosteriori has been deprecated</a>  <code>#18641</code> · updated: 2025-10-14 · created: 2025-10-08  
   labels: Type: Cleanup, Easy, Good first issue
 
-## Try/OpenGothic  ⭐ 1404
+## HaoboGu/rmk  ⭐ 1409
+[Repository](https://github.com/HaoboGu/rmk)
+
+- <a href="https://github.com/HaoboGu/rmk/issues/569">Support non-english characters in keymap setting</a>  <code>#569</code> · updated: 2025-10-08 · created: 2025-10-07  
+  labels: enhancement, help wanted, good first issue
+
+## fjall-rs/fjall  ⭐ 1407
+[Repository](https://github.com/fjall-rs/fjall)
+
+- <a href="https://github.com/fjall-rs/fjall/issues/212">MUTANTS!</a>  <code>#212</code> · updated: 2025-11-24 · created: 2025-11-24  
+  labels: help wanted, good first issue, test
+
+## Try/OpenGothic  ⭐ 1406
 [Repository](https://github.com/Try/OpenGothic)
 
 - <a href="https://github.com/Try/OpenGothic/issues/841">Implement missing `PLAYER_` callbacks</a>  <code>#841</code> · updated: 2025-11-26 · created: 2025-11-26  
@@ -8735,30 +8743,60 @@ _Generated at: 2025-12-16T04:35:06Z_
 ## intel/llvm  ⭐ 1401
 [Repository](https://github.com/intel/llvm)
 
-- <a href="https://github.com/intel/llvm/issues/20901">[SYCL][Test issue] Fix test-e2e/FilterSelector/select_device.cpp or replace with unit tests</a>  <code>#20901</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: bug, good first issue
+- <a href="https://github.com/intel/llvm/issues/20901">[SYCL][Test issue] Fix test-e2e/FilterSelector/select_device.cpp or replace with unit tests</a>  <code>#20901</code> · updated: 2025-12-17 · created: 2025-12-15  
+  labels: bug, good first issue, confirmed
 - <a href="https://github.com/intel/llvm/issues/20747">llvm-foreach should print the full command when failing</a>  <code>#20747</code> · updated: 2025-11-24 · created: 2025-11-24  
   labels: enhancement, good first issue, confirmed
 
-## fjall-rs/fjall  ⭐ 1390
-[Repository](https://github.com/fjall-rs/fjall)
+## Barre/ZeroFS  ⭐ 1389
+[Repository](https://github.com/Barre/ZeroFS)
 
-- <a href="https://github.com/fjall-rs/fjall/issues/212">MUTANTS!</a>  <code>#212</code> · updated: 2025-11-24 · created: 2025-11-24  
-  labels: help wanted, good first issue, test
+- <a href="https://github.com/Barre/ZeroFS/issues/188">Docker init pattern would be helpful in docs</a>  <code>#188</code> · updated: 2025-11-17 · created: 2025-10-09  
+  labels: good first issue
 
-## HaoboGu/rmk  ⭐ 1387
-[Repository](https://github.com/HaoboGu/rmk)
+## NovaSky-AI/SkyRL  ⭐ 1386
+[Repository](https://github.com/NovaSky-AI/SkyRL)
 
-- <a href="https://github.com/HaoboGu/rmk/issues/569">Support non-english characters in keymap setting</a>  <code>#569</code> · updated: 2025-10-08 · created: 2025-10-07  
-  labels: enhancement, help wanted, good first issue
+- <a href="https://github.com/NovaSky-AI/SkyRL/issues/699">[skyrl-train] Track inference vs trainer logprobs mismatch as a logger metric</a>  <code>#699</code> · updated: 2025-12-09 · created: 2025-11-24  
+  labels: good first issue, skyrl-train
+- <a href="https://github.com/NovaSky-AI/SkyRL/issues/740">[skyrl-train][logging] Add metrics from all nodes using tracker (i.e. when using WandB)</a>  <code>#740</code> · updated: 2025-12-04 · created: 2025-12-04  
+  labels: good first issue, skyrl-train
+- <a href="https://github.com/NovaSky-AI/SkyRL/issues/673">[tx] Reactivate type checking with `ty`</a>  <code>#673</code> · updated: 2025-11-18 · created: 2025-11-16  
+  labels: good first issue, tx
+- <a href="https://github.com/NovaSky-AI/SkyRL/issues/533">[tx] Implement top_k and top_p and eos / stop tokens for sampling</a>  <code>#533</code> · updated: 2025-11-09 · created: 2025-10-21  
+  labels: good first issue, tx
+- <a href="https://github.com/NovaSky-AI/SkyRL/issues/398">Implement more LoRA layers</a>  <code>#398</code> · updated: 2025-10-09 · created: 2025-10-06  
+  labels: good first issue, tx
 
-## mateusz-bak/openreads  ⭐ 1380
+## maximhq/bifrost  ⭐ 1383
+[Repository](https://github.com/maximhq/bifrost)
+
+- <a href="https://github.com/maximhq/bifrost/issues/1129">[Chore] When direct API key is allowed, mention that in the errors if the invalid key is sent (or virtual key)</a>  <code>#1129</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, heimdal, discord-created
+- <a href="https://github.com/maximhq/bifrost/issues/1088">add support for openai compact api</a>  <code>#1088</code> · updated: 2025-12-15 · created: 2025-12-15  
+  labels: good first issue, heimdal, discord-created
+- <a href="https://github.com/maximhq/bifrost/issues/970">[Feature]:  support count token api</a>  <code>#970</code> · updated: 2025-12-13 · created: 2025-11-30  
+  labels: enhancement, good first issue
+- <a href="https://github.com/maximhq/bifrost/issues/1011">[Feature] Switch to Ollama native apis</a>  <code>#1011</code> · updated: 2025-12-06 · created: 2025-12-05  
+  labels: good first issue, heimdal, discord-created
+- <a href="https://github.com/maximhq/bifrost/issues/950">[Feature]: Support for Image Generation</a>  <code>#950</code> · updated: 2025-11-28 · created: 2025-11-28  
+  labels: enhancement, good first issue
+- <a href="https://github.com/maximhq/bifrost/issues/814">[Feature]: Add option to remove request filter for custom providers</a>  <code>#814</code> · updated: 2025-11-19 · created: 2025-11-11  
+  labels: enhancement, good first issue
+- <a href="https://github.com/maximhq/bifrost/issues/808">[Feature]: filter models in /v1/models based on virtual key</a>  <code>#808</code> · updated: 2025-11-18 · created: 2025-11-10  
+  labels: enhancement, good first issue
+- <a href="https://github.com/maximhq/bifrost/issues/611">[Feature]: Option to configure stream chunk sizes</a>  <code>#611</code> · updated: 2025-11-07 · created: 2025-10-13  
+  labels: enhancement, good first issue
+- <a href="https://github.com/maximhq/bifrost/issues/697">Enable transactions for all database migrations in framework/configstore</a>  <code>#697</code> · updated: 2025-11-07 · created: 2025-10-27  
+  labels: good first issue
+
+## mateusz-bak/openreads  ⭐ 1381
 [Repository](https://github.com/mateusz-bak/openreads)
 
 - <a href="https://github.com/mateusz-bak/openreads/issues/828">[BUG] Filter already set tags from tag list</a>  <code>#828</code> · updated: 2025-10-07 · created: 2025-10-07  
   labels: good first issue, accepted, UX
 
-## qpoint-io/qtap  ⭐ 1377
+## qpoint-io/qtap  ⭐ 1379
 [Repository](https://github.com/qpoint-io/qtap)
 
 - <a href="https://github.com/qpoint-io/qtap/issues/149">Redis</a>  <code>#149</code> · updated: 2025-10-29 · created: 2025-10-16  
@@ -8790,27 +8828,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/qpoint-io/qtap/issues/143">POP3/IMAP</a>  <code>#143</code> · updated: 2025-10-16 · created: 2025-10-16  
   labels: enhancement, good first issue, help wanted
 
-## NovaSky-AI/SkyRL  ⭐ 1373
-[Repository](https://github.com/NovaSky-AI/SkyRL)
+## ChainSafe/lodestar  ⭐ 1377
+[Repository](https://github.com/ChainSafe/lodestar)
 
-- <a href="https://github.com/NovaSky-AI/SkyRL/issues/699">[skyrl-train] Track inference vs trainer logprobs mismatch as a logger metric</a>  <code>#699</code> · updated: 2025-12-09 · created: 2025-11-24  
-  labels: good first issue, skyrl-train
-- <a href="https://github.com/NovaSky-AI/SkyRL/issues/740">[skyrl-train][logging] Add metrics from all nodes using tracker (i.e. when using WandB)</a>  <code>#740</code> · updated: 2025-12-04 · created: 2025-12-04  
-  labels: good first issue, skyrl-train
-- <a href="https://github.com/NovaSky-AI/SkyRL/issues/673">[tx] Reactivate type checking with `ty`</a>  <code>#673</code> · updated: 2025-11-18 · created: 2025-11-16  
-  labels: good first issue, tx
-- <a href="https://github.com/NovaSky-AI/SkyRL/issues/533">[tx] Implement top_k and top_p and eos / stop tokens for sampling</a>  <code>#533</code> · updated: 2025-11-09 · created: 2025-10-21  
-  labels: good first issue, tx
-- <a href="https://github.com/NovaSky-AI/SkyRL/issues/398">Implement more LoRA layers</a>  <code>#398</code> · updated: 2025-10-09 · created: 2025-10-06  
-  labels: good first issue, tx
+- <a href="https://github.com/ChainSafe/lodestar/issues/8698">Dashboard Update - Display which validator indices are connected to a running node</a>  <code>#8698</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: good first issue, help wanted, scope-metrics, scope-ux, meta-feature-request
 
-## paul-buerkner/brms  ⭐ 1371
+## TheOrcDev/8bitcn-ui  ⭐ 1373
+[Repository](https://github.com/TheOrcDev/8bitcn-ui)
+
+- <a href="https://github.com/TheOrcDev/8bitcn-ui/issues/477">New Gaming Block: SaveSlots</a>  <code>#477</code> · updated: 2025-12-18 · created: 2025-11-30  
+  labels: enhancement, good first issue
+
+## paul-buerkner/brms  ⭐ 1372
 [Repository](https://github.com/paul-buerkner/brms)
 
 - <a href="https://github.com/paul-buerkner/brms/issues/1836">Consider replacing `asym_laplace_*` with native version from Stan?</a>  <code>#1836</code> · updated: 2025-12-08 · created: 2025-11-13  
   labels: efficiency, good first issue, Stan
 
-## litestar-org/polyfactory  ⭐ 1366
+## litestar-org/polyfactory  ⭐ 1368
 [Repository](https://github.com/litestar-org/polyfactory)
 
 - <a href="https://github.com/litestar-org/polyfactory/issues/768">Bug: date value generator incompatible with masgspec datetime &#x27;tz&#x27; constraint</a>  <code>#768</code> · updated: 2025-11-11 · created: 2025-10-28  
@@ -8824,66 +8860,42 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/corrosion-rs/corrosion/issues/644">FindRust: Auto-infer Cargo target triple for iOS targets</a>  <code>#644</code> · updated: 2025-11-17 · created: 2025-11-17  
   labels: good first issue
 
-## element-hq/element-desktop  ⭐ 1362
-[Repository](https://github.com/element-hq/element-desktop)
-
-- <a href="https://github.com/element-hq/element-desktop/issues/2571">Security: Windows re-install auto-logs into previous session after uninstall (credentials not purged from OS keychain)</a>  <code>#2571</code> · updated: 2025-10-08 · created: 2025-09-18  
-  labels: T-Defect, O-Uncommon, S-Minor, Help Wanted, A-Authentication, A-Storage, good first issue
-
-## maximhq/bifrost  ⭐ 1359
-[Repository](https://github.com/maximhq/bifrost)
-
-- <a href="https://github.com/maximhq/bifrost/issues/1088">add support for openai compact api</a>  <code>#1088</code> · updated: 2025-12-15 · created: 2025-12-15  
-  labels: good first issue, heimdal, discord-created
-- <a href="https://github.com/maximhq/bifrost/issues/970">[Feature]:  support count token api</a>  <code>#970</code> · updated: 2025-12-13 · created: 2025-11-30  
-  labels: enhancement, good first issue
-- <a href="https://github.com/maximhq/bifrost/issues/1011">[Feature] Switch to Ollama native apis</a>  <code>#1011</code> · updated: 2025-12-06 · created: 2025-12-05  
-  labels: good first issue, heimdal, discord-created
-- <a href="https://github.com/maximhq/bifrost/issues/950">[Feature]: Support for Image Generation</a>  <code>#950</code> · updated: 2025-11-28 · created: 2025-11-28  
-  labels: enhancement, good first issue
-- <a href="https://github.com/maximhq/bifrost/issues/814">[Feature]: Add option to remove request filter for custom providers</a>  <code>#814</code> · updated: 2025-11-19 · created: 2025-11-11  
-  labels: enhancement, good first issue
-- <a href="https://github.com/maximhq/bifrost/issues/808">[Feature]: filter models in /v1/models based on virtual key</a>  <code>#808</code> · updated: 2025-11-18 · created: 2025-11-10  
-  labels: enhancement, good first issue
-- <a href="https://github.com/maximhq/bifrost/issues/836">[Question]: recalculate cost</a>  <code>#836</code> · updated: 2025-11-15 · created: 2025-11-14  
-  labels: enhancement, good first issue
-- <a href="https://github.com/maximhq/bifrost/issues/611">[Feature]: Option to configure stream chunk sizes</a>  <code>#611</code> · updated: 2025-11-07 · created: 2025-10-13  
-  labels: enhancement, good first issue
-- <a href="https://github.com/maximhq/bifrost/issues/697">Enable transactions for all database migrations in framework/configstore</a>  <code>#697</code> · updated: 2025-11-07 · created: 2025-10-27  
-  labels: good first issue
-
-## Barre/ZeroFS  ⭐ 1348
-[Repository](https://github.com/Barre/ZeroFS)
-
-- <a href="https://github.com/Barre/ZeroFS/issues/188">Docker init pattern would be helpful in docs</a>  <code>#188</code> · updated: 2025-11-17 · created: 2025-10-09  
-  labels: good first issue
-
-## SeleniumHQ/seleniumhq.github.io  ⭐ 1348
+## SeleniumHQ/seleniumhq.github.io  ⭐ 1350
 [Repository](https://github.com/SeleniumHQ/seleniumhq.github.io)
 
 - <a href="https://github.com/SeleniumHQ/seleniumhq.github.io/issues/2493">[🚀 Feature]: Update Information section with new methods to fetch Dom attributes</a>  <code>#2493</code> · updated: 2025-11-27 · created: 2025-10-04  
   labels: documentation, good first issue, needs-triaging
 
-## mxsm/rocketmq-rust  ⭐ 1344
+## mxsm/rocketmq-rust  ⭐ 1349
 [Repository](https://github.com/mxsm/rocketmq-rust)
 
-- <a href="https://github.com/mxsm/rocketmq-rust/issues/4700">[Enhancement✨] Remove useless code from TopicRequestHandler#update_and_create_topic method</a>  <code>#4700</code> · updated: 2025-12-16 · created: 2025-12-16  
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4808">[Test🧪] Add test case for SyncStateSet struct</a>  <code>#4808</code> · updated: 2025-12-19 · created: 2025-12-19  
+  labels: help wanted, good first issue, testing🧪
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4804">[Test🧪] Add test case for GetNextBrokerIdResponseHeader struct</a>  <code>#4804</code> · updated: 2025-12-19 · created: 2025-12-19  
+  labels: help wanted, good first issue, Difficulty level/Easy, testing🧪
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4805">[Test🧪] Add test case for ElectMasterResponseBody struct</a>  <code>#4805</code> · updated: 2025-12-19 · created: 2025-12-19  
+  labels: help wanted, good first issue, Difficulty level/Easy, testing🧪
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4803">[Test🧪] Add test case for ApplyBrokerIdResponseHeader struct</a>  <code>#4803</code> · updated: 2025-12-19 · created: 2025-12-19  
+  labels: help wanted, good first issue, Difficulty level/Easy, testing🧪
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4793">[Enhancement✨] Remove useless code from CheckTransactionStateRequestHeader</a>  <code>#4793</code> · updated: 2025-12-18 · created: 2025-12-18  
   labels: help wanted, good first issue, Difficulty level/Easy, enhancement✨
-- <a href="https://github.com/mxsm/rocketmq-rust/issues/4699">[Enhancement✨] Replace topic_config_and_queue_mapping encode with ? to avoid panic in TopicRequestHandler#get_topic_config</a>  <code>#4699</code> · updated: 2025-12-16 · created: 2025-12-16  
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4784">[Enhancement✨] Remove useless code from GetBrokerMemberGroupRequestHeader</a>  <code>#4784</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue, enhancement✨
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4781">[Test🧪] Add test case for RegisterBrokerToControllerResponseHeader</a>  <code>#4781</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue, Difficulty level/Easy, testing🧪
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4779">[Test🧪] Add test case for RegisterBrokerToControllerRequestHeader</a>  <code>#4779</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue, Difficulty level/Easy, testing🧪
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4778">[Test🧪] Add test case for GetReplicaInfoResponseHeader</a>  <code>#4778</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue, Difficulty level/Easy, testing🧪
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4777">[Test🧪] Add test case for GetReplicaInfoRequestHeader</a>  <code>#4777</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue, Difficulty level/Easy, testing🧪
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4776">[Test🧪] Add test case for GetNextBrokerIdRequestHeader</a>  <code>#4776</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue, Difficulty level/Easy, testing🧪
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4775">[Test🧪] Add test case for ElectMasterRequestHeader</a>  <code>#4775</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue, Difficulty level/Easy, testing🧪
+- <a href="https://github.com/mxsm/rocketmq-rust/issues/4757">[Enhancement✨] Add header License for broker.rs</a>  <code>#4757</code> · updated: 2025-12-18 · created: 2025-12-18  
   labels: help wanted, good first issue, Difficulty level/Easy, enhancement✨
-- <a href="https://github.com/mxsm/rocketmq-rust/issues/4696">[Feature🚀] Implement RequestCode GetConsumerRunningInfo(307)</a>  <code>#4696</code> · updated: 2025-12-16 · created: 2025-12-16  
-  labels: help wanted, good first issue, feature🚀, Difficulty level/Easy, Difficulty level/Moderate
 - <a href="https://github.com/mxsm/rocketmq-rust/issues/4590">[Enhancement✨] Optimized SendMessageRequestHeader to implement TopicRequestHeaderTrait, which may cause panic</a>  <code>#4590</code> · updated: 2025-12-13 · created: 2025-12-12  
-  labels: help wanted, good first issue, Difficulty level/Easy, enhancement✨
-- <a href="https://github.com/mxsm/rocketmq-rust/issues/4598">[Enhancement✨] Remove useless code from broker_request.rs</a>  <code>#4598</code> · updated: 2025-12-13 · created: 2025-12-13  
-  labels: help wanted, good first issue, enhancement✨
-- <a href="https://github.com/mxsm/rocketmq-rust/issues/4597">[Enhancement✨] Remvoe useless code from get_all_topic_config_response_header.rs</a>  <code>#4597</code> · updated: 2025-12-13 · created: 2025-12-13  
-  labels: help wanted, good first issue, enhancement✨
-- <a href="https://github.com/mxsm/rocketmq-rust/issues/4596">[Enhancement✨] Remove useless code from get_consume_stats_request_header.rs</a>  <code>#4596</code> · updated: 2025-12-13 · created: 2025-12-13  
-  labels: help wanted, good first issue, enhancement✨
-- <a href="https://github.com/mxsm/rocketmq-rust/issues/4595">[Enhancement✨] Remove useless code from get_consumer_listby_group_response_header.rs</a>  <code>#4595</code> · updated: 2025-12-13 · created: 2025-12-13  
-  labels: help wanted, good first issue, enhancement✨
-- <a href="https://github.com/mxsm/rocketmq-rust/issues/4586">[Enhancement✨] Remove useless code from get_min_offset_request_header.rs</a>  <code>#4586</code> · updated: 2025-12-12 · created: 2025-12-12  
   labels: help wanted, good first issue, Difficulty level/Easy, enhancement✨
 - <a href="https://github.com/mxsm/rocketmq-rust/issues/4324">[Enhancement⚡️]Message body handling in SendMessageProcessor send_message_processor to use take_body for improved ownership management</a>  <code>#4324</code> · updated: 2025-11-25 · created: 2025-11-21  
   labels: enhancement⚡️, help wanted, good first issue, Difficulty level/Easy
@@ -8894,29 +8906,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/google/site-kit-wp/issues/11603">Remove `privacySandboxModule` feature flag</a>  <code>#11603</code> · updated: 2025-11-25 · created: 2025-10-07  
   labels: P1, Good First Issue, Type: Infrastructure
 
-## ONEARMY/community-platform  ⭐ 1341
+## ONEARMY/community-platform  ⭐ 1342
 [Repository](https://github.com/ONEARMY/community-platform)
 
+- <a href="https://github.com/ONEARMY/community-platform/issues/4545">[feature request] Improving the News module</a>  <code>#4545</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: Good first issue, Code: Frontend, Difficulty: Easy, Stage: ⏳Under discussion, Mod: News 📰
+- <a href="https://github.com/ONEARMY/community-platform/issues/4508">[bug] Breadcrumbs are overflowing on mobile</a>  <code>#4508</code> · updated: 2025-12-18 · created: 2025-11-25  
+  labels: Good first issue, Code: Frontend
 - <a href="https://github.com/ONEARMY/community-platform/issues/4515">[design bug] - Minor css improvement for images in Research and Questions modules</a>  <code>#4515</code> · updated: 2025-12-08 · created: 2025-11-27  
   labels: Good first issue, Code: Frontend, Difficulty: Easy, Mod: Research 🔬, Mod: Questions ❔
-- <a href="https://github.com/ONEARMY/community-platform/issues/4508">[bug] Breadcrumbs are overflowing on mobile</a>  <code>#4508</code> · updated: 2025-11-25 · created: 2025-11-25  
-  labels: Good first issue, Code: Frontend
 - <a href="https://github.com/ONEARMY/community-platform/issues/4440">[ui] Nicer contributions tab UI</a>  <code>#4440</code> · updated: 2025-10-11 · created: 2025-10-11  
   labels: Good first issue, Help wanted, Code: Frontend, Difficulty: Easy, Stage: 🖼️ Design Approved
 - <a href="https://github.com/ONEARMY/community-platform/issues/4432">[bug] Fix the frontend of comment box</a>  <code>#4432</code> · updated: 2025-09-25 · created: 2025-09-25  
   labels: Good first issue, Code: Frontend, Mod: Discussions 💬, Difficulty: Easy
 
-## shuakami/qq-chat-exporter  ⭐ 1340
-[Repository](https://github.com/shuakami/qq-chat-exporter)
+## lane711/sonicjs  ⭐ 1333
+[Repository](https://github.com/lane711/sonicjs)
 
-- <a href="https://github.com/shuakami/qq-chat-exporter/issues/142">路径错误无法打开? 提供..解决方法cv&lt; [ERROR: The system was unable to find the specified registry key or value.]</a>  <code>#142</code> · updated: 2025-12-15 · created: 2025-12-13  
-  labels: good first issue
-
-## TheOrcDev/8bitcn-ui  ⭐ 1338
-[Repository](https://github.com/TheOrcDev/8bitcn-ui)
-
-- <a href="https://github.com/TheOrcDev/8bitcn-ui/issues/477">New Gaming Block: SaveSlots</a>  <code>#477</code> · updated: 2025-12-03 · created: 2025-11-30  
-  labels: enhancement, good first issue
+- <a href="https://github.com/lane711/sonicjs/issues/435">Reduce &#x27;any&#x27; type usage in packages/core</a>  <code>#435</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: help wanted, good first issue
 
 ## dessalines/thumb-key  ⭐ 1328
 [Repository](https://github.com/dessalines/thumb-key)
@@ -8928,13 +8936,27 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/dessalines/thumb-key/issues/1678">Refactor: rename &#x27;toggle&#x27; key actions</a>  <code>#1678</code> · updated: 2025-12-05 · created: 2025-12-05  
   labels: documentation, good first issue
 
-## nikitastupin/clairvoyance  ⭐ 1322
+## Snowflake-Labs/pg_lake  ⭐ 1327
+[Repository](https://github.com/Snowflake-Labs/pg_lake)
+
+- <a href="https://github.com/Snowflake-Labs/pg_lake/issues/112">Iceberg spec doesn&#x27;t seem to allow partitioning on `time` column, but pg_lake does</a>  <code>#112</code> · updated: 2025-12-18 · created: 2025-12-16  
+  labels: bug, good first issue
+- <a href="https://github.com/Snowflake-Labs/pg_lake/issues/111">Do not allow setting `partition_by` is `read_only` table creation</a>  <code>#111</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: bug, good first issue
+- <a href="https://github.com/Snowflake-Labs/pg_lake/issues/91">Add isolation tests to make sure REPEATABLE READ and SERIALIZABLE works fine</a>  <code>#91</code> · updated: 2025-12-02 · created: 2025-12-02  
+  labels: good first issue, regression_test
+- <a href="https://github.com/Snowflake-Labs/pg_lake/issues/45">Pushdown math hyperbolic functions</a>  <code>#45</code> · updated: 2025-11-25 · created: 2025-11-11  
+  labels: good first issue, performance
+- <a href="https://github.com/Snowflake-Labs/pg_lake/issues/40">Improved autovacuum logging</a>  <code>#40</code> · updated: 2025-11-10 · created: 2025-11-07  
+  labels: good first issue
+
+## nikitastupin/clairvoyance  ⭐ 1324
 [Repository](https://github.com/nikitastupin/clairvoyance)
 
 - <a href="https://github.com/nikitastupin/clairvoyance/issues/127">Ultra slow mode</a>  <code>#127</code> · updated: 2025-12-03 · created: 2025-10-07  
   labels: enhancement, good first issue
 
-## pg-sharding/spqr  ⭐ 1320
+## pg-sharding/spqr  ⭐ 1323
 [Repository](https://github.com/pg-sharding/spqr)
 
 - <a href="https://github.com/pg-sharding/spqr/issues/1575">Validate UUID format in key range operations</a>  <code>#1575</code> · updated: 2025-12-10 · created: 2025-09-22  
@@ -8952,23 +8974,35 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pg-sharding/spqr/issues/1630">Lack of diagnostics during `REDISTRIBUTE KEY RANGE`</a>  <code>#1630</code> · updated: 2025-10-22 · created: 2025-10-22  
   labels: enhancement, good first issue, help wanted, spqr-console
 
-## Snowflake-Labs/pg_lake  ⭐ 1317
-[Repository](https://github.com/Snowflake-Labs/pg_lake)
+## compio-rs/compio  ⭐ 1318
+[Repository](https://github.com/compio-rs/compio)
 
-- <a href="https://github.com/Snowflake-Labs/pg_lake/issues/91">Add isolation tests to make sure REPEATABLE READ and SERIALIZABLE works fine</a>  <code>#91</code> · updated: 2025-12-02 · created: 2025-12-02  
-  labels: good first issue, regression_test
-- <a href="https://github.com/Snowflake-Labs/pg_lake/issues/45">Pushdown math hyperbolic functions</a>  <code>#45</code> · updated: 2025-11-25 · created: 2025-11-11  
-  labels: good first issue, performance
-- <a href="https://github.com/Snowflake-Labs/pg_lake/issues/40">Improved autovacuum logging</a>  <code>#40</code> · updated: 2025-11-10 · created: 2025-11-07  
-  labels: good first issue
+- <a href="https://github.com/compio-rs/compio/issues/553">Improve docs</a>  <code>#553</code> · updated: 2025-12-18 · created: 2025-12-02  
+  labels: documentation, good first issue
 
-## sameersbn/docker-redmine  ⭐ 1317
+## sameersbn/docker-redmine  ⭐ 1316
 [Repository](https://github.com/sameersbn/docker-redmine)
 
 - <a href="https://github.com/sameersbn/docker-redmine/issues/593">Backup fails when REDMINE_ATTACHMENTS_DIR is changed from default</a>  <code>#593</code> · updated: 2025-10-13 · created: 2025-10-13  
   labels: bug, good first issue
 
-## objectionary/eo  ⭐ 1315
+## microsoft/fhir-server  ⭐ 1315
+[Repository](https://github.com/microsoft/fhir-server)
+
+- <a href="https://github.com/microsoft/fhir-server/issues/5176">Fix AmbiguousMatchException between PatchJson and PatchFhir methods</a>  <code>#5176</code> · updated: 2025-10-27 · created: 2025-10-03  
+  labels: Bug, Up for grabs, Good First Issue, routing, bulk-operations
+
+## Redocly/redocly-cli  ⭐ 1314
+[Repository](https://github.com/Redocly/redocly-cli)
+
+- <a href="https://github.com/Redocly/redocly-cli/issues/2353">Add AsyncAPI support in the `stats` command</a>  <code>#2353</code> · updated: 2025-11-14 · created: 2025-10-08  
+  labels: good first issue, p3, Type: Enhancement
+- <a href="https://github.com/Redocly/redocly-cli/issues/2324">New 3.1 rule for mixed `maximum` and `exclusiveMaximum`</a>  <code>#2324</code> · updated: 2025-10-14 · created: 2025-09-23  
+  labels: good first issue, p3, Type: Enhancement, JSON Schema
+- <a href="https://github.com/Redocly/redocly-cli/issues/2352">Support AsyncAPI 3 (and if possible 2) in the `split` command</a>  <code>#2352</code> · updated: 2025-10-08 · created: 2025-10-08  
+  labels: good first issue, p3, Type: Enhancement
+
+## objectionary/eo  ⭐ 1314
 [Repository](https://github.com/objectionary/eo)
 
 - <a href="https://github.com/objectionary/eo/issues/4750">`number.floor` Implementation Incorrectly Categorized as Atom in EO</a>  <code>#4750</code> · updated: 2025-12-15 · created: 2025-12-14  
@@ -8986,29 +9020,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/objectionary/eo/issues/4633">`MjTranspile#pinfos()` Produces Invalid Package Name from Directory Name in `package-info.java`</a>  <code>#4633</code> · updated: 2025-10-17 · created: 2025-10-17  
   labels: bug, help wanted, good first issue, good-title
 
-## Redocly/redocly-cli  ⭐ 1313
-[Repository](https://github.com/Redocly/redocly-cli)
-
-- <a href="https://github.com/Redocly/redocly-cli/issues/2353">Add AsyncAPI support in the `stats` command</a>  <code>#2353</code> · updated: 2025-11-14 · created: 2025-10-08  
-  labels: good first issue, p3, Type: Enhancement
-- <a href="https://github.com/Redocly/redocly-cli/issues/2324">New 3.1 rule for mixed `maximum` and `exclusiveMaximum`</a>  <code>#2324</code> · updated: 2025-10-14 · created: 2025-09-23  
-  labels: good first issue, p3, Type: Enhancement, JSON Schema
-- <a href="https://github.com/Redocly/redocly-cli/issues/2352">Support AsyncAPI 3 (and if possible 2) in the `split` command</a>  <code>#2352</code> · updated: 2025-10-08 · created: 2025-10-08  
-  labels: good first issue, p3, Type: Enhancement
-
 ## jsonpickle/jsonpickle  ⭐ 1313
 [Repository](https://github.com/jsonpickle/jsonpickle)
 
 - <a href="https://github.com/jsonpickle/jsonpickle/issues/572">defaultdict loses keys named &quot;default_factory&quot;</a>  <code>#572</code> · updated: 2025-11-19 · created: 2025-11-10  
   labels: bug, good-first-issue
 
-## microsoft/fhir-server  ⭐ 1313
-[Repository](https://github.com/microsoft/fhir-server)
-
-- <a href="https://github.com/microsoft/fhir-server/issues/5176">Fix AmbiguousMatchException between PatchJson and PatchFhir methods</a>  <code>#5176</code> · updated: 2025-10-27 · created: 2025-10-03  
-  labels: Bug, Up for grabs, Good First Issue, routing, bulk-operations
-
-## fleetbase/fleetbase  ⭐ 1307
+## fleetbase/fleetbase  ⭐ 1310
 [Repository](https://github.com/fleetbase/fleetbase)
 
 - <a href="https://github.com/fleetbase/fleetbase/issues/453">[GFI] Add OAuth Authentication</a>  <code>#453</code> · updated: 2025-10-30 · created: 2025-10-30  
@@ -9018,13 +9036,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/fleetbase/fleetbase/issues/451">[GFI] Template / Document Builder Component</a>  <code>#451</code> · updated: 2025-10-30 · created: 2025-10-30  
   labels: roadmap, good first issue
 
-## swiftlang/swift-docc  ⭐ 1305
-[Repository](https://github.com/swiftlang/swift-docc)
-
-- <a href="https://github.com/swiftlang/swift-docc/issues/1394">Enable the favicon included within a DocC Archive to be configurable</a>  <code>#1394</code> · updated: 2025-12-12 · created: 2025-12-12  
-  labels: good first issue, enhancement
-
-## bruin-data/bruin  ⭐ 1303
+## bruin-data/bruin  ⭐ 1308
 [Repository](https://github.com/bruin-data/bruin)
 
 - <a href="https://github.com/bruin-data/bruin/issues/1220">Create Bronze-to-Silver Pipeline Template for BigQuery</a>  <code>#1220</code> · updated: 2025-10-16 · created: 2025-10-16  
@@ -9032,7 +9044,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/bruin-data/bruin/issues/1221">Create Bronze-to-Silver Pipeline Template for Snowflake</a>  <code>#1221</code> · updated: 2025-10-16 · created: 2025-10-16  
   labels: good first issue
 
-## eunomia-bpf/bpftime  ⭐ 1301
+## eunomia-bpf/bpftime  ⭐ 1306
 [Repository](https://github.com/eunomia-bpf/bpftime)
 
 - <a href="https://github.com/eunomia-bpf/bpftime/issues/472">[FEATURE] Measure overhead of shared_array_map map update</a>  <code>#472</code> · updated: 2025-12-11 · created: 2025-10-18  
@@ -9040,31 +9052,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/eunomia-bpf/bpftime/issues/505">[FEATURE] Add Per-thread runtime distribution example for bpftime GPU tracing</a>  <code>#505</code> · updated: 2025-11-29 · created: 2025-11-19  
   labels: enhancement, good first issue, help wanted
 
-## live-codes/livecodes  ⭐ 1300
+## live-codes/livecodes  ⭐ 1306
 [Repository](https://github.com/live-codes/livecodes)
 
 - <a href="https://github.com/live-codes/livecodes/issues/875">Update language compilers</a>  <code>#875</code> · updated: 2025-09-22 · created: 2025-09-21  
   labels: help wanted, good first issue
 
-## w3c/aria-practices  ⭐ 1295
-[Repository](https://github.com/w3c/aria-practices)
+## swiftlang/swift-docc  ⭐ 1305
+[Repository](https://github.com/swiftlang/swift-docc)
 
-- <a href="https://github.com/w3c/aria-practices/issues/3371">Navigation Tree View Sets State not in Tree View Pattern</a>  <code>#3371</code> · updated: 2025-10-07 · created: 2025-10-03  
-  labels: enhancement, editorial, good first issue
+- <a href="https://github.com/swiftlang/swift-docc/issues/1403">Support @PageImage in in-source documentation comments</a>  <code>#1403</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: good first issue, enhancement
 
-## BlitzKraft/saythanks.io  ⭐ 1289
-[Repository](https://github.com/BlitzKraft/saythanks.io)
-
-- <a href="https://github.com/BlitzKraft/saythanks.io/issues/395">Formatted string passed to logging module PYL-W1203</a>  <code>#395</code> · updated: 2025-10-07 · created: 2025-10-07  
-  labels: enhancement, first-timers-only, good first issue
-
-## XAMPPRocky/octocrab  ⭐ 1289
-[Repository](https://github.com/XAMPPRocky/octocrab)
-
-- <a href="https://github.com/XAMPPRocky/octocrab/issues/809">Add `#[non_exhaustive]` to all models</a>  <code>#809</code> · updated: 2025-10-07 · created: 2025-10-07  
-  labels: enhancement, help wanted, good first issue
-
-## MadAppGang/dingo  ⭐ 1288
+## MadAppGang/dingo  ⭐ 1303
 [Repository](https://github.com/MadAppGang/dingo)
 
 - <a href="https://github.com/MadAppGang/dingo/issues/35">Go &lt;-&gt; Dingo translator tool</a>  <code>#35</code> · updated: 2025-12-11 · created: 2025-12-11  
@@ -9074,13 +9074,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/MadAppGang/dingo/issues/32">example error</a>  <code>#32</code> · updated: 2025-12-08 · created: 2025-12-08  
   labels: documentation, good first issue, question
 
-## jfalcou/eve  ⭐ 1279
-[Repository](https://github.com/jfalcou/eve)
+## w3c/aria-practices  ⭐ 1296
+[Repository](https://github.com/w3c/aria-practices)
 
-- <a href="https://github.com/jfalcou/eve/issues/2185">[FEATURE] multiply int64s as int32s</a>  <code>#2185</code> · updated: 2025-09-20 · created: 2025-09-20  
-  labels: good first issue
+- <a href="https://github.com/w3c/aria-practices/issues/3371">Navigation Tree View Sets State not in Tree View Pattern</a>  <code>#3371</code> · updated: 2025-10-07 · created: 2025-10-03  
+  labels: enhancement, editorial, good first issue
 
-## tenstorrent/tt-metal  ⭐ 1279
+## XAMPPRocky/octocrab  ⭐ 1290
+[Repository](https://github.com/XAMPPRocky/octocrab)
+
+- <a href="https://github.com/XAMPPRocky/octocrab/issues/809">Add `#[non_exhaustive]` to all models</a>  <code>#809</code> · updated: 2025-10-07 · created: 2025-10-07  
+  labels: enhancement, help wanted, good first issue
+
+## BlitzKraft/saythanks.io  ⭐ 1289
+[Repository](https://github.com/BlitzKraft/saythanks.io)
+
+- <a href="https://github.com/BlitzKraft/saythanks.io/issues/395">Formatted string passed to logging module PYL-W1203</a>  <code>#395</code> · updated: 2025-10-07 · created: 2025-10-07  
+  labels: enhancement, first-timers-only, good first issue
+
+## tenstorrent/tt-metal  ⭐ 1284
 [Repository](https://github.com/tenstorrent/tt-metal)
 
 - <a href="https://github.com/tenstorrent/tt-metal/issues/32891">[DM]: Refactor hardcoded tests to use fast dispatch mode</a>  <code>#32891</code> · updated: 2025-12-15 · created: 2025-11-20  
@@ -9090,23 +9102,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/tenstorrent/tt-metal/issues/33361">[DM] Add VC sweep for DRAM tests</a>  <code>#33361</code> · updated: 2025-12-04 · created: 2025-11-27  
   labels: good-first-issue, P2, Perf Optimization
 - <a href="https://github.com/tenstorrent/tt-metal/issues/32898">Matmul vs Reduce_tile accuracy + perf measurements</a>  <code>#32898</code> · updated: 2025-11-20 · created: 2025-11-20  
-  labels: good-first-issue, TT-train, accuracy, do-not-close
-- <a href="https://github.com/tenstorrent/tt-metal/issues/28720">Use inline write to multicast GO message</a>  <code>#28720</code> · updated: 2025-11-17 · created: 2025-09-17  
-  labels: good-first-issue, do-not-close
+  labels: good-first-issue, tt-train, accuracy, do-not-close
 
-## calibrain/calibre-web-automated-book-downloader  ⭐ 1276
+## calibrain/calibre-web-automated-book-downloader  ⭐ 1283
 [Repository](https://github.com/calibrain/calibre-web-automated-book-downloader)
 
 - <a href="https://github.com/calibrain/calibre-web-automated-book-downloader/issues/295">[FEATURE] Supporting rar/zip books</a>  <code>#295</code> · updated: 2025-11-03 · created: 2025-11-02  
   labels: enhancement, good first issue
 
-## LibreDWG/libredwg  ⭐ 1274
-[Repository](https://github.com/LibreDWG/libredwg)
-
-- <a href="https://github.com/LibreDWG/libredwg/issues/1190">Potential NULL Pointer Dereference</a>  <code>#1190</code> · updated: 2025-10-28 · created: 2025-10-27  
-  labels: good first issue, fuzzing
-
-## NVIDIA-NeMo/Curator  ⭐ 1268
+## NVIDIA-NeMo/Curator  ⭐ 1281
 [Repository](https://github.com/NVIDIA-NeMo/Curator)
 
 - <a href="https://github.com/NVIDIA-NeMo/Curator/issues/1232">Reorganize directory structure for `DocumentFilter` and `DocumentModifier`</a>  <code>#1232</code> · updated: 2025-11-14 · created: 2025-11-14  
@@ -9116,21 +9120,65 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/NVIDIA-NeMo/Curator/issues/1192">Standardize ID naming for deduplication</a>  <code>#1192</code> · updated: 2025-10-21 · created: 2025-10-21  
   labels: good first issue
 
-## charlie0129/batt  ⭐ 1268
+## jfalcou/eve  ⭐ 1279
+[Repository](https://github.com/jfalcou/eve)
+
+- <a href="https://github.com/jfalcou/eve/issues/2185">[FEATURE] multiply int64s as int32s</a>  <code>#2185</code> · updated: 2025-09-20 · created: 2025-09-20  
+  labels: good first issue
+
+## LibreDWG/libredwg  ⭐ 1278
+[Repository](https://github.com/LibreDWG/libredwg)
+
+- <a href="https://github.com/LibreDWG/libredwg/issues/1190">Potential NULL Pointer Dereference</a>  <code>#1190</code> · updated: 2025-10-28 · created: 2025-10-27  
+  labels: good first issue, fuzzing
+
+## charlie0129/batt  ⭐ 1274
 [Repository](https://github.com/charlie0129/batt)
 
 - <a href="https://github.com/charlie0129/batt/issues/81">Release GUI version as homebrew cask</a>  <code>#81</code> · updated: 2025-10-15 · created: 2025-10-15  
   labels: help wanted, good first issue
 
-## clojure-lsp/clojure-lsp  ⭐ 1266
+## we-promise/sure  ⭐ 1270
+[Repository](https://github.com/we-promise/sure)
+
+- <a href="https://github.com/we-promise/sure/issues/446">Allow ignoring first X rows when importing CSV</a>  <code>#446</code> · updated: 2025-12-13 · created: 2025-12-12  
+  labels: enhancement, good first issue
+- <a href="https://github.com/we-promise/sure/issues/253">feat: Set start date of MTD (month to date) filter</a>  <code>#253</code> · updated: 2025-10-28 · created: 2025-10-27  
+  labels: good first issue, help wanted
+
+## hook0/hook0  ⭐ 1269
+[Repository](https://github.com/hook0/hook0)
+
+- <a href="https://github.com/hook0/hook0/issues/35">Ability to configure frontend with API_ENDPOINT at container runtime</a>  <code>#35</code> · updated: 2025-12-17 · created: 2025-12-10  
+  labels: enhancement, good first issue
+
+## clojure-lsp/clojure-lsp  ⭐ 1268
 [Repository](https://github.com/clojure-lsp/clojure-lsp)
 
 - <a href="https://github.com/clojure-lsp/clojure-lsp/issues/2171">Suggestion: if-&gt;cond and cond-&gt;if refactorings</a>  <code>#2171</code> · updated: 2025-12-09 · created: 2025-12-09  
   labels: enhancement, good first issue
 
+## numtide/system-manager  ⭐ 1267
+[Repository](https://github.com/numtide/system-manager)
+
+- <a href="https://github.com/numtide/system-manager/issues/279">Add `--sudo` flag</a>  <code>#279</code> · updated: 2025-11-07 · created: 2025-11-07  
+  labels: enhancement, good first issue
+
+## tofuutils/tenv  ⭐ 1266
+[Repository](https://github.com/tofuutils/tenv)
+
+- <a href="https://github.com/tofuutils/tenv/issues/486">Fix choco package</a>  <code>#486</code> · updated: 2025-10-02 · created: 2025-09-23  
+  labels: bug, good first issue, help wanted, package managers, os: windows, hacktoberfest, hacktoberfest-accepted
+- <a href="https://github.com/tofuutils/tenv/issues/482">Rework documentation for better readability and navigation</a>  <code>#482</code> · updated: 2025-10-02 · created: 2025-09-21  
+  labels: documentation, enhancement, good first issue, help wanted, hacktoberfest
+
 ## vivoblueos/kernel  ⭐ 1265
 [Repository](https://github.com/vivoblueos/kernel)
 
+- <a href="https://github.com/vivoblueos/kernel/issues/230">Run check_infra via valgrind to detect memory issue</a>  <code>#230</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: enhancement, good first issue
+- <a href="https://github.com/vivoblueos/kernel/issues/227">Statistics should be optional</a>  <code>#227</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: enhancement, good first issue
 - <a href="https://github.com/vivoblueos/kernel/issues/216">Change project code name to BlueKernel in existed code</a>  <code>#216</code> · updated: 2025-12-11 · created: 2025-12-11  
   labels: good first issue, help wanted
 - <a href="https://github.com/vivoblueos/kernel/issues/190">Make naming in `//kernel/kernel/src/time` rusty</a>  <code>#190</code> · updated: 2025-11-28 · created: 2025-11-28  
@@ -9138,13 +9186,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/vivoblueos/kernel/issues/179">Rename coversion function name</a>  <code>#179</code> · updated: 2025-11-25 · created: 2025-11-25  
   labels: good first issue
 
-## tofuutils/tenv  ⭐ 1264
-[Repository](https://github.com/tofuutils/tenv)
+## autobrr/qui  ⭐ 1262
+[Repository](https://github.com/autobrr/qui)
 
-- <a href="https://github.com/tofuutils/tenv/issues/486">Fix choco package</a>  <code>#486</code> · updated: 2025-10-02 · created: 2025-09-23  
-  labels: bug, good first issue, help wanted, package managers, os: windows, hacktoberfest, hacktoberfest-accepted
-- <a href="https://github.com/tofuutils/tenv/issues/482">Rework documentation for better readability and navigation</a>  <code>#482</code> · updated: 2025-10-02 · created: 2025-09-21  
-  labels: documentation, enhancement, good first issue, help wanted, hacktoberfest
+- <a href="https://github.com/autobrr/qui/issues/734">[FR] Automatically recheck torrents added in stopped state</a>  <code>#734</code> · updated: 2025-12-11 · created: 2025-12-10  
+  labels: enhancement, good first issue
+- <a href="https://github.com/autobrr/qui/issues/681">Can qui be added to homebrew?</a>  <code>#681</code> · updated: 2025-12-03 · created: 2025-12-03  
+  labels: enhancement, good first issue
+- <a href="https://github.com/autobrr/qui/issues/644">Method for Windows installation and guide for Windows users to set up qui in the README.</a>  <code>#644</code> · updated: 2025-11-30 · created: 2025-11-29  
+  labels: documentation, enhancement, good first issue
 
 ## bootstrap-vue-next/bootstrap-vue-next  ⭐ 1262
 [Repository](https://github.com/bootstrap-vue-next/bootstrap-vue-next)
@@ -9154,63 +9204,35 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/bootstrap-vue-next/bootstrap-vue-next/issues/2893">BFormRating: Use with input groups</a>  <code>#2893</code> · updated: 2025-12-06 · created: 2025-11-05  
   labels: good first issue, stale, compatibility enhancement, non-breaking
 
-## numtide/system-manager  ⭐ 1261
-[Repository](https://github.com/numtide/system-manager)
-
-- <a href="https://github.com/numtide/system-manager/issues/279">Add `--sudo` flag</a>  <code>#279</code> · updated: 2025-11-07 · created: 2025-11-07  
-  labels: enhancement, good first issue
-
-## we-promise/sure  ⭐ 1257
-[Repository](https://github.com/we-promise/sure)
-
-- <a href="https://github.com/we-promise/sure/issues/446">Allow ignoring first X rows when importing CSV</a>  <code>#446</code> · updated: 2025-12-13 · created: 2025-12-12  
-  labels: enhancement, good first issue
-- <a href="https://github.com/we-promise/sure/issues/253">feat: Set start date of MTD (month to date) filter</a>  <code>#253</code> · updated: 2025-10-28 · created: 2025-10-27  
-  labels: good first issue, help wanted
-
-## tmewett/BrogueCE  ⭐ 1252
-[Repository](https://github.com/tmewett/BrogueCE)
-
-- <a href="https://github.com/tmewett/BrogueCE/issues/752">&quot;Holding prey immobile&quot; flag doesn&#x27;t get cleared when monster becomes helpless</a>  <code>#752</code> · updated: 2025-09-28 · created: 2025-09-28  
-  labels: bug, good first issue
-
-## yuanyuanxiang/SimpleRemoter  ⭐ 1248
+## yuanyuanxiang/SimpleRemoter  ⭐ 1256
 [Repository](https://github.com/yuanyuanxiang/SimpleRemoter)
 
 - <a href="https://github.com/yuanyuanxiang/SimpleRemoter/issues/246">在使用vs2019编译ghost项目的时候发现报错语法错误</a>  <code>#246</code> · updated: 2025-12-15 · created: 2025-12-10  
   labels: good first issue
 
-## deltachat/deltachat-desktop  ⭐ 1245
+## tmewett/BrogueCE  ⭐ 1253
+[Repository](https://github.com/tmewett/BrogueCE)
+
+- <a href="https://github.com/tmewett/BrogueCE/issues/752">&quot;Holding prey immobile&quot; flag doesn&#x27;t get cleared when monster becomes helpless</a>  <code>#752</code> · updated: 2025-09-28 · created: 2025-09-28  
+  labels: bug, good first issue
+
+## deltachat/deltachat-desktop  ⭐ 1249
 [Repository](https://github.com/deltachat/deltachat-desktop)
 
+- <a href="https://github.com/deltachat/deltachat-desktop/issues/5887">unify button styles</a>  <code>#5887</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: good first issue, ui/ux, polish
 - <a href="https://github.com/deltachat/deltachat-desktop/issues/5808">Indicate the number of unread messages in window title</a>  <code>#5808</code> · updated: 2025-12-13 · created: 2025-12-03  
   labels: good first issue
-- <a href="https://github.com/deltachat/deltachat-desktop/issues/5870">Changing email address dialog needs to be updated</a>  <code>#5870</code> · updated: 2025-12-13 · created: 2025-12-13  
-  labels: bug, good first issue, ui/ux
-- <a href="https://github.com/deltachat/deltachat-desktop/issues/5868">Adding Relays/transports: configure failure is neither handled nor shown to the user</a>  <code>#5868</code> · updated: 2025-12-13 · created: 2025-12-13  
-  labels: bug, good first issue
 - <a href="https://github.com/deltachat/deltachat-desktop/issues/5867">Chat buttons (gallery, map, 3dot menu) are not alighed center vertically</a>  <code>#5867</code> · updated: 2025-12-13 · created: 2025-12-13  
   labels: bug, good first issue, ui/ux
 
-## release-plz/release-plz  ⭐ 1243
+## release-plz/release-plz  ⭐ 1248
 [Repository](https://github.com/release-plz/release-plz)
 
 - <a href="https://github.com/release-plz/release-plz/issues/2488">Keep action up to date in docs</a>  <code>#2488</code> · updated: 2025-11-13 · created: 2025-11-11  
   labels: enhancement, good first issue
 
-## gotify/android  ⭐ 1237
-[Repository](https://github.com/gotify/android)
-
-- <a href="https://github.com/gotify/android/issues/427">Feature Request: Allow dynamic Notification Grouping via message &#x27;extras&#x27; (Topic-based grouping)</a>  <code>#427</code> · updated: 2025-12-01 · created: 2025-12-01  
-  labels: a:feature, good first issue
-
-## grafana/grafana-operator  ⭐ 1236
-[Repository](https://github.com/grafana/grafana-operator)
-
-- <a href="https://github.com/grafana/grafana-operator/issues/2201">Support for correlations on datasources</a>  <code>#2201</code> · updated: 2025-11-03 · created: 2025-09-24  
-  labels: good first issue, triage/accepted
-
-## SkriptLang/Skript  ⭐ 1235
+## SkriptLang/Skript  ⭐ 1239
 [Repository](https://github.com/SkriptLang/Skript)
 
 - <a href="https://github.com/SkriptLang/Skript/issues/8265">Vector function that accepts a single argument</a>  <code>#8265</code> · updated: 2025-12-14 · created: 2025-10-30  
@@ -9222,15 +9244,49 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/SkriptLang/Skript/issues/8239">Leash syntax only takes in Living Entities rather than all entities (excluding boats)</a>  <code>#8239</code> · updated: 2025-10-21 · created: 2025-10-16  
   labels: enhancement, priority: low, good first issue, PR available
 
-## kubecolor/kubecolor  ⭐ 1231
+## gotify/android  ⭐ 1239
+[Repository](https://github.com/gotify/android)
+
+- <a href="https://github.com/gotify/android/issues/427">Feature Request: Allow dynamic Notification Grouping via message &#x27;extras&#x27; (Topic-based grouping)</a>  <code>#427</code> · updated: 2025-12-01 · created: 2025-12-01  
+  labels: a:feature, good first issue
+
+## grafana/grafana-operator  ⭐ 1237
+[Repository](https://github.com/grafana/grafana-operator)
+
+- <a href="https://github.com/grafana/grafana-operator/issues/2201">Support for correlations on datasources</a>  <code>#2201</code> · updated: 2025-11-03 · created: 2025-09-24  
+  labels: good first issue, triage/accepted
+
+## neovateai/neovate-code  ⭐ 1237
+[Repository](https://github.com/neovateai/neovate-code)
+
+- <a href="https://github.com/neovateai/neovate-code/issues/385">[Feature Request]: MCP OAuth support</a>  <code>#385</code> · updated: 2025-11-06 · created: 2025-10-31  
+  labels: good first issue
+- <a href="https://github.com/neovateai/neovate-code/issues/387">[Feature Request]: Support notification when task is completed</a>  <code>#387</code> · updated: 2025-10-31 · created: 2025-10-31  
+  labels: good first issue
+- <a href="https://github.com/neovateai/neovate-code/issues/386">[Feature Request]: Add /setting</a>  <code>#386</code> · updated: 2025-10-31 · created: 2025-10-31  
+  labels: good first issue
+
+## cedar-policy/cedar  ⭐ 1233
+[Repository](https://github.com/cedar-policy/cedar)
+
+- <a href="https://github.com/cedar-policy/cedar/issues/2049">Visualize improvement/fix</a>  <code>#2049</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good-first-issue, papercut
+- <a href="https://github.com/cedar-policy/cedar/issues/2015">CLI `run-tests` should accept schema and validate policies+entities+requests</a>  <code>#2015</code> · updated: 2025-12-04 · created: 2025-12-02  
+  labels: good-first-issue, feature-request
+- <a href="https://github.com/cedar-policy/cedar/issues/2016">Allow referencing entites JSON files for `entities` in CLI `run-tests` JSON input</a>  <code>#2016</code> · updated: 2025-12-04 · created: 2025-12-02  
+  labels: good-first-issue, feature-request
+
+## kubecolor/kubecolor  ⭐ 1232
 [Repository](https://github.com/kubecolor/kubecolor)
 
 - <a href="https://github.com/kubecolor/kubecolor/issues/278">Add distinct colors to `kubectl label` result</a>  <code>#278</code> · updated: 2025-10-08 · created: 2025-10-08  
   labels: enhancement, good first issue
 
-## datazip-inc/olake  ⭐ 1230
+## datazip-inc/olake  ⭐ 1231
 [Repository](https://github.com/datazip-inc/olake)
 
+- <a href="https://github.com/datazip-inc/olake/issues/650">feat: Add Unit Tests for compare.go</a>  <code>#650</code> · updated: 2025-12-16 · created: 2025-11-21  
+  labels: good first issue
 - <a href="https://github.com/datazip-inc/olake/issues/643">feat: Add Unit Tests for reformat.go</a>  <code>#643</code> · updated: 2025-12-14 · created: 2025-11-19  
   labels: good first issue
 - <a href="https://github.com/datazip-inc/olake/issues/666">issue(postgres): check connection in postgres not check for database of replication slot</a>  <code>#666</code> · updated: 2025-12-13 · created: 2025-12-02  
@@ -9249,8 +9305,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue, todo :spiral_notepad:
 - <a href="https://github.com/datazip-inc/olake/issues/649">feat: Add Unit Tests for stream_configured.go</a>  <code>#649</code> · updated: 2025-12-01 · created: 2025-11-21  
   labels: good first issue
-- <a href="https://github.com/datazip-inc/olake/issues/650">feat: Add Unit Tests for compare.go</a>  <code>#650</code> · updated: 2025-11-30 · created: 2025-11-21  
-  labels: good first issue
 - <a href="https://github.com/datazip-inc/olake/issues/644">feat: Add Unit Tests for datatype.go</a>  <code>#644</code> · updated: 2025-11-20 · created: 2025-11-19  
   labels: good first issue
 - <a href="https://github.com/datazip-inc/olake/issues/565">feat: SSH support for mongodb and oracle drivers</a>  <code>#565</code> · updated: 2025-11-17 · created: 2025-10-06  
@@ -9259,38 +9313,20 @@ _Generated at: 2025-12-16T04:35:06Z_
 ## hub4j/github-api  ⭐ 1229
 [Repository](https://github.com/hub4j/github-api)
 
-- <a href="https://github.com/hub4j/github-api/issues/2172">GitHubSanityCachedValue can block whole application</a>  <code>#2172</code> · updated: 2025-12-15 · created: 2025-12-04  
+- <a href="https://github.com/hub4j/github-api/issues/2172">GitHubSanityCachedValue can block whole application</a>  <code>#2172</code> · updated: 2025-12-16 · created: 2025-12-04  
   labels: bug, enhancement, good first issue
 - <a href="https://github.com/hub4j/github-api/issues/2156">Enterprise installations not recognized (throws an Exception)</a>  <code>#2156</code> · updated: 2025-11-12 · created: 2025-10-31  
   labels: bug, good first issue
 - <a href="https://github.com/hub4j/github-api/issues/2155">[Feature request] Support matching-refs API</a>  <code>#2155</code> · updated: 2025-11-12 · created: 2025-10-30  
   labels: enhancement, good first issue
 
-## cedar-policy/cedar  ⭐ 1225
-[Repository](https://github.com/cedar-policy/cedar)
-
-- <a href="https://github.com/cedar-policy/cedar/issues/2015">CLI `run-tests` should accept schema and validate policies+entities+requests</a>  <code>#2015</code> · updated: 2025-12-04 · created: 2025-12-02  
-  labels: good-first-issue, feature-request
-- <a href="https://github.com/cedar-policy/cedar/issues/2016">Allow referencing entites JSON files for `entities` in CLI `run-tests` JSON input</a>  <code>#2016</code> · updated: 2025-12-04 · created: 2025-12-02  
-  labels: good-first-issue, feature-request
-
-## awslabs/swift-aws-lambda-runtime  ⭐ 1223
+## awslabs/swift-aws-lambda-runtime  ⭐ 1224
 [Repository](https://github.com/awslabs/swift-aws-lambda-runtime)
 
 - <a href="https://github.com/awslabs/swift-aws-lambda-runtime/issues/607">[local server] Local Server should pass HTTP headers down to the Lambda Runtime</a>  <code>#607</code> · updated: 2025-11-20 · created: 2025-11-20  
   labels: kind/bug, good first issue, 🆕 semver/minor, size/S, area/testing
 
-## autobrr/qui  ⭐ 1221
-[Repository](https://github.com/autobrr/qui)
-
-- <a href="https://github.com/autobrr/qui/issues/734">[FR] Automatically recheck torrents added in stopped state</a>  <code>#734</code> · updated: 2025-12-11 · created: 2025-12-10  
-  labels: enhancement, good first issue
-- <a href="https://github.com/autobrr/qui/issues/681">Can qui be added to homebrew?</a>  <code>#681</code> · updated: 2025-12-03 · created: 2025-12-03  
-  labels: enhancement, good first issue
-- <a href="https://github.com/autobrr/qui/issues/644">Method for Windows installation and guide for Windows users to set up qui in the README.</a>  <code>#644</code> · updated: 2025-11-30 · created: 2025-11-29  
-  labels: documentation, enhancement, good first issue
-
-## elabftw/elabftw  ⭐ 1217
+## elabftw/elabftw  ⭐ 1221
 [Repository](https://github.com/elabftw/elabftw)
 
 - <a href="https://github.com/elabftw/elabftw/issues/6221">Opted out Resource Categories are not greyed out in navigation</a>  <code>#6221</code> · updated: 2025-11-19 · created: 2025-11-19  
@@ -9298,67 +9334,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/elabftw/elabftw/issues/6074">Add line in changelog upon Restore from revision action</a>  <code>#6074</code> · updated: 2025-10-17 · created: 2025-10-16  
   labels: feature request, good first issue
 
-## openfoodfoundation/openfoodnetwork  ⭐ 1215
-[Repository](https://github.com/openfoodfoundation/openfoodnetwork)
-
-- <a href="https://github.com/openfoodfoundation/openfoodnetwork/issues/13688">[Order confirmation] Different fonts on buttons</a>  <code>#13688</code> · updated: 2025-11-10 · created: 2025-11-08  
-  labels: good first issue, bug-s4
-
-## scottmckendry/cyberdream.nvim  ⭐ 1214
-[Repository](https://github.com/scottmckendry/cyberdream.nvim)
-
-- <a href="https://github.com/scottmckendry/cyberdream.nvim/issues/209">add support for lualine and nvim-tree</a>  <code>#209</code> · updated: 2025-12-10 · created: 2025-12-09  
-  labels: enhancement, good first issue, question
-
-## wpilibsuite/allwpilib  ⭐ 1213
-[Repository](https://github.com/wpilibsuite/allwpilib)
-
-- <a href="https://github.com/wpilibsuite/allwpilib/issues/8480">Rename PWM and DutyCycle classes</a>  <code>#8480</code> · updated: 2025-12-15 · created: 2025-12-14  
-  labels: good first issue, type: chore, 2027
-- <a href="https://github.com/wpilibsuite/allwpilib/issues/8256">[protobuf] Generated protobuf Java classes should be prefixed with `Protobuf`</a>  <code>#8256</code> · updated: 2025-10-03 · created: 2025-09-26  
-  labels: good first issue, type: chore, 2027
-
-## OpenEMS/openems  ⭐ 1209
-[Repository](https://github.com/OpenEMS/openems)
-
-- <a href="https://github.com/OpenEMS/openems/issues/3386">UI: Sort components (inverters, meters, ...) by Alias</a>  <code>#3386</code> · updated: 2025-11-25 · created: 2025-10-28  
-  labels: Component: UI, good first issue
-
-## open-edge-platform/training_extensions  ⭐ 1208
-[Repository](https://github.com/open-edge-platform/training_extensions)
-
-- <a href="https://github.com/open-edge-platform/training_extensions/issues/5056">Add &#x27;name&#x27; property to model revision</a>  <code>#5056</code> · updated: 2025-12-03 · created: 2025-12-03  
-  labels: good first issue, Geti Tune Backend
-
-## HoshinoSuzumi/chronoframe  ⭐ 1207
-[Repository](https://github.com/HoshinoSuzumi/chronoframe)
-
-- <a href="https://github.com/HoshinoSuzumi/chronoframe/issues/116">照片属性能否直接在列表中编辑</a>  <code>#116</code> · updated: 2025-10-26 · created: 2025-10-22  
-  labels: enhancement, good first issue
-
-## argmin-rs/argmin  ⭐ 1203
-[Repository](https://github.com/argmin-rs/argmin)
-
-- <a href="https://github.com/argmin-rs/argmin/issues/623">Update badges on all READMEs</a>  <code>#623</code> · updated: 2025-09-28 · created: 2025-09-28  
-  labels: good first issue
-
-## StanfordVL/BEHAVIOR-1K  ⭐ 1200
-[Repository](https://github.com/StanfordVL/BEHAVIOR-1K)
-
-- <a href="https://github.com/StanfordVL/BEHAVIOR-1K/issues/1845">BDDL: Refactor goal state generation to support lazy evaluation with iterators</a>  <code>#1845</code> · updated: 2025-10-01 · created: 2025-09-30  
-  labels: good first issue
-
-## neovateai/neovate-code  ⭐ 1196
-[Repository](https://github.com/neovateai/neovate-code)
-
-- <a href="https://github.com/neovateai/neovate-code/issues/385">[Feature Request]: MCP OAuth support</a>  <code>#385</code> · updated: 2025-11-06 · created: 2025-10-31  
-  labels: good first issue
-- <a href="https://github.com/neovateai/neovate-code/issues/387">[Feature Request]: Support notification when task is completed</a>  <code>#387</code> · updated: 2025-10-31 · created: 2025-10-31  
-  labels: good first issue
-- <a href="https://github.com/neovateai/neovate-code/issues/386">[Feature Request]: Add /setting</a>  <code>#386</code> · updated: 2025-10-31 · created: 2025-10-31  
-  labels: good first issue
-
-## pawurb/hotpath-rs  ⭐ 1196
+## pawurb/hotpath-rs  ⭐ 1220
 [Repository](https://github.com/pawurb/hotpath-rs)
 
 - <a href="https://github.com/pawurb/hotpath-rs/issues/102">Improve channels queue memory tracking</a>  <code>#102</code> · updated: 2025-12-12 · created: 2025-12-12  
@@ -9366,49 +9342,89 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pawurb/hotpath-rs/issues/98">Reduce size of proxy channels</a>  <code>#98</code> · updated: 2025-12-06 · created: 2025-12-06  
   labels: help wanted, good first issue
 
-## kristoff-it/superhtml  ⭐ 1194
+## HoshinoSuzumi/chronoframe  ⭐ 1219
+[Repository](https://github.com/HoshinoSuzumi/chronoframe)
+
+- <a href="https://github.com/HoshinoSuzumi/chronoframe/issues/116">照片属性能否直接在列表中编辑</a>  <code>#116</code> · updated: 2025-10-26 · created: 2025-10-22  
+  labels: enhancement, good first issue
+
+## scottmckendry/cyberdream.nvim  ⭐ 1217
+[Repository](https://github.com/scottmckendry/cyberdream.nvim)
+
+- <a href="https://github.com/scottmckendry/cyberdream.nvim/issues/209">add support for lualine and nvim-tree</a>  <code>#209</code> · updated: 2025-12-10 · created: 2025-12-09  
+  labels: enhancement, good first issue, question
+
+## openfoodfoundation/openfoodnetwork  ⭐ 1215
+[Repository](https://github.com/openfoodfoundation/openfoodnetwork)
+
+- <a href="https://github.com/openfoodfoundation/openfoodnetwork/issues/13688">[Order confirmation] Different fonts on buttons</a>  <code>#13688</code> · updated: 2025-11-10 · created: 2025-11-08  
+  labels: good first issue, bug-s4
+
+## StanfordVL/BEHAVIOR-1K  ⭐ 1214
+[Repository](https://github.com/StanfordVL/BEHAVIOR-1K)
+
+- <a href="https://github.com/StanfordVL/BEHAVIOR-1K/issues/1845">BDDL: Refactor goal state generation to support lazy evaluation with iterators</a>  <code>#1845</code> · updated: 2025-10-01 · created: 2025-09-30  
+  labels: good first issue
+
+## wpilibsuite/allwpilib  ⭐ 1214
+[Repository](https://github.com/wpilibsuite/allwpilib)
+
+- <a href="https://github.com/wpilibsuite/allwpilib/issues/8480">Rename PWM and DutyCycle classes</a>  <code>#8480</code> · updated: 2025-12-15 · created: 2025-12-14  
+  labels: good first issue, type: chore, 2027
+- <a href="https://github.com/wpilibsuite/allwpilib/issues/8256">[protobuf] Generated protobuf Java classes should be prefixed with `Protobuf`</a>  <code>#8256</code> · updated: 2025-10-03 · created: 2025-09-26  
+  labels: good first issue, type: chore, 2027
+
+## OpenEMS/openems  ⭐ 1210
+[Repository](https://github.com/OpenEMS/openems)
+
+- <a href="https://github.com/OpenEMS/openems/issues/3386">UI: Sort components (inverters, meters, ...) by Alias</a>  <code>#3386</code> · updated: 2025-11-25 · created: 2025-10-28  
+  labels: Component: UI, good first issue
+
+## nervosnetwork/ckb  ⭐ 1208
+[Repository](https://github.com/nervosnetwork/ckb)
+
+- <a href="https://github.com/nervosnetwork/ckb/issues/5047">Track tokio performance regression (1.48) and upcoming fix in 1.49</a>  <code>#5047</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: help wanted, good first issue, dependencies
+
+## open-edge-platform/training_extensions  ⭐ 1208
+[Repository](https://github.com/open-edge-platform/training_extensions)
+
+- <a href="https://github.com/open-edge-platform/training_extensions/issues/5056">Add &#x27;name&#x27; property to model revision</a>  <code>#5056</code> · updated: 2025-12-03 · created: 2025-12-03  
+  labels: good first issue, Geti Tune Backend
+
+## argmin-rs/argmin  ⭐ 1205
+[Repository](https://github.com/argmin-rs/argmin)
+
+- <a href="https://github.com/argmin-rs/argmin/issues/623">Update badges on all READMEs</a>  <code>#623</code> · updated: 2025-09-28 · created: 2025-09-28  
+  labels: good first issue
+
+## kristoff-it/superhtml  ⭐ 1199
 [Repository](https://github.com/kristoff-it/superhtml)
 
 - <a href="https://github.com/kristoff-it/superhtml/issues/115">Formatting inline JS creates tab ladders</a>  <code>#115</code> · updated: 2025-10-13 · created: 2025-10-10  
   labels: enhancement, good first issue, contributor-friendly
 
-## decentraland/marketplace  ⭐ 1192
-[Repository](https://github.com/decentraland/marketplace)
-
-- <a href="https://github.com/decentraland/marketplace/issues/2493">Wrong network handling when listing or claiming Parcel rentals</a>  <code>#2493</code> · updated: 2025-09-19 · created: 2025-09-19  
-  labels: bug, good first issue
-
 ## jreleaser/jreleaser  ⭐ 1188
 [Repository](https://github.com/jreleaser/jreleaser)
 
-- <a href="https://github.com/jreleaser/jreleaser/issues/2027">[build] JReleaser snap: JAVA_HOME is set to an invalid directory</a>  <code>#2027</code> · updated: 2025-12-16 · created: 2025-12-11  
+- <a href="https://github.com/jreleaser/jreleaser/issues/2027">[build] JReleaser snap: JAVA_HOME is set to an invalid directory</a>  <code>#2027</code> · updated: 2025-12-19 · created: 2025-12-11  
   labels: bug, good first issue, help wanted
+- <a href="https://github.com/jreleaser/jreleaser/issues/2032">[gradle] Let MavenDeployer.stagingRepository() take a Directory as input</a>  <code>#2032</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: enhancement, good first issue
+- <a href="https://github.com/jreleaser/jreleaser/issues/2030">[assemble] - multiRelease jdeps option should allow template variables by default</a>  <code>#2030</code> · updated: 2025-12-17 · created: 2025-12-16  
+  labels: enhancement, good first issue, help wanted
 - <a href="https://github.com/jreleaser/jreleaser/issues/2025">[brew] - file name of the formula takes the value of the template variable name, not of the template variable value</a>  <code>#2025</code> · updated: 2025-12-11 · created: 2025-12-10  
   labels: bug, good first issue, help wanted
 - <a href="https://github.com/jreleaser/jreleaser/issues/1994">[assemble] APP_HOME (java-archive) does not work if bin/app is linked in a relative way</a>  <code>#1994</code> · updated: 2025-10-20 · created: 2025-10-17  
   labels: bug, good first issue, help wanted, Hacktoberfest
 
-## acados/acados  ⭐ 1179
+## acados/acados  ⭐ 1183
 [Repository](https://github.com/acados/acados)
 
 - <a href="https://github.com/acados/acados/issues/1645">MATLAB: add serialization of CasADi expressions</a>  <code>#1645</code> · updated: 2025-09-25 · created: 2025-09-25  
   labels: good first issue
 
-## open-telemetry/opentelemetry-cpp  ⭐ 1174
-[Repository](https://github.com/open-telemetry/opentelemetry-cpp)
-
-- <a href="https://github.com/open-telemetry/opentelemetry-cpp/issues/3652">Implement entity propagation</a>  <code>#3652</code> · updated: 2025-12-13 · created: 2025-09-23  
-  labels: help wanted, good first issue, Stale, triage/accepted
-
-## apache/iceberg-rust  ⭐ 1166
-[Repository](https://github.com/apache/iceberg-rust)
-
-- <a href="https://github.com/apache/iceberg-rust/issues/1878">Use TableProperties in TableMetadata</a>  <code>#1878</code> · updated: 2025-11-20 · created: 2025-11-20  
-  labels: enhancement, good first issue
-- <a href="https://github.com/apache/iceberg-rust/issues/1780">Support configuring datafusion catalog in sqllogictest framework</a>  <code>#1780</code> · updated: 2025-11-17 · created: 2025-10-23  
-  labels: enhancement, good first issue
-
-## rclone-ui/rclone-ui  ⭐ 1164
+## rclone-ui/rclone-ui  ⭐ 1180
 [Repository](https://github.com/rclone-ui/rclone-ui)
 
 - <a href="https://github.com/rclone-ui/rclone-ui/issues/107">Space in filename Rclone UI.png causes error when rebuilding icon cache. Linux Mint, possibly others.</a>  <code>#107</code> · updated: 2025-12-15 · created: 2025-12-12  
@@ -9418,13 +9434,21 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/rclone-ui/rclone-ui/issues/78">How to run refresh / reconnect command?</a>  <code>#78</code> · updated: 2025-11-07 · created: 2025-11-04  
   labels: good first issue
 
-## compio-rs/compio  ⭐ 1160
-[Repository](https://github.com/compio-rs/compio)
+## open-telemetry/opentelemetry-cpp  ⭐ 1177
+[Repository](https://github.com/open-telemetry/opentelemetry-cpp)
 
-- <a href="https://github.com/compio-rs/compio/issues/476">Registering kernel-managed ring buffers</a>  <code>#476</code> · updated: 2025-12-01 · created: 2025-09-17  
-  labels: enhancement, help wanted, good first issue, driver: io-uring
+- <a href="https://github.com/open-telemetry/opentelemetry-cpp/issues/3652">Implement entity propagation</a>  <code>#3652</code> · updated: 2025-12-13 · created: 2025-09-23  
+  labels: help wanted, good first issue, Stale, triage/accepted
 
-## RedPlanetHQ/core  ⭐ 1159
+## apache/iceberg-rust  ⭐ 1171
+[Repository](https://github.com/apache/iceberg-rust)
+
+- <a href="https://github.com/apache/iceberg-rust/issues/1878">Use TableProperties in TableMetadata</a>  <code>#1878</code> · updated: 2025-11-20 · created: 2025-11-20  
+  labels: enhancement, good first issue
+- <a href="https://github.com/apache/iceberg-rust/issues/1780">Support configuring datafusion catalog in sqllogictest framework</a>  <code>#1780</code> · updated: 2025-11-17 · created: 2025-10-23  
+  labels: enhancement, good first issue
+
+## RedPlanetHQ/core  ⭐ 1168
 [Repository](https://github.com/RedPlanetHQ/core)
 
 - <a href="https://github.com/RedPlanetHQ/core/issues/130">Add OpenRouter support as LLM provider</a>  <code>#130</code> · updated: 2025-11-25 · created: 2025-10-28  
@@ -9444,19 +9468,19 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/fussybeaver/bollard/issues/594">Support for `docker checkpoint`</a>  <code>#594</code> · updated: 2025-11-29 · created: 2025-10-07  
   labels: enhancement, good first issue
 
-## leancodepl/patrol  ⭐ 1154
-[Repository](https://github.com/leancodepl/patrol)
-
-- <a href="https://github.com/leancodepl/patrol/issues/2832">Add support for custom Chrome/browser flags in patrol test command</a>  <code>#2832</code> · updated: 2025-12-12 · created: 2025-12-10  
-  labels: feature, good first issue, package: patrol_cli, P2, platform: web
-
-## pypa/pip-audit  ⭐ 1154
+## pypa/pip-audit  ⭐ 1156
 [Repository](https://github.com/pypa/pip-audit)
 
 - <a href="https://github.com/pypa/pip-audit/issues/948">Feature: new environment variable PIP_AUDIT_IGNORE_VULN</a>  <code>#948</code> · updated: 2025-10-01 · created: 2025-10-01  
   labels: enhancement, help wanted, good first issue
 
-## FlashpointProject/launcher  ⭐ 1152
+## leancodepl/patrol  ⭐ 1155
+[Repository](https://github.com/leancodepl/patrol)
+
+- <a href="https://github.com/leancodepl/patrol/issues/2832">Add support for custom Chrome/browser flags in patrol test command</a>  <code>#2832</code> · updated: 2025-12-12 · created: 2025-12-10  
+  labels: feature, good first issue, package: patrol_cli, P2, platform: web
+
+## FlashpointProject/launcher  ⭐ 1154
 [Repository](https://github.com/FlashpointProject/launcher)
 
 - <a href="https://github.com/FlashpointProject/launcher/issues/497">[BUG] Inconsistent Group pin behaviour on the Curate page when reloading Launcher</a>  <code>#497</code> · updated: 2025-10-10 · created: 2025-10-10  
@@ -9464,31 +9488,61 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/FlashpointProject/launcher/issues/495">Improve Curation loading to speed up frontend init</a>  <code>#495</code> · updated: 2025-10-08 · created: 2025-10-08  
   labels: enhancement, good first issue
 
-## gazebosim/gz-sim  ⭐ 1146
-[Repository](https://github.com/gazebosim/gz-sim)
+## PaperDebugger/paperdebugger  ⭐ 1152
+[Repository](https://github.com/PaperDebugger/paperdebugger)
 
-- <a href="https://github.com/gazebosim/gz-sim/issues/3116">gz-sim-pose-publisher-system publishes to different topic after resetting Gazebo</a>  <code>#3116</code> · updated: 2025-10-31 · created: 2025-10-10  
-  labels: bug, good first issue
+- <a href="https://github.com/PaperDebugger/paperdebugger/issues/36">support  as plugin  in  vscode</a>  <code>#36</code> · updated: 2025-12-08 · created: 2025-12-08  
+  labels: good first issue
 
-## binaryshrey/Awesome-Android-Open-Source-Projects  ⭐ 1144
-[Repository](https://github.com/binaryshrey/Awesome-Android-Open-Source-Projects)
+## seapear/AffinityOnLinux  ⭐ 1150
+[Repository](https://github.com/seapear/AffinityOnLinux)
 
-- <a href="https://github.com/binaryshrey/Awesome-Android-Open-Source-Projects/issues/63">Contributions / Pull-Requests are welcomed!</a>  <code>#63</code> · updated: 2025-09-21 · created: 2025-09-21  
-  labels: good first issue, hacktoberfest, beginner-friendly, hacktoberfest-accepted
+- <a href="https://github.com/seapear/AffinityOnLinux/issues/94">[BUG] Rearranging the order of workspaces in Affinity by Canva causes a crash.</a>  <code>#94</code> · updated: 2025-12-09 · created: 2025-11-07  
+  labels: bug, good first issue, Evaluate, Waiting on Confirmation
+- <a href="https://github.com/seapear/AffinityOnLinux/issues/96">[BUG] Install Error on Arch Manjaro Linux (Bottles)</a>  <code>#96</code> · updated: 2025-11-27 · created: 2025-11-08  
+  labels: bug, good first issue, Waiting on Confirmation
+- <a href="https://github.com/seapear/AffinityOnLinux/issues/72">[BUG] Right click context menus appear as black boxes (non interactive)</a>  <code>#72</code> · updated: 2025-11-26 · created: 2025-10-03  
+  labels: bug, help wanted, good first issue, Evaluate
+- <a href="https://github.com/seapear/AffinityOnLinux/issues/76">[BUG] [v2] Designer freeze when unselecting SVG nested group while snapping  is enabled</a>  <code>#76</code> · updated: 2025-11-13 · created: 2025-10-18  
+  labels: bug, good first issue, Evaluate
 
-## emersion/slurp  ⭐ 1143
+## emersion/slurp  ⭐ 1148
 [Repository](https://github.com/emersion/slurp)
 
 - <a href="https://github.com/emersion/slurp/issues/182">pressing shift while running `slurp -o` produces weird results</a>  <code>#182</code> · updated: 2025-12-07 · created: 2025-12-06  
   labels: bug, good first issue
 
-## vuejs/test-utils  ⭐ 1137
-[Repository](https://github.com/vuejs/test-utils)
+## gazebosim/gz-sim  ⭐ 1148
+[Repository](https://github.com/gazebosim/gz-sim)
 
-- <a href="https://github.com/vuejs/test-utils/issues/2733">Bug: Passing data to components using the data mounting option doesn&#x27;t work</a>  <code>#2733</code> · updated: 2025-11-12 · created: 2025-11-07  
-  labels: bug, documentation, good first issue
+- <a href="https://github.com/gazebosim/gz-sim/issues/3116">gz-sim-pose-publisher-system publishes to different topic after resetting Gazebo</a>  <code>#3116</code> · updated: 2025-10-31 · created: 2025-10-10  
+  labels: bug, good first issue
 
-## CodingWonders/DISMTools  ⭐ 1135
+## binaryshrey/Awesome-Android-Open-Source-Projects  ⭐ 1146
+[Repository](https://github.com/binaryshrey/Awesome-Android-Open-Source-Projects)
+
+- <a href="https://github.com/binaryshrey/Awesome-Android-Open-Source-Projects/issues/63">Contributions / Pull-Requests are welcomed!</a>  <code>#63</code> · updated: 2025-09-21 · created: 2025-09-21  
+  labels: good first issue, hacktoberfest, beginner-friendly, hacktoberfest-accepted
+
+## raghavyuva/nixopus  ⭐ 1144
+[Repository](https://github.com/raghavyuva/nixopus)
+
+- <a href="https://github.com/raghavyuva/nixopus/issues/467">fix:Keyboard shortcuts not functioning as expected (Ctrl+C / Ctrl+V / Ctrl+Shift+C)</a>  <code>#467</code> · updated: 2025-12-15 · created: 2025-10-07  
+  labels: bug, help wanted, good first issue
+- <a href="https://github.com/raghavyuva/nixopus/issues/714">fix(cli): validate SSH key generated during `nixopus install`</a>  <code>#714</code> · updated: 2025-12-15 · created: 2025-12-14  
+  labels: bug, good first issue, installation, cli
+- <a href="https://github.com/raghavyuva/nixopus/issues/434">feat(ui/api): extend global file search to root/current directory</a>  <code>#434</code> · updated: 2025-11-25 · created: 2025-09-22  
+  labels: enhancement, help wanted, good first issue, nixopus-view, nixopus-api, roadmap, ui, backend, api
+- <a href="https://github.com/raghavyuva/nixopus/issues/435">enhancement(ui): concise descriptions under headers on all major screens</a>  <code>#435</code> · updated: 2025-11-25 · created: 2025-09-22  
+  labels: enhancement, help wanted, good first issue, nixopus-view, roadmap, ui
+- <a href="https://github.com/raghavyuva/nixopus/issues/461">fix: Logs into the undesirable page  if previous session cache is not cleared</a>  <code>#461</code> · updated: 2025-11-25 · created: 2025-10-07  
+  labels: bug, help wanted, good first issue
+- <a href="https://github.com/raghavyuva/nixopus/issues/471">enhancement: Hide pagination when only one page of data is available (In Repositories and Containers)</a>  <code>#471</code> · updated: 2025-11-25 · created: 2025-10-08  
+  labels: enhancement, help wanted, good first issue, nixopus-view
+- <a href="https://github.com/raghavyuva/nixopus/issues/472">enhancement: Add color coding to Deployment Status Chart in Self-host Applications</a>  <code>#472</code> · updated: 2025-11-25 · created: 2025-10-09  
+  labels: enhancement, help wanted, good first issue, nixopus-view, ui
+
+## CodingWonders/DISMTools  ⭐ 1141
 [Repository](https://github.com/CodingWonders/DISMTools)
 
 - <a href="https://github.com/CodingWonders/DISMTools/issues/306">[FEATURE PROPOSAL] Installer - Add version on top left and</a>  <code>#306</code> · updated: 2025-11-25 · created: 2025-11-24  
@@ -9497,8 +9551,18 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: enhancement, good first issue
 - <a href="https://github.com/CodingWonders/DISMTools/issues/295">0.7.1 - Translation not available</a>  <code>#295</code> · updated: 2025-10-31 · created: 2025-10-31  
   labels: bug, good first issue
-- <a href="https://github.com/CodingWonders/DISMTools/issues/282">Program exception</a>  <code>#282</code> · updated: 2025-10-19 · created: 2025-09-18  
-  labels: bug, good first issue
+
+## NVIDIA-NeMo/RL  ⭐ 1138
+[Repository](https://github.com/NVIDIA-NeMo/RL)
+
+- <a href="https://github.com/NVIDIA-NeMo/RL/issues/1494">Add an option to save checkpoints in HF format</a>  <code>#1494</code> · updated: 2025-12-15 · created: 2025-11-10  
+  labels: enhancement, good first issue
+
+## vuejs/test-utils  ⭐ 1136
+[Repository](https://github.com/vuejs/test-utils)
+
+- <a href="https://github.com/vuejs/test-utils/issues/2733">Bug: Passing data to components using the data mounting option doesn&#x27;t work</a>  <code>#2733</code> · updated: 2025-11-12 · created: 2025-11-07  
+  labels: bug, documentation, good first issue
 
 ## swiftlang/swift-java  ⭐ 1134
 [Repository](https://github.com/swiftlang/swift-java)
@@ -9514,25 +9578,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/swiftlang/swift-java/issues/393">Improve locating JAVA_HOME to ask sdkman and other tools in addition to java_home</a>  <code>#393</code> · updated: 2025-11-07 · created: 2025-10-07  
   labels: good first issue
 
-## seapear/AffinityOnLinux  ⭐ 1131
-[Repository](https://github.com/seapear/AffinityOnLinux)
-
-- <a href="https://github.com/seapear/AffinityOnLinux/issues/94">[BUG] Rearranging the order of workspaces in Affinity by Canva causes a crash.</a>  <code>#94</code> · updated: 2025-12-09 · created: 2025-11-07  
-  labels: bug, good first issue, Evaluate, Waiting on Confirmation
-- <a href="https://github.com/seapear/AffinityOnLinux/issues/96">[BUG] Install Error on Arch Manjaro Linux (Bottles)</a>  <code>#96</code> · updated: 2025-11-27 · created: 2025-11-08  
-  labels: bug, good first issue, Waiting on Confirmation
-- <a href="https://github.com/seapear/AffinityOnLinux/issues/72">[BUG] Right click context menus appear as black boxes (non interactive)</a>  <code>#72</code> · updated: 2025-11-26 · created: 2025-10-03  
-  labels: bug, help wanted, good first issue, Evaluate
-- <a href="https://github.com/seapear/AffinityOnLinux/issues/76">[BUG] [v2] Designer freeze when unselecting SVG nested group while snapping  is enabled</a>  <code>#76</code> · updated: 2025-11-13 · created: 2025-10-18  
-  labels: bug, good first issue, Evaluate
-
-## NetLogo/NetLogo  ⭐ 1123
-[Repository](https://github.com/NetLogo/NetLogo)
-
-- <a href="https://github.com/NetLogo/NetLogo/issues/2596">HubNet plot mirroring gets into wrong state when switching models</a>  <code>#2596</code> · updated: 2025-12-02 · created: 2025-12-01  
-  labels: good first issue, hubnet, gui
-
-## commons-app/apps-android-commons  ⭐ 1122
+## commons-app/apps-android-commons  ⭐ 1123
 [Repository](https://github.com/commons-app/apps-android-commons)
 
 - <a href="https://github.com/commons-app/apps-android-commons/issues/6551">Update Kotlin version</a>  <code>#6551</code> · updated: 2025-12-06 · created: 2025-11-05  
@@ -9552,7 +9598,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/commons-app/apps-android-commons/issues/6446">[Bug]: Errors after password changed</a>  <code>#6446</code> · updated: 2025-10-10 · created: 2025-10-04  
   labels: good first issue, hacktoberfest
 
-## CesiumGS/cesium-unreal  ⭐ 1121
+## CesiumGS/cesium-unreal  ⭐ 1122
 [Repository](https://github.com/CesiumGS/cesium-unreal)
 
 - <a href="https://github.com/CesiumGS/cesium-unreal/issues/1747">Add support for decals on `Cesium3DTileset`</a>  <code>#1747</code> · updated: 2025-10-16 · created: 2025-10-14  
@@ -9564,7 +9610,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/zaquestion/lab/issues/904">no new releases have been created since 2022 but installation instructions still state to use pre-built binaries</a>  <code>#904</code> · updated: 2025-11-25 · created: 2025-10-20  
   labels: help wanted, good first issue
 
-## graphframes/graphframes  ⭐ 1115
+## kiwix/kiwix-desktop  ⭐ 1120
+[Repository](https://github.com/kiwix/kiwix-desktop)
+
+- <a href="https://github.com/kiwix/kiwix-desktop/issues/1433">Reorganise &quot;Save as...&quot; to save article</a>  <code>#1433</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: enhancement, good first issue
+
+## graphframes/graphframes  ⭐ 1117
 [Repository](https://github.com/graphframes/graphframes)
 
 - <a href="https://github.com/graphframes/graphframes/issues/746">doc: document the growing lineage problem</a>  <code>#746</code> · updated: 2025-11-12 · created: 2025-11-08  
@@ -9572,7 +9624,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/graphframes/graphframes/issues/734">chore: add sbt-eclipse plugin</a>  <code>#734</code> · updated: 2025-11-08 · created: 2025-10-16  
   labels: simple, good first issue
 
-## hydro-project/hydro  ⭐ 1114
+## kane50613/takumi  ⭐ 1117
+[Repository](https://github.com/kane50613/takumi)
+
+- <a href="https://github.com/kane50613/takumi/issues/220">Crate: draw background color for inline text spans</a>  <code>#220</code> · updated: 2025-10-10 · created: 2025-10-10  
+  labels: enhancement, good first issue
+
+## hydro-project/hydro  ⭐ 1115
 [Repository](https://github.com/hydro-project/hydro)
 
 - <a href="https://github.com/hydro-project/hydro/issues/2336">refactor(sinktools): optimize demux_lazy_sink MultiWaker, it only really needs to support 2 slots, maybe it can be lock free.</a>  <code>#2336</code> · updated: 2025-12-03 · created: 2025-12-03  
@@ -9582,66 +9640,58 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/hydro-project/hydro/issues/2332">chore: AWS/Azure + more examples in template</a>  <code>#2332</code> · updated: 2025-12-02 · created: 2025-12-02  
   labels: documentation, good first issue, P2, deploy, Small
 
-## kane50613/takumi  ⭐ 1113
-[Repository](https://github.com/kane50613/takumi)
-
-- <a href="https://github.com/kane50613/takumi/issues/220">Crate: draw background color for inline text spans</a>  <code>#220</code> · updated: 2025-10-10 · created: 2025-10-10  
-  labels: enhancement, good first issue
-
-## estk/log4rs  ⭐ 1111
+## estk/log4rs  ⭐ 1113
 [Repository](https://github.com/estk/log4rs)
 
 - <a href="https://github.com/estk/log4rs/issues/436">Explore switching to a different yaml parser</a>  <code>#436</code> · updated: 2025-11-16 · created: 2025-11-16  
   labels: help wanted, good first issue
 
-## facebook/ktfmt  ⭐ 1110
-[Repository](https://github.com/facebook/ktfmt)
-
-- <a href="https://github.com/facebook/ktfmt/issues/565">Ktfmt should ignore the UTF-8 BOM.</a>  <code>#565</code> · updated: 2025-12-15 · created: 2025-10-20  
-  labels: bug, good first issue
-
-## NVIDIA-NeMo/RL  ⭐ 1109
-[Repository](https://github.com/NVIDIA-NeMo/RL)
-
-- <a href="https://github.com/NVIDIA-NeMo/RL/issues/1494">Add an option to save checkpoints in HF format</a>  <code>#1494</code> · updated: 2025-12-15 · created: 2025-11-10  
-  labels: enhancement, good first issue
-
-## PaperDebugger/paperdebugger  ⭐ 1109
-[Repository](https://github.com/PaperDebugger/paperdebugger)
-
-- <a href="https://github.com/PaperDebugger/paperdebugger/issues/36">support  as plugin  in  vscode</a>  <code>#36</code> · updated: 2025-12-08 · created: 2025-12-08  
-  labels: good first issue
-
-## CircuitVerse/CircuitVerse  ⭐ 1104
-[Repository](https://github.com/CircuitVerse/CircuitVerse)
-
-- <a href="https://github.com/CircuitVerse/CircuitVerse/issues/6292">🐞 Bug: MacOS repository native setup error</a>  <code>#6292</code> · updated: 2025-12-13 · created: 2025-10-15  
-  labels: good first issue, 🐞 bug
-
-## astronomer/astronomer-cosmos  ⭐ 1102
+## astronomer/astronomer-cosmos  ⭐ 1105
 [Repository](https://github.com/astronomer/astronomer-cosmos)
 
 - <a href="https://github.com/astronomer/astronomer-cosmos/issues/2130">Identify and document/create an example with the best way to retry model runs but not tests</a>  <code>#2130</code> · updated: 2025-11-30 · created: 2025-11-14  
   labels: good first issue, customer request
 
-## CakeML/cakeml  ⭐ 1099
+## CakeML/cakeml  ⭐ 1100
 [Repository](https://github.com/CakeML/cakeml)
 
 - <a href="https://github.com/CakeML/cakeml/issues/1247">remove opt_rel_def in flat_to_closProofTheory</a>  <code>#1247</code> · updated: 2025-10-02 · created: 2025-10-02  
   labels: good first issue, refactoring
 
-## LogExperts/LogExpert  ⭐ 1097
+## LogExperts/LogExpert  ⭐ 1099
 [Repository](https://github.com/LogExperts/LogExpert)
 
-- <a href="https://github.com/LogExperts/LogExpert/issues/513">Missing .net 10 64bit library</a>  <code>#513</code> · updated: 2025-12-10 · created: 2025-12-08  
-  labels: bug, dependencies, good first issue
 - <a href="https://github.com/LogExperts/LogExpert/issues/515">The `trusted-plugins.json` is written to and loaded from `%AppData%\LogExpert` in portable mode</a>  <code>#515</code> · updated: 2025-12-09 · created: 2025-12-09  
   labels: bug, good first issue
+
+## dembrandt/dembrandt  ⭐ 1099
+[Repository](https://github.com/dembrandt/dembrandt)
+
+- <a href="https://github.com/dembrandt/dembrandt/issues/18">Badges and tags</a>  <code>#18</code> · updated: 2025-12-08 · created: 2025-11-28  
+  labels: good first issue
+- <a href="https://github.com/dembrandt/dembrandt/issues/16">Gradient pattern analysis</a>  <code>#16</code> · updated: 2025-12-08 · created: 2025-11-28  
+  labels: good first issue
+
+## tursodatabase/agentfs  ⭐ 1098
+[Repository](https://github.com/tursodatabase/agentfs)
+
+- <a href="https://github.com/tursodatabase/agentfs/issues/53">Quotas</a>  <code>#53</code> · updated: 2025-12-17 · created: 2025-11-27  
+  labels: enhancement, help wanted, good first issue
+- <a href="https://github.com/tursodatabase/agentfs/issues/76">Improve TypeScript SDK API coverage</a>  <code>#76</code> · updated: 2025-12-12 · created: 2025-12-12  
+  labels: enhancement, help wanted, good first issue
+- <a href="https://github.com/tursodatabase/agentfs/issues/50">Automatic document parsing</a>  <code>#50</code> · updated: 2025-11-27 · created: 2025-11-27  
+  labels: enhancement, help wanted, good first issue
+- <a href="https://github.com/tursodatabase/agentfs/issues/43">VoltAgent example</a>  <code>#43</code> · updated: 2025-11-25 · created: 2025-11-14  
+  labels: enhancement, help wanted, good first issue
+- <a href="https://github.com/tursodatabase/agentfs/issues/34">Timeline command</a>  <code>#34</code> · updated: 2025-11-16 · created: 2025-11-13  
+  labels: enhancement, help wanted, good first issue
+- <a href="https://github.com/tursodatabase/agentfs/issues/3">Intercept all path-based system calls</a>  <code>#3</code> · updated: 2025-10-25 · created: 2025-10-25  
+  labels: enhancement, help wanted, good first issue
 
 ## collective/icalendar  ⭐ 1096
 [Repository](https://github.com/collective/icalendar)
 
-- <a href="https://github.com/collective/icalendar/issues/1018">Enhance contributing guide</a>  <code>#1018</code> · updated: 2025-12-02 · created: 2025-12-02  
+- <a href="https://github.com/collective/icalendar/issues/1018">Enhance contributing guide</a>  <code>#1018</code> · updated: 2025-12-18 · created: 2025-12-02  
   labels: doc, help wanted, good first issue
 - <a href="https://github.com/collective/icalendar/issues/1016">CaselessDict.__eq__ crashes when comparing with non-dict types</a>  <code>#1016</code> · updated: 2025-12-02 · created: 2025-12-01  
   labels: good first issue
@@ -9658,13 +9708,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/collective/icalendar/issues/909">Image.from_property_value() fails silently on malformed params</a>  <code>#909</code> · updated: 2025-10-09 · created: 2025-10-09  
   labels: feature, good first issue
 
-## enatega/food-delivery-multivendor  ⭐ 1095
-[Repository](https://github.com/enatega/food-delivery-multivendor)
-
-- <a href="https://github.com/enatega/food-delivery-multivendor/issues/1945">Enatega Web App: Theme Switcher Missing in Homepage Footer (Auto, Light, Dark) – Add Theme Button (Reference: Wolt)</a>  <code>#1945</code> · updated: 2025-12-15 · created: 2025-12-05  
-  labels: bug, enhancement, good first issue, Feature, Enatega Web App
-
-## lakehq/sail  ⭐ 1092
+## lakehq/sail  ⭐ 1095
 [Repository](https://github.com/lakehq/sail)
 
 - <a href="https://github.com/lakehq/sail/issues/1060">feature request: `StructType.toDDL()`</a>  <code>#1060</code> · updated: 2025-11-19 · created: 2025-11-16  
@@ -9672,25 +9716,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/lakehq/sail/issues/1028">`to_date` function improvements</a>  <code>#1028</code> · updated: 2025-11-04 · created: 2025-11-04  
   labels: good first issue
 
-## raghavyuva/nixopus  ⭐ 1092
-[Repository](https://github.com/raghavyuva/nixopus)
-
-- <a href="https://github.com/raghavyuva/nixopus/issues/467">fix:Keyboard shortcuts not functioning as expected (Ctrl+C / Ctrl+V / Ctrl+Shift+C)</a>  <code>#467</code> · updated: 2025-12-15 · created: 2025-10-07  
-  labels: bug, help wanted, good first issue
-- <a href="https://github.com/raghavyuva/nixopus/issues/714">fix(cli): validate SSH key generated during `nixopus install`</a>  <code>#714</code> · updated: 2025-12-15 · created: 2025-12-14  
-  labels: bug, good first issue, installation, cli
-- <a href="https://github.com/raghavyuva/nixopus/issues/434">feat(ui/api): extend global file search to root/current directory</a>  <code>#434</code> · updated: 2025-11-25 · created: 2025-09-22  
-  labels: enhancement, help wanted, good first issue, nixopus-view, nixopus-api, roadmap, ui, backend, api
-- <a href="https://github.com/raghavyuva/nixopus/issues/435">enhancement(ui): concise descriptions under headers on all major screens</a>  <code>#435</code> · updated: 2025-11-25 · created: 2025-09-22  
-  labels: enhancement, help wanted, good first issue, nixopus-view, roadmap, ui
-- <a href="https://github.com/raghavyuva/nixopus/issues/461">fix: Logs into the undesirable page  if previous session cache is not cleared</a>  <code>#461</code> · updated: 2025-11-25 · created: 2025-10-07  
-  labels: bug, help wanted, good first issue
-- <a href="https://github.com/raghavyuva/nixopus/issues/471">enhancement: Hide pagination when only one page of data is available (In Repositories and Containers)</a>  <code>#471</code> · updated: 2025-11-25 · created: 2025-10-08  
-  labels: enhancement, help wanted, good first issue, nixopus-view
-- <a href="https://github.com/raghavyuva/nixopus/issues/472">enhancement: Add color coding to Deployment Status Chart in Self-host Applications</a>  <code>#472</code> · updated: 2025-11-25 · created: 2025-10-09  
-  labels: enhancement, help wanted, good first issue, nixopus-view, ui
-
-## apache/amoro  ⭐ 1090
+## apache/amoro  ⭐ 1092
 [Repository](https://github.com/apache/amoro)
 
 - <a href="https://github.com/apache/amoro/issues/3974">[Improvement]: Replacing JUnit 4 dependencies with JUnit 5 in amoro-common</a>  <code>#3974</code> · updated: 2025-11-27 · created: 2025-11-26  
@@ -9700,13 +9726,33 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/apache/amoro/issues/3971">[Improvement]: Fix some high CVEs</a>  <code>#3971</code> · updated: 2025-11-27 · created: 2025-11-26  
   labels: good first issue, type:improvement
 
-## dembrandt/dembrandt  ⭐ 1089
-[Repository](https://github.com/dembrandt/dembrandt)
+## ppy/osu-web  ⭐ 1091
+[Repository](https://github.com/ppy/osu-web)
 
-- <a href="https://github.com/dembrandt/dembrandt/issues/18">Badges and tags</a>  <code>#18</code> · updated: 2025-12-08 · created: 2025-11-28  
-  labels: good first issue
-- <a href="https://github.com/dembrandt/dembrandt/issues/16">Gradient pattern analysis</a>  <code>#16</code> · updated: 2025-12-08 · created: 2025-11-28  
-  labels: good first issue
+- <a href="https://github.com/ppy/osu-web/issues/12604">Delete forum reply/post dialog question should be reworded to a full sentence</a>  <code>#12604</code> · updated: 2025-12-17 · created: 2025-12-13  
+  labels: area:forum, type:localisation, good first issue
+
+## sql-hkr/tiny8  ⭐ 1090
+[Repository](https://github.com/sql-hkr/tiny8)
+
+- <a href="https://github.com/sql-hkr/tiny8/issues/21">feat: add optional coloring to highlight changed registers/memory between steps</a>  <code>#21</code> · updated: 2025-10-28 · created: 2025-10-28  
+  labels: enhancement, good first issue
+- <a href="https://github.com/sql-hkr/tiny8/issues/20">feat: show ASCII representation next to hex dump in register/memory view</a>  <code>#20</code> · updated: 2025-10-28 · created: 2025-10-28  
+  labels: enhancement, good first issue
+
+## Tudmotu/gnome-shell-extension-clipboard-indicator  ⭐ 1089
+[Repository](https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator)
+
+- <a href="https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator/issues/555">Ubuntu: the searchbar is dark even though the theme is light</a>  <code>#555</code> · updated: 2025-09-23 · created: 2025-09-21  
+  labels: Bug, Good First Issue, Up for grabs
+
+## Beaver-Notes/Beaver-Notes  ⭐ 1086
+[Repository](https://github.com/Beaver-Notes/Beaver-Notes)
+
+- <a href="https://github.com/Beaver-Notes/Beaver-Notes/issues/374">Create new note while editing an existing one</a>  <code>#374</code> · updated: 2025-12-10 · created: 2025-11-28  
+  labels: enhancement, good first issue
+- <a href="https://github.com/Beaver-Notes/Beaver-Notes/issues/360">Add date (today) into the note with the / command</a>  <code>#360</code> · updated: 2025-11-20 · created: 2025-11-04  
+  labels: enhancement, good first issue
 
 ## apache/datafusion-comet  ⭐ 1086
 [Repository](https://github.com/apache/datafusion-comet)
@@ -9717,8 +9763,6 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: enhancement, good first issue, expression
 - <a href="https://github.com/apache/datafusion-comet/issues/2707">Add support for StringSplit</a>  <code>#2707</code> · updated: 2025-11-08 · created: 2025-11-06  
   labels: enhancement, good first issue, expression
-- <a href="https://github.com/apache/datafusion-comet/issues/2413">Improve documentation for configs related to explain/fallback</a>  <code>#2413</code> · updated: 2025-11-07 · created: 2025-09-17  
-  labels: documentation, enhancement, good first issue
 
 ## lukasoppermann/design-tokens  ⭐ 1086
 [Repository](https://github.com/lukasoppermann/design-tokens)
@@ -9726,55 +9770,15 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/lukasoppermann/design-tokens/issues/335">`excludeExtensionProp` setting is not available in the settings UI</a>  <code>#335</code> · updated: 2025-11-28 · created: 2025-11-28  
   labels: Feature, good first issue
 
-## Tudmotu/gnome-shell-extension-clipboard-indicator  ⭐ 1084
-[Repository](https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator)
-
-- <a href="https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator/issues/555">Ubuntu: the searchbar is dark even though the theme is light</a>  <code>#555</code> · updated: 2025-09-23 · created: 2025-09-21  
-  labels: Bug, Good First Issue, Up for grabs
-
-## Beaver-Notes/Beaver-Notes  ⭐ 1082
-[Repository](https://github.com/Beaver-Notes/Beaver-Notes)
-
-- <a href="https://github.com/Beaver-Notes/Beaver-Notes/issues/374">Create new note while editing an existing one</a>  <code>#374</code> · updated: 2025-12-10 · created: 2025-11-28  
-  labels: enhancement, good first issue
-- <a href="https://github.com/Beaver-Notes/Beaver-Notes/issues/360">Add date (today) into the note with the / command</a>  <code>#360</code> · updated: 2025-11-20 · created: 2025-11-04  
-  labels: enhancement, good first issue
-
-## sql-hkr/tiny8  ⭐ 1080
-[Repository](https://github.com/sql-hkr/tiny8)
-
-- <a href="https://github.com/sql-hkr/tiny8/issues/21">feat: add optional coloring to highlight changed registers/memory between steps</a>  <code>#21</code> · updated: 2025-10-28 · created: 2025-10-28  
-  labels: enhancement, good first issue
-- <a href="https://github.com/sql-hkr/tiny8/issues/20">feat: show ASCII representation next to hex dump in register/memory view</a>  <code>#20</code> · updated: 2025-10-28 · created: 2025-10-28  
-  labels: enhancement, good first issue
-
-## overhangio/tutor  ⭐ 1075
-[Repository](https://github.com/overhangio/tutor)
-
-- <a href="https://github.com/overhangio/tutor/issues/1278">Tutor doesn&#x27;t configure Redis correctly</a>  <code>#1278</code> · updated: 2025-09-29 · created: 2025-09-23  
-  labels: good first issue
-
-## docker/mcp-gateway  ⭐ 1072
-[Repository](https://github.com/docker/mcp-gateway)
-
-- <a href="https://github.com/docker/mcp-gateway/issues/160">Documentation update for connection to OpenAI Codex</a>  <code>#160</code> · updated: 2025-10-07 · created: 2025-09-27  
-  labels: good first issue
-
-## integrations/terraform-provider-github  ⭐ 1071
-[Repository](https://github.com/integrations/terraform-provider-github)
-
-- <a href="https://github.com/integrations/terraform-provider-github/issues/2996">[MAINT] Migrate all resources and data sources to Context-aware CRUD functions</a>  <code>#2996</code> · updated: 2025-12-10 · created: 2025-12-10  
-  labels: Status: Up for grabs, Good first issue
-
-## WinDurango/WinDurango  ⭐ 1070
-[Repository](https://github.com/WinDurango/WinDurango)
-
-- <a href="https://github.com/WinDurango/WinDurango/issues/200">Add a clang-format GitHub Action</a>  <code>#200</code> · updated: 2025-11-12 · created: 2025-11-12  
-  labels: enhancement, good first issue
-
-## lingdojo/kana-dojo  ⭐ 1069
+## lingdojo/kana-dojo  ⭐ 1084
 [Repository](https://github.com/lingdojo/kana-dojo)
 
+- <a href="https://github.com/lingdojo/kana-dojo/issues/267">[FEATURE] Add a beautiful new dark theme: &#x27;Oboro&#x27; (朧)</a>  <code>#267</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: enhancement, help wanted, good first issue, hacktoberfest
+- <a href="https://github.com/lingdojo/kana-dojo/issues/265">[FEATURE] Add a serene minimalist theme: &quot;Ao&quot; (青)</a>  <code>#265</code> · updated: 2025-12-17 · created: 2025-12-17  
+  labels: enhancement, help wanted, good first issue, hacktoberfest
+- <a href="https://github.com/lingdojo/kana-dojo/issues/262">[FEATURE] Add a dazzling WCAG-accessible celestial theme: &quot;En&quot; (焰)</a>  <code>#262</code> · updated: 2025-12-16 · created: 2025-12-16  
+  labels: enhancement, help wanted, good first issue, hacktoberfest
 - <a href="https://github.com/lingdojo/kana-dojo/issues/105">[DOCS]: Translation of README.md into Bahasa Indonesia 🇮🇩</a>  <code>#105</code> · updated: 2025-12-15 · created: 2025-10-29  
   labels: documentation, help wanted, good first issue
 - <a href="https://github.com/lingdojo/kana-dojo/issues/103">[DOCS]: Translation of README.md into Ukrainian 🇺🇦</a>  <code>#103</code> · updated: 2025-12-15 · created: 2025-10-29  
@@ -9789,20 +9793,38 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: documentation, help wanted, good first issue
 - <a href="https://github.com/lingdojo/kana-dojo/issues/261">[FEATURE] Add a new Japan-inspired dark theme (「和雅」) to the themes file</a>  <code>#261</code> · updated: 2025-12-15 · created: 2025-12-15  
   labels: enhancement, help wanted, good first issue
-- <a href="https://github.com/lingdojo/kana-dojo/issues/253">[FEATURE] Add new Japan-inspired &#x27;yume-mori&#x27; dark theme</a>  <code>#253</code> · updated: 2025-12-12 · created: 2025-12-12  
-  labels: enhancement, help wanted, good first issue
-- <a href="https://github.com/lingdojo/kana-dojo/issues/247">[FEATURE] Add new Japan-inspired &#x27;yozakura&#x27; dark theme</a>  <code>#247</code> · updated: 2025-12-11 · created: 2025-12-11  
-  labels: enhancement, help wanted, good first issue
-- <a href="https://github.com/lingdojo/kana-dojo/issues/245">[FEATURE] Add new &#x27;kyoto-lanterns&#x27; dark theme</a>  <code>#245</code> · updated: 2025-12-11 · created: 2025-12-11  
-  labels: enhancement, help wanted, good first issue
 
-## flatcar/Flatcar  ⭐ 1068
+## docker/mcp-gateway  ⭐ 1080
+[Repository](https://github.com/docker/mcp-gateway)
+
+- <a href="https://github.com/docker/mcp-gateway/issues/160">Documentation update for connection to OpenAI Codex</a>  <code>#160</code> · updated: 2025-10-07 · created: 2025-09-27  
+  labels: good first issue
+
+## overhangio/tutor  ⭐ 1076
+[Repository](https://github.com/overhangio/tutor)
+
+- <a href="https://github.com/overhangio/tutor/issues/1278">Tutor doesn&#x27;t configure Redis correctly</a>  <code>#1278</code> · updated: 2025-09-29 · created: 2025-09-23  
+  labels: good first issue
+
+## WinDurango/WinDurango  ⭐ 1075
+[Repository](https://github.com/WinDurango/WinDurango)
+
+- <a href="https://github.com/WinDurango/WinDurango/issues/200">Add a clang-format GitHub Action</a>  <code>#200</code> · updated: 2025-11-12 · created: 2025-11-12  
+  labels: enhancement, good first issue
+
+## integrations/terraform-provider-github  ⭐ 1073
+[Repository](https://github.com/integrations/terraform-provider-github)
+
+- <a href="https://github.com/integrations/terraform-provider-github/issues/2996">[MAINT] Migrate all resources and data sources to Context-aware CRUD functions</a>  <code>#2996</code> · updated: 2025-12-10 · created: 2025-12-10  
+  labels: Status: Up for grabs, Good first issue
+
+## flatcar/Flatcar  ⭐ 1072
 [Repository](https://github.com/flatcar/Flatcar)
 
 - <a href="https://github.com/flatcar/Flatcar/issues/1913">Redesign Download UI and Experience for Flatcar ISO Images</a>  <code>#1913</code> · updated: 2025-10-27 · created: 2025-10-09  
   labels: kind/roadmap, kind/feature, good first issue
 
-## pnp/cli-microsoft365  ⭐ 1065
+## pnp/cli-microsoft365  ⭐ 1066
 [Repository](https://github.com/pnp/cli-microsoft365)
 
 - <a href="https://github.com/pnp/cli-microsoft365/issues/6940">Minimal permissions for &#x27;entra m365group conversation&#x27; commands</a>  <code>#6940</code> · updated: 2025-11-15 · created: 2025-10-01  
@@ -9844,6 +9866,18 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/pnp/cli-microsoft365/issues/6955">Minimal permissions for additional &#x27;entra user&#x27; commands</a>  <code>#6955</code> · updated: 2025-10-01 · created: 2025-10-01  
   labels: good first issue, docs, work in progress, hacktoberfest
 
+## clice-io/clice  ⭐ 1062
+[Repository](https://github.com/clice-io/clice)
+
+- <a href="https://github.com/clice-io/clice/issues/278">Track issue: Enable Symbolic Stack Traces for Release Builds</a>  <code>#278</code> · updated: 2025-10-12 · created: 2025-10-12  
+  labels: build, good first issue
+
+## MCDFsteve/NipaPlay-Reload  ⭐ 1059
+[Repository](https://github.com/MCDFsteve/NipaPlay-Reload)
+
+- <a href="https://github.com/MCDFsteve/NipaPlay-Reload/issues/213">显示多个弹幕源的搜索结果</a>  <code>#213</code> · updated: 2025-12-16 · created: 2025-12-14  
+  labels: enhancement, good first issue
+
 ## moturus/motor-os  ⭐ 1058
 [Repository](https://github.com/moturus/motor-os)
 
@@ -9884,19 +9918,13 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/PrunaAI/pruna/issues/370">[FEATURE] Add the FaceScore Metric</a>  <code>#370</code> · updated: 2025-10-02 · created: 2025-10-01  
   labels: enhancement, good first issue, hacktoberfest
 
-## clice-io/clice  ⭐ 1052
-[Repository](https://github.com/clice-io/clice)
-
-- <a href="https://github.com/clice-io/clice/issues/278">Track issue: Enable Symbolic Stack Traces for Release Builds</a>  <code>#278</code> · updated: 2025-10-12 · created: 2025-10-12  
-  labels: build, good first issue
-
-## nextcloud/notes-android  ⭐ 1049
+## nextcloud/notes-android  ⭐ 1050
 [Repository](https://github.com/nextcloud/notes-android)
 
 - <a href="https://github.com/nextcloud/notes-android/issues/2863">Switching accounts does not properly reapply theme color for section headlines</a>  <code>#2863</code> · updated: 2025-10-17 · created: 2025-10-04  
   labels: bug, design, good first issue, 0. Needs triage, papercut
 
-## bewcloud/bewcloud  ⭐ 1048
+## bewcloud/bewcloud  ⭐ 1049
 [Repository](https://github.com/bewcloud/bewcloud)
 
 - <a href="https://github.com/bewcloud/bewcloud/issues/112">[Feature Request] Add directory size</a>  <code>#112</code> · updated: 2025-12-04 · created: 2025-11-03  
@@ -9906,21 +9934,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/bewcloud/bewcloud/issues/102">[Feature Request] Allow sorting by column header</a>  <code>#102</code> · updated: 2025-10-11 · created: 2025-09-28  
   labels: enhancement, good first issue
 
-## openkruise/kruise-game  ⭐ 1044
-[Repository](https://github.com/openkruise/kruise-game)
-
-- <a href="https://github.com/openkruise/kruise-game/issues/291">E2E: ServiceQuality action updates opsState and metadata</a>  <code>#291</code> · updated: 2025-11-14 · created: 2025-11-09  
-  labels: good first issue
-- <a href="https://github.com/openkruise/kruise-game/issues/292">E2E: ServiceQuality-driven scale down prioritizes WaitToBeDeleted</a>  <code>#292</code> · updated: 2025-11-09 · created: 2025-11-09  
-  labels: good first issue
-
-## VirtusLab/git-machete  ⭐ 1043
-[Repository](https://github.com/VirtusLab/git-machete)
-
-- <a href="https://github.com/VirtusLab/git-machete/issues/1550">Don&#x27;t use &quot;first root&quot; in user-facing messages when the root is the only one</a>  <code>#1550</code> · updated: 2025-12-03 · created: 2025-12-03  
-  labels: good first issue, minor, usability
-
-## cooklang/cookcli  ⭐ 1043
+## cooklang/cookcli  ⭐ 1045
 [Repository](https://github.com/cooklang/cookcli)
 
 - <a href="https://github.com/cooklang/cookcli/issues/213">`cook seed` generates `README.md` with broken links</a>  <code>#213</code> · updated: 2025-12-03 · created: 2025-12-02  
@@ -9928,7 +9942,21 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/cooklang/cookcli/issues/211">Docs URL in `--help` output leads to 404</a>  <code>#211</code> · updated: 2025-12-03 · created: 2025-12-02  
   labels: bug, good first issue, help wanted
 
-## The-DevOps-Daily/devops-daily  ⭐ 1041
+## openkruise/kruise-game  ⭐ 1045
+[Repository](https://github.com/openkruise/kruise-game)
+
+- <a href="https://github.com/openkruise/kruise-game/issues/291">E2E: ServiceQuality action updates opsState and metadata</a>  <code>#291</code> · updated: 2025-11-14 · created: 2025-11-09  
+  labels: good first issue
+- <a href="https://github.com/openkruise/kruise-game/issues/292">E2E: ServiceQuality-driven scale down prioritizes WaitToBeDeleted</a>  <code>#292</code> · updated: 2025-11-09 · created: 2025-11-09  
+  labels: good first issue
+
+## VirtusLab/git-machete  ⭐ 1044
+[Repository](https://github.com/VirtusLab/git-machete)
+
+- <a href="https://github.com/VirtusLab/git-machete/issues/1550">Don&#x27;t use &quot;first root&quot; in user-facing messages when the root is the only one</a>  <code>#1550</code> · updated: 2025-12-03 · created: 2025-12-03  
+  labels: good first issue, minor, usability
+
+## The-DevOps-Daily/devops-daily  ⭐ 1042
 [Repository](https://github.com/The-DevOps-Daily/devops-daily)
 
 - <a href="https://github.com/The-DevOps-Daily/devops-daily/issues/468">Bug: Images get regenerated when running `pnpm built` in different environments</a>  <code>#468</code> · updated: 2025-12-03 · created: 2025-11-24  
@@ -9980,15 +10008,43 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/swift-server/async-http-client/issues/860">[Tracing] Add more span attributes</a>  <code>#860</code> · updated: 2025-12-07 · created: 2025-10-08  
   labels: good first issue
 
-## paulorievrs/java4noobs  ⭐ 1039
+## paulorievrs/java4noobs  ⭐ 1038
 [Repository](https://github.com/paulorievrs/java4noobs)
 
 - <a href="https://github.com/paulorievrs/java4noobs/issues/53">Adicionar guia de configuração do ambiente Java no macOS</a>  <code>#53</code> · updated: 2025-11-14 · created: 2025-11-13  
   labels: documentation, good first issue
 
-## Codecademy/docs  ⭐ 1032
+## Codecademy/docs  ⭐ 1033
 [Repository](https://github.com/Codecademy/docs)
 
+- <a href="https://github.com/Codecademy/docs/issues/8109">[Term Entry] Dart Map: .update()</a>  <code>#8109</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, new entry, dart
+- <a href="https://github.com/Codecademy/docs/issues/8110">[Term Entry] Dart Map: .updateAll()</a>  <code>#8110</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, new entry, dart
+- <a href="https://github.com/Codecademy/docs/issues/8111">[Term Entry] Dart Map: .removeWhere()</a>  <code>#8111</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, new entry, dart
+- <a href="https://github.com/Codecademy/docs/issues/8112">[Term Entry] Dart Map: .entries</a>  <code>#8112</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, new entry, dart
+- <a href="https://github.com/Codecademy/docs/issues/8113">[Term Entry] Dart Map: .isEmpty</a>  <code>#8113</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, new entry, dart
+- <a href="https://github.com/Codecademy/docs/issues/8114">[Term Entry] Dart Map: .isNotEmpty</a>  <code>#8114</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, new entry, dart
+- <a href="https://github.com/Codecademy/docs/issues/8115">[Term Entry] Dart Map: .map()</a>  <code>#8115</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, new entry, dart
+- <a href="https://github.com/Codecademy/docs/issues/8116">[Term Entry] Dart Map: .cast()</a>  <code>#8116</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, new entry, dart
+- <a href="https://github.com/Codecademy/docs/issues/8118">[Term Entry] PyTorch Tensor Operations: .sinc()</a>  <code>#8118</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, new entry, pytorch
+- <a href="https://github.com/Codecademy/docs/issues/8117">[Term Entry] PyTorch Tensor Operations: .sin()</a>  <code>#8117</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: good first issue, new entry, pytorch
+- <a href="https://github.com/Codecademy/docs/issues/8056">[Term Entry] C++ Unordered-sets	:emplace_hint()</a>  <code>#8056</code> · updated: 2025-12-18 · created: 2025-12-02  
+  labels: good first issue, c++, new entry
+- <a href="https://github.com/Codecademy/docs/issues/8050">[Term Entry] C++ Unordered-sets	:reserve()</a>  <code>#8050</code> · updated: 2025-12-18 · created: 2025-12-02  
+  labels: good first issue, c++, new entry, claimed
+- <a href="https://github.com/Codecademy/docs/issues/8053">[Term Entry] C++ Unordered-sets	:load_factor()</a>  <code>#8053</code> · updated: 2025-12-18 · created: 2025-12-02  
+  labels: good first issue, c++, new entry, claimed
+- <a href="https://github.com/Codecademy/docs/issues/8076">[Term Entry] C++ Unordered-sets: key_eq()</a>  <code>#8076</code> · updated: 2025-12-17 · created: 2025-12-08  
+  labels: good first issue, c++, new entry, claimed
 - <a href="https://github.com/Codecademy/docs/issues/8052">[Term Entry] C++ Unordered-sets	:bucket_count()</a>  <code>#8052</code> · updated: 2025-12-15 · created: 2025-12-02  
   labels: good first issue, c++, new entry
 - <a href="https://github.com/Codecademy/docs/issues/8084">[Term Entry] Dart Map: .addAll()</a>  <code>#8084</code> · updated: 2025-12-15 · created: 2025-12-08  
@@ -10039,19 +10095,11 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue, c++, new entry, claimed
 - <a href="https://github.com/Codecademy/docs/issues/8049">[Term Entry] C++ Unordered-sets	:hash_function()</a>  <code>#8049</code> · updated: 2025-12-15 · created: 2025-12-02  
   labels: good first issue, c++, new entry
-- <a href="https://github.com/Codecademy/docs/issues/8050">[Term Entry] C++ Unordered-sets	:reserve()</a>  <code>#8050</code> · updated: 2025-12-15 · created: 2025-12-02  
-  labels: good first issue, c++, new entry
 - <a href="https://github.com/Codecademy/docs/issues/8051">[Term Entry] C++ Unordered-sets	:bucket()</a>  <code>#8051</code> · updated: 2025-12-15 · created: 2025-12-02  
   labels: good first issue, c++, new entry, claimed
-- <a href="https://github.com/Codecademy/docs/issues/8053">[Term Entry] C++ Unordered-sets	:load_factor()</a>  <code>#8053</code> · updated: 2025-12-15 · created: 2025-12-02  
-  labels: good first issue, c++, new entry
 - <a href="https://github.com/Codecademy/docs/issues/8054">[Term Entry] C++ Unordered-sets	:rehash()</a>  <code>#8054</code> · updated: 2025-12-15 · created: 2025-12-02  
   labels: good first issue, c++, new entry, claimed
 - <a href="https://github.com/Codecademy/docs/issues/8055">[Term Entry] C++ Unordered-sets	:max_load_factor()</a>  <code>#8055</code> · updated: 2025-12-15 · created: 2025-12-02  
-  labels: good first issue, c++, new entry
-- <a href="https://github.com/Codecademy/docs/issues/8056">[Term Entry] C++ Unordered-sets	:emplace_hint()</a>  <code>#8056</code> · updated: 2025-12-15 · created: 2025-12-02  
-  labels: good first issue, c++, new entry
-- <a href="https://github.com/Codecademy/docs/issues/8076">[Term Entry] C++ Unordered-sets: key_eq()</a>  <code>#8076</code> · updated: 2025-12-15 · created: 2025-12-08  
   labels: good first issue, c++, new entry
 - <a href="https://github.com/Codecademy/docs/issues/8077">[Term Entry] C++ Unordered-sets: max_bucket_count()</a>  <code>#8077</code> · updated: 2025-12-15 · created: 2025-12-08  
   labels: good first issue, c++, new entry, claimed
@@ -10099,22 +10147,10 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: good first issue, python, new entry, hacktoberfest, claimed
 - <a href="https://github.com/Codecademy/docs/issues/7754">[Term Entry] Python deque : count()</a>  <code>#7754</code> · updated: 2025-11-10 · created: 2025-10-14  
   labels: good first issue, python, new entry, hacktoberfest, claimed
-- <a href="https://github.com/Codecademy/docs/issues/7628">[Term Entry] PyTorch Tensor Operations: .logaddexp()</a>  <code>#7628</code> · updated: 2025-11-05 · created: 2025-09-22  
-  labels: good first issue, new entry, claimed, pytorch
-- <a href="https://github.com/Codecademy/docs/issues/7691">[Term Entry] Python - Pandas groupBy: size()</a>  <code>#7691</code> · updated: 2025-11-05 · created: 2025-10-08  
-  labels: good first issue, python, new entry, hacktoberfest, pandas, claimed
 - <a href="https://github.com/Codecademy/docs/issues/7692">[Term Entry] Python - Pandas groupBy: first()</a>  <code>#7692</code> · updated: 2025-11-05 · created: 2025-10-08  
   labels: good first issue, python, new entry, hacktoberfest, pandas, claimed
-- <a href="https://github.com/Codecademy/docs/issues/7627">[Term Entry] PyTorch Tensor Operations: .log2()</a>  <code>#7627</code> · updated: 2025-11-04 · created: 2025-09-22  
-  labels: good first issue, new entry, claimed, pytorch
 
-## openSUSE/open-build-service  ⭐ 1030
-[Repository](https://github.com/openSUSE/open-build-service)
-
-- <a href="https://github.com/openSUSE/open-build-service/issues/18966">&#x27;excluded&#x27; build result too shiny in dark mode</a>  <code>#18966</code> · updated: 2025-12-15 · created: 2025-12-10  
-  labels: Frontend, good first issue, Design, darkmode
-
-## syself/cluster-api-provider-hetzner  ⭐ 1025
+## syself/cluster-api-provider-hetzner  ⭐ 1028
 [Repository](https://github.com/syself/cluster-api-provider-hetzner)
 
 - <a href="https://github.com/syself/cluster-api-provider-hetzner/issues/1708">hbmh without ServerID can be created</a>  <code>#1708</code> · updated: 2025-11-05 · created: 2025-11-05  
@@ -10122,13 +10158,7 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/syself/cluster-api-provider-hetzner/issues/1682">PortAfterCloudInit was removed. Remove corresponding code in tests, too.</a>  <code>#1682</code> · updated: 2025-09-23 · created: 2025-09-23  
   labels: good first issue
 
-## IliasHad/edit-mind  ⭐ 1023
-[Repository](https://github.com/IliasHad/edit-mind)
-
-- <a href="https://github.com/IliasHad/edit-mind/issues/3">[Bug] App freezes on Windows + NVIDIA during frame analysis (multi-threading issue)</a>  <code>#3</code> · updated: 2025-11-10 · created: 2025-11-10  
-  labels: bug, good first issue
-
-## JakeStanger/ironbar  ⭐ 1018
+## JakeStanger/ironbar  ⭐ 1024
 [Repository](https://github.com/JakeStanger/ironbar)
 
 - <a href="https://github.com/JakeStanger/ironbar/issues/1272">Request, opt-out from the battery icon</a>  <code>#1272</code> · updated: 2025-12-09 · created: 2025-12-06  
@@ -10136,25 +10166,25 @@ _Generated at: 2025-12-16T04:35:06Z_
 - <a href="https://github.com/JakeStanger/ironbar/issues/1243">FR: Autohide additional triggers</a>  <code>#1243</code> · updated: 2025-11-20 · created: 2025-11-20  
   labels: good first issue, A:UX/UI, T:Core Enhancement
 
-## Kotlin/dataframe  ⭐ 1016
+## Kotlin/dataframe  ⭐ 1018
 [Repository](https://github.com/Kotlin/dataframe)
 
 - <a href="https://github.com/Kotlin/dataframe/issues/1523">Add column selector for `GroupBy.sortByKey`</a>  <code>#1523</code> · updated: 2025-12-05 · created: 2025-10-29  
   labels: enhancement, good first issue
 
-## sumn2u/learn-javascript  ⭐ 1010
+## sumn2u/learn-javascript  ⭐ 1011
 [Repository](https://github.com/sumn2u/learn-javascript)
 
 - <a href="https://github.com/sumn2u/learn-javascript/issues/321">Create an Example Solution for an Interactive Calendar</a>  <code>#321</code> · updated: 2025-10-12 · created: 2025-10-04  
   labels: good first issue, hacktoberfest
 
-## ardalis/Result  ⭐ 1003
-[Repository](https://github.com/ardalis/Result)
+## skydoves/Cloudy  ⭐ 1007
+[Repository](https://github.com/skydoves/Cloudy)
 
-- <a href="https://github.com/ardalis/Result/issues/242">Feature Request: Extensions for Shouldly Assertion Library</a>  <code>#242</code> · updated: 2025-09-22 · created: 2025-09-22  
-  labels: enhancement, help wanted, good first issue, hacktoberfest
+- <a href="https://github.com/skydoves/Cloudy/issues/92">Use Material You theme in sample application</a>  <code>#92</code> · updated: 2025-12-11 · created: 2025-12-11  
+  labels: good first issue
 
-## Taiizor/Sucrose  ⭐ 1002
+## Taiizor/Sucrose  ⭐ 1006
 [Repository](https://github.com/Taiizor/Sucrose)
 
 - <a href="https://github.com/Taiizor/Sucrose/issues/159">je n&#x27;arrive pas a mettre mon fond d&#x27;écran sur les deux écrans</a>  <code>#159</code> · updated: 2025-11-22 · created: 2025-11-22  
@@ -10165,5 +10195,33 @@ _Generated at: 2025-12-16T04:35:06Z_
   labels: bug, good first issue
 - <a href="https://github.com/Taiizor/Sucrose/issues/153">Wallpaper Adjustments and Crop</a>  <code>#153</code> · updated: 2025-10-19 · created: 2025-10-19  
   labels: enhancement, good first issue
-- <a href="https://github.com/Taiizor/Sucrose/issues/137">It gives an error when running the program And the wallpaper doesn&#x27;t work.</a>  <code>#137</code> · updated: 2025-10-05 · created: 2025-09-17  
-  labels: bug, good first issue
+
+## copper-project/copper-rs  ⭐ 1005
+[Repository](https://github.com/copper-project/copper-rs)
+
+- <a href="https://github.com/copper-project/copper-rs/issues/545">Re-add windows CI/CD</a>  <code>#545</code> · updated: 2025-12-03 · created: 2025-12-03  
+  labels: bug, help wanted, good first issue
+
+## ardalis/Result  ⭐ 1004
+[Repository](https://github.com/ardalis/Result)
+
+- <a href="https://github.com/ardalis/Result/issues/242">Feature Request: Extensions for Shouldly Assertion Library</a>  <code>#242</code> · updated: 2025-09-22 · created: 2025-09-22  
+  labels: enhancement, help wanted, good first issue, hacktoberfest
+
+## deviceinsight/kafkactl  ⭐ 1000
+[Repository](https://github.com/deviceinsight/kafkactl)
+
+- <a href="https://github.com/deviceinsight/kafkactl/issues/308">accidentially writing &quot;null&quot; instead of null-value to topic</a>  <code>#308</code> · updated: 2025-12-18 · created: 2025-12-18  
+  labels: enhancement, good first issue
+- <a href="https://github.com/deviceinsight/kafkactl/issues/298">Remove ACL by Resource Name</a>  <code>#298</code> · updated: 2025-10-07 · created: 2025-10-06  
+  labels: enhancement, help wanted, good first issue
+
+## pymc-labs/pymc-marketing  ⭐ 1000
+[Repository](https://github.com/pymc-labs/pymc-marketing)
+
+- <a href="https://github.com/pymc-labs/pymc-marketing/issues/2032">Use `pymc.testing` for injected code in notebook runner</a>  <code>#2032</code> · updated: 2025-11-18 · created: 2025-10-21  
+  labels: good first issue, maintenance, no releasenotes, research_needed, research_complete, research-done
+- <a href="https://github.com/pymc-labs/pymc-marketing/issues/2018">Return floats instead of integers in `clv.distributions.ShiftedBetaGeometricRV.rng_fn`</a>  <code>#2018</code> · updated: 2025-11-05 · created: 2025-10-20  
+  labels: good first issue, invalid, CLV, maintenance, research-done
+- <a href="https://github.com/pymc-labs/pymc-marketing/issues/2042">X-axis labels missing in Shifted BetaGeo notebook</a>  <code>#2042</code> · updated: 2025-10-27 · created: 2025-10-27  
+  labels: docs, good first issue, CLV
