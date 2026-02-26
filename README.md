@@ -167,6 +167,27 @@ python3 github_good_first_issue_finder.py \
 - `--json` (flag): Output JSON format and automatically generate standalone HTML (`_site/index.html`). When used, `--out` should specify the JSON file path.
 - `GITHUB_TOKEN` (env): Required GitHub token. A Personal access token (classic) is recommended for broad public search.
 
+## Contributing
+
+Contributions are welcome! 🎉  
+If you are new to open source, this project is a great place to start.
+
+### Steps to contribute
+1. Fork this repository
+2. Create a new branch (`git checkout -b my-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m "Describe your change"`)
+5. Push to your fork (`git push origin my-feature`)
+6. Open a Pull Request
+
+### What you can contribute
+- Improve documentation (README, comments, examples)
+- Fix typos or formatting issues
+- Improve scripts or add helpful comments
+- UI improvements in the frontend (for experienced contributors)
+
+Please keep PRs small and focused.
+
 ## Troubleshooting
 
 - No or too few results
