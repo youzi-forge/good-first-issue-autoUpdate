@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from "react";
 import { RepoCard } from "./components/RepoCard";
 import { FilterBar } from "./components/FilterBar";
-import { Github, Loader2, ChevronLeft, ChevronRight } from "lucide-react";
+import { Github, Loader2, ChevronLeft, ChevronRight, Moon, Sun } from "lucide-react";
 
 interface Issue {
     title: string;
@@ -50,7 +50,22 @@ interface Data {
     issues: RawIssue[];
 }
 
+type Theme = "light" | "dark";
 
+const THEME_STORAGE_KEY = "gfi-theme";
+
+function getInitialTheme(): Theme {
+    if (typeof window === "undefined") {
+        return "light";
+    }
+
+    const savedTheme = window.localStorage.getItem(THEME_STORAGE_KEY);
+    if (savedTheme === "light" || savedTheme === "dark") {
+        return savedTheme;
+    }
+
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
 
 function App() {
     const [data, setData] = useState<Data | null>(null);
@@ -60,6 +75,14 @@ function App() {
     const [minStars, setMinStars] = useState(0);
     const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage, setItemsPerPage] = useState(10);
+    const [theme, setTheme] = useState<Theme>(getInitialTheme);
+
+    useEffect(() => {
+        const root = document.documentElement;
+        root.classList.toggle("dark", theme === "dark");
+        root.style.colorScheme = theme;
+        window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+    }, [theme]);
 
     useEffect(() => {
         fetch("data.json")
@@ -186,6 +209,16 @@ function App() {
                         </p>
                     </div>
                     <div className="flex items-center gap-4">
+                        <button
+                            type="button"
+                            onClick={() => setTheme((currentTheme) => currentTheme === "dark" ? "light" : "dark")}
+                            aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+                            title={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+                            className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                            {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+                            {theme === "dark" ? "Light mode" : "Dark mode"}
+                        </button>
                         <a
                             href="https://github.com/youzi-forge/good-first-issue-autoUpdate"
                             target="_blank"
