@@ -1,5 +1,4 @@
-import { Star, GitPullRequest, Calendar, ExternalLink } from "lucide-react";
-import { cn } from "../lib/utils";
+import { Star, Calendar, ExternalLink } from "lucide-react";
 
 interface Issue {
     repo: string;

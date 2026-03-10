@@ -97,11 +97,6 @@ function App() {
             });
     }, []);
 
-    // Reset page when filters change
-    useEffect(() => {
-        setCurrentPage(1);
-    }, [search, selectedLanguage, minStars, itemsPerPage]);
-
     const languages = useMemo(() => {
         if (!data) return [];
         const langs = new Set<string>();
@@ -166,10 +161,31 @@ function App() {
         return Array.from(repoMap.values()).sort((a, b) => b.stars - a.stars);
     }, [data, search, selectedLanguage, minStars]);
 
-    const totalPages = Math.ceil(groupedRepos.length / itemsPerPage);
+    const setSearchWithPageReset = (value: string) => {
+        setSearch(value);
+        setCurrentPage(1);
+    };
+
+    const setSelectedLanguageWithPageReset = (value: string | null) => {
+        setSelectedLanguage(value);
+        setCurrentPage(1);
+    };
+
+    const setMinStarsWithPageReset = (value: number) => {
+        setMinStars(value);
+        setCurrentPage(1);
+    };
+
+    const setItemsPerPageWithPageReset = (value: number) => {
+        setItemsPerPage(value);
+        setCurrentPage(1);
+    };
+
+    const totalPages = Math.max(1, Math.ceil(groupedRepos.length / itemsPerPage));
+    const visiblePage = Math.min(currentPage, totalPages);
     const currentRepos = groupedRepos.slice(
-        (currentPage - 1) * itemsPerPage,
-        currentPage * itemsPerPage
+        (visiblePage - 1) * itemsPerPage,
+        visiblePage * itemsPerPage
     );
 
     if (loading) {
@@ -233,14 +249,14 @@ function App() {
 
                 <FilterBar
                     search={search}
-                    setSearch={setSearch}
+                    setSearch={setSearchWithPageReset}
                     selectedLanguage={selectedLanguage}
-                    setSelectedLanguage={setSelectedLanguage}
+                    setSelectedLanguage={setSelectedLanguageWithPageReset}
                     languages={languages}
                     minStars={minStars}
-                    setMinStars={setMinStars}
+                    setMinStars={setMinStarsWithPageReset}
                     itemsPerPage={itemsPerPage}
-                    setItemsPerPage={setItemsPerPage}
+                    setItemsPerPage={setItemsPerPageWithPageReset}
                 />
 
                 <div className="space-y-6">
@@ -258,19 +274,19 @@ function App() {
                 {totalPages > 1 && (
                     <div className="mt-10 flex items-center justify-center gap-4">
                         <button
-                            onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-                            disabled={currentPage === 1}
+                            onClick={() => setCurrentPage((page) => Math.max(1, Math.min(page, totalPages) - 1))}
+                            disabled={visiblePage === 1}
                             className="flex items-center gap-1 rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent/10 hover:border-accent transition-colors"
                         >
                             <ChevronLeft className="h-4 w-4" />
                             Previous
                         </button>
                         <span className="text-sm text-muted-foreground">
-                            Page {currentPage} of {totalPages}
+                            Page {visiblePage} of {totalPages}
                         </span>
                         <button
-                            onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-                            disabled={currentPage === totalPages}
+                            onClick={() => setCurrentPage((page) => Math.min(totalPages, Math.min(page, totalPages) + 1))}
+                            disabled={visiblePage === totalPages}
                             className="flex items-center gap-1 rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent/10 hover:border-accent transition-colors"
                         >
                             Next
