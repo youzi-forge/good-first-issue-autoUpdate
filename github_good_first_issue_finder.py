@@ -193,7 +193,7 @@ def build_query_for_window(start_date: dt.date, end_date: dt.date, state: str, l
 
 def daterange_chunks(days_back: int, chunk_days: int):
     today = dt.date.today()
-    start = today - dt.timedelta(days=days_back)
+    start = today - dt.timedelta(days=days_back - 1)
     # build [start..start+chunk-1], [next..], ... until today
     current = start
     while current <= today:
