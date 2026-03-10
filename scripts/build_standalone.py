@@ -150,7 +150,10 @@ def main():
     # Read the original HTML
     index_html = args.dist / "index.html"
     if not index_html.exists():
-        print(f"Error: {index_html} not found. Run 'npm run build' first.")
+        print(
+            f"Error: {index_html} not found. Build the frontend first with "
+            "'cd frontend && npm ci && npm run build'."
+        )
         return 1
     
     html_content = index_html.read_text(encoding="utf-8")

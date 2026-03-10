@@ -422,6 +422,12 @@ def main():
     )
     ap.add_argument("--out", type=str, default="good_first_issues.md", help="Output file path.")
     ap.add_argument("--json", action="store_true", help="Output JSON instead of Markdown.")
+    ap.add_argument(
+        "--no-standalone",
+        dest="standalone",
+        action="store_false",
+        help="When used with --json, skip standalone HTML generation.",
+    )
     
     args = ap.parse_args()
 
@@ -485,26 +491,43 @@ def main():
             f.write(json_content)
         print(f"[info] Wrote JSON to {args.out}", file=sys.stderr)
         
-        # Auto-generate standalone HTML for local viewing
-        try:
-            import subprocess
-            from pathlib import Path # Added import for Path
-            script_dir = Path(__file__).parent
-            build_script = script_dir / "scripts" / "build_standalone.py"
-            
-            if build_script.exists():
-                print("[info] Generating standalone HTML for local viewing...", file=sys.stderr)
-                result = subprocess.run(
-                    ["python3", str(build_script), "--data", args.out],
-                    capture_output=True,
-                    text=True
-                )
-                if result.returncode == 0:
-                    print(f"[info] {result.stdout.strip()}", file=sys.stderr)
+        # Auto-generate standalone HTML for local viewing when the frontend is built.
+        if getattr(args, "standalone", True):
+            try:
+                import subprocess
+                from pathlib import Path
+
+                script_dir = Path(__file__).parent
+                build_script = script_dir / "scripts" / "build_standalone.py"
+                dist_index = script_dir / "frontend" / "dist" / "index.html"
+
+                if not build_script.exists():
+                    print(
+                        "[warn] Skipping standalone HTML generation: scripts/build_standalone.py was not found.",
+                        file=sys.stderr,
+                    )
+                elif not dist_index.exists():
+                    print(
+                        "[warn] Skipping standalone HTML generation: frontend/dist/index.html was not found. "
+                        "Build the frontend first with 'cd frontend && npm ci && npm run build'.",
+                        file=sys.stderr,
+                    )
                 else:
-                    print(f"[warn] Failed to generate standalone HTML: {result.stderr}", file=sys.stderr)
-        except Exception as e:
-            print(f"[warn] Could not generate standalone HTML: {e}", file=sys.stderr)
+                    print("[info] Generating standalone HTML for local viewing...", file=sys.stderr)
+                    result = subprocess.run(
+                        [sys.executable, str(build_script), "--data", args.out],
+                        capture_output=True,
+                        text=True,
+                    )
+                    if result.returncode == 0:
+                        stdout = result.stdout.strip()
+                        if stdout:
+                            print(f"[info] {stdout}", file=sys.stderr)
+                    else:
+                        stderr = result.stderr.strip() or "Unknown error"
+                        print(f"[warn] Failed to generate standalone HTML: {stderr}", file=sys.stderr)
+            except Exception as e:
+                print(f"[warn] Could not generate standalone HTML: {e}", file=sys.stderr)
     else:
         # Render Markdown
         md_content = render_markdown(grouped, repo_star, title) # Assuming render_markdown signature remains (grouped, repo_star, title)

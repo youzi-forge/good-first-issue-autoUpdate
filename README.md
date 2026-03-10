@@ -40,7 +40,15 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 ## Quick Start (Local)
 
 ### Option 1: Interactive React UI (Recommended)
-Run the crawler with `--json` flag to automatically generate a standalone HTML file:
+Run the crawler with `--json` to generate structured data, and refresh the standalone HTML after a frontend build.
+
+**One-time frontend setup for standalone HTML output:**
+```bash
+cd frontend
+npm ci
+npm run build
+cd ..
+```
 
 **Linux/macOS:**
 ```bash
@@ -51,7 +59,7 @@ python3 github_good_first_issue_finder.py --days 90 --min-stars 300 --json --out
 
 **What gets generated:**
 - `my_data.json` - Structured data (intermediate file, used to generate HTML)
-- `_site/index.html` - **Standalone HTML** with embedded React UI and data
+- `_site/index.html` - **Standalone HTML** with embedded React UI and data, if `frontend/dist` is available
 
 **To view:**
 ```bash
@@ -74,6 +82,7 @@ start _site/index.html
   - Works offline, no dependencies needed
   - Can be shared as a single file
 - **`my_data.json`**: Intermediate data file used to generate the HTML. You can delete it after the HTML is created, or keep it for future reference.
+- If you only want the JSON output, add `--no-standalone`.
 
 ### Option 2: Markdown Output (Simple)
 For quick text-based viewing:
@@ -86,6 +95,12 @@ python3 github_good_first_issue_finder.py --days 90 --min-stars 300 --out good_f
 If you just want to preview the UI or work on frontend development without running the crawler:
 
 ```bash
+# Build the frontend, then inject the sample data
+cd frontend
+npm ci
+npm run build
+cd ..
+
 # Use the existing sample data in the repo
 python3 scripts/build_standalone.py --data frontend/public/data.json
 
@@ -164,7 +179,8 @@ python3 github_good_first_issue_finder.py \
 - `--cap-per-query` (int, default `950`): Target maximum matches per label per window before splitting.
 - `--org` (string, optional): Scope search to a single organization (e.g., `stdlib-js`).
 - `--out` (path, default `good_first_issues.md`): Output file path. Extension determines format (`.md` for Markdown, `.json` for JSON).
-- `--json` (flag): Output JSON format and automatically generate standalone HTML (`_site/index.html`). When used, `--out` should specify the JSON file path.
+- `--json` (flag): Output JSON format. When used, `--out` should specify the JSON file path.
+- `--no-standalone` (flag): When combined with `--json`, skip standalone HTML generation.
 - `GITHUB_TOKEN` (env): Required GitHub token. A Personal access token (classic) is recommended for broad public search.
 
 ## Contributing
