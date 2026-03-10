@@ -170,24 +170,27 @@ python3 github_good_first_issue_finder.py \
 ## Contributing
 
 Contributions are welcome! 🎉  
-If you are new to open source, this project is a great place to start.
+If you are new to open source, documentation improvements and small UI polish are both good places to start.
 
 ### Steps to contribute
 1. Fork this repository
 2. Create a new branch (`git checkout -b my-feature`)
 3. Make your changes
-4. Commit your changes (`git commit -m "Describe your change"`)
-5. Push to your fork (`git push origin my-feature`)
-6. Open a Pull Request
+4. Run the relevant local preview flow from the Quick Start section
+5. Commit your changes (`git commit -m "Describe your change"`)
+6. Push to your fork (`git push origin my-feature`)
+7. Open a Pull Request
 
 ### What you can contribute
 - Improve documentation (README, comments, examples)
 - Fix typos or formatting issues
-- Improve scripts or add helpful comments
-- UI improvements in the frontend (for experienced contributors)
+- Improve crawler or build scripts
+- UI improvements in `frontend/`
 
-Please keep PRs small and focused.
-
+### Before you open a PR
+- If your change only affects the UI, you can preview it with the sample data in `frontend/public/data.json`.
+- Never commit tokens or other secrets.
+- Keep PRs small, focused, and clear about the user-facing impact.
 
 ## Troubleshooting
 
