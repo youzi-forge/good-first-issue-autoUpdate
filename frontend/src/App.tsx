@@ -216,7 +216,7 @@ function App() {
                             Discover beginner-friendly issues in popular open-source projects.
                             <br />
                             <span className="text-sm opacity-80">
-                                Showing issues from repositories with &gt;1000 stars, updated in the last 90 days.
+                                Showing issues from repositories with at least 1000 stars, updated in the last 90 days.
                                 <br />
                                 Repositories sorted by stars. Issues within each repo sorted by last update (newest first).
                             </span>

@@ -204,6 +204,8 @@ If you are new to open source, documentation improvements and small UI polish ar
 - UI improvements in `frontend/`
 
 ### Before you open a PR
+- If you want to work on an issue, leave a short comment so others know it is in progress.
+- If there is no visible progress update for about 2 weeks, maintainers may reopen the issue for others.
 - If your change only affects the UI, you can preview it with the sample data in `frontend/public/data.json`.
 - Never commit tokens or other secrets.
 - Keep PRs small, focused, and clear about the user-facing impact.
