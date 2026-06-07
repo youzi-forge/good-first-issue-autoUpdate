@@ -174,7 +174,7 @@ python3 github_good_first_issue_finder.py \
 - `--min-stars` (int, default `300`): Minimum repository stars to include.
 - `--max-stars` (int, optional): Maximum repository stars; must be `>= --min-stars` if provided.
 - `--state` (`open`|`all`, default `open`): Whether to include closed issues.
-- `--chunk-days` (int, default `5`): Initial days per search window; autosplitting may refine windows near high‑volume periods.
+- `--chunk-days` (int, default `5`): Initial days per search window; autosplitting may refine windows near high-volume periods.
 - `--no-auto-chunk` (flag): Disable autosplitting.
 - `--cap-per-query` (int, default `950`): Target maximum matches per label per window before splitting.
 - `--org` (string, optional): Scope search to a single organization (e.g., `stdlib-js`).
@@ -213,7 +213,7 @@ If you are new to open source, documentation improvements and small UI polish ar
 ## Troubleshooting
 
 - No or too few results
-  - Verify `GITHUB_TOKEN` is set and is a classic PAT. Fine‑grained tokens can restrict search scope.
+  - Verify `GITHUB_TOKEN` is set and is a classic PAT. Fine-grained tokens can restrict search scope.
   - Reduce `--chunk-days` (e.g., `5` → `2` or `1`) to lower per-query volume.
   - Try `--date-field updated` if you care about recent activity rather than creation date.
   - Use `--org ORGNAME` to limit scope and avoid hitting API caps.
