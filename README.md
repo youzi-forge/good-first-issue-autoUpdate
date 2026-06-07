@@ -1,4 +1,4 @@
-# Good First Issues — Auto-Updated
+# Good First Issues - Auto-Updated
 
 [![Update List](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/update-good-first-issues.yml/badge.svg)](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/update-good-first-issues.yml)
 [![Deploy Pages](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/deploy-pages.yml)
