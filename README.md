@@ -1,5 +1,6 @@
 # Good First Issues — Auto-Updated
 
+[![CI](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/ci.yml/badge.svg)](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/ci.yml)
 [![Update List](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/update-good-first-issues.yml/badge.svg)](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/update-good-first-issues.yml)
 [![Deploy Pages](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/deploy-pages.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -22,7 +23,7 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 
 ## Project Info
 - Live site: https://youzi-forge.github.io/good-first-issue-autoUpdate/ · Last updated: <!--LAST_UPDATED-->2026-09-16 10:03 UTC<!--/LAST_UPDATED-->
-- Workflows: [Update list](.github/workflows/update-good-first-issues.yml), [Deploy Pages](.github/workflows/deploy-pages.yml)
+- Workflows: [CI](.github/workflows/ci.yml), [Update list](.github/workflows/update-good-first-issues.yml), [Deploy Pages](.github/workflows/deploy-pages.yml)
 - License: [MIT](LICENSE)
 - Releases: https://github.com/youzi-forge/good-first-issue-autoUpdate/releases
 
@@ -38,6 +39,14 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 - For local use, generates a standalone HTML file with embedded data (no dependencies required).
 
 ## Quick Start (Local)
+
+### Prerequisites
+
+Before running the project locally, ensure you have the following installed and set up:
+
+- **Python 3.8+** (with `pip`)
+- **Node.js 18+** & **npm** (required for building the frontend React UI and standalone HTML)
+- **GitHub Personal Access Token (`GITHUB_TOKEN`)**: Required when running the crawler script to query the GitHub GraphQL API. A classic Personal Access Token with default read permissions for public repositories is recommended. *(Note: Not required if you only want to preview the UI using sample data as shown in Option 3).*
 
 ### Option 1: Interactive React UI (Recommended)
 Run the crawler with `--json` to generate structured data, and refresh the standalone HTML after a frontend build.
