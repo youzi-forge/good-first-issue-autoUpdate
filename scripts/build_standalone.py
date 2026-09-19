@@ -9,6 +9,10 @@ import re
 from pathlib import Path
 
 
+def json_for_script(data) -> str:
+    return json.dumps(data).replace("</", "<\\/")
+
+
 def inline_assets(html_content: str, dist_dir: Path, base_path: str = "/") -> str:
     """
     Replace external CSS and JS references with inline content.
@@ -64,7 +68,7 @@ def inject_data(html_content: str, data_json_path: Path) -> str:
             data = json.load(f)
     
     # Inject data before the main script
-    data_script = f'<script>window.__DATA__={json.dumps(data)};</script>'
+    data_script = f'<script>window.__DATA__={json_for_script(data)};</script>'
     
     # Insert before closing </body>
     html_content = html_content.replace('</body>', f'{data_script}\n</body>')
