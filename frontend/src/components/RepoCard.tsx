@@ -1,4 +1,4 @@
-import { Star, ExternalLink, Calendar, GitPullRequest } from "lucide-react";
+import { Star, Calendar } from "lucide-react";
 
 interface Issue {
     title: string;
