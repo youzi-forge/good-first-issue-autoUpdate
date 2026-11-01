@@ -1,12 +1,12 @@
-# Good First Issues — Auto-Updated
+# Good First Issues - Auto-Updated
 
 [![Update List](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/update-good-first-issues.yml/badge.svg)](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/update-good-first-issues.yml)
 [![Deploy Pages](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/youzi-forge/good-first-issue-autoUpdate/actions/workflows/deploy-pages.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Find recently opened, beginner‑friendly issues in popular GitHub repositories.
+Find recently opened, beginner-friendly issues in popular GitHub repositories.
 
-This repo publishes a regularly auto‑updated list of issues labeled like `good first issue` (including `good-first-issue` and `first-timers-only`). CI builds the full list and serves it on GitHub Pages. Locally you can customize filters via script arguments.
+This repo publishes a regularly auto-updated list of issues labeled like `good first issue` (including `good-first-issue` and `first-timers-only`). CI builds the full list and serves it on GitHub Pages. Locally, you can customize filters via script arguments.
 
 - View the live list (updates every 3 days):
   https://youzi-forge.github.io/good-first-issue-autoUpdate/
@@ -29,10 +29,10 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 ---
 
 ## How It Works
-- Fetches issues via GitHub GraphQL Search within rolling time windows to avoid the 1000‑result cap (default window: 5 days per request, with automatic splitting near high‑volume periods).
+- Fetches issues via GitHub GraphQL Search within rolling time windows to avoid the 1000-result cap (default window: 5 days per request, with automatic splitting near high-volume periods).
 - Filters by time window: uses creation date (`created:`) by default; switch to `--date-field updated` if needed.
-- Groups issues by repository and sorts: repositories by stars (desc), issues within each repo by last updated time (desc).
-- Supports scoping to one organization via `--org ORGNAME`.
+- Groups issues by repository and sorts: repositories by stars (desc, then name asc); issues within each repo by last updated time (desc).
+- Supports limiting results to a single organization via `--org ORGNAME`.
 - Filters by stars via `--min-stars/--max-stars` (CI uses ≥1000★ by default).
 - Publishes a modern React-based web app to GitHub Pages with interactive search, filters, and pagination.
 - For local use, generates a standalone HTML file with embedded data (no dependencies required).
@@ -42,7 +42,7 @@ This repo publishes a regularly auto‑updated list of issues labeled like `good
 ### Option 1: Interactive React UI (Recommended)
 Run the crawler with `--json` to generate structured data, and refresh the standalone HTML after a frontend build.
 
-**One-time frontend setup for standalone HTML output:**
+**One-time frontend setup for generating standalone HTML output:**
 ```bash
 cd frontend
 npm ci
@@ -174,14 +174,14 @@ python3 github_good_first_issue_finder.py \
 - `--min-stars` (int, default `300`): Minimum repository stars to include.
 - `--max-stars` (int, optional): Maximum repository stars; must be `>= --min-stars` if provided.
 - `--state` (`open`|`all`, default `open`): Whether to include closed issues.
-- `--chunk-days` (int, default `5`): Initial days per search window; autosplitting may refine windows near high‑volume periods.
+- `--chunk-days` (int, default `5`): Initial days per search window; autosplitting may refine windows near high-volume periods.
 - `--no-auto-chunk` (flag): Disable autosplitting.
 - `--cap-per-query` (int, default `950`): Target maximum matches per label per window before splitting.
 - `--org` (string, optional): Scope search to a single organization (e.g., `stdlib-js`).
 - `--out` (path, default `good_first_issues.md`): Output file path. Extension determines format (`.md` for Markdown, `.json` for JSON).
 - `--json` (flag): Output JSON format. When used, `--out` should specify the JSON file path.
 - `--no-standalone` (flag): When combined with `--json`, skip standalone HTML generation.
-- `GITHUB_TOKEN` (env): Required GitHub token. A Personal access token (classic) is recommended for broad public search.
+- `GITHUB_TOKEN` (env): Required GitHub token. A personal access token (classic) is recommended for broad public search.
 
 ## Contributing
 
@@ -213,13 +213,14 @@ If you are new to open source, documentation improvements and small UI polish ar
 ## Troubleshooting
 
 - No or too few results
-  - Verify `GITHUB_TOKEN` is set and is a classic PAT. Fine‑grained tokens can restrict search scope.
+  - Verify `GITHUB_TOKEN` is set and is a classic PAT. Fine-grained tokens can restrict search scope.
   - Reduce `--chunk-days` (e.g., `5` → `2` or `1`) to lower per-query volume.
   - Try `--date-field updated` if you care about recent activity rather than creation date.
   - Use `--org ORGNAME` to limit scope and avoid hitting API caps.
 - Output too large
-  - Increase `--min-stars`, set `--max-stars`, reduce `--days`, or scope with `--org`.
+  - Increase `--min-stars`, set `--max-stars`, reduce `--days`, or scope results with `--org`.
 - Logs show `issueCount` near 1000 but `scanned` ~1000
   - GitHub caps each search at ~1000 accessible results. Shrink `--chunk-days` and/or add `--org`.
 - Rate limiting
   - The script backs off automatically. If it pauses, let it continue or rerun later.
+
